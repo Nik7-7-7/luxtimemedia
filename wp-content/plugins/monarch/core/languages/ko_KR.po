@@ -1,0 +1,1294 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.elegantthemes.com/members-area/help/\n"
+"POT-Creation-Date: 2019-10-22 13:02:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elegant Themes\n"
+"Language-Team: Elegant Themes\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__"
+";esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: components/Portability.php:1874
+msgid ""
+"The browser version you are currently using is outdated. Please update to the "
+"newest version."
+msgstr "지금 사용하시는 브라우저의 버전이 너무 낮습니다. 최신 버전으로 업데이트 하세요."
+
+#: components/Portability.php:1875
+msgid "You reached your server memory limit. Please try increasing your PHP memory limit."
+msgstr "서버 메모리 용량이 거의 찼습니다. PHP 메모리 용량을 늘려주세요."
+
+#: components/Portability.php:1876
+msgid ""
+"This file cannot be imported. It may be caused by file_uploads being disabled in "
+"your php.ini. It may also be caused by post_max_size or/and upload_max_filesize "
+"being smaller than file selected. Please increase it or transfer more substantial "
+"data at the time."
+msgstr ""
+"이 파일은 읽을 수 없습니다. 당신의 php.ini에서 file_uploads가 실패했거나, post_max_size 혹은 또는 그리고 "
+"upload_max_filesize가 선택한 파일의 크기보다 작기 때문일 수 있습니다. 용량을 늘리거나, 중요한 데이타만 올려주세요."
+
+#: components/Portability.php:1877
+msgid "Invalid File format. You should be uploading a JSON file."
+msgstr "유효하지 않은 파일 형식. JSON 파일을 올리셔야 합니다."
+
+#: components/Portability.php:1878
+msgid "This file should not be imported in this context."
+msgstr "이 상황에서는 이 파일을 올리시면 안됩니다."
+
+#: components/Portability.php:1879
+msgid ""
+"Please select at least one item to export or disable the \"Only export selected "
+"items\" option"
+msgstr "'선택한 항목 만 내보내기'옵션을 내보내거나 사용 중지하려면 하나 이상의 항목을 선택하십시오."
+
+#: components/Portability.php:1880
+msgid "Import estimated time remaining: %smin"
+msgstr "불러오기 남은 예상 시간: %s분"
+
+#: components/Portability.php:1881
+msgid "Export estimated time remaining: %smin"
+msgstr "내보내기 남은 예상 시간: %s분"
+
+#: components/Portability.php:1882
+msgid "Backup estimated time remaining: %smin"
+msgstr "백업 남은 예상 시간: %s분"
+
+#: components/Portability.php:1905
+msgid "Portability"
+msgstr "이동성"
+
+#: components/Portability.php:1909
+msgid "Export"
+msgstr "내보내기"
+
+#: components/Portability.php:1910
+msgid "Import"
+msgstr "불러오기"
+
+#: components/Portability.php:1914
+msgid ""
+"Exporting your %s will create a JSON file that can be imported into a different "
+"website."
+msgstr "당신의 %s 를 내보내기 하시면 다른 웹사이트에서 불러올 수 있는 JSON 파일을 생성합니다."
+
+#: components/Portability.php:1915
+msgid "Export File Name"
+msgstr "내보내기 파일 이름"
+
+#: components/Portability.php:1920
+msgid "Only export selected items"
+msgstr "선택한 항목만 내보내기"
+
+#: components/Portability.php:1924
+msgid "Export %s"
+msgstr "%s 를 내보내기"
+
+#: components/Portability.php:1925
+msgid "Cancel Export"
+msgstr "내보내기 취소"
+
+#: components/Portability.php:1930
+msgid ""
+"Importing a previously-exported %s file will overwrite all content currently on "
+"this page."
+msgstr "이전에 내보내기 한 %s 파일을 불러오기 하시면 이 페이지에 있는 모든 컨텐츠를 덮어씁니다."
+
+#: components/Portability.php:1932
+msgid ""
+"Select a previously-exported Divi Builder Layouts file to begin importing items. "
+"Large collections of image-heavy exports may take several minutes to upload."
+msgstr ""
+"항목들 불러오기를 시작하려면 이전에 내보내기 한 Divi 빌더 레이아웃 파일을 선택하세요. 용량이 큰 이미지가 많은 내보내기를 업로드 하는데에는 "
+"몇 분이 걸릴 수 있습니다."
+
+#: components/Portability.php:1934
+msgid ""
+"Importing a previously-exported %s file will overwrite all current data. Please "
+"proceed with caution!"
+msgstr "이전에 내보내기 한 %s 파일은 현재의 모든 데이타를 덮어씁니다. 주의하세요!"
+
+#: components/Portability.php:1936
+msgid "Select File To Import"
+msgstr "불러오기 할 파일 선택"
+
+#: components/Portability.php:1938
+msgid "No File Selected"
+msgstr "파일이 선택되지 않았습니다"
+
+#: components/Portability.php:1939
+msgid "Choose File"
+msgstr "파일 선택"
+
+#: components/Portability.php:1943
+msgid "Download backup before importing"
+msgstr "불러오기 전에 백업 파일을 다운로드"
+
+#: components/Portability.php:1946
+msgid "Apply Layout's Defaults To This Website"
+msgstr "이 웹 사이트에 레이아웃 기본값 적용"
+
+#: components/Portability.php:1950
+msgid "Import %s"
+msgstr "%s를 불러오기"
+
+#: components/Portability.php:1951
+msgid "Cancel Import"
+msgstr "가져오기 취소"
+
+#: components/Portability.php:2053
+msgid "Import & Export"
+msgstr "불러오기와 내보내기"
+
+#: components/Portability.php:2195
+msgid "The export process failed. Please refresh the page and try again."
+msgstr "내보내기가 실패했습니다. 페이지를 다시 시작하시고 재시도 하세요."
+
+#: components/SupportCenter.php:565 components/SupportCenter.php:1593
+msgid "Support Center"
+msgstr "지원 센터"
+
+#: components/SupportCenter.php:577
+msgid "Monarch Support Center"
+msgstr "군주 지원 센터"
+
+#: components/SupportCenter.php:756
+msgid "A Basic Overview Of Extra"
+msgstr "엑스트라의 기본 개요"
+
+#: components/SupportCenter.php:760 components/SupportCenter.php:777
+msgid "Using Premade Layout Packs"
+msgstr "프리미엄 레이아웃 팩 사용"
+
+#: components/SupportCenter.php:764
+msgid "Creating Category Layouts"
+msgstr "카테고리 레이아웃 생성"
+
+#: components/SupportCenter.php:773 components/SupportCenter.php:886
+#: components/SupportCenter.php:910 components/SupportCenter.php:946
+msgid "Getting Started With The Divi Builder"
+msgstr "Divi Builder 시작하기"
+
+#: components/SupportCenter.php:781
+msgid "The Divi Library"
+msgstr "Divi 도서관"
+
+#: components/SupportCenter.php:789 components/SupportCenter.php:982
+msgid "A Basic Overview Of The Bloom Plugin"
+msgstr "Bloom 플러그인의 기본 개요"
+
+#: components/SupportCenter.php:793
+msgid "How To Update The Bloom Plugin"
+msgstr "Bloom 플러그인을 업데이트하는 방법"
+
+#: components/SupportCenter.php:797
+msgid "How To Add Mailing List Accounts"
+msgstr "메일 링리스트 계정을 추가하는 방법"
+
+#: components/SupportCenter.php:805
+msgid "A Complete Overviw Of Monarch"
+msgstr "군주의 완전한 감독"
+
+#: components/SupportCenter.php:809
+msgid "Adding Social Networks"
+msgstr "소셜 네트워크 추가"
+
+#: components/SupportCenter.php:813
+msgid "Configuring Social Follower APIs"
+msgstr "소셜 팔로어 API 구성"
+
+#: components/SupportCenter.php:874
+msgid "Getting Started With Extra"
+msgstr "추가 시작하기"
+
+#: components/SupportCenter.php:878
+msgid "Setting Up The Extra Theme Options"
+msgstr "추가 테마 옵션 설정하기"
+
+#: components/SupportCenter.php:882
+msgid "The Extra Category Builder"
+msgstr "추가 카테고리 작성기"
+
+#: components/SupportCenter.php:890
+msgid "How To Update The Extra Theme"
+msgstr "추가 테마를 업데이트하는 방법"
+
+#: components/SupportCenter.php:894 components/SupportCenter.php:918
+#: components/SupportCenter.php:954
+msgid "An Overview Of All Divi Modules"
+msgstr "모든 Divi 모듈 개요"
+
+#: components/SupportCenter.php:898 components/SupportCenter.php:930
+#: components/SupportCenter.php:966
+msgid "Getting Started With Layout Packs"
+msgstr "레이아웃 팩 시작하기"
+
+#: components/SupportCenter.php:902 components/SupportCenter.php:934
+msgid "Customizing Your Header And Navigation"
+msgstr "머리글 및 탐색 사용자 정의"
+
+#: components/SupportCenter.php:914
+msgid "How To Update The Divi Theme"
+msgstr "Divi 테마를 업데이트하는 방법"
+
+#: components/SupportCenter.php:922 components/SupportCenter.php:958
+msgid "Using The Divi Library"
+msgstr "Divi 라이브러리 사용"
+
+#: components/SupportCenter.php:926
+msgid "Setting Up The Divi Theme Options"
+msgstr "Divi 테마 옵션 설정하기"
+
+#: components/SupportCenter.php:938 components/SupportCenter.php:974
+msgid "Divi For Developers"
+msgstr "개발자를위한 Divi"
+
+#: components/SupportCenter.php:950
+msgid "How To Update The Divi Builder"
+msgstr "Divi Builder를 업데이트하는 방법"
+
+#: components/SupportCenter.php:962
+msgid "Selling Products With Divi And WooCommerce"
+msgstr "Divi 및 WooCommerce 제품 판매"
+
+#: components/SupportCenter.php:970
+msgid "Importing And Exporting Divi Layouts"
+msgstr "Divi 레이아웃 가져 오기 및 내보내기"
+
+#: components/SupportCenter.php:986
+msgid "How To Update Your Bloom Plugin"
+msgstr "Bloom 플러그인을 업데이트하는 방법"
+
+#: components/SupportCenter.php:990
+msgid "Adding Email Accounts In Bloom"
+msgstr "Bloom에서 이메일 계정 추가"
+
+#: components/SupportCenter.php:994
+msgid "Customizing Your Opt-in Designs"
+msgstr "옵트 인 디자인 사용자 정의"
+
+#: components/SupportCenter.php:998
+msgid "The Different Bloom Opt-in Types"
+msgstr "다른 블룸 옵트 인 유형"
+
+#: components/SupportCenter.php:1002
+msgid "Using The Bloom Display Settings"
+msgstr "블룸 디스플레이 설정 사용"
+
+#: components/SupportCenter.php:1006
+msgid "How To Use Triggers In Bloom"
+msgstr "Bloom에서 트리거를 사용하는 방법"
+
+#: components/SupportCenter.php:1010
+msgid "Adding Custom Fields To Bloom Opt-in Forms"
+msgstr "선택 양식을 개화하기 위해 사용자 정의 필드 추가"
+
+#: components/SupportCenter.php:1018
+msgid "A Complete Overview Of The Monarch Plugin"
+msgstr "모나크 플러그인의 전체 개요"
+
+#: components/SupportCenter.php:1022
+msgid "How To Update Your Monarch WordPress Plugin"
+msgstr "모나크 워드 프레스 플러그인을 업데이트하는 방법"
+
+#: components/SupportCenter.php:1026
+msgid "Adding and Managing Social Networks"
+msgstr "소셜 네트워크 추가 및 관리"
+
+#: components/SupportCenter.php:1030
+msgid "Configuring Social Network APIs"
+msgstr "소셜 네트워크 API 구성"
+
+#: components/SupportCenter.php:1034
+msgid "Customizing The Monarch Design"
+msgstr "군주 디자인 사용자 정의"
+
+#: components/SupportCenter.php:1038
+msgid "Viewing Your Social Stats"
+msgstr "소셜 통계보기"
+
+#: components/SupportCenter.php:1042
+msgid "Using The Floating Sidebar"
+msgstr "플로팅 사이드 바 사용"
+
+#: components/SupportCenter.php:1046
+msgid "Using Popup & Flyin Triggers"
+msgstr "팝업 및 플라이 인 트리거 사용"
+
+#: components/SupportCenter.php:1129
+msgid "Divi Support Center :: WordPress debug log cannot be read."
+msgstr "Divi 지원 센터 :: WordPress 디버그 로그를 읽을 수 없습니다."
+
+#: components/SupportCenter.php:1137
+msgid "Divi Support Center :: WordPress debug.log is not configured."
+msgstr "Divi 지원 센터 :: WordPress debug.log가 구성되지 않았습니다."
+
+#: components/SupportCenter.php:1158
+msgid "Divi Support Center :: WordPress debug log cannot be found."
+msgstr "Divi 지원 센터 :: WordPress 디버그 로그를 찾을 수 없습니다."
+
+#: components/SupportCenter.php:1202
+msgid "Writable wp-content Directory"
+msgstr "쓰기 가능한 wp-content 디렉토리"
+
+#: components/SupportCenter.php:1210
+msgid ""
+"We recommend that the wp-content directory on your server be writable by "
+"WordPress in order to ensure the full functionality of Divi Builder themes and "
+"plugins."
+msgstr ""
+"Divp Builder 테마 및 플러그인의 모든 기능을 사용하려면 서버의 wp-content 디렉토리에 WordPress가 쓰기 가능하도록 "
+"설정하는 것이 좋습니다."
+
+#: components/SupportCenter.php:1214
+msgid "PHP Version"
+msgstr "PHP 버전"
+
+#: components/SupportCenter.php:1222
+msgid ""
+"We recommend using the latest stable version of PHP. This will not only ensure "
+"compatibility with Divi, but it will also greatly speed up your website leading "
+"to less memory and CPU related issues."
+msgstr ""
+"최신 안정 버전의 PHP를 사용하는 것이 좋습니다. Divi와의 호환성을 보장 할뿐만 아니라 웹 사이트의 속도를 대폭 향상시켜 메모리 및 CPU "
+"관련 문제를 줄입니다."
+
+#: components/SupportCenter.php:1226
+msgid "memory_limit"
+msgstr "memory_limit"
+
+#: components/SupportCenter.php:1234
+msgid ""
+"By default, memory limits set by your host or by WordPress may be too low. This "
+"will lead to applications crashing as PHP reaches the artificial limit. You can "
+"adjust your memory limit within your <a href=\"%1$s\" target=\"_blank\">php.ini "
+"file</a>, or by contacting your host for assistance. You may also need to define "
+"a memory limited in <a href=\"%2$s\" target=_blank\">wp-config.php</a>."
+msgstr ""
+"기본적으로 호스트 또는 WordPress에서 설정 한 메모리 제한이 너무 낮을 수 있습니다. 이것은 PHP가 인위적인 한도에 도달하면 응용 "
+"프로그램이 손상 될 수 있습니다. <a href=\"%1$s\" target=\"_blank\">php.ini 파일</a> 에서 메모리 제한을 "
+"조정하거나 호스트에 도움을 요청할 수 있습니다. <a href=\"%2$s\" target=_blank\">wp-config.php</a> 에서 "
+"제한된 메모리를 정의해야 할 수도 있습니다."
+
+#: components/SupportCenter.php:1238
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: components/SupportCenter.php:1246
+msgid ""
+"Post Max Size limits how large a page or file can be on your website. If your "
+"page is larger than the limit set in PHP, it will fail to load. Post sizes can "
+"become quite large when using the Divi Builder, so it is important to increase "
+"this limit. It also affects file size upload/download, which can prevent large "
+"layouts from being imported into the builder. You can adjust your max post size "
+"within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting "
+"your host for assistance."
+msgstr ""
+"포스트 최대 크기는 웹 사이트에서 페이지 또는 파일의 크기를 제한합니다. 페이지가 PHP에서 설정된 제한보다 크면로드에 실패합니다. Divi "
+"Builder를 사용하면 게시물 크기가 상당히 커질 수 있으므로이 한도를 높이는 것이 중요합니다. 또한 파일 크기 업로드 / 다운로드에도 영향을 "
+"미치기 때문에 대형 레이아웃을 빌더로 가져올 수 없습니다. <a href=\"%1$s\" target=\"_blank\">php.ini "
+"파일</a> 에서 최대 게시물 크기를 조정하거나 호스트에 도움을 요청할 수 있습니다."
+
+#: components/SupportCenter.php:1250
+msgid "max_execution_time"
+msgstr "max_execution_time"
+
+#: components/SupportCenter.php:1258
+msgid ""
+"Max Execution Time affects how long a page is allowed to load before it times "
+"out. If the limit is too low, you may not be able to import large layouts and "
+"files into the builder. You can adjust your max execution time within your <a "
+"href=\"%1$s\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"최대 실행 시간은 페이지가 시간 초과되기 전에로드 할 수있는 기간에 영향을줍니다. 제한값이 너무 낮 으면 큰 레이아웃과 파일을 빌더로 가져올 수 "
+"없습니다. <a href=\"%1$s\">php.ini 파일</a> 에서 최대 실행 시간을 조정하거나 호스트에 도움을 요청할 수 있습니다."
+
+#: components/SupportCenter.php:1262
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: components/SupportCenter.php:1270
+msgid ""
+"Upload Max File Size determines that maximum file size that you are allowed to "
+"upload to your server. If the limit is too low, you may not be able to import "
+"large collections of layouts into the Divi Library. You can adjust your max file "
+"size within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by "
+"contacting your host for assistance."
+msgstr ""
+"업로드 최대 파일 크기는 서버에 업로드 할 수있는 최대 파일 크기를 결정합니다. 제한값이 너무 낮 으면 많은 레이아웃 모음을 Divi "
+"Library로 가져올 수 없습니다. <a href=\"%1$s\" target=\"_blank\">php.ini 파일</a> 에서 최대 파일 "
+"크기를 조정하거나 호스트에 도움을 요청할 수 있습니다."
+
+#: components/SupportCenter.php:1274
+msgid "max_input_time"
+msgstr "max_input_time"
+
+#: components/SupportCenter.php:1282
+msgid ""
+"This sets the maximum time in seconds a script is allowed to parse input data. If "
+"the limit is too low, the Divi Builder may time out before it is allowed to load. "
+"You can adjust your max input time within your <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"스크립트가 입력 데이터를 구문 분석 할 수있는 최대 시간 (초)을 설정합니다. 한계가 너무 낮 으면 Divi Builder가로드되기 전에 시간 "
+"초과 될 수 있습니다. <a href=\"%1$s\" target=\"_blank\">php.ini 파일</a> 에서 최대 입력 시간을 조정하거나 "
+"호스트에 도움을 요청할 수 있습니다."
+
+#: components/SupportCenter.php:1286
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: components/SupportCenter.php:1294
+msgid ""
+"This setting affects how many input variables may be accepted. If the limit is "
+"too low, it may prevent the Divi Builder from loading. You can adjust your max "
+"input variables within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, "
+"or by contacting your host for assistance."
+msgstr ""
+"이 설정은 수용 할 수있는 입력 변수의 수에 영향을줍니다. 제한값이 너무 낮 으면 Divi Builder가로드되지 않을 수 있습니다. <a "
+"href=\"%1$s\" target=\"_blank\">php.ini 파일</a> 에서 최대 입력 변수를 조정하거나 호스트에 도움을 요청할 수 "
+"있습니다."
+
+#: components/SupportCenter.php:1298
+msgid "display_errors"
+msgstr "display_errors"
+
+#: components/SupportCenter.php:1307
+msgid ""
+"This setting determines whether or not errors should be printed as part of the "
+"page output. This is a feature to support your site's development and should "
+"never be used on production sites. You can edit this setting within your <a "
+"href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting your host for "
+"assistance."
+msgstr ""
+"이 설정은 오류를 페이지 출력의 일부로 인쇄할지 여부를 결정합니다. 이는 사이트 개발을 지원하는 기능이므로 프로덕션 사이트에서 사용해서는 "
+"안됩니다. 이 설정은 <a href=\"%1$s\" target=\"_blank\">php.ini 파일</a> 에서 편집하거나 호스트에 도움을 "
+"요청할 수 있습니다."
+
+#: components/SupportCenter.php:1355
+msgid "This fails to meet our minimum required value of %1$s. "
+msgstr "최소 필수 값인 %1$s 을 (를) 충족시키지 못했습니다."
+
+#: components/SupportCenter.php:1361
+msgid "This meets our minimum required value of %1$s. "
+msgstr "이는 최소 필수 값인 %1$s 충족합니다."
+
+#: components/SupportCenter.php:1373
+msgid "Learn more."
+msgstr "자세히 알아보기."
+
+#: components/SupportCenter.php:1382
+msgid "Congratulations! This meets or exceeds our recommendation of %1$s."
+msgstr "축하해! 이는  %1$s의 권장 사항을 충족하거나 초과합니다."
+
+#: components/SupportCenter.php:1394
+msgid "We recommend %1$s for the best experience."
+msgstr "최상의 환경을 위해  %1$s을 (를) 권장합니다."
+
+#: components/SupportCenter.php:1403
+msgid "- We are unable to determine your setting. %1$s"
+msgstr "- 귀하의 설정을 결정할 수 없습니다.  %1$s"
+
+#: components/SupportCenter.php:1466 components/SupportCenter.php:1599
+#: components/SupportCenter.php:2653
+msgid "System Status"
+msgstr "시스템 상태"
+
+#: components/SupportCenter.php:1473
+msgid ""
+"Congratulations, all system checks have passed. Your hosting configuration is "
+"compatible with Divi."
+msgstr "축하합니다. 모든 시스템 검사가 통과되었습니다. 귀하의 호스팅 구성은 Divi와 호환됩니다."
+
+#: components/SupportCenter.php:1596
+msgid "Divi Support Center Page"
+msgstr "Divi 지원 센터 페이지"
+
+#: components/SupportCenter.php:1602 components/SupportCenter.php:2697
+#: components/SupportCenter.php:2735
+msgid "Remote Access"
+msgstr "원격 액세스"
+
+#: components/SupportCenter.php:1605
+msgid "Divi Documentation &amp; Help"
+msgstr "Divi 문서 및 도움말"
+
+#: components/SupportCenter.php:1608 components/SupportCenter.php:2543
+#: components/SupportCenter.php:2861
+msgid "Safe Mode"
+msgstr "안전 모드"
+
+#: components/SupportCenter.php:1611 components/SupportCenter.php:2942
+msgid "Logs"
+msgstr "로그"
+
+#: components/SupportCenter.php:2062
+msgid "Elegant Themes API Error: HTTP error in API response"
+msgstr "Elegant Themes API 오류 : API 응답의 HTTP 오류"
+
+#: components/SupportCenter.php:2073
+msgid "Elegant Themes API Error: WordPress Error in API response"
+msgstr "Elegant Themes API 오류 : API 응답의 WordPress 오류"
+
+#: components/SupportCenter.php:2105
+msgid "Elegant Themes API Error: Incorrect Token. Please, try again."
+msgstr "Elegant Themes API 오류 : 잘못된 토큰입니다. 다시 시도하십시오."
+
+#: components/SupportCenter.php:2116
+msgid "Elegant Themes API Error: The API response was missing required data."
+msgstr "Elegant Themes API 오류 : API 응답에 필요한 데이터가 없습니다."
+
+#: components/SupportCenter.php:2129
+msgid "Elegant Themes API Error: The API responded, but the response was empty."
+msgstr "Elegant Themes API 오류 : API가 응답했지만 응답이 비어있었습니다."
+
+#: components/SupportCenter.php:2177
+msgid "Support account doesn't exist."
+msgstr "지원 계정이 없습니다."
+
+#: components/SupportCenter.php:2189
+msgid "Support account hasn't been removed. Try to regenerate token again."
+msgstr "지원 계정이 삭제되지 않았습니다. 토큰을 다시 생성하십시오."
+
+#: components/SupportCenter.php:2194
+msgid "Cannot get the support account data. Try to regenerate token again."
+msgstr "지원 계정 데이터를 가져올 수 없습니다. 토큰을 다시 생성하십시오."
+
+#: components/SupportCenter.php:2206
+msgid "Token has been deleted successfully."
+msgstr "토큰이 성공적으로 삭제되었습니다."
+
+#: components/SupportCenter.php:2208
+msgid "Token has been deleted successfully. "
+msgstr "토큰이 성공적으로 삭제되었습니다."
+
+#: components/SupportCenter.php:2357
+msgid "ET Support User role has been activated."
+msgstr "ET 지원 사용자 역할이 활성화되었습니다."
+
+#: components/SupportCenter.php:2368
+msgid "ET Support User role has been elevated."
+msgstr "ET 지원 사용자 역할이 향상되었습니다."
+
+#: components/SupportCenter.php:2377
+msgid "ET Support User role has been deactivated."
+msgstr "ET 지원 사용자 역할이 비활성화되었습니다."
+
+#: components/SupportCenter.php:2450
+msgid "ET Safe Mode has been activated."
+msgstr "ET 안전 모드가 활성화되었습니다."
+
+#: components/SupportCenter.php:2454
+msgid "ET Safe Mode has been deactivated."
+msgstr "ET 안전 모드가 비활성화되었습니다."
+
+#: components/SupportCenter.php:2549
+msgid "Safe Mode is enabled and the current action cannot be performed."
+msgstr "안전 모드가 활성화되어 있고 현재 작업을 수행 할 수 없습니다."
+
+#: components/SupportCenter.php:2659
+msgid "Show Full Report"
+msgstr "전체 보고서보기"
+
+#: components/SupportCenter.php:2660
+msgid "Hide Full Report"
+msgstr "전체 보고서 숨기기"
+
+#: components/SupportCenter.php:2661
+msgid "Copy Full Report"
+msgstr "전체 보고서 복사"
+
+#: components/SupportCenter.php:2684
+msgid "Elegant Themes Support"
+msgstr "우아한 테마 지원"
+
+#: components/SupportCenter.php:2685
+msgid ""
+"<p>Enabling <strong>Remote Access</strong> will give the Elegant Themes support "
+"team limited access to your WordPress Dashboard. If requested, you can also "
+"enable full admin privileges. Remote Access should only be turned on if requested "
+"by the Elegant Themes support team. Remote Access is automatically disabled after "
+"4 days.</p>"
+msgstr ""
+"<p> <strong>원격 액세스</strong> 를 사용하면 우아한 테마가 팀의 WordPress 대시 보드에 대한 제한된 액세스를 지원합니다. "
+"요청 된 경우 전체 관리 권한을 활성화 할 수도 있습니다. Elegant Themes 지원팀이 요청한 경우에만 원격 액세스를 사용하도록 "
+"설정해야합니다. 원격 액세스는 4 일 후에 자동으로 비활성화됩니다. </p>"
+
+#: components/SupportCenter.php:2698
+msgid ""
+"Remote Access cannot be enabled because you do not have a valid API Key or your "
+"Elegant Themes subscription has expired. You can find your API Key by <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">logging in</a> to your Elegant Themes account. It should then "
+"be added to your <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Options Panel</a>."
+msgstr ""
+"유효한 API 키가 없거나 Elegant Themes 구독이 만료되어 원격 액세스를 사용할 수 없습니다. Elegant Themes 계정에 <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">로그인</a> 하여 API 키를 찾을 수 있습니다. 그런 다음 <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">옵션 패널에</a> 추가해야합니다."
+
+#: components/SupportCenter.php:2737 components/SupportCenter.php:2760
+#: components/SupportCenter.php:2912
+msgid "Enabled"
+msgstr "사용"
+
+#: components/SupportCenter.php:2738 components/SupportCenter.php:2761
+#: components/SupportCenter.php:2913
+msgid "Disabled"
+msgstr "장애인"
+
+#: components/SupportCenter.php:2740
+msgid "Remote Access will be automatically disabled in: "
+msgstr "원격 액세스는 다음에서 자동으로 비활성화됩니다."
+
+#: components/SupportCenter.php:2758
+msgid "Activate Full Admin Privileges"
+msgstr "전체 관리자 권한 활성화"
+
+#: components/SupportCenter.php:2776
+msgid "Copy Support Token"
+msgstr "지원 토큰 복사"
+
+#: components/SupportCenter.php:2782
+msgid "Chat With Support"
+msgstr "지원과 채팅"
+
+#: components/SupportCenter.php:2862
+msgid ""
+"<p>Enabling <strong>Safe Mode</strong> will temporarily disable features and "
+"plugins that may be causing problems with your Elegant Themes product. This "
+"includes all Plugins, Child Themes, and Custom Code added to your integration "
+"areas. These items are only disabled for your current user session so your "
+"visitors will not be disrupted. Enabling Safe Mode makes it easy to figure out "
+"what is causing problems on your website by identifying or eliminating third "
+"party plugins and code as potential causes.</p>"
+msgstr ""
+"<p> <strong>안전 모드</strong> 를 사용하면 Elegant Themes 제품에 문제를 일으킬 수있는 기능 및 플러그인이 일시적으로 "
+"사용 중지됩니다. 여기에는 모든 플러그인, 하위 테마 및 통합 영역에 추가 된 사용자 정의 코드가 포함됩니다. 이 항목은 현재 사용자 세션에서만 "
+"사용 중지되므로 방문자가 혼란에 빠지지 않습니다. 안전 모드를 사용하면 타사 플러그인 및 코드를 잠재적 인 원인으로 식별하거나 제거하여 웹 "
+"사이트에서 문제를 일으키는 원인을 쉽게 파악할 수 있습니다. </p>"
+
+#: components/SupportCenter.php:2889
+msgid ""
+"<p class=\"et-safe-mode-error\">Plugins cannot be disabled because your "
+"<code>wp-content</code> directory has inconsistent file permissions. <a "
+"href=\"%1$s\" target=\"_blank\">Click here</a> for more information.</p>"
+msgstr ""
+"<p class=\"et-safe-mode-error\"><code> wp-content </ code> 디렉토리에 파일 권한이 일치하지 않으므로 "
+"플러그인을 비활성화 할 수 없습니다. 자세한 내용은 <a href=\"%1$s\" target=\"_blank\"> 여기를 클릭 "
+"</a>하십시오.</p>"
+
+#: components/SupportCenter.php:2894
+msgid "The following plugins will be temporarily disabled for you only:"
+msgstr "다음 플러그인은 일시적으로 사용 중지됩니다."
+
+#: components/SupportCenter.php:2957
+msgid "Download Full Debug Log"
+msgstr "전체 디버그 로그 다운로드"
+
+#: components/SupportCenter.php:2961
+msgid "Copy Recent Log Entries"
+msgstr "최근 로그 항목 복사"
+
+#: components/Updates.php:25
+msgid "%s: You cannot create a second instance of this class."
+msgstr "%s: 이 클래스의 두 번째 인스턴스는 생성할 수 없습니다."
+
+#: components/Updates.php:425 components/VersionRollback.php:402
+msgid ""
+"<em>Before you can receive product updates, you must first authenticate your "
+"Elegant Themes subscription. To do this, you need to enter both your Elegant "
+"Themes Username and your Elegant Themes API Key into the Updates Tab in your "
+"theme and plugin settings. To locate your API Key, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> to your Elegant Themes account and navigate to the <strong>Account > API "
+"Key</strong> page. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Learn more here</a></em>. If you still get this message, please "
+"make sure that your Username and API Key have been entered correctly"
+msgstr ""
+"<em>제품 업데이트를 받으려면, 먼저 Elegant Themes 구독을 인증해 주셔야 합니다. 인증을 하려면, 테마 및 플러그인 설정의 업데이트 "
+"탭에 Elegant Themes 사용자 이름과 Elegant Themes API 키를 모두 입력하셔야 합니다. API 키를 확인하려면, "
+"Elegant Themes 계정으로 <a href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">로그인</a>한 다음, <strong>계정 > API 키</strong> 페이지로 이동해 주세요. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">자세한 정보는 여기를 클릭해 주세요</a></em>. 이 메시지가 계속 표시되는 경우, 사용자 이름과 API 키를 "
+"올바르게 입력했는지 확인해 주십시오."
+
+#: components/Updates.php:427
+msgid ""
+"Automatic updates currently unavailable. For all Elegant Themes products, please "
+"<a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">authenticate your subscription</a> via the Updates tab in your "
+"theme & plugin settings to enable product updates. Make sure that your Username "
+"and API Key have been entered correctly."
+msgstr ""
+"자동 업데이트는 현재 이용하실 수 없습니다. 모든 Elegant Themes 제품은 테마 & 플러그인 설정의 업데이트 탭에서 <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">구독을 인증</a>한 경우에만 제품 업데이트를 받을 수 있습니다. 사용자 이름과 API 키를 올바르게 입력했는지 "
+"확인해 주십시오."
+
+#: components/Updates.php:451
+msgid ""
+"Your Elegant Themes subscription has expired. You must <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">renew your "
+"account</a> to regain access to product updates and support. To ensure "
+"compatibility and security, it is important to always keep your themes and "
+"plugins updated."
+msgstr ""
+"고객님의 Elegant Themes 구독은 만료되었습니다. 제품 업데이트 및 지원 서비스를 다시 이용하려면, <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">계정을 "
+"갱신</a>하셔야 합니다. 호환성 및 보안을 위해 테마와 플러그인을 항상 최신 상태로 유지하는 것이 중요합니다."
+
+#: components/VersionRollback.php:96 components/VersionRollback.php:303
+#: components/api/ElegantThemes.php:107 components/api/ElegantThemes.php:226
+msgid "An unknown error has occurred. Please try again later."
+msgstr "오류가 발생했습니다. 나중에 다시 시도해 주세요."
+
+#: components/VersionRollback.php:205
+msgid "Security check failed. Please refresh and try again."
+msgstr "내보내기가 실패했습니다. 페이지를 다시 시작하시고 재시도 하세요."
+
+#: components/VersionRollback.php:212
+msgid "You don't have sufficient permissions to access this page."
+msgstr "이 페이지에 액세스 할 수있는 권한이 없습니다."
+
+#: components/VersionRollback.php:220 components/VersionRollback.php:546
+msgid ""
+"You're currently rolled back to <strong>Version %1$s</strong> from "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"현재 <strong>버전  %2$s</strong> 에서 <strong>버전 %</strong> <strong>1 $ s (으)로</strong> "
+"롤백되었습니다."
+
+#: components/VersionRollback.php:227 components/VersionRollback.php:555
+msgid ""
+"Update to the latest version to unlock the full power of %1$s. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+" %1$s의 모든 기능을 해제하려면 최신 버전으로 업데이트하십시오. <a href=\"%2$s\" target=\"_blank\">여기에서 자세히 "
+"알아보십시오</a> ."
+
+#: components/VersionRollback.php:248 components/api/ElegantThemes.php:218
+msgid ""
+"For privacy and security reasons, you cannot rollback to <strong>Version "
+"%1$s</strong>."
+msgstr "개인 정보 보호 및 보안상의 이유로 <strong>버전  %1$s (으)로</strong> 롤백 할 수 없습니다."
+
+#: components/VersionRollback.php:254
+msgid "Learn more here."
+msgstr "여기에서 자세히 알아보십시오."
+
+#: components/VersionRollback.php:398 components/VersionRollback.php:446
+#: components/VersionRollback.php:485 components/VersionRollback.php:537
+msgid "Version Rollback"
+msgstr "버전 롤백"
+
+#: components/VersionRollback.php:428 components/VersionRollback.php:516
+msgid "Rollback to the previous version"
+msgstr "이전 버전으로 롤백"
+
+#: components/VersionRollback.php:455 components/api/ElegantThemes.php:212
+msgid "The previously used version of %1$s does not support version rollback."
+msgstr "이전에 사용 된  %1$s 버전은 버전 롤백을 지원하지 않습니다."
+
+#: components/VersionRollback.php:494
+msgid ""
+"You'll be rolled back to <strong>Version %1$s</strong> from the current "
+"<strong>Version %2$s</strong>."
+msgstr "현재 <strong>버전  %2$s</strong> 에서 <strong>버전  %1$s (으)</strong> 로 롤백됩니다."
+
+#: components/VersionRollback.php:503
+msgid ""
+"Rolling back will reinstall the previous version of %1$s. You will be able to "
+"update to the latest version at any time. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"롤백하면 이전 버전의  %1$s이 (가) 다시 설치됩니다. 언제든지 최신 버전으로 업데이트 할 수 있습니다. <a href=\"%2$s\" "
+"target=\"_blank\">여기에서 자세히 알아보십시오</a> ."
+
+#: components/VersionRollback.php:511
+msgid "Make sure you have a full site backup before proceeding."
+msgstr "계속하기 전에 전체 사이트 백업이 있는지 확인하십시오."
+
+#: components/VersionRollback.php:563
+msgid "Update to the Latest Version"
+msgstr "최신 버전으로 업데이트"
+
+#: components/api/ElegantThemes.php:116
+msgid "Invalid Username and/or API Key provided."
+msgstr "유효한 URL이 제공되지 않았습니다."
+
+#: components/api/ElegantThemes.php:206
+msgid ""
+"An unexpected response was received from the version server. Please try again "
+"later."
+msgstr "버전 서버에서 예상치 못한 응답을 받았습니다. 나중에 다시 시도하십시오."
+
+#: components/api/Service.php:238
+msgid "API request failed, please try again."
+msgstr "API 요청에 실패했습니다. 다시 시도해 주세요."
+
+#: components/api/Service.php:239
+msgid "API request failed. API Key is required."
+msgstr "API 요청에 실패했습니다. API 키가 필요합니다."
+
+#: components/api/email/ActiveCampaign.php:106
+#: components/api/email/CampaignMonitor.php:163
+#: components/api/email/ConstantContact.php:143
+#: components/api/email/ConvertKit.php:146
+#: components/api/email/Feedblitz.php:80
+#: components/api/email/GetResponse.php:100
+#: components/api/email/HubSpot.php:138
+#: components/api/email/Infusionsoft.php:250
+#: components/api/email/MadMimi.php:100 components/api/email/MailChimp.php:218
+#: components/api/email/MailerLite.php:93
+#: components/api/email/Ontraport.php:172
+#: components/api/email/SendinBlue.php:96
+msgid "API Key"
+msgstr "API 키"
+
+#: components/api/email/ActiveCampaign.php:109
+msgid "API URL"
+msgstr "API URL"
+
+#: components/api/email/ActiveCampaign.php:113
+msgid "Form ID"
+msgstr "양식 ID"
+
+#: components/api/email/Aweber.php:164
+msgid "Authorization Code"
+msgstr "인증 코드"
+
+#: components/api/email/ConstantContact.php:146
+msgid "Access Token"
+msgstr "액세스 토큰"
+
+#: components/api/email/ConvertKit.php:149
+msgid "API Secret"
+msgstr "API 비밀 키"
+
+#: components/api/email/Emma.php:87
+msgid "Public API Key"
+msgstr "공개 API 키"
+
+#: components/api/email/Emma.php:90
+msgid "Private API Key"
+msgstr "개인 API 키"
+
+#: components/api/email/Emma.php:93
+msgid "Account ID"
+msgstr "계정 ID"
+
+#: components/api/email/Fields.php:30
+msgid "Use Custom Fields"
+msgstr "사용자 정의 필드 사용"
+
+#: components/api/email/Fields.php:33 components/api/email/Fields.php:255
+#: components/api/email/Fields.php:267 components/api/email/Fields.php:284
+#: components/api/email/Fields.php:315
+msgid "Yes"
+msgstr "예"
+
+#: components/api/email/Fields.php:34 components/api/email/Fields.php:256
+#: components/api/email/Fields.php:268 components/api/email/Fields.php:285
+#: components/api/email/Fields.php:316
+msgid "No"
+msgstr "아니"
+
+#: components/api/email/Fields.php:41
+msgid "Enable this option to use custom fields in your opt-in form."
+msgstr "옵트 인 양식에서 사용자 정의 필드를 사용하려면이 옵션을 사용하십시오."
+
+#: components/api/email/Fields.php:75
+msgid "Link URL"
+msgstr "링크 URL"
+
+#: components/api/email/Fields.php:76
+msgid "Link Text"
+msgstr "텍스트 링크"
+
+#: components/api/email/Fields.php:77
+msgid "Discard Changes"
+msgstr "변경 사항을 취소"
+
+#: components/api/email/Fields.php:78
+msgid "Save Changes"
+msgstr "변경 사항을 저장하다"
+
+#: components/api/email/Fields.php:79
+msgid "Option Link"
+msgstr "옵션 링크"
+
+#: components/api/email/Fields.php:88
+msgid "ID"
+msgstr "신분증"
+
+#: components/api/email/Fields.php:91
+msgid ""
+"Define a unique ID for this field. You should use only English characters without "
+"special characters or spaces."
+msgstr "이 필드의 고유 ID를 정의하십시오. 특수 문자 나 공백없이 영어 문자 만 사용해야합니다."
+
+#: components/api/email/Fields.php:98
+msgid "Name"
+msgstr "이름"
+
+#: components/api/email/Fields.php:100
+msgid "Set the label that will appear above this field in the opt-in form."
+msgstr "옵트 인 형식에서이 필드 위에 표시 할 레이블을 설정하십시오."
+
+#: components/api/email/Fields.php:110
+msgid "Type"
+msgstr "유형"
+
+#: components/api/email/Fields.php:115
+msgid "Choose a field type..."
+msgstr "입력란 유형 선택 ..."
+
+#: components/api/email/Fields.php:116
+msgid "Input Field"
+msgstr "입력 필드"
+
+#: components/api/email/Fields.php:117
+msgid "Email Field"
+msgstr "이메일 필드"
+
+#: components/api/email/Fields.php:118
+msgid "Textarea"
+msgstr "텍스트 영역"
+
+#: components/api/email/Fields.php:119
+msgid "Checkboxes"
+msgstr "체크 박스"
+
+#: components/api/email/Fields.php:120
+msgid "Radio Buttons"
+msgstr "라디오 버튼"
+
+#: components/api/email/Fields.php:121
+msgid "Select Dropdown"
+msgstr "드롭 다운 선택"
+
+#: components/api/email/Fields.php:123
+msgid "Choose the type of field"
+msgstr "입력란 유형 선택"
+
+#: components/api/email/Fields.php:133
+msgid "Checked By Default"
+msgstr "기본적으로 선택됨"
+
+#: components/api/email/Fields.php:134
+msgid ""
+"If enabled, the check mark will be automatically selected for the visitor. They "
+"can still deselect it."
+msgstr "활성화하면 방문자에 대한 확인 표시가 자동으로 선택됩니다. 여전히 선택을 해제 할 수 있습니다."
+
+#: components/api/email/Fields.php:144 components/api/email/Fields.php:163
+#: components/api/email/Fields.php:182
+msgid "Options"
+msgstr "옵션"
+
+#: components/api/email/Fields.php:199
+msgid "Minimum Length"
+msgstr "최소 길이"
+
+#: components/api/email/Fields.php:200 components/api/email/Fields.php:217
+msgid "Leave at 0 to remove restriction"
+msgstr "제한을 제거하려면 0으로 두십시오."
+
+#: components/api/email/Fields.php:216
+msgid "Maximum Length"
+msgstr "최대 길이"
+
+#: components/api/email/Fields.php:233
+msgid "Allowed Symbols"
+msgstr "허용 된 기호"
+
+#: components/api/email/Fields.php:234
+msgid ""
+"You can validate certain types of information by disallowing certain symbols. "
+"Symbols added here will prevent the form from being submitted if added by the "
+"user."
+msgstr ""
+"특정 기호를 허용하지 않음으로써 특정 유형의 정보의 유효성을 검사 할 수 있습니다. 여기에 추가 된 기호는 사용자가 추가 한 양식이 제출되지 "
+"않도록합니다."
+
+#: components/api/email/Fields.php:238 components/api/email/Fields.php:326
+msgid "All"
+msgstr "모든"
+
+#: components/api/email/Fields.php:239
+msgid "Letters Only (A-Z)"
+msgstr "편지 만 (AZ)"
+
+#: components/api/email/Fields.php:240
+msgid "Numbers Only (0-9)"
+msgstr "숫자 전용 (0-9)"
+
+#: components/api/email/Fields.php:241
+msgid "Alphanumeric Only (A-Z, 0-9)"
+msgstr "영숫자 전용 (AZ, 0-9)"
+
+#: components/api/email/Fields.php:250
+msgid "Required Field"
+msgstr "필수 입력란"
+
+#: components/api/email/Fields.php:258
+msgid "Define whether the field should be required or optional"
+msgstr "필드를 필수 또는 선택적으로 정의해야하는지 정의하십시오."
+
+#: components/api/email/Fields.php:262
+msgid "Hidden Field"
+msgstr "숨겨진 필드"
+
+#: components/api/email/Fields.php:270
+msgid "Define whether or not the field should be visible."
+msgstr "필드를 표시할지 여부를 정의하십시오."
+
+#: components/api/email/Fields.php:280
+msgid "Make Fullwidth"
+msgstr "전폭 만들기"
+
+#: components/api/email/Fields.php:289
+msgid ""
+"If enabled, the field will take 100% of the width of the form, otherwise it will "
+"take 50%"
+msgstr "사용 설정하면 입력란의 너비가 100 %가됩니다. 그렇지 않으면 입력란의 너비가 50 %가됩니다."
+
+#: components/api/email/Fields.php:302
+msgid "Field Background Color"
+msgstr "필드 배경색"
+
+#: components/api/email/Fields.php:303
+msgid "Pick a color to fill the module's input fields."
+msgstr "색상을 선택하여 모듈의 입력 필드를 채 웁니다."
+
+#: components/api/email/Fields.php:310
+msgid "Enable"
+msgstr "사용"
+
+#: components/api/email/Fields.php:318
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of the "
+"rules below are fulfilled<br><strong>Note:</strong> Only fields with an unique "
+"and non-empty field ID can be used"
+msgstr ""
+"조건부 논리를 사용하면 아래 규칙 중 일부 또는 전부가 충족 될 때만이 필드가 표시됩니다 <br> <strong>참고 :</strong> 비어 "
+"있지 않은 고유 한 필드 ID가있는 필드 만 사용할 수 있습니다."
+
+#: components/api/email/Fields.php:322
+msgid "Relation"
+msgstr "관계"
+
+#: components/api/email/Fields.php:327
+msgid "Any"
+msgstr "어떤"
+
+#: components/api/email/Fields.php:333
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr "규칙 중 일부 또는 전부를 충족해야하는지 여부를 선택하십시오."
+
+#: components/api/email/Fields.php:340
+msgid "Rules"
+msgstr "규칙"
+
+#: components/api/email/Fields.php:341
+msgid ""
+"Conditional logic rules can be used to hide and display different input fields "
+"conditionally based on how the visitor has interacted with different inputs."
+msgstr "조건부 논리 규칙을 사용하여 방문자가 다른 입력과 상호 작용 한 방식에 따라 조건에 따라 다른 입력 필드를 숨기거나 표시 할 수 있습니다."
+
+#: components/api/email/Fields.php:383
+msgid "Choose a field..."
+msgstr "입력란을 선택하십시오 ..."
+
+#: components/api/email/Fields.php:391
+msgid "Field"
+msgstr "들"
+
+#: components/api/email/Fields.php:398
+msgid ""
+"Choose a custom field. Custom fields must be defined in your email provider "
+"account."
+msgstr "사용자 정의 필드를 선택하십시오. 맞춤 입력란은 이메일 제공 업체 계정에 정의되어 있어야합니다."
+
+#: components/api/email/Infusionsoft.php:253
+msgid "App Name"
+msgstr "앱 이름"
+
+#: components/api/email/Infusionsoft.php:366
+msgid ""
+"Successfully authorized. Subscribers count will be updated in background, please "
+"check back in %1$s %2$s"
+msgstr "성공적으로 권한이 부여되었습니다. 백그라운드에서 구독자 수가 업데이트될 것입니다. %1$s %2$s에서 다시 확인해 주세요."
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minute"
+msgstr "분"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minutes"
+msgstr "분"
+
+#: components/api/email/Infusionsoft.php:396
+msgid "Already subscribed"
+msgstr "이미 등록함"
+
+#: components/api/email/MadMimi.php:97 components/api/email/iContact.php:184
+msgid "Username"
+msgstr "사용자 이름"
+
+#: components/api/email/MailChimp.php:293
+msgid "An error occurred, please try later."
+msgstr "오류가 발생했습니다. 나중에 다시 시도해 주세요."
+
+#: components/api/email/MailChimp.php:325
+msgid "You have signed up to a lot of lists very recently, please try again later"
+msgstr "최근에 여러 목록에 등록했습니다. 나중에 다시 시도해 주세요."
+
+#: components/api/email/MailPoet.php:38 components/api/email/_MailPoet2.php:28
+#: components/api/email/_MailPoet3.php:33
+msgid "MailPoet plugin is either not installed or not activated."
+msgstr "MailPoet 플러그인이 설치되지 않았거나 활성화되지 않았습니다."
+
+#: components/api/email/Mailster.php:53
+msgid "Opt-in"
+msgstr "옵트인"
+
+#: components/api/email/Mailster.php:117
+msgid "Mailster Newsletter Plugin is not enabled!"
+msgstr "Mailster 뉴스레터 플러그인이 활성화되지 않았습니다!"
+
+#: components/api/email/Mailster.php:121
+msgid "No lists were found. Please create a Mailster list first!"
+msgstr "검색된 목록이 없습니다. 먼저 Mailster 목록을 생성해 주세요!"
+
+#: components/api/email/Mailster.php:137 components/api/email/_MailPoet2.php:97
+#: components/api/email/_MailPoet3.php:148
+msgid "An error occurred. Please try again later."
+msgstr "오류가 발생했습니다. 나중에 다시 시도해 주세요."
+
+#: components/api/email/Ontraport.php:175
+msgid "APP ID"
+msgstr "앱 ID"
+
+#: components/api/email/Provider.php:102
+msgid "Subscribed via"
+msgstr "구독 수단"
+
+#: components/api/email/SalesForce.php:144
+msgid "Instance URL"
+msgstr "인스턴스 URL"
+
+#: components/api/email/SalesForce.php:149
+msgid "Consumer Key"
+msgstr "소비자 키"
+
+#: components/api/email/SalesForce.php:154
+msgid "Consumer Secret"
+msgstr "소비자 비밀 키"
+
+#: components/api/email/SalesForce.php:161
+msgid "Organization ID"
+msgstr "조직 ID"
+
+#: components/api/email/SalesForce.php:186
+msgid "Organization ID cannot be empty"
+msgstr "조직 Id는 비워 둘 수 없습니다."
+
+#: components/api/email/SalesForce.php:256
+#: components/api/email/SalesForce.php:343
+msgid "An error occurred. Please try again."
+msgstr "오류가 발생했습니다. 나중에 다시 시도해 주세요."
+
+#: components/api/email/SalesForce.php:307
+msgid "Unknown Organization ID"
+msgstr "알 수 없는 조직 ID"
+
+#: components/api/email/_MailPoet2.php:144
+msgid "Already Subscribed"
+msgstr "이미 등록함"
+
+#: components/api/email/iContact.php:181
+msgid "App ID"
+msgstr "앱 ID"
+
+#: components/api/email/iContact.php:187
+msgid "App Password"
+msgstr "앱 비밀번호"
+
+#: components/api/email/init.php:51
+msgid "ERROR: Invalid arguments."
+msgstr "오류: 잘못된 인수."
+
+#: components/data/init.php:191
+msgid "Invalid attribute key"
+msgstr "잘못된 속성 키"
+
+#: components/data/init.php:258
+msgid "Invalid tag element"
+msgstr "잘못된 태그 요소"
+
+#: components/data/init.php:328
+msgid "This is not a valid excuse to not escape the passed value."
+msgstr "이것은 전달 된 가치를 벗어나지 않는 유효한 변명이 아닙니다."
+
+#: components/data/init.php:367
+msgid "This is not a valid excuse to not sanitize the passed value."
+msgstr "이것은 전달 된 가치를 위생적으로 정리하지 않는 유효한 변명이 아닙니다."
+
+#: components/lib/WPHttp.php:192
+msgid "A valid URL was not provided."
+msgstr "유효한 URL이 제공되지 않았습니다."
+
+#: components/lib/WPHttp.php:196
+msgid "User has blocked requests through HTTP."
+msgstr "사용자가 HTTP 요청을 차단하였습니다."
+
+#: components/lib/WPHttp.php:209
+msgid "Destination directory for file streaming does not exist or is not writable."
+msgstr "파일 스트리밍의 대상 디렉토리가 존재하지 않거나 해당 디렉토리에 쓰기 권한이 없습니다."
+
+#: functions.php:101
+msgid "Once Monthly"
+msgstr "월에 1회"
+
+#: functions.php:113
+msgid "Configuration Error"
+msgstr "구성 오류"
+
+#: functions.php:522
+msgid "Got it, thanks!"
+msgstr "알겠습니다, 감사합니다!"
+
+#: functions.php:1383
+msgid "Help"
+msgstr "도움"
+
+#: functions.php:212
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "...에"

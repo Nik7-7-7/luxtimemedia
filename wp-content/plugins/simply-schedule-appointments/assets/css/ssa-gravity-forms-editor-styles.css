@@ -1,0 +1,51 @@
+
+/* used to hide custom tabs in gravity forms editor */
+.ssa-hidden {
+	display: none !important;
+}
+	
+#field_ssa_first_available_within_duration_inputs input, 
+#field_ssa_first_available_within_duration_inputs select {
+	min-height: 36px;
+	padding: 7px, 13px, 7px, 13px !important;
+}
+
+#field_ssa_first_available_within_duration_inputs * {
+	width: 100%;
+}
+
+#field_ssa_first_available_within_duration_inputs{
+	display: flex;
+	gap: 12px;
+}
+
+.ssa-tab-container {
+	display: flex;
+	border-bottom: 1px solid #DDDDDD;
+	margin-bottom:20px;
+	height: 52px;
+}
+
+.ssa-tab {
+	flex: 1;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	background-color:unset;
+}
+
+.ssa-tab-active {
+	border-bottom: 2px solid #3E7DA6;
+}
+
+#field_ssa_booking_flow_date_view,
+#field_ssa_booking_flow_time_view {
+	min-height: 36px;
+}
+
+#date-view-tab-contents,
+#time-view-tab-contents {
+	padding: 20px 0px;
+	min-height: 72px;
+}

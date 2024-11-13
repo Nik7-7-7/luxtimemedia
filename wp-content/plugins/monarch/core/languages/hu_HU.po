@@ -1,0 +1,1367 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.elegantthemes.com/members-area/help/\n"
+"POT-Creation-Date: 2019-10-22 13:02:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elegant Themes\n"
+"Language-Team: Elegant Themes\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__"
+";esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: components/Portability.php:1874
+msgid ""
+"The browser version you are currently using is outdated. Please update to the "
+"newest version."
+msgstr "Az Ön által használt böngésző elavult. Kérjük, frissítsen a legújabb verzióra."
+
+#: components/Portability.php:1875
+msgid "You reached your server memory limit. Please try increasing your PHP memory limit."
+msgstr ""
+"Meghaladta a szervermemória limitjét. Kérjük, próbálja növelnini a PHP "
+"memórialimitet."
+
+#: components/Portability.php:1876
+msgid ""
+"This file cannot be imported. It may be caused by file_uploads being disabled in "
+"your php.ini. It may also be caused by post_max_size or/and upload_max_filesize "
+"being smaller than file selected. Please increase it or transfer more substantial "
+"data at the time."
+msgstr ""
+"Ezt a fájlt nem lehet importálni. Ez lehet amiatt, hogy a file_uploads nincs "
+"engedélyezve a php.ini fájlban. Okozhatja továbbá az is, hogy post_max_size "
+"és/vagy upload_max_filesize kisebb, mint a kiválasztott fájl. Kérjük, növelje "
+"ezeket az értékeket, vagy másoljon pillanatnyilag fontosabb adatokat."
+
+#: components/Portability.php:1877
+msgid "Invalid File format. You should be uploading a JSON file."
+msgstr "Hibás fájlformátum. JSON fájlt szükséges feltöltenie."
+
+#: components/Portability.php:1878
+msgid "This file should not be imported in this context."
+msgstr "Ezt a fájlt ebbe a környezetbe nem ajánlott importálni."
+
+#: components/Portability.php:1879
+msgid ""
+"Please select at least one item to export or disable the \"Only export selected "
+"items\" option"
+msgstr "Havonta egyszer"
+
+#: components/Portability.php:1880
+msgid "Import estimated time remaining: %smin"
+msgstr "Importálás becsült hátralevő ideje: %sperc"
+
+#: components/Portability.php:1881
+msgid "Export estimated time remaining: %smin"
+msgstr "Exportálás becsült hátralevő ideje: %sperc"
+
+#: components/Portability.php:1882
+msgid "Backup estimated time remaining: %smin"
+msgstr "Biztonsági mentés becsült hátralevő ideje: %sperc"
+
+#: components/Portability.php:1905
+msgid "Portability"
+msgstr "Hordozhatóság"
+
+#: components/Portability.php:1909
+msgid "Export"
+msgstr "Exportálás"
+
+#: components/Portability.php:1910
+msgid "Import"
+msgstr "Importálás"
+
+#: components/Portability.php:1914
+msgid ""
+"Exporting your %s will create a JSON file that can be imported into a different "
+"website."
+msgstr "A %s exportálásakor keletkezik egy JSON fájl, ami importálható egy másik weblapba."
+
+#: components/Portability.php:1915
+msgid "Export File Name"
+msgstr "Exportálandó fájl neve"
+
+#: components/Portability.php:1920
+msgid "Only export selected items"
+msgstr "Csak a kiválasztott elemek exportálása"
+
+#: components/Portability.php:1924
+msgid "Export %s"
+msgstr "%s exportálása"
+
+#: components/Portability.php:1925
+msgid "Cancel Export"
+msgstr "Exportálás visszavonása"
+
+#: components/Portability.php:1930
+msgid ""
+"Importing a previously-exported %s file will overwrite all content currently on "
+"this page."
+msgstr ""
+"Egy korábban exportált %s fájl importálása felül fogja írni a jelenlegi lapon "
+"található összes tartalmat."
+
+#: components/Portability.php:1932
+msgid ""
+"Select a previously-exported Divi Builder Layouts file to begin importing items. "
+"Large collections of image-heavy exports may take several minutes to upload."
+msgstr ""
+"Válasszon ki egy korábban exportált Divi Builder Layouts fájlt az elemek "
+"importálásnak megkezdéséhez. Sok képpel rendelkező exportálás csoportos "
+"feltöltése több percig is eltarthat."
+
+#: components/Portability.php:1934
+msgid ""
+"Importing a previously-exported %s file will overwrite all current data. Please "
+"proceed with caution!"
+msgstr ""
+"Egy korábban exportált %s fájl importálása felül fog írni minden jelenlegi "
+"adatot. Kérjük, a továbbiakban legyen óvatos!"
+
+#: components/Portability.php:1936
+msgid "Select File To Import"
+msgstr "Válasszon importálandó fájlt"
+
+#: components/Portability.php:1938
+msgid "No File Selected"
+msgstr "Nincs fájl kiválasztva"
+
+#: components/Portability.php:1939
+msgid "Choose File"
+msgstr "Válasszon fájlt"
+
+#: components/Portability.php:1943
+msgid "Download backup before importing"
+msgstr "Biztonsági mentés letöltése importálás előtt"
+
+#: components/Portability.php:1946
+msgid "Apply Layout's Defaults To This Website"
+msgstr "Alkalmazza az Elrendezés alapértelmezéseit erre a webhelyre"
+
+#: components/Portability.php:1950
+msgid "Import %s"
+msgstr "%s importálása"
+
+#: components/Portability.php:1951
+msgid "Cancel Import"
+msgstr "Importálás visszavonása"
+
+#: components/Portability.php:2053
+msgid "Import & Export"
+msgstr "Importálás és Exportálás"
+
+#: components/Portability.php:2195
+msgid "The export process failed. Please refresh the page and try again."
+msgstr "Az exportálás sikertelen volt. Kérjük, frissítse az oldalt és próbálkozzon újra."
+
+#: components/SupportCenter.php:565 components/SupportCenter.php:1593
+msgid "Support Center"
+msgstr "Támogatóközpont"
+
+#: components/SupportCenter.php:577
+msgid "Monarch Support Center"
+msgstr "Monarch Támogatási Központ"
+
+#: components/SupportCenter.php:756
+msgid "A Basic Overview Of Extra"
+msgstr "Az extra áttekintése"
+
+#: components/SupportCenter.php:760 components/SupportCenter.php:777
+msgid "Using Premade Layout Packs"
+msgstr "A Premade Layout Packs használata"
+
+#: components/SupportCenter.php:764
+msgid "Creating Category Layouts"
+msgstr "Kategóriaelrendezések létrehozása"
+
+#: components/SupportCenter.php:773 components/SupportCenter.php:886
+#: components/SupportCenter.php:910 components/SupportCenter.php:946
+msgid "Getting Started With The Divi Builder"
+msgstr "Első lépések a Divi Builderrel"
+
+#: components/SupportCenter.php:781
+msgid "The Divi Library"
+msgstr "A Divi Könyvtár"
+
+#: components/SupportCenter.php:789 components/SupportCenter.php:982
+msgid "A Basic Overview Of The Bloom Plugin"
+msgstr "A Bloom plugin alapvető áttekintése"
+
+#: components/SupportCenter.php:793
+msgid "How To Update The Bloom Plugin"
+msgstr "A Bloom plugin frissítése"
+
+#: components/SupportCenter.php:797
+msgid "How To Add Mailing List Accounts"
+msgstr "Levelezőlista-fiókok hozzáadása"
+
+#: components/SupportCenter.php:805
+msgid "A Complete Overviw Of Monarch"
+msgstr "A teljes uralkodás"
+
+#: components/SupportCenter.php:809
+msgid "Adding Social Networks"
+msgstr "Közösségi hálózatok hozzáadása"
+
+#: components/SupportCenter.php:813
+msgid "Configuring Social Follower APIs"
+msgstr "A Social Follower API-k konfigurálása"
+
+#: components/SupportCenter.php:874
+msgid "Getting Started With Extra"
+msgstr "Az Extra használatával"
+
+#: components/SupportCenter.php:878
+msgid "Setting Up The Extra Theme Options"
+msgstr "Az extra téma beállításai"
+
+#: components/SupportCenter.php:882
+msgid "The Extra Category Builder"
+msgstr "Az Extra kategóriaépítő"
+
+#: components/SupportCenter.php:890
+msgid "How To Update The Extra Theme"
+msgstr "Az Extra téma frissítése"
+
+#: components/SupportCenter.php:894 components/SupportCenter.php:918
+#: components/SupportCenter.php:954
+msgid "An Overview Of All Divi Modules"
+msgstr "Az összes Divi modul áttekintése"
+
+#: components/SupportCenter.php:898 components/SupportCenter.php:930
+#: components/SupportCenter.php:966
+msgid "Getting Started With Layout Packs"
+msgstr "Első lépések az elrendezési csomagok használatával"
+
+#: components/SupportCenter.php:902 components/SupportCenter.php:934
+msgid "Customizing Your Header And Navigation"
+msgstr "A fejléc és a navigáció testreszabása"
+
+#: components/SupportCenter.php:914
+msgid "How To Update The Divi Theme"
+msgstr "Hogyan frissítsük a Divi témát"
+
+#: components/SupportCenter.php:922 components/SupportCenter.php:958
+msgid "Using The Divi Library"
+msgstr "A Divi könyvtár használata"
+
+#: components/SupportCenter.php:926
+msgid "Setting Up The Divi Theme Options"
+msgstr "A Divi téma beállításainak beállítása"
+
+#: components/SupportCenter.php:938 components/SupportCenter.php:974
+msgid "Divi For Developers"
+msgstr "Divi fejlesztőknek"
+
+#: components/SupportCenter.php:950
+msgid "How To Update The Divi Builder"
+msgstr "A Divi Builder frissítése"
+
+#: components/SupportCenter.php:962
+msgid "Selling Products With Divi And WooCommerce"
+msgstr "Termékek értékesítése Divi és WooCommerce segítségével"
+
+#: components/SupportCenter.php:970
+msgid "Importing And Exporting Divi Layouts"
+msgstr "Divi elrendezések importálása és exportálása"
+
+#: components/SupportCenter.php:986
+msgid "How To Update Your Bloom Plugin"
+msgstr "Hogyan frissíthetem a Bloom plugin-ját"
+
+#: components/SupportCenter.php:990
+msgid "Adding Email Accounts In Bloom"
+msgstr "E-mail fiókok hozzáadása a Bloomban"
+
+#: components/SupportCenter.php:994
+msgid "Customizing Your Opt-in Designs"
+msgstr "Az opt-in minták testreszabása"
+
+#: components/SupportCenter.php:998
+msgid "The Different Bloom Opt-in Types"
+msgstr "A különböző Bloom opt-in típusok"
+
+#: components/SupportCenter.php:1002
+msgid "Using The Bloom Display Settings"
+msgstr "A Bloom Display Settings használata"
+
+#: components/SupportCenter.php:1006
+msgid "How To Use Triggers In Bloom"
+msgstr "Hogyan kell használni a triggereket a virágzásban"
+
+#: components/SupportCenter.php:1010
+msgid "Adding Custom Fields To Bloom Opt-in Forms"
+msgstr "Egyéni mezők hozzáadása az opt-in űrlapok virágzásához"
+
+#: components/SupportCenter.php:1018
+msgid "A Complete Overview Of The Monarch Plugin"
+msgstr "A Monarch Plugin teljes áttekintése"
+
+#: components/SupportCenter.php:1022
+msgid "How To Update Your Monarch WordPress Plugin"
+msgstr "A Monarch WordPress bővítmény frissítése"
+
+#: components/SupportCenter.php:1026
+msgid "Adding and Managing Social Networks"
+msgstr "Közösségi hálózatok hozzáadása és kezelése"
+
+#: components/SupportCenter.php:1030
+msgid "Configuring Social Network APIs"
+msgstr "A közösségi hálózati API-k konfigurálása"
+
+#: components/SupportCenter.php:1034
+msgid "Customizing The Monarch Design"
+msgstr "A Monarch Design testreszabása"
+
+#: components/SupportCenter.php:1038
+msgid "Viewing Your Social Stats"
+msgstr "A közösségi statisztikák megtekintése"
+
+#: components/SupportCenter.php:1042
+msgid "Using The Floating Sidebar"
+msgstr "A lebegő oldalsáv használata"
+
+#: components/SupportCenter.php:1046
+msgid "Using Popup & Flyin Triggers"
+msgstr "Felbukkanó és repülõ triggerek használata"
+
+#: components/SupportCenter.php:1129
+msgid "Divi Support Center :: WordPress debug log cannot be read."
+msgstr "A Divi Support Center :: WordPress hibakeresési napló nem olvasható."
+
+#: components/SupportCenter.php:1137
+msgid "Divi Support Center :: WordPress debug.log is not configured."
+msgstr "Divi Support Center :: WordPress debug.log nincs konfigurálva."
+
+#: components/SupportCenter.php:1158
+msgid "Divi Support Center :: WordPress debug log cannot be found."
+msgstr "A Divi Support Center :: WordPress hibakeresési napló nem található."
+
+#: components/SupportCenter.php:1202
+msgid "Writable wp-content Directory"
+msgstr "Írható wp-tartalom könyvtár"
+
+#: components/SupportCenter.php:1210
+msgid ""
+"We recommend that the wp-content directory on your server be writable by "
+"WordPress in order to ensure the full functionality of Divi Builder themes and "
+"plugins."
+msgstr ""
+"Javasoljuk, hogy a kiszolgálón lévő wp-tartalom könyvtár legyen írható a "
+"WordPress segítségével annak érdekében, hogy biztosítsa a Divi Builder témák és "
+"beépülő modulok teljes funkcionalitását."
+
+#: components/SupportCenter.php:1214
+msgid "PHP Version"
+msgstr "PHP verzió"
+
+#: components/SupportCenter.php:1222
+msgid ""
+"We recommend using the latest stable version of PHP. This will not only ensure "
+"compatibility with Divi, but it will also greatly speed up your website leading "
+"to less memory and CPU related issues."
+msgstr ""
+"Javasoljuk, hogy használja a PHP legújabb stabil verzióját. Ez nemcsak a Divi-val "
+"való kompatibilitást biztosítja, hanem nagyban felgyorsítja webhelyét, ami "
+"kevesebb memóriát és CPU-val kapcsolatos problémákat eredményez."
+
+#: components/SupportCenter.php:1226
+msgid "memory_limit"
+msgstr "memory_limit"
+
+#: components/SupportCenter.php:1234
+msgid ""
+"By default, memory limits set by your host or by WordPress may be too low. This "
+"will lead to applications crashing as PHP reaches the artificial limit. You can "
+"adjust your memory limit within your <a href=\"%1$s\" target=\"_blank\">php.ini "
+"file</a>, or by contacting your host for assistance. You may also need to define "
+"a memory limited in <a href=\"%2$s\" target=_blank\">wp-config.php</a>."
+msgstr ""
+"Alapértelmezés szerint a gazdagép vagy a WordPress által beállított memória "
+"korlátozások túl alacsonyak lehetnek. Ez az alkalmazások összeomlásához vezet, "
+"amikor a PHP eléri a mesterséges határértéket. A memóriakorlátot beállíthatja a "
+"<a href=\"%1$s\" target=\"_blank\"> php.ini fájlban </a>, vagy segítségért "
+"fordulhat a házigazdához. Lehet, hogy meg kell határoznia a <a href=\"%2$s\" "
+"target=_blank\"> wp-config.php </a> korlátozott memóriát is."
+
+#: components/SupportCenter.php:1238
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: components/SupportCenter.php:1246
+msgid ""
+"Post Max Size limits how large a page or file can be on your website. If your "
+"page is larger than the limit set in PHP, it will fail to load. Post sizes can "
+"become quite large when using the Divi Builder, so it is important to increase "
+"this limit. It also affects file size upload/download, which can prevent large "
+"layouts from being imported into the builder. You can adjust your max post size "
+"within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting "
+"your host for assistance."
+msgstr ""
+"A maximális beküldési méret korlátozza, hogy mekkora lehet egy oldal vagy fájl az "
+"Ön webhelyén. Ha az oldalad meghaladja a PHP-ben beállított korlátot, akkor nem "
+"sikerül betölteni. A levélméret meglehetősen nagy lehet a Divi Builder "
+"használatakor, ezért fontos növelni ezt a korlátot. Ez befolyásolja a fájlméret "
+"feltöltését / letöltését is, amely megakadályozhatja a nagy elrendezések "
+"importálását az építőbe. Beállíthatja a maximális hozzászólás méretét a <a "
+"href=\"%1$s\" target=\"_blank\"> php.ini fájlban </a>, vagy segítségért fordulhat "
+"a házigazdához."
+
+#: components/SupportCenter.php:1250
+msgid "max_execution_time"
+msgstr "max_execution_time"
+
+#: components/SupportCenter.php:1258
+msgid ""
+"Max Execution Time affects how long a page is allowed to load before it times "
+"out. If the limit is too low, you may not be able to import large layouts and "
+"files into the builder. You can adjust your max execution time within your <a "
+"href=\"%1$s\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"A maximális végrehajtási idő befolyásolja, hogy az oldal mikor töltődhessen be, "
+"mielőtt lejár az idő. Ha a korlátozás túl alacsony, lehet, hogy nem tudja nagy "
+"méretű elrendezéseket és fájlokat importálni az építőbe. A maximális végrehajtási "
+"időt beállíthatja a <a href=\"%1$s\"> php.ini fájlban </a>, vagy segítségért "
+"fordulhat a házigazdához."
+
+#: components/SupportCenter.php:1262
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: components/SupportCenter.php:1270
+msgid ""
+"Upload Max File Size determines that maximum file size that you are allowed to "
+"upload to your server. If the limit is too low, you may not be able to import "
+"large collections of layouts into the Divi Library. You can adjust your max file "
+"size within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by "
+"contacting your host for assistance."
+msgstr ""
+"A maximális fájlméret feltöltése meghatározza azt a maximális fájlméretet, "
+"amelyet fel lehet tölteni a szerverre. Ha a korlátozás túl alacsony, lehet, hogy "
+"nem tudja nagy méretű elrendezési gyűjteményeket importálni a Divi könyvtárba. A "
+"maximális fájlméretet beállíthatja a <a href=\"%1$s\" target=\"_blank\"> php.ini "
+"fájlban </a>, vagy segítségért fordulhat a házigazdához."
+
+#: components/SupportCenter.php:1274
+msgid "max_input_time"
+msgstr "max_input_time"
+
+#: components/SupportCenter.php:1282
+msgid ""
+"This sets the maximum time in seconds a script is allowed to parse input data. If "
+"the limit is too low, the Divi Builder may time out before it is allowed to load. "
+"You can adjust your max input time within your <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Ez beállítja a maximális időt másodpercben, amikor a szkript számára "
+"engedélyezett a bemeneti adatok elemzése. Ha a határérték túl alacsony, akkor a "
+"Divi Builder időtúlléphet, mielőtt lehetővé tenné a betöltést. A maximális "
+"bemeneti időt beállíthatja a <a href=\"%1$s\" target=\"_blank\"> php.ini fájlban "
+"</a>, vagy segítségért fordulhat a házigazdához."
+
+#: components/SupportCenter.php:1286
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: components/SupportCenter.php:1294
+msgid ""
+"This setting affects how many input variables may be accepted. If the limit is "
+"too low, it may prevent the Divi Builder from loading. You can adjust your max "
+"input variables within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, "
+"or by contacting your host for assistance."
+msgstr ""
+"Ez a beállítás befolyásolja, hogy hány bemeneti változót lehessen elfogadni. Ha a "
+"határérték túl alacsony, akkor megakadályozhatja a Divi Builder betöltését. A "
+"maximális bemeneti változókat beállíthatja a <a href=\"%1$s\" target=\"_blank\"> "
+"php.ini fájlban </a>, vagy segítségért fordulhat a házigazdához."
+
+#: components/SupportCenter.php:1298
+msgid "display_errors"
+msgstr "display_errors"
+
+#: components/SupportCenter.php:1307
+msgid ""
+"This setting determines whether or not errors should be printed as part of the "
+"page output. This is a feature to support your site's development and should "
+"never be used on production sites. You can edit this setting within your <a "
+"href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting your host for "
+"assistance."
+msgstr ""
+"Ez a beállítás határozza meg, hogy a hibákat az oldalkiadás részeként kell-e "
+"kinyomtatni. Ez egy olyan szolgáltatás, amely támogatja webhelyének fejlesztését, "
+"ezért soha nem szabad felhasználni a gyártóhelyeken. Ezt a beállítást a <a "
+"href=\"%1$s\" target=\"_blank\"> php.ini fájlban </a> szerkesztheti, vagy "
+"segítségért fordulhat a házigazdához."
+
+#: components/SupportCenter.php:1355
+msgid "This fails to meet our minimum required value of %1$s. "
+msgstr "Ez nem teljesíti a %1$s minimálisan előírt értéket."
+
+#: components/SupportCenter.php:1361
+msgid "This meets our minimum required value of %1$s. "
+msgstr "Ez megfelel a %1$s minimálisan előírt értéknek."
+
+#: components/SupportCenter.php:1373
+msgid "Learn more."
+msgstr "Tudj meg többet."
+
+#: components/SupportCenter.php:1382
+msgid "Congratulations! This meets or exceeds our recommendation of %1$s."
+msgstr "Gratulálunk! Ez megfelel vagy meghaladja a %1$s ajánlását."
+
+#: components/SupportCenter.php:1394
+msgid "We recommend %1$s for the best experience."
+msgstr "A legjobb élmény érdekében a (z) %1$s értéket ajánljuk."
+
+#: components/SupportCenter.php:1403
+msgid "- We are unable to determine your setting. %1$s"
+msgstr "- Nem tudjuk meghatározni a beállítást.  %1$s"
+
+#: components/SupportCenter.php:1466 components/SupportCenter.php:1599
+#: components/SupportCenter.php:2653
+msgid "System Status"
+msgstr "Rendszer állapot"
+
+#: components/SupportCenter.php:1473
+msgid ""
+"Congratulations, all system checks have passed. Your hosting configuration is "
+"compatible with Divi."
+msgstr ""
+"Gratulálunk, az összes rendszerellenőrzés telt el. A tárhely konfigurációja "
+"kompatibilis a Divivel."
+
+#: components/SupportCenter.php:1596
+msgid "Divi Support Center Page"
+msgstr "Divi Support Center oldal"
+
+#: components/SupportCenter.php:1602 components/SupportCenter.php:2697
+#: components/SupportCenter.php:2735
+msgid "Remote Access"
+msgstr "Távoli hozzáférés"
+
+#: components/SupportCenter.php:1605
+msgid "Divi Documentation &amp; Help"
+msgstr "Divi dokumentáció és súgó"
+
+#: components/SupportCenter.php:1608 components/SupportCenter.php:2543
+#: components/SupportCenter.php:2861
+msgid "Safe Mode"
+msgstr "Biztonságos mód"
+
+#: components/SupportCenter.php:1611 components/SupportCenter.php:2942
+msgid "Logs"
+msgstr "Naplók"
+
+#: components/SupportCenter.php:2062
+msgid "Elegant Themes API Error: HTTP error in API response"
+msgstr "Elegáns témák API-hiba: HTTP-hiba az API-válaszban"
+
+#: components/SupportCenter.php:2073
+msgid "Elegant Themes API Error: WordPress Error in API response"
+msgstr "Elegáns témák API-hiba: WordPress hiba az API-válaszban"
+
+#: components/SupportCenter.php:2105
+msgid "Elegant Themes API Error: Incorrect Token. Please, try again."
+msgstr "Elegáns témák API-hiba: Helytelen token. Kérlek próbáld újra."
+
+#: components/SupportCenter.php:2116
+msgid "Elegant Themes API Error: The API response was missing required data."
+msgstr "Elegáns témák API-hiba: Az API-válasz hiányzott a szükséges adatokról."
+
+#: components/SupportCenter.php:2129
+msgid "Elegant Themes API Error: The API responded, but the response was empty."
+msgstr "Elegáns témák API-hiba: Az API válaszolt, de a válasz üres."
+
+#: components/SupportCenter.php:2177
+msgid "Support account doesn't exist."
+msgstr "A támogatási fiók nem létezik."
+
+#: components/SupportCenter.php:2189
+msgid "Support account hasn't been removed. Try to regenerate token again."
+msgstr ""
+"A támogatási fiókot nem távolították el. Próbálkozzon újra a token "
+"regenerálásával."
+
+#: components/SupportCenter.php:2194
+msgid "Cannot get the support account data. Try to regenerate token again."
+msgstr ""
+"A támogatási fiók adatait nem lehet megkapni. Próbálkozzon újra a token "
+"regenerálásával."
+
+#: components/SupportCenter.php:2206
+msgid "Token has been deleted successfully."
+msgstr "A token sikeresen törölve lett."
+
+#: components/SupportCenter.php:2208
+msgid "Token has been deleted successfully. "
+msgstr "A token sikeresen törölve lett."
+
+#: components/SupportCenter.php:2357
+msgid "ET Support User role has been activated."
+msgstr "ET Support A felhasználói szerep aktiválva van."
+
+#: components/SupportCenter.php:2368
+msgid "ET Support User role has been elevated."
+msgstr "ET Support A felhasználói szerep megemelkedett."
+
+#: components/SupportCenter.php:2377
+msgid "ET Support User role has been deactivated."
+msgstr "ET Support A felhasználó szerepe deaktivált."
+
+#: components/SupportCenter.php:2450
+msgid "ET Safe Mode has been activated."
+msgstr "Az ET Safe Mode aktiválva van."
+
+#: components/SupportCenter.php:2454
+msgid "ET Safe Mode has been deactivated."
+msgstr "Az ET Safe Mode deaktivált."
+
+#: components/SupportCenter.php:2549
+msgid "Safe Mode is enabled and the current action cannot be performed."
+msgstr "A biztonságos mód engedélyezve van, és az aktuális művelet nem hajtható végre."
+
+#: components/SupportCenter.php:2659
+msgid "Show Full Report"
+msgstr "Teljes jelentés megjelenítése"
+
+#: components/SupportCenter.php:2660
+msgid "Hide Full Report"
+msgstr "Teljes jelentés elrejtése"
+
+#: components/SupportCenter.php:2661
+msgid "Copy Full Report"
+msgstr "Teljes jelentés másolása"
+
+#: components/SupportCenter.php:2684
+msgid "Elegant Themes Support"
+msgstr "Elegáns témák támogatása"
+
+#: components/SupportCenter.php:2685
+msgid ""
+"<p>Enabling <strong>Remote Access</strong> will give the Elegant Themes support "
+"team limited access to your WordPress Dashboard. If requested, you can also "
+"enable full admin privileges. Remote Access should only be turned on if requested "
+"by the Elegant Themes support team. Remote Access is automatically disabled after "
+"4 days.</p>"
+msgstr ""
+"<p> A <strong>Távoli hozzáférés</strong> engedélyezése az Elegáns Témák támogató "
+"csapatának korlátozott hozzáférést biztosít a WordPress Dashboardhoz. Ha "
+"szükséges, teljes adminisztrátori jogosultságokat is engedélyezhet. A távoli "
+"hozzáférést csak akkor szabad bekapcsolni, ha azt az Elegant Témák támogató "
+"csoportja kéri. A távoli hozzáférés 4 nap elteltével automatikusan le van tiltva. "
+"</p>"
+
+#: components/SupportCenter.php:2698
+msgid ""
+"Remote Access cannot be enabled because you do not have a valid API Key or your "
+"Elegant Themes subscription has expired. You can find your API Key by <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">logging in</a> to your Elegant Themes account. It should then "
+"be added to your <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Options Panel</a>."
+msgstr ""
+"A távoli elérést nem lehet engedélyezni, mert nincs érvényes API kulcs, vagy az "
+"Elegant Themes előfizetés lejárt. Az API kulcsot az Elegáns témák fiókjába való "
+"<a href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">bejelentkezéssel találhatja</a> meg. Ezután hozzá kell adni a "
+"<a href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Beállítások panelhez</a> ."
+
+#: components/SupportCenter.php:2737 components/SupportCenter.php:2760
+#: components/SupportCenter.php:2912
+msgid "Enabled"
+msgstr "Bekapcsolt"
+
+#: components/SupportCenter.php:2738 components/SupportCenter.php:2761
+#: components/SupportCenter.php:2913
+msgid "Disabled"
+msgstr "Tiltva"
+
+#: components/SupportCenter.php:2740
+msgid "Remote Access will be automatically disabled in: "
+msgstr "A távoli hozzáférés automatikusan letiltásra kerül:"
+
+#: components/SupportCenter.php:2758
+msgid "Activate Full Admin Privileges"
+msgstr "Aktiválja a teljes adminisztrátori jogosultságokat"
+
+#: components/SupportCenter.php:2776
+msgid "Copy Support Token"
+msgstr "Támogatási token másolása"
+
+#: components/SupportCenter.php:2782
+msgid "Chat With Support"
+msgstr "Csevegés támogatással"
+
+#: components/SupportCenter.php:2862
+msgid ""
+"<p>Enabling <strong>Safe Mode</strong> will temporarily disable features and "
+"plugins that may be causing problems with your Elegant Themes product. This "
+"includes all Plugins, Child Themes, and Custom Code added to your integration "
+"areas. These items are only disabled for your current user session so your "
+"visitors will not be disrupted. Enabling Safe Mode makes it easy to figure out "
+"what is causing problems on your website by identifying or eliminating third "
+"party plugins and code as potential causes.</p>"
+msgstr ""
+"<p> A <strong>Biztonságos mód</strong> engedélyezése ideiglenesen letiltja a "
+"funkciókat és a bővítményeket, amelyek problémát okozhatnak az elegáns témák "
+"termékével. Ez magában foglalja az integrációs területekhez hozzáadott összes "
+"bővítményt, gyermek témát és egyéni kódot. Ezek az elemek csak az aktuális "
+"felhasználói munkamenetben le vannak tiltva, így a látogatók nem lesznek "
+"megszakítva. A Safe Mode (Biztonságos mód) engedélyezése megkönnyíti, hogy "
+"kitaláljuk, hogy mi okoz problémát a webhelyén, azonosítva vagy kiküszöbölve a "
+"harmadik felek beépülő moduljait és kódját, mint lehetséges okokat. </p>"
+
+#: components/SupportCenter.php:2889
+msgid ""
+"<p class=\"et-safe-mode-error\">Plugins cannot be disabled because your "
+"<code>wp-content</code> directory has inconsistent file permissions. <a "
+"href=\"%1$s\" target=\"_blank\">Click here</a> for more information.</p>"
+msgstr ""
+"<p class=\"et-safe-mode-error\">A beépülő modulokat nem lehet letiltani, mert a "
+"<code> wp-content </code> könyvtár nem következetes fájljogosultságokkal "
+"rendelkezik. <a href=\"%1$s\" target=\"_blank\"> További információkért "
+"kattintson ide </a>.</p>"
+
+#: components/SupportCenter.php:2894
+msgid "The following plugins will be temporarily disabled for you only:"
+msgstr "A következő bővítmények csak ideiglenesen letilthatók az Ön számára:"
+
+#: components/SupportCenter.php:2957
+msgid "Download Full Debug Log"
+msgstr "Töltse le a teljes hibakeresési naplót"
+
+#: components/SupportCenter.php:2961
+msgid "Copy Recent Log Entries"
+msgstr "A Legutóbbi naplóbejegyzések másolása"
+
+#: components/Updates.php:25
+msgid "%s: You cannot create a second instance of this class."
+msgstr "%s: Nem hozhat létre második esetet ehhez az osztályhoz."
+
+#: components/Updates.php:425 components/VersionRollback.php:402
+msgid ""
+"<em>Before you can receive product updates, you must first authenticate your "
+"Elegant Themes subscription. To do this, you need to enter both your Elegant "
+"Themes Username and your Elegant Themes API Key into the Updates Tab in your "
+"theme and plugin settings. To locate your API Key, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> to your Elegant Themes account and navigate to the <strong>Account > API "
+"Key</strong> page. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Learn more here</a></em>. If you still get this message, please "
+"make sure that your Username and API Key have been entered correctly"
+msgstr ""
+"<em>A termék frissítéseinek megkapása előtt hitelesítenie kell az Elegant Themes "
+"előfizetését. Ennek érdekében meg kell adnia mind az Elegant Themes "
+"felhasználónevét, mind az Elegant Themes API kódját a Frissítések fülnél a "
+"témájánál és a plugin beállításainál. AZ alkalmazás kulcsának meghatározásához, "
+"<a href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">jelentkezzen be</a> az Elegant Themes fiókjába és menjen az "
+"<strong>Account > Alkalmazás kulcs</strong> oldalra. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Tudjon meg többet</a></em>. Amennyiben továbbra is megkapja ezt "
+"az üzenetet, bizonyosodjon meg róla, hogy megfelelően adta meg az API kulcsát és "
+"felhasználónevét."
+
+#: components/Updates.php:427
+msgid ""
+"Automatic updates currently unavailable. For all Elegant Themes products, please "
+"<a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">authenticate your subscription</a> via the Updates tab in your "
+"theme & plugin settings to enable product updates. Make sure that your Username "
+"and API Key have been entered correctly."
+msgstr ""
+"Az automatikus frissítések jelenleg elérhetőek. Minden Elegant Themes termékhez, "
+"kérjük <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">hitelesítse az előfizetését</a> a frissítés fülön keresztül a "
+"téma és plugin beállításoknál, így engedélyezheti a termékek frissítését. "
+"Bizonyosodjon meg róla, hogy a felhasználónevét és az API kulcsát helyesen adta "
+"meg."
+
+#: components/Updates.php:451
+msgid ""
+"Your Elegant Themes subscription has expired. You must <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">renew your "
+"account</a> to regain access to product updates and support. To ensure "
+"compatibility and security, it is important to always keep your themes and "
+"plugins updated."
+msgstr ""
+"Az Elegant Themes előfizetése lejárt. Meg kell <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">újítania a "
+"fiókját</a> a termék frissítések és segítség eléréséhez. A kompatibilitás és "
+"biztonság biztosítása érdekében fontos, hogy a témái és plugin-jei mindig "
+"frissítve legyenek."
+
+#: components/VersionRollback.php:96 components/VersionRollback.php:303
+#: components/api/ElegantThemes.php:107 components/api/ElegantThemes.php:226
+msgid "An unknown error has occurred. Please try again later."
+msgstr "Hiba történt. Kérjük, próbálja újra később."
+
+#: components/VersionRollback.php:205
+msgid "Security check failed. Please refresh and try again."
+msgstr "Az exportálás sikertelen volt. Kérjük, frissítse az oldalt és próbálkozzon újra."
+
+#: components/VersionRollback.php:212
+msgid "You don't have sufficient permissions to access this page."
+msgstr "Nincs elegendő jogosultsága ehhez az oldalhoz."
+
+#: components/VersionRollback.php:220 components/VersionRollback.php:546
+msgid ""
+"You're currently rolled back to <strong>Version %1$s</strong> from "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"A ( <strong>z)</strong> <strong> %2$s verzióról</strong> jelenleg visszaállt a "
+"(z) <strong> %1$s</strong> <strong>verzióra</strong> ."
+
+#: components/VersionRollback.php:227 components/VersionRollback.php:555
+msgid ""
+"Update to the latest version to unlock the full power of %1$s. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Frissítse a legújabb verziót a %1$s teljes teljesítményének feloldásához. <a "
+"href=\"%2$s\" target=\"_blank\">További információ itt</a> ."
+
+#: components/VersionRollback.php:248 components/api/ElegantThemes.php:218
+msgid ""
+"For privacy and security reasons, you cannot rollback to <strong>Version "
+"%1$s</strong>."
+msgstr ""
+"Adatvédelmi és biztonsági okokból nem lehet visszavonni a (z) <strong> %1$s "
+"verzióra</strong> ."
+
+#: components/VersionRollback.php:254
+msgid "Learn more here."
+msgstr "További információ itt."
+
+#: components/VersionRollback.php:398 components/VersionRollback.php:446
+#: components/VersionRollback.php:485 components/VersionRollback.php:537
+msgid "Version Rollback"
+msgstr "Verzió visszaállítása"
+
+#: components/VersionRollback.php:428 components/VersionRollback.php:516
+msgid "Rollback to the previous version"
+msgstr "Visszaállítás az előző verzióhoz"
+
+#: components/VersionRollback.php:455 components/api/ElegantThemes.php:212
+msgid "The previously used version of %1$s does not support version rollback."
+msgstr "A korábban használt %1$s verzió nem támogatja a verzió visszagörgetését."
+
+#: components/VersionRollback.php:494
+msgid ""
+"You'll be rolled back to <strong>Version %1$s</strong> from the current "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Vissza fog térni a ( <strong>z)</strong> <strong> %2$s</strong> aktuális "
+"<strong>verziójához: %1$s</strong> ."
+
+#: components/VersionRollback.php:503
+msgid ""
+"Rolling back will reinstall the previous version of %1$s. You will be able to "
+"update to the latest version at any time. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"A visszaállítás visszaállítja a %1$s előző verzióját. Bármikor frissítheti a "
+"legújabb verziót. <a href=\"%2$s\" target=\"_blank\">További információ itt</a> ."
+
+#: components/VersionRollback.php:511
+msgid "Make sure you have a full site backup before proceeding."
+msgstr ""
+"Mielőtt folytatná, győződjön meg róla, hogy van egy teljes webhely biztonsági "
+"mentése."
+
+#: components/VersionRollback.php:563
+msgid "Update to the Latest Version"
+msgstr "Frissítés a legújabb verzióra"
+
+#: components/api/ElegantThemes.php:116
+msgid "Invalid Username and/or API Key provided."
+msgstr "Nem volt megadva érvényes URL."
+
+#: components/api/ElegantThemes.php:206
+msgid ""
+"An unexpected response was received from the version server. Please try again "
+"later."
+msgstr "Váratlan válasz érkezett a verziószerverről. Kérlek, próbáld újra később."
+
+#: components/api/Service.php:238
+msgid "API request failed, please try again."
+msgstr "API kérés nem sikerült, kérjük, próbálja meg újra."
+
+#: components/api/Service.php:239
+msgid "API request failed. API Key is required."
+msgstr "API kérés nem sikerült. API kulcs szükséges."
+
+#: components/api/email/ActiveCampaign.php:106
+#: components/api/email/CampaignMonitor.php:163
+#: components/api/email/ConstantContact.php:143
+#: components/api/email/ConvertKit.php:146
+#: components/api/email/Feedblitz.php:80
+#: components/api/email/GetResponse.php:100
+#: components/api/email/HubSpot.php:138
+#: components/api/email/Infusionsoft.php:250
+#: components/api/email/MadMimi.php:100 components/api/email/MailChimp.php:218
+#: components/api/email/MailerLite.php:93
+#: components/api/email/Ontraport.php:172
+#: components/api/email/SendinBlue.php:96
+msgid "API Key"
+msgstr "API Kulcs"
+
+#: components/api/email/ActiveCampaign.php:109
+msgid "API URL"
+msgstr "API URL"
+
+#: components/api/email/ActiveCampaign.php:113
+msgid "Form ID"
+msgstr "Form Azonosító"
+
+#: components/api/email/Aweber.php:164
+msgid "Authorization Code"
+msgstr "Hitelesítő kód"
+
+#: components/api/email/ConstantContact.php:146
+msgid "Access Token"
+msgstr "Hozzáférési token"
+
+#: components/api/email/ConvertKit.php:149
+msgid "API Secret"
+msgstr "API Titok"
+
+#: components/api/email/Emma.php:87
+msgid "Public API Key"
+msgstr "Publikus API kulcs"
+
+#: components/api/email/Emma.php:90
+msgid "Private API Key"
+msgstr "Privát API Kulcs"
+
+#: components/api/email/Emma.php:93
+msgid "Account ID"
+msgstr "Fiók azonosító"
+
+#: components/api/email/Fields.php:30
+msgid "Use Custom Fields"
+msgstr "Használja az Egyéni mezőket"
+
+#: components/api/email/Fields.php:33 components/api/email/Fields.php:255
+#: components/api/email/Fields.php:267 components/api/email/Fields.php:284
+#: components/api/email/Fields.php:315
+msgid "Yes"
+msgstr "Igen"
+
+#: components/api/email/Fields.php:34 components/api/email/Fields.php:256
+#: components/api/email/Fields.php:268 components/api/email/Fields.php:285
+#: components/api/email/Fields.php:316
+msgid "No"
+msgstr "Nem"
+
+#: components/api/email/Fields.php:41
+msgid "Enable this option to use custom fields in your opt-in form."
+msgstr "Engedélyezze ezt az opciót az egyéni mezők használatához az opt-in formában."
+
+#: components/api/email/Fields.php:75
+msgid "Link URL"
+msgstr "Link URL"
+
+#: components/api/email/Fields.php:76
+msgid "Link Text"
+msgstr "Link szöveg"
+
+#: components/api/email/Fields.php:77
+msgid "Discard Changes"
+msgstr "Módosítások elvetése"
+
+#: components/api/email/Fields.php:78
+msgid "Save Changes"
+msgstr "Változtatások mentése"
+
+#: components/api/email/Fields.php:79
+msgid "Option Link"
+msgstr "Opció hivatkozás"
+
+#: components/api/email/Fields.php:88
+msgid "ID"
+msgstr "ID"
+
+#: components/api/email/Fields.php:91
+msgid ""
+"Define a unique ID for this field. You should use only English characters without "
+"special characters or spaces."
+msgstr ""
+"Adjon meg egyedi azonosítót a mezőhöz. Csak angol karaktereket használjon "
+"speciális karakterek vagy szóközök nélkül."
+
+#: components/api/email/Fields.php:98
+msgid "Name"
+msgstr "Név"
+
+#: components/api/email/Fields.php:100
+msgid "Set the label that will appear above this field in the opt-in form."
+msgstr "Állítsa be azt a címkét, amely a mező felett jelenik meg az opt-in formában."
+
+#: components/api/email/Fields.php:110
+msgid "Type"
+msgstr "típus"
+
+#: components/api/email/Fields.php:115
+msgid "Choose a field type..."
+msgstr "Válasszon egy mezőtípust ..."
+
+#: components/api/email/Fields.php:116
+msgid "Input Field"
+msgstr "Beviteli mező"
+
+#: components/api/email/Fields.php:117
+msgid "Email Field"
+msgstr "E-mail mező"
+
+#: components/api/email/Fields.php:118
+msgid "Textarea"
+msgstr "textarea"
+
+#: components/api/email/Fields.php:119
+msgid "Checkboxes"
+msgstr "négyzeteket"
+
+#: components/api/email/Fields.php:120
+msgid "Radio Buttons"
+msgstr "Rádió gombok"
+
+#: components/api/email/Fields.php:121
+msgid "Select Dropdown"
+msgstr "Válassza ki a Lekapcsolás lehetőséget"
+
+#: components/api/email/Fields.php:123
+msgid "Choose the type of field"
+msgstr "Válassza ki a mező típusát"
+
+#: components/api/email/Fields.php:133
+msgid "Checked By Default"
+msgstr "Alapértelmezés szerint ellenőrzött"
+
+#: components/api/email/Fields.php:134
+msgid ""
+"If enabled, the check mark will be automatically selected for the visitor. They "
+"can still deselect it."
+msgstr ""
+"Ha engedélyezve van, a pipa automatikusan kiválasztásra kerül a látogató számára. "
+"Még mindig törölhetik azt."
+
+#: components/api/email/Fields.php:144 components/api/email/Fields.php:163
+#: components/api/email/Fields.php:182
+msgid "Options"
+msgstr "Opciók"
+
+#: components/api/email/Fields.php:199
+msgid "Minimum Length"
+msgstr "Minimális hossz"
+
+#: components/api/email/Fields.php:200 components/api/email/Fields.php:217
+msgid "Leave at 0 to remove restriction"
+msgstr "A korlátozás eltávolításához hagyja a 0-at"
+
+#: components/api/email/Fields.php:216
+msgid "Maximum Length"
+msgstr "Maximális hossz"
+
+#: components/api/email/Fields.php:233
+msgid "Allowed Symbols"
+msgstr "Engedélyezett szimbólumok"
+
+#: components/api/email/Fields.php:234
+msgid ""
+"You can validate certain types of information by disallowing certain symbols. "
+"Symbols added here will prevent the form from being submitted if added by the "
+"user."
+msgstr ""
+"Bizonyos típusú információkat érvényesíthet bizonyos szimbólumok letiltásával. Az "
+"itt hozzáadott szimbólumok megakadályozzák, hogy az űrlapot a felhasználó adja "
+"hozzá."
+
+#: components/api/email/Fields.php:238 components/api/email/Fields.php:326
+msgid "All"
+msgstr "Minden"
+
+#: components/api/email/Fields.php:239
+msgid "Letters Only (A-Z)"
+msgstr "Csak betűk (AZ)"
+
+#: components/api/email/Fields.php:240
+msgid "Numbers Only (0-9)"
+msgstr "Csak számok (0-9)"
+
+#: components/api/email/Fields.php:241
+msgid "Alphanumeric Only (A-Z, 0-9)"
+msgstr "Csak alfanumerikus (AZ, 0-9)"
+
+#: components/api/email/Fields.php:250
+msgid "Required Field"
+msgstr "Kötelező mező"
+
+#: components/api/email/Fields.php:258
+msgid "Define whether the field should be required or optional"
+msgstr "Határozza meg, hogy a mezőt kötelező-e vagy nem kötelező-e"
+
+#: components/api/email/Fields.php:262
+msgid "Hidden Field"
+msgstr "Rejtett mező"
+
+#: components/api/email/Fields.php:270
+msgid "Define whether or not the field should be visible."
+msgstr "Határozza meg, hogy a mező látható-e."
+
+#: components/api/email/Fields.php:280
+msgid "Make Fullwidth"
+msgstr "Teljes szélesség"
+
+#: components/api/email/Fields.php:289
+msgid ""
+"If enabled, the field will take 100% of the width of the form, otherwise it will "
+"take 50%"
+msgstr ""
+"Ha engedélyezve van, a mező 100% -a lesz az űrlap szélességének, különben 50% -ot "
+"vesz igénybe"
+
+#: components/api/email/Fields.php:302
+msgid "Field Background Color"
+msgstr "Terepi háttérszín"
+
+#: components/api/email/Fields.php:303
+msgid "Pick a color to fill the module's input fields."
+msgstr "Válasszon színt a modul beviteli mezőinek kitöltéséhez."
+
+#: components/api/email/Fields.php:310
+msgid "Enable"
+msgstr "Engedélyezze"
+
+#: components/api/email/Fields.php:318
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of the "
+"rules below are fulfilled<br><strong>Note:</strong> Only fields with an unique "
+"and non-empty field ID can be used"
+msgstr ""
+"A feltételes logika engedélyezése ezt a mezőt csak akkor látja, ha az alábbi "
+"szabályok bármelyike vagy mindegyike teljesül <br> <strong>Megjegyzés:</strong> "
+"Csak olyan mezők használhatók, amelyek egyedi és nem üres mezőazonosítóval "
+"rendelkeznek"
+
+#: components/api/email/Fields.php:322
+msgid "Relation"
+msgstr "Kapcsolat"
+
+#: components/api/email/Fields.php:327
+msgid "Any"
+msgstr "Bármilyen"
+
+#: components/api/email/Fields.php:333
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr "Válassza ki, hogy a szabályok valamelyike vagy mindegyike teljesüljön-e"
+
+#: components/api/email/Fields.php:340
+msgid "Rules"
+msgstr "szabályok"
+
+#: components/api/email/Fields.php:341
+msgid ""
+"Conditional logic rules can be used to hide and display different input fields "
+"conditionally based on how the visitor has interacted with different inputs."
+msgstr ""
+"A feltételes logikai szabályokat különböző bemeneti mezők elrejtésére és "
+"megjelenítésére lehet használni, feltételesen a látogató különböző bemenetekkel "
+"való kölcsönhatása alapján."
+
+#: components/api/email/Fields.php:383
+msgid "Choose a field..."
+msgstr "Válasszon mezőt ..."
+
+#: components/api/email/Fields.php:391
+msgid "Field"
+msgstr "Mező"
+
+#: components/api/email/Fields.php:398
+msgid ""
+"Choose a custom field. Custom fields must be defined in your email provider "
+"account."
+msgstr ""
+"Válasszon egy egyéni mezőt. Az egyedi mezőket az e-mail szolgáltató fiókjában meg "
+"kell határozni."
+
+#: components/api/email/Infusionsoft.php:253
+msgid "App Name"
+msgstr "Alkalmazás Név"
+
+#: components/api/email/Infusionsoft.php:366
+msgid ""
+"Successfully authorized. Subscribers count will be updated in background, please "
+"check back in %1$s %2$s"
+msgstr ""
+"Sikeres hitelesítés. Az előfizetés számláló frissítve lesz a háttérben, kérjük "
+"térjen vissza %1$s %2$s múlva."
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minute"
+msgstr "perc"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minutes"
+msgstr "perc"
+
+#: components/api/email/Infusionsoft.php:396
+msgid "Already subscribed"
+msgstr "Már előfizet"
+
+#: components/api/email/MadMimi.php:97 components/api/email/iContact.php:184
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: components/api/email/MailChimp.php:293
+msgid "An error occurred, please try later."
+msgstr "Hiba történt. Kérjük, próbálja újra később."
+
+#: components/api/email/MailChimp.php:325
+msgid "You have signed up to a lot of lists very recently, please try again later"
+msgstr "Mostanában sok listára iratkozott fel, kérjük, próbálja meg később."
+
+#: components/api/email/MailPoet.php:38 components/api/email/_MailPoet2.php:28
+#: components/api/email/_MailPoet3.php:33
+msgid "MailPoet plugin is either not installed or not activated."
+msgstr "A MailPoet plugin nincs telepítve vagy nincs aktiválva."
+
+#: components/api/email/Mailster.php:53
+msgid "Opt-in"
+msgstr "Opt-in"
+
+#: components/api/email/Mailster.php:117
+msgid "Mailster Newsletter Plugin is not enabled!"
+msgstr "Mailster Hírlevél Plugin nincs bekapcsolva!"
+
+#: components/api/email/Mailster.php:121
+msgid "No lists were found. Please create a Mailster list first!"
+msgstr "Nem találtunk listát. Kérjük, előszőr hozzon létre egy Mailster listát!"
+
+#: components/api/email/Mailster.php:137 components/api/email/_MailPoet2.php:97
+#: components/api/email/_MailPoet3.php:148
+msgid "An error occurred. Please try again later."
+msgstr "Hiba történt. Kérjük, próbálja újra később."
+
+#: components/api/email/Ontraport.php:175
+msgid "APP ID"
+msgstr "Alkalmazás Azonosító"
+
+#: components/api/email/Provider.php:102
+msgid "Subscribed via"
+msgstr "Feliratkozva ezen keresztül"
+
+#: components/api/email/SalesForce.php:144
+msgid "Instance URL"
+msgstr "Példa URL"
+
+#: components/api/email/SalesForce.php:149
+msgid "Consumer Key"
+msgstr "Fogyasztói Kulcs"
+
+#: components/api/email/SalesForce.php:154
+msgid "Consumer Secret"
+msgstr "Fogyasztói Titok"
+
+#: components/api/email/SalesForce.php:161
+msgid "Organization ID"
+msgstr "Szervezet Azonosító"
+
+#: components/api/email/SalesForce.php:186
+msgid "Organization ID cannot be empty"
+msgstr "A Szervezeti Azonosító nem lehet üres"
+
+#: components/api/email/SalesForce.php:256
+#: components/api/email/SalesForce.php:343
+msgid "An error occurred. Please try again."
+msgstr "Hiba történt. Kérjük, próbálja újra később."
+
+#: components/api/email/SalesForce.php:307
+msgid "Unknown Organization ID"
+msgstr "Ismeretlen Szervezeti Azonosító."
+
+#: components/api/email/_MailPoet2.php:144
+msgid "Already Subscribed"
+msgstr "Már előfizet"
+
+#: components/api/email/iContact.php:181
+msgid "App ID"
+msgstr "Alkalmazásazonosító"
+
+#: components/api/email/iContact.php:187
+msgid "App Password"
+msgstr "Alkalmazás jelszava"
+
+#: components/api/email/init.php:51
+msgid "ERROR: Invalid arguments."
+msgstr "HIBA: Helytelen argumentumok."
+
+#: components/data/init.php:191
+msgid "Invalid attribute key"
+msgstr "Érvénytelen attribútumkulcs"
+
+#: components/data/init.php:258
+msgid "Invalid tag element"
+msgstr "Érvénytelen címke elem"
+
+#: components/data/init.php:328
+msgid "This is not a valid excuse to not escape the passed value."
+msgstr "Ez nem érvényes kifogás, hogy ne hagyja el az átadott értéket."
+
+#: components/data/init.php:367
+msgid "This is not a valid excuse to not sanitize the passed value."
+msgstr "Ez nem érvényes kifogás, hogy ne tisztítsa meg az átadott értéket."
+
+#: components/lib/WPHttp.php:192
+msgid "A valid URL was not provided."
+msgstr "Nem volt megadva érvényes URL."
+
+#: components/lib/WPHttp.php:196
+msgid "User has blocked requests through HTTP."
+msgstr "A felhasználó leblokkolta a http kéréseket."
+
+#: components/lib/WPHttp.php:209
+msgid "Destination directory for file streaming does not exist or is not writable."
+msgstr "A célmappa a fájl megosztáshoz nem létezik, vagy nem írható."
+
+#: functions.php:101
+msgid "Once Monthly"
+msgstr "Havonta egyszer"
+
+#: functions.php:113
+msgid "Configuration Error"
+msgstr "Konfigurációs hiba"
+
+#: functions.php:522
+msgid "Got it, thanks!"
+msgstr "Rendben, köszönöm!"
+
+#: functions.php:1383
+msgid "Help"
+msgstr "Segítség"
+
+#: functions.php:212
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "tovább"

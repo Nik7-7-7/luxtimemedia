@@ -1,0 +1,11 @@
+@import "../../scss/base";
+
+.et-core-popup {
+  &__wrapper {
+    background: $white;
+    box-shadow: 0 5px 30px rgba(43, 135, 218, 0.2);
+    border-radius: 3px;
+    position: fixed;
+    z-index: map-get($z-index, level-three);
+  }
+}

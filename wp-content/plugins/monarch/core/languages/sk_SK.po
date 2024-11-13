@@ -1,0 +1,1358 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.elegantthemes.com/members-area/help/\n"
+"POT-Creation-Date: 2019-10-22 13:02:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elegant Themes\n"
+"Language-Team: Elegant Themes\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__"
+";esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: components/Portability.php:1874
+msgid ""
+"The browser version you are currently using is outdated. Please update to the "
+"newest version."
+msgstr "Používate zastaranú verziu prehliadača. Aktualizujte ho na najnovšiu verziu."
+
+#: components/Portability.php:1875
+msgid "You reached your server memory limit. Please try increasing your PHP memory limit."
+msgstr "Dosiahli ste pamäťový limit servera. Skúste zvýšiť svoj pamäťový limit PHP."
+
+#: components/Portability.php:1876
+msgid ""
+"This file cannot be imported. It may be caused by file_uploads being disabled in "
+"your php.ini. It may also be caused by post_max_size or/and upload_max_filesize "
+"being smaller than file selected. Please increase it or transfer more substantial "
+"data at the time."
+msgstr ""
+"Tento súbor nie je možné importovať. Problém môže byť spôsobený tým, že vo vašom "
+"súbore php.ini je vypnutá možnosť file_uploads. Môže byť spôsobený aj tým, že "
+"hodnoty post_max_size a/alebo upload_max_filesize sú menšie než vybratý súbor. "
+"Zvýšte ich alebo zatiaľ prenášajte hlavne dôležitejšie dáta."
+
+#: components/Portability.php:1877
+msgid "Invalid File format. You should be uploading a JSON file."
+msgstr "Nesprávny formát súboru. Mali by ste nahrať súbor vo formáte JSON."
+
+#: components/Portability.php:1878
+msgid "This file should not be imported in this context."
+msgstr "Tento súbor by sa v tomto kontexte nemal importovať."
+
+#: components/Portability.php:1879
+msgid ""
+"Please select at least one item to export or disable the \"Only export selected "
+"items\" option"
+msgstr ""
+"Vyberte aspoň jednu položku na export alebo zakázanie možnosti \"Exportovať len "
+"vybraté položky\""
+
+#: components/Portability.php:1880
+msgid "Import estimated time remaining: %smin"
+msgstr "Odhadovaný zostávajúci čas importovania: %s min."
+
+#: components/Portability.php:1881
+msgid "Export estimated time remaining: %smin"
+msgstr "Odhadovaný zostávajúci čas exportovania: %s min."
+
+#: components/Portability.php:1882
+msgid "Backup estimated time remaining: %smin"
+msgstr "Odhadovaný zostávajúci čas zálohovania: %s min."
+
+#: components/Portability.php:1905
+msgid "Portability"
+msgstr "Prenosnosť"
+
+#: components/Portability.php:1909
+msgid "Export"
+msgstr "Exportovanie"
+
+#: components/Portability.php:1910
+msgid "Import"
+msgstr "Importovanie"
+
+#: components/Portability.php:1914
+msgid ""
+"Exporting your %s will create a JSON file that can be imported into a different "
+"website."
+msgstr ""
+"Exportovaním vášho %s vznikne súbor vo formáte JSON, ktorý môžete importovať do "
+"inej webovej stránky."
+
+#: components/Portability.php:1915
+msgid "Export File Name"
+msgstr "Názov súboru na export"
+
+#: components/Portability.php:1920
+msgid "Only export selected items"
+msgstr "Exportovať iba vybraté položky"
+
+#: components/Portability.php:1924
+msgid "Export %s"
+msgstr "Exportovať %s"
+
+#: components/Portability.php:1925
+msgid "Cancel Export"
+msgstr "Zrušiť export"
+
+#: components/Portability.php:1930
+msgid ""
+"Importing a previously-exported %s file will overwrite all content currently on "
+"this page."
+msgstr ""
+"Importovaním už exportovaného súboru %s sa prepíše všetok obsah, ktorý je "
+"aktuálne na tejto stránke."
+
+#: components/Portability.php:1932
+msgid ""
+"Select a previously-exported Divi Builder Layouts file to begin importing items. "
+"Large collections of image-heavy exports may take several minutes to upload."
+msgstr ""
+"Ak chcete začať importovať položky, vyberte už exportovaný súbor s rozloženiami "
+"Divi Builder. Ak nahrávate veľké množstvá exportov s množstvom obrázkov, "
+"nahrávanie môže potrvať niekoľko minút."
+
+#: components/Portability.php:1934
+msgid ""
+"Importing a previously-exported %s file will overwrite all current data. Please "
+"proceed with caution!"
+msgstr ""
+"Importovaním už exportovaného súboru %s sa prepíšu všetky aktuálne dáta. "
+"Postupujte opatrne!"
+
+#: components/Portability.php:1936
+msgid "Select File To Import"
+msgstr "Vyberte súbor na importovanie"
+
+#: components/Portability.php:1938
+msgid "No File Selected"
+msgstr "Nevybrali ste žiadny súbor"
+
+#: components/Portability.php:1939
+msgid "Choose File"
+msgstr "Vyberte súbor"
+
+#: components/Portability.php:1943
+msgid "Download backup before importing"
+msgstr "Pred importovaním stiahnuť zálohu"
+
+#: components/Portability.php:1946
+msgid "Apply Layout's Defaults To This Website"
+msgstr "Použiť predvolené nastavenia rozloženia na tento web"
+
+#: components/Portability.php:1950
+msgid "Import %s"
+msgstr "Importovať %s"
+
+#: components/Portability.php:1951
+msgid "Cancel Import"
+msgstr "Zrušiť import"
+
+#: components/Portability.php:2053
+msgid "Import & Export"
+msgstr "Importovanie & Exportovanie"
+
+#: components/Portability.php:2195
+msgid "The export process failed. Please refresh the page and try again."
+msgstr "Exportovanie zlyhalo. Obnovte stránku a skúste to znova."
+
+#: components/SupportCenter.php:565 components/SupportCenter.php:1593
+msgid "Support Center"
+msgstr "Centrum podpory"
+
+#: components/SupportCenter.php:577
+msgid "Monarch Support Center"
+msgstr "Monarch Support Center"
+
+#: components/SupportCenter.php:756
+msgid "A Basic Overview Of Extra"
+msgstr "Základný prehľad extra"
+
+#: components/SupportCenter.php:760 components/SupportCenter.php:777
+msgid "Using Premade Layout Packs"
+msgstr "Použitie balíčkov Premade Layout"
+
+#: components/SupportCenter.php:764
+msgid "Creating Category Layouts"
+msgstr "Vytváranie rozloženia kategórií"
+
+#: components/SupportCenter.php:773 components/SupportCenter.php:886
+#: components/SupportCenter.php:910 components/SupportCenter.php:946
+msgid "Getting Started With The Divi Builder"
+msgstr "Začíname pracovať s programom Divi Builder"
+
+#: components/SupportCenter.php:781
+msgid "The Divi Library"
+msgstr "Knižnica Divi"
+
+#: components/SupportCenter.php:789 components/SupportCenter.php:982
+msgid "A Basic Overview Of The Bloom Plugin"
+msgstr "Základný prehľad doplnku Bloom"
+
+#: components/SupportCenter.php:793
+msgid "How To Update The Bloom Plugin"
+msgstr "Ako aktualizovať Bloom Plugin"
+
+#: components/SupportCenter.php:797
+msgid "How To Add Mailing List Accounts"
+msgstr "Ako pridať účty zoznamu adries"
+
+#: components/SupportCenter.php:805
+msgid "A Complete Overviw Of Monarch"
+msgstr "Úplné prepracovanie Monarcha"
+
+#: components/SupportCenter.php:809
+msgid "Adding Social Networks"
+msgstr "Pridávanie sociálnych sietí"
+
+#: components/SupportCenter.php:813
+msgid "Configuring Social Follower APIs"
+msgstr "Konfigurácia rozhraní API pre sociálne sledovače"
+
+#: components/SupportCenter.php:874
+msgid "Getting Started With Extra"
+msgstr "Začíname pracovať s doplnkom"
+
+#: components/SupportCenter.php:878
+msgid "Setting Up The Extra Theme Options"
+msgstr "Nastavenie možností doplnkovej témy"
+
+#: components/SupportCenter.php:882
+msgid "The Extra Category Builder"
+msgstr "Builder pre extra kategórie"
+
+#: components/SupportCenter.php:890
+msgid "How To Update The Extra Theme"
+msgstr "Ako aktualizovať Extra tému"
+
+#: components/SupportCenter.php:894 components/SupportCenter.php:918
+#: components/SupportCenter.php:954
+msgid "An Overview Of All Divi Modules"
+msgstr "Prehľad všetkých modulov Divi"
+
+#: components/SupportCenter.php:898 components/SupportCenter.php:930
+#: components/SupportCenter.php:966
+msgid "Getting Started With Layout Packs"
+msgstr "Začíname s balíčkami rozloženia"
+
+#: components/SupportCenter.php:902 components/SupportCenter.php:934
+msgid "Customizing Your Header And Navigation"
+msgstr "Prispôsobenie vašej hlavičky a navigácie"
+
+#: components/SupportCenter.php:914
+msgid "How To Update The Divi Theme"
+msgstr "Ako aktualizovať Divi tému"
+
+#: components/SupportCenter.php:922 components/SupportCenter.php:958
+msgid "Using The Divi Library"
+msgstr "Používanie knižnice Divi"
+
+#: components/SupportCenter.php:926
+msgid "Setting Up The Divi Theme Options"
+msgstr "Nastavenie možností Divi Theme"
+
+#: components/SupportCenter.php:938 components/SupportCenter.php:974
+msgid "Divi For Developers"
+msgstr "Divi Pre vývojárov"
+
+#: components/SupportCenter.php:950
+msgid "How To Update The Divi Builder"
+msgstr "Ako aktualizovať Divi Builder"
+
+#: components/SupportCenter.php:962
+msgid "Selling Products With Divi And WooCommerce"
+msgstr "Predaj výrobkov s Divi a WooCommerce"
+
+#: components/SupportCenter.php:970
+msgid "Importing And Exporting Divi Layouts"
+msgstr "Import a export rozvrhov Divi"
+
+#: components/SupportCenter.php:986
+msgid "How To Update Your Bloom Plugin"
+msgstr "Ako aktualizovať váš doplnok Bloom"
+
+#: components/SupportCenter.php:990
+msgid "Adding Email Accounts In Bloom"
+msgstr "Blokovanie e-mailových účtov"
+
+#: components/SupportCenter.php:994
+msgid "Customizing Your Opt-in Designs"
+msgstr "Prispôsobenie návrhov opt-in"
+
+#: components/SupportCenter.php:998
+msgid "The Different Bloom Opt-in Types"
+msgstr "Rôzne typy opt-in Bloom"
+
+#: components/SupportCenter.php:1002
+msgid "Using The Bloom Display Settings"
+msgstr "Používanie nastavení Bloom Display"
+
+#: components/SupportCenter.php:1006
+msgid "How To Use Triggers In Bloom"
+msgstr "Ako používať spúšťače Bloom"
+
+#: components/SupportCenter.php:1010
+msgid "Adding Custom Fields To Bloom Opt-in Forms"
+msgstr "Pridanie vlastných polí do Bloom Opt-in Form"
+
+#: components/SupportCenter.php:1018
+msgid "A Complete Overview Of The Monarch Plugin"
+msgstr "Kompletný prehľad doplnku Monarch"
+
+#: components/SupportCenter.php:1022
+msgid "How To Update Your Monarch WordPress Plugin"
+msgstr "Ako aktualizovať váš doplnok Monarch WordPress"
+
+#: components/SupportCenter.php:1026
+msgid "Adding and Managing Social Networks"
+msgstr "Pridávanie a správa sociálnych sietí"
+
+#: components/SupportCenter.php:1030
+msgid "Configuring Social Network APIs"
+msgstr "Konfigurácia rozhraní API sociálnych sietí"
+
+#: components/SupportCenter.php:1034
+msgid "Customizing The Monarch Design"
+msgstr "Prispôsobenie dizajnu Monarch"
+
+#: components/SupportCenter.php:1038
+msgid "Viewing Your Social Stats"
+msgstr "Zobrazenie vašich sociálnych štatistík"
+
+#: components/SupportCenter.php:1042
+msgid "Using The Floating Sidebar"
+msgstr "Použitie plávajúceho bočného panela"
+
+#: components/SupportCenter.php:1046
+msgid "Using Popup & Flyin Triggers"
+msgstr "Používanie spúšťacích okien Popup a Flyin"
+
+#: components/SupportCenter.php:1129
+msgid "Divi Support Center :: WordPress debug log cannot be read."
+msgstr "Centrum podpory Divi :: WordPress debug log nemožno čítať."
+
+#: components/SupportCenter.php:1137
+msgid "Divi Support Center :: WordPress debug.log is not configured."
+msgstr "Centrum podpory Divi :: WordPress debug.log nie je nakonfigurovaný."
+
+#: components/SupportCenter.php:1158
+msgid "Divi Support Center :: WordPress debug log cannot be found."
+msgstr "Centrum podpory Divi :: WordPress debug log nemožno nájsť."
+
+#: components/SupportCenter.php:1202
+msgid "Writable wp-content Directory"
+msgstr "Zapisovateľný adresár wp-obsahu"
+
+#: components/SupportCenter.php:1210
+msgid ""
+"We recommend that the wp-content directory on your server be writable by "
+"WordPress in order to ensure the full functionality of Divi Builder themes and "
+"plugins."
+msgstr ""
+"Odporúčame, aby bol adresár wp-content na vašom serveri zapisovateľný programom "
+"WordPress, aby sa zabezpečila plná funkčnosť tém a zásuvných modulov programu "
+"Divi Builder."
+
+#: components/SupportCenter.php:1214
+msgid "PHP Version"
+msgstr "Verzia PHP"
+
+#: components/SupportCenter.php:1222
+msgid ""
+"We recommend using the latest stable version of PHP. This will not only ensure "
+"compatibility with Divi, but it will also greatly speed up your website leading "
+"to less memory and CPU related issues."
+msgstr ""
+"Odporúčame používať najnovšiu stabilnú verziu PHP. To nielenže zabezpečí "
+"kompatibilitu s Divi, ale tiež výrazne urýchli vaše webové stránky, čo povedie k "
+"menším problémom s pamäťou a CPU."
+
+#: components/SupportCenter.php:1226
+msgid "memory_limit"
+msgstr "memory_limit"
+
+#: components/SupportCenter.php:1234
+msgid ""
+"By default, memory limits set by your host or by WordPress may be too low. This "
+"will lead to applications crashing as PHP reaches the artificial limit. You can "
+"adjust your memory limit within your <a href=\"%1$s\" target=\"_blank\">php.ini "
+"file</a>, or by contacting your host for assistance. You may also need to define "
+"a memory limited in <a href=\"%2$s\" target=_blank\">wp-config.php</a>."
+msgstr ""
+"V predvolenom nastavení môžu byť limity pamäte nastavené hostiteľom alebo "
+"programom WordPress príliš nízke. To povedie k zlyhaniu aplikácií, keď PHP "
+"dosiahne umelý limit. Môžete upraviť svoj limit pamäte v rámci svojho <a "
+"href=\"%1$s\" target=\"_blank\"> súboru php.ini </a> alebo môžete požiadať o "
+"pomoc hostiteľa. Možno bude potrebné definovať aj obmedzenú pamäť v <a "
+"href=\"%2$s\" target=_blank\"> wp-config.php </a>."
+
+#: components/SupportCenter.php:1238
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: components/SupportCenter.php:1246
+msgid ""
+"Post Max Size limits how large a page or file can be on your website. If your "
+"page is larger than the limit set in PHP, it will fail to load. Post sizes can "
+"become quite large when using the Divi Builder, so it is important to increase "
+"this limit. It also affects file size upload/download, which can prevent large "
+"layouts from being imported into the builder. You can adjust your max post size "
+"within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting "
+"your host for assistance."
+msgstr ""
+"Maximálna veľkosť príspevku obmedzuje veľkosť stránky alebo súboru na vašom webe. "
+"Ak je vaša stránka vyššia ako limit nastavený v PHP, nepodarí sa načítať. Pri "
+"použití Divi Builderu môžu byť veľkosti príspevkov dosť veľké, preto je dôležité "
+"tento limit zvýšiť. Ovplyvňuje tiež nahrávanie / sťahovanie veľkosti súborov, čo "
+"môže zabrániť importu veľkých rozložení do staviteľa. Maximálnu veľkosť príspevku "
+"môžete upraviť v <a href=\"%1$s\" target=\"_blank\"> súbore php.ini </a> alebo "
+"kontaktujte svojho hostiteľa a požiadajte ho o pomoc."
+
+#: components/SupportCenter.php:1250
+msgid "max_execution_time"
+msgstr "direktívy max_execution_time"
+
+#: components/SupportCenter.php:1258
+msgid ""
+"Max Execution Time affects how long a page is allowed to load before it times "
+"out. If the limit is too low, you may not be able to import large layouts and "
+"files into the builder. You can adjust your max execution time within your <a "
+"href=\"%1$s\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Maximálny čas vykonávania ovplyvňuje, ako dlho sa môže stránka načítať, kým "
+"vyprší časový limit. Ak je limit príliš nízky, možno nebudete môcť importovať "
+"veľké rozloženia a súbory do nástroja na tvorbu. Maximálny čas vykonávania môžete "
+"upraviť v rámci svojho <a href=\"%1$s\"> súboru php.ini </a> alebo môžete "
+"požiadať o pomoc hostiteľa."
+
+#: components/SupportCenter.php:1262
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: components/SupportCenter.php:1270
+msgid ""
+"Upload Max File Size determines that maximum file size that you are allowed to "
+"upload to your server. If the limit is too low, you may not be able to import "
+"large collections of layouts into the Divi Library. You can adjust your max file "
+"size within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by "
+"contacting your host for assistance."
+msgstr ""
+"Maximálna veľkosť odovzdaného súboru určuje, že maximálna veľkosť súboru, ktorú "
+"máte dovolené odovzdať na server. Ak je limit príliš nízky, pravdepodobne "
+"nebudete môcť importovať veľké zbierky rozložení do knižnice Divi. Maximálnu "
+"veľkosť súboru môžete upraviť v rámci svojho <a href=\"%1$s\" target=\"_blank\"> "
+"súboru php.ini </a> alebo môžete požiadať o pomoc hostiteľa."
+
+#: components/SupportCenter.php:1274
+msgid "max_input_time"
+msgstr "max_input_time"
+
+#: components/SupportCenter.php:1282
+msgid ""
+"This sets the maximum time in seconds a script is allowed to parse input data. If "
+"the limit is too low, the Divi Builder may time out before it is allowed to load. "
+"You can adjust your max input time within your <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Nastaví sa tak maximálny čas v sekundách, počas ktorého sa skriptu umožní "
+"analyzovať vstupné údaje. Ak je limit príliš nízky, program Divi Builder môže "
+"uplynúť pred načítaním. Maximálny čas vstupu môžete nastaviť v <a href=\"%1$s\" "
+"target=\"_blank\">súbore php.ini</a> alebo sa obrátiť na svojho hostiteľa."
+
+#: components/SupportCenter.php:1286
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: components/SupportCenter.php:1294
+msgid ""
+"This setting affects how many input variables may be accepted. If the limit is "
+"too low, it may prevent the Divi Builder from loading. You can adjust your max "
+"input variables within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, "
+"or by contacting your host for assistance."
+msgstr ""
+"Toto nastavenie ovplyvňuje, koľko vstupných premenných môže byť akceptovaných. Ak "
+"je limit príliš nízky, môže zabrániť načítavaniu Divi Builderu. Maximálne vstupné "
+"premenné môžete upraviť v rámci svojho <a href=\"%1$s\" target=\"_blank\"> súboru "
+"php.ini </a> alebo môžete požiadať o pomoc hostiteľa."
+
+#: components/SupportCenter.php:1298
+msgid "display_errors"
+msgstr "display_errors"
+
+#: components/SupportCenter.php:1307
+msgid ""
+"This setting determines whether or not errors should be printed as part of the "
+"page output. This is a feature to support your site's development and should "
+"never be used on production sites. You can edit this setting within your <a "
+"href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting your host for "
+"assistance."
+msgstr ""
+"Toto nastavenie určuje, či sa chyby majú vytlačiť ako súčasť výstupu stránky. "
+"Toto je funkcia na podporu rozvoja vašich stránok a nikdy by sa nemala používať "
+"na produkčných stránkach. Toto nastavenie môžete upraviť v <a href=\"%1$s\" "
+"target=\"_blank\"> súbore php.ini </a> alebo kontaktujte svojho hostiteľa a "
+"požiadajte ho o pomoc."
+
+#: components/SupportCenter.php:1355
+msgid "This fails to meet our minimum required value of %1$s. "
+msgstr "Toto nespĺňa našu minimálnu požadovanú hodnotu %1$s ."
+
+#: components/SupportCenter.php:1361
+msgid "This meets our minimum required value of %1$s. "
+msgstr "Toto spĺňa našu minimálnu požadovanú hodnotu %1$s ."
+
+#: components/SupportCenter.php:1373
+msgid "Learn more."
+msgstr "Uč sa viac."
+
+#: components/SupportCenter.php:1382
+msgid "Congratulations! This meets or exceeds our recommendation of %1$s."
+msgstr "Blahoželáme! Toto spĺňa alebo prekračuje naše odporúčanie %1$s."
+
+#: components/SupportCenter.php:1394
+msgid "We recommend %1$s for the best experience."
+msgstr "Pre najlepší zážitok odporúčame %1$s."
+
+#: components/SupportCenter.php:1403
+msgid "- We are unable to determine your setting. %1$s"
+msgstr "- Nemôžeme určiť vaše nastavenie.  %1$s"
+
+#: components/SupportCenter.php:1466 components/SupportCenter.php:1599
+#: components/SupportCenter.php:2653
+msgid "System Status"
+msgstr "Stav systému"
+
+#: components/SupportCenter.php:1473
+msgid ""
+"Congratulations, all system checks have passed. Your hosting configuration is "
+"compatible with Divi."
+msgstr ""
+"Gratulujeme, všetky systémové kontroly prešli. Vaša hostiteľská konfigurácia je "
+"kompatibilná s Divi."
+
+#: components/SupportCenter.php:1596
+msgid "Divi Support Center Page"
+msgstr "Centrum podpory Divi Page"
+
+#: components/SupportCenter.php:1602 components/SupportCenter.php:2697
+#: components/SupportCenter.php:2735
+msgid "Remote Access"
+msgstr "Vzdialený prístup"
+
+#: components/SupportCenter.php:1605
+msgid "Divi Documentation &amp; Help"
+msgstr "Dokumentácia a pomoc Divi"
+
+#: components/SupportCenter.php:1608 components/SupportCenter.php:2543
+#: components/SupportCenter.php:2861
+msgid "Safe Mode"
+msgstr "Bezpečnostný mód"
+
+#: components/SupportCenter.php:1611 components/SupportCenter.php:2942
+msgid "Logs"
+msgstr "protokoly"
+
+#: components/SupportCenter.php:2062
+msgid "Elegant Themes API Error: HTTP error in API response"
+msgstr "Chyba elegantného rozhrania API: Chyba HTTP v odpovedi API"
+
+#: components/SupportCenter.php:2073
+msgid "Elegant Themes API Error: WordPress Error in API response"
+msgstr "Chyba elegantného rozhrania API: Chyba WordPress v odozve rozhrania API"
+
+#: components/SupportCenter.php:2105
+msgid "Elegant Themes API Error: Incorrect Token. Please, try again."
+msgstr "Chyba rozhrania Elegant Themes API: Nesprávny token. Prosím skúste znova."
+
+#: components/SupportCenter.php:2116
+msgid "Elegant Themes API Error: The API response was missing required data."
+msgstr "Chyba rozhrania Elegant Themes API: V odpovedi API chýbali požadované údaje."
+
+#: components/SupportCenter.php:2129
+msgid "Elegant Themes API Error: The API responded, but the response was empty."
+msgstr ""
+"Chyba elegantného rozhrania API: Rozhranie API odpovedalo, ale odpoveď bola "
+"prázdna."
+
+#: components/SupportCenter.php:2177
+msgid "Support account doesn't exist."
+msgstr "Účet podpory neexistuje."
+
+#: components/SupportCenter.php:2189
+msgid "Support account hasn't been removed. Try to regenerate token again."
+msgstr "Účet podpory nebol odstránený. Skúste token znova zopakovať."
+
+#: components/SupportCenter.php:2194
+msgid "Cannot get the support account data. Try to regenerate token again."
+msgstr "Údaje o účte podpory sa nedajú získať. Skúste token znova zopakovať."
+
+#: components/SupportCenter.php:2206
+msgid "Token has been deleted successfully."
+msgstr "Token bol úspešne odstránený."
+
+#: components/SupportCenter.php:2208
+msgid "Token has been deleted successfully. "
+msgstr "Token bol úspešne odstránený."
+
+#: components/SupportCenter.php:2357
+msgid "ET Support User role has been activated."
+msgstr "Bola aktivovaná rola User Support."
+
+#: components/SupportCenter.php:2368
+msgid "ET Support User role has been elevated."
+msgstr "ET Support User role bola zvýšená."
+
+#: components/SupportCenter.php:2377
+msgid "ET Support User role has been deactivated."
+msgstr "ET Support User role bola deaktivovaná."
+
+#: components/SupportCenter.php:2450
+msgid "ET Safe Mode has been activated."
+msgstr "Núdzový režim ET bol aktivovaný."
+
+#: components/SupportCenter.php:2454
+msgid "ET Safe Mode has been deactivated."
+msgstr "Núdzový režim ET bol deaktivovaný."
+
+#: components/SupportCenter.php:2549
+msgid "Safe Mode is enabled and the current action cannot be performed."
+msgstr "Núdzový režim je povolený a aktuálnu akciu nemožno vykonať."
+
+#: components/SupportCenter.php:2659
+msgid "Show Full Report"
+msgstr "Zobraziť úplnú správu"
+
+#: components/SupportCenter.php:2660
+msgid "Hide Full Report"
+msgstr "Skryť celú správu"
+
+#: components/SupportCenter.php:2661
+msgid "Copy Full Report"
+msgstr "Kopírovať úplnú správu"
+
+#: components/SupportCenter.php:2684
+msgid "Elegant Themes Support"
+msgstr "Podpora pre elegantné motívy"
+
+#: components/SupportCenter.php:2685
+msgid ""
+"<p>Enabling <strong>Remote Access</strong> will give the Elegant Themes support "
+"team limited access to your WordPress Dashboard. If requested, you can also "
+"enable full admin privileges. Remote Access should only be turned on if requested "
+"by the Elegant Themes support team. Remote Access is automatically disabled after "
+"4 days.</p>"
+msgstr ""
+"<p> Povolenie funkcie <strong>Vzdialený prístup</strong> poskytne tímu podpory "
+"funkcie Elegant Themes obmedzený prístup k nástroju WordPress Dashboard. Ak je to "
+"potrebné, môžete povoliť aj plné práva správcu. Vzdialený prístup by mal byť "
+"zapnutý iba na žiadosť tímu technickej podpory Elegant Themes. Vzdialený prístup "
+"sa automaticky vypne po 4 dňoch. </p>"
+
+#: components/SupportCenter.php:2698
+msgid ""
+"Remote Access cannot be enabled because you do not have a valid API Key or your "
+"Elegant Themes subscription has expired. You can find your API Key by <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">logging in</a> to your Elegant Themes account. It should then "
+"be added to your <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Options Panel</a>."
+msgstr ""
+"Vzdialený prístup nie je možné povoliť, pretože nemáte platný kľúč rozhrania API "
+"alebo platnosť predplatného Elegant Themes skončila. Kľúč API môžete nájsť <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">prihlásením sa</a> do účtu Elegant Themes. Potom by sa mal "
+"pridať na <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">panel Možnosti</a> ."
+
+#: components/SupportCenter.php:2737 components/SupportCenter.php:2760
+#: components/SupportCenter.php:2912
+msgid "Enabled"
+msgstr "povolené"
+
+#: components/SupportCenter.php:2738 components/SupportCenter.php:2761
+#: components/SupportCenter.php:2913
+msgid "Disabled"
+msgstr "invalidný"
+
+#: components/SupportCenter.php:2740
+msgid "Remote Access will be automatically disabled in: "
+msgstr "Vzdialený prístup bude automaticky zakázaný v:"
+
+#: components/SupportCenter.php:2758
+msgid "Activate Full Admin Privileges"
+msgstr "Aktivovať úplné privilégiá správcu"
+
+#: components/SupportCenter.php:2776
+msgid "Copy Support Token"
+msgstr "Kopírovať podporu Token"
+
+#: components/SupportCenter.php:2782
+msgid "Chat With Support"
+msgstr "Chat s podporou"
+
+#: components/SupportCenter.php:2862
+msgid ""
+"<p>Enabling <strong>Safe Mode</strong> will temporarily disable features and "
+"plugins that may be causing problems with your Elegant Themes product. This "
+"includes all Plugins, Child Themes, and Custom Code added to your integration "
+"areas. These items are only disabled for your current user session so your "
+"visitors will not be disrupted. Enabling Safe Mode makes it easy to figure out "
+"what is causing problems on your website by identifying or eliminating third "
+"party plugins and code as potential causes.</p>"
+msgstr ""
+"<p> Povolenie <strong>núdzového režimu</strong> dočasne vypne funkcie a doplnky, "
+"ktoré môžu spôsobiť problémy s produktom Elegant Themes. Zahŕňa to všetky "
+"doplnky, podriadené témy a vlastný kód pridané do oblastí integrácie. Tieto "
+"položky sú zakázané iba pre aktuálnu reláciu používateľa, takže návštevníci "
+"nebudú prerušení. Povolenie Núdzového režimu uľahčuje zistiť, čo spôsobuje "
+"problémy na vašej webovej stránke, a to identifikáciou alebo odstránením "
+"zásuvných modulov tretích strán a kódovaním ako potenciálnych príčin. </p>"
+
+#: components/SupportCenter.php:2889
+msgid ""
+"<p class=\"et-safe-mode-error\">Plugins cannot be disabled because your "
+"<code>wp-content</code> directory has inconsistent file permissions. <a "
+"href=\"%1$s\" target=\"_blank\">Click here</a> for more information.</p>"
+msgstr ""
+"<p class=\"et-safe-mode-error\"> Doplnky nie je možné zakázať, pretože váš "
+"adresár <code>wp-content</code> má nekonzistentné povolenia súborov. <a "
+"href=\"%1$s\" target=\"_blank\">Kliknite sem</a> pre viac informácií. </p>"
+
+#: components/SupportCenter.php:2894
+msgid "The following plugins will be temporarily disabled for you only:"
+msgstr "Nasledujúce pluginy budú dočasne zakázané iba pre vás:"
+
+#: components/SupportCenter.php:2957
+msgid "Download Full Debug Log"
+msgstr "Stiahnite si Full Debug Log"
+
+#: components/SupportCenter.php:2961
+msgid "Copy Recent Log Entries"
+msgstr "Kopírovať posledné položky denníka"
+
+#: components/Updates.php:25
+msgid "%s: You cannot create a second instance of this class."
+msgstr "%s: Nemôžete vytvoriť druhú instanciu tejto triedy."
+
+#: components/Updates.php:425 components/VersionRollback.php:402
+msgid ""
+"<em>Before you can receive product updates, you must first authenticate your "
+"Elegant Themes subscription. To do this, you need to enter both your Elegant "
+"Themes Username and your Elegant Themes API Key into the Updates Tab in your "
+"theme and plugin settings. To locate your API Key, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> to your Elegant Themes account and navigate to the <strong>Account > API "
+"Key</strong> page. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Learn more here</a></em>. If you still get this message, please "
+"make sure that your Username and API Key have been entered correctly"
+msgstr ""
+"<em>Skôr než začnete dostávať aktualizácie produktu, musíte najprv potvrdiť svoju "
+"objednávku Elegant Themes. To znamená, že do tabuľky Aktualizácie v nastaveniach "
+"témy a zásuvného modulu musíte vložiť svoje používateľské meno a svoj Elegant "
+"Themes API kľúč. Ak chcete nájsť svoj API kľúč, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">prihláste sa</a> na svoj účet na Elegant Themes a prejdite na "
+"stránku <strong>Účet > API kľúč</strong>. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Podrobnejšie informácie</a></em>. Ak stále dostávate tento "
+"odkaz, skontrolujte, či používateľské meno a API kľúč sú napísané bez chýb"
+
+#: components/Updates.php:427
+msgid ""
+"Automatic updates currently unavailable. For all Elegant Themes products, please "
+"<a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">authenticate your subscription</a> via the Updates tab in your "
+"theme & plugin settings to enable product updates. Make sure that your Username "
+"and API Key have been entered correctly."
+msgstr ""
+"Momentálne nie sú k dispozícii žiadne automatické aktualizácie. Ak chcete "
+"nastaviť aktualizáciu pre všetky produkty Elegant Themes, pomocou tabuľky "
+"Aktualizácie v nastaveniach témy a zásuvného modulu <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">potvrďte svoju objednávku</a>, prosím. Skontrolujte, či "
+"používateľské meno a API kľúč sú napísané bez chýb."
+
+#: components/Updates.php:451
+msgid ""
+"Your Elegant Themes subscription has expired. You must <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">renew your "
+"account</a> to regain access to product updates and support. To ensure "
+"compatibility and security, it is important to always keep your themes and "
+"plugins updated."
+msgstr ""
+"Platnosť vášho predplatného Elegant Themes skončila. Ak chcete opäť získavať "
+"aktualizácie produktu a podporu, musíte si <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">obnoviť "
+"účet</a>. v záujme zabezpečenia kompatibility a bezpečnosti je dôležité, aby boli "
+"vaše témy a zásuvné moduly vždy aktualizované."
+
+#: components/VersionRollback.php:96 components/VersionRollback.php:303
+#: components/api/ElegantThemes.php:107 components/api/ElegantThemes.php:226
+msgid "An unknown error has occurred. Please try again later."
+msgstr "Nastala chyba. Skúste neskôr, prosím."
+
+#: components/VersionRollback.php:205
+msgid "Security check failed. Please refresh and try again."
+msgstr "Exportovanie zlyhalo. Obnovte stránku a skúste to znova."
+
+#: components/VersionRollback.php:212
+msgid "You don't have sufficient permissions to access this page."
+msgstr "Nemáte dostatočné povolenia na prístup k tejto stránke."
+
+#: components/VersionRollback.php:220 components/VersionRollback.php:546
+msgid ""
+"You're currently rolled back to <strong>Version %1$s</strong> from "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Momentálne sa vrátite na <strong>verziu %1$s</strong> z <strong>verzie "
+"%2$s</strong> ."
+
+#: components/VersionRollback.php:227 components/VersionRollback.php:555
+msgid ""
+"Update to the latest version to unlock the full power of %1$s. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Aktualizujte na najnovšiu verziu, aby ste odomkli plný výkon %1$s. <a "
+"href=\"%2$s\" target=\"_blank\">Viac informácií tu</a> ."
+
+#: components/VersionRollback.php:248 components/api/ElegantThemes.php:218
+msgid ""
+"For privacy and security reasons, you cannot rollback to <strong>Version "
+"%1$s</strong>."
+msgstr ""
+"Z dôvodov ochrany osobných údajov a bezpečnosti nemôžete vrátiť späť na "
+"<strong>verziu %1$s</strong> ."
+
+#: components/VersionRollback.php:254
+msgid "Learn more here."
+msgstr "Viac informácií tu."
+
+#: components/VersionRollback.php:398 components/VersionRollback.php:446
+#: components/VersionRollback.php:485 components/VersionRollback.php:537
+msgid "Version Rollback"
+msgstr "Znovuzískanie verzie"
+
+#: components/VersionRollback.php:428 components/VersionRollback.php:516
+msgid "Rollback to the previous version"
+msgstr "Vráťte sa k predchádzajúcej verzii"
+
+#: components/VersionRollback.php:455 components/api/ElegantThemes.php:212
+msgid "The previously used version of %1$s does not support version rollback."
+msgstr "Skôr použitá verzia %1$s nepodporuje vrátenie verzie."
+
+#: components/VersionRollback.php:494
+msgid ""
+"You'll be rolled back to <strong>Version %1$s</strong> from the current "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Budete vrátení na <strong>verziu %1$s</strong> z aktuálnej <strong>verzie "
+"%2$s</strong> ."
+
+#: components/VersionRollback.php:503
+msgid ""
+"Rolling back will reinstall the previous version of %1$s. You will be able to "
+"update to the latest version at any time. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Vrátenie späť preinštaluje predchádzajúcu verziu %1$s. Najnovšiu verziu budete "
+"môcť kedykoľvek aktualizovať. <a href=\"%2$s\" target=\"_blank\">Viac informácií "
+"tu</a> ."
+
+#: components/VersionRollback.php:511
+msgid "Make sure you have a full site backup before proceeding."
+msgstr "Pred pokračovaním sa uistite, že máte úplnú zálohu."
+
+#: components/VersionRollback.php:563
+msgid "Update to the Latest Version"
+msgstr "Aktualizácia na najnovšiu verziu"
+
+#: components/api/ElegantThemes.php:116
+msgid "Invalid Username and/or API Key provided."
+msgstr "Nebola uvedená platná URL adresa."
+
+#: components/api/ElegantThemes.php:206
+msgid ""
+"An unexpected response was received from the version server. Please try again "
+"later."
+msgstr "Od verzie servera bola prijatá neočakávaná odpoveď. Skúste neskôr prosím."
+
+#: components/api/Service.php:238
+msgid "API request failed, please try again."
+msgstr "Žiadosť API zlyhala, skúste ešte raz, prosím."
+
+#: components/api/Service.php:239
+msgid "API request failed. API Key is required."
+msgstr "Žiadosť API zlyhala. Vyžaduje sa API kľúč."
+
+#: components/api/email/ActiveCampaign.php:106
+#: components/api/email/CampaignMonitor.php:163
+#: components/api/email/ConstantContact.php:143
+#: components/api/email/ConvertKit.php:146
+#: components/api/email/Feedblitz.php:80
+#: components/api/email/GetResponse.php:100
+#: components/api/email/HubSpot.php:138
+#: components/api/email/Infusionsoft.php:250
+#: components/api/email/MadMimi.php:100 components/api/email/MailChimp.php:218
+#: components/api/email/MailerLite.php:93
+#: components/api/email/Ontraport.php:172
+#: components/api/email/SendinBlue.php:96
+msgid "API Key"
+msgstr "API kľúč"
+
+#: components/api/email/ActiveCampaign.php:109
+msgid "API URL"
+msgstr "URL adresa API"
+
+#: components/api/email/ActiveCampaign.php:113
+msgid "Form ID"
+msgstr "ID formulára"
+
+#: components/api/email/Aweber.php:164
+msgid "Authorization Code"
+msgstr "Autorizačný kód"
+
+#: components/api/email/ConstantContact.php:146
+msgid "Access Token"
+msgstr "Prístupový token"
+
+#: components/api/email/ConvertKit.php:149
+msgid "API Secret"
+msgstr "Heslo API"
+
+#: components/api/email/Emma.php:87
+msgid "Public API Key"
+msgstr "Verejný API kľúč"
+
+#: components/api/email/Emma.php:90
+msgid "Private API Key"
+msgstr "Osobný API kľúč"
+
+#: components/api/email/Emma.php:93
+msgid "Account ID"
+msgstr "ID účtu"
+
+#: components/api/email/Fields.php:30
+msgid "Use Custom Fields"
+msgstr "Použite vlastné polia"
+
+#: components/api/email/Fields.php:33 components/api/email/Fields.php:255
+#: components/api/email/Fields.php:267 components/api/email/Fields.php:284
+#: components/api/email/Fields.php:315
+msgid "Yes"
+msgstr "Áno"
+
+#: components/api/email/Fields.php:34 components/api/email/Fields.php:256
+#: components/api/email/Fields.php:268 components/api/email/Fields.php:285
+#: components/api/email/Fields.php:316
+msgid "No"
+msgstr "žiadny"
+
+#: components/api/email/Fields.php:41
+msgid "Enable this option to use custom fields in your opt-in form."
+msgstr "Povoliť túto možnosť používať vlastné polia vo formulári na prihlásenie."
+
+#: components/api/email/Fields.php:75
+msgid "Link URL"
+msgstr "Adresa URL odkazu"
+
+#: components/api/email/Fields.php:76
+msgid "Link Text"
+msgstr "Text odkazu"
+
+#: components/api/email/Fields.php:77
+msgid "Discard Changes"
+msgstr "Zrušiť zmeny"
+
+#: components/api/email/Fields.php:78
+msgid "Save Changes"
+msgstr "Uložiť zmeny"
+
+#: components/api/email/Fields.php:79
+msgid "Option Link"
+msgstr "Možnosť prepojenia"
+
+#: components/api/email/Fields.php:88
+msgid "ID"
+msgstr "ID"
+
+#: components/api/email/Fields.php:91
+msgid ""
+"Define a unique ID for this field. You should use only English characters without "
+"special characters or spaces."
+msgstr ""
+"Definujte jedinečné ID pre toto pole. Mali by ste používať iba anglické znaky bez "
+"špeciálnych znakov alebo medzery."
+
+#: components/api/email/Fields.php:98
+msgid "Name"
+msgstr "názov"
+
+#: components/api/email/Fields.php:100
+msgid "Set the label that will appear above this field in the opt-in form."
+msgstr ""
+"Nastavte štítok, ktorý sa bude zobrazovať nad týmto poľom vo formulári "
+"prihlásenia."
+
+#: components/api/email/Fields.php:110
+msgid "Type"
+msgstr "typ"
+
+#: components/api/email/Fields.php:115
+msgid "Choose a field type..."
+msgstr "Vyberte typ poľa ..."
+
+#: components/api/email/Fields.php:116
+msgid "Input Field"
+msgstr "Vstupné pole"
+
+#: components/api/email/Fields.php:117
+msgid "Email Field"
+msgstr "Pole pre e-mail"
+
+#: components/api/email/Fields.php:118
+msgid "Textarea"
+msgstr "textarea"
+
+#: components/api/email/Fields.php:119
+msgid "Checkboxes"
+msgstr "zaškrtávacie políčka"
+
+#: components/api/email/Fields.php:120
+msgid "Radio Buttons"
+msgstr "Rádiové tlačidlá"
+
+#: components/api/email/Fields.php:121
+msgid "Select Dropdown"
+msgstr "Vyberte položku Rozbaliť"
+
+#: components/api/email/Fields.php:123
+msgid "Choose the type of field"
+msgstr "Vyberte typ poľa"
+
+#: components/api/email/Fields.php:133
+msgid "Checked By Default"
+msgstr "Začiarknuté podľa predvoleného nastavenia"
+
+#: components/api/email/Fields.php:134
+msgid ""
+"If enabled, the check mark will be automatically selected for the visitor. They "
+"can still deselect it."
+msgstr ""
+"Ak je povolená, pre návštevníka sa automaticky vyberie značka začiarknutia. Stále "
+"to môžu zrušiť výber."
+
+#: components/api/email/Fields.php:144 components/api/email/Fields.php:163
+#: components/api/email/Fields.php:182
+msgid "Options"
+msgstr "možnosti"
+
+#: components/api/email/Fields.php:199
+msgid "Minimum Length"
+msgstr "Minimálna dĺžka"
+
+#: components/api/email/Fields.php:200 components/api/email/Fields.php:217
+msgid "Leave at 0 to remove restriction"
+msgstr "Nechajte 0, aby ste odstránili obmedzenie"
+
+#: components/api/email/Fields.php:216
+msgid "Maximum Length"
+msgstr "Maximálna dĺžka"
+
+#: components/api/email/Fields.php:233
+msgid "Allowed Symbols"
+msgstr "Povolené symboly"
+
+#: components/api/email/Fields.php:234
+msgid ""
+"You can validate certain types of information by disallowing certain symbols. "
+"Symbols added here will prevent the form from being submitted if added by the "
+"user."
+msgstr ""
+"Niektoré typy informácií môžete overiť zakázaním určitých symbolov. Tu pridané "
+"symboly zabránia odosielaniu formulára, ak ho používateľ pridá."
+
+#: components/api/email/Fields.php:238 components/api/email/Fields.php:326
+msgid "All"
+msgstr "všetko"
+
+#: components/api/email/Fields.php:239
+msgid "Letters Only (A-Z)"
+msgstr "Iba písmená (AZ)"
+
+#: components/api/email/Fields.php:240
+msgid "Numbers Only (0-9)"
+msgstr "Iba čísla (0-9)"
+
+#: components/api/email/Fields.php:241
+msgid "Alphanumeric Only (A-Z, 0-9)"
+msgstr "Iba alfanumerické (AZ, 0-9)"
+
+#: components/api/email/Fields.php:250
+msgid "Required Field"
+msgstr "Požadované pole"
+
+#: components/api/email/Fields.php:258
+msgid "Define whether the field should be required or optional"
+msgstr "Definujte, či sa má pole požadovať alebo voliteľné"
+
+#: components/api/email/Fields.php:262
+msgid "Hidden Field"
+msgstr "Skryté pole"
+
+#: components/api/email/Fields.php:270
+msgid "Define whether or not the field should be visible."
+msgstr "Definujte, či má byť pole viditeľné."
+
+#: components/api/email/Fields.php:280
+msgid "Make Fullwidth"
+msgstr "Make Fullwidth"
+
+#: components/api/email/Fields.php:289
+msgid ""
+"If enabled, the field will take 100% of the width of the form, otherwise it will "
+"take 50%"
+msgstr "Ak je povolené, pole bude trvať 100% šírky formulára, inak bude trvať 50%"
+
+#: components/api/email/Fields.php:302
+msgid "Field Background Color"
+msgstr "Farba pozadia poľa"
+
+#: components/api/email/Fields.php:303
+msgid "Pick a color to fill the module's input fields."
+msgstr "Vyberte farbu na vyplnenie vstupných polí modulu."
+
+#: components/api/email/Fields.php:310
+msgid "Enable"
+msgstr "umožniť"
+
+#: components/api/email/Fields.php:318
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of the "
+"rules below are fulfilled<br><strong>Note:</strong> Only fields with an unique "
+"and non-empty field ID can be used"
+msgstr ""
+"Povolením podmienenej logiky je toto pole viditeľné len vtedy, keď sú splnené "
+"niektoré alebo všetky nižšie uvedené pravidlá <br> <strong>Poznámka:</strong> Je "
+"možné použiť iba polia s jedinečným a neprázdnym ID poľa"
+
+#: components/api/email/Fields.php:322
+msgid "Relation"
+msgstr "vzťah"
+
+#: components/api/email/Fields.php:327
+msgid "Any"
+msgstr "akýkoľvek"
+
+#: components/api/email/Fields.php:333
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr "Vyberte, či sa majú splniť niektoré alebo všetky pravidlá"
+
+#: components/api/email/Fields.php:340
+msgid "Rules"
+msgstr "pravidlá"
+
+#: components/api/email/Fields.php:341
+msgid ""
+"Conditional logic rules can be used to hide and display different input fields "
+"conditionally based on how the visitor has interacted with different inputs."
+msgstr ""
+"Pravidlá podmienenej logiky môžu byť použité na skrytie a zobrazenie rôznych "
+"vstupných polí podmienečne na základe toho, ako návštevník komunikoval s rôznymi "
+"vstupmi."
+
+#: components/api/email/Fields.php:383
+msgid "Choose a field..."
+msgstr "Vyberte pole ..."
+
+#: components/api/email/Fields.php:391
+msgid "Field"
+msgstr "Lúka"
+
+#: components/api/email/Fields.php:398
+msgid ""
+"Choose a custom field. Custom fields must be defined in your email provider "
+"account."
+msgstr ""
+"Vyberte vlastné pole. Vlastné polia musia byť definované vo vašom účte "
+"poskytovateľa elektronickej pošty."
+
+#: components/api/email/Infusionsoft.php:253
+msgid "App Name"
+msgstr "Názov aplikácie"
+
+#: components/api/email/Infusionsoft.php:366
+msgid ""
+"Successfully authorized. Subscribers count will be updated in background, please "
+"check back in %1$s %2$s"
+msgstr ""
+"Úspešne overené. V pozadí sa aktualizuje počet predplatiteľov, skúste "
+"skontrolovať o %1$s %2$s"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minute"
+msgstr "minúta"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minutes"
+msgstr "minúty"
+
+#: components/api/email/Infusionsoft.php:396
+msgid "Already subscribed"
+msgstr "Už je predplatené"
+
+#: components/api/email/MadMimi.php:97 components/api/email/iContact.php:184
+msgid "Username"
+msgstr "užívateľské meno"
+
+#: components/api/email/MailChimp.php:293
+msgid "An error occurred, please try later."
+msgstr "Nastala chyba. Skúste neskôr, prosím."
+
+#: components/api/email/MailChimp.php:325
+msgid "You have signed up to a lot of lists very recently, please try again later"
+msgstr "Prihlásili ste sa na priveľa zoznamov súčasne, skúste opäť neskôr, prosím"
+
+#: components/api/email/MailPoet.php:38 components/api/email/_MailPoet2.php:28
+#: components/api/email/_MailPoet3.php:33
+msgid "MailPoet plugin is either not installed or not activated."
+msgstr "Doplnok MailPoet nie je nainštalovaný, alebo nie je aktivovaný."
+
+#: components/api/email/Mailster.php:53
+msgid "Opt-in"
+msgstr "Možnosť prihlásenia neskôr"
+
+#: components/api/email/Mailster.php:117
+msgid "Mailster Newsletter Plugin is not enabled!"
+msgstr "Informačný bulletin Mailster nie je povolený!"
+
+#: components/api/email/Mailster.php:121
+msgid "No lists were found. Please create a Mailster list first!"
+msgstr "Nenašli sa žiadne zoznamy. Najprv vytvorte zoznam Mailster, prosím!"
+
+#: components/api/email/Mailster.php:137 components/api/email/_MailPoet2.php:97
+#: components/api/email/_MailPoet3.php:148
+msgid "An error occurred. Please try again later."
+msgstr "Nastala chyba. Skúste neskôr, prosím."
+
+#: components/api/email/Ontraport.php:175
+msgid "APP ID"
+msgstr "ID aplikácie"
+
+#: components/api/email/Provider.php:102
+msgid "Subscribed via"
+msgstr "Objednané prostredníctvom"
+
+#: components/api/email/SalesForce.php:144
+msgid "Instance URL"
+msgstr "Instancia URL adresy"
+
+#: components/api/email/SalesForce.php:149
+msgid "Consumer Key"
+msgstr "Kľúč spotrebiteľa"
+
+#: components/api/email/SalesForce.php:154
+msgid "Consumer Secret"
+msgstr "Heslo spotrebiteľa"
+
+#: components/api/email/SalesForce.php:161
+msgid "Organization ID"
+msgstr "ID organizácie"
+
+#: components/api/email/SalesForce.php:186
+msgid "Organization ID cannot be empty"
+msgstr "ID organizácie nemôže byť prázdne"
+
+#: components/api/email/SalesForce.php:256
+#: components/api/email/SalesForce.php:343
+msgid "An error occurred. Please try again."
+msgstr "Nastala chyba. Skúste neskôr, prosím."
+
+#: components/api/email/SalesForce.php:307
+msgid "Unknown Organization ID"
+msgstr "Neznáme ID organizácie"
+
+#: components/api/email/_MailPoet2.php:144
+msgid "Already Subscribed"
+msgstr "Už je predplatené"
+
+#: components/api/email/iContact.php:181
+msgid "App ID"
+msgstr "ID aplikácie"
+
+#: components/api/email/iContact.php:187
+msgid "App Password"
+msgstr "Heslo aplikácie"
+
+#: components/api/email/init.php:51
+msgid "ERROR: Invalid arguments."
+msgstr "CHYBA: Neplatné argumenty."
+
+#: components/data/init.php:191
+msgid "Invalid attribute key"
+msgstr "Neplatný kľúč atribútu"
+
+#: components/data/init.php:258
+msgid "Invalid tag element"
+msgstr "Neplatný prvok značky"
+
+#: components/data/init.php:328
+msgid "This is not a valid excuse to not escape the passed value."
+msgstr "Toto nie je platná výhovorka na to, aby sa neprekročila preverená hodnota."
+
+#: components/data/init.php:367
+msgid "This is not a valid excuse to not sanitize the passed value."
+msgstr "Toto nie je platné ospravedlnenie na to, aby nedošlo k sanácii predanej hodnoty."
+
+#: components/lib/WPHttp.php:192
+msgid "A valid URL was not provided."
+msgstr "Nebola uvedená platná URL adresa."
+
+#: components/lib/WPHttp.php:196
+msgid "User has blocked requests through HTTP."
+msgstr "Používateľ zablokoval žiadosti cez HTTP."
+
+#: components/lib/WPHttp.php:209
+msgid "Destination directory for file streaming does not exist or is not writable."
+msgstr "Cieľový adresár pre prenos súboru neexistuje alebo sa doň nedá zapisovať."
+
+#: functions.php:101
+msgid "Once Monthly"
+msgstr "Raz mesačne"
+
+#: functions.php:113
+msgid "Configuration Error"
+msgstr "Chyba konfigurácie"
+
+#: functions.php:522
+msgid "Got it, thanks!"
+msgstr "Rozumiem, vďaka!"
+
+#: functions.php:1383
+msgid "Help"
+msgstr "Pomoc"
+
+#: functions.php:212
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "na"

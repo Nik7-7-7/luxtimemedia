@@ -1,0 +1,9 @@
+@import "../../../../scss/base";
+
+.et-core-control-menu {
+  &__divider {
+    border-top: 2px solid $button-align-background;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}

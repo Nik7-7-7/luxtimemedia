@@ -1,0 +1,1386 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.elegantthemes.com/members-area/help/\n"
+"POT-Creation-Date: 2019-10-22 13:02:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elegant Themes\n"
+"Language-Team: Elegant Themes\n"
+"Language: fil\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__"
+";esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: components/Portability.php:1874
+msgid ""
+"The browser version you are currently using is outdated. Please update to the "
+"newest version."
+msgstr ""
+"Ang bersyon ng browser na ginagamit mo ay lipas na. Pakisuyong mag-update sa "
+"pinakabagong bersyon."
+
+#: components/Portability.php:1875
+msgid "You reached your server memory limit. Please try increasing your PHP memory limit."
+msgstr ""
+"Naabot mo na ang limitasyon ng memorya ng iyong server. Pakisubukang itaas ang "
+"limitasyon ng memorya ng iyong PHP."
+
+#: components/Portability.php:1876
+msgid ""
+"This file cannot be imported. It may be caused by file_uploads being disabled in "
+"your php.ini. It may also be caused by post_max_size or/and upload_max_filesize "
+"being smaller than file selected. Please increase it or transfer more substantial "
+"data at the time."
+msgstr ""
+"Hindi pwedeng iimport ang file na ito. Ito ay maaaring dahil sa mga file_uploads "
+"na naka-disable sa iyong php.ini. Maaari ding dahil ito sa post_max_size o/at sa "
+"upload_max_filesize na mas maliit kaysa sa piniling file. Pakitaasan ito o "
+"maglipat ng mas malaking data sa oras."
+
+#: components/Portability.php:1877
+msgid "Invalid File format. You should be uploading a JSON file."
+msgstr "Ang format ng file ay hindi balido. Ikaw ay dapat nag-a-upload ng JSON na file."
+
+#: components/Portability.php:1878
+msgid "This file should not be imported in this context."
+msgstr "Ang file na ito ay hindi dapat iniimport sa kontekstong ito."
+
+#: components/Portability.php:1879
+msgid ""
+"Please select at least one item to export or disable the \"Only export selected "
+"items\" option"
+msgstr ""
+"Mangyaring pumili ng hindi bababa sa isang item upang i-export o huwag paganahin "
+"ang pagpipiliang \"Tanging i-export ang mga piniling item\""
+
+#: components/Portability.php:1880
+msgid "Import estimated time remaining: %smin"
+msgstr "Tinatayang oras na natitira sa pag-iimport:%smin"
+
+#: components/Portability.php:1881
+msgid "Export estimated time remaining: %smin"
+msgstr "Tinatayang oras na natitira sa pag-e-eksport: %smin"
+
+#: components/Portability.php:1882
+msgid "Backup estimated time remaining: %smin"
+msgstr "Tinatayang oras na natitira sa pagba-backup: %smin"
+
+#: components/Portability.php:1905
+msgid "Portability"
+msgstr "Pagiging madaling dalhin"
+
+#: components/Portability.php:1909
+msgid "Export"
+msgstr "Eksport"
+
+#: components/Portability.php:1910
+msgid "Import"
+msgstr "Import"
+
+#: components/Portability.php:1914
+msgid ""
+"Exporting your %s will create a JSON file that can be imported into a different "
+"website."
+msgstr ""
+"Ang pag-e-eksport ng iyong %s ay lilikha ng isang JSON na file na maaaring "
+"iimport sa ibang website."
+
+#: components/Portability.php:1915
+msgid "Export File Name"
+msgstr "I-eksport ang Pangalan ng File"
+
+#: components/Portability.php:1920
+msgid "Only export selected items"
+msgstr "I-eksport lamang ang mga piling item"
+
+#: components/Portability.php:1924
+msgid "Export %s"
+msgstr "I-eksport ang %s"
+
+#: components/Portability.php:1925
+msgid "Cancel Export"
+msgstr "Kanselahin ang Pag-export"
+
+#: components/Portability.php:1930
+msgid ""
+"Importing a previously-exported %s file will overwrite all content currently on "
+"this page."
+msgstr ""
+"Ang pag-iimport ng dati nang naeksport na %s na file ay mag-o-overwrite sa lahat "
+"ng nilalaman na kasalukuyang nasa pahinang ito."
+
+#: components/Portability.php:1932
+msgid ""
+"Select a previously-exported Divi Builder Layouts file to begin importing items. "
+"Large collections of image-heavy exports may take several minutes to upload."
+msgstr ""
+"Pumili ng dati nang naeksport na Divi Builder Layouts na file upang magsimulang "
+"mag-import ng mga item. Ang malalaking koleksyon ng mabibigat sa imaheng mga "
+"eksport ay maaaring tumagal nang ilang minuto sa pag-a-upload."
+
+#: components/Portability.php:1934
+msgid ""
+"Importing a previously-exported %s file will overwrite all current data. Please "
+"proceed with caution!"
+msgstr ""
+"Ang pag-iimport ng dati nang naeksport na %s na file ay mag-o-overwrite sa lahat "
+"ng kasalukuyang data. Pakisuyong tumuloy nang may pag-iingat!"
+
+#: components/Portability.php:1936
+msgid "Select File To Import"
+msgstr "Piliin ang File Na I-iimport"
+
+#: components/Portability.php:1938
+msgid "No File Selected"
+msgstr "Walang File na Napili"
+
+#: components/Portability.php:1939
+msgid "Choose File"
+msgstr "Pumili ng File"
+
+#: components/Portability.php:1943
+msgid "Download backup before importing"
+msgstr "Mag-download ng backup bago iimport"
+
+#: components/Portability.php:1946
+msgid "Apply Layout's Defaults To This Website"
+msgstr "Ilapat ang Mga Kautusan ng Layout Sa Website na ito"
+
+#: components/Portability.php:1950
+msgid "Import %s"
+msgstr "Iimport ang %s"
+
+#: components/Portability.php:1951
+msgid "Cancel Import"
+msgstr "Kanselahin ang Pag-import"
+
+#: components/Portability.php:2053
+msgid "Import & Export"
+msgstr "Iimport & I-eksport"
+
+#: components/Portability.php:2195
+msgid "The export process failed. Please refresh the page and try again."
+msgstr "Nabigo ulit ang pag-e-eksport. Paki-refresh ang pahina at subukang muli."
+
+#: components/SupportCenter.php:565 components/SupportCenter.php:1593
+msgid "Support Center"
+msgstr "Suporta Centre"
+
+#: components/SupportCenter.php:577
+msgid "Monarch Support Center"
+msgstr "Center ng Suporta ng Monarch"
+
+#: components/SupportCenter.php:756
+msgid "A Basic Overview Of Extra"
+msgstr "Isang Pangunahing Pangkalahatang-ideya ng Dagdag"
+
+#: components/SupportCenter.php:760 components/SupportCenter.php:777
+msgid "Using Premade Layout Packs"
+msgstr "Paggamit ng Premade Layout Pack"
+
+#: components/SupportCenter.php:764
+msgid "Creating Category Layouts"
+msgstr "Paglikha ng Mga layout ng kategorya"
+
+#: components/SupportCenter.php:773 components/SupportCenter.php:886
+#: components/SupportCenter.php:910 components/SupportCenter.php:946
+msgid "Getting Started With The Divi Builder"
+msgstr "Pagsisimula Sa The Divi Builder"
+
+#: components/SupportCenter.php:781
+msgid "The Divi Library"
+msgstr "Ang Divi Library"
+
+#: components/SupportCenter.php:789 components/SupportCenter.php:982
+msgid "A Basic Overview Of The Bloom Plugin"
+msgstr "Isang Pangunahing Pangkalahatang Pangkalahatang Ng Bloom Plugin"
+
+#: components/SupportCenter.php:793
+msgid "How To Update The Bloom Plugin"
+msgstr "Paano Upang I-update ang Bloom Plugin"
+
+#: components/SupportCenter.php:797
+msgid "How To Add Mailing List Accounts"
+msgstr "Paano Magdagdag ng Mga Account sa Listahan ng Mailing"
+
+#: components/SupportCenter.php:805
+msgid "A Complete Overviw Of Monarch"
+msgstr "Isang Kumpletong Overviw Ng Monarch"
+
+#: components/SupportCenter.php:809
+msgid "Adding Social Networks"
+msgstr "Pagdaragdag ng Mga Social Network"
+
+#: components/SupportCenter.php:813
+msgid "Configuring Social Follower APIs"
+msgstr "Pag-configure ng mga APollower ng Social Follower"
+
+#: components/SupportCenter.php:874
+msgid "Getting Started With Extra"
+msgstr "Pagsisimula Sa Extra"
+
+#: components/SupportCenter.php:878
+msgid "Setting Up The Extra Theme Options"
+msgstr "Pag-set Up Ang Mga Dagdag na Mga Pagpipilian sa Tema"
+
+#: components/SupportCenter.php:882
+msgid "The Extra Category Builder"
+msgstr "Ang Extra Category Builder"
+
+#: components/SupportCenter.php:890
+msgid "How To Update The Extra Theme"
+msgstr "Paano Upang I-update ang Extra Theme"
+
+#: components/SupportCenter.php:894 components/SupportCenter.php:918
+#: components/SupportCenter.php:954
+msgid "An Overview Of All Divi Modules"
+msgstr "Isang Pangkalahatang-ideya Ng Lahat ng Mga Module ng Divi"
+
+#: components/SupportCenter.php:898 components/SupportCenter.php:930
+#: components/SupportCenter.php:966
+msgid "Getting Started With Layout Packs"
+msgstr "Pagsisimula Sa Mga Layout ng Layout"
+
+#: components/SupportCenter.php:902 components/SupportCenter.php:934
+msgid "Customizing Your Header And Navigation"
+msgstr "Pag-customize ng Iyong Header At Navigation"
+
+#: components/SupportCenter.php:914
+msgid "How To Update The Divi Theme"
+msgstr "Paano Upang I-update ang Divi Theme"
+
+#: components/SupportCenter.php:922 components/SupportCenter.php:958
+msgid "Using The Divi Library"
+msgstr "Paggamit ng The Divi Library"
+
+#: components/SupportCenter.php:926
+msgid "Setting Up The Divi Theme Options"
+msgstr "Pag-set Up Ang Mga Pagpipilian sa Divi Theme"
+
+#: components/SupportCenter.php:938 components/SupportCenter.php:974
+msgid "Divi For Developers"
+msgstr "Divi For Developers"
+
+#: components/SupportCenter.php:950
+msgid "How To Update The Divi Builder"
+msgstr "Paano Upang I-update ang Divi Builder"
+
+#: components/SupportCenter.php:962
+msgid "Selling Products With Divi And WooCommerce"
+msgstr "Pagbebenta ng Mga Produkto Sa Divi At WooCommerce"
+
+#: components/SupportCenter.php:970
+msgid "Importing And Exporting Divi Layouts"
+msgstr "Pag-import at Pag-export ng Mga Layout ng Divi"
+
+#: components/SupportCenter.php:986
+msgid "How To Update Your Bloom Plugin"
+msgstr "Paano Upang I-update ang Iyong Bloom Plugin"
+
+#: components/SupportCenter.php:990
+msgid "Adding Email Accounts In Bloom"
+msgstr "Pagdaragdag ng Mga Account sa Email sa Bloom"
+
+#: components/SupportCenter.php:994
+msgid "Customizing Your Opt-in Designs"
+msgstr "Pagpapasadya ng Iyong Mga Disenyo sa Pag-opt"
+
+#: components/SupportCenter.php:998
+msgid "The Different Bloom Opt-in Types"
+msgstr "Ang Iba't ibang Mga Uri ng Pag-optom sa Bloom"
+
+#: components/SupportCenter.php:1002
+msgid "Using The Bloom Display Settings"
+msgstr "Gamit ang Mga Setting ng Pagpapakita ng Bloom"
+
+#: components/SupportCenter.php:1006
+msgid "How To Use Triggers In Bloom"
+msgstr "Paano Gumamit ng Mga Trigger Sa Bloom"
+
+#: components/SupportCenter.php:1010
+msgid "Adding Custom Fields To Bloom Opt-in Forms"
+msgstr "Pagdaragdag ng Mga Pasadyang Patlang Sa Bloom Opt-in Form"
+
+#: components/SupportCenter.php:1018
+msgid "A Complete Overview Of The Monarch Plugin"
+msgstr "Isang Kumpletong Pangkalahatang-ideya ng Ang Monarch Plugin"
+
+#: components/SupportCenter.php:1022
+msgid "How To Update Your Monarch WordPress Plugin"
+msgstr "Paano Upang I-update ang Iyong Monarch WordPress Plugin"
+
+#: components/SupportCenter.php:1026
+msgid "Adding and Managing Social Networks"
+msgstr "Pagdaragdag at Pamamahala ng Mga Social Network"
+
+#: components/SupportCenter.php:1030
+msgid "Configuring Social Network APIs"
+msgstr "Pag-configure ng mga API ng Social Network"
+
+#: components/SupportCenter.php:1034
+msgid "Customizing The Monarch Design"
+msgstr "Pagpapasadya ng Disenyo ng Monarch"
+
+#: components/SupportCenter.php:1038
+msgid "Viewing Your Social Stats"
+msgstr "Pagtingin sa Iyong Mga Stats sa Sosyal"
+
+#: components/SupportCenter.php:1042
+msgid "Using The Floating Sidebar"
+msgstr "Paggamit ng Ang Lumulutang Sidebar"
+
+#: components/SupportCenter.php:1046
+msgid "Using Popup & Flyin Triggers"
+msgstr "Paggamit ng Popup & Flyin Trigger"
+
+#: components/SupportCenter.php:1129
+msgid "Divi Support Center :: WordPress debug log cannot be read."
+msgstr "Divi Support Center :: Hindi maaaring basahin ang debug log ng WordPress."
+
+#: components/SupportCenter.php:1137
+msgid "Divi Support Center :: WordPress debug.log is not configured."
+msgstr "Divi Support Center :: Hindi naka-configure ang WordPress debug.log."
+
+#: components/SupportCenter.php:1158
+msgid "Divi Support Center :: WordPress debug log cannot be found."
+msgstr "Divi Support Center :: Hindi maaaring makita ang log ng debug ng WordPress."
+
+#: components/SupportCenter.php:1202
+msgid "Writable wp-content Directory"
+msgstr "Writable na Wp-content na Directory"
+
+#: components/SupportCenter.php:1210
+msgid ""
+"We recommend that the wp-content directory on your server be writable by "
+"WordPress in order to ensure the full functionality of Divi Builder themes and "
+"plugins."
+msgstr ""
+"Inirerekumenda namin na ang wp-content na direktoryo sa iyong server ay maisulat "
+"sa pamamagitan ng WordPress upang matiyak ang buong pag-andar ng mga tema ng Divi "
+"Builder at mga plugin."
+
+#: components/SupportCenter.php:1214
+msgid "PHP Version"
+msgstr "Bersyon ng PHP"
+
+#: components/SupportCenter.php:1222
+msgid ""
+"We recommend using the latest stable version of PHP. This will not only ensure "
+"compatibility with Divi, but it will also greatly speed up your website leading "
+"to less memory and CPU related issues."
+msgstr ""
+"Inirerekomenda namin ang paggamit ng pinakabagong matatag na bersyon ng PHP. "
+"Hindi lamang nito masisiguro ang pagiging tugma sa Divi, ngunit ito ay lubos na "
+"mapabilis ang iyong website na humahantong sa mas kaunting memory at mga kaugnay "
+"na isyu sa CPU."
+
+#: components/SupportCenter.php:1226
+msgid "memory_limit"
+msgstr "memory_limit"
+
+#: components/SupportCenter.php:1234
+msgid ""
+"By default, memory limits set by your host or by WordPress may be too low. This "
+"will lead to applications crashing as PHP reaches the artificial limit. You can "
+"adjust your memory limit within your <a href=\"%1$s\" target=\"_blank\">php.ini "
+"file</a>, or by contacting your host for assistance. You may also need to define "
+"a memory limited in <a href=\"%2$s\" target=_blank\">wp-config.php</a>."
+msgstr ""
+"Bilang default, ang mga limitasyon ng memorya na itinakda ng iyong host o ng "
+"WordPress ay maaaring masyadong mababa. Ito ay hahantong sa mga pag-crash ng mga "
+"application habang umaabot ang PHP sa artipisyal na limitasyon. Maaari mong "
+"ayusin ang iyong limitasyon sa memorya sa loob ng iyong <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a> , o sa pamamagitan ng pakikipag-ugnay sa iyong "
+"host para sa tulong. Maaari mo ring kailanganing tukuyin ang memoryang limitado "
+"sa <a href=\"%2$s\" target=_blank\">wp-config.php</a> ."
+
+#: components/SupportCenter.php:1238
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: components/SupportCenter.php:1246
+msgid ""
+"Post Max Size limits how large a page or file can be on your website. If your "
+"page is larger than the limit set in PHP, it will fail to load. Post sizes can "
+"become quite large when using the Divi Builder, so it is important to increase "
+"this limit. It also affects file size upload/download, which can prevent large "
+"layouts from being imported into the builder. You can adjust your max post size "
+"within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting "
+"your host for assistance."
+msgstr ""
+"Ipinagbabawal ng Max Sukat ng Post kung gaano kalaki ang isang pahina o file sa "
+"iyong website. Kung ang iyong pahina ay mas malaki kaysa sa limitasyon na "
+"itinakda sa PHP, mabibigo itong i-load. Maaaring maging malaki ang laki ng post "
+"kapag ginagamit ang Divi Builder, kaya mahalaga na mapataas ang limitasyon na "
+"ito. Nakakaapekto rin ito sa pag-upload / pag-download ng laki ng file, na "
+"maaaring maiwasan ang mga malalaking layout mula sa pag-import sa tagabuo. Maaari "
+"mong ayusin ang iyong laki ng max post sa loob ng iyong <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a> , o sa pamamagitan ng pakikipag-ugnay sa iyong "
+"host para sa tulong."
+
+#: components/SupportCenter.php:1250
+msgid "max_execution_time"
+msgstr "max_execution_time"
+
+#: components/SupportCenter.php:1258
+msgid ""
+"Max Execution Time affects how long a page is allowed to load before it times "
+"out. If the limit is too low, you may not be able to import large layouts and "
+"files into the builder. You can adjust your max execution time within your <a "
+"href=\"%1$s\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Ang Max Execution Time ay nakakaapekto kung gaano katagal ang isang pahina ay "
+"pinahihintulutang mag-load bago pa ulit. Kung masyadong limitado ang limitasyon, "
+"maaaring hindi ka makakapag-import ng mga malalaking layout at mga file sa "
+"tagabuo. Maaari mong ayusin ang iyong oras ng pagpapatupad ng max sa loob ng "
+"iyong <a href=\"%1$s\">php.ini file</a> , o sa pamamagitan ng pakikipag-ugnay sa "
+"iyong host para sa tulong."
+
+#: components/SupportCenter.php:1262
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: components/SupportCenter.php:1270
+msgid ""
+"Upload Max File Size determines that maximum file size that you are allowed to "
+"upload to your server. If the limit is too low, you may not be able to import "
+"large collections of layouts into the Divi Library. You can adjust your max file "
+"size within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by "
+"contacting your host for assistance."
+msgstr ""
+"Ang Pag-upload ng Max na Laki ng File ay nagpapasiya na ang maximum na laki ng "
+"file na pinapayagan mong i-upload sa iyong server. Kung ang limitasyon ay "
+"masyadong mababa, hindi ka maaaring makapag-import ng mga malalaking koleksyon ng "
+"mga layout sa Divi Library. Maaari mong ayusin ang laki ng iyong max file sa loob "
+"ng iyong <a href=\"%1$s\" target=\"_blank\">php.ini file</a> , o sa pamamagitan "
+"ng pakikipag-ugnay sa iyong host para sa tulong."
+
+#: components/SupportCenter.php:1274
+msgid "max_input_time"
+msgstr "max_input_time"
+
+#: components/SupportCenter.php:1282
+msgid ""
+"This sets the maximum time in seconds a script is allowed to parse input data. If "
+"the limit is too low, the Divi Builder may time out before it is allowed to load. "
+"You can adjust your max input time within your <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Nagtatakda ito ng maximum na oras sa ilang segundo na pinahihintulutan ang script "
+"na ma-parse ang data ng pag-input. Kung ang limitasyon ay masyadong mababa, ang "
+"Divi Builder ay maaaring mag-time out bago ito ma-load. Maaari mong ayusin ang "
+"iyong oras ng max input sa loob ng iyong <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a> , o sa pamamagitan ng pakikipag-ugnay sa iyong "
+"host para sa tulong."
+
+#: components/SupportCenter.php:1286
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: components/SupportCenter.php:1294
+msgid ""
+"This setting affects how many input variables may be accepted. If the limit is "
+"too low, it may prevent the Divi Builder from loading. You can adjust your max "
+"input variables within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, "
+"or by contacting your host for assistance."
+msgstr ""
+"Nakakaapekto ang setting na ito kung gaano karaming mga variable ng pag-input ang "
+"maaaring tanggapin. Kung ang limitasyon ay masyadong mababa, maaari itong pigilan "
+"ang Divi Builder mula sa paglo-load. Maaari mong ayusin ang iyong mga variable ng "
+"max input sa iyong <a href=\"%1$s\" target=\"_blank\">php.ini file</a> , o sa "
+"pamamagitan ng pakikipag-ugnay sa iyong host para sa tulong."
+
+#: components/SupportCenter.php:1298
+msgid "display_errors"
+msgstr "display_errors"
+
+#: components/SupportCenter.php:1307
+msgid ""
+"This setting determines whether or not errors should be printed as part of the "
+"page output. This is a feature to support your site's development and should "
+"never be used on production sites. You can edit this setting within your <a "
+"href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting your host for "
+"assistance."
+msgstr ""
+"Tinutukoy ng setting na ito kung dapat i-print ang mga error kung o hindi ang "
+"bahagi ng output ng pahina. Ito ay isang tampok upang suportahan ang pag-unlad ng "
+"iyong site at hindi dapat gamitin sa mga site ng produksyon. Maaari mong i-edit "
+"ang setting na ito sa loob ng iyong <a href=\"%1$s\" target=\"_blank\">php.ini "
+"file</a> , o sa pamamagitan ng pakikipag-ugnay sa iyong host para sa tulong."
+
+#: components/SupportCenter.php:1355
+msgid "This fails to meet our minimum required value of %1$s. "
+msgstr ""
+"Nabigo ito upang matugunan ang aming pinakamababang kinakailangang halaga ng %1$s "
+"."
+
+#: components/SupportCenter.php:1361
+msgid "This meets our minimum required value of %1$s. "
+msgstr "Natutugunan nito ang aming pinakamababang kinakailangang halaga ng %1$s ."
+
+#: components/SupportCenter.php:1373
+msgid "Learn more."
+msgstr "Matuto nang higit pa."
+
+#: components/SupportCenter.php:1382
+msgid "Congratulations! This meets or exceeds our recommendation of %1$s."
+msgstr "Binabati kita! Nakakatugon ito o lumampas sa aming rekomendasyon ng %1$s."
+
+#: components/SupportCenter.php:1394
+msgid "We recommend %1$s for the best experience."
+msgstr "Inirerekomenda namin ang %1$s para sa pinakamahusay na karanasan."
+
+#: components/SupportCenter.php:1403
+msgid "- We are unable to determine your setting. %1$s"
+msgstr "- Hindi namin matukoy ang iyong setting.  %1$s"
+
+#: components/SupportCenter.php:1466 components/SupportCenter.php:1599
+#: components/SupportCenter.php:2653
+msgid "System Status"
+msgstr "Kalagayan ng sistema"
+
+#: components/SupportCenter.php:1473
+msgid ""
+"Congratulations, all system checks have passed. Your hosting configuration is "
+"compatible with Divi."
+msgstr ""
+"Binabati kita, ang lahat ng mga tseke ng sistema ay lumipas na. Ang configuration "
+"ng iyong hosting ay tugma sa Divi."
+
+#: components/SupportCenter.php:1596
+msgid "Divi Support Center Page"
+msgstr "Pahina ng Suporta ng Divi Support"
+
+#: components/SupportCenter.php:1602 components/SupportCenter.php:2697
+#: components/SupportCenter.php:2735
+msgid "Remote Access"
+msgstr "Remote Access"
+
+#: components/SupportCenter.php:1605
+msgid "Divi Documentation &amp; Help"
+msgstr "Divi Documentation & Help"
+
+#: components/SupportCenter.php:1608 components/SupportCenter.php:2543
+#: components/SupportCenter.php:2861
+msgid "Safe Mode"
+msgstr "Safe Mode"
+
+#: components/SupportCenter.php:1611 components/SupportCenter.php:2942
+msgid "Logs"
+msgstr "Mga log"
+
+#: components/SupportCenter.php:2062
+msgid "Elegant Themes API Error: HTTP error in API response"
+msgstr "Elegant Themes API Error: error sa HTTP sa tugon ng API"
+
+#: components/SupportCenter.php:2073
+msgid "Elegant Themes API Error: WordPress Error in API response"
+msgstr "Elegant Themes API Error: Error ng WordPress sa tugon ng API"
+
+#: components/SupportCenter.php:2105
+msgid "Elegant Themes API Error: Incorrect Token. Please, try again."
+msgstr "Elegant na Mga Tema ng Error sa API: Maling Token. Pakiulit muli."
+
+#: components/SupportCenter.php:2116
+msgid "Elegant Themes API Error: The API response was missing required data."
+msgstr "Elegant Themes API Error: Nawawala ang kinakailangang data ng API."
+
+#: components/SupportCenter.php:2129
+msgid "Elegant Themes API Error: The API responded, but the response was empty."
+msgstr "Elegant Themes API Error: Tumugon ang API, ngunit walang tugon ang sagot."
+
+#: components/SupportCenter.php:2177
+msgid "Support account doesn't exist."
+msgstr "Ang account ng suporta ay hindi umiiral."
+
+#: components/SupportCenter.php:2189
+msgid "Support account hasn't been removed. Try to regenerate token again."
+msgstr "Hindi naalis ang suportang account. Subukang muling gawing muli ang token."
+
+#: components/SupportCenter.php:2194
+msgid "Cannot get the support account data. Try to regenerate token again."
+msgstr ""
+"Hindi makuha ang data ng account ng suporta. Subukang muling gawing muli ang "
+"token."
+
+#: components/SupportCenter.php:2206
+msgid "Token has been deleted successfully."
+msgstr "Matagumpay na tinanggal ang token."
+
+#: components/SupportCenter.php:2208
+msgid "Token has been deleted successfully. "
+msgstr "Matagumpay na tinanggal ang token."
+
+#: components/SupportCenter.php:2357
+msgid "ET Support User role has been activated."
+msgstr "ET Suporta Ginawang aktibo ang papel ng gumagamit."
+
+#: components/SupportCenter.php:2368
+msgid "ET Support User role has been elevated."
+msgstr "ET Suporta Ang papel na ginagampanan ay naitataas."
+
+#: components/SupportCenter.php:2377
+msgid "ET Support User role has been deactivated."
+msgstr "ET Suporta Ang papel na ginagampanan ay na-deactivate."
+
+#: components/SupportCenter.php:2450
+msgid "ET Safe Mode has been activated."
+msgstr "Na-activate ang Mode ng Ligtas na ET."
+
+#: components/SupportCenter.php:2454
+msgid "ET Safe Mode has been deactivated."
+msgstr "Nawala na ang Safe Mode."
+
+#: components/SupportCenter.php:2549
+msgid "Safe Mode is enabled and the current action cannot be performed."
+msgstr "Pinagana ang Ligtas na Mode at hindi maaaring maisagawa ang kasalukuyang aksyon."
+
+#: components/SupportCenter.php:2659
+msgid "Show Full Report"
+msgstr "Ipakita ang Buong Ulat"
+
+#: components/SupportCenter.php:2660
+msgid "Hide Full Report"
+msgstr "Itago ang Buong Ulat"
+
+#: components/SupportCenter.php:2661
+msgid "Copy Full Report"
+msgstr "Kopyahin ang Buong Ulat"
+
+#: components/SupportCenter.php:2684
+msgid "Elegant Themes Support"
+msgstr "Mga Suporta sa Elegant na Mga Tema"
+
+#: components/SupportCenter.php:2685
+msgid ""
+"<p>Enabling <strong>Remote Access</strong> will give the Elegant Themes support "
+"team limited access to your WordPress Dashboard. If requested, you can also "
+"enable full admin privileges. Remote Access should only be turned on if requested "
+"by the Elegant Themes support team. Remote Access is automatically disabled after "
+"4 days.</p>"
+msgstr ""
+"<p> Ang Pag-enable ng <strong>Remote Access</strong> ay magbibigay ng limitadong "
+"pag-access sa Elegant Themes support team sa iyong WordPress Dashboard. Kung "
+"hiniling, maaari mo ring paganahin ang buong mga pribilehiyo ng admin. Dapat i-on "
+"lamang ang Remote Access kung hiniling ng koponan ng suporta ng Elegant na Mga "
+"Tema. Ang Remote Access ay awtomatikong hindi pinagana pagkatapos ng 4 na araw. "
+"</p>"
+
+#: components/SupportCenter.php:2698
+msgid ""
+"Remote Access cannot be enabled because you do not have a valid API Key or your "
+"Elegant Themes subscription has expired. You can find your API Key by <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">logging in</a> to your Elegant Themes account. It should then "
+"be added to your <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Options Panel</a>."
+msgstr ""
+"Hindi maaaring paganahin ang Remote Access dahil wala kang isang wastong API Key "
+"o nag-expire na ang iyong Elegant na Mga Tema ng subscription. Maaari mong "
+"mahanap ang iyong API Key sa pamamagitan ng pag- <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> sa iyong Elegant na tema account. Dapat itong idaragdag sa iyong <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Panel ng Mga Pagpipilian</a> ."
+
+#: components/SupportCenter.php:2737 components/SupportCenter.php:2760
+#: components/SupportCenter.php:2912
+msgid "Enabled"
+msgstr "Pinagana"
+
+#: components/SupportCenter.php:2738 components/SupportCenter.php:2761
+#: components/SupportCenter.php:2913
+msgid "Disabled"
+msgstr "Hindi pinagagana"
+
+#: components/SupportCenter.php:2740
+msgid "Remote Access will be automatically disabled in: "
+msgstr "Awtomatikong hindi pinagana ang Remote Access sa:"
+
+#: components/SupportCenter.php:2758
+msgid "Activate Full Admin Privileges"
+msgstr "Isaaktibo ang Mga Pribilehiyong Buong Admin"
+
+#: components/SupportCenter.php:2776
+msgid "Copy Support Token"
+msgstr "Kopyahin ang Token ng Suporta"
+
+#: components/SupportCenter.php:2782
+msgid "Chat With Support"
+msgstr "Chat Sa Suporta"
+
+#: components/SupportCenter.php:2862
+msgid ""
+"<p>Enabling <strong>Safe Mode</strong> will temporarily disable features and "
+"plugins that may be causing problems with your Elegant Themes product. This "
+"includes all Plugins, Child Themes, and Custom Code added to your integration "
+"areas. These items are only disabled for your current user session so your "
+"visitors will not be disrupted. Enabling Safe Mode makes it easy to figure out "
+"what is causing problems on your website by identifying or eliminating third "
+"party plugins and code as potential causes.</p>"
+msgstr ""
+"<p> Pansamantalang hindi paganahin ng <strong>Safe Mode ang mga</strong> tampok "
+"at plugin na maaaring magdulot ng mga problema sa iyong produkto ng Elegant na "
+"Mga Tema. Kabilang dito ang lahat ng Mga Plugin, Mga Tema ng Bata, at Custom Code "
+"na idinagdag sa iyong mga lugar ng pagsasama. Ang mga item na ito ay hindi "
+"pinagana lamang para sa iyong kasalukuyang session ng gumagamit upang ang iyong "
+"mga bisita ay hindi masisira. Ginagawang madali ng Pag-enable ng Safe Mode kung "
+"ano ang nagiging sanhi ng mga problema sa iyong website sa pamamagitan ng "
+"pagkilala o pag-aalis ng mga plugin at code ng third party bilang mga potensyal "
+"na dahilan. </p>"
+
+#: components/SupportCenter.php:2889
+msgid ""
+"<p class=\"et-safe-mode-error\">Plugins cannot be disabled because your "
+"<code>wp-content</code> directory has inconsistent file permissions. <a "
+"href=\"%1$s\" target=\"_blank\">Click here</a> for more information.</p>"
+msgstr ""
+"<p class=\"et-safe-mode-error\"> Hindi ma-disable ang mga plugin dahil ang "
+"direktoryo ng iyong <code>wp-content</code> ay may hindi pantay na mga pahintulot "
+"ng file. <a href=\"%1$s\" target=\"_blank\">Mag-click dito</a> para sa "
+"karagdagang impormasyon. </p>"
+
+#: components/SupportCenter.php:2894
+msgid "The following plugins will be temporarily disabled for you only:"
+msgstr "Ang mga sumusunod na plugin ay pansamantalang hindi pinagana para sa iyo lamang:"
+
+#: components/SupportCenter.php:2957
+msgid "Download Full Debug Log"
+msgstr "I-download ang Buong Pag-debug ng Log"
+
+#: components/SupportCenter.php:2961
+msgid "Copy Recent Log Entries"
+msgstr "Kopyahin ang Mga Kamakailang Log Entry"
+
+#: components/Updates.php:25
+msgid "%s: You cannot create a second instance of this class."
+msgstr "%s: Hindi ka makakagawa ng pangalawang pagkakataon ng class na ito."
+
+#: components/Updates.php:425 components/VersionRollback.php:402
+msgid ""
+"<em>Before you can receive product updates, you must first authenticate your "
+"Elegant Themes subscription. To do this, you need to enter both your Elegant "
+"Themes Username and your Elegant Themes API Key into the Updates Tab in your "
+"theme and plugin settings. To locate your API Key, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> to your Elegant Themes account and navigate to the <strong>Account > API "
+"Key</strong> page. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Learn more here</a></em>. If you still get this message, please "
+"make sure that your Username and API Key have been entered correctly"
+msgstr ""
+"<em>Bago ka makatanggap ng mga update ng produkto, kailangan mo munang "
+"patotohanan ang iyong suskrisyon para sa Elegant Themes. Upang magawa ito, "
+"kailangan mong ilagay ang iyong Username sa at API Key sa Elegant Themes sa Tab "
+"na Mga Update sa mga setting mo ng theme at plugin. Upang mahanap ang iyong API "
+"Key, <a href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">mag-log in</a> sa iyong account sa Elegant Themes at "
+"mag-navigate sa pahina ng <strong>Account > API Key</strong>. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Dagdagan ang nalalaman dito</a></em>. Kung nakukuha mo pa rin "
+"ang mensaheng ito, pakitiyak na nailagay nang tama ang iyong Username at API Key."
+
+#: components/Updates.php:427
+msgid ""
+"Automatic updates currently unavailable. For all Elegant Themes products, please "
+"<a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">authenticate your subscription</a> via the Updates tab in your "
+"theme & plugin settings to enable product updates. Make sure that your Username "
+"and API Key have been entered correctly."
+msgstr ""
+"Kasalukuyang hindi available ang mga awtomatikong update. Para sa lahat ng "
+"produkto ng Elegant Themes mangyaring <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">patotohanan ang iyong susriksyon</a> sa pamamagitan ng tab na "
+"Mga Update sa mga setting mo ng theme at plugin upang ma-enable ang mga update ng "
+"produkto. Tiyakin na nailagay nang tama ang iyong Username at API Key."
+
+#: components/Updates.php:451
+msgid ""
+"Your Elegant Themes subscription has expired. You must <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">renew your "
+"account</a> to regain access to product updates and support. To ensure "
+"compatibility and security, it is important to always keep your themes and "
+"plugins updated."
+msgstr ""
+"Napaso na ang iyong suskrisyon sa Elegant Themes. Kailangan mong <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">i-renew "
+"ang iyong account</a> upang muling magkaroon ng access sa mga update at suporta "
+"ng produkto. Upang matiyak ang pagkakatugma at seguridad, mahalaga na "
+"panatilihing naka-update ang iyong mga theme at plugin palagi."
+
+#: components/VersionRollback.php:96 components/VersionRollback.php:303
+#: components/api/ElegantThemes.php:107 components/api/ElegantThemes.php:226
+msgid "An unknown error has occurred. Please try again later."
+msgstr "Nagkaroon ng error. Pakisubukang muli sa ibang pagkakataon."
+
+#: components/VersionRollback.php:205
+msgid "Security check failed. Please refresh and try again."
+msgstr "Nabigo ulit ang pag-e-eksport. Paki-refresh ang pahina at subukang muli."
+
+#: components/VersionRollback.php:212
+msgid "You don't have sufficient permissions to access this page."
+msgstr "Wala kang sapat na mga pahintulot upang ma-access ang pahinang ito."
+
+#: components/VersionRollback.php:220 components/VersionRollback.php:546
+msgid ""
+"You're currently rolled back to <strong>Version %1$s</strong> from "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Kasalukuyan kang pinagsama pabalik sa <strong>Bersyon %1$s</strong> mula sa "
+"<strong>Bersyon %2$s</strong> ."
+
+#: components/VersionRollback.php:227 components/VersionRollback.php:555
+msgid ""
+"Update to the latest version to unlock the full power of %1$s. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"I-update sa pinakabagong bersyon upang i-unlock ang buong lakas ng %1$s. <a "
+"href=\"%2$s\" target=\"_blank\">Dagdagan ang nalalaman dito</a> ."
+
+#: components/VersionRollback.php:248 components/api/ElegantThemes.php:218
+msgid ""
+"For privacy and security reasons, you cannot rollback to <strong>Version "
+"%1$s</strong>."
+msgstr ""
+"Para sa mga dahilan ng pagkapribado at seguridad, hindi ka maaaring bumalik sa "
+"<strong>Bersyon %1$s</strong> ."
+
+#: components/VersionRollback.php:254
+msgid "Learn more here."
+msgstr "Dagdagan ang nalalaman dito."
+
+#: components/VersionRollback.php:398 components/VersionRollback.php:446
+#: components/VersionRollback.php:485 components/VersionRollback.php:537
+msgid "Version Rollback"
+msgstr "Bersyon Rollback"
+
+#: components/VersionRollback.php:428 components/VersionRollback.php:516
+msgid "Rollback to the previous version"
+msgstr "Rollback sa nakaraang bersyon"
+
+#: components/VersionRollback.php:455 components/api/ElegantThemes.php:212
+msgid "The previously used version of %1$s does not support version rollback."
+msgstr "Ang dating ginamit na bersyon ng %1$s ay hindi sumusuporta sa rollback ng bersyon."
+
+#: components/VersionRollback.php:494
+msgid ""
+"You'll be rolled back to <strong>Version %1$s</strong> from the current "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Mababalik ka sa <strong>Bersyon %1$s</strong> mula sa kasalukuyang "
+"<strong>Bersyon %2$s</strong> ."
+
+#: components/VersionRollback.php:503
+msgid ""
+"Rolling back will reinstall the previous version of %1$s. You will be able to "
+"update to the latest version at any time. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Ang pag-rollback ay muling i-install ang nakaraang bersyon ng %1$s. Magagawa mong "
+"i-update sa pinakabagong bersyon anumang oras. <a href=\"%2$s\" "
+"target=\"_blank\">Dagdagan ang nalalaman dito</a> ."
+
+#: components/VersionRollback.php:511
+msgid "Make sure you have a full site backup before proceeding."
+msgstr "Tiyaking mayroon kang isang buong backup na site bago magpatuloy."
+
+#: components/VersionRollback.php:563
+msgid "Update to the Latest Version"
+msgstr "I-update sa Pinakabagong Bersyon"
+
+#: components/api/ElegantThemes.php:116
+msgid "Invalid Username and/or API Key provided."
+msgstr "Hindi nakapaglagay ng wastong URL."
+
+#: components/api/ElegantThemes.php:206
+msgid ""
+"An unexpected response was received from the version server. Please try again "
+"later."
+msgstr ""
+"Ang isang hindi inaasahang tugon ay natanggap mula sa server ng bersyon. Subukang "
+"muli mamaya."
+
+#: components/api/Service.php:238
+msgid "API request failed, please try again."
+msgstr "Nabigo ang kahilingan para sa API, pakisubukang muli."
+
+#: components/api/Service.php:239
+msgid "API request failed. API Key is required."
+msgstr "Nabigo ang kahilingan para sa API. Kinakailangan ang API Key."
+
+#: components/api/email/ActiveCampaign.php:106
+#: components/api/email/CampaignMonitor.php:163
+#: components/api/email/ConstantContact.php:143
+#: components/api/email/ConvertKit.php:146
+#: components/api/email/Feedblitz.php:80
+#: components/api/email/GetResponse.php:100
+#: components/api/email/HubSpot.php:138
+#: components/api/email/Infusionsoft.php:250
+#: components/api/email/MadMimi.php:100 components/api/email/MailChimp.php:218
+#: components/api/email/MailerLite.php:93
+#: components/api/email/Ontraport.php:172
+#: components/api/email/SendinBlue.php:96
+msgid "API Key"
+msgstr "API Key"
+
+#: components/api/email/ActiveCampaign.php:109
+msgid "API URL"
+msgstr "API URL"
+
+#: components/api/email/ActiveCampaign.php:113
+msgid "Form ID"
+msgstr "Form ID"
+
+#: components/api/email/Aweber.php:164
+msgid "Authorization Code"
+msgstr "Code ng Awtorisasyon"
+
+#: components/api/email/ConstantContact.php:146
+msgid "Access Token"
+msgstr "Access Token"
+
+#: components/api/email/ConvertKit.php:149
+msgid "API Secret"
+msgstr "API Secret"
+
+#: components/api/email/Emma.php:87
+msgid "Public API Key"
+msgstr "Pampublikong API Key"
+
+#: components/api/email/Emma.php:90
+msgid "Private API Key"
+msgstr "Pribadong API Key"
+
+#: components/api/email/Emma.php:93
+msgid "Account ID"
+msgstr "Account ID"
+
+#: components/api/email/Fields.php:30
+msgid "Use Custom Fields"
+msgstr "Gamitin ang Mga Pasadyang Patlang"
+
+#: components/api/email/Fields.php:33 components/api/email/Fields.php:255
+#: components/api/email/Fields.php:267 components/api/email/Fields.php:284
+#: components/api/email/Fields.php:315
+msgid "Yes"
+msgstr "Oo"
+
+#: components/api/email/Fields.php:34 components/api/email/Fields.php:256
+#: components/api/email/Fields.php:268 components/api/email/Fields.php:285
+#: components/api/email/Fields.php:316
+msgid "No"
+msgstr "Hindi"
+
+#: components/api/email/Fields.php:41
+msgid "Enable this option to use custom fields in your opt-in form."
+msgstr ""
+"Paganahin ang pagpipiliang ito upang magamit ang mga pasadyang field sa iyong "
+"form sa pag-opt-in."
+
+#: components/api/email/Fields.php:75
+msgid "Link URL"
+msgstr "Link URL"
+
+#: components/api/email/Fields.php:76
+msgid "Link Text"
+msgstr "Link Text"
+
+#: components/api/email/Fields.php:77
+msgid "Discard Changes"
+msgstr "Itapon ang Mga Pagbabago"
+
+#: components/api/email/Fields.php:78
+msgid "Save Changes"
+msgstr "I-save ang mga pagbabago"
+
+#: components/api/email/Fields.php:79
+msgid "Option Link"
+msgstr "Link ng Pagpipilian"
+
+#: components/api/email/Fields.php:88
+msgid "ID"
+msgstr "ID"
+
+#: components/api/email/Fields.php:91
+msgid ""
+"Define a unique ID for this field. You should use only English characters without "
+"special characters or spaces."
+msgstr ""
+"Tukuyin ang isang natatanging ID para sa patlang na ito. Dapat mong gamitin "
+"lamang ang mga character na Ingles na walang mga espesyal na character o mga "
+"puwang."
+
+#: components/api/email/Fields.php:98
+msgid "Name"
+msgstr "Pangalan"
+
+#: components/api/email/Fields.php:100
+msgid "Set the label that will appear above this field in the opt-in form."
+msgstr "Itakda ang label na lilitaw sa itaas ng field na ito sa form sa pag-opt-in."
+
+#: components/api/email/Fields.php:110
+msgid "Type"
+msgstr "Uri"
+
+#: components/api/email/Fields.php:115
+msgid "Choose a field type..."
+msgstr "Pumili ng isang uri ng field ..."
+
+#: components/api/email/Fields.php:116
+msgid "Input Field"
+msgstr "Input Field"
+
+#: components/api/email/Fields.php:117
+msgid "Email Field"
+msgstr "Email Field"
+
+#: components/api/email/Fields.php:118
+msgid "Textarea"
+msgstr "Textarea"
+
+#: components/api/email/Fields.php:119
+msgid "Checkboxes"
+msgstr "Mga checkbox"
+
+#: components/api/email/Fields.php:120
+msgid "Radio Buttons"
+msgstr "Mga Pindutan ng Radio"
+
+#: components/api/email/Fields.php:121
+msgid "Select Dropdown"
+msgstr "Piliin ang Dropdown"
+
+#: components/api/email/Fields.php:123
+msgid "Choose the type of field"
+msgstr "Piliin ang uri ng field"
+
+#: components/api/email/Fields.php:133
+msgid "Checked By Default"
+msgstr "Sinusuri ng Default"
+
+#: components/api/email/Fields.php:134
+msgid ""
+"If enabled, the check mark will be automatically selected for the visitor. They "
+"can still deselect it."
+msgstr ""
+"Kung pinagana, ang tandang tsek ay awtomatikong pipiliin para sa bisita. Maaari "
+"pa rin nilang mapili ito."
+
+#: components/api/email/Fields.php:144 components/api/email/Fields.php:163
+#: components/api/email/Fields.php:182
+msgid "Options"
+msgstr "Mga Opsyon"
+
+#: components/api/email/Fields.php:199
+msgid "Minimum Length"
+msgstr "Pinakamababang Haba"
+
+#: components/api/email/Fields.php:200 components/api/email/Fields.php:217
+msgid "Leave at 0 to remove restriction"
+msgstr "Mag-iwan sa 0 upang alisin ang paghihigpit"
+
+#: components/api/email/Fields.php:216
+msgid "Maximum Length"
+msgstr "Pinakamataas na Haba"
+
+#: components/api/email/Fields.php:233
+msgid "Allowed Symbols"
+msgstr "Pinapayagan ang Mga Simbolo"
+
+#: components/api/email/Fields.php:234
+msgid ""
+"You can validate certain types of information by disallowing certain symbols. "
+"Symbols added here will prevent the form from being submitted if added by the "
+"user."
+msgstr ""
+"Maaari mong patunayan ang ilang mga uri ng impormasyon sa pamamagitan ng "
+"pag-dismiss ng ilang mga simbolo. Ang mga simbolo na idinagdag dito ay maiiwasan "
+"ang form na isinumite kung idinagdag ng gumagamit."
+
+#: components/api/email/Fields.php:238 components/api/email/Fields.php:326
+msgid "All"
+msgstr "Lahat"
+
+#: components/api/email/Fields.php:239
+msgid "Letters Only (A-Z)"
+msgstr "Letters Only (AZ)"
+
+#: components/api/email/Fields.php:240
+msgid "Numbers Only (0-9)"
+msgstr "Mga Numero lamang (0-9)"
+
+#: components/api/email/Fields.php:241
+msgid "Alphanumeric Only (A-Z, 0-9)"
+msgstr "Alphanumeric Only (AZ, 0-9)"
+
+#: components/api/email/Fields.php:250
+msgid "Required Field"
+msgstr "Kinakailangang Patlang"
+
+#: components/api/email/Fields.php:258
+msgid "Define whether the field should be required or optional"
+msgstr "Tukuyin kung ang patlang ay dapat na kinakailangan o opsyonal"
+
+#: components/api/email/Fields.php:262
+msgid "Hidden Field"
+msgstr "Nakatagong Field"
+
+#: components/api/email/Fields.php:270
+msgid "Define whether or not the field should be visible."
+msgstr "Tukuyin kung o hindi dapat makita ang patlang."
+
+#: components/api/email/Fields.php:280
+msgid "Make Fullwidth"
+msgstr "Gumawa ng Fullwidth"
+
+#: components/api/email/Fields.php:289
+msgid ""
+"If enabled, the field will take 100% of the width of the form, otherwise it will "
+"take 50%"
+msgstr ""
+"Kung pinagana, ang field ay kukuha ng 100% ng lapad ng form, kung hindi, aabutin "
+"ng 50%"
+
+#: components/api/email/Fields.php:302
+msgid "Field Background Color"
+msgstr "Kulay ng Background ng Field"
+
+#: components/api/email/Fields.php:303
+msgid "Pick a color to fill the module's input fields."
+msgstr "Pumili ng isang kulay upang punan ang mga patlang ng input ng module."
+
+#: components/api/email/Fields.php:310
+msgid "Enable"
+msgstr "Paganahin"
+
+#: components/api/email/Fields.php:318
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of the "
+"rules below are fulfilled<br><strong>Note:</strong> Only fields with an unique "
+"and non-empty field ID can be used"
+msgstr ""
+"Ang pagpapagana ng kondisyonal na lohika ay nakikita lamang ang larangan na ito "
+"kung kailan matutupad ang anuman o lahat ng mga patakaran sa ibaba <br> "
+"<strong>Tandaan:</strong> Maaari lamang gamitin ang mga patlang na may "
+"natatanging at walang laman na field ID"
+
+#: components/api/email/Fields.php:322
+msgid "Relation"
+msgstr "Relasyon"
+
+#: components/api/email/Fields.php:327
+msgid "Any"
+msgstr "Anumang"
+
+#: components/api/email/Fields.php:333
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr "Piliin kung anuman o lahat ng mga tuntunin ay dapat matupad"
+
+#: components/api/email/Fields.php:340
+msgid "Rules"
+msgstr "Panuntunan"
+
+#: components/api/email/Fields.php:341
+msgid ""
+"Conditional logic rules can be used to hide and display different input fields "
+"conditionally based on how the visitor has interacted with different inputs."
+msgstr ""
+"Ang mga tuntunin ng kondisyonal na lohika ay maaaring magamit upang itago at "
+"ipakita ang iba't ibang mga patlang ng input nang may pasubali batay sa kung "
+"paano nakipag-ugnayan ang bisita sa iba't ibang mga input."
+
+#: components/api/email/Fields.php:383
+msgid "Choose a field..."
+msgstr "Pumili ng isang field ..."
+
+#: components/api/email/Fields.php:391
+msgid "Field"
+msgstr "Patlang"
+
+#: components/api/email/Fields.php:398
+msgid ""
+"Choose a custom field. Custom fields must be defined in your email provider "
+"account."
+msgstr ""
+"Pumili ng isang pasadyang field. Dapat na tinukoy ang mga custom na patlang sa "
+"iyong email provider account."
+
+#: components/api/email/Infusionsoft.php:253
+msgid "App Name"
+msgstr "Pangalan ng App"
+
+#: components/api/email/Infusionsoft.php:366
+msgid ""
+"Successfully authorized. Subscribers count will be updated in background, please "
+"check back in %1$s %2$s"
+msgstr ""
+"Tagumpay na nabigyan ng awtorisasyon. Maa-update ang bilang mga suskritor sa "
+"background, mangyaring bumalik pagkatapos ng %1$s %2$s"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minute"
+msgstr "minuto"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minutes"
+msgstr "minuto"
+
+#: components/api/email/Infusionsoft.php:396
+msgid "Already subscribed"
+msgstr "May suskrisyon na"
+
+#: components/api/email/MadMimi.php:97 components/api/email/iContact.php:184
+msgid "Username"
+msgstr "Username"
+
+#: components/api/email/MailChimp.php:293
+msgid "An error occurred, please try later."
+msgstr "Nagkaroon ng error. Pakisubukang muli sa ibang pagkakataon."
+
+#: components/api/email/MailChimp.php:325
+msgid "You have signed up to a lot of lists very recently, please try again later"
+msgstr ""
+"Nag-sign up ka para sa napakaraming listahan kamakailan, pakisubukang muli sa "
+"ibang pagkakataon"
+
+#: components/api/email/MailPoet.php:38 components/api/email/_MailPoet2.php:28
+#: components/api/email/_MailPoet3.php:33
+msgid "MailPoet plugin is either not installed or not activated."
+msgstr "Ang MailPoet plugin ay hindi naka-install o hindi na-activate."
+
+#: components/api/email/Mailster.php:53
+msgid "Opt-in"
+msgstr "Mag-opt-in"
+
+#: components/api/email/Mailster.php:117
+msgid "Mailster Newsletter Plugin is not enabled!"
+msgstr "Hindi naka-enable ang Mailster Newsletter Plugin!"
+
+#: components/api/email/Mailster.php:121
+msgid "No lists were found. Please create a Mailster list first!"
+msgstr "Walang nahanap na mga listahan. Mangyaring gumawa muna ng listahan ng Mailster!"
+
+#: components/api/email/Mailster.php:137 components/api/email/_MailPoet2.php:97
+#: components/api/email/_MailPoet3.php:148
+msgid "An error occurred. Please try again later."
+msgstr "Nagkaroon ng error. Pakisubukang muli sa ibang pagkakataon."
+
+#: components/api/email/Ontraport.php:175
+msgid "APP ID"
+msgstr "APP ID"
+
+#: components/api/email/Provider.php:102
+msgid "Subscribed via"
+msgstr "May suskrisyon sa pamamagitan ng"
+
+#: components/api/email/SalesForce.php:144
+msgid "Instance URL"
+msgstr "Instance URL"
+
+#: components/api/email/SalesForce.php:149
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#: components/api/email/SalesForce.php:154
+msgid "Consumer Secret"
+msgstr "Consumer Secret"
+
+#: components/api/email/SalesForce.php:161
+msgid "Organization ID"
+msgstr "Organization ID"
+
+#: components/api/email/SalesForce.php:186
+msgid "Organization ID cannot be empty"
+msgstr "Hindi maaaring blangko ang Organization ID"
+
+#: components/api/email/SalesForce.php:256
+#: components/api/email/SalesForce.php:343
+msgid "An error occurred. Please try again."
+msgstr "Nagkaroon ng error. Pakisubukang muli sa ibang pagkakataon."
+
+#: components/api/email/SalesForce.php:307
+msgid "Unknown Organization ID"
+msgstr "Di-kilalang Organization ID"
+
+#: components/api/email/_MailPoet2.php:144
+msgid "Already Subscribed"
+msgstr "May suskrisyon na"
+
+#: components/api/email/iContact.php:181
+msgid "App ID"
+msgstr "App ID"
+
+#: components/api/email/iContact.php:187
+msgid "App Password"
+msgstr "Password ng App"
+
+#: components/api/email/init.php:51
+msgid "ERROR: Invalid arguments."
+msgstr "ERROR: Maling mga argumento."
+
+#: components/data/init.php:191
+msgid "Invalid attribute key"
+msgstr "Hindi wastong susi ng katangian"
+
+#: components/data/init.php:258
+msgid "Invalid tag element"
+msgstr "Hindi wastong elemento ng tag"
+
+#: components/data/init.php:328
+msgid "This is not a valid excuse to not escape the passed value."
+msgstr "Ito ay hindi wastong dahilan upang hindi makatakas ang naipasa na halaga."
+
+#: components/data/init.php:367
+msgid "This is not a valid excuse to not sanitize the passed value."
+msgstr "Ito ay hindi wastong dahilan upang hindi sanitize ang nakapasa na halaga."
+
+#: components/lib/WPHttp.php:192
+msgid "A valid URL was not provided."
+msgstr "Hindi nakapaglagay ng wastong URL."
+
+#: components/lib/WPHttp.php:196
+msgid "User has blocked requests through HTTP."
+msgstr "Nag-block ang user ng mga kahilingan sa pamamagitan ng HTTP."
+
+#: components/lib/WPHttp.php:209
+msgid "Destination directory for file streaming does not exist or is not writable."
+msgstr "Hindi umiiral o hindi writable ang destination director para sa streaming ng file."
+
+#: functions.php:101
+msgid "Once Monthly"
+msgstr "Minsan Bawat Buwan"
+
+#: functions.php:113
+msgid "Configuration Error"
+msgstr "Error sa Configuration"
+
+#: functions.php:522
+msgid "Got it, thanks!"
+msgstr "Nakuha ko na, salamat!"
+
+#: functions.php:1383
+msgid "Help"
+msgstr "Tulong"
+
+#: functions.php:212
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "sa"

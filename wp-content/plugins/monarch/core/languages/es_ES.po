@@ -1,0 +1,1388 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.elegantthemes.com/members-area/help/\n"
+"POT-Creation-Date: 2019-10-22 13:02:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elegant Themes\n"
+"Language-Team: Elegant Themes\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__"
+";esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: components/Portability.php:1874
+msgid ""
+"The browser version you are currently using is outdated. Please update to the "
+"newest version."
+msgstr ""
+"La versión del navegador que está utilizando actualmente está desactualizada. Por "
+"favor, actualice a la nueva versión."
+
+#: components/Portability.php:1875
+msgid "You reached your server memory limit. Please try increasing your PHP memory limit."
+msgstr ""
+"Ha alcanzado el límite de memoria de su servidor. Por favor, intente aumentar su "
+"límite de memoria en PHP."
+
+#: components/Portability.php:1876
+msgid ""
+"This file cannot be imported. It may be caused by file_uploads being disabled in "
+"your php.ini. It may also be caused by post_max_size or/and upload_max_filesize "
+"being smaller than file selected. Please increase it or transfer more substantial "
+"data at the time."
+msgstr ""
+"Este archivo no se puede importar. La causa puede ser que file_uploads esté "
+"desactivado en su php.ini. También puede estar causado porque post_max_size o/y "
+"upload_max_filesize sean de menor tamaño que el archivo seleccionado. Por favor, "
+"auméntelo o transfiera más datos cada vez."
+
+#: components/Portability.php:1877
+msgid "Invalid File format. You should be uploading a JSON file."
+msgstr "Formato de archivo no válido. Debería de estar subiendo un archivo JSON."
+
+#: components/Portability.php:1878
+msgid "This file should not be imported in this context."
+msgstr "Este archivo no debe importarse en este contexto."
+
+#: components/Portability.php:1879
+msgid ""
+"Please select at least one item to export or disable the \"Only export selected "
+"items\" option"
+msgstr ""
+"Seleccione al menos un elemento para exportar o deshabilitar la opción \"Solo "
+"exportar elementos seleccionados\""
+
+#: components/Portability.php:1880
+msgid "Import estimated time remaining: %smin"
+msgstr "Tiempo restante estimado de importación: %s min"
+
+#: components/Portability.php:1881
+msgid "Export estimated time remaining: %smin"
+msgstr "Tiempo restante estimado de exportación: %s min"
+
+#: components/Portability.php:1882
+msgid "Backup estimated time remaining: %smin"
+msgstr "Tiempo restante estimado de respaldo: %s min"
+
+#: components/Portability.php:1905
+msgid "Portability"
+msgstr "Portabilidad"
+
+#: components/Portability.php:1909
+msgid "Export"
+msgstr "Exportar"
+
+#: components/Portability.php:1910
+msgid "Import"
+msgstr "Importar"
+
+#: components/Portability.php:1914
+msgid ""
+"Exporting your %s will create a JSON file that can be imported into a different "
+"website."
+msgstr ""
+"Exportar su %s creará un archivo JSON que podrá importarse a un sitio web "
+"diferente."
+
+#: components/Portability.php:1915
+msgid "Export File Name"
+msgstr "Nombre del archivo exportado"
+
+#: components/Portability.php:1920
+msgid "Only export selected items"
+msgstr "Exportar solamente los artículos seleccionados"
+
+#: components/Portability.php:1924
+msgid "Export %s"
+msgstr "Exportar %s"
+
+#: components/Portability.php:1925
+msgid "Cancel Export"
+msgstr "Cancelar exportación"
+
+#: components/Portability.php:1930
+msgid ""
+"Importing a previously-exported %s file will overwrite all content currently on "
+"this page."
+msgstr ""
+"Importar un archivo %s exportado previamente sobrescribirá todo el contenido "
+"actual en esta página."
+
+#: components/Portability.php:1932
+msgid ""
+"Select a previously-exported Divi Builder Layouts file to begin importing items. "
+"Large collections of image-heavy exports may take several minutes to upload."
+msgstr ""
+"Seleccione un archivo de diseño exportado previamente de Divi Builder para "
+"comenzar a importar artículos. Las colecciones grandes de exportaciones con "
+"muchas imágenes pueden tardar varios minutos en subirse."
+
+#: components/Portability.php:1934
+msgid ""
+"Importing a previously-exported %s file will overwrite all current data. Please "
+"proceed with caution!"
+msgstr ""
+"Importar un archivo %s previamente exportado sobrescribirá los datos actuales. "
+"Por favor, ¡proceda con precaución!"
+
+#: components/Portability.php:1936
+msgid "Select File To Import"
+msgstr "Seleccione el archivo para importar"
+
+#: components/Portability.php:1938
+msgid "No File Selected"
+msgstr "No hay ningún archivo seleccionado"
+
+#: components/Portability.php:1939
+msgid "Choose File"
+msgstr "Elija un archivo"
+
+#: components/Portability.php:1943
+msgid "Download backup before importing"
+msgstr "Descargar copia de seguridad antes de importar"
+
+#: components/Portability.php:1946
+msgid "Apply Layout's Defaults To This Website"
+msgstr "Aplicar los valores predeterminados de diseño a este sitio web"
+
+#: components/Portability.php:1950
+msgid "Import %s"
+msgstr "Importar %s"
+
+#: components/Portability.php:1951
+msgid "Cancel Import"
+msgstr "Cancelar importación"
+
+#: components/Portability.php:2053
+msgid "Import & Export"
+msgstr "Importar y exportar"
+
+#: components/Portability.php:2195
+msgid "The export process failed. Please refresh the page and try again."
+msgstr ""
+"Ha fallado el proceso de exportación. Por favor, actualice la página y vuelva a "
+"intentarlo."
+
+#: components/SupportCenter.php:565 components/SupportCenter.php:1593
+msgid "Support Center"
+msgstr "Centro de Apoyo"
+
+#: components/SupportCenter.php:577
+msgid "Monarch Support Center"
+msgstr "Centro de Apoyo Monarca"
+
+#: components/SupportCenter.php:756
+msgid "A Basic Overview Of Extra"
+msgstr "Una descripción básica de extra"
+
+#: components/SupportCenter.php:760 components/SupportCenter.php:777
+msgid "Using Premade Layout Packs"
+msgstr "Uso de paquetes de diseño de Premade"
+
+#: components/SupportCenter.php:764
+msgid "Creating Category Layouts"
+msgstr "Crear diseños de categoría"
+
+#: components/SupportCenter.php:773 components/SupportCenter.php:886
+#: components/SupportCenter.php:910 components/SupportCenter.php:946
+msgid "Getting Started With The Divi Builder"
+msgstr "Empezando con el Divi Builder"
+
+#: components/SupportCenter.php:781
+msgid "The Divi Library"
+msgstr "La biblioteca divi"
+
+#: components/SupportCenter.php:789 components/SupportCenter.php:982
+msgid "A Basic Overview Of The Bloom Plugin"
+msgstr "Una descripción básica del plugin Bloom"
+
+#: components/SupportCenter.php:793
+msgid "How To Update The Bloom Plugin"
+msgstr "Cómo actualizar el complemento de Bloom"
+
+#: components/SupportCenter.php:797
+msgid "How To Add Mailing List Accounts"
+msgstr "Cómo agregar cuentas de listas de correo"
+
+#: components/SupportCenter.php:805
+msgid "A Complete Overviw Of Monarch"
+msgstr "Una visión completa del monarca"
+
+#: components/SupportCenter.php:809
+msgid "Adding Social Networks"
+msgstr "Agregar redes sociales"
+
+#: components/SupportCenter.php:813
+msgid "Configuring Social Follower APIs"
+msgstr "Configuración de API de seguidores sociales"
+
+#: components/SupportCenter.php:874
+msgid "Getting Started With Extra"
+msgstr "Empezando con Extra"
+
+#: components/SupportCenter.php:878
+msgid "Setting Up The Extra Theme Options"
+msgstr "Configuración de las opciones de tema extra"
+
+#: components/SupportCenter.php:882
+msgid "The Extra Category Builder"
+msgstr "El constructor de categorías extra"
+
+#: components/SupportCenter.php:890
+msgid "How To Update The Extra Theme"
+msgstr "Cómo actualizar el tema extra"
+
+#: components/SupportCenter.php:894 components/SupportCenter.php:918
+#: components/SupportCenter.php:954
+msgid "An Overview Of All Divi Modules"
+msgstr "Un resumen de todos los módulos Divi"
+
+#: components/SupportCenter.php:898 components/SupportCenter.php:930
+#: components/SupportCenter.php:966
+msgid "Getting Started With Layout Packs"
+msgstr "Primeros pasos con los paquetes de diseño"
+
+#: components/SupportCenter.php:902 components/SupportCenter.php:934
+msgid "Customizing Your Header And Navigation"
+msgstr "Personalización de su encabezado y navegación"
+
+#: components/SupportCenter.php:914
+msgid "How To Update The Divi Theme"
+msgstr "Cómo actualizar el tema Divi"
+
+#: components/SupportCenter.php:922 components/SupportCenter.php:958
+msgid "Using The Divi Library"
+msgstr "Usando La Biblioteca Divi"
+
+#: components/SupportCenter.php:926
+msgid "Setting Up The Divi Theme Options"
+msgstr "Configurando las opciones del tema Divi"
+
+#: components/SupportCenter.php:938 components/SupportCenter.php:974
+msgid "Divi For Developers"
+msgstr "Divi Para Desarrolladores"
+
+#: components/SupportCenter.php:950
+msgid "How To Update The Divi Builder"
+msgstr "Cómo actualizar el Divi Builder"
+
+#: components/SupportCenter.php:962
+msgid "Selling Products With Divi And WooCommerce"
+msgstr "Venta de productos con Divi y WooCommerce"
+
+#: components/SupportCenter.php:970
+msgid "Importing And Exporting Divi Layouts"
+msgstr "Importando Y Exportando Divi Layouts"
+
+#: components/SupportCenter.php:986
+msgid "How To Update Your Bloom Plugin"
+msgstr "Cómo actualizar su plugin Bloom"
+
+#: components/SupportCenter.php:990
+msgid "Adding Email Accounts In Bloom"
+msgstr "Agregar cuentas de correo electrónico en Bloom"
+
+#: components/SupportCenter.php:994
+msgid "Customizing Your Opt-in Designs"
+msgstr "Personalizando sus diseños opcionales"
+
+#: components/SupportCenter.php:998
+msgid "The Different Bloom Opt-in Types"
+msgstr "Los diferentes tipos de inclusión de Bloom"
+
+#: components/SupportCenter.php:1002
+msgid "Using The Bloom Display Settings"
+msgstr "Uso de la configuración de visualización de Bloom"
+
+#: components/SupportCenter.php:1006
+msgid "How To Use Triggers In Bloom"
+msgstr "Cómo usar disparadores en flor"
+
+#: components/SupportCenter.php:1010
+msgid "Adding Custom Fields To Bloom Opt-in Forms"
+msgstr "Agregar campos personalizados a los formularios de aceptación de Bloom"
+
+#: components/SupportCenter.php:1018
+msgid "A Complete Overview Of The Monarch Plugin"
+msgstr "Una descripción completa del complemento Monarch"
+
+#: components/SupportCenter.php:1022
+msgid "How To Update Your Monarch WordPress Plugin"
+msgstr "Cómo actualizar su plugin de WordPress Monarch"
+
+#: components/SupportCenter.php:1026
+msgid "Adding and Managing Social Networks"
+msgstr "Agregar y administrar redes sociales"
+
+#: components/SupportCenter.php:1030
+msgid "Configuring Social Network APIs"
+msgstr "Configurar API de redes sociales"
+
+#: components/SupportCenter.php:1034
+msgid "Customizing The Monarch Design"
+msgstr "Personalizando El Diseño Monarca"
+
+#: components/SupportCenter.php:1038
+msgid "Viewing Your Social Stats"
+msgstr "Ver tus estadísticas sociales"
+
+#: components/SupportCenter.php:1042
+msgid "Using The Floating Sidebar"
+msgstr "Usando la barra lateral flotante"
+
+#: components/SupportCenter.php:1046
+msgid "Using Popup & Flyin Triggers"
+msgstr "Uso de disparadores de ventanas emergentes y Flyin"
+
+#: components/SupportCenter.php:1129
+msgid "Divi Support Center :: WordPress debug log cannot be read."
+msgstr "Divi Support Center :: No se puede leer el registro de depuración de WordPress."
+
+#: components/SupportCenter.php:1137
+msgid "Divi Support Center :: WordPress debug.log is not configured."
+msgstr "Divi Support Center :: WordPress debug.log no está configurado."
+
+#: components/SupportCenter.php:1158
+msgid "Divi Support Center :: WordPress debug log cannot be found."
+msgstr ""
+"Divi Support Center :: No se puede encontrar el registro de depuración de "
+"WordPress."
+
+#: components/SupportCenter.php:1202
+msgid "Writable wp-content Directory"
+msgstr "Directorio de contenido wp grabable"
+
+#: components/SupportCenter.php:1210
+msgid ""
+"We recommend that the wp-content directory on your server be writable by "
+"WordPress in order to ensure the full functionality of Divi Builder themes and "
+"plugins."
+msgstr ""
+"Recomendamos que WordPress pueda escribir en el directorio wp-content de su "
+"servidor para garantizar la funcionalidad completa de los temas y complementos de "
+"Divi Builder."
+
+#: components/SupportCenter.php:1214
+msgid "PHP Version"
+msgstr "Versión PHP"
+
+#: components/SupportCenter.php:1222
+msgid ""
+"We recommend using the latest stable version of PHP. This will not only ensure "
+"compatibility with Divi, but it will also greatly speed up your website leading "
+"to less memory and CPU related issues."
+msgstr ""
+"Recomendamos usar la última versión estable de PHP. Esto no solo garantizará la "
+"compatibilidad con Divi, sino que también acelerará enormemente su sitio web, lo "
+"que reducirá la memoria y los problemas relacionados con la CPU."
+
+#: components/SupportCenter.php:1226
+msgid "memory_limit"
+msgstr "limite de memoria"
+
+#: components/SupportCenter.php:1234
+msgid ""
+"By default, memory limits set by your host or by WordPress may be too low. This "
+"will lead to applications crashing as PHP reaches the artificial limit. You can "
+"adjust your memory limit within your <a href=\"%1$s\" target=\"_blank\">php.ini "
+"file</a>, or by contacting your host for assistance. You may also need to define "
+"a memory limited in <a href=\"%2$s\" target=_blank\">wp-config.php</a>."
+msgstr ""
+"De forma predeterminada, los límites de memoria establecidos por su host o por "
+"WordPress pueden ser demasiado bajos. Esto hará que las aplicaciones se bloqueen "
+"cuando PHP alcance el límite artificial. Puede ajustar su límite de memoria "
+"dentro de su <a href=\"%1$s\" target=\"_blank\">archivo php.ini</a> , o "
+"contactando a su anfitrión para obtener ayuda. Es posible que también deba "
+"definir una memoria limitada en <a href=\"%2$s\" "
+"target=_blank\">wp-config.php</a> ."
+
+#: components/SupportCenter.php:1238
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: components/SupportCenter.php:1246
+msgid ""
+"Post Max Size limits how large a page or file can be on your website. If your "
+"page is larger than the limit set in PHP, it will fail to load. Post sizes can "
+"become quite large when using the Divi Builder, so it is important to increase "
+"this limit. It also affects file size upload/download, which can prevent large "
+"layouts from being imported into the builder. You can adjust your max post size "
+"within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting "
+"your host for assistance."
+msgstr ""
+"El tamaño máximo de publicación limita el tamaño de una página o archivo en su "
+"sitio web. Si su página es más grande que el límite establecido en PHP, no podrá "
+"cargarse. El tamaño de los postes puede llegar a ser bastante grande al usar Divi "
+"Builder, por lo que es importante aumentar este límite. También afecta la carga / "
+"descarga del tamaño del archivo, lo que puede evitar que se importen grandes "
+"diseños al constructor. Puede ajustar el tamaño máximo de su publicación dentro "
+"de su <a href=\"%1$s\" target=\"_blank\">archivo php.ini</a> , o contactando a su "
+"anfitrión para obtener ayuda."
+
+#: components/SupportCenter.php:1250
+msgid "max_execution_time"
+msgstr "max_execution_time"
+
+#: components/SupportCenter.php:1258
+msgid ""
+"Max Execution Time affects how long a page is allowed to load before it times "
+"out. If the limit is too low, you may not be able to import large layouts and "
+"files into the builder. You can adjust your max execution time within your <a "
+"href=\"%1$s\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"El tiempo máximo de ejecución afecta a la duración de la carga de una página "
+"antes de que se agote el tiempo de espera. Si el límite es demasiado bajo, es "
+"posible que no pueda importar diseños y archivos grandes al constructor. Puede "
+"ajustar su tiempo máximo de ejecución dentro de su <a href=\"%1$s\">archivo "
+"php.ini</a> , o contactando a su anfitrión para obtener ayuda."
+
+#: components/SupportCenter.php:1262
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: components/SupportCenter.php:1270
+msgid ""
+"Upload Max File Size determines that maximum file size that you are allowed to "
+"upload to your server. If the limit is too low, you may not be able to import "
+"large collections of layouts into the Divi Library. You can adjust your max file "
+"size within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by "
+"contacting your host for assistance."
+msgstr ""
+"Cargar tamaño máximo de archivo determina el tamaño máximo de archivo que puede "
+"cargar en su servidor. Si el límite es demasiado bajo, es posible que no pueda "
+"importar grandes colecciones de diseños en la Biblioteca Divi. Puede ajustar el "
+"tamaño máximo de su archivo dentro de su <a href=\"%1$s\" "
+"target=\"_blank\">archivo php.ini</a> , o contactando a su anfitrión para obtener "
+"ayuda."
+
+#: components/SupportCenter.php:1274
+msgid "max_input_time"
+msgstr "max_input_time"
+
+#: components/SupportCenter.php:1282
+msgid ""
+"This sets the maximum time in seconds a script is allowed to parse input data. If "
+"the limit is too low, the Divi Builder may time out before it is allowed to load. "
+"You can adjust your max input time within your <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Esto establece el tiempo máximo en segundos que un script puede analizar los "
+"datos de entrada. Si el límite es demasiado bajo, el Divi Builder puede expirar "
+"antes de que se le permita cargar. Puede ajustar su tiempo máximo de entrada "
+"dentro de su <a href=\"%1$s\" target=\"_blank\">archivo php.ini</a> , o "
+"contactando a su anfitrión para obtener ayuda."
+
+#: components/SupportCenter.php:1286
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: components/SupportCenter.php:1294
+msgid ""
+"This setting affects how many input variables may be accepted. If the limit is "
+"too low, it may prevent the Divi Builder from loading. You can adjust your max "
+"input variables within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, "
+"or by contacting your host for assistance."
+msgstr ""
+"Esta configuración afecta a cuántas variables de entrada se pueden aceptar. Si el "
+"límite es demasiado bajo, puede evitar que el Divi Builder se cargue. Puede "
+"ajustar sus variables de entrada máxima dentro de su <a href=\"%1$s\" "
+"target=\"_blank\">archivo php.ini</a> , o contactando a su anfitrión para obtener "
+"ayuda."
+
+#: components/SupportCenter.php:1298
+msgid "display_errors"
+msgstr "display_errors"
+
+#: components/SupportCenter.php:1307
+msgid ""
+"This setting determines whether or not errors should be printed as part of the "
+"page output. This is a feature to support your site's development and should "
+"never be used on production sites. You can edit this setting within your <a "
+"href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting your host for "
+"assistance."
+msgstr ""
+"Esta configuración determina si los errores deben imprimirse o no como parte de "
+"la salida de la página. Esta es una función para respaldar el desarrollo de su "
+"sitio y nunca debe usarse en sitios de producción. Puede editar esta "
+"configuración dentro de su <a href=\"%1$s\" target=\"_blank\">archivo php.ini</a> "
+", o contactando a su anfitrión para obtener ayuda."
+
+#: components/SupportCenter.php:1355
+msgid "This fails to meet our minimum required value of %1$s. "
+msgstr "Esto no cumple con nuestro valor mínimo requerido de %1$s ."
+
+#: components/SupportCenter.php:1361
+msgid "This meets our minimum required value of %1$s. "
+msgstr "Esto cumple con nuestro valor mínimo requerido de %1$s ."
+
+#: components/SupportCenter.php:1373
+msgid "Learn more."
+msgstr "Aprende más."
+
+#: components/SupportCenter.php:1382
+msgid "Congratulations! This meets or exceeds our recommendation of %1$s."
+msgstr "¡Felicidades! Esto cumple o excede nuestra recomendación de %1$s."
+
+#: components/SupportCenter.php:1394
+msgid "We recommend %1$s for the best experience."
+msgstr "Recomendamos %1$s para la mejor experiencia."
+
+#: components/SupportCenter.php:1403
+msgid "- We are unable to determine your setting. %1$s"
+msgstr "- No podemos determinar su configuración.  %1$s"
+
+#: components/SupportCenter.php:1466 components/SupportCenter.php:1599
+#: components/SupportCenter.php:2653
+msgid "System Status"
+msgstr "Estado del sistema"
+
+#: components/SupportCenter.php:1473
+msgid ""
+"Congratulations, all system checks have passed. Your hosting configuration is "
+"compatible with Divi."
+msgstr ""
+"Enhorabuena, todas las comprobaciones del sistema han pasado. Su configuración de "
+"hosting es compatible con Divi."
+
+#: components/SupportCenter.php:1596
+msgid "Divi Support Center Page"
+msgstr "Página del Centro de Soporte Divi"
+
+#: components/SupportCenter.php:1602 components/SupportCenter.php:2697
+#: components/SupportCenter.php:2735
+msgid "Remote Access"
+msgstr "Acceso remoto"
+
+#: components/SupportCenter.php:1605
+msgid "Divi Documentation &amp; Help"
+msgstr "Documentación Divi & Ayuda"
+
+#: components/SupportCenter.php:1608 components/SupportCenter.php:2543
+#: components/SupportCenter.php:2861
+msgid "Safe Mode"
+msgstr "Modo seguro"
+
+#: components/SupportCenter.php:1611 components/SupportCenter.php:2942
+msgid "Logs"
+msgstr "Troncos"
+
+#: components/SupportCenter.php:2062
+msgid "Elegant Themes API Error: HTTP error in API response"
+msgstr "Error de API de Temas elegantes: error de HTTP en la respuesta de API"
+
+#: components/SupportCenter.php:2073
+msgid "Elegant Themes API Error: WordPress Error in API response"
+msgstr "Error de API de temas elegantes: error de WordPress en respuesta de API"
+
+#: components/SupportCenter.php:2105
+msgid "Elegant Themes API Error: Incorrect Token. Please, try again."
+msgstr "Error de API de Temas elegantes: Token incorrecto. Inténtalo de nuevo."
+
+#: components/SupportCenter.php:2116
+msgid "Elegant Themes API Error: The API response was missing required data."
+msgstr ""
+"Error de API de temas elegantes: en la respuesta de API faltaban los datos "
+"requeridos."
+
+#: components/SupportCenter.php:2129
+msgid "Elegant Themes API Error: The API responded, but the response was empty."
+msgstr "Error de API de Temas elegantes: la API respondió, pero la respuesta estaba vacía."
+
+#: components/SupportCenter.php:2177
+msgid "Support account doesn't exist."
+msgstr "La cuenta de soporte no existe."
+
+#: components/SupportCenter.php:2189
+msgid "Support account hasn't been removed. Try to regenerate token again."
+msgstr "La cuenta de soporte no ha sido eliminada. Intenta regenerar el token de nuevo."
+
+#: components/SupportCenter.php:2194
+msgid "Cannot get the support account data. Try to regenerate token again."
+msgstr ""
+"No se pueden obtener los datos de la cuenta de soporte. Intenta regenerar el "
+"token de nuevo."
+
+#: components/SupportCenter.php:2206
+msgid "Token has been deleted successfully."
+msgstr "El token se ha eliminado correctamente."
+
+#: components/SupportCenter.php:2208
+msgid "Token has been deleted successfully. "
+msgstr "El token se ha eliminado correctamente."
+
+#: components/SupportCenter.php:2357
+msgid "ET Support User role has been activated."
+msgstr "El rol de usuario de soporte ET ha sido activado."
+
+#: components/SupportCenter.php:2368
+msgid "ET Support User role has been elevated."
+msgstr "El rol de Usuario de Soporte ET ha sido elevado."
+
+#: components/SupportCenter.php:2377
+msgid "ET Support User role has been deactivated."
+msgstr "El rol de Usuario de Soporte ET ha sido desactivado."
+
+#: components/SupportCenter.php:2450
+msgid "ET Safe Mode has been activated."
+msgstr "Se ha activado el modo seguro ET."
+
+#: components/SupportCenter.php:2454
+msgid "ET Safe Mode has been deactivated."
+msgstr "El Modo Seguro ET ha sido desactivado."
+
+#: components/SupportCenter.php:2549
+msgid "Safe Mode is enabled and the current action cannot be performed."
+msgstr "El Modo seguro está habilitado y la acción actual no se puede realizar."
+
+#: components/SupportCenter.php:2659
+msgid "Show Full Report"
+msgstr "Mostrar informe completo"
+
+#: components/SupportCenter.php:2660
+msgid "Hide Full Report"
+msgstr "Ocultar informe completo"
+
+#: components/SupportCenter.php:2661
+msgid "Copy Full Report"
+msgstr "Copiar informe completo"
+
+#: components/SupportCenter.php:2684
+msgid "Elegant Themes Support"
+msgstr "Soporte de Temas Elegantes"
+
+#: components/SupportCenter.php:2685
+msgid ""
+"<p>Enabling <strong>Remote Access</strong> will give the Elegant Themes support "
+"team limited access to your WordPress Dashboard. If requested, you can also "
+"enable full admin privileges. Remote Access should only be turned on if requested "
+"by the Elegant Themes support team. Remote Access is automatically disabled after "
+"4 days.</p>"
+msgstr ""
+"<p> Al habilitar el <strong>acceso remoto</strong> , el equipo de soporte de "
+"Elegant Themes tendrá acceso limitado a su Tablero de WordPress. Si lo solicita, "
+"también puede habilitar privilegios de administrador completos. El acceso remoto "
+"solo debe estar activado si lo solicita el equipo de soporte de Elegant Themes. "
+"El acceso remoto se desactiva automáticamente después de 4 días. </p>"
+
+#: components/SupportCenter.php:2698
+msgid ""
+"Remote Access cannot be enabled because you do not have a valid API Key or your "
+"Elegant Themes subscription has expired. You can find your API Key by <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">logging in</a> to your Elegant Themes account. It should then "
+"be added to your <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Options Panel</a>."
+msgstr ""
+"El acceso remoto no se puede habilitar porque no tiene una clave de API válida o "
+"su suscripción a Elegant Themes ha caducado. Puede encontrar su clave API al <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">iniciar sesión en</a> su cuenta de Temas elegantes. A "
+"continuación, debe agregarse a su <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Panel de opciones</a> ."
+
+#: components/SupportCenter.php:2737 components/SupportCenter.php:2760
+#: components/SupportCenter.php:2912
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: components/SupportCenter.php:2738 components/SupportCenter.php:2761
+#: components/SupportCenter.php:2913
+msgid "Disabled"
+msgstr "Discapacitado"
+
+#: components/SupportCenter.php:2740
+msgid "Remote Access will be automatically disabled in: "
+msgstr "El acceso remoto se desactivará automáticamente en:"
+
+#: components/SupportCenter.php:2758
+msgid "Activate Full Admin Privileges"
+msgstr "Activar los privilegios de administrador completo"
+
+#: components/SupportCenter.php:2776
+msgid "Copy Support Token"
+msgstr "Copia de token de soporte"
+
+#: components/SupportCenter.php:2782
+msgid "Chat With Support"
+msgstr "Chat con apoyo"
+
+#: components/SupportCenter.php:2862
+msgid ""
+"<p>Enabling <strong>Safe Mode</strong> will temporarily disable features and "
+"plugins that may be causing problems with your Elegant Themes product. This "
+"includes all Plugins, Child Themes, and Custom Code added to your integration "
+"areas. These items are only disabled for your current user session so your "
+"visitors will not be disrupted. Enabling Safe Mode makes it easy to figure out "
+"what is causing problems on your website by identifying or eliminating third "
+"party plugins and code as potential causes.</p>"
+msgstr ""
+"<p> Al habilitar el <strong>Modo seguro</strong> , se deshabilitarán "
+"temporalmente las funciones y los complementos que pueden estar causando "
+"problemas con su producto Elegant Themes. Esto incluye todos los complementos, "
+"temas secundarios y código personalizado agregado a sus áreas de integración. "
+"Estos elementos solo están deshabilitados para su sesión de usuario actual, por "
+"lo que sus visitantes no serán interrumpidos. La habilitación del Modo seguro "
+"facilita la tarea de descubrir qué está causando problemas en su sitio web al "
+"identificar o eliminar los complementos y el código de terceros como posibles "
+"causas. </p>"
+
+#: components/SupportCenter.php:2889
+msgid ""
+"<p class=\"et-safe-mode-error\">Plugins cannot be disabled because your "
+"<code>wp-content</code> directory has inconsistent file permissions. <a "
+"href=\"%1$s\" target=\"_blank\">Click here</a> for more information.</p>"
+msgstr ""
+"<p class=\"et-safe-mode-error\"> Los complementos no se pueden desactivar porque "
+"su directorio <code>wp-content</code> tiene permisos de archivo inconsistentes. "
+"<a href=\"%1$s\" target=\"_blank\"> Haga clic aquí</a> para obtener más "
+"información. </p>"
+
+#: components/SupportCenter.php:2894
+msgid "The following plugins will be temporarily disabled for you only:"
+msgstr "Los siguientes complementos se desactivarán temporalmente solo para usted:"
+
+#: components/SupportCenter.php:2957
+msgid "Download Full Debug Log"
+msgstr "Descargar Full Debug Log"
+
+#: components/SupportCenter.php:2961
+msgid "Copy Recent Log Entries"
+msgstr "Copiar entradas de registro recientes"
+
+#: components/Updates.php:25
+msgid "%s: You cannot create a second instance of this class."
+msgstr "%s: No puede crear una segunda instancia de esta clase."
+
+#: components/Updates.php:425 components/VersionRollback.php:402
+msgid ""
+"<em>Before you can receive product updates, you must first authenticate your "
+"Elegant Themes subscription. To do this, you need to enter both your Elegant "
+"Themes Username and your Elegant Themes API Key into the Updates Tab in your "
+"theme and plugin settings. To locate your API Key, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> to your Elegant Themes account and navigate to the <strong>Account > API "
+"Key</strong> page. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Learn more here</a></em>. If you still get this message, please "
+"make sure that your Username and API Key have been entered correctly"
+msgstr ""
+"<em>Para poder recibir actualizaciones de productos, debe autentificar su "
+"suscripción de Elegant Themes. Para ello, debe introducir su nombre de usuario y "
+"su clave API de Elegant Themes en la Pestaña de actualizaciones dentro de sus "
+"ajustes de temas y complementos. Para localizar su clave API, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">inicie "
+"sesión</a> en su cuenta de Elegant Themes y acceda a la página de <strong>Cuenta "
+"> Clave API</strong>. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Obtenga más información aquí</a></em>. Si sigue recibiendo este "
+"mensaje, asegúrese de que el nombre de usuario y la clave API que ha introducido "
+"son correctos."
+
+#: components/Updates.php:427
+msgid ""
+"Automatic updates currently unavailable. For all Elegant Themes products, please "
+"<a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">authenticate your subscription</a> via the Updates tab in your "
+"theme & plugin settings to enable product updates. Make sure that your Username "
+"and API Key have been entered correctly."
+msgstr ""
+"En estos momentos, las actualizaciones automáticas no están disponibles. Para "
+"activar las actualizaciones de todos los productos de Elegant Themes, <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">autentifique su suscripción</a> desde la Pestaña de "
+"actualizaciones en sus ajustes de temas y complementos. Asegúrese de que el "
+"nombre de usuario y la clave API que ha introducido son correctos."
+
+#: components/Updates.php:451
+msgid ""
+"Your Elegant Themes subscription has expired. You must <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">renew your "
+"account</a> to regain access to product updates and support. To ensure "
+"compatibility and security, it is important to always keep your themes and "
+"plugins updated."
+msgstr ""
+"Su suscripción de Elegant Themes ha caducado. Debe <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">renovar su "
+"cuenta</a> para volver a tener acceso a las actualizaciones y asistencia de los "
+"productos. Para garantizar la compatibilidad y la seguridad, es importante que "
+"siempre mantenga sus temas y complementos actualizados."
+
+#: components/VersionRollback.php:96 components/VersionRollback.php:303
+#: components/api/ElegantThemes.php:107 components/api/ElegantThemes.php:226
+msgid "An unknown error has occurred. Please try again later."
+msgstr "Se ha producido un error. Vuelva a intentarlo más tarde."
+
+#: components/VersionRollback.php:205
+msgid "Security check failed. Please refresh and try again."
+msgstr ""
+"Ha fallado el proceso de exportación. Por favor, actualice la página y vuelva a "
+"intentarlo."
+
+#: components/VersionRollback.php:212
+msgid "You don't have sufficient permissions to access this page."
+msgstr "No tienes permisos suficientes para acceder a esta página."
+
+#: components/VersionRollback.php:220 components/VersionRollback.php:546
+msgid ""
+"You're currently rolled back to <strong>Version %1$s</strong> from "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Actualmente está revertido a la <strong>Versión %1$s</strong> de la "
+"<strong>Versión %2$s</strong> ."
+
+#: components/VersionRollback.php:227 components/VersionRollback.php:555
+msgid ""
+"Update to the latest version to unlock the full power of %1$s. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Actualice a la última versión para desbloquear la potencia completa de %1$s. <a "
+"href=\"%2$s\" target=\"_blank\">Aprende más aquí</a> ."
+
+#: components/VersionRollback.php:248 components/api/ElegantThemes.php:218
+msgid ""
+"For privacy and security reasons, you cannot rollback to <strong>Version "
+"%1$s</strong>."
+msgstr ""
+"Por razones de privacidad y seguridad, no puede revertir a la <strong>Versión "
+"%1$s</strong> ."
+
+#: components/VersionRollback.php:254
+msgid "Learn more here."
+msgstr "Aprende más aquí."
+
+#: components/VersionRollback.php:398 components/VersionRollback.php:446
+#: components/VersionRollback.php:485 components/VersionRollback.php:537
+msgid "Version Rollback"
+msgstr "Versión Rollback"
+
+#: components/VersionRollback.php:428 components/VersionRollback.php:516
+msgid "Rollback to the previous version"
+msgstr "Rollback a la versión anterior"
+
+#: components/VersionRollback.php:455 components/api/ElegantThemes.php:212
+msgid "The previously used version of %1$s does not support version rollback."
+msgstr "La versión utilizada anteriormente de %1$s no admite la reversión de versión."
+
+#: components/VersionRollback.php:494
+msgid ""
+"You'll be rolled back to <strong>Version %1$s</strong> from the current "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Se revertirá a la <strong>versión %1$s</strong> de la <strong>versión</strong> "
+"actual <strong> %2$s</strong> ."
+
+#: components/VersionRollback.php:503
+msgid ""
+"Rolling back will reinstall the previous version of %1$s. You will be able to "
+"update to the latest version at any time. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Revertir volverá a instalar la versión anterior de %1$s. Podrás actualizar a la "
+"última versión en cualquier momento. <a href=\"%2$s\" target=\"_blank\">Aprende "
+"más aquí</a> ."
+
+#: components/VersionRollback.php:511
+msgid "Make sure you have a full site backup before proceeding."
+msgstr "Asegúrese de tener una copia de seguridad completa del sitio antes de continuar."
+
+#: components/VersionRollback.php:563
+msgid "Update to the Latest Version"
+msgstr "Actualizar a la última versión"
+
+#: components/api/ElegantThemes.php:116
+msgid "Invalid Username and/or API Key provided."
+msgstr "No se ha proporcionado una URL válida."
+
+#: components/api/ElegantThemes.php:206
+msgid ""
+"An unexpected response was received from the version server. Please try again "
+"later."
+msgstr ""
+"Se recibió una respuesta inesperada del servidor de versiones. Por favor, "
+"inténtelo de nuevo más tarde."
+
+#: components/api/Service.php:238
+msgid "API request failed, please try again."
+msgstr "Error en la solicitud de la API. Vuelva a intentarlo."
+
+#: components/api/Service.php:239
+msgid "API request failed. API Key is required."
+msgstr "Error en la solicitud de la API. Se requiere una clave API."
+
+#: components/api/email/ActiveCampaign.php:106
+#: components/api/email/CampaignMonitor.php:163
+#: components/api/email/ConstantContact.php:143
+#: components/api/email/ConvertKit.php:146
+#: components/api/email/Feedblitz.php:80
+#: components/api/email/GetResponse.php:100
+#: components/api/email/HubSpot.php:138
+#: components/api/email/Infusionsoft.php:250
+#: components/api/email/MadMimi.php:100 components/api/email/MailChimp.php:218
+#: components/api/email/MailerLite.php:93
+#: components/api/email/Ontraport.php:172
+#: components/api/email/SendinBlue.php:96
+msgid "API Key"
+msgstr "Clave API"
+
+#: components/api/email/ActiveCampaign.php:109
+msgid "API URL"
+msgstr "URL de la API"
+
+#: components/api/email/ActiveCampaign.php:113
+msgid "Form ID"
+msgstr "ID del formulario"
+
+#: components/api/email/Aweber.php:164
+msgid "Authorization Code"
+msgstr "Código de autorización"
+
+#: components/api/email/ConstantContact.php:146
+msgid "Access Token"
+msgstr "Token de acceso"
+
+#: components/api/email/ConvertKit.php:149
+msgid "API Secret"
+msgstr "Secreto de API"
+
+#: components/api/email/Emma.php:87
+msgid "Public API Key"
+msgstr "Clave API pública"
+
+#: components/api/email/Emma.php:90
+msgid "Private API Key"
+msgstr "Clave API privada"
+
+#: components/api/email/Emma.php:93
+msgid "Account ID"
+msgstr "ID de cuenta"
+
+#: components/api/email/Fields.php:30
+msgid "Use Custom Fields"
+msgstr "Usar campos personalizados"
+
+#: components/api/email/Fields.php:33 components/api/email/Fields.php:255
+#: components/api/email/Fields.php:267 components/api/email/Fields.php:284
+#: components/api/email/Fields.php:315
+msgid "Yes"
+msgstr "Sí"
+
+#: components/api/email/Fields.php:34 components/api/email/Fields.php:256
+#: components/api/email/Fields.php:268 components/api/email/Fields.php:285
+#: components/api/email/Fields.php:316
+msgid "No"
+msgstr "No"
+
+#: components/api/email/Fields.php:41
+msgid "Enable this option to use custom fields in your opt-in form."
+msgstr ""
+"Habilite esta opción para usar campos personalizados en su formulario de "
+"suscripción."
+
+#: components/api/email/Fields.php:75
+msgid "Link URL"
+msgstr "URL del enlace"
+
+#: components/api/email/Fields.php:76
+msgid "Link Text"
+msgstr "Texto del enlace"
+
+#: components/api/email/Fields.php:77
+msgid "Discard Changes"
+msgstr "Descartar los cambios"
+
+#: components/api/email/Fields.php:78
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: components/api/email/Fields.php:79
+msgid "Option Link"
+msgstr "Enlace de opción"
+
+#: components/api/email/Fields.php:88
+msgid "ID"
+msgstr "CARNÉ DE IDENTIDAD"
+
+#: components/api/email/Fields.php:91
+msgid ""
+"Define a unique ID for this field. You should use only English characters without "
+"special characters or spaces."
+msgstr ""
+"Defina una ID única para este campo. Debe usar solo caracteres en inglés sin "
+"caracteres ni espacios especiales."
+
+#: components/api/email/Fields.php:98
+msgid "Name"
+msgstr "Nombre"
+
+#: components/api/email/Fields.php:100
+msgid "Set the label that will appear above this field in the opt-in form."
+msgstr ""
+"Establezca la etiqueta que aparecerá sobre este campo en el formulario de "
+"suscripción."
+
+#: components/api/email/Fields.php:110
+msgid "Type"
+msgstr "Tipo"
+
+#: components/api/email/Fields.php:115
+msgid "Choose a field type..."
+msgstr "Elija un tipo de campo ..."
+
+#: components/api/email/Fields.php:116
+msgid "Input Field"
+msgstr "Campo de entrada"
+
+#: components/api/email/Fields.php:117
+msgid "Email Field"
+msgstr "Campo de correo electrónico"
+
+#: components/api/email/Fields.php:118
+msgid "Textarea"
+msgstr "Textarea"
+
+#: components/api/email/Fields.php:119
+msgid "Checkboxes"
+msgstr "Casillas de verificación"
+
+#: components/api/email/Fields.php:120
+msgid "Radio Buttons"
+msgstr "Botones de radio"
+
+#: components/api/email/Fields.php:121
+msgid "Select Dropdown"
+msgstr "Seleccionar desplegable"
+
+#: components/api/email/Fields.php:123
+msgid "Choose the type of field"
+msgstr "Elija el tipo de campo"
+
+#: components/api/email/Fields.php:133
+msgid "Checked By Default"
+msgstr "Comprobado por defecto"
+
+#: components/api/email/Fields.php:134
+msgid ""
+"If enabled, the check mark will be automatically selected for the visitor. They "
+"can still deselect it."
+msgstr ""
+"Si está habilitado, la marca de verificación se seleccionará automáticamente para "
+"el visitante. Todavía pueden deseleccionarlo."
+
+#: components/api/email/Fields.php:144 components/api/email/Fields.php:163
+#: components/api/email/Fields.php:182
+msgid "Options"
+msgstr "Opciones"
+
+#: components/api/email/Fields.php:199
+msgid "Minimum Length"
+msgstr "Longitud mínima"
+
+#: components/api/email/Fields.php:200 components/api/email/Fields.php:217
+msgid "Leave at 0 to remove restriction"
+msgstr "Dejar en 0 para eliminar la restricción."
+
+#: components/api/email/Fields.php:216
+msgid "Maximum Length"
+msgstr "Longitud maxima"
+
+#: components/api/email/Fields.php:233
+msgid "Allowed Symbols"
+msgstr "Símbolos permitidos"
+
+#: components/api/email/Fields.php:234
+msgid ""
+"You can validate certain types of information by disallowing certain symbols. "
+"Symbols added here will prevent the form from being submitted if added by the "
+"user."
+msgstr ""
+"Puede validar ciertos tipos de información rechazando ciertos símbolos. Los "
+"símbolos que se agreguen aquí evitarán que se envíe el formulario si lo agrega el "
+"usuario."
+
+#: components/api/email/Fields.php:238 components/api/email/Fields.php:326
+msgid "All"
+msgstr "Todos"
+
+#: components/api/email/Fields.php:239
+msgid "Letters Only (A-Z)"
+msgstr "Sólo letras (AZ)"
+
+#: components/api/email/Fields.php:240
+msgid "Numbers Only (0-9)"
+msgstr "Sólo números (0-9)"
+
+#: components/api/email/Fields.php:241
+msgid "Alphanumeric Only (A-Z, 0-9)"
+msgstr "Sólo alfanumérico (AZ, 0-9)"
+
+#: components/api/email/Fields.php:250
+msgid "Required Field"
+msgstr "Campo requerido"
+
+#: components/api/email/Fields.php:258
+msgid "Define whether the field should be required or optional"
+msgstr "Defina si el campo debe ser obligatorio u opcional."
+
+#: components/api/email/Fields.php:262
+msgid "Hidden Field"
+msgstr "Campo escondido"
+
+#: components/api/email/Fields.php:270
+msgid "Define whether or not the field should be visible."
+msgstr "Defina si el campo debe ser visible o no."
+
+#: components/api/email/Fields.php:280
+msgid "Make Fullwidth"
+msgstr "Hacer pleno ancho"
+
+#: components/api/email/Fields.php:289
+msgid ""
+"If enabled, the field will take 100% of the width of the form, otherwise it will "
+"take 50%"
+msgstr ""
+"Si está habilitado, el campo tomará el 100% del ancho del formulario, de lo "
+"contrario tomará el 50%"
+
+#: components/api/email/Fields.php:302
+msgid "Field Background Color"
+msgstr "Color de fondo del campo"
+
+#: components/api/email/Fields.php:303
+msgid "Pick a color to fill the module's input fields."
+msgstr "Elige un color para rellenar los campos de entrada del módulo."
+
+#: components/api/email/Fields.php:310
+msgid "Enable"
+msgstr "Habilitar"
+
+#: components/api/email/Fields.php:318
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of the "
+"rules below are fulfilled<br><strong>Note:</strong> Only fields with an unique "
+"and non-empty field ID can be used"
+msgstr ""
+"Al habilitar la lógica condicional, este campo solo es visible cuando se cumple "
+"alguna o todas las reglas a continuación <br> <strong>Nota:</strong> solo se "
+"pueden utilizar campos con un ID de campo único y no vacío"
+
+#: components/api/email/Fields.php:322
+msgid "Relation"
+msgstr "Relación"
+
+#: components/api/email/Fields.php:327
+msgid "Any"
+msgstr "Alguna"
+
+#: components/api/email/Fields.php:333
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr "Elija si alguna o todas las reglas deben cumplirse"
+
+#: components/api/email/Fields.php:340
+msgid "Rules"
+msgstr "Reglas"
+
+#: components/api/email/Fields.php:341
+msgid ""
+"Conditional logic rules can be used to hide and display different input fields "
+"conditionally based on how the visitor has interacted with different inputs."
+msgstr ""
+"Las reglas lógicas condicionales se pueden usar para ocultar y mostrar diferentes "
+"campos de entrada condicionalmente en función de cómo el visitante haya "
+"interactuado con diferentes entradas."
+
+#: components/api/email/Fields.php:383
+msgid "Choose a field..."
+msgstr "Elige un campo ..."
+
+#: components/api/email/Fields.php:391
+msgid "Field"
+msgstr "Campo"
+
+#: components/api/email/Fields.php:398
+msgid ""
+"Choose a custom field. Custom fields must be defined in your email provider "
+"account."
+msgstr ""
+"Elija un campo personalizado. Los campos personalizados deben estar definidos en "
+"su cuenta de proveedor de correo electrónico."
+
+#: components/api/email/Infusionsoft.php:253
+msgid "App Name"
+msgstr "Nombre de la aplicación"
+
+#: components/api/email/Infusionsoft.php:366
+msgid ""
+"Successfully authorized. Subscribers count will be updated in background, please "
+"check back in %1$s %2$s"
+msgstr ""
+"Correctamente autorizado. El recuento de suscriptores se actualizará en segundo "
+"plano. Vuelva en %1$s %2$s"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minute"
+msgstr "minuto"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minutes"
+msgstr "minutos"
+
+#: components/api/email/Infusionsoft.php:396
+msgid "Already subscribed"
+msgstr "Ya está suscrito"
+
+#: components/api/email/MadMimi.php:97 components/api/email/iContact.php:184
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: components/api/email/MailChimp.php:293
+msgid "An error occurred, please try later."
+msgstr "Se ha producido un error. Vuelva a intentarlo más tarde."
+
+#: components/api/email/MailChimp.php:325
+msgid "You have signed up to a lot of lists very recently, please try again later"
+msgstr "Últimamente se ha suscrito a muchas listas. Vuelva a intentarlo más tarde"
+
+#: components/api/email/MailPoet.php:38 components/api/email/_MailPoet2.php:28
+#: components/api/email/_MailPoet3.php:33
+msgid "MailPoet plugin is either not installed or not activated."
+msgstr "El complemento MailPoet no está instalado o no está activado."
+
+#: components/api/email/Mailster.php:53
+msgid "Opt-in"
+msgstr "Participación"
+
+#: components/api/email/Mailster.php:117
+msgid "Mailster Newsletter Plugin is not enabled!"
+msgstr "¡El complemento del boletín informativo de Mailster no está activado!"
+
+#: components/api/email/Mailster.php:121
+msgid "No lists were found. Please create a Mailster list first!"
+msgstr "No se ha encontrado ninguna lista. ¡Cree primero una lista de Mailster!"
+
+#: components/api/email/Mailster.php:137 components/api/email/_MailPoet2.php:97
+#: components/api/email/_MailPoet3.php:148
+msgid "An error occurred. Please try again later."
+msgstr "Se ha producido un error. Vuelva a intentarlo más tarde."
+
+#: components/api/email/Ontraport.php:175
+msgid "APP ID"
+msgstr "ID DE LA APLICACIÓN"
+
+#: components/api/email/Provider.php:102
+msgid "Subscribed via"
+msgstr "Suscrito por medio de"
+
+#: components/api/email/SalesForce.php:144
+msgid "Instance URL"
+msgstr "URL de la instancia"
+
+#: components/api/email/SalesForce.php:149
+msgid "Consumer Key"
+msgstr "Clave del consumidor"
+
+#: components/api/email/SalesForce.php:154
+msgid "Consumer Secret"
+msgstr "Secreto del consumidor"
+
+#: components/api/email/SalesForce.php:161
+msgid "Organization ID"
+msgstr "ID de la organización"
+
+#: components/api/email/SalesForce.php:186
+msgid "Organization ID cannot be empty"
+msgstr "El ID de la organización no puede estar en blanco."
+
+#: components/api/email/SalesForce.php:256
+#: components/api/email/SalesForce.php:343
+msgid "An error occurred. Please try again."
+msgstr "Se ha producido un error. Vuelva a intentarlo más tarde."
+
+#: components/api/email/SalesForce.php:307
+msgid "Unknown Organization ID"
+msgstr "ID de organización desconocido"
+
+#: components/api/email/_MailPoet2.php:144
+msgid "Already Subscribed"
+msgstr "Ya está suscrito"
+
+#: components/api/email/iContact.php:181
+msgid "App ID"
+msgstr "ID de aplicación"
+
+#: components/api/email/iContact.php:187
+msgid "App Password"
+msgstr "Contraseña de la aplicación"
+
+#: components/api/email/init.php:51
+msgid "ERROR: Invalid arguments."
+msgstr "ERROR: parámetros no válidos."
+
+#: components/data/init.php:191
+msgid "Invalid attribute key"
+msgstr "Clave de atributo inválida"
+
+#: components/data/init.php:258
+msgid "Invalid tag element"
+msgstr "Elemento de etiqueta inválido"
+
+#: components/data/init.php:328
+msgid "This is not a valid excuse to not escape the passed value."
+msgstr "Esta no es una excusa válida para no escapar del valor pasado."
+
+#: components/data/init.php:367
+msgid "This is not a valid excuse to not sanitize the passed value."
+msgstr "Esta no es una excusa válida para no sanear el valor pasado."
+
+#: components/lib/WPHttp.php:192
+msgid "A valid URL was not provided."
+msgstr "No se ha proporcionado una URL válida."
+
+#: components/lib/WPHttp.php:196
+msgid "User has blocked requests through HTTP."
+msgstr "El usuario ha bloqueado las peticiones por HTTP."
+
+#: components/lib/WPHttp.php:209
+msgid "Destination directory for file streaming does not exist or is not writable."
+msgstr ""
+"El directorio de destino para la transmisión de archivos no existe o no admite "
+"escritura."
+
+#: functions.php:101
+msgid "Once Monthly"
+msgstr "Una Vez al Mes"
+
+#: functions.php:113
+msgid "Configuration Error"
+msgstr "Error de configuración"
+
+#: functions.php:522
+msgid "Got it, thanks!"
+msgstr "¡Entendido, gracias!"
+
+#: functions.php:1383
+msgid "Help"
+msgstr "Ayuda"
+
+#: functions.php:212
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "en"

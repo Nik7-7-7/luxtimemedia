@@ -1,0 +1,49 @@
+{
+    "animationDistanceThreshold": 2,
+    "chromeWebSecurity":          false,
+    "defaultCommandTimeout":      30000,
+    "env":                        {
+        "cypress-plugin-snapshots": {
+            "excludeFields": [
+                "_key",
+                "action",
+                "data-shortcode-id"
+            ]
+        }
+    },
+    "fileServerFolder":           "tests/cypress",
+    "fixturesFolder":             "tests/cypress/fixtures",
+    "ignoreTestFiles":            [
+        "**/.examples/**",
+        "*.hot-update.js",
+        "**/__snapshots__/*",
+        "**/__image_snapshots__/*",
+        "**/__**"
+    ],
+    "integrationFolder":          "tests/cypress/integration",
+    "modifyObstructiveCode":      false,
+    "numTestsKeptInMemory":       0,
+    "pluginsFile":                "tests/cypress/plugins/index.js",
+    "projectId":                  "r8bn4p",
+    "reporter":                   "cypress-multi-reporters",
+    "reporterOptions":            {
+        "mochaJunitReporterReporterOptions": {
+            "mochaFile": "tests/cypress/results/junit/[hash].xml",
+            "overwrite": false
+        },
+        "mochawesomeReporterOptions":        {
+            "html":      false,
+            "json":      true,
+            "overwrite": false,
+            "reportDir": "tests/cypress/results/mochawesome"
+        },
+        "reportDir":                         "tests/cypress/results",
+        "reporterEnabled":                   "mocha-junit-reporter, mochawesome"
+    },
+    "screenshotsFolder":          "tests/cypress/results/screenshots",
+    "supportFile":                "tests/cypress/support/index.js",
+    "video":                      false,
+    "videosFolder":               "tests/cypress/results/videos",
+    "viewportHeight":             768,
+    "viewportWidth":              1366
+}

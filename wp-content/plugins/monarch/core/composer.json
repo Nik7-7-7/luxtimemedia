@@ -1,0 +1,22 @@
+{
+    "name": "elegantthemes/submodule-core",
+    "require": {},
+    "require-dev": {
+        "lucatume/wp-browser": ">2 <3",
+        "codeception/phpunit-wrapper": ">7",
+        "phpunit/phpunit": ">7 <8",
+        "squizlabs/php_codesniffer": "^3.4",
+        "wp-coding-standards/wpcs": "*",
+        "nunomaduro/phpinsights": "v1.11.1",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7.0",
+        "10up/wp_mock": "0.4.2"
+    },
+    "scripts": {
+        "sniff-code": "./vendor/bin/phpcs -d memory_limit=256M --standard=.lint/ruleset.xml .."
+    },
+    "autoload-dev": {
+        "classmap": [
+            "components/"
+        ]
+    }
+}

@@ -1,0 +1,1366 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.elegantthemes.com/members-area/help/\n"
+"POT-Creation-Date: 2019-10-22 13:02:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elegant Themes\n"
+"Language-Team: Elegant Themes\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__"
+";esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: components/Portability.php:1874
+msgid ""
+"The browser version you are currently using is outdated. Please update to the "
+"newest version."
+msgstr ""
+"Versi pelayar yang anda gunakan sekarang sudah lapuk. Sila kemas kini ke versi "
+"terbaru."
+
+#: components/Portability.php:1875
+msgid "You reached your server memory limit. Please try increasing your PHP memory limit."
+msgstr "Anda telah mencapai had ingatan pelayan anda. Sila tambahkan had ingatan PHP anda."
+
+#: components/Portability.php:1876
+msgid ""
+"This file cannot be imported. It may be caused by file_uploads being disabled in "
+"your php.ini. It may also be caused by post_max_size or/and upload_max_filesize "
+"being smaller than file selected. Please increase it or transfer more substantial "
+"data at the time."
+msgstr ""
+"Fail ini tidak boleh diimport. Ia mungkin disebabkan file_uploads telah "
+"dilumpuhkan dalam php.ini anda. Ia juga mungkin disebabkan post_max_size atau/dan "
+"upload_max_filesize lebih kecil daripada fail yang telah dipilih. Sila tambah "
+"atau pindahkan data yang lebih besar buat masa sekarang."
+
+#: components/Portability.php:1877
+msgid "Invalid File format. You should be uploading a JSON file."
+msgstr "Format Fail tidak sah. Anda sepatutnya memuat naik fail JSON"
+
+#: components/Portability.php:1878
+msgid "This file should not be imported in this context."
+msgstr "Fail ini tidak sepatutnya diimport dalam konteks ini."
+
+#: components/Portability.php:1879
+msgid ""
+"Please select at least one item to export or disable the \"Only export selected "
+"items\" option"
+msgstr ""
+"Sila pilih sekurang-kurangnya satu item untuk mengeksport atau melumpuhkan "
+"pilihan \"Hanya item eksport pilihan\""
+
+#: components/Portability.php:1880
+msgid "Import estimated time remaining: %smin"
+msgstr "Anggaran masa import yang tinggal: %smin"
+
+#: components/Portability.php:1881
+msgid "Export estimated time remaining: %smin"
+msgstr "Anggaran masa eksport yang tinggal: %smin"
+
+#: components/Portability.php:1882
+msgid "Backup estimated time remaining: %smin"
+msgstr "Anggaran masa penyalinan yang tinggal: %smin"
+
+#: components/Portability.php:1905
+msgid "Portability"
+msgstr "Mudah alih"
+
+#: components/Portability.php:1909
+msgid "Export"
+msgstr "Eksport"
+
+#: components/Portability.php:1910
+msgid "Import"
+msgstr "Import"
+
+#: components/Portability.php:1914
+msgid ""
+"Exporting your %s will create a JSON file that can be imported into a different "
+"website."
+msgstr ""
+"Mengeksport %s anda akan mencipta fail JSON yang boleh diimport ke tapak web yang "
+"berbeza."
+
+#: components/Portability.php:1915
+msgid "Export File Name"
+msgstr "Nama Fail Eksport"
+
+#: components/Portability.php:1920
+msgid "Only export selected items"
+msgstr "Eksport butiran terpilih sahaja"
+
+#: components/Portability.php:1924
+msgid "Export %s"
+msgstr "Eksport %s"
+
+#: components/Portability.php:1925
+msgid "Cancel Export"
+msgstr "Batal Eksport"
+
+#: components/Portability.php:1930
+msgid ""
+"Importing a previously-exported %s file will overwrite all content currently on "
+"this page."
+msgstr ""
+"Mengimport fail %s yang telah dieksport sebelum ini akan menulis ganti semua "
+"kandungan yang ada pada halaman ini."
+
+#: components/Portability.php:1932
+msgid ""
+"Select a previously-exported Divi Builder Layouts file to begin importing items. "
+"Large collections of image-heavy exports may take several minutes to upload."
+msgstr ""
+"Pilih fail Divi Builder yang telah dieksport sebelum ini untuk mula mengimport "
+"butiran. Mengeksport koleksi imej berat yang besar akan mengambil masa beberapa "
+"minit untuk memuat naik."
+
+#: components/Portability.php:1934
+msgid ""
+"Importing a previously-exported %s file will overwrite all current data. Please "
+"proceed with caution!"
+msgstr ""
+"Mengimport fail %s yang telah dieksport sebelum ini akan menulis ganti semua data "
+"yang ada. Sila teruskan dengan berhat-hati!"
+
+#: components/Portability.php:1936
+msgid "Select File To Import"
+msgstr "Pilih Fail untuk mengimport"
+
+#: components/Portability.php:1938
+msgid "No File Selected"
+msgstr "Tiada fail telah dipilih"
+
+#: components/Portability.php:1939
+msgid "Choose File"
+msgstr "Pilih Fail"
+
+#: components/Portability.php:1943
+msgid "Download backup before importing"
+msgstr "Muat turun penyalinan sebelum mengimport"
+
+#: components/Portability.php:1946
+msgid "Apply Layout's Defaults To This Website"
+msgstr "Gunakan Lalai Layout Ke Laman Web Ini"
+
+#: components/Portability.php:1950
+msgid "Import %s"
+msgstr "Import %s"
+
+#: components/Portability.php:1951
+msgid "Cancel Import"
+msgstr "Batal Import"
+
+#: components/Portability.php:2053
+msgid "Import & Export"
+msgstr "Import & Eksport"
+
+#: components/Portability.php:2195
+msgid "The export process failed. Please refresh the page and try again."
+msgstr "Proses mengeksport gagal. Sila segarkan semula halaman dan cuba sekali lagi."
+
+#: components/SupportCenter.php:565 components/SupportCenter.php:1593
+msgid "Support Center"
+msgstr "Pusat Sokongan"
+
+#: components/SupportCenter.php:577
+msgid "Monarch Support Center"
+msgstr "Pusat Sokongan Monarch"
+
+#: components/SupportCenter.php:756
+msgid "A Basic Overview Of Extra"
+msgstr "Tinjauan Asas Tambahan"
+
+#: components/SupportCenter.php:760 components/SupportCenter.php:777
+msgid "Using Premade Layout Packs"
+msgstr "Menggunakan Pakej Layout Premade"
+
+#: components/SupportCenter.php:764
+msgid "Creating Category Layouts"
+msgstr "Membuat Tata Letak Kategori"
+
+#: components/SupportCenter.php:773 components/SupportCenter.php:886
+#: components/SupportCenter.php:910 components/SupportCenter.php:946
+msgid "Getting Started With The Divi Builder"
+msgstr "Bermula Dengan Pembina Divi"
+
+#: components/SupportCenter.php:781
+msgid "The Divi Library"
+msgstr "Perpustakaan Divi"
+
+#: components/SupportCenter.php:789 components/SupportCenter.php:982
+msgid "A Basic Overview Of The Bloom Plugin"
+msgstr "Gambaran Asas The Plugin Bloom"
+
+#: components/SupportCenter.php:793
+msgid "How To Update The Bloom Plugin"
+msgstr "Cara Kemas Kini Plugin Bloom"
+
+#: components/SupportCenter.php:797
+msgid "How To Add Mailing List Accounts"
+msgstr "Cara Tambah Akaun Senarai Mel"
+
+#: components/SupportCenter.php:805
+msgid "A Complete Overviw Of Monarch"
+msgstr "A Kelebihan Lengkap Daripada Raja"
+
+#: components/SupportCenter.php:809
+msgid "Adding Social Networks"
+msgstr "Menambah Rangkaian Sosial"
+
+#: components/SupportCenter.php:813
+msgid "Configuring Social Follower APIs"
+msgstr "Mengkonfigurasi API Pengikut Sosial"
+
+#: components/SupportCenter.php:874
+msgid "Getting Started With Extra"
+msgstr "Bermula Dengan Tambahan"
+
+#: components/SupportCenter.php:878
+msgid "Setting Up The Extra Theme Options"
+msgstr "Menyediakan Pilihan Tema Tambahan"
+
+#: components/SupportCenter.php:882
+msgid "The Extra Category Builder"
+msgstr "Pembina Kategori Tambahan"
+
+#: components/SupportCenter.php:890
+msgid "How To Update The Extra Theme"
+msgstr "Cara Kemas Kini Tema Tambahan"
+
+#: components/SupportCenter.php:894 components/SupportCenter.php:918
+#: components/SupportCenter.php:954
+msgid "An Overview Of All Divi Modules"
+msgstr "Gambaran Keseluruhan Semua Modul Divi"
+
+#: components/SupportCenter.php:898 components/SupportCenter.php:930
+#: components/SupportCenter.php:966
+msgid "Getting Started With Layout Packs"
+msgstr "Bermula Dengan Pakej Layout"
+
+#: components/SupportCenter.php:902 components/SupportCenter.php:934
+msgid "Customizing Your Header And Navigation"
+msgstr "Menyesuaikan Header Dan Navigasi Anda"
+
+#: components/SupportCenter.php:914
+msgid "How To Update The Divi Theme"
+msgstr "Cara Mengemas Kini Tema Divi"
+
+#: components/SupportCenter.php:922 components/SupportCenter.php:958
+msgid "Using The Divi Library"
+msgstr "Menggunakan Perpustakaan Divi"
+
+#: components/SupportCenter.php:926
+msgid "Setting Up The Divi Theme Options"
+msgstr "Menyediakan Pilihan Tema Divi"
+
+#: components/SupportCenter.php:938 components/SupportCenter.php:974
+msgid "Divi For Developers"
+msgstr "Divi For Developers"
+
+#: components/SupportCenter.php:950
+msgid "How To Update The Divi Builder"
+msgstr "Cara Kemas Kini Divi Builder"
+
+#: components/SupportCenter.php:962
+msgid "Selling Products With Divi And WooCommerce"
+msgstr "Menjual Produk Dengan Divi Dan WooCommerce"
+
+#: components/SupportCenter.php:970
+msgid "Importing And Exporting Divi Layouts"
+msgstr "Mengimport dan Mengeksport Layouts Divi"
+
+#: components/SupportCenter.php:986
+msgid "How To Update Your Bloom Plugin"
+msgstr "Cara Kemas Kini Plugin Bloom anda"
+
+#: components/SupportCenter.php:990
+msgid "Adding Email Accounts In Bloom"
+msgstr "Menambah Akaun E-mel Dalam Bloom"
+
+#: components/SupportCenter.php:994
+msgid "Customizing Your Opt-in Designs"
+msgstr "Menyesuaikan Reka Bentuk Optik Anda"
+
+#: components/SupportCenter.php:998
+msgid "The Different Bloom Opt-in Types"
+msgstr "Jenis Opt-in Bloom yang berbeza"
+
+#: components/SupportCenter.php:1002
+msgid "Using The Bloom Display Settings"
+msgstr "Menggunakan Tetapan Paparan Bloom"
+
+#: components/SupportCenter.php:1006
+msgid "How To Use Triggers In Bloom"
+msgstr "Cara Menggunakan Pencetus Dalam Bloom"
+
+#: components/SupportCenter.php:1010
+msgid "Adding Custom Fields To Bloom Opt-in Forms"
+msgstr "Menambah Bidang Custom Untuk Borang Opt-in Bloom"
+
+#: components/SupportCenter.php:1018
+msgid "A Complete Overview Of The Monarch Plugin"
+msgstr "Tinjauan Lengkap The Plugin Monarch"
+
+#: components/SupportCenter.php:1022
+msgid "How To Update Your Monarch WordPress Plugin"
+msgstr "Cara Kemas Kini Plugin Monarch WordPress anda"
+
+#: components/SupportCenter.php:1026
+msgid "Adding and Managing Social Networks"
+msgstr "Menambah dan Mengurus Rangkaian Sosial"
+
+#: components/SupportCenter.php:1030
+msgid "Configuring Social Network APIs"
+msgstr "Mengkonfigurasi API Rangkaian Sosial"
+
+#: components/SupportCenter.php:1034
+msgid "Customizing The Monarch Design"
+msgstr "Menyesuaikan Reka Bentuk Monarch"
+
+#: components/SupportCenter.php:1038
+msgid "Viewing Your Social Stats"
+msgstr "Melihat Statistik Sosial Anda"
+
+#: components/SupportCenter.php:1042
+msgid "Using The Floating Sidebar"
+msgstr "Menggunakan Sidebar Terapung"
+
+#: components/SupportCenter.php:1046
+msgid "Using Popup & Flyin Triggers"
+msgstr "Menggunakan Pemacu Popup & Flyin"
+
+#: components/SupportCenter.php:1129
+msgid "Divi Support Center :: WordPress debug log cannot be read."
+msgstr "Pusat Sokongan Divi :: Log debug WordPress tidak boleh dibaca."
+
+#: components/SupportCenter.php:1137
+msgid "Divi Support Center :: WordPress debug.log is not configured."
+msgstr "Pusat Sokongan Divi :: Debug.log WordPress tidak dikonfigurasi."
+
+#: components/SupportCenter.php:1158
+msgid "Divi Support Center :: WordPress debug log cannot be found."
+msgstr "Pusat Sokongan Divi :: Log debug WordPress tidak dapat dijumpai."
+
+#: components/SupportCenter.php:1202
+msgid "Writable wp-content Directory"
+msgstr "Direktori wp-kandungan yang boleh ditulis"
+
+#: components/SupportCenter.php:1210
+msgid ""
+"We recommend that the wp-content directory on your server be writable by "
+"WordPress in order to ensure the full functionality of Divi Builder themes and "
+"plugins."
+msgstr ""
+"Kami mengesyorkan bahawa direktori wp-kandungan pada pelayan anda boleh ditulis "
+"oleh WordPress untuk memastikan kefungsian penuh tema dan plugin Divi Builder."
+
+#: components/SupportCenter.php:1214
+msgid "PHP Version"
+msgstr "Versi PHP"
+
+#: components/SupportCenter.php:1222
+msgid ""
+"We recommend using the latest stable version of PHP. This will not only ensure "
+"compatibility with Divi, but it will also greatly speed up your website leading "
+"to less memory and CPU related issues."
+msgstr ""
+"Kami mengesyorkan menggunakan versi stabil PHP terkini. Ini bukan sahaja akan "
+"memastikan keserasian dengan Divi, tetapi ia juga akan mempercepatkan laman web "
+"anda yang membawa kepada masalah memori dan CPU yang kurang."
+
+#: components/SupportCenter.php:1226
+msgid "memory_limit"
+msgstr "memory_limit"
+
+#: components/SupportCenter.php:1234
+msgid ""
+"By default, memory limits set by your host or by WordPress may be too low. This "
+"will lead to applications crashing as PHP reaches the artificial limit. You can "
+"adjust your memory limit within your <a href=\"%1$s\" target=\"_blank\">php.ini "
+"file</a>, or by contacting your host for assistance. You may also need to define "
+"a memory limited in <a href=\"%2$s\" target=_blank\">wp-config.php</a>."
+msgstr ""
+"Secara lalai, had memori yang ditetapkan oleh hos anda atau oleh WordPress "
+"mungkin terlalu rendah. Ini akan menyebabkan aplikasi terhempas apabila PHP "
+"mencapai had buatan. Anda boleh melaraskan had memori anda dalam <a href=\"%1$s\" "
+"target=\"_blank\">fail php.ini</a> anda, atau dengan menghubungi hos anda untuk "
+"mendapatkan bantuan. Anda juga mungkin perlu menentukan memori yang terhad dalam "
+"<a href=\"%2$s\" target=_blank\">wp-config.php</a> ."
+
+#: components/SupportCenter.php:1238
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: components/SupportCenter.php:1246
+msgid ""
+"Post Max Size limits how large a page or file can be on your website. If your "
+"page is larger than the limit set in PHP, it will fail to load. Post sizes can "
+"become quite large when using the Divi Builder, so it is important to increase "
+"this limit. It also affects file size upload/download, which can prevent large "
+"layouts from being imported into the builder. You can adjust your max post size "
+"within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting "
+"your host for assistance."
+msgstr ""
+"Post Max Saiz menghadkan berapa besar halaman atau fail boleh di laman web anda. "
+"Sekiranya halaman anda lebih besar daripada had ditetapkan dalam PHP, ia akan "
+"gagal dimuatkan. Saiz pos boleh menjadi agak besar apabila menggunakan Divi "
+"Builder, jadi penting untuk meningkatkan had ini. Ia juga memberi kesan muat naik "
+"/ muat turun saiz fail, yang boleh menghalang susun atur yang besar daripada "
+"diimport ke pembina. Anda boleh menyesuaikan saiz pos maksimum anda dalam <a "
+"href=\"%1$s\" target=\"_blank\">fail php.ini</a> anda, atau dengan menghubungi "
+"hos anda untuk mendapatkan bantuan."
+
+#: components/SupportCenter.php:1250
+msgid "max_execution_time"
+msgstr "max_execution_time"
+
+#: components/SupportCenter.php:1258
+msgid ""
+"Max Execution Time affects how long a page is allowed to load before it times "
+"out. If the limit is too low, you may not be able to import large layouts and "
+"files into the builder. You can adjust your max execution time within your <a "
+"href=\"%1$s\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Masa Pelaksanaan Max menjejaskan berapa lama halaman dibenarkan untuk dimuat "
+"sebelum ia keluar. Jika hadnya terlalu rendah, anda mungkin tidak dapat "
+"mengimport susun atur dan fail yang besar ke pembina. Anda boleh menyesuaikan "
+"masa pelaksanaan maks anda dalam <a href=\"%1$s\">fail php.ini</a> anda, atau "
+"dengan menghubungi hos anda untuk mendapatkan bantuan."
+
+#: components/SupportCenter.php:1262
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: components/SupportCenter.php:1270
+msgid ""
+"Upload Max File Size determines that maximum file size that you are allowed to "
+"upload to your server. If the limit is too low, you may not be able to import "
+"large collections of layouts into the Divi Library. You can adjust your max file "
+"size within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by "
+"contacting your host for assistance."
+msgstr ""
+"Muat Naik Saiz Fail Max menentukan saiz fail maksimum yang dibenarkan untuk "
+"dimuat naik ke pelayan anda. Jika hadnya terlalu rendah, anda mungkin tidak dapat "
+"mengimport koleksi besar susun atur ke Perpustakaan Divi. Anda boleh menyesuaikan "
+"saiz fail maks anda dalam <a href=\"%1$s\" target=\"_blank\">fail php.ini</a> "
+"anda, atau dengan menghubungi hos anda untuk mendapatkan bantuan."
+
+#: components/SupportCenter.php:1274
+msgid "max_input_time"
+msgstr "max_input_time"
+
+#: components/SupportCenter.php:1282
+msgid ""
+"This sets the maximum time in seconds a script is allowed to parse input data. If "
+"the limit is too low, the Divi Builder may time out before it is allowed to load. "
+"You can adjust your max input time within your <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Ini menetapkan masa maksimum dalam beberapa saat skrip dibenarkan untuk menghurai "
+"data input. Sekiranya hadnya terlalu rendah, Pembina Divi boleh habis masa "
+"sebelum dibenarkan masuk. Anda boleh menyesuaikan masa masukan maksimum anda "
+"dalam <a href=\"%1$s\" target=\"_blank\">fail php.ini</a> anda, atau dengan "
+"menghubungi hos anda untuk mendapatkan bantuan."
+
+#: components/SupportCenter.php:1286
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: components/SupportCenter.php:1294
+msgid ""
+"This setting affects how many input variables may be accepted. If the limit is "
+"too low, it may prevent the Divi Builder from loading. You can adjust your max "
+"input variables within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, "
+"or by contacting your host for assistance."
+msgstr ""
+"Tetapan ini memberi kesan kepada berapa banyak pemboleh ubah input boleh "
+"diterima. Jika hadnya terlalu rendah, ia mungkin menghalang Pembuat Divi daripada "
+"memuatkan. Anda boleh menyesuaikan pemboleh ubah input maks anda dalam <a "
+"href=\"%1$s\" target=\"_blank\">fail php.ini</a> anda, atau dengan menghubungi "
+"hos anda untuk mendapatkan bantuan."
+
+#: components/SupportCenter.php:1298
+msgid "display_errors"
+msgstr "display_errors"
+
+#: components/SupportCenter.php:1307
+msgid ""
+"This setting determines whether or not errors should be printed as part of the "
+"page output. This is a feature to support your site's development and should "
+"never be used on production sites. You can edit this setting within your <a "
+"href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting your host for "
+"assistance."
+msgstr ""
+"Tetapan ini menentukan sama ada atau tidak ralat akan dicetak sebagai sebahagian "
+"daripada output halaman. Ini adalah ciri untuk menyokong perkembangan tapak anda "
+"dan tidak boleh digunakan di tapak produksi. Anda boleh mengedit tetapan ini "
+"dalam <a href=\"%1$s\" target=\"_blank\">fail php.ini</a> anda, atau dengan "
+"menghubungi hos anda untuk mendapatkan bantuan."
+
+#: components/SupportCenter.php:1355
+msgid "This fails to meet our minimum required value of %1$s. "
+msgstr "Ini gagal untuk memenuhi nilai minimum yang diperlukan kami %1$s ."
+
+#: components/SupportCenter.php:1361
+msgid "This meets our minimum required value of %1$s. "
+msgstr "Ini memenuhi nilai minimum yang diperlukan kami %1$s ."
+
+#: components/SupportCenter.php:1373
+msgid "Learn more."
+msgstr "Ketahui lebih lanjut."
+
+#: components/SupportCenter.php:1382
+msgid "Congratulations! This meets or exceeds our recommendation of %1$s."
+msgstr "Tahniah! Ini memenuhi atau melebihi cadangan kami %1$s."
+
+#: components/SupportCenter.php:1394
+msgid "We recommend %1$s for the best experience."
+msgstr "Kami mengesyorkan %1$s untuk pengalaman terbaik."
+
+#: components/SupportCenter.php:1403
+msgid "- We are unable to determine your setting. %1$s"
+msgstr "- Kami tidak dapat menentukan tetapan anda.  %1$s"
+
+#: components/SupportCenter.php:1466 components/SupportCenter.php:1599
+#: components/SupportCenter.php:2653
+msgid "System Status"
+msgstr "Status Sistem"
+
+#: components/SupportCenter.php:1473
+msgid ""
+"Congratulations, all system checks have passed. Your hosting configuration is "
+"compatible with Divi."
+msgstr ""
+"Tahniah, semua pemeriksaan sistem telah berlalu. Konfigurasi hos anda serasi "
+"dengan Divi."
+
+#: components/SupportCenter.php:1596
+msgid "Divi Support Center Page"
+msgstr "Pusat Sokongan Divi"
+
+#: components/SupportCenter.php:1602 components/SupportCenter.php:2697
+#: components/SupportCenter.php:2735
+msgid "Remote Access"
+msgstr "Akses Jauh"
+
+#: components/SupportCenter.php:1605
+msgid "Divi Documentation &amp; Help"
+msgstr "Dokumentasi & Bantuan Divi"
+
+#: components/SupportCenter.php:1608 components/SupportCenter.php:2543
+#: components/SupportCenter.php:2861
+msgid "Safe Mode"
+msgstr "Safe mode"
+
+#: components/SupportCenter.php:1611 components/SupportCenter.php:2942
+msgid "Logs"
+msgstr "Log"
+
+#: components/SupportCenter.php:2062
+msgid "Elegant Themes API Error: HTTP error in API response"
+msgstr "Ralat API Tema Elegan: Kesilapan HTTP dalam respons API"
+
+#: components/SupportCenter.php:2073
+msgid "Elegant Themes API Error: WordPress Error in API response"
+msgstr "Kesilapan API Elegant API: Ralat WordPress dalam respons API"
+
+#: components/SupportCenter.php:2105
+msgid "Elegant Themes API Error: Incorrect Token. Please, try again."
+msgstr "Ralat API Tema Elegan: Token yang salah. Sila cuba lagi."
+
+#: components/SupportCenter.php:2116
+msgid "Elegant Themes API Error: The API response was missing required data."
+msgstr "Ralat API Tema Elegan: Sambutan API hilang data yang diperlukan."
+
+#: components/SupportCenter.php:2129
+msgid "Elegant Themes API Error: The API responded, but the response was empty."
+msgstr "Kesilapan API Tema Elegan: API bertindak balas, tetapi jawapannya kosong."
+
+#: components/SupportCenter.php:2177
+msgid "Support account doesn't exist."
+msgstr "Akaun sokongan tidak wujud."
+
+#: components/SupportCenter.php:2189
+msgid "Support account hasn't been removed. Try to regenerate token again."
+msgstr "Akaun sokongan belum dikeluarkan. Cuba token semula regenerasi."
+
+#: components/SupportCenter.php:2194
+msgid "Cannot get the support account data. Try to regenerate token again."
+msgstr "Tidak boleh mendapatkan data akaun sokongan. Cuba token semula regenerasi."
+
+#: components/SupportCenter.php:2206
+msgid "Token has been deleted successfully."
+msgstr "Token telah berjaya dipadam."
+
+#: components/SupportCenter.php:2208
+msgid "Token has been deleted successfully. "
+msgstr "Token telah berjaya dipadam."
+
+#: components/SupportCenter.php:2357
+msgid "ET Support User role has been activated."
+msgstr "ET Sokongan Peranan pengguna telah diaktifkan."
+
+#: components/SupportCenter.php:2368
+msgid "ET Support User role has been elevated."
+msgstr "ET Sokongan Peranan pengguna telah dinaikkan."
+
+#: components/SupportCenter.php:2377
+msgid "ET Support User role has been deactivated."
+msgstr "ET Sokongan Peranan pengguna telah dinyahaktifkan."
+
+#: components/SupportCenter.php:2450
+msgid "ET Safe Mode has been activated."
+msgstr "ET Safe Mode telah diaktifkan."
+
+#: components/SupportCenter.php:2454
+msgid "ET Safe Mode has been deactivated."
+msgstr "ET Safe Mode telah dinyahaktifkan."
+
+#: components/SupportCenter.php:2549
+msgid "Safe Mode is enabled and the current action cannot be performed."
+msgstr "Mod Selamat diaktifkan dan tindakan semasa tidak dapat dilakukan."
+
+#: components/SupportCenter.php:2659
+msgid "Show Full Report"
+msgstr "Tunjukkan Laporan Penuh"
+
+#: components/SupportCenter.php:2660
+msgid "Hide Full Report"
+msgstr "Sembunyikan Laporan Penuh"
+
+#: components/SupportCenter.php:2661
+msgid "Copy Full Report"
+msgstr "Salin Laporan Penuh"
+
+#: components/SupportCenter.php:2684
+msgid "Elegant Themes Support"
+msgstr "Sokongan Tema Elegant"
+
+#: components/SupportCenter.php:2685
+msgid ""
+"<p>Enabling <strong>Remote Access</strong> will give the Elegant Themes support "
+"team limited access to your WordPress Dashboard. If requested, you can also "
+"enable full admin privileges. Remote Access should only be turned on if requested "
+"by the Elegant Themes support team. Remote Access is automatically disabled after "
+"4 days.</p>"
+msgstr ""
+"<p> Mengaktifkan <strong>Akses Jauh</strong> akan memberi sokongan pasukan terhad "
+"Tema Elegan ke Dashboard WordPress anda. Jika diminta, anda juga boleh "
+"mengaktifkan keistimewaan admin penuh. Akses Jauh hanya perlu dihidupkan jika "
+"diminta oleh pasukan sokongan Tema Elegant. Akses Jauh secara automatik "
+"dilumpuhkan selepas 4 hari. </p>"
+
+#: components/SupportCenter.php:2698
+msgid ""
+"Remote Access cannot be enabled because you do not have a valid API Key or your "
+"Elegant Themes subscription has expired. You can find your API Key by <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">logging in</a> to your Elegant Themes account. It should then "
+"be added to your <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Options Panel</a>."
+msgstr ""
+"Akses Jauh tidak dapat diaktifkan kerana anda tidak mempunyai Kunci API yang sah "
+"atau langganan Tema Elegan anda telah tamat tempoh. Anda boleh mencari Kunci API "
+"anda dengan <a href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">melog masuk</a> ke akaun Tema Elegant anda. Ia kemudian perlu "
+"ditambah ke <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Panel Pilihan</a> anda."
+
+#: components/SupportCenter.php:2737 components/SupportCenter.php:2760
+#: components/SupportCenter.php:2912
+msgid "Enabled"
+msgstr "Dihidupkan"
+
+#: components/SupportCenter.php:2738 components/SupportCenter.php:2761
+#: components/SupportCenter.php:2913
+msgid "Disabled"
+msgstr "Dinyahdayakan"
+
+#: components/SupportCenter.php:2740
+msgid "Remote Access will be automatically disabled in: "
+msgstr "Akses Jauh akan dilumpuhkan secara automatik dalam:"
+
+#: components/SupportCenter.php:2758
+msgid "Activate Full Admin Privileges"
+msgstr "Aktifkan Keistimewaan Penuh Penuh"
+
+#: components/SupportCenter.php:2776
+msgid "Copy Support Token"
+msgstr "Salin Sokongan Token"
+
+#: components/SupportCenter.php:2782
+msgid "Chat With Support"
+msgstr "Sembang Dengan Sokongan"
+
+#: components/SupportCenter.php:2862
+msgid ""
+"<p>Enabling <strong>Safe Mode</strong> will temporarily disable features and "
+"plugins that may be causing problems with your Elegant Themes product. This "
+"includes all Plugins, Child Themes, and Custom Code added to your integration "
+"areas. These items are only disabled for your current user session so your "
+"visitors will not be disrupted. Enabling Safe Mode makes it easy to figure out "
+"what is causing problems on your website by identifying or eliminating third "
+"party plugins and code as potential causes.</p>"
+msgstr ""
+"<p> Mengaktifkan <strong>Mod Selamat</strong> akan mematikan ciri dan pemalam "
+"buat sementara waktu yang mungkin menyebabkan masalah dengan produk Tema Elegant "
+"anda. Ini termasuk semua Plugin, Tema Anak, dan Kod Tersuai yang ditambahkan ke "
+"kawasan integrasi anda. Item ini hanya dimatikan untuk sesi pengguna anda "
+"sehingga pelawat anda tidak akan terganggu. Mengaktifkan Mod Selamat "
+"menjadikannya mudah untuk mengetahui apa yang menyebabkan masalah di tapak web "
+"anda dengan mengenal pasti atau menghapuskan pemalam dan kod pihak ketiga sebagai "
+"penyebab yang berpotensi. </p>"
+
+#: components/SupportCenter.php:2889
+msgid ""
+"<p class=\"et-safe-mode-error\">Plugins cannot be disabled because your "
+"<code>wp-content</code> directory has inconsistent file permissions. <a "
+"href=\"%1$s\" target=\"_blank\">Click here</a> for more information.</p>"
+msgstr ""
+"<p class=\"et-safe-mode-error\"> Plugin tidak boleh dilumpuhkan kerana direktori "
+"<code>wp-content</code> mempunyai keizinan fail yang tidak konsisten. <a "
+"href=\"%1$s\" target=\"_blank\">Klik di sini</a> untuk mendapatkan maklumat "
+"lanjut. </p>"
+
+#: components/SupportCenter.php:2894
+msgid "The following plugins will be temporarily disabled for you only:"
+msgstr "Plugin berikut akan dilumpuhkan buat sementara untuk anda sahaja:"
+
+#: components/SupportCenter.php:2957
+msgid "Download Full Debug Log"
+msgstr "Muat Log Penuh Debug"
+
+#: components/SupportCenter.php:2961
+msgid "Copy Recent Log Entries"
+msgstr "Salin Kemasukan Log Terkini"
+
+#: components/Updates.php:25
+msgid "%s: You cannot create a second instance of this class."
+msgstr "%s: Anda tidak boleh menghasilkan contoh kedua bagi kelas ini."
+
+#: components/Updates.php:425 components/VersionRollback.php:402
+msgid ""
+"<em>Before you can receive product updates, you must first authenticate your "
+"Elegant Themes subscription. To do this, you need to enter both your Elegant "
+"Themes Username and your Elegant Themes API Key into the Updates Tab in your "
+"theme and plugin settings. To locate your API Key, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> to your Elegant Themes account and navigate to the <strong>Account > API "
+"Key</strong> page. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Learn more here</a></em>. If you still get this message, please "
+"make sure that your Username and API Key have been entered correctly"
+msgstr ""
+"<em>Sebelum anda boleh menerima kemas kini produk, anda perlu mengesahkan "
+"langganan Elegant Themes anda terlebih dahulu. Untuk berbuat demikian, anda perlu "
+"memasukkan kedua-dua Nama Pengguna dan Kekunci API Elegant Themes anda ke dalam "
+"Tab Kemas Kini dalam tetapan plug-in dan tema anda. Untuk menjejaki Kekunci API "
+"anda, <a href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">sila log masuk</a> ke akaun Elegant Themes anda dan pergi ke "
+"laman <strong>Akaun > Kekunci API</strong>. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Pelajari lebih lanjut tentangnya di sini</a></em>. Jika anda "
+"masih menerima mesej ini, sila pastikan yang Nama Pengguna dan Kekunci API anda "
+"telah dimasukkan dengan betul"
+
+#: components/Updates.php:427
+msgid ""
+"Automatic updates currently unavailable. For all Elegant Themes products, please "
+"<a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">authenticate your subscription</a> via the Updates tab in your "
+"theme & plugin settings to enable product updates. Make sure that your Username "
+"and API Key have been entered correctly."
+msgstr ""
+"Kemas kini automatik tidak tersedia pada ketika ini. Untuk semua produk Elegant "
+"Themes, sila <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">sahkan langganan anda</a> melalui Tab Kemas Kini dalam tetapan "
+"tema & plug-in anda untuk mendayakan kemas kini produk. Pastikan yang Nama "
+"Pengguna dan Kekunci API anda telah dimasukkan dengan betul."
+
+#: components/Updates.php:451
+msgid ""
+"Your Elegant Themes subscription has expired. You must <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">renew your "
+"account</a> to regain access to product updates and support. To ensure "
+"compatibility and security, it is important to always keep your themes and "
+"plugins updated."
+msgstr ""
+"Langganan Elegant Themes anda telah tamat. Anda mesti <a "
+"href=\"https://www.elegantthemes.com/members-area/\" "
+"target=\"_blank\">memperbaharui akaun anda</a> untuk mendapatkan akses kepada "
+"kemas kini dan khidmat bantuan produk. Untuk memastikan keserasian dan "
+"keselamatan, adalah penting untuk sentiasa mengemaskini tema dan plug-in anda."
+
+#: components/VersionRollback.php:96 components/VersionRollback.php:303
+#: components/api/ElegantThemes.php:107 components/api/ElegantThemes.php:226
+msgid "An unknown error has occurred. Please try again later."
+msgstr "Berlaku ralat. Sila cuba lagi kemudian."
+
+#: components/VersionRollback.php:205
+msgid "Security check failed. Please refresh and try again."
+msgstr "Proses mengeksport gagal. Sila segarkan semula halaman dan cuba sekali lagi."
+
+#: components/VersionRollback.php:212
+msgid "You don't have sufficient permissions to access this page."
+msgstr "Anda tidak mempunyai keizinan yang cukup untuk mengakses halaman ini."
+
+#: components/VersionRollback.php:220 components/VersionRollback.php:546
+msgid ""
+"You're currently rolled back to <strong>Version %1$s</strong> from "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Anda kini dilancarkan kembali ke <strong>Versi %1$s</strong> dari <strong>Versi "
+"%2$s</strong> ."
+
+#: components/VersionRollback.php:227 components/VersionRollback.php:555
+msgid ""
+"Update to the latest version to unlock the full power of %1$s. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Kemas kini ke versi terkini untuk membuka kunci kuasa penuh %1$s. <a "
+"href=\"%2$s\" target=\"_blank\">Ketahui lebih lanjut di sini</a> ."
+
+#: components/VersionRollback.php:248 components/api/ElegantThemes.php:218
+msgid ""
+"For privacy and security reasons, you cannot rollback to <strong>Version "
+"%1$s</strong>."
+msgstr ""
+"Untuk sebab privasi dan keselamatan, anda tidak boleh beralih ke <strong>Versi "
+"%1$s</strong> ."
+
+#: components/VersionRollback.php:254
+msgid "Learn more here."
+msgstr "Ketahui lebih lanjut di sini."
+
+#: components/VersionRollback.php:398 components/VersionRollback.php:446
+#: components/VersionRollback.php:485 components/VersionRollback.php:537
+msgid "Version Rollback"
+msgstr "Rollback Versi"
+
+#: components/VersionRollback.php:428 components/VersionRollback.php:516
+msgid "Rollback to the previous version"
+msgstr "Balik semula ke versi sebelumnya"
+
+#: components/VersionRollback.php:455 components/api/ElegantThemes.php:212
+msgid "The previously used version of %1$s does not support version rollback."
+msgstr "Versi sebelumnya %1$s tidak menyokong rollback versi."
+
+#: components/VersionRollback.php:494
+msgid ""
+"You'll be rolled back to <strong>Version %1$s</strong> from the current "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Anda akan dilancarkan semula ke <strong>Versi %1$s</strong> dari <strong>Versi "
+"%2$s semasa</strong> ."
+
+#: components/VersionRollback.php:503
+msgid ""
+"Rolling back will reinstall the previous version of %1$s. You will be able to "
+"update to the latest version at any time. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Rolling back akan memasang semula versi sebelumnya %1$s. Anda akan dapat mengemas "
+"kini kepada versi terkini pada bila-bila masa. <a href=\"%2$s\" "
+"target=\"_blank\">Ketahui lebih lanjut di sini</a> ."
+
+#: components/VersionRollback.php:511
+msgid "Make sure you have a full site backup before proceeding."
+msgstr "Pastikan anda mempunyai sandaran tapak penuh sebelum meneruskan."
+
+#: components/VersionRollback.php:563
+msgid "Update to the Latest Version"
+msgstr "Kemas kini ke Versi Terkini"
+
+#: components/api/ElegantThemes.php:116
+msgid "Invalid Username and/or API Key provided."
+msgstr "URL yang sah tidak diberikan."
+
+#: components/api/ElegantThemes.php:206
+msgid ""
+"An unexpected response was received from the version server. Please try again "
+"later."
+msgstr ""
+"Sambutan yang tidak dijangka diterima daripada pelayan versi. Sila cuba sebentar "
+"lagi."
+
+#: components/api/Service.php:238
+msgid "API request failed, please try again."
+msgstr "Permintaan API gagal, sila cuba lagi."
+
+#: components/api/Service.php:239
+msgid "API request failed. API Key is required."
+msgstr "Permintaan API gagal. Kekunci API diperlukan."
+
+#: components/api/email/ActiveCampaign.php:106
+#: components/api/email/CampaignMonitor.php:163
+#: components/api/email/ConstantContact.php:143
+#: components/api/email/ConvertKit.php:146
+#: components/api/email/Feedblitz.php:80
+#: components/api/email/GetResponse.php:100
+#: components/api/email/HubSpot.php:138
+#: components/api/email/Infusionsoft.php:250
+#: components/api/email/MadMimi.php:100 components/api/email/MailChimp.php:218
+#: components/api/email/MailerLite.php:93
+#: components/api/email/Ontraport.php:172
+#: components/api/email/SendinBlue.php:96
+msgid "API Key"
+msgstr "Kekunci API"
+
+#: components/api/email/ActiveCampaign.php:109
+msgid "API URL"
+msgstr "URL API"
+
+#: components/api/email/ActiveCampaign.php:113
+msgid "Form ID"
+msgstr "ID Borang"
+
+#: components/api/email/Aweber.php:164
+msgid "Authorization Code"
+msgstr "Kod Pengesahan"
+
+#: components/api/email/ConstantContact.php:146
+msgid "Access Token"
+msgstr "Token akses"
+
+#: components/api/email/ConvertKit.php:149
+msgid "API Secret"
+msgstr "Rahsia API"
+
+#: components/api/email/Emma.php:87
+msgid "Public API Key"
+msgstr "Kekunci API Awam"
+
+#: components/api/email/Emma.php:90
+msgid "Private API Key"
+msgstr "Kekunci API Peribadi"
+
+#: components/api/email/Emma.php:93
+msgid "Account ID"
+msgstr "ID Akaun"
+
+#: components/api/email/Fields.php:30
+msgid "Use Custom Fields"
+msgstr "Gunakan Medan Tersuai"
+
+#: components/api/email/Fields.php:33 components/api/email/Fields.php:255
+#: components/api/email/Fields.php:267 components/api/email/Fields.php:284
+#: components/api/email/Fields.php:315
+msgid "Yes"
+msgstr "Ya"
+
+#: components/api/email/Fields.php:34 components/api/email/Fields.php:256
+#: components/api/email/Fields.php:268 components/api/email/Fields.php:285
+#: components/api/email/Fields.php:316
+msgid "No"
+msgstr "Tidak"
+
+#: components/api/email/Fields.php:41
+msgid "Enable this option to use custom fields in your opt-in form."
+msgstr "Dayakan opsyen ini untuk menggunakan medan tersuai dalam borang penyertaan anda."
+
+#: components/api/email/Fields.php:75
+msgid "Link URL"
+msgstr "URL pautan"
+
+#: components/api/email/Fields.php:76
+msgid "Link Text"
+msgstr "Teks Pautan"
+
+#: components/api/email/Fields.php:77
+msgid "Discard Changes"
+msgstr "Membuang perubahan"
+
+#: components/api/email/Fields.php:78
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: components/api/email/Fields.php:79
+msgid "Option Link"
+msgstr "Pautan Pilihan"
+
+#: components/api/email/Fields.php:88
+msgid "ID"
+msgstr "ID"
+
+#: components/api/email/Fields.php:91
+msgid ""
+"Define a unique ID for this field. You should use only English characters without "
+"special characters or spaces."
+msgstr ""
+"Tentukan ID unik untuk medan ini. Anda hanya perlu menggunakan aksara Bahasa "
+"Inggeris tanpa aksara khas atau ruang."
+
+#: components/api/email/Fields.php:98
+msgid "Name"
+msgstr "Nama"
+
+#: components/api/email/Fields.php:100
+msgid "Set the label that will appear above this field in the opt-in form."
+msgstr "Tetapkan label yang akan muncul di atas medan ini dalam bentuk ikut serta."
+
+#: components/api/email/Fields.php:110
+msgid "Type"
+msgstr "Taipkan"
+
+#: components/api/email/Fields.php:115
+msgid "Choose a field type..."
+msgstr "Pilih jenis medan ..."
+
+#: components/api/email/Fields.php:116
+msgid "Input Field"
+msgstr "Medan Input"
+
+#: components/api/email/Fields.php:117
+msgid "Email Field"
+msgstr "Bidang E-mel"
+
+#: components/api/email/Fields.php:118
+msgid "Textarea"
+msgstr "Textarea"
+
+#: components/api/email/Fields.php:119
+msgid "Checkboxes"
+msgstr "Kotak cek"
+
+#: components/api/email/Fields.php:120
+msgid "Radio Buttons"
+msgstr "Butang Radio"
+
+#: components/api/email/Fields.php:121
+msgid "Select Dropdown"
+msgstr "Pilih Dropdown"
+
+#: components/api/email/Fields.php:123
+msgid "Choose the type of field"
+msgstr "Pilih jenis medan"
+
+#: components/api/email/Fields.php:133
+msgid "Checked By Default"
+msgstr "Diperiksa oleh lalai"
+
+#: components/api/email/Fields.php:134
+msgid ""
+"If enabled, the check mark will be automatically selected for the visitor. They "
+"can still deselect it."
+msgstr ""
+"Jika diaktifkan, tanda semak akan dipilih secara automatik untuk pelawat. Mereka "
+"masih boleh membatalkannya."
+
+#: components/api/email/Fields.php:144 components/api/email/Fields.php:163
+#: components/api/email/Fields.php:182
+msgid "Options"
+msgstr "Pilihan"
+
+#: components/api/email/Fields.php:199
+msgid "Minimum Length"
+msgstr "Panjang Minimum"
+
+#: components/api/email/Fields.php:200 components/api/email/Fields.php:217
+msgid "Leave at 0 to remove restriction"
+msgstr "Tinggalkan pada 0 untuk mengalih keluar sekatan"
+
+#: components/api/email/Fields.php:216
+msgid "Maximum Length"
+msgstr "Panjang Maksimum"
+
+#: components/api/email/Fields.php:233
+msgid "Allowed Symbols"
+msgstr "Simbol yang Dibenarkan"
+
+#: components/api/email/Fields.php:234
+msgid ""
+"You can validate certain types of information by disallowing certain symbols. "
+"Symbols added here will prevent the form from being submitted if added by the "
+"user."
+msgstr ""
+"Anda boleh mengesahkan beberapa jenis maklumat dengan melarang simbol tertentu. "
+"Simbol-simbol yang ditambahkan di sini akan menghalang borang dihantar jika "
+"ditambahkan oleh pengguna."
+
+#: components/api/email/Fields.php:238 components/api/email/Fields.php:326
+msgid "All"
+msgstr "Semua"
+
+#: components/api/email/Fields.php:239
+msgid "Letters Only (A-Z)"
+msgstr "Surat Sahaja (AZ)"
+
+#: components/api/email/Fields.php:240
+msgid "Numbers Only (0-9)"
+msgstr "Nombor Sahaja (0-9)"
+
+#: components/api/email/Fields.php:241
+msgid "Alphanumeric Only (A-Z, 0-9)"
+msgstr "Nombor Abjad angka (AZ, 0-9)"
+
+#: components/api/email/Fields.php:250
+msgid "Required Field"
+msgstr "Bidang yang diperlukan"
+
+#: components/api/email/Fields.php:258
+msgid "Define whether the field should be required or optional"
+msgstr "Tentukan sama ada medan diperlukan atau pilihan"
+
+#: components/api/email/Fields.php:262
+msgid "Hidden Field"
+msgstr "Padang Tersembunyi"
+
+#: components/api/email/Fields.php:270
+msgid "Define whether or not the field should be visible."
+msgstr "Tentukan sama ada bidang itu boleh dilihat atau tidak."
+
+#: components/api/email/Fields.php:280
+msgid "Make Fullwidth"
+msgstr "Buat Fullwidth"
+
+#: components/api/email/Fields.php:289
+msgid ""
+"If enabled, the field will take 100% of the width of the form, otherwise it will "
+"take 50%"
+msgstr ""
+"Jika diaktifkan, medan akan mengambil 100% lebar borang, jika tidak, ia akan "
+"mengambil 50%"
+
+#: components/api/email/Fields.php:302
+msgid "Field Background Color"
+msgstr "Warna Latar Belakang Medan"
+
+#: components/api/email/Fields.php:303
+msgid "Pick a color to fill the module's input fields."
+msgstr "Pilih warna untuk mengisi medan input modul."
+
+#: components/api/email/Fields.php:310
+msgid "Enable"
+msgstr "Dayakan"
+
+#: components/api/email/Fields.php:318
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of the "
+"rules below are fulfilled<br><strong>Note:</strong> Only fields with an unique "
+"and non-empty field ID can be used"
+msgstr ""
+"Membolehkan logik bersyarat menjadikan bidang ini hanya dapat dilihat apabila "
+"mana-mana atau semua peraturan di bawah dipenuhi <br> <strong>Nota:</strong> "
+"Hanya medan dengan ID medan unik dan tidak kosong dapat digunakan"
+
+#: components/api/email/Fields.php:322
+msgid "Relation"
+msgstr "Hubungan"
+
+#: components/api/email/Fields.php:327
+msgid "Any"
+msgstr "Mana-mana"
+
+#: components/api/email/Fields.php:333
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr "Pilih sama ada mana-mana atau semua peraturan yang perlu dipenuhi"
+
+#: components/api/email/Fields.php:340
+msgid "Rules"
+msgstr "Peraturan"
+
+#: components/api/email/Fields.php:341
+msgid ""
+"Conditional logic rules can be used to hide and display different input fields "
+"conditionally based on how the visitor has interacted with different inputs."
+msgstr ""
+"Peraturan logik bersyarat boleh digunakan untuk menyembunyikan dan memaparkan "
+"bidang input yang berbeza secara bersyarat berdasarkan bagaimana pengunjung telah "
+"berinteraksi dengan input yang berbeza."
+
+#: components/api/email/Fields.php:383
+msgid "Choose a field..."
+msgstr "Pilih medan ..."
+
+#: components/api/email/Fields.php:391
+msgid "Field"
+msgstr "Padang"
+
+#: components/api/email/Fields.php:398
+msgid ""
+"Choose a custom field. Custom fields must be defined in your email provider "
+"account."
+msgstr ""
+"Pilih medan peribadi. Bidang kustom mesti ditentukan dalam akaun pembekal e-mel "
+"anda."
+
+#: components/api/email/Infusionsoft.php:253
+msgid "App Name"
+msgstr "Nama Aplikasi"
+
+#: components/api/email/Infusionsoft.php:366
+msgid ""
+"Successfully authorized. Subscribers count will be updated in background, please "
+"check back in %1$s %2$s"
+msgstr ""
+"Berjaya disahkan. Kiraan pelanggan akan dikemaskini pada bahagian latar, sila "
+"semak kembali dalam masa %1$s %2$s"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minute"
+msgstr "minit"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minutes"
+msgstr "minit"
+
+#: components/api/email/Infusionsoft.php:396
+msgid "Already subscribed"
+msgstr "Telah dilanggan"
+
+#: components/api/email/MadMimi.php:97 components/api/email/iContact.php:184
+msgid "Username"
+msgstr "Nama pengguna"
+
+#: components/api/email/MailChimp.php:293
+msgid "An error occurred, please try later."
+msgstr "Berlaku ralat. Sila cuba lagi kemudian."
+
+#: components/api/email/MailChimp.php:325
+msgid "You have signed up to a lot of lists very recently, please try again later"
+msgstr "Anda telah mendaftar kepada banyak senarai baru-baru ini, sila cuba lagi kemudian"
+
+#: components/api/email/MailPoet.php:38 components/api/email/_MailPoet2.php:28
+#: components/api/email/_MailPoet3.php:33
+msgid "MailPoet plugin is either not installed or not activated."
+msgstr "Plugin MailPoet sama ada tidak dipasang atau tidak diaktifkan."
+
+#: components/api/email/Mailster.php:53
+msgid "Opt-in"
+msgstr "Pilih-masuk"
+
+#: components/api/email/Mailster.php:117
+msgid "Mailster Newsletter Plugin is not enabled!"
+msgstr "Plug-in Mailster Newsletter tidak didayakan!"
+
+#: components/api/email/Mailster.php:121
+msgid "No lists were found. Please create a Mailster list first!"
+msgstr "Tiada senarai ditemui. Sila hasilkan senarai Mailster terlebih dahulu!"
+
+#: components/api/email/Mailster.php:137 components/api/email/_MailPoet2.php:97
+#: components/api/email/_MailPoet3.php:148
+msgid "An error occurred. Please try again later."
+msgstr "Berlaku ralat. Sila cuba lagi kemudian."
+
+#: components/api/email/Ontraport.php:175
+msgid "APP ID"
+msgstr "ID APLIKASI"
+
+#: components/api/email/Provider.php:102
+msgid "Subscribed via"
+msgstr "Dilanggan melalui"
+
+#: components/api/email/SalesForce.php:144
+msgid "Instance URL"
+msgstr "URL Contoh"
+
+#: components/api/email/SalesForce.php:149
+msgid "Consumer Key"
+msgstr "Kekunci Pengguna"
+
+#: components/api/email/SalesForce.php:154
+msgid "Consumer Secret"
+msgstr "Rahsia Pengguna"
+
+#: components/api/email/SalesForce.php:161
+msgid "Organization ID"
+msgstr "ID Organisasi"
+
+#: components/api/email/SalesForce.php:186
+msgid "Organization ID cannot be empty"
+msgstr "ID Organisasi tidak boleh kosong"
+
+#: components/api/email/SalesForce.php:256
+#: components/api/email/SalesForce.php:343
+msgid "An error occurred. Please try again."
+msgstr "Berlaku ralat. Sila cuba lagi kemudian."
+
+#: components/api/email/SalesForce.php:307
+msgid "Unknown Organization ID"
+msgstr "ID Organisasi Tidak Diketahui"
+
+#: components/api/email/_MailPoet2.php:144
+msgid "Already Subscribed"
+msgstr "Telah dilanggan"
+
+#: components/api/email/iContact.php:181
+msgid "App ID"
+msgstr "ID Apl"
+
+#: components/api/email/iContact.php:187
+msgid "App Password"
+msgstr "Kata Laluan App"
+
+#: components/api/email/init.php:51
+msgid "ERROR: Invalid arguments."
+msgstr "RALAT: Hujah tidak sah."
+
+#: components/data/init.php:191
+msgid "Invalid attribute key"
+msgstr "Kekunci atribut tidak sah"
+
+#: components/data/init.php:258
+msgid "Invalid tag element"
+msgstr "Unsur tag tidak sah"
+
+#: components/data/init.php:328
+msgid "This is not a valid excuse to not escape the passed value."
+msgstr "Ini bukan alasan yang sah untuk tidak melepaskan nilai yang diluluskan."
+
+#: components/data/init.php:367
+msgid "This is not a valid excuse to not sanitize the passed value."
+msgstr "Ini bukan alasan yang sah untuk tidak membersihkan nilai yang diluluskan."
+
+#: components/lib/WPHttp.php:192
+msgid "A valid URL was not provided."
+msgstr "URL yang sah tidak diberikan."
+
+#: components/lib/WPHttp.php:196
+msgid "User has blocked requests through HTTP."
+msgstr "Pengguna telah menyekat permintaan menerusi HTTP."
+
+#: components/lib/WPHttp.php:209
+msgid "Destination directory for file streaming does not exist or is not writable."
+msgstr "Direktori destinasi untuk penstriman fail tidak wujud atau tidak boleh ditulis."
+
+#: functions.php:101
+msgid "Once Monthly"
+msgstr "Sekali Setiap Bulan"
+
+#: functions.php:113
+msgid "Configuration Error"
+msgstr "Ralat Konfigurasi"
+
+#: functions.php:522
+msgid "Got it, thanks!"
+msgstr "Faham, terima kasih!"
+
+#: functions.php:1383
+msgid "Help"
+msgstr "Bantuan"
+
+#: functions.php:212
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "pada"

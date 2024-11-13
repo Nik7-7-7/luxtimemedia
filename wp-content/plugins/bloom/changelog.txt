@@ -1,0 +1,790 @@
+version 1.3.12 ( updated 04-01-2021 )
+- Added new fonts to the List of Google Fonts which available without API key.
+- Fixed various jQuery breaking changes and deprecated warnings.
+- Fixed jQuery deprecated warnings on ET products.
+- Fixed Email Optin module with MailPoet showing error message even when subscriber is added to the list.
+- Introduces FluentCRM plugin and Email Optin module integration.
+- Fixed the issue when Divi Presets and Global Colors were missing in exported layouts.
+- Fixed an error causing builder to not function properly when common dependencies are modified/used.
+- Fixed issue where you couldn't authorize a SalesForce account.
+- Improve LiteSpeed Cache compatibility during clear cache action.
+- Fixed issue where one user with same email cannot subscribe to multiple MailPoet lists.
+- Fixes incorrect generated selector when 3rd party extension use Divi Module Elements on their modules.
+- Fixed a PHP warning that occurred on PHP 7+ after rolling back.
+- Fixed an issue where MailerLite subscribers were not able to resubscribe once unsubscribed.
+- Fixed First Name and Last Name saving to Sendinblue lists.
+- Fixed an issue in Support Center where repeated calls could be made to our Token API if a site lacked API credentials.
+- Added support for PHP 8.0 to fix deprecated warnings of required parameters after optional parameters in function/method signatures.
+- Fixed PHP 8 libxml_disable_entity_loader deprecation warning by adding conditional statement to run the method only on PHP 7.4 and below.
+- Fixed preload key requests for modules.ttf.
+- Fixed Featured Images import and export for Library items.
+- Fixed ActiveCampaign general fields not shown in the custom field option.
+- Fixed issue with form being assigned to different account when editing the Email Option module.
+- Fixed some PHP notices regarding plugins and themes update checking.
+- Added support for the latest Sendinblue API (v3).
+- Introduces compatibility warning system for ET plugins/themes.
+- Fixes issue making user unable to save BFB layout when cache and scheduled cache preloading are enabled on WP Optimize plugin.
+- Fixed broken image size on image of Slider & Fullwidth Slider modules.
+- Fixed broken image size on Image module and image logo of Menu module.
+- Fixed various jQuery breaking changes and deprecated warnings.
+- Fixed the required OAuth fields showing up in the site without https.
+- Fixed the email list not working if the account name contains a quote.
+- Fixed Google Fonts loading when Use Google Fonts set to off.
+- Fixed Opt-in Popup edge style for the small screen.
+- Fixed Opt-in Popup height and top position.
+	* bloom.php
+	* core/admin/js/checkbox.js
+	* core/admin/js/colorpicker.js
+	* core/admin/js/common.js
+	* core/admin/js/compatibility-warning.js
+	* core/admin/js/core.js
+	* core/admin/js/functions-init.js
+	* core/admin/js/portability.js
+	* core/admin/js/react-dom.production.min.js
+	* core/admin/js/react.production.min.js
+	* core/admin/js/support-center.js
+	* core/admin/js/version-rollback.js
+	* core/admin/js/wp-color-picker-alpha.min.js
+	* core/components/CompatibilityWarning.php
+	* core/components/Portability.php
+	* core/components/SupportCenter.php
+	* core/components/Updates.php
+	* core/components/VersionRollback.php
+	* core/components/api/OAuthHelper.php
+	* core/components/api/Service.php
+	* core/components/api/email/ActiveCampaign.php
+	* core/components/api/email/Fields.php
+	* core/components/api/email/FluentCRM.php
+	* core/components/api/email/HubSpot.php
+	* core/components/api/email/MailPoet.php
+	* core/components/api/email/MailerLite.php
+	* core/components/api/email/SalesForce.php
+	* core/components/api/email/SendinBlue.php
+	* core/components/api/email/_MailPoet3.php
+	* core/components/api/spam/ReCaptcha.php
+	* core/components/data/Utils.php
+	* core/components/init.php
+	* core/components/lib/OAuth.php
+	* core/components/lib/SilentThemeUpgraderSkin.php
+	* core/components/post/Query.php
+	* core/functions.php
+	* core/json-data/google-fonts.json
+	* core/ui/utils/attribute-binder.js
+	* core/ui/utils/frame-helpers.js
+	* core/ui/utils/frames.js
+	* core/ui/utils/utils.js
+	* core/wp_functions.php
+	* css/style.css
+	* dashboard/dashboard.php
+	* dashboard/js/et_dashboard.js
+	* js/admin.js
+	* js/bloom-mce-buttons.js
+	* js/custom.js
+
+version 1.3.11 ( updated 09-24-2020 )
+- Fixed the Button background color Sticky state not being properly applied.
+- Fixed the issue with downloading a backup of Divi Theme Options.
+- Fixed a case where Divi page would cause an error when loaded inside an iframe hosted on a different domain.
+- Updated unit test for Sticky Style bugfix.
+- Fixed premade Layouts loading from the Divi Library in Safari and Edge.
+- Updated the Support Center to verify the WP Debug Log setting points to a file (not a directory) before attempting to load its recent entries.
+- Fixed the issue where module attributes were empty while importing a layout either through Divi Library or Divi Builder.
+- Fixed the issue caused by incompatibility with PHP 5.4.
+- Changed blacklist and whitelist terms to blocklist and allowlist throughout codebase.
+- Fixed query to the image by URL failed when served URL different with guid URL.
+- Fixed failing intentional-error test because Divi loads another product's core.
+- Fixed bug with reset field options in Contact Form module.
+- Added dismissible "Get Recommended Divi Hosting" Card in Divi Support Center to show if any system status item is in a warning state.
+- Added slashes for post content at layout's import.
+- Fixed issue so that our plugins wont clear cache if Divi, Extra, or the Divi Builder are not active.
+- Fixed layout export progress bar going above 100% in certain cases.
+- Fixed srset attributes not being generated properly for images that were scaled down by WordPress core.
+- Fixed rollback to use fallback version format for trailing dot zero case.
+- Fixed ES6 Promise enqueuing from jsDelivr CDN instead of local.
+- Fixed a Javascript error when loading a page inside an iframe on a different domain.
+- Fixed an issue with HTML special characters not being decoded in Mailster error messages.
+- Decreased recommended max execution time and max input time from 180 to 120 seconds.
+- Fixed mailster custom field data not showing.
+- Fixed reCAPTCHA v3 invalid action name JavaScript error.
+- Revived progress bar in tooltip export at visual builder.
+- Fixed issue with Mailchimp Email Optin's group data with type dropdown / radio not being sent properly.
+- Fixed error email already exists in Mailster Optin Email Module when the user already subscribed to another list.
+- Fixed fatal error when previewing Divi theme.
+- Fixed a bug that cause the builder's global JS object to be defined on frontend pages.
+- Fixed locale system.
+- Fixed responsive images compatibility issue with WP Offload Media Lite for Amazon S3 plugin.
+- Fixed the responsive images srcset & sizes attributes after upload directory changed.
+- Fixed errors caused by using Gutenberg functions when Gutenberg wasn't installed.
+- Fixed language files not loading from plugin's languages directory.
+- Added Support Center to Bloom, Monarch, and Divi Builder plugins.
+	* bloom.php
+	* core/admin/css/core.css
+	* core/admin/css/support-center.css
+	* core/admin/css/wp-admin.css
+	* core/admin/fonts/builder.eot
+	* core/admin/fonts/builder.svg
+	* core/admin/fonts/builder.ttf
+	* core/admin/fonts/builder.woff
+	* core/admin/images/epanel/colorpicker_overlay.png
+	* core/admin/images/epanel/colorpicker_select.gif
+	* core/admin/images/epanel/custom_background.png
+	* core/admin/images/epanel/custom_hex.png
+	* core/admin/images/epanel/custom_hsb_b.png
+	* core/admin/images/epanel/custom_hsb_h.png
+	* core/admin/images/epanel/custom_hsb_s.png
+	* core/admin/images/epanel/custom_indic.gif
+	* core/admin/images/epanel/custom_rgb_b.png
+	* core/admin/images/epanel/custom_rgb_g.png
+	* core/admin/images/epanel/custom_rgb_r.png
+	* core/admin/images/epanel/custom_submit.png
+	* core/admin/images/epanel/postinfo-author.gif
+	* core/admin/images/epanel/postinfo-categories.gif
+	* core/admin/images/epanel/postinfo-date.gif
+	* core/admin/images/epanel/select.png
+	* core/admin/images/epanel/select2.png
+	* core/admin/images/svg/backups.svg
+	* core/admin/images/svg/migrate.svg
+	* core/admin/images/svg/security.svg
+	* core/admin/images/svg/server.svg
+	* core/admin/images/svg/speed.svg
+	* core/admin/images/svg/staging.svg
+	* core/admin/js/checkbox.js
+	* core/admin/js/colorpicker.js
+	* core/admin/js/core.js
+	* core/admin/js/es6-promise.auto.min.js
+	* core/admin/js/eye.js
+	* core/admin/js/frame-helpers.js
+	* core/admin/js/functions-init.js
+	* core/admin/js/popper.min.js
+	* core/admin/js/portability.js
+	* core/admin/js/recaptcha.js
+	* core/admin/js/support-center.js
+	* core/admin/js/tippy.min.js
+	* core/admin/js/wp-color-picker-alpha.min.js
+	* core/components/Cache.php
+	* core/components/PageResource.php
+	* core/components/Portability.php
+	* core/components/SupportCenter.php
+	* core/components/SupportCenterMUAutoloader.php
+	* core/components/Updates.php
+	* core/components/VersionRollback.php
+	* core/components/api/ElegantThemes.php
+	* core/components/api/Service.php
+	* core/components/api/email/ActiveCampaign.php
+	* core/components/api/email/Fields.php
+	* core/components/api/email/GetResponse.php
+	* core/components/api/email/MailChimp.php
+	* core/components/api/email/Mailster.php
+	* core/components/api/email/Providers.php
+	* core/components/api/spam/Provider.php
+	* core/components/api/spam/Providers.php
+	* core/components/api/spam/ReCaptcha.php
+	* core/components/api/spam/init.php
+	* core/components/cache/Directory.php
+	* core/components/cache/File.php
+	* core/components/cache/init.php
+	* core/components/data/Utils.php
+	* core/components/data/init.php
+	* core/components/init.php
+	* core/components/mu-plugins/SupportCenterSafeModeDisableChildThemes.php
+	* core/components/mu-plugins/SupportCenterSafeModeDisablePlugins.php
+	* core/functions.php
+	* core/init.php
+	* core/json-data/google-fonts.json
+	* core/languages/ar.mo
+	* core/languages/ar.po
+	* core/languages/bg_BG.mo
+	* core/languages/bg_BG.po
+	* core/languages/cs_CZ.mo
+	* core/languages/cs_CZ.po
+	* core/languages/da_DK.mo
+	* core/languages/da_DK.po
+	* core/languages/de_DE.mo
+	* core/languages/de_DE.po
+	* core/languages/el.mo
+	* core/languages/el.po
+	* core/languages/en_US.mo
+	* core/languages/en_US.po
+	* core/languages/es_ES.mo
+	* core/languages/es_ES.po
+	* core/languages/fi.mo
+	* core/languages/fi.po
+	* core/languages/fr_FR.mo
+	* core/languages/fr_FR.po
+	* core/languages/he_IL.mo
+	* core/languages/he_IL.po
+	* core/languages/hu_HU.mo
+	* core/languages/hu_HU.po
+	* core/languages/id_ID.mo
+	* core/languages/id_ID.po
+	* core/languages/it_IT.mo
+	* core/languages/it_IT.po
+	* core/languages/ja.mo
+	* core/languages/ja.po
+	* core/languages/ko_KR.mo
+	* core/languages/ko_KR.po
+	* core/languages/ms_MY.mo
+	* core/languages/ms_MY.po
+	* core/languages/nb_NO.mo
+	* core/languages/nb_NO.po
+	* core/languages/nl_NL.mo
+	* core/languages/nl_NL.po
+	* core/languages/pl_PL.mo
+	* core/languages/pl_PL.po
+	* core/languages/pt_BR.mo
+	* core/languages/pt_BR.po
+	* core/languages/ro_RO.mo
+	* core/languages/ro_RO.po
+	* core/languages/ru_RU.mo
+	* core/languages/ru_RU.po
+	* core/languages/sk_SK.mo
+	* core/languages/sk_SK.po
+	* core/languages/sr_RS.mo
+	* core/languages/sr_RS.po
+	* core/languages/sv_SE.mo
+	* core/languages/sv_SE.po
+	* core/languages/th.mo
+	* core/languages/th.po
+	* core/languages/tl.mo
+	* core/languages/tl.po
+	* core/languages/tr_TR.mo
+	* core/languages/tr_TR.po
+	* core/languages/uk.mo
+	* core/languages/uk.po
+	* core/languages/vi.mo
+	* core/languages/vi.po
+	* core/languages/zh_CN.mo
+	* core/languages/zh_CN.po
+	* core/php_functions.php
+	* core/ui/components/controls/dropdown/index.js
+	* core/ui/components/hoc/drag-drop-context.js
+	* core/ui/utils/frame-helpers.js
+	* core/ui/utils/frames.js
+	* core/ui/utils/property-resolver.js
+	* core/ui/utils/utils.js
+	* core/wp_functions.php
+	* js/admin.js
+	* js/custom.js
+
+version 1.3.10 ( updated 03-11-2019 )
+- Security Update: Fixed a vulnerability that could allow some cross-site request forgery checks within our core product framework to be bypassed. In all cases, these checks were also hardened by user permission checks, however, user permissions checks alone are not sufficient to protect against all CSRF vectors. View the full disclosure here: https://us7.campaign-archive.com/?u=9ae7aa91c578052b052b864d6&id=917542a075.
+- Updated core to the latest version.
+	* core/admin/css/core.css
+	* core/admin/css/support-center.css
+	* core/admin/js/support-center.js
+	* core/components/Logger.php
+	* core/components/PageResource.php
+	* core/components/SupportCenter.php
+	* core/components/SupportCenterMUAutoloader.php
+	* core/components/Updates.php
+	* core/components/init.php
+	* core/components/mu-plugins/SupportCenterSafeModeDisablePlugins.php
+	* core/functions.php
+	* core/ui/utils/frames.js
+
+version 1.3.9 ( updated 02-26-2019 )
+- Updated core to the latest version.
+	* core/components/data/init.php
+
+version 1.3.8 ( updated 12-12-2018 )
+- Updated core to the latest version.
+	* core/components/data/Utils.php
+
+version 1.3.7 ( updated 12-05-2018 )
+- Various security hardening fixes.
+- Added i18n support for visual builder toggle buttons.
+- Fixed post_max_size megabytes conversion.
+- Fixed a issue where Your Save Has Failed Modal Hides Wordfence's Blocked Request Notification.
+- Fixed issue where optin popup could end up with zero height.
+	* bloom.php
+	* core/admin/css/core.css
+	* core/admin/css/portability.css
+	* core/admin/js/core.js
+	* core/components/PageResource.php
+	* core/components/Portability.php
+	* core/components/Updates.php
+	* core/components/VersionRollback.php
+	* core/components/api/OAuthHelper.php
+	* core/components/api/Service.php
+	* core/components/api/email/HubSpot.php
+	* core/components/api/email/Provider.php
+	* core/components/api/email/Providers.php
+	* core/components/api/email/_MailPoet2.php
+	* core/components/api/email/_MailPoet3.php
+	* core/components/data/Utils.php
+	* core/components/data/init.php
+	* core/components/init.php
+	* core/components/lib/WPHttp.php
+	* core/components/post/Query.php
+	* core/functions.php
+	* core/ui/utils/attribute-binder.js
+	* core/ui/utils/frames.js
+	* js/custom.js
+
+version 1.3.6 ( updated 10-30-2018 )
+	- Applied some minor security hardening improvements.
+
+version 1.3.5 ( updated 10-4-2018 )
+- Updated core to the latest version.
+	* core/components/data/Utils.php
+
+version 1.3.4 ( updated 08-13-2018 )
+- Corrected German translation of button text in WP Admin.
+- Fixed PHP notice that was occurring since introduction of rollback feature.
+	* core/components/VersionRollback.php
+	* core/languages/de_DE.mo
+	* core/languages/de_DE.po
+
+version 1.3.3 ( updated 7-12-2018 )
+- Updated core framework to the latest version.
+- Fixed name and last name not being included in subscribe API request.
+	* core/*
+	* bloom.php
+
+version 1.3.2 ( updated 6-14-2018 )
+- Updated core framework to the latest version.
+- Added sanitization of subscriber data sent to provider API calls.
+	* core/*
+	* bloom.php
+
+version 1.3.1 ( updated 5-31-2018 )
+- Updated core framework to the latest version.
+- Added extra security hardening to the OAuth2 authorization callback.
+	* core/*
+
+version 1.3 ( updated 5-25-2018 )
+- Added custom field integration for all email providers.
+- Added the ability to add links to checkbox and radio button custom field labels.
+- Added the option to disable Google Fonts.
+	* css/style.css
+	* css/admin.css
+	* dashboard/app/bootstrap.jsx
+	* dashboard/app/components/custom-fields/custom-fields.jsx
+	* dashboard/app/components/custom-fields/custom-fields.scss
+	* dashboard/css/et_dashboard.css
+	* dashboard/dashboard.php
+	* dashboard/dashboard.php
+	* dashboard/includes/google_fonts.php
+	* dashboard/includes/options.php
+	* dashboard/js/et_custom_mce.js
+	* dashboard/js/et_dashboard.js
+	* js/admin.js
+	* js/custom.js
+	* core/admin/fonts/modules.eot
+	* core/admin/fonts/modules.svg
+	* core/admin/fonts/modules.ttf
+	* core/admin/fonts/modules.woff
+	* core/admin/js/common.js
+	* core/admin/js/react-dom.production.min.js
+	* core/admin/js/react.production.min.js
+	* core/components/HTTPInterface.php
+	* core/components/api/OAuthHelper.php
+	* core/components/api/Service.php
+	* core/components/api/email/ActiveCampaign.php
+	* core/components/api/email/Aweber.php
+	* core/components/api/email/CampaignMonitor.php
+	* core/components/api/email/ConstantContact.php
+	* core/components/api/email/ConvertKit.php
+	* core/components/api/email/Emma.php
+	* core/components/api/email/Feedblitz.php
+	* core/components/api/email/Fields.php
+	* core/components/api/email/GetResponse.php
+	* core/components/api/email/HubSpot.php
+	* core/components/api/email/Infusionsoft.php
+	* core/components/api/email/MadMimi.php
+	* core/components/api/email/MailChimp.php
+	* core/components/api/email/MailPoet.php
+	* core/components/api/email/MailerLite.php
+	* core/components/api/email/Mailster.php
+	* core/components/api/email/Ontraport.php
+	* core/components/api/email/Provider.php
+	* core/components/api/email/Providers.php
+	* core/components/api/email/SalesForce.php
+	* core/components/api/email/SendinBlue.php
+	* core/components/api/email/_MailPoet2.php
+	* core/components/api/email/_MailPoet3.php
+	* core/components/api/email/iContact.php
+	* core/components/api/email/init.php
+	* core/components/data/Utils.php
+	* core/components/lib/OAuth.php
+	* core/functions.php
+
+version 1.2.25 ( updated 4-26-2018 )
+- Fixed iOS detection when page is being viewed on a mobile browser or an in-app browser.
+- Fixed double opt-in when adding new subscribers to a Mailster list.
+- Fixed the broken URL redirection when plugin is displayed as widget.
+- Updated core framework to the latest version.
+	* bloom.php
+	* core/admin/js/common.js
+	* core/components/api/email/Mailster.php
+	* core/components/api/email/Ontraport.php
+
+version 1.2.24 ( updated 4-19-2018 )
+- Updated core framework to the latest version.
+	* core/*
+
+version 1.2.23 ( updated 2-8-2018 )
+- Updated core framework to the latest version.
+	* core/*
+
+version 1.2.22 ( updated 12-7-2017 )
+- Updated core framework to the latest version.
+	* core/admin/js/portability.js
+	* core/components/Portability.php
+	* core/functions.php
+
+version 1.2.21 ( updated 11-14-2017 )
+- Addressed WordPress 4.9 compatibility issues.
+	* css/admin.css
+	* core/admin/css/portability.css
+
+version 1.2.20 ( updated 10-18-2017 )
+- Updated core framework to the latest version.
+	* core/admin/fonts/modules.eot
+	* core/admin/fonts/modules.svg
+	* core/admin/fonts/modules.ttf
+	* core/admin/fonts/modules.woff
+
+version 1.2.19 ( updated 9-29-2017 )
+- Updated core framework to the latest version.
+	* core/components/api/email/ConstantContact.php
+	* core/components/api/email/GetResponse.php
+	* core/components/api/email/MailPoet.php
+	* core/components/api/email/_MailPoet2.php
+	* core/components/api/email/Provider.php
+	* core/components/api/email/Providers.php
+	* bloom.php
+	* js/admin.js
+
+version 1.2.18 ( updated 9-21-2017 )
+- Improved API wrappers for iContact, Constant Contact, HubSpot, MadMimi, and MailPoet and moved them to core.
+- Added support for MailPoet 3.
+	* core/functions.php
+	* core/components/data/init.php
+	* core/components/data/Utils.php
+	* core/components/api/email/init.php
+	* core/components/api/email/iContact.php
+	* core/components/api/email/_ProviderName.php
+	* core/components/api/email/Providers.php
+	* core/components/api/email/Provider.php
+	* core/components/api/email/MailPoet.php
+	* core/components/api/email/MadMimi.php
+	* core/components/api/email/HubSpot.php
+	* core/components/api/email/GetResponse.php
+	* core/components/api/email/Feedblitz.php
+	* core/components/api/email/Emma.php
+	* core/components/api/email/ConvertKit.php
+	* core/components/api/email/ConstantContact.php
+	* core/components/api/email/CampaignMonitor.php
+	* core/components/api/email/Aweber.php
+	* core/components/api/email/ActiveCampaign.php
+	* core/components/api/Service.php
+	* core/components/Logger.php
+	* core/components/HTTPInterface.php
+
+version 1.2.17 ( updated 9-6-2017 )
+- Updated core framework to the latest version.
+	* core/init.php
+
+version 1.2.16 ( updated 7-27-2017 )
+- Updated core framework to the latest version.
+	* core/functions.php
+	* core/admin/js/portability.js
+	* core/components/Portability.php
+
+version 1.2.15 ( updated 7-14-2017 )
+- Updated core framework to the latest version.
+	* core/components/PageResource.php
+	* core/components/PageResource.php
+	* core/functions.php
+
+version 1.2.14 ( updated 7-10-2017 )
+- Updated core framework to the latest versions.
+- Fixed a bug that caused errors to occur on SiteGround hosting accounts for some customers when the Elegant Themes caching system attempted to clear the SiteGround cache during plugin & theme activation.
+	* core/components/PageResource.php
+	* core/components/data/Utils.php
+	* core/components/init.php
+	* core/functions.php
+	* core/init.php
+
+version 1.2.13 ( updated 7-8-2017 )
+- Updated core framework to the latest version.
+	* core/components/PageResource.php
+	* core/components/init.php
+
+version 1.2.12 ( updated 7-2-2017 )
+- Updated core framework to the latest version.
+	* core/components/PageResource.php
+	* core/components/init.php
+
+version 1.2.11 ( updated 7-2-2017 )
+- Updated core framework to the latest version.
+	* core/components/init.php
+	* core/components/PageResource.php
+
+version 1.2.10 ( updated 7-1-2017 )
+- Updated core framework to the latest version.
+	* core/init.php
+
+version 1.2.9 ( updated 7-1-2017 )
+- Updated core framework to the latest version.
+	* core/components/PageResource.php
+
+version 1.2.8 ( updated 6-30-2017 )
+- Updated core framework to the latest version.
+	* core/components/PageResource.php
+
+version 1.2.7 ( updated 6-30-2017 )
+- Updated core framework to the latest version.
+	* core/components/init.php
+	* core/components/PageResource.php
+
+version 1.2.6 updated 6-28-2017 )
+- Fixed undefined function PHP error that occurred after upgrading to the latest version in some cases.
+	* components/PageResource.php
+
+version 1.2.5 ( updated 6-28-2017 )
+- Fixed a bug with ConvertKit integration that caused the "first_name" field to be excluded when adding new subscribers.
+- Updated core framework to the latest version.
+	* core/admin/js/page-resource-fallback.js
+	* core/admin/js/page-resource-fallback.min.js
+	* core/components/PageResource.php
+	* core/components/data/Utils.php
+	* core/components/init.php
+	* core/components/lib/BluehostCache.php
+	* core/functions.php
+	* core/init.php
+
+version 1.2.4 ( updated 5-31-2017 )
+- Fixed a bug with ActiveCampaign integration that prevented confirmation emails from being sent to users.
+	* /core/components/api/email/ActiveCampaign.php
+
+version 1.2.3 ( updated 5-11-2017 )
+- Fixed an error that caused update notifications to fail when the latest version of Bloom was used with an old version of Divi.
+	* bloom.php
+
+version 1.2.2 ( updated 5-3-2017 )
+- Fixed issue with optin requests failing to subscribe users in some cases due to request caching system.
+	* core/components/HTTPInterface.php
+	* core/components/api/email/MailChimp.php
+
+version 1.2.1 ( updated 4-26-2017 )
+- Fixed error that occured on websites running PHP 5.2.
+- Fixed error that occured when updating plugins for some customers.
+	* core/components/Updates.php
+	* core/functions.php
+	* core/main_functions.php
+	* core/init.php
+
+version 1.2 ( updated 4-25-2017 )
+- Added new Success Action feature that allows you to redirect users to a custom URL after signing up to a newsletter.
+- Added OAuth support for Sales Force.
+- Added ConvertKit support.
+- Added MailerLite support.
+- Added Mailster Support.
+- Streamlined and re-created core authorization methods for all email providers, removing Bloom's dependency on third party libraries and allowing for the use of core WordPress functions when managing email accounts.
+- Moved authorization methods to Elegant Themes core framework to be used on other products, such as Divi.
+- Text color settings will no longer affect success message, since this is always displayed on a white background.
+- Bloom optins will now work correctly on WooCommerce homepages.
+- Added RTL support for Bloom Dashboard.
+- Fixed issue where open/close animations where not working for On Click triggers after triggering the optin multiple times.
+- Fixed a bug that caused some border styles to not inherit custom border colors.
+- Fixed incorrect CSS selector that caused some Google fonts to not work correctly.
+- Quotes will now be encoded correctly inside of optin form content areas.
+- Optin forms with active split tests will now correctly log view stats for locked content optins.
+- Fixed an issue where not all posts and pages were listed in the Include/Exclude options.
+- Fixed a bug that caused cookies to not be applied correctly in some situations when using Custom HTML optins.
+- Disabled "below the post" optins when the Divi Visual Builder is being used.
+- Fixed an error that occurred during Bloom settings import in some situations.
+- Unwanted HTML will now be stripped from Bloom success messages.
+- Bloom inline optin forms will no longer overlay UI elements in the Divi Visual Builder.
+- Fixed a CSS conflict that occurred in some third party themes that caused abnormalities in the Bloom options.
+- Added support for double optin when using iContact.
+- Added caching to the Bloom stats page and improved performance when displaying large statistics tables.
+- Improved the way that huge collections of lists (1,000+) are collected and stored in Bloom, preventing timeouts during the authorization process of some email providers.
+	* bloom.php
+	* css/admin.css
+	* dashboard/includes/options.php
+	* dashboard/dashboard.php
+	* js/admin.js
+	* css/style.css
+	* js/custom.js
+	* css/admin-rtl.css
+	* core/*
+
+version 1.1.8 ( updated 08-15-2016 )
+- Fixed settings page font issues in WordPress 4.6
+	* bloom.php
+	* dashboard/css/et_dashboard.css
+	* core/admin/css/core.css
+	* core/functions.php
+
+version 1.1.7 ( updated 06-22-2016 )
+- Fixed parse error that caused plugin to fail in some instances.
+ * bloom/bloom.php
+
+version 1.1.6 ( updated 06-21-2016 )
+- Fixed the jumping issue with "On Click" trigger
+- Increased auto close timeout duration
+	* js/custom.js
+- Logged in users actions are now excluded from stats
+- Optimized scripts and styles loading on frontend
+	* bloom.php
+	* js/custom.js
+- Fixed "undefined index" message
+	* bloom.php
+- Added titles to the header menu in Dashboard
+	* dashboard/dashboard.php
+	* dashboard/includes/options.php
+- Added option to close popup/flyin automatically after subscribe
+	* bloom.php
+	* dashboard/includes/options.php
+	* js/custom.js
+- Fixed the issue with Optin form, displaying on Homepage instead of a specific page selected in Dashboard
+- Fixed the issue with Optin not working on Blog page
+	* bloom.php
+	* dashboard/includes/options.php
+
+version 1.1.5 ( updated 05-10-2016 )
+- Updated core submodule to latest versions (Fonts files were moved to /core. If you are currently calling these font files, your CSS files should be updated with new file paths).
+	* /core
+- Updated Google+ icon to match the new Google+ logo & branding guidlines.
+	* core/admin/fonts
+- Mailpoet optin form: Fixed subscription issues
+	* bloom.php
+
+version 1.1.4 ( updated 04-13-2016 )
+- Fixed an issue that caused theme updates to fail when Bloom, Monarch or the Divi Builder were installed.
+	* core/admin/includes/class-updates.php
+
+version 1.1.3 ( updated 04-12-2016 )
+- Added option to configure auto updates from the Plugin Settings
+	* bloom.php
+	* css/admin.css
+	* dashboard/css/et_dashboard.css
+	* dashboard/includes/options.php
+	* js/admin.js
+	* /core
+
+version 1.1.2 ( updated 02-26-2016 )
+- Fixed the issue with stats data on new installs
+	* bloom.php
+
+version 1.1.1 ( updated 02-17-2016 )
+- IMPORTANT: Fixed critical privilege escalation security vulnerability that, if properly exploited, could allow unprivileged registered WordPress users to modify plugin settings.
+	* For more detailed information, please refer to the full public disclosure that was emailed to all customers on 2-17-2016: http://bit.ly/1Q9P13N
+
+version 1.1 ( updated 08-31-2015 )
+* All files changed/updated
+- Added New Email Providers:
+	* ActiveCampaign
+	* Emma
+	* HubSpot
+	* SalesForce
+- Added "on-click" trigger for pop-ups and fly-ins
+- Fixed the issue with apostrophes in opt-in names, breaking script execution in some cases
+- Fixed the issue with unexpected output error upon the plugin activation on some sites
+
+version 1.0.6 ( updated 08-18-2015 )
+- MailChimp: Added option to disable Double optin
+- Fixed the issue with inline form position, when error message appears
+- Getresponse: Added cycle_day parameter to make it work correctly with contacts added via Bloom
+- Campaign Monitor: Fixed the issue with classes conflicts with some plugins
+- Infusionsoft: Fixed the issue with new subscribers, added as non-marketable
+- Fixed the issue with Open Sans font loaded multiple times if Monarch and/or Divi was enabled
+- Mailchimp: Fixed the issue with 25 lists limit
+	* bloom.php
+- OntraPort, MailPoet, Sendinblue, iContact, Mad Mimi, Constant Contact: Fixed the issue, where people couldn't subscribe to several lists with the same email address
+- Constant Contact: Fixed the issue with users, not being able to subscribe with the same email if they were manually deleted from the list
+- Constant Contact: Fixed the issue with subscribers, added to Constant Contact twice
+	* bloom.php
+	* js/custom.js
+- Fixed the issue with wrongly selected categories in Display Settings
+	* dashboard/dashboard.php
+- Fixed the width of preview modal when previewing the Flyin or Widget optin
+	* bloom.php
+	* css/admin.css
+- Fixed the issue with some strings localization in the Dashboard
+	* bloom.php
+	* dashboard/dashboard.php
+- Fixed the issue with checkbox image path in CSS code
+	* css/style.css
+- Fixed WP_Widget class constructor warning message in WordPress 4.3
+	* includes/bloom-widget.php
+- Added some basic HTML tags support in the Success message field ( a, br, span, strong )
+	* bloom.php
+	* css/style.css
+	* dashboard/includes/options.php
+- Improved the appearance of shortcode in the Modal window, when "Generate Shortcode" button is clicked to make it easier to select and copy
+	* css/admin.css
+	* dashboard/dashboard.php
+	* js/admin.js
+
+version 1.0.5 ( updated 06-04-2015 )
+- Security Patch - Disallowed SVG images from media library upload.
+	* bloom.php
+
+version 1.0.4 ( updated 05-02-2015 )
+- Fixed high memory usage issues on some sites with a lot of statistics data
+	* bloom.php
+
+version 1.0.3 ( updated 04-23-2015 )
+- Fixed the issue with "loading icon" visibility in WordPress 4.2
+	* css/admin.css
+	* dashboard/css/et_dashboard.css
+	* dashboard/js/et_dashboard.js
+	* js/admin.js
+- Improved the settings page perfomance
+	* bloom.php
+	* dashboard/css/et_dashboard.css
+	* dashboard/dashboard.php
+	* dashboard/includes/options.php
+	* dashboard/js/et_dashboard.js
+	* js/admin.js
+	* css/admin.css
+	* removed dashboard/js/chosen
+- Fixed the issue with quotes in account names
+- Fixed "Below Post" optin priority
+- Improved compatibility with plugins that use tinyMCE editor
+	* bloom.php
+- Fixed the issue with an optin button background color in some themes
+	* css/style.css
+
+version 1.0.2 ( updated 03-23-2015 )
+- Fixed quotes encoding issues
+- Fixed the issue with the Widget Custom CSS, not applied to a site
+	* bloom.php
+- Improved the plugin settings page perfomance
+- Added "Refresh Stats" and "Clear Stats" buttons
+	* bloom.php
+	* css/admin.css
+	* js/admin.js
+- Renamed MailChimp class to avoid conflicts with other plugins
+	* bloom.php
+	* subscription/mailchimp/mailchimp.php
+- Fixed the issue with wrong impressions count, when several form triggers were enabled
+- Fixed some issues with error message styling
+	* js/custom.js
+- Fixed the issue with inline optin height calculation, when a form is bigger than content
+	* bloom.php
+	* css/style.css
+	* js/custom.js
+
+version 1.0.1 ( updated 03-19-2015 )
+- MailChimp: Fixed the issue with authorization of accounts with 0 lists
+- Feedblitz: Fixed the issue with SSL certificate, that is used for API requests
+- Fixed the issue with a form title and message characters encoding
+- Improved compatibility with other plugins. Fixed the issue with TinyMCE button script, loaded on plugins admin pages.
+- Mad Mimi: Improved error messages
+- MailPoet: Added Double Opt-in support
+- Fixed the issue with some forms, missing the name field
+- Fixed round() php function compatibility issues with older versions of PHP
+	* bloom.php
+- Now it's possible to use a blank title for the widget
+	* includes/bloom-widget.php
+- Removed text shadow from forms footer element.
+	* css/style.css
+- Infusionsoft: Renamed the folder to lowercase. Fixes require_once function error on some servers.
+
+version 1.0
+- Initial Release.

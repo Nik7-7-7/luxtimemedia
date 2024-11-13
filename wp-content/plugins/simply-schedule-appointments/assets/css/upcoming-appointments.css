@@ -1,0 +1,180 @@
+.ssa-upcoming-appointments{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ssa-upcoming-appointments .appointment-card{
+    display: flex;
+    flex-direction: column;
+    color: #858585;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.ssa-upcoming-appointments .appointment-card-header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.wp-container-core-group-layout-6 .ssa-upcoming-appointments .appointment-card-header{
+    justify-content: center;
+}
+
+.wp-container-core-columns-layout-1 .ssa-upcoming-appointments .appointment-card-header{
+    justify-content: center;
+}
+.wp-container-core-columns-layout-2 .ssa-upcoming-appointments .appointment-card-header{
+    justify-content: center;
+}
+
+.wp-container-core-group-layout-6 .ssa-upcoming-appointments .appointment-card .appointment-card-header .member-avatar img{
+    object-fit: contain;
+}
+
+.wp-container-core-columns-layout-1 .ssa-upcoming-appointments .appointment-card .appointment-card-header .member-avatar img{
+    object-fit: contain;
+}
+.wp-container-core-columns-layout-2 .ssa-upcoming-appointments .appointment-card .appointment-card-header .member-avatar img{
+    object-fit: contain;
+}
+
+.wp-container-core-group-layout-6 .ssa-upcoming-appointments .appointment-card .action-bar{
+    display: flex;
+    justify-content: center;
+}
+
+.wp-container-core-columns-layout-1 .ssa-upcoming-appointments .appointment-card .action-bar{
+    display: flex;
+    justify-content: center;
+}
+.wp-container-core-columns-layout-2 .ssa-upcoming-appointments .appointment-card .action-bar{
+    display: flex;
+    justify-content: center;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .appointment-information{
+    display: flex;
+    flex-direction: column;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .appointment-information .appointment-header {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .appointment-information .appointment-header .appointment-staff {
+    color: #242424;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .appointment-information .appointment-header p:first-of-type{
+    font-size: 22px;
+    font-weight: bold;
+    color: #636363;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .appointment-information .appointment-details ul {
+    padding-left: 18px;
+    margin: 11px 0 0 0;
+    font-size: 18px;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .appointment-information .appointment-details ul li {
+    list-style-type: none;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .appointment-information .appointment-details ul li a{
+    color: #000000 !important;
+    text-decoration: underline !important;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .appointment-information .appointment-header p{
+    margin: 0;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header img{
+    width: 70px;
+    height: 70px;
+    border-radius: 120px;
+    object-fit: cover;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .staff-images-container{
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .staff-images-container img{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    border-radius: 120px;
+    object-fit: cover;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .staff-images-container .secondary-image{
+    top: 0;
+    left: 0;
+}
+
+.ssa-upcoming-appointments .appointment-card .appointment-card-header .staff-images-container .primary-image{
+    bottom: 0;
+    right: 0;
+}
+
+.ssa-upcoming-appointments .appointment-card .action-bar{
+    padding: 1rem;
+}
+
+.ssa-upcoming-appointments .appointment-card .action-bar button{
+    padding: 0.5rem 8px;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    content: 'Edit Appointment';
+    border-radius: 4px;
+}
+
+.ssa-upcoming-appointments .appointment-card .action-bar button:hover{
+    cursor: pointer;
+    background-color: #FAFDF8;
+}
+
+@media screen and (min-width: 486px) and (max-width: 768px){
+    .ssa-upcoming-appointments .appointment-card-header{
+        justify-content: center;
+    }
+    .ssa-upcoming-appointments .appointment-card .appointment-card-header .member-avatar img {
+        object-fit: contain;
+    }
+    .ssa-upcoming-appointments .appointment-card .action-bar{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .wp-container-core-group-layout-6 .ssa-upcoming-appointments .appointment-card .action-bar{
+        display:block;
+        justify-content: none;
+    }
+    
+    .wp-container-core-columns-layout-1 .ssa-upcoming-appointments .appointment-card .action-bar{
+        display:block;
+        justify-content: none;
+    }
+    .wp-container-core-columns-layout-2 .ssa-upcoming-appointments .appointment-card .action-bar{
+        display:block;
+        justify-content: none;
+    }
+  }

@@ -1,0 +1,1384 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.elegantthemes.com/members-area/help/\n"
+"POT-Creation-Date: 2019-10-22 13:02:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elegant Themes\n"
+"Language-Team: Elegant Themes\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__"
+";esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: components/Portability.php:1874
+msgid ""
+"The browser version you are currently using is outdated. Please update to the "
+"newest version."
+msgstr ""
+"Версията на браузъра, която използвате в момента, е остаряла. Моля, "
+"актуализирайте я към по-нова версия."
+
+#: components/Portability.php:1875
+msgid "You reached your server memory limit. Please try increasing your PHP memory limit."
+msgstr ""
+"Достигнахте лимита на паметта на вашия сървър. Моля, опитайте да увеличите лимита "
+"на вашата PHP памет."
+
+#: components/Portability.php:1876
+msgid ""
+"This file cannot be imported. It may be caused by file_uploads being disabled in "
+"your php.ini. It may also be caused by post_max_size or/and upload_max_filesize "
+"being smaller than file selected. Please increase it or transfer more substantial "
+"data at the time."
+msgstr ""
+"Този файл не може да бъде импортиран. Това може да е причинено от по-малкия "
+"размер на file_uploads being disabled in your php.ini. Също така може да е "
+"причинено от по-малкия размер на post_max_size or/and upload_max_filesize от "
+"избрания файл. Моля , увеличете размера или прехвърлете по-съществени данни."
+
+#: components/Portability.php:1877
+msgid "Invalid File format. You should be uploading a JSON file."
+msgstr "Невалиден формат на файла. Трябва да качите JSON файл."
+
+#: components/Portability.php:1878
+msgid "This file should not be imported in this context."
+msgstr "Този файл не трябва да се импортира в този контекст."
+
+#: components/Portability.php:1879
+msgid ""
+"Please select at least one item to export or disable the \"Only export selected "
+"items\" option"
+msgstr ""
+"Моля, изберете поне един елемент за експортиране или деактивиране на опцията "
+"„Само експортиране на избрани елементи“"
+
+#: components/Portability.php:1880
+msgid "Import estimated time remaining: %smin"
+msgstr "За импортирането остават приблизително: %s минути"
+
+#: components/Portability.php:1881
+msgid "Export estimated time remaining: %smin"
+msgstr "За експортирането остават приблизително: %s минути"
+
+#: components/Portability.php:1882
+msgid "Backup estimated time remaining: %smin"
+msgstr "За архивирането остават приблизително: %s минути"
+
+#: components/Portability.php:1905
+msgid "Portability"
+msgstr "Преносимост"
+
+#: components/Portability.php:1909
+msgid "Export"
+msgstr "Експортиране"
+
+#: components/Portability.php:1910
+msgid "Import"
+msgstr "Импортиране"
+
+#: components/Portability.php:1914
+msgid ""
+"Exporting your %s will create a JSON file that can be imported into a different "
+"website."
+msgstr ""
+"Експортирането на вашите %s ще създаде JSON файл, който може да бъде импортиран "
+"на различен уеб сайт."
+
+#: components/Portability.php:1915
+msgid "Export File Name"
+msgstr "Име на експортирания файл"
+
+#: components/Portability.php:1920
+msgid "Only export selected items"
+msgstr "Експортирай само избрани елементи"
+
+#: components/Portability.php:1924
+msgid "Export %s"
+msgstr "Експортиране %s"
+
+#: components/Portability.php:1925
+msgid "Cancel Export"
+msgstr "Отмяна на експортирането"
+
+#: components/Portability.php:1930
+msgid ""
+"Importing a previously-exported %s file will overwrite all content currently on "
+"this page."
+msgstr ""
+"Импортиране на предварително експортиран %s ще презапише цялото съдържание, което "
+"в момента се намира на тази страница."
+
+#: components/Portability.php:1932
+msgid ""
+"Select a previously-exported Divi Builder Layouts file to begin importing items. "
+"Large collections of image-heavy exports may take several minutes to upload."
+msgstr ""
+"Изберете експортираните преди това оформления на Divi Builder, за да започнете да "
+"импортирате елементи. Големи колекции от наситени с изображения експортирания "
+"могат да отнемят няколко минути за качване."
+
+#: components/Portability.php:1934
+msgid ""
+"Importing a previously-exported %s file will overwrite all current data. Please "
+"proceed with caution!"
+msgstr ""
+"Импортиране на експортирания преди това %s файл ще презапише всичките текущи "
+"данни. Моля, процедирайте внимателно!"
+
+#: components/Portability.php:1936
+msgid "Select File To Import"
+msgstr "Изберете файл за импортиране"
+
+#: components/Portability.php:1938
+msgid "No File Selected"
+msgstr "Няма избран файл"
+
+#: components/Portability.php:1939
+msgid "Choose File"
+msgstr "Изберете файл"
+
+#: components/Portability.php:1943
+msgid "Download backup before importing"
+msgstr "Изтеглете архива преди импортирането"
+
+#: components/Portability.php:1946
+msgid "Apply Layout's Defaults To This Website"
+msgstr "Прилагане на стандартните настройки на оформлението към този уебсайт"
+
+#: components/Portability.php:1950
+msgid "Import %s"
+msgstr "Импортиране %s"
+
+#: components/Portability.php:1951
+msgid "Cancel Import"
+msgstr "Отмяна на импортирането"
+
+#: components/Portability.php:2053
+msgid "Import & Export"
+msgstr "Импортиране & експортиране"
+
+#: components/Portability.php:2195
+msgid "The export process failed. Please refresh the page and try again."
+msgstr "Процесът на експортиране неуспешен. Моля, обновете страницата и опитайте отново."
+
+#: components/SupportCenter.php:565 components/SupportCenter.php:1593
+msgid "Support Center"
+msgstr "Помощен център"
+
+#: components/SupportCenter.php:577
+msgid "Monarch Support Center"
+msgstr "Център за поддръжка на Монарх"
+
+#: components/SupportCenter.php:756
+msgid "A Basic Overview Of Extra"
+msgstr "Основен преглед на допълнителното"
+
+#: components/SupportCenter.php:760 components/SupportCenter.php:777
+msgid "Using Premade Layout Packs"
+msgstr "Използване на Premade Layout пакети"
+
+#: components/SupportCenter.php:764
+msgid "Creating Category Layouts"
+msgstr "Създаване на оформления на категории"
+
+#: components/SupportCenter.php:773 components/SupportCenter.php:886
+#: components/SupportCenter.php:910 components/SupportCenter.php:946
+msgid "Getting Started With The Divi Builder"
+msgstr "Първи стъпки с Divi Builder"
+
+#: components/SupportCenter.php:781
+msgid "The Divi Library"
+msgstr "Библиотеката на Диви"
+
+#: components/SupportCenter.php:789 components/SupportCenter.php:982
+msgid "A Basic Overview Of The Bloom Plugin"
+msgstr "Основен преглед на приставката на Bloom"
+
+#: components/SupportCenter.php:793
+msgid "How To Update The Bloom Plugin"
+msgstr "Как да актуализирате Plugin на Bloom"
+
+#: components/SupportCenter.php:797
+msgid "How To Add Mailing List Accounts"
+msgstr "Как да добавите акаунти в списъка с пощенски адреси"
+
+#: components/SupportCenter.php:805
+msgid "A Complete Overviw Of Monarch"
+msgstr "Пълен превишение на монарха"
+
+#: components/SupportCenter.php:809
+msgid "Adding Social Networks"
+msgstr "Добавяне на социални мрежи"
+
+#: components/SupportCenter.php:813
+msgid "Configuring Social Follower APIs"
+msgstr "Конфигуриране на API за социални последователи"
+
+#: components/SupportCenter.php:874
+msgid "Getting Started With Extra"
+msgstr "Първи стъпки с екстра"
+
+#: components/SupportCenter.php:878
+msgid "Setting Up The Extra Theme Options"
+msgstr "Настройка на опциите за допълнителна тема"
+
+#: components/SupportCenter.php:882
+msgid "The Extra Category Builder"
+msgstr "Екстра категория строител"
+
+#: components/SupportCenter.php:890
+msgid "How To Update The Extra Theme"
+msgstr "Как да актуализирате допълнителната тема"
+
+#: components/SupportCenter.php:894 components/SupportCenter.php:918
+#: components/SupportCenter.php:954
+msgid "An Overview Of All Divi Modules"
+msgstr "Преглед на всички Divi модули"
+
+#: components/SupportCenter.php:898 components/SupportCenter.php:930
+#: components/SupportCenter.php:966
+msgid "Getting Started With Layout Packs"
+msgstr "Първи стъпки с пакети за оформление"
+
+#: components/SupportCenter.php:902 components/SupportCenter.php:934
+msgid "Customizing Your Header And Navigation"
+msgstr "Персонализиране на заглавието и навигацията"
+
+#: components/SupportCenter.php:914
+msgid "How To Update The Divi Theme"
+msgstr "Как да актуализирате Divi Тема"
+
+#: components/SupportCenter.php:922 components/SupportCenter.php:958
+msgid "Using The Divi Library"
+msgstr "Използване на библиотеката Divi"
+
+#: components/SupportCenter.php:926
+msgid "Setting Up The Divi Theme Options"
+msgstr "Настройка на опциите на Divi темата"
+
+#: components/SupportCenter.php:938 components/SupportCenter.php:974
+msgid "Divi For Developers"
+msgstr "Divi за разработчици"
+
+#: components/SupportCenter.php:950
+msgid "How To Update The Divi Builder"
+msgstr "Как да актуализирате Divi Builder"
+
+#: components/SupportCenter.php:962
+msgid "Selling Products With Divi And WooCommerce"
+msgstr "Продажба на продукти с Divi и WooCommerce"
+
+#: components/SupportCenter.php:970
+msgid "Importing And Exporting Divi Layouts"
+msgstr "Импортиране и експортиране на Divi Layouts"
+
+#: components/SupportCenter.php:986
+msgid "How To Update Your Bloom Plugin"
+msgstr "Как да актуализирате своя Plugin Bloom"
+
+#: components/SupportCenter.php:990
+msgid "Adding Email Accounts In Bloom"
+msgstr "Добавяне на имейл акаунти в Bloom"
+
+#: components/SupportCenter.php:994
+msgid "Customizing Your Opt-in Designs"
+msgstr "Персонализиране на вашите дизайни за достъп"
+
+#: components/SupportCenter.php:998
+msgid "The Different Bloom Opt-in Types"
+msgstr "Различните типове за избор на цъфтеж"
+
+#: components/SupportCenter.php:1002
+msgid "Using The Bloom Display Settings"
+msgstr "Използване на настройките на дисплея на Bloom"
+
+#: components/SupportCenter.php:1006
+msgid "How To Use Triggers In Bloom"
+msgstr "Как да използвате тригери в цъфтеж"
+
+#: components/SupportCenter.php:1010
+msgid "Adding Custom Fields To Bloom Opt-in Forms"
+msgstr "Добавяне на персонализирани полета, за да цъфтят формуляри за включване"
+
+#: components/SupportCenter.php:1018
+msgid "A Complete Overview Of The Monarch Plugin"
+msgstr "Пълен преглед на приставката на Monarch"
+
+#: components/SupportCenter.php:1022
+msgid "How To Update Your Monarch WordPress Plugin"
+msgstr "Как да актуализирате своя пристав за Monarch WordPress"
+
+#: components/SupportCenter.php:1026
+msgid "Adding and Managing Social Networks"
+msgstr "Добавяне и управление на социални мрежи"
+
+#: components/SupportCenter.php:1030
+msgid "Configuring Social Network APIs"
+msgstr "Конфигуриране на API на социалната мрежа"
+
+#: components/SupportCenter.php:1034
+msgid "Customizing The Monarch Design"
+msgstr "Персонализиране на дизайна на Monarch"
+
+#: components/SupportCenter.php:1038
+msgid "Viewing Your Social Stats"
+msgstr "Преглед на социалните ви статистики"
+
+#: components/SupportCenter.php:1042
+msgid "Using The Floating Sidebar"
+msgstr "Използване на плаващата странична лента"
+
+#: components/SupportCenter.php:1046
+msgid "Using Popup & Flyin Triggers"
+msgstr "Използване на пускови и Flyin тригери"
+
+#: components/SupportCenter.php:1129
+msgid "Divi Support Center :: WordPress debug log cannot be read."
+msgstr ""
+"Център за поддръжка на Divi :: WordPress дневник за отстраняване на грешки не "
+"може да бъде прочетен."
+
+#: components/SupportCenter.php:1137
+msgid "Divi Support Center :: WordPress debug.log is not configured."
+msgstr "Център за поддръжка на Divi :: WordPress debug.log не е конфигуриран."
+
+#: components/SupportCenter.php:1158
+msgid "Divi Support Center :: WordPress debug log cannot be found."
+msgstr ""
+"Център за поддръжка на Divi :: WordPress дневник за отстраняване на грешки не "
+"може да бъде намерен."
+
+#: components/SupportCenter.php:1202
+msgid "Writable wp-content Directory"
+msgstr "Указател за wp-content за писане"
+
+#: components/SupportCenter.php:1210
+msgid ""
+"We recommend that the wp-content directory on your server be writable by "
+"WordPress in order to ensure the full functionality of Divi Builder themes and "
+"plugins."
+msgstr ""
+"Препоръчваме директорията wp-content на сървъра ви да може да се записва от "
+"WordPress, за да се гарантира пълната функционалност на темите и приставките на "
+"Divi Builder."
+
+#: components/SupportCenter.php:1214
+msgid "PHP Version"
+msgstr "PHP версия"
+
+#: components/SupportCenter.php:1222
+msgid ""
+"We recommend using the latest stable version of PHP. This will not only ensure "
+"compatibility with Divi, but it will also greatly speed up your website leading "
+"to less memory and CPU related issues."
+msgstr ""
+"Препоръчваме ви да използвате най-новата стабилна версия на PHP. Това не само ще "
+"осигури съвместимост с Divi, но и ще ускори значително работата на вашия сайт, "
+"което ще доведе до по-малко проблеми, свързани с паметта и процесора."
+
+#: components/SupportCenter.php:1226
+msgid "memory_limit"
+msgstr "memory_limit"
+
+#: components/SupportCenter.php:1234
+msgid ""
+"By default, memory limits set by your host or by WordPress may be too low. This "
+"will lead to applications crashing as PHP reaches the artificial limit. You can "
+"adjust your memory limit within your <a href=\"%1$s\" target=\"_blank\">php.ini "
+"file</a>, or by contacting your host for assistance. You may also need to define "
+"a memory limited in <a href=\"%2$s\" target=_blank\">wp-config.php</a>."
+msgstr ""
+"По подразбиране ограниченията на паметта, зададени от вашия хост или от "
+"WordPress, може да са твърде ниски. Това ще доведе до сриване на приложенията, "
+"когато PHP достигне изкуствения лимит. Можете да настроите ограничението на "
+"паметта във вашия <a href=\"%1$s\" target=\"_blank\">php.ini файл</a> или като се "
+"свържете с вашия хост за помощ. Може също да се наложи да дефинирате памет, "
+"ограничена в <a href=\"%2$s\" target=_blank\">wp-config.php</a> ."
+
+#: components/SupportCenter.php:1238
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: components/SupportCenter.php:1246
+msgid ""
+"Post Max Size limits how large a page or file can be on your website. If your "
+"page is larger than the limit set in PHP, it will fail to load. Post sizes can "
+"become quite large when using the Divi Builder, so it is important to increase "
+"this limit. It also affects file size upload/download, which can prevent large "
+"layouts from being imported into the builder. You can adjust your max post size "
+"within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting "
+"your host for assistance."
+msgstr ""
+"Размерът на публикацията максимално ограничава размера на страницата или файла в "
+"уебсайта Ви. Ако страницата ви е по-голяма от зададената в PHP, тя няма да може "
+"да се зареди. Размерите на публикациите могат да станат доста големи, когато "
+"използвате Divi Builder, така че е важно да увеличите този лимит. Той също така "
+"засяга качване / изтегляне на размер на файла, което може да попречи на големите "
+"оформления да бъдат импортирани в строителя. Можете да коригирате максималния си "
+"размер на публикацията във вашия <a href=\"%1$s\" target=\"_blank\">php.ini "
+"файл</a> или като се свържете с хоста си за помощ."
+
+#: components/SupportCenter.php:1250
+msgid "max_execution_time"
+msgstr "max_execution_time"
+
+#: components/SupportCenter.php:1258
+msgid ""
+"Max Execution Time affects how long a page is allowed to load before it times "
+"out. If the limit is too low, you may not be able to import large layouts and "
+"files into the builder. You can adjust your max execution time within your <a "
+"href=\"%1$s\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Максималното време за изпълнение влияе върху това колко време е разрешено да се "
+"зарежда дадена страница, преди да изтече времето. Ако ограничението е твърде "
+"ниско, може да не успеете да импортирате големи оформления и файлове в "
+"конструктора. Можете да настроите максималното време за изпълнение във вашия <a "
+"href=\"%1$s\">php.ini файл</a> или като се свържете с вашия хост за помощ."
+
+#: components/SupportCenter.php:1262
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: components/SupportCenter.php:1270
+msgid ""
+"Upload Max File Size determines that maximum file size that you are allowed to "
+"upload to your server. If the limit is too low, you may not be able to import "
+"large collections of layouts into the Divi Library. You can adjust your max file "
+"size within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by "
+"contacting your host for assistance."
+msgstr ""
+"Качване на максимален размер на файла определя максималния размер на файла, който "
+"можете да качите на сървъра. Ако ограничението е твърде ниско, може да не успеете "
+"да импортирате големи колекции от оформления в библиотеката на Divi. Можете да "
+"настроите максималния си размер във <a href=\"%1$s\" target=\"_blank\">файла "
+"php.ini</a> или като се свържете с хоста си за помощ."
+
+#: components/SupportCenter.php:1274
+msgid "max_input_time"
+msgstr "max_input_time"
+
+#: components/SupportCenter.php:1282
+msgid ""
+"This sets the maximum time in seconds a script is allowed to parse input data. If "
+"the limit is too low, the Divi Builder may time out before it is allowed to load. "
+"You can adjust your max input time within your <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Това задава максималното време в секунди, на което скриптът може да анализира "
+"входните данни. Ако ограничението е твърде ниско, Divi Builder може да изтече "
+"времето, преди да бъде позволено да се зареди. Можете да настроите максималното "
+"време за въвеждане във вашия <a href=\"%1$s\" target=\"_blank\">php.ini файл</a> "
+"или като се свържете с хоста си за помощ."
+
+#: components/SupportCenter.php:1286
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: components/SupportCenter.php:1294
+msgid ""
+"This setting affects how many input variables may be accepted. If the limit is "
+"too low, it may prevent the Divi Builder from loading. You can adjust your max "
+"input variables within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, "
+"or by contacting your host for assistance."
+msgstr ""
+"Тази настройка засяга колко входни променливи могат да бъдат приети. Ако "
+"ограничението е твърде ниско, това може да попречи на Divi Builder да се зареди. "
+"Можете да коригирате максималните входни променливи във вашия <a href=\"%1$s\" "
+"target=\"_blank\">php.ini файл</a> или като се свържете с хоста си за помощ."
+
+#: components/SupportCenter.php:1298
+msgid "display_errors"
+msgstr "display_errors"
+
+#: components/SupportCenter.php:1307
+msgid ""
+"This setting determines whether or not errors should be printed as part of the "
+"page output. This is a feature to support your site's development and should "
+"never be used on production sites. You can edit this setting within your <a "
+"href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting your host for "
+"assistance."
+msgstr ""
+"Тази настройка определя дали грешките трябва да бъдат отпечатани като част от "
+"изхода на страницата. Това е функция, която поддържа разработката на сайта Ви и "
+"никога не трябва да се използва на производствените сайтове. Можете да "
+"редактирате тази настройка във вашия <a href=\"%1$s\" target=\"_blank\">php.ini "
+"файл</a> или като се свържете с хоста си за помощ."
+
+#: components/SupportCenter.php:1355
+msgid "This fails to meet our minimum required value of %1$s. "
+msgstr "Това не отговаря на минималната ни необходима стойност от %1$s ."
+
+#: components/SupportCenter.php:1361
+msgid "This meets our minimum required value of %1$s. "
+msgstr "Това отговаря на минималната ни необходима стойност от %1$s ."
+
+#: components/SupportCenter.php:1373
+msgid "Learn more."
+msgstr "Научете повече."
+
+#: components/SupportCenter.php:1382
+msgid "Congratulations! This meets or exceeds our recommendation of %1$s."
+msgstr "Честито! Това отговаря или надхвърля препоръката ни от %1$s."
+
+#: components/SupportCenter.php:1394
+msgid "We recommend %1$s for the best experience."
+msgstr "Препоръчваме %1$s за най-добър опит."
+
+#: components/SupportCenter.php:1403
+msgid "- We are unable to determine your setting. %1$s"
+msgstr "- Не можем да определим настройката ви. %1$s"
+
+#: components/SupportCenter.php:1466 components/SupportCenter.php:1599
+#: components/SupportCenter.php:2653
+msgid "System Status"
+msgstr "Статус на системата"
+
+#: components/SupportCenter.php:1473
+msgid ""
+"Congratulations, all system checks have passed. Your hosting configuration is "
+"compatible with Divi."
+msgstr ""
+"Поздравления, всички системни проверки са преминали. Вашият хостинг конфигурация "
+"е съвместима с Divi."
+
+#: components/SupportCenter.php:1596
+msgid "Divi Support Center Page"
+msgstr "Център за поддръжка на Divi"
+
+#: components/SupportCenter.php:1602 components/SupportCenter.php:2697
+#: components/SupportCenter.php:2735
+msgid "Remote Access"
+msgstr "Отдалечен достъп"
+
+#: components/SupportCenter.php:1605
+msgid "Divi Documentation &amp; Help"
+msgstr "Документация и помощ на Divi"
+
+#: components/SupportCenter.php:1608 components/SupportCenter.php:2543
+#: components/SupportCenter.php:2861
+msgid "Safe Mode"
+msgstr "Безопасен режим"
+
+#: components/SupportCenter.php:1611 components/SupportCenter.php:2942
+msgid "Logs"
+msgstr "Регистри"
+
+#: components/SupportCenter.php:2062
+msgid "Elegant Themes API Error: HTTP error in API response"
+msgstr "Грешка в API на елегантни теми: Грешка в HTTP в отговора на API"
+
+#: components/SupportCenter.php:2073
+msgid "Elegant Themes API Error: WordPress Error in API response"
+msgstr "Грешка в API на елегантни теми: Грешка в WordPress в отговора на API"
+
+#: components/SupportCenter.php:2105
+msgid "Elegant Themes API Error: Incorrect Token. Please, try again."
+msgstr "Грешка в API на елегантни теми: Неправилен знак. Моля, опитайте отново."
+
+#: components/SupportCenter.php:2116
+msgid "Elegant Themes API Error: The API response was missing required data."
+msgstr "Грешка в API на елегантни теми: В отговора на API липсват задължителни данни."
+
+#: components/SupportCenter.php:2129
+msgid "Elegant Themes API Error: The API responded, but the response was empty."
+msgstr "Грешка в API на елегантни теми: API отговори, но отговорът беше празен."
+
+#: components/SupportCenter.php:2177
+msgid "Support account doesn't exist."
+msgstr "Профилът за поддръжка не съществува."
+
+#: components/SupportCenter.php:2189
+msgid "Support account hasn't been removed. Try to regenerate token again."
+msgstr "Профилът за поддръжка не е премахнат. Опитайте отново да генерирате токена."
+
+#: components/SupportCenter.php:2194
+msgid "Cannot get the support account data. Try to regenerate token again."
+msgstr ""
+"Данните за профила за поддръжка не могат да се получат. Опитайте отново да "
+"генерирате токена."
+
+#: components/SupportCenter.php:2206
+msgid "Token has been deleted successfully."
+msgstr "Знакът е изтрит успешно."
+
+#: components/SupportCenter.php:2208
+msgid "Token has been deleted successfully. "
+msgstr "Знакът е изтрит успешно."
+
+#: components/SupportCenter.php:2357
+msgid "ET Support User role has been activated."
+msgstr "Поддръжката на ЕТ Потребителската роля е активирана."
+
+#: components/SupportCenter.php:2368
+msgid "ET Support User role has been elevated."
+msgstr "Поддръжката на ЕТ Потребителската роля е повишена."
+
+#: components/SupportCenter.php:2377
+msgid "ET Support User role has been deactivated."
+msgstr "Ролята за поддръжка на ET е деактивирана."
+
+#: components/SupportCenter.php:2450
+msgid "ET Safe Mode has been activated."
+msgstr "ET Safe Mode е активиран."
+
+#: components/SupportCenter.php:2454
+msgid "ET Safe Mode has been deactivated."
+msgstr "ET Safe Mode е деактивиран."
+
+#: components/SupportCenter.php:2549
+msgid "Safe Mode is enabled and the current action cannot be performed."
+msgstr "Безопасният режим е активиран и текущото действие не може да бъде изпълнено."
+
+#: components/SupportCenter.php:2659
+msgid "Show Full Report"
+msgstr "Покажи пълния отчет"
+
+#: components/SupportCenter.php:2660
+msgid "Hide Full Report"
+msgstr "Скриване на пълен отчет"
+
+#: components/SupportCenter.php:2661
+msgid "Copy Full Report"
+msgstr "Копиране на пълен отчет"
+
+#: components/SupportCenter.php:2684
+msgid "Elegant Themes Support"
+msgstr "Поддръжка на елегантни теми"
+
+#: components/SupportCenter.php:2685
+msgid ""
+"<p>Enabling <strong>Remote Access</strong> will give the Elegant Themes support "
+"team limited access to your WordPress Dashboard. If requested, you can also "
+"enable full admin privileges. Remote Access should only be turned on if requested "
+"by the Elegant Themes support team. Remote Access is automatically disabled after "
+"4 days.</p>"
+msgstr ""
+"<p> Активирането на <strong>отдалечения достъп</strong> ще даде на екипа за "
+"поддръжка на Elegant Themes ограничен достъп до таблото за управление на "
+"WordPress. Ако бъде поискано, можете също да разрешите пълни администраторски "
+"привилегии. Отдалеченият достъп трябва да се включва само при поискване от екипа "
+"за поддръжка на елегантни теми. Отдалеченият достъп автоматично се деактивира "
+"след 4 дни. </p>"
+
+#: components/SupportCenter.php:2698
+msgid ""
+"Remote Access cannot be enabled because you do not have a valid API Key or your "
+"Elegant Themes subscription has expired. You can find your API Key by <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">logging in</a> to your Elegant Themes account. It should then "
+"be added to your <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Options Panel</a>."
+msgstr ""
+"Отдалеченият достъп не може да бъде активиран, защото нямате валиден ключ за "
+"приложния програмен интерфейс (API) или абонаментът ви за елегантни теми е "
+"изтекъл. Можете да намерите своя API ключ, като <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">влезете в</a> профила си в елегантни теми. След това трябва да "
+"се добави към <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">панела</a> с <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">опции</a> ."
+
+#: components/SupportCenter.php:2737 components/SupportCenter.php:2760
+#: components/SupportCenter.php:2912
+msgid "Enabled"
+msgstr "Enabled"
+
+#: components/SupportCenter.php:2738 components/SupportCenter.php:2761
+#: components/SupportCenter.php:2913
+msgid "Disabled"
+msgstr "хора с увреждания"
+
+#: components/SupportCenter.php:2740
+msgid "Remote Access will be automatically disabled in: "
+msgstr "Отдалеченият достъп автоматично ще бъде деактивиран в:"
+
+#: components/SupportCenter.php:2758
+msgid "Activate Full Admin Privileges"
+msgstr "Активиране на пълни администраторски права"
+
+#: components/SupportCenter.php:2776
+msgid "Copy Support Token"
+msgstr "Копирай маркера за поддръжка"
+
+#: components/SupportCenter.php:2782
+msgid "Chat With Support"
+msgstr "Чат с поддръжка"
+
+#: components/SupportCenter.php:2862
+msgid ""
+"<p>Enabling <strong>Safe Mode</strong> will temporarily disable features and "
+"plugins that may be causing problems with your Elegant Themes product. This "
+"includes all Plugins, Child Themes, and Custom Code added to your integration "
+"areas. These items are only disabled for your current user session so your "
+"visitors will not be disrupted. Enabling Safe Mode makes it easy to figure out "
+"what is causing problems on your website by identifying or eliminating third "
+"party plugins and code as potential causes.</p>"
+msgstr ""
+"<p> Активирането на <strong>безопасен режим</strong> временно ще деактивира "
+"функции и приставки, които може да причиняват проблеми с вашия продукт Elegant "
+"Themes. Това включва всички добавки, детски теми и персонализиран код, добавени "
+"към областите ви за интеграция. Тези елементи са деактивирани само за текущата ви "
+"потребителска сесия, така че посетителите ви няма да бъдат прекъснати. "
+"Разрешаването на безопасен режим улеснява намирането на това, което причинява "
+"проблеми на уебсайта Ви, като идентифицира или елиминира приставки и код на трети "
+"страни като потенциални причини. </p>"
+
+#: components/SupportCenter.php:2889
+msgid ""
+"<p class=\"et-safe-mode-error\">Plugins cannot be disabled because your "
+"<code>wp-content</code> directory has inconsistent file permissions. <a "
+"href=\"%1$s\" target=\"_blank\">Click here</a> for more information.</p>"
+msgstr ""
+"<p class=\"et-safe-mode-error\"> Приставките не могат да бъдат деактивирани, "
+"защото вашата директория <code>wp-content</code> има несъвместими разрешения за "
+"файлове. <a href=\"%1$s\" target=\"_blank\">Кликнете тук</a> за повече "
+"информация.</p>"
+
+#: components/SupportCenter.php:2894
+msgid "The following plugins will be temporarily disabled for you only:"
+msgstr "Следните приставки ще бъдат временно деактивирани само за вас:"
+
+#: components/SupportCenter.php:2957
+msgid "Download Full Debug Log"
+msgstr "Изтеглете пълен Debug Log"
+
+#: components/SupportCenter.php:2961
+msgid "Copy Recent Log Entries"
+msgstr "Копиране на последните записи в дневника"
+
+#: components/Updates.php:25
+msgid "%s: You cannot create a second instance of this class."
+msgstr "%s: Не може да създадете второ копие на този клас."
+
+#: components/Updates.php:425 components/VersionRollback.php:402
+msgid ""
+"<em>Before you can receive product updates, you must first authenticate your "
+"Elegant Themes subscription. To do this, you need to enter both your Elegant "
+"Themes Username and your Elegant Themes API Key into the Updates Tab in your "
+"theme and plugin settings. To locate your API Key, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> to your Elegant Themes account and navigate to the <strong>Account > API "
+"Key</strong> page. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Learn more here</a></em>. If you still get this message, please "
+"make sure that your Username and API Key have been entered correctly"
+msgstr ""
+"<em>Преди да можете да получавате актуализации на продукта, първо трябва да "
+"удостоверите вашия абонамент за Elegant Themes. За да направите това, трябва да "
+"въведете вашето потребителско име и API ключ за Elegant Themes в раздела "
+"„Актуализации“ в настройките на темата и приставката. За да намерите вашия API "
+"ключ, <a href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">влезте</a> във вашия профил в Elegant Themes и отидете до "
+"страницата <strong>Профил > API ключ</strong>. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Научете повече тук</a></em>. Ако все още получавате това "
+"съобщение, уверете се, че вашето потребителско име и API ключ са въведени "
+"правилно."
+
+#: components/Updates.php:427
+msgid ""
+"Automatic updates currently unavailable. For all Elegant Themes products, please "
+"<a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">authenticate your subscription</a> via the Updates tab in your "
+"theme & plugin settings to enable product updates. Make sure that your Username "
+"and API Key have been entered correctly."
+msgstr ""
+"Автоматичните актуализации не са достъпни в момента. За всички продукти Elegant "
+"Themes, моля <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">удостоверете абонамента си</a> чрез раздела „Актуализации“ в "
+"настройките за темата и приставките, за да активирате актуализации на продукта. "
+"Уверете се, че вашето потребителско име и API ключ са въведени правилно."
+
+#: components/Updates.php:451
+msgid ""
+"Your Elegant Themes subscription has expired. You must <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">renew your "
+"account</a> to regain access to product updates and support. To ensure "
+"compatibility and security, it is important to always keep your themes and "
+"plugins updated."
+msgstr ""
+"Вашият абонамент за Elegant Themes изтече. Трябва да <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">подновите "
+"профила си</a>, за да възстановите достъпа до актуализации и поддръжка на "
+"продукта. За гарантиране на съвместимост и сигурност, е важно винаги да "
+"актуализирате темите и приставките си."
+
+#: components/VersionRollback.php:96 components/VersionRollback.php:303
+#: components/api/ElegantThemes.php:107 components/api/ElegantThemes.php:226
+msgid "An unknown error has occurred. Please try again later."
+msgstr "Възникна грешка. Моля, опитайте отново по-късно."
+
+#: components/VersionRollback.php:205
+msgid "Security check failed. Please refresh and try again."
+msgstr "Процесът на експортиране неуспешен. Моля, обновете страницата и опитайте отново."
+
+#: components/VersionRollback.php:212
+msgid "You don't have sufficient permissions to access this page."
+msgstr "Нямате достатъчно разрешения за достъп до тази страница."
+
+#: components/VersionRollback.php:220 components/VersionRollback.php:546
+msgid ""
+"You're currently rolled back to <strong>Version %1$s</strong> from "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Понастоящем сте върнати към <strong>Версия %1$s</strong> от <strong>Версия "
+"%2$s</strong> ."
+
+#: components/VersionRollback.php:227 components/VersionRollback.php:555
+msgid ""
+"Update to the latest version to unlock the full power of %1$s. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Актуализирайте до последната версия, за да отключите пълната мощност на %1$s. <a "
+"href=\"%2$s\" target=\"_blank\">Научете повече тук</a> ."
+
+#: components/VersionRollback.php:248 components/api/ElegantThemes.php:218
+msgid ""
+"For privacy and security reasons, you cannot rollback to <strong>Version "
+"%1$s</strong>."
+msgstr ""
+"От съображения за поверителност и сигурност не можете да се върнете към "
+"<strong>Версия %1$s</strong> ."
+
+#: components/VersionRollback.php:254
+msgid "Learn more here."
+msgstr "Научете повече тук."
+
+#: components/VersionRollback.php:398 components/VersionRollback.php:446
+#: components/VersionRollback.php:485 components/VersionRollback.php:537
+msgid "Version Rollback"
+msgstr "Версия Rollback"
+
+#: components/VersionRollback.php:428 components/VersionRollback.php:516
+msgid "Rollback to the previous version"
+msgstr "Отмяна на предишната версия"
+
+#: components/VersionRollback.php:455 components/api/ElegantThemes.php:212
+msgid "The previously used version of %1$s does not support version rollback."
+msgstr "Използваната преди това версия на %1$s не поддържа възстановяване на версията."
+
+#: components/VersionRollback.php:494
+msgid ""
+"You'll be rolled back to <strong>Version %1$s</strong> from the current "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Ще се върнете към <strong>Версия %1$s</strong> от текущата <strong>Версия "
+"%2$s</strong> ."
+
+#: components/VersionRollback.php:503
+msgid ""
+"Rolling back will reinstall the previous version of %1$s. You will be able to "
+"update to the latest version at any time. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Връщането ще преинсталира предишната версия на %1$s. Ще можете да актуализирате "
+"най-новата версия по всяко време. <a href=\"%2$s\" target=\"_blank\">Научете "
+"повече тук</a> ."
+
+#: components/VersionRollback.php:511
+msgid "Make sure you have a full site backup before proceeding."
+msgstr "Уверете се, че имате пълно архивиране на сайта, преди да продължите."
+
+#: components/VersionRollback.php:563
+msgid "Update to the Latest Version"
+msgstr "Актуализирайте до последната версия"
+
+#: components/api/ElegantThemes.php:116
+msgid "Invalid Username and/or API Key provided."
+msgstr "Не е предоставен валиден URL адрес."
+
+#: components/api/ElegantThemes.php:206
+msgid ""
+"An unexpected response was received from the version server. Please try again "
+"later."
+msgstr ""
+"Получен е неочакван отговор от сървъра на версията. Моля, опитайте отново "
+"по-късно."
+
+#: components/api/Service.php:238
+msgid "API request failed, please try again."
+msgstr "Заявката за API не бе успешна, моля опитайте отново."
+
+#: components/api/Service.php:239
+msgid "API request failed. API Key is required."
+msgstr "Заявката за API не бе успешна. Необходим е API ключ."
+
+#: components/api/email/ActiveCampaign.php:106
+#: components/api/email/CampaignMonitor.php:163
+#: components/api/email/ConstantContact.php:143
+#: components/api/email/ConvertKit.php:146
+#: components/api/email/Feedblitz.php:80
+#: components/api/email/GetResponse.php:100
+#: components/api/email/HubSpot.php:138
+#: components/api/email/Infusionsoft.php:250
+#: components/api/email/MadMimi.php:100 components/api/email/MailChimp.php:218
+#: components/api/email/MailerLite.php:93
+#: components/api/email/Ontraport.php:172
+#: components/api/email/SendinBlue.php:96
+msgid "API Key"
+msgstr "API ключ"
+
+#: components/api/email/ActiveCampaign.php:109
+msgid "API URL"
+msgstr "API адрес"
+
+#: components/api/email/ActiveCampaign.php:113
+msgid "Form ID"
+msgstr "ИД на формуляр"
+
+#: components/api/email/Aweber.php:164
+msgid "Authorization Code"
+msgstr "Удостоверяващ код"
+
+#: components/api/email/ConstantContact.php:146
+msgid "Access Token"
+msgstr "Жетон за достъп"
+
+#: components/api/email/ConvertKit.php:149
+msgid "API Secret"
+msgstr "API тайна"
+
+#: components/api/email/Emma.php:87
+msgid "Public API Key"
+msgstr "Публичен API ключ"
+
+#: components/api/email/Emma.php:90
+msgid "Private API Key"
+msgstr "Частен API ключ"
+
+#: components/api/email/Emma.php:93
+msgid "Account ID"
+msgstr "ИД на профил"
+
+#: components/api/email/Fields.php:30
+msgid "Use Custom Fields"
+msgstr "Използвайте персонализирани полета"
+
+#: components/api/email/Fields.php:33 components/api/email/Fields.php:255
+#: components/api/email/Fields.php:267 components/api/email/Fields.php:284
+#: components/api/email/Fields.php:315
+msgid "Yes"
+msgstr "да"
+
+#: components/api/email/Fields.php:34 components/api/email/Fields.php:256
+#: components/api/email/Fields.php:268 components/api/email/Fields.php:285
+#: components/api/email/Fields.php:316
+msgid "No"
+msgstr "Не"
+
+#: components/api/email/Fields.php:41
+msgid "Enable this option to use custom fields in your opt-in form."
+msgstr ""
+"Активирайте тази опция, за да използвате персонализирани полета във формуляра за "
+"включване."
+
+#: components/api/email/Fields.php:75
+msgid "Link URL"
+msgstr "URL адрес на връзката"
+
+#: components/api/email/Fields.php:76
+msgid "Link Text"
+msgstr "Текст на връзката"
+
+#: components/api/email/Fields.php:77
+msgid "Discard Changes"
+msgstr "Отхвърлите промените"
+
+#: components/api/email/Fields.php:78
+msgid "Save Changes"
+msgstr "Запазите промените"
+
+#: components/api/email/Fields.php:79
+msgid "Option Link"
+msgstr "Опция за връзка"
+
+#: components/api/email/Fields.php:88
+msgid "ID"
+msgstr "документ за самоличност"
+
+#: components/api/email/Fields.php:91
+msgid ""
+"Define a unique ID for this field. You should use only English characters without "
+"special characters or spaces."
+msgstr ""
+"Определете уникален идентификатор за това поле. Трябва да използвате само "
+"английски символи без специални знаци или интервали."
+
+#: components/api/email/Fields.php:98
+msgid "Name"
+msgstr "име"
+
+#: components/api/email/Fields.php:100
+msgid "Set the label that will appear above this field in the opt-in form."
+msgstr "Задайте етикета, който ще се показва над това поле в формуляра за включване."
+
+#: components/api/email/Fields.php:110
+msgid "Type"
+msgstr "Тип"
+
+#: components/api/email/Fields.php:115
+msgid "Choose a field type..."
+msgstr "Изберете тип поле ..."
+
+#: components/api/email/Fields.php:116
+msgid "Input Field"
+msgstr "Поле за въвеждане"
+
+#: components/api/email/Fields.php:117
+msgid "Email Field"
+msgstr "Поле за имейл"
+
+#: components/api/email/Fields.php:118
+msgid "Textarea"
+msgstr "текстово поле"
+
+#: components/api/email/Fields.php:119
+msgid "Checkboxes"
+msgstr "Полета за отметка"
+
+#: components/api/email/Fields.php:120
+msgid "Radio Buttons"
+msgstr "Радио бутони"
+
+#: components/api/email/Fields.php:121
+msgid "Select Dropdown"
+msgstr "Изберете падащото меню"
+
+#: components/api/email/Fields.php:123
+msgid "Choose the type of field"
+msgstr "Изберете типа поле"
+
+#: components/api/email/Fields.php:133
+msgid "Checked By Default"
+msgstr "Проверено по подразбиране"
+
+#: components/api/email/Fields.php:134
+msgid ""
+"If enabled, the check mark will be automatically selected for the visitor. They "
+"can still deselect it."
+msgstr ""
+"Ако е активирана, отметката ще бъде автоматично избрана за посетителя. Те все още "
+"могат да го премахнат."
+
+#: components/api/email/Fields.php:144 components/api/email/Fields.php:163
+#: components/api/email/Fields.php:182
+msgid "Options"
+msgstr "Настроики"
+
+#: components/api/email/Fields.php:199
+msgid "Minimum Length"
+msgstr "Минимална дължина"
+
+#: components/api/email/Fields.php:200 components/api/email/Fields.php:217
+msgid "Leave at 0 to remove restriction"
+msgstr "Оставете на 0, за да премахнете ограничението"
+
+#: components/api/email/Fields.php:216
+msgid "Maximum Length"
+msgstr "Максимална дължина"
+
+#: components/api/email/Fields.php:233
+msgid "Allowed Symbols"
+msgstr "Разрешени символи"
+
+#: components/api/email/Fields.php:234
+msgid ""
+"You can validate certain types of information by disallowing certain symbols. "
+"Symbols added here will prevent the form from being submitted if added by the "
+"user."
+msgstr ""
+"Можете да проверите определени типове информация, като забраните някои символи. "
+"Добавените тук символи ще попречат на подаването на формуляра, ако се добави от "
+"потребителя."
+
+#: components/api/email/Fields.php:238 components/api/email/Fields.php:326
+msgid "All"
+msgstr "всичко"
+
+#: components/api/email/Fields.php:239
+msgid "Letters Only (A-Z)"
+msgstr "Само букви (AZ)"
+
+#: components/api/email/Fields.php:240
+msgid "Numbers Only (0-9)"
+msgstr "Само номера (0-9)"
+
+#: components/api/email/Fields.php:241
+msgid "Alphanumeric Only (A-Z, 0-9)"
+msgstr "Само буквено-цифров (AZ, 0-9)"
+
+#: components/api/email/Fields.php:250
+msgid "Required Field"
+msgstr "Задължително поле"
+
+#: components/api/email/Fields.php:258
+msgid "Define whether the field should be required or optional"
+msgstr "Определете дали полето трябва да е задължително или задължително"
+
+#: components/api/email/Fields.php:262
+msgid "Hidden Field"
+msgstr "Скрито поле"
+
+#: components/api/email/Fields.php:270
+msgid "Define whether or not the field should be visible."
+msgstr "Определете дали полето трябва да е видимо или не."
+
+#: components/api/email/Fields.php:280
+msgid "Make Fullwidth"
+msgstr "Направете пълна ширина"
+
+#: components/api/email/Fields.php:289
+msgid ""
+"If enabled, the field will take 100% of the width of the form, otherwise it will "
+"take 50%"
+msgstr ""
+"Ако е активирано, полето ще отнеме 100% от ширината на формуляра, в противен "
+"случай ще отнеме 50%"
+
+#: components/api/email/Fields.php:302
+msgid "Field Background Color"
+msgstr "Цвят на фона на полето"
+
+#: components/api/email/Fields.php:303
+msgid "Pick a color to fill the module's input fields."
+msgstr "Изберете цвят за попълване на полетата за въвеждане на модула."
+
+#: components/api/email/Fields.php:310
+msgid "Enable"
+msgstr "Активиране"
+
+#: components/api/email/Fields.php:318
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of the "
+"rules below are fulfilled<br><strong>Note:</strong> Only fields with an unique "
+"and non-empty field ID can be used"
+msgstr ""
+"Активирането на условната логика прави това поле видимо само когато някое или "
+"всички правила по-долу са изпълнени <br> <strong>Забележка:</strong> Могат да се "
+"използват само полета с уникален и непразен поле ID"
+
+#: components/api/email/Fields.php:322
+msgid "Relation"
+msgstr "връзка"
+
+#: components/api/email/Fields.php:327
+msgid "Any"
+msgstr "който и да е"
+
+#: components/api/email/Fields.php:333
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr "Изберете дали някои или всички правила трябва да бъдат изпълнени"
+
+#: components/api/email/Fields.php:340
+msgid "Rules"
+msgstr "правилник"
+
+#: components/api/email/Fields.php:341
+msgid ""
+"Conditional logic rules can be used to hide and display different input fields "
+"conditionally based on how the visitor has interacted with different inputs."
+msgstr ""
+"Условните логически правила могат да се използват за скриване и показване на "
+"различни полета за въвеждане условно въз основа на това как посетителят е "
+"взаимодействал с различни входове."
+
+#: components/api/email/Fields.php:383
+msgid "Choose a field..."
+msgstr "Изберете поле ..."
+
+#: components/api/email/Fields.php:391
+msgid "Field"
+msgstr "поле"
+
+#: components/api/email/Fields.php:398
+msgid ""
+"Choose a custom field. Custom fields must be defined in your email provider "
+"account."
+msgstr ""
+"Изберете персонализирано поле. Персонализираните полета трябва да бъдат "
+"дефинирани в профила ви на доставчика на електронна поща."
+
+#: components/api/email/Infusionsoft.php:253
+msgid "App Name"
+msgstr "Име на приложението"
+
+#: components/api/email/Infusionsoft.php:366
+msgid ""
+"Successfully authorized. Subscribers count will be updated in background, please "
+"check back in %1$s %2$s"
+msgstr ""
+"Успешно удостоверяване. Броят на абонатите ще се актуализира във фонов режим, "
+"моля проверете отново след %1$s %2$s"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minute"
+msgstr "минута"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minutes"
+msgstr "минути"
+
+#: components/api/email/Infusionsoft.php:396
+msgid "Already subscribed"
+msgstr "Вече сте абонирани"
+
+#: components/api/email/MadMimi.php:97 components/api/email/iContact.php:184
+msgid "Username"
+msgstr "Потребител"
+
+#: components/api/email/MailChimp.php:293
+msgid "An error occurred, please try later."
+msgstr "Възникна грешка. Моля, опитайте отново по-късно."
+
+#: components/api/email/MailChimp.php:325
+msgid "You have signed up to a lot of lists very recently, please try again later"
+msgstr ""
+"В последно време сте се регистрирали в много списъци, моля опитайте отново "
+"по-късно"
+
+#: components/api/email/MailPoet.php:38 components/api/email/_MailPoet2.php:28
+#: components/api/email/_MailPoet3.php:33
+msgid "MailPoet plugin is either not installed or not activated."
+msgstr "Приставката за MailPoet или не е инсталирана или не е активирана."
+
+#: components/api/email/Mailster.php:53
+msgid "Opt-in"
+msgstr "Включване"
+
+#: components/api/email/Mailster.php:117
+msgid "Mailster Newsletter Plugin is not enabled!"
+msgstr "Приставката Mailster Newsletter не е активирана!"
+
+#: components/api/email/Mailster.php:121
+msgid "No lists were found. Please create a Mailster list first!"
+msgstr "Не са намерени списъци. Моля, първо създайте списък с Mailster!"
+
+#: components/api/email/Mailster.php:137 components/api/email/_MailPoet2.php:97
+#: components/api/email/_MailPoet3.php:148
+msgid "An error occurred. Please try again later."
+msgstr "Възникна грешка. Моля, опитайте отново по-късно."
+
+#: components/api/email/Ontraport.php:175
+msgid "APP ID"
+msgstr "APP ID"
+
+#: components/api/email/Provider.php:102
+msgid "Subscribed via"
+msgstr "Абониран чрез"
+
+#: components/api/email/SalesForce.php:144
+msgid "Instance URL"
+msgstr "URL адрес на инстанция"
+
+#: components/api/email/SalesForce.php:149
+msgid "Consumer Key"
+msgstr "Потребителски ключ"
+
+#: components/api/email/SalesForce.php:154
+msgid "Consumer Secret"
+msgstr "Потребителска тайна"
+
+#: components/api/email/SalesForce.php:161
+msgid "Organization ID"
+msgstr "ИД на организация"
+
+#: components/api/email/SalesForce.php:186
+msgid "Organization ID cannot be empty"
+msgstr "ИД на организация не може да бъде празно"
+
+#: components/api/email/SalesForce.php:256
+#: components/api/email/SalesForce.php:343
+msgid "An error occurred. Please try again."
+msgstr "Възникна грешка. Моля, опитайте отново по-късно."
+
+#: components/api/email/SalesForce.php:307
+msgid "Unknown Organization ID"
+msgstr "Неизвестен ИД на организация"
+
+#: components/api/email/_MailPoet2.php:144
+msgid "Already Subscribed"
+msgstr "Вече сте абонирани"
+
+#: components/api/email/iContact.php:181
+msgid "App ID"
+msgstr "Идентификационен номер на приложението"
+
+#: components/api/email/iContact.php:187
+msgid "App Password"
+msgstr "Парола на приложението"
+
+#: components/api/email/init.php:51
+msgid "ERROR: Invalid arguments."
+msgstr "ГРЕШКА: Невалидни аргументи."
+
+#: components/data/init.php:191
+msgid "Invalid attribute key"
+msgstr "Невалиден атрибутен ключ"
+
+#: components/data/init.php:258
+msgid "Invalid tag element"
+msgstr "Невалиден елемент на маркер"
+
+#: components/data/init.php:328
+msgid "This is not a valid excuse to not escape the passed value."
+msgstr "Това не е валидно извинение, за да не се избегне прехвърлената стойност."
+
+#: components/data/init.php:367
+msgid "This is not a valid excuse to not sanitize the passed value."
+msgstr "Това не е валидно извинение, за да не се дезинфектира приетата стойност."
+
+#: components/lib/WPHttp.php:192
+msgid "A valid URL was not provided."
+msgstr "Не е предоставен валиден URL адрес."
+
+#: components/lib/WPHttp.php:196
+msgid "User has blocked requests through HTTP."
+msgstr "Потребителят е блокирал заявките чрез HTTP."
+
+#: components/lib/WPHttp.php:209
+msgid "Destination directory for file streaming does not exist or is not writable."
+msgstr ""
+"Целевата директория за поточно предаване на файлове не съществува или не може да "
+"се пише в нея."
+
+#: functions.php:101
+msgid "Once Monthly"
+msgstr "Веднъж месечно"
+
+#: functions.php:113
+msgid "Configuration Error"
+msgstr "Грешка при конфигурирането"
+
+#: functions.php:522
+msgid "Got it, thanks!"
+msgstr "Разбрах, благодаря!"
+
+#: functions.php:1383
+msgid "Help"
+msgstr "Помогне"
+
+#: functions.php:212
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "за"

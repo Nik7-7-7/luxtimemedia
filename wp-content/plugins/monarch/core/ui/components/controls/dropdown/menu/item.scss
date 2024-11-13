@@ -1,0 +1,25 @@
+@import "../../../../scss/base";
+
+:export {
+  checkMarkColor: $check-mark;
+  checkMarkColorHovered: $white;
+}
+
+.et-core-control-menu {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+
+    &__content {
+      flex: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    &__check-mark {
+      line-height: 28px;
+      margin-left: 6px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+includes:
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+    - vendor/phpstan/phpstan-phpunit/extension.neon
+    - vendor/phpstan/phpstan-phpunit/rules.neon
+parameters:
+    checkGenericClassInNonGenericObjectType: false
+    checkMissingIterableValueType: false
+    ignoreErrors:
+        - message: '#Argument of an invalid type DateInterval supplied for foreach, only iterables are supported.#'
+          path: src/Duration.php
+        - message: '#Strict comparison using === between false and DateInterval will always evaluate to false.#'
+          path: src/Duration.php
+        - message: '#^Variable property access on (.*)?.#'
+          path: src/Duration.php
+        - message: '#Parameter \#1 ...\$intervals of class League\\Period\\Sequence constructor expects League\\Period\\Period, League\\Period\\Period\|null given.#'
+          path: src/Period.php
+        - message: '#Parameter \#2 \$endDate of class League\\Period\\Period constructor expects DateTimeInterface\|int\|string, DateTimeInterface\|null given.#'
+          path: src/Period.php
+        - message: '#Parameter \#1 \$year_or_datepoint of function League\\Period\\(.*) expects DateTimeInterface\|int\|string, array given.#'
+          path: src/FunctionTest.php
+        - message: '#Parameter \#1 \$datetime of class League\\Period\\Datepoint constructor expects string, int\|string given.#'
+          path: src/Datepoint.php
+        - message: '#Parameter \#1 \$datetime of class DateTimeImmutable constructor expects string, int\|string given.#'
+          path: src/Period.php
+        - message: '#Parameter \#(1|2) \$duration of function League\\Period\\(.*) expects DateInterval\|int\|string, array given.#'
+          path: src/FunctionTest.php
+        - message: '#Parameter \#1 \$datepoint of function League\\Period\\(.*) expects DateTimeInterface\|int\|string, array given.#'
+          path: src/FunctionTest.php
+        - message: '#Instanceof between League\\Period\\Sequence and League\\Period\\Sequence will always evaluate to true.#'
+          path: src/Chart/Dataset.php
+        - message: '#Only numeric types are allowed in post-increment, string given.#'
+          path: src/Chart/LatinLetter.php
+        - message: '#Variable method call on League\\Period.#'
+          path: src/DurationRelationTest.php
+        - message: '#Generator expects value type string, string\|false given.#'
+          path: src/Chart/ReverseLabel.php
+    reportUnmatchedIgnoredErrors: true

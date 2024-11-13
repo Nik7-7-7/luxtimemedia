@@ -1,0 +1,1393 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.elegantthemes.com/members-area/help/\n"
+"POT-Creation-Date: 2019-10-22 13:02:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elegant Themes\n"
+"Language-Team: Elegant Themes\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-Sourcecharset: UTF-8\n"
+"X-Poedit-Keywordslist: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__"
+";esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Searchpath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: components/Portability.php:1874
+msgid ""
+"The browser version you are currently using is outdated. Please update to the "
+"newest version."
+msgstr ""
+"Η έκδοση του προγράμματος περιήγησης που χρησιμοποιείτε αυτή τη στιγμή είναι "
+"ξεπερασμένη. Παρακαλούμε ενημερώσετε με την τελευταία έκδοση."
+
+#: components/Portability.php:1875
+msgid "You reached your server memory limit. Please try increasing your PHP memory limit."
+msgstr ""
+"Φτάσατε στο όριο μνήμης του διακομιστή σας. Παρακαλούμε δοκιμάστε να αυξήσετε το "
+"όριο μνήμης της PHP σας."
+
+#: components/Portability.php:1876
+msgid ""
+"This file cannot be imported. It may be caused by file_uploads being disabled in "
+"your php.ini. It may also be caused by post_max_size or/and upload_max_filesize "
+"being smaller than file selected. Please increase it or transfer more substantial "
+"data at the time."
+msgstr ""
+"Το αρχείο αυτό δεν μπορεί να εισαχθεί. Αυτό μπορεί να οφείλεται στο ότι το "
+"file_uploads είναι απενεργοποιημένο στο αρχείο σας php.ini. Μπορεί επίσης να να "
+"οφείλεται στο ότι το post_max_size ή/και το upload_max_filesize είναι μικρότερο "
+"από το επιλεγμένο αρχείο. Παρακαλείστε αυξήστε το ή μεταφέρετε πιο ουσιαστικά "
+"δεδομένα κάθε φορά."
+
+#: components/Portability.php:1877
+msgid "Invalid File format. You should be uploading a JSON file."
+msgstr "Μη έγκυρη μορφή αρχείου. Θα έπρεπε να ανεβάζετε ένα αρχείο JSON."
+
+#: components/Portability.php:1878
+msgid "This file should not be imported in this context."
+msgstr "Αυτό το αρχείο δεν πρέπει να εισάγεται σε αυτό το περιβάλλον."
+
+#: components/Portability.php:1879
+msgid ""
+"Please select at least one item to export or disable the \"Only export selected "
+"items\" option"
+msgstr ""
+"Επιλέξτε τουλάχιστον ένα στοιχείο για εξαγωγή ή απενεργοποίηση της επιλογής "
+"\"Εξαγωγή μόνο επιλεγμένων αντικειμένων μόνο\""
+
+#: components/Portability.php:1880
+msgid "Import estimated time remaining: %smin"
+msgstr "Εκτιμώμενος χρόνος εισαγωγής που απομένει: %sλεπ"
+
+#: components/Portability.php:1881
+msgid "Export estimated time remaining: %smin"
+msgstr "Εκτιμώμενος χρόνος εξαγωγής που απομένει: %sλεπ"
+
+#: components/Portability.php:1882
+msgid "Backup estimated time remaining: %smin"
+msgstr "Εκτιμώμενος χρόνος δημιουργίας αντιγράφου ασφαλείας που απομένει: %sλεπ"
+
+#: components/Portability.php:1905
+msgid "Portability"
+msgstr "Φορητότητα"
+
+#: components/Portability.php:1909
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: components/Portability.php:1910
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: components/Portability.php:1914
+msgid ""
+"Exporting your %s will create a JSON file that can be imported into a different "
+"website."
+msgstr ""
+"Η εξαγωγή του %s σας θα δημιουργήσει ένα αρχείο JSON το οποίο μπορεί να εισαχθεί "
+"σε μια διαφορετική ιστοσελίδα."
+
+#: components/Portability.php:1915
+msgid "Export File Name"
+msgstr "Όνομα Αρχείου Εξαγωγής"
+
+#: components/Portability.php:1920
+msgid "Only export selected items"
+msgstr "Εξάγετε μόνο τα επιλεγμένα στοιχεία"
+
+#: components/Portability.php:1924
+msgid "Export %s"
+msgstr "Εξάγετε το %s"
+
+#: components/Portability.php:1925
+msgid "Cancel Export"
+msgstr "Ακύρωση Εξαγωγής"
+
+#: components/Portability.php:1930
+msgid ""
+"Importing a previously-exported %s file will overwrite all content currently on "
+"this page."
+msgstr ""
+"Η εισαγωγή ενός προηγουμένως εξαχθέντος αρχείου %s θα αντικαταστήσει όλα τα "
+"τρέχοντα περιεχόμενα αυτής της σελίδας."
+
+#: components/Portability.php:1932
+msgid ""
+"Select a previously-exported Divi Builder Layouts file to begin importing items. "
+"Large collections of image-heavy exports may take several minutes to upload."
+msgstr ""
+"Επιλέξτε ένα προηγουμένως εξαχθέν αρχείο Builder Layouts για να ξεκινήσετε την "
+"εισαγωγή στοιχείων. Μεγάλες συλλογές εξαγωγών με πολλές εικόνες μπορεί να "
+"χρειαστούν αρκετά λεπτά για να φορτωθούν."
+
+#: components/Portability.php:1934
+msgid ""
+"Importing a previously-exported %s file will overwrite all current data. Please "
+"proceed with caution!"
+msgstr ""
+"Η εισαγωγή ενός προηγουμένως εξαχθέντος αρχείου %s θα αντικαταστήσει όλα τα "
+"τρέχοντα περιεχόμενα. Παρακαλούμε προχωρήστε με προσοχή!"
+
+#: components/Portability.php:1936
+msgid "Select File To Import"
+msgstr "Επιλέξτε Αρχείο Προς Εισαγωγή"
+
+#: components/Portability.php:1938
+msgid "No File Selected"
+msgstr "Δεν Επιλέχθηκε Αρχείο"
+
+#: components/Portability.php:1939
+msgid "Choose File"
+msgstr "Επιλέξτε Αρχείο"
+
+#: components/Portability.php:1943
+msgid "Download backup before importing"
+msgstr "Κατεβάστε αντίγραφο ασφαλείας πριν την εισαγωγή"
+
+#: components/Portability.php:1946
+msgid "Apply Layout's Defaults To This Website"
+msgstr "Εφαρμόστε τις προεπιλογές διάταξης σε αυτόν τον ιστότοπο"
+
+#: components/Portability.php:1950
+msgid "Import %s"
+msgstr "Εισάγετε %s"
+
+#: components/Portability.php:1951
+msgid "Cancel Import"
+msgstr "Ακύρωση Εισαγωγής"
+
+#: components/Portability.php:2053
+msgid "Import & Export"
+msgstr "Εισαγωγή & Εξαγωγή"
+
+#: components/Portability.php:2195
+msgid "The export process failed. Please refresh the page and try again."
+msgstr "Η διαδικασία εξαγωγής απέτυχε. Παρακαλούμε ανανεώστε τη σελίδα και δοκιμάστε πάλι."
+
+#: components/SupportCenter.php:565 components/SupportCenter.php:1593
+msgid "Support Center"
+msgstr "Κέντρο υποστήριξης"
+
+#: components/SupportCenter.php:577
+msgid "Monarch Support Center"
+msgstr "Κέντρο υποστήριξης μονάρχης"
+
+#: components/SupportCenter.php:756
+msgid "A Basic Overview Of Extra"
+msgstr "Μια βασική επισκόπηση των επιπλέον"
+
+#: components/SupportCenter.php:760 components/SupportCenter.php:777
+msgid "Using Premade Layout Packs"
+msgstr "Χρησιμοποιώντας πακέτα διάταξης προετοιμασίας"
+
+#: components/SupportCenter.php:764
+msgid "Creating Category Layouts"
+msgstr "Δημιουργία διάταξης κατηγορίας"
+
+#: components/SupportCenter.php:773 components/SupportCenter.php:886
+#: components/SupportCenter.php:910 components/SupportCenter.php:946
+msgid "Getting Started With The Divi Builder"
+msgstr "Ξεκινώντας με το Builder Divi"
+
+#: components/SupportCenter.php:781
+msgid "The Divi Library"
+msgstr "Η βιβλιοθήκη Divi"
+
+#: components/SupportCenter.php:789 components/SupportCenter.php:982
+msgid "A Basic Overview Of The Bloom Plugin"
+msgstr "Βασική επισκόπηση της προσθήκης του Bloom"
+
+#: components/SupportCenter.php:793
+msgid "How To Update The Bloom Plugin"
+msgstr "Πώς να ενημερώσετε την προσθήκη Bloom"
+
+#: components/SupportCenter.php:797
+msgid "How To Add Mailing List Accounts"
+msgstr "Πώς να προσθέσετε λογαριασμούς αλληλογραφίας"
+
+#: components/SupportCenter.php:805
+msgid "A Complete Overviw Of Monarch"
+msgstr "Μια ολοκληρωμένη επισκόπηση του μονάρχη"
+
+#: components/SupportCenter.php:809
+msgid "Adding Social Networks"
+msgstr "Προσθήκη κοινωνικών δικτύων"
+
+#: components/SupportCenter.php:813
+msgid "Configuring Social Follower APIs"
+msgstr "Ρύθμιση API κοινωνικών ακολουθών"
+
+#: components/SupportCenter.php:874
+msgid "Getting Started With Extra"
+msgstr "Ξεκινώντας με έξτρα"
+
+#: components/SupportCenter.php:878
+msgid "Setting Up The Extra Theme Options"
+msgstr "Ρύθμιση των πρόσθετων επιλογών θεμάτων"
+
+#: components/SupportCenter.php:882
+msgid "The Extra Category Builder"
+msgstr "Ο πρόσθετος κατασκευαστής κατηγοριών"
+
+#: components/SupportCenter.php:890
+msgid "How To Update The Extra Theme"
+msgstr "Πώς να ενημερώσετε το επιπλέον θέμα"
+
+#: components/SupportCenter.php:894 components/SupportCenter.php:918
+#: components/SupportCenter.php:954
+msgid "An Overview Of All Divi Modules"
+msgstr "Μια επισκόπηση όλων των μονάδων Divi"
+
+#: components/SupportCenter.php:898 components/SupportCenter.php:930
+#: components/SupportCenter.php:966
+msgid "Getting Started With Layout Packs"
+msgstr "Ξεκινώντας με πακέτα διάταξης"
+
+#: components/SupportCenter.php:902 components/SupportCenter.php:934
+msgid "Customizing Your Header And Navigation"
+msgstr "Προσαρμογή της κεφαλίδας σας και πλοήγηση"
+
+#: components/SupportCenter.php:914
+msgid "How To Update The Divi Theme"
+msgstr "Πώς να ενημερώσετε το θέμα Divi"
+
+#: components/SupportCenter.php:922 components/SupportCenter.php:958
+msgid "Using The Divi Library"
+msgstr "Χρησιμοποιώντας τη Βιβλιοθήκη Divi"
+
+#: components/SupportCenter.php:926
+msgid "Setting Up The Divi Theme Options"
+msgstr "Ρύθμιση των επιλογών θέματος Divi"
+
+#: components/SupportCenter.php:938 components/SupportCenter.php:974
+msgid "Divi For Developers"
+msgstr "Divi Για προγραμματιστές"
+
+#: components/SupportCenter.php:950
+msgid "How To Update The Divi Builder"
+msgstr "Πώς να ενημερώσετε το Divi Builder"
+
+#: components/SupportCenter.php:962
+msgid "Selling Products With Divi And WooCommerce"
+msgstr "Πώληση προϊόντων με Divi και WooCommerce"
+
+#: components/SupportCenter.php:970
+msgid "Importing And Exporting Divi Layouts"
+msgstr "Εισαγωγή και εξαγωγή διάταξης Divi"
+
+#: components/SupportCenter.php:986
+msgid "How To Update Your Bloom Plugin"
+msgstr "Πώς να ενημερώσετε το plugin σας Bloom"
+
+#: components/SupportCenter.php:990
+msgid "Adding Email Accounts In Bloom"
+msgstr "Προσθήκη λογαριασμών ηλεκτρονικού ταχυδρομείου σε Bloom"
+
+#: components/SupportCenter.php:994
+msgid "Customizing Your Opt-in Designs"
+msgstr "Προσαρμογή των Σχεδίων Συμμετοχής σας"
+
+#: components/SupportCenter.php:998
+msgid "The Different Bloom Opt-in Types"
+msgstr "Οι διαφορετικοί τύποι συμμετοχής Bloom"
+
+#: components/SupportCenter.php:1002
+msgid "Using The Bloom Display Settings"
+msgstr "Χρησιμοποιώντας τις ρυθμίσεις εμφάνισης Bloom"
+
+#: components/SupportCenter.php:1006
+msgid "How To Use Triggers In Bloom"
+msgstr "Πώς να χρησιμοποιήσετε τα Triggers In Bloom"
+
+#: components/SupportCenter.php:1010
+msgid "Adding Custom Fields To Bloom Opt-in Forms"
+msgstr "Προσθήκη προσαρμοσμένων πεδίων για την εμφάνιση εντύπων συμμετοχής"
+
+#: components/SupportCenter.php:1018
+msgid "A Complete Overview Of The Monarch Plugin"
+msgstr "Μια πλήρης επισκόπηση της προσθήκης μονάρχης"
+
+#: components/SupportCenter.php:1022
+msgid "How To Update Your Monarch WordPress Plugin"
+msgstr "Πώς να ενημερώσετε το μονάρχικό WordPress Plugin σας"
+
+#: components/SupportCenter.php:1026
+msgid "Adding and Managing Social Networks"
+msgstr "Προσθήκη και διαχείριση των κοινωνικών δικτύων"
+
+#: components/SupportCenter.php:1030
+msgid "Configuring Social Network APIs"
+msgstr "Ρύθμιση API κοινωνικών δικτύων"
+
+#: components/SupportCenter.php:1034
+msgid "Customizing The Monarch Design"
+msgstr "Προσαρμογή του σχεδιασμού του μονάρχη"
+
+#: components/SupportCenter.php:1038
+msgid "Viewing Your Social Stats"
+msgstr "Προβολή των κοινωνικών σας στατιστικών"
+
+#: components/SupportCenter.php:1042
+msgid "Using The Floating Sidebar"
+msgstr "Χρησιμοποιώντας την κυμαινόμενη πλευρική γραμμή"
+
+#: components/SupportCenter.php:1046
+msgid "Using Popup & Flyin Triggers"
+msgstr "Χρήση ενεργοποιήσεων αναδυόμενων παραθύρων και πτερυγίων"
+
+#: components/SupportCenter.php:1129
+msgid "Divi Support Center :: WordPress debug log cannot be read."
+msgstr ""
+"Κέντρο υποστήριξης Divi :: Δεν είναι δυνατή η ανάγνωση του αρχείου εντοπισμού "
+"σφαλμάτων του WordPress."
+
+#: components/SupportCenter.php:1137
+msgid "Divi Support Center :: WordPress debug.log is not configured."
+msgstr "Κέντρο υποστήριξης Divi :: Το WordPress debug.log δεν έχει ρυθμιστεί."
+
+#: components/SupportCenter.php:1158
+msgid "Divi Support Center :: WordPress debug log cannot be found."
+msgstr ""
+"Κέντρο υποστήριξης Divi :: Δεν είναι δυνατή η εύρεση του αρχείου εντοπισμού "
+"σφαλμάτων του WordPress."
+
+#: components/SupportCenter.php:1202
+msgid "Writable wp-content Directory"
+msgstr "Καταχωρημένος κατάλογος περιεχομένου wp"
+
+#: components/SupportCenter.php:1210
+msgid ""
+"We recommend that the wp-content directory on your server be writable by "
+"WordPress in order to ensure the full functionality of Divi Builder themes and "
+"plugins."
+msgstr ""
+"Σας συνιστούμε να γράψετε τον κατάλογο περιεχομένου wp στον διακομιστή σας από το "
+"WordPress για να διασφαλίσετε την πλήρη λειτουργικότητα των θεμάτων και των "
+"plugins του Divi Builder."
+
+#: components/SupportCenter.php:1214
+msgid "PHP Version"
+msgstr "Έκδοση PHP"
+
+#: components/SupportCenter.php:1222
+msgid ""
+"We recommend using the latest stable version of PHP. This will not only ensure "
+"compatibility with Divi, but it will also greatly speed up your website leading "
+"to less memory and CPU related issues."
+msgstr ""
+"Συνιστούμε να χρησιμοποιήσετε την πιο πρόσφατη σταθερή έκδοση της PHP. Αυτό όχι "
+"μόνο θα διασφαλίζει τη συμβατότητα με το Divi, αλλά και θα επιταχύνει σημαντικά "
+"τον ιστότοπό σας, οδηγώντας σε λιγότερα προβλήματα μνήμης και CPU."
+
+#: components/SupportCenter.php:1226
+msgid "memory_limit"
+msgstr "memory_limit"
+
+#: components/SupportCenter.php:1234
+msgid ""
+"By default, memory limits set by your host or by WordPress may be too low. This "
+"will lead to applications crashing as PHP reaches the artificial limit. You can "
+"adjust your memory limit within your <a href=\"%1$s\" target=\"_blank\">php.ini "
+"file</a>, or by contacting your host for assistance. You may also need to define "
+"a memory limited in <a href=\"%2$s\" target=_blank\">wp-config.php</a>."
+msgstr ""
+"Από προεπιλογή, τα όρια μνήμης που ορίζονται από τον κεντρικό υπολογιστή σας ή "
+"από το WordPress ενδέχεται να είναι πολύ χαμηλά. Αυτό θα οδηγήσει σε συρρίκνωση "
+"εφαρμογών καθώς η PHP φτάνει στο τεχνητό όριο. Μπορείτε να προσαρμόσετε το όριο "
+"μνήμης στο <a href=\"%1$s\" target=\"_blank\">αρχείο php.ini</a> ή επικοινωνώντας "
+"με τον κεντρικό υπολογιστή σας για βοήθεια. Μπορεί επίσης να χρειαστεί να ορίσετε "
+"μια μνήμη περιορισμένη στο <a href=\"%2$s\" target=_blank\">wp-config.php</a> ."
+
+#: components/SupportCenter.php:1238
+msgid "post_max_size"
+msgstr "post_max_size"
+
+#: components/SupportCenter.php:1246
+msgid ""
+"Post Max Size limits how large a page or file can be on your website. If your "
+"page is larger than the limit set in PHP, it will fail to load. Post sizes can "
+"become quite large when using the Divi Builder, so it is important to increase "
+"this limit. It also affects file size upload/download, which can prevent large "
+"layouts from being imported into the builder. You can adjust your max post size "
+"within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting "
+"your host for assistance."
+msgstr ""
+"Το Μέγιστο Μέγεθος περιορισμού περιορίζει πόσο μεγάλη είναι μια σελίδα ή ένα "
+"αρχείο στον ιστότοπό σας. Αν η σελίδα σας είναι μεγαλύτερη από το όριο που έχει "
+"οριστεί στην PHP, δεν θα φορτωθεί. Τα μεγέθη ταχυδρομείου μπορούν να γίνουν "
+"αρκετά μεγάλα όταν χρησιμοποιείτε το Divi Builder, οπότε είναι σημαντικό να "
+"αυξήσετε αυτό το όριο. Επίσης, επηρεάζει τη μεταφόρτωση / λήψη του μεγέθους "
+"αρχείου, η οποία μπορεί να αποτρέψει την εισαγωγή μεγάλων σχεδιαγραμμάτων στον "
+"οικοδόμο. Μπορείτε να προσαρμόσετε το μέγιστο μέγεθος ανάρτησής σας στο <a "
+"href=\"%1$s\" target=\"_blank\">αρχείο php.ini</a> ή επικοινωνώντας με τον "
+"οικοδεσπότη σας για βοήθεια."
+
+#: components/SupportCenter.php:1250
+msgid "max_execution_time"
+msgstr "max_execution_time"
+
+#: components/SupportCenter.php:1258
+msgid ""
+"Max Execution Time affects how long a page is allowed to load before it times "
+"out. If the limit is too low, you may not be able to import large layouts and "
+"files into the builder. You can adjust your max execution time within your <a "
+"href=\"%1$s\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Ο μέγιστος χρόνος εκτέλεσης επηρεάζει τον χρόνο που επιτρέπεται να φορτώνεται μια "
+"σελίδα προτού διαγραφεί. Εάν το όριο είναι πολύ χαμηλό, ενδέχεται να μην μπορείτε "
+"να εισαγάγετε μεγάλες διατάξεις και αρχεία στον οικοδόμο. Μπορείτε να ρυθμίσετε "
+"το μέγιστο χρόνο εκτέλεσης στο <a href=\"%1$s\">αρχείο php.ini</a> ή "
+"επικοινωνώντας με τον οικοδεσπότη για βοήθεια."
+
+#: components/SupportCenter.php:1262
+msgid "upload_max_filesize"
+msgstr "upload_max_filesize"
+
+#: components/SupportCenter.php:1270
+msgid ""
+"Upload Max File Size determines that maximum file size that you are allowed to "
+"upload to your server. If the limit is too low, you may not be able to import "
+"large collections of layouts into the Divi Library. You can adjust your max file "
+"size within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by "
+"contacting your host for assistance."
+msgstr ""
+"Το Upload Max File Size καθορίζει το μέγιστο μέγεθος αρχείου που επιτρέπεται να "
+"ανεβάσετε στο διακομιστή σας. Εάν το όριο είναι πολύ χαμηλό, ενδέχεται να μην "
+"μπορείτε να εισάγετε μεγάλες συλλογές σχεδιαγραμμάτων στη βιβλιοθήκη Divi. "
+"Μπορείτε να προσαρμόσετε το μέγιστο μέγεθος αρχείου στο <a href=\"%1$s\" "
+"target=\"_blank\">αρχείο php.ini</a> ή επικοινωνώντας με τον κεντρικό υπολογιστή "
+"σας για βοήθεια."
+
+#: components/SupportCenter.php:1274
+msgid "max_input_time"
+msgstr "max_input_time"
+
+#: components/SupportCenter.php:1282
+msgid ""
+"This sets the maximum time in seconds a script is allowed to parse input data. If "
+"the limit is too low, the Divi Builder may time out before it is allowed to load. "
+"You can adjust your max input time within your <a href=\"%1$s\" "
+"target=\"_blank\">php.ini file</a>, or by contacting your host for assistance."
+msgstr ""
+"Αυτός ορίζει τον μέγιστο χρόνο σε δευτερόλεπτα σε ένα σενάριο επιτρέπεται να "
+"αναλύει δεδομένα εισόδου. Αν το όριο είναι πολύ χαμηλό, ο Κατασκευαστής Divi "
+"μπορεί να διαρκέσει πριν επιτρέψει τη φόρτωσή του. Μπορείτε να προσαρμόσετε το "
+"μέγιστο χρόνο εισαγωγής στο <a href=\"%1$s\" target=\"_blank\">αρχείο php.ini</a> "
+"ή επικοινωνώντας με τον κεντρικό υπολογιστή σας για βοήθεια."
+
+#: components/SupportCenter.php:1286
+msgid "max_input_vars"
+msgstr "max_input_vars"
+
+#: components/SupportCenter.php:1294
+msgid ""
+"This setting affects how many input variables may be accepted. If the limit is "
+"too low, it may prevent the Divi Builder from loading. You can adjust your max "
+"input variables within your <a href=\"%1$s\" target=\"_blank\">php.ini file</a>, "
+"or by contacting your host for assistance."
+msgstr ""
+"Αυτή η ρύθμιση επηρεάζει πόσες μεταβλητές εισόδου μπορούν να γίνουν αποδεκτές. "
+"Εάν το όριο είναι πολύ χαμηλό, μπορεί να εμποδίσει τη φόρτωση του Divi Builder. "
+"Μπορείτε να προσαρμόσετε τις μέγιστες μεταβλητές εισόδου στο <a href=\"%1$s\" "
+"target=\"_blank\">αρχείο php.ini</a> ή επικοινωνώντας με τον κεντρικό υπολογιστή "
+"σας για βοήθεια."
+
+#: components/SupportCenter.php:1298
+msgid "display_errors"
+msgstr "display_errors"
+
+#: components/SupportCenter.php:1307
+msgid ""
+"This setting determines whether or not errors should be printed as part of the "
+"page output. This is a feature to support your site's development and should "
+"never be used on production sites. You can edit this setting within your <a "
+"href=\"%1$s\" target=\"_blank\">php.ini file</a>, or by contacting your host for "
+"assistance."
+msgstr ""
+"Αυτή η ρύθμιση καθορίζει εάν θα πρέπει να εκτυπωθούν ή όχι λάθη ως μέρος της "
+"εξόδου σελίδας. Αυτή είναι μια λειτουργία που υποστηρίζει την ανάπτυξη του "
+"ιστότοπού σας και δεν πρέπει ποτέ να χρησιμοποιηθεί σε χώρους παραγωγής. Μπορείτε "
+"να επεξεργαστείτε αυτήν τη ρύθμιση στο <a href=\"%1$s\" target=\"_blank\">αρχείο "
+"php.ini</a> ή επικοινωνώντας με τον κεντρικό υπολογιστή για βοήθεια."
+
+#: components/SupportCenter.php:1355
+msgid "This fails to meet our minimum required value of %1$s. "
+msgstr "Αυτό δεν ανταποκρίνεται στην ελάχιστη απαιτούμενη τιμή %1$s ."
+
+#: components/SupportCenter.php:1361
+msgid "This meets our minimum required value of %1$s. "
+msgstr "Αυτό πληροί την ελάχιστη απαιτούμενη τιμή του %1$s ."
+
+#: components/SupportCenter.php:1373
+msgid "Learn more."
+msgstr "Μάθε περισσότερα."
+
+#: components/SupportCenter.php:1382
+msgid "Congratulations! This meets or exceeds our recommendation of %1$s."
+msgstr "Συγχαρητήρια! Αυτό ανταποκρίνεται ή υπερβαίνει τη σύστασή μας για %1$s."
+
+#: components/SupportCenter.php:1394
+msgid "We recommend %1$s for the best experience."
+msgstr "Σας συνιστούμε %1$s για την καλύτερη εμπειρία."
+
+#: components/SupportCenter.php:1403
+msgid "- We are unable to determine your setting. %1$s"
+msgstr "- Δεν μπορούμε να καθορίσουμε τη ρύθμιση σας.  %1$s"
+
+#: components/SupportCenter.php:1466 components/SupportCenter.php:1599
+#: components/SupportCenter.php:2653
+msgid "System Status"
+msgstr "Κατάσταση συστήματος"
+
+#: components/SupportCenter.php:1473
+msgid ""
+"Congratulations, all system checks have passed. Your hosting configuration is "
+"compatible with Divi."
+msgstr ""
+"Συγχαρητήρια, όλοι οι έλεγχοι του συστήματος έχουν περάσει. Η διαμόρφωση "
+"φιλοξενίας σας είναι συμβατή με το Divi."
+
+#: components/SupportCenter.php:1596
+msgid "Divi Support Center Page"
+msgstr "Κέντρο υποστήριξης Divi"
+
+#: components/SupportCenter.php:1602 components/SupportCenter.php:2697
+#: components/SupportCenter.php:2735
+msgid "Remote Access"
+msgstr "Απομακρυσμένη πρόσβαση"
+
+#: components/SupportCenter.php:1605
+msgid "Divi Documentation &amp; Help"
+msgstr "Divi Documentation & Βοήθεια"
+
+#: components/SupportCenter.php:1608 components/SupportCenter.php:2543
+#: components/SupportCenter.php:2861
+msgid "Safe Mode"
+msgstr "Λειτουργία ασφαλείας"
+
+#: components/SupportCenter.php:1611 components/SupportCenter.php:2942
+msgid "Logs"
+msgstr "Αρχεία καταγραφής"
+
+#: components/SupportCenter.php:2062
+msgid "Elegant Themes API Error: HTTP error in API response"
+msgstr "Elegant Themes API Error: Σφάλμα HTTP στην απόκριση API"
+
+#: components/SupportCenter.php:2073
+msgid "Elegant Themes API Error: WordPress Error in API response"
+msgstr "Elegant Themes API Error: Σφάλμα WordPress στην απόκριση API"
+
+#: components/SupportCenter.php:2105
+msgid "Elegant Themes API Error: Incorrect Token. Please, try again."
+msgstr "Σφάλμα API με κομψά θέματα: Λανθασμένη μάρκα. ΠΑΡΑΚΑΛΩ προσπαθησε ξανα."
+
+#: components/SupportCenter.php:2116
+msgid "Elegant Themes API Error: The API response was missing required data."
+msgstr "Σφάλμα API με κομψά θέματα: Η απόκριση API έλειπε από τα απαιτούμενα δεδομένα."
+
+#: components/SupportCenter.php:2129
+msgid "Elegant Themes API Error: The API responded, but the response was empty."
+msgstr "Elegant Themes API Error: Το API απάντησε, αλλά η απάντηση ήταν κενή."
+
+#: components/SupportCenter.php:2177
+msgid "Support account doesn't exist."
+msgstr "Ο λογαριασμός υποστήριξης δεν υπάρχει."
+
+#: components/SupportCenter.php:2189
+msgid "Support account hasn't been removed. Try to regenerate token again."
+msgstr ""
+"Ο λογαριασμός υποστήριξης δεν έχει καταργηθεί. Προσπαθήστε ξανά να "
+"αναδημιουργήσετε το διακριτικό."
+
+#: components/SupportCenter.php:2194
+msgid "Cannot get the support account data. Try to regenerate token again."
+msgstr ""
+"Δεν είναι δυνατή η λήψη των δεδομένων του λογαριασμού υποστήριξης. Προσπαθήστε "
+"ξανά να αναδημιουργήσετε το διακριτικό."
+
+#: components/SupportCenter.php:2206
+msgid "Token has been deleted successfully."
+msgstr "Το Token έχει διαγραφεί με επιτυχία."
+
+#: components/SupportCenter.php:2208
+msgid "Token has been deleted successfully. "
+msgstr "Το Token έχει διαγραφεί με επιτυχία."
+
+#: components/SupportCenter.php:2357
+msgid "ET Support User role has been activated."
+msgstr "Υποστήριξη ET Ο ρόλος χρήστη έχει ενεργοποιηθεί."
+
+#: components/SupportCenter.php:2368
+msgid "ET Support User role has been elevated."
+msgstr "Υποστήριξη ET Ο ρόλος του χρήστη έχει αυξηθεί."
+
+#: components/SupportCenter.php:2377
+msgid "ET Support User role has been deactivated."
+msgstr "Υποστήριξη ET Ο ρόλος χρήστη έχει απενεργοποιηθεί."
+
+#: components/SupportCenter.php:2450
+msgid "ET Safe Mode has been activated."
+msgstr "Έχει ενεργοποιηθεί η ασφαλή λειτουργία ET."
+
+#: components/SupportCenter.php:2454
+msgid "ET Safe Mode has been deactivated."
+msgstr "Η λειτουργία \"Ασφαλής λειτουργία\" (ET Safe Mode) έχει απενεργοποιηθεί."
+
+#: components/SupportCenter.php:2549
+msgid "Safe Mode is enabled and the current action cannot be performed."
+msgstr ""
+"Η ασφαλής λειτουργία είναι ενεργοποιημένη και η τρέχουσα ενέργεια δεν μπορεί να "
+"εκτελεστεί."
+
+#: components/SupportCenter.php:2659
+msgid "Show Full Report"
+msgstr "Εμφάνιση πλήρους αναφοράς"
+
+#: components/SupportCenter.php:2660
+msgid "Hide Full Report"
+msgstr "Απόκρυψη πλήρους αναφοράς"
+
+#: components/SupportCenter.php:2661
+msgid "Copy Full Report"
+msgstr "Αντιγραφή πλήρους αναφοράς"
+
+#: components/SupportCenter.php:2684
+msgid "Elegant Themes Support"
+msgstr "Κομψή Υποστήριξη Θέματα"
+
+#: components/SupportCenter.php:2685
+msgid ""
+"<p>Enabling <strong>Remote Access</strong> will give the Elegant Themes support "
+"team limited access to your WordPress Dashboard. If requested, you can also "
+"enable full admin privileges. Remote Access should only be turned on if requested "
+"by the Elegant Themes support team. Remote Access is automatically disabled after "
+"4 days.</p>"
+msgstr ""
+"<p> Η ενεργοποίηση της <strong>Απομακρυσμένης Πρόσβασης</strong> θα δώσει στην "
+"ομάδα υποστήριξης της Elegant Themes περιορισμένη πρόσβαση στον πίνακα εργαλείων "
+"του WordPress. Εάν ζητηθεί, μπορείτε επίσης να ενεργοποιήσετε τα πλήρη δικαιώματα "
+"διαχειριστή. Η απομακρυσμένη πρόσβαση θα πρέπει να ενεργοποιείται μόνο εφόσον "
+"ζητηθεί από την ομάδα υποστήριξης Elegant Themes. Η απομακρυσμένη πρόσβαση "
+"απενεργοποιείται αυτόματα μετά από 4 ημέρες. </p>"
+
+#: components/SupportCenter.php:2698
+msgid ""
+"Remote Access cannot be enabled because you do not have a valid API Key or your "
+"Elegant Themes subscription has expired. You can find your API Key by <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">logging in</a> to your Elegant Themes account. It should then "
+"be added to your <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">Options Panel</a>."
+msgstr ""
+"Δεν είναι δυνατή η ενεργοποίηση της Απομακρυσμένης Πρόσβασης, επειδή δεν έχετε "
+"έγκυρο κλειδί API ή έχει λήξει η συνδρομή Elegant Themes. Μπορείτε να βρείτε το "
+"κλειδί API σας, <a href=\"https://www.elegantthemes.com/members-area/api/\" "
+"target=\"_blank\">συνδεθείτε στο</a> λογαριασμό σας Elegant Themes. Θα πρέπει να "
+"προστεθεί στον <a "
+"href=\"https://www.elegantthemes.com/documentation/divi/update-divi/\" "
+"target=_blank\">πίνακα επιλογών</a> σας."
+
+#: components/SupportCenter.php:2737 components/SupportCenter.php:2760
+#: components/SupportCenter.php:2912
+msgid "Enabled"
+msgstr "Ενεργοποιήθηκε"
+
+#: components/SupportCenter.php:2738 components/SupportCenter.php:2761
+#: components/SupportCenter.php:2913
+msgid "Disabled"
+msgstr "άτομα με ειδικές ανάγκες"
+
+#: components/SupportCenter.php:2740
+msgid "Remote Access will be automatically disabled in: "
+msgstr "Η απομακρυσμένη πρόσβαση θα απενεργοποιηθεί αυτόματα σε:"
+
+#: components/SupportCenter.php:2758
+msgid "Activate Full Admin Privileges"
+msgstr "Ενεργοποιήστε τα πλήρη προνόμια διαχειριστή"
+
+#: components/SupportCenter.php:2776
+msgid "Copy Support Token"
+msgstr "Αντιγράψτε το Στήριγμα Υποστήριξης"
+
+#: components/SupportCenter.php:2782
+msgid "Chat With Support"
+msgstr "Συνομιλία με υποστήριξη"
+
+#: components/SupportCenter.php:2862
+msgid ""
+"<p>Enabling <strong>Safe Mode</strong> will temporarily disable features and "
+"plugins that may be causing problems with your Elegant Themes product. This "
+"includes all Plugins, Child Themes, and Custom Code added to your integration "
+"areas. These items are only disabled for your current user session so your "
+"visitors will not be disrupted. Enabling Safe Mode makes it easy to figure out "
+"what is causing problems on your website by identifying or eliminating third "
+"party plugins and code as potential causes.</p>"
+msgstr ""
+"<p> Η ενεργοποίηση της <strong>ασφαλούς λειτουργίας</strong> θα απενεργοποιήσει "
+"προσωρινά τις λειτουργίες και τα πρόσθετα που ενδέχεται να προκαλούν προβλήματα "
+"με το προϊόν σας Elegant Themes. Αυτό περιλαμβάνει όλες τις προσθήκες, τα θέματα "
+"παιδιών και τον προσαρμοσμένο κώδικα που προστέθηκαν στους τομείς ολοκλήρωσης. "
+"Αυτά τα στοιχεία απενεργοποιούνται μόνο για την τρέχουσα περίοδο λειτουργίας του "
+"χρήστη, έτσι ώστε να μην διαταράσσονται οι επισκέπτες σας. Η ενεργοποίηση της "
+"ασφαλούς λειτουργίας καθιστά εύκολο να καταλάβετε τι προκαλεί προβλήματα στον "
+"ιστότοπό σας, εντοπίζοντας ή εξαλείφοντας πρόσθετα τρίτων και κωδικοποιώντας ως "
+"πιθανές αιτίες. </p>"
+
+#: components/SupportCenter.php:2889
+msgid ""
+"<p class=\"et-safe-mode-error\">Plugins cannot be disabled because your "
+"<code>wp-content</code> directory has inconsistent file permissions. <a "
+"href=\"%1$s\" target=\"_blank\">Click here</a> for more information.</p>"
+msgstr ""
+"<p class=\"et-safe-mode-error\"> Οι προσθήκες δεν μπορούν να απενεργοποιηθούν "
+"επειδή ο κατάλογος <code>wp-content</code> έχει μη συμβατά δικαιώματα αρχείων. <a "
+"href=\"%1$s\" target=\"_blank\">Κάντε κλικ εδώ</a> για περισσότερες πληροφορίες. "
+"</p>"
+
+#: components/SupportCenter.php:2894
+msgid "The following plugins will be temporarily disabled for you only:"
+msgstr "Τα ακόλουθα πρόσθετα θα απενεργοποιηθούν προσωρινά μόνο για εσάς:"
+
+#: components/SupportCenter.php:2957
+msgid "Download Full Debug Log"
+msgstr "Λήψη πλήρους αρχείου εντοπισμού σφαλμάτων"
+
+#: components/SupportCenter.php:2961
+msgid "Copy Recent Log Entries"
+msgstr "Αντιγραφή πρόσφατων εγγραφών καταγραφής"
+
+#: components/Updates.php:25
+msgid "%s: You cannot create a second instance of this class."
+msgstr "%s: Δεν είναι δυνατή η δημιουργία δεύτερου στιγμιότυπου αυτής της κλάσης. "
+
+#: components/Updates.php:425 components/VersionRollback.php:402
+msgid ""
+"<em>Before you can receive product updates, you must first authenticate your "
+"Elegant Themes subscription. To do this, you need to enter both your Elegant "
+"Themes Username and your Elegant Themes API Key into the Updates Tab in your "
+"theme and plugin settings. To locate your API Key, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> to your Elegant Themes account and navigate to the <strong>Account > API "
+"Key</strong> page. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Learn more here</a></em>. If you still get this message, please "
+"make sure that your Username and API Key have been entered correctly"
+msgstr ""
+"<em> Πριν μπορέσετε να λάβετε ενημερώσεις προϊόντων, πρέπει πρώτα να επαληθευτεί "
+"η  Elegant Themes συνδρομή σας. Για να γίνει αυτό, θα πρέπει να εισάγετε τόσο το "
+"όνομα χρήστη Elegant Themes όσο και το κλειδί Elegant Themes API στην καρτέλα "
+"Ενημερώσεις στις ρυθμίσεις θέματος και plugin. Για να βρείτε το κλειδί API, <a "
+"href=\"https://www.elegantthemes.com/members-area/api/\" target=\"_blank\">log "
+"in</a> to your Elegant Themes account and navigate to the <strong>Account > API "
+"Key</strong> page. <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">Μάθετε περισσότερα εδώ</a></em>. Αν λαμβάνετε ακόμη αυτό το "
+"μήνυμα, παρακαλούμε σιγουρευτείτε ότι το όνομα χρήστη και το Κλειδί API έχουν "
+"εισαχθεί σωστά"
+
+#: components/Updates.php:427
+msgid ""
+"Automatic updates currently unavailable. For all Elegant Themes products, please "
+"<a href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">authenticate your subscription</a> via the Updates tab in your "
+"theme & plugin settings to enable product updates. Make sure that your Username "
+"and API Key have been entered correctly."
+msgstr ""
+"Μη διαθέσιμες οι αυτόματες ενημερώσεις αυτή τη στιγμή. Για όλα τα προϊόντα "
+"Elegant Themes, παρακαλούμε <a "
+"href=\"http://www.elegantthemes.com/gallery/divi/documentation/update/\" "
+"target=\"_blank\">επαληθεύστε τη συνδρομή σας</a> μέσω της καρτέλας Ενημερώσεις "
+"στις ρυθμίσεις θέματος και plugin για να ενεργοποιήσετε τις ενημερώσεις "
+"προϊόντων. Σιγουρευτείτε ότι το όνομα χρήστη και το Κλειδί API έχουν εισαχθεί "
+"σωστά."
+
+#: components/Updates.php:451
+msgid ""
+"Your Elegant Themes subscription has expired. You must <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">renew your "
+"account</a> to regain access to product updates and support. To ensure "
+"compatibility and security, it is important to always keep your themes and "
+"plugins updated."
+msgstr ""
+"Η συνδρομή σας Elegant Themes έχει λήξει. Πρέπει να <a "
+"href=\"https://www.elegantthemes.com/members-area/\" target=\"_blank\">ανανεώσετε "
+"τον λογαριασμό σας</a> για να έχετε πάλι πρόσβαση στις ενημερώσεις προϊόντων και "
+"την υποστήριξη. Για να εξασφαλίσετε συμβατότητα και ασφάλεια, είναι σημαντικό να "
+"κρατάτε πάντα ενημερωμένα τα θέματα και τα plugin."
+
+#: components/VersionRollback.php:96 components/VersionRollback.php:303
+#: components/api/ElegantThemes.php:107 components/api/ElegantThemes.php:226
+msgid "An unknown error has occurred. Please try again later."
+msgstr "Παρουσιάστηκε κάποιο λάθος. Παρακαλούμε δοκιμάστε αργότερα."
+
+#: components/VersionRollback.php:205
+msgid "Security check failed. Please refresh and try again."
+msgstr "Η διαδικασία εξαγωγής απέτυχε. Παρακαλούμε ανανεώστε τη σελίδα και δοκιμάστε πάλι."
+
+#: components/VersionRollback.php:212
+msgid "You don't have sufficient permissions to access this page."
+msgstr "Δεν έχετε επαρκή δικαιώματα για να αποκτήσετε πρόσβαση σε αυτήν τη σελίδα."
+
+#: components/VersionRollback.php:220 components/VersionRollback.php:546
+msgid ""
+"You're currently rolled back to <strong>Version %1$s</strong> from "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Αυτήν τη στιγμή επαναφέρετε την <strong>έκδοση %1$s</strong> από την "
+"<strong>έκδοση %2$s</strong> ."
+
+#: components/VersionRollback.php:227 components/VersionRollback.php:555
+msgid ""
+"Update to the latest version to unlock the full power of %1$s. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Ενημερώστε την τελευταία έκδοση για να ξεκλειδώσετε την πλήρη ισχύ του %1$s. <a "
+"href=\"%2$s\" target=\"_blank\">Μάθετε περισσότερα εδώ</a> ."
+
+#: components/VersionRollback.php:248 components/api/ElegantThemes.php:218
+msgid ""
+"For privacy and security reasons, you cannot rollback to <strong>Version "
+"%1$s</strong>."
+msgstr ""
+"Για λόγους προστασίας προσωπικών δεδομένων και ασφάλειας, δεν μπορείτε να "
+"επαναφέρετε την <strong>έκδοση</strong> σε <strong>Version %1$s</strong> ."
+
+#: components/VersionRollback.php:254
+msgid "Learn more here."
+msgstr "Μάθετε περισσότερα εδώ."
+
+#: components/VersionRollback.php:398 components/VersionRollback.php:446
+#: components/VersionRollback.php:485 components/VersionRollback.php:537
+msgid "Version Rollback"
+msgstr "Επαναφορά εκδόσεων"
+
+#: components/VersionRollback.php:428 components/VersionRollback.php:516
+msgid "Rollback to the previous version"
+msgstr "Επιστροφή στην προηγούμενη έκδοση"
+
+#: components/VersionRollback.php:455 components/api/ElegantThemes.php:212
+msgid "The previously used version of %1$s does not support version rollback."
+msgstr ""
+"Η προγενέστερα χρησιμοποιούμενη έκδοση του %1$s δεν υποστηρίζει την επαναφορά της "
+"έκδοσης."
+
+#: components/VersionRollback.php:494
+msgid ""
+"You'll be rolled back to <strong>Version %1$s</strong> from the current "
+"<strong>Version %2$s</strong>."
+msgstr ""
+"Θα μεταφερθείτε στην <strong>έκδοση %1$s</strong> από την τρέχουσα <strong>έκδοση "
+"%2$s</strong> ."
+
+#: components/VersionRollback.php:503
+msgid ""
+"Rolling back will reinstall the previous version of %1$s. You will be able to "
+"update to the latest version at any time. <a href=\"%2$s\" "
+"target=\"_blank\">Learn more here</a>."
+msgstr ""
+"Η επαναφορά θα επαναφέρει την προηγούμενη έκδοση του %1$s. Θα μπορείτε να "
+"ενημερώσετε την τελευταία έκδοση ανά πάσα στιγμή. <a href=\"%2$s\" "
+"target=\"_blank\">Μάθετε περισσότερα εδώ</a> ."
+
+#: components/VersionRollback.php:511
+msgid "Make sure you have a full site backup before proceeding."
+msgstr ""
+"Βεβαιωθείτε ότι διαθέτετε ένα πλήρες αντίγραφο ασφαλείας του ιστοτόπου πριν "
+"προχωρήσετε."
+
+#: components/VersionRollback.php:563
+msgid "Update to the Latest Version"
+msgstr "Ενημέρωση στην τελευταία έκδοση"
+
+#: components/api/ElegantThemes.php:116
+msgid "Invalid Username and/or API Key provided."
+msgstr "Δεν δόθηκε έγκυρη URL."
+
+#: components/api/ElegantThemes.php:206
+msgid ""
+"An unexpected response was received from the version server. Please try again "
+"later."
+msgstr ""
+"Μια απροσδόκητη απάντηση λήφθηκε από τον διακομιστή εκδόσεων. Παρακαλώ "
+"προσπαθήστε ξανά αργότερα."
+
+#: components/api/Service.php:238
+msgid "API request failed, please try again."
+msgstr "Το αίτημα API απέτυχε, παρακαλούμε προσπαθήστε πάλι."
+
+#: components/api/Service.php:239
+msgid "API request failed. API Key is required."
+msgstr "Το αίτημα API απέτυχε, απαιτείται κλειδί API"
+
+#: components/api/email/ActiveCampaign.php:106
+#: components/api/email/CampaignMonitor.php:163
+#: components/api/email/ConstantContact.php:143
+#: components/api/email/ConvertKit.php:146
+#: components/api/email/Feedblitz.php:80
+#: components/api/email/GetResponse.php:100
+#: components/api/email/HubSpot.php:138
+#: components/api/email/Infusionsoft.php:250
+#: components/api/email/MadMimi.php:100 components/api/email/MailChimp.php:218
+#: components/api/email/MailerLite.php:93
+#: components/api/email/Ontraport.php:172
+#: components/api/email/SendinBlue.php:96
+msgid "API Key"
+msgstr "Κλειδί API"
+
+#: components/api/email/ActiveCampaign.php:109
+msgid "API URL"
+msgstr "API URL"
+
+#: components/api/email/ActiveCampaign.php:113
+msgid "Form ID"
+msgstr "ID Φόρμας"
+
+#: components/api/email/Aweber.php:164
+msgid "Authorization Code"
+msgstr "Κωδικός Εξουσιοδότησης"
+
+#: components/api/email/ConstantContact.php:146
+msgid "Access Token"
+msgstr "Διακριτικό πρόσβασης"
+
+#: components/api/email/ConvertKit.php:149
+msgid "API Secret"
+msgstr "Μυστικό API"
+
+#: components/api/email/Emma.php:87
+msgid "Public API Key"
+msgstr "Δημόσιο Κλειδί API"
+
+#: components/api/email/Emma.php:90
+msgid "Private API Key"
+msgstr "Ιδιωτικό Κλειδί API"
+
+#: components/api/email/Emma.php:93
+msgid "Account ID"
+msgstr "ID Λογαριασμού"
+
+#: components/api/email/Fields.php:30
+msgid "Use Custom Fields"
+msgstr "Χρησιμοποιήστε προσαρμοσμένα πεδία"
+
+#: components/api/email/Fields.php:33 components/api/email/Fields.php:255
+#: components/api/email/Fields.php:267 components/api/email/Fields.php:284
+#: components/api/email/Fields.php:315
+msgid "Yes"
+msgstr "Ναί"
+
+#: components/api/email/Fields.php:34 components/api/email/Fields.php:256
+#: components/api/email/Fields.php:268 components/api/email/Fields.php:285
+#: components/api/email/Fields.php:316
+msgid "No"
+msgstr "Οχι"
+
+#: components/api/email/Fields.php:41
+msgid "Enable this option to use custom fields in your opt-in form."
+msgstr ""
+"Ενεργοποιήστε αυτήν την επιλογή για να χρησιμοποιήσετε προσαρμοσμένα πεδία στη "
+"φόρμα συμμετοχής."
+
+#: components/api/email/Fields.php:75
+msgid "Link URL"
+msgstr "Διεύθυνση URL σύνδεσης"
+
+#: components/api/email/Fields.php:76
+msgid "Link Text"
+msgstr "Κείμενο συνδέσμου"
+
+#: components/api/email/Fields.php:77
+msgid "Discard Changes"
+msgstr "Απορρίψετε τις αλλαγές"
+
+#: components/api/email/Fields.php:78
+msgid "Save Changes"
+msgstr "Αποθήκευσε τις αλλαγές"
+
+#: components/api/email/Fields.php:79
+msgid "Option Link"
+msgstr "Σύνδεσμος επιλογών"
+
+#: components/api/email/Fields.php:88
+msgid "ID"
+msgstr "ταυτότητα"
+
+#: components/api/email/Fields.php:91
+msgid ""
+"Define a unique ID for this field. You should use only English characters without "
+"special characters or spaces."
+msgstr ""
+"Ορίστε ένα μοναδικό αναγνωριστικό για αυτό το πεδίο. Θα πρέπει να χρησιμοποιείτε "
+"μόνο αγγλικούς χαρακτήρες χωρίς ειδικούς χαρακτήρες ή κενά."
+
+#: components/api/email/Fields.php:98
+msgid "Name"
+msgstr "Ονομα"
+
+#: components/api/email/Fields.php:100
+msgid "Set the label that will appear above this field in the opt-in form."
+msgstr "Ορίστε την ετικέτα που θα εμφανιστεί πάνω από αυτό το πεδίο στη φόρμα συμμετοχής."
+
+#: components/api/email/Fields.php:110
+msgid "Type"
+msgstr "Τύπος"
+
+#: components/api/email/Fields.php:115
+msgid "Choose a field type..."
+msgstr "Επιλέξτε έναν τύπο πεδίου ..."
+
+#: components/api/email/Fields.php:116
+msgid "Input Field"
+msgstr "Πεδίο εισαγωγής"
+
+#: components/api/email/Fields.php:117
+msgid "Email Field"
+msgstr "Πεδίο ηλεκτρονικού ταχυδρομείου"
+
+#: components/api/email/Fields.php:118
+msgid "Textarea"
+msgstr "Textarea"
+
+#: components/api/email/Fields.php:119
+msgid "Checkboxes"
+msgstr "Τα πλαίσια ελέγχου"
+
+#: components/api/email/Fields.php:120
+msgid "Radio Buttons"
+msgstr "Κουμπιά ραδιοφώνου"
+
+#: components/api/email/Fields.php:121
+msgid "Select Dropdown"
+msgstr "Επιλέξτε το αναπτυσσόμενο μενού"
+
+#: components/api/email/Fields.php:123
+msgid "Choose the type of field"
+msgstr "Επιλέξτε τον τύπο πεδίου"
+
+#: components/api/email/Fields.php:133
+msgid "Checked By Default"
+msgstr "Έλεγχος από προεπιλογή"
+
+#: components/api/email/Fields.php:134
+msgid ""
+"If enabled, the check mark will be automatically selected for the visitor. They "
+"can still deselect it."
+msgstr ""
+"Εάν είναι ενεργοποιημένη, το σημάδι επιλογής θα επιλεγεί αυτόματα για τον "
+"επισκέπτη. Μπορούν ακόμα να την αποεπιλέξουν."
+
+#: components/api/email/Fields.php:144 components/api/email/Fields.php:163
+#: components/api/email/Fields.php:182
+msgid "Options"
+msgstr "Επιλογές"
+
+#: components/api/email/Fields.php:199
+msgid "Minimum Length"
+msgstr "Ελάχιστο μήκος"
+
+#: components/api/email/Fields.php:200 components/api/email/Fields.php:217
+msgid "Leave at 0 to remove restriction"
+msgstr "Αφήστε το 0 για να καταργήσετε τον περιορισμό"
+
+#: components/api/email/Fields.php:216
+msgid "Maximum Length"
+msgstr "Μέγιστο μήκος"
+
+#: components/api/email/Fields.php:233
+msgid "Allowed Symbols"
+msgstr "Επιτρεπόμενα σύμβολα"
+
+#: components/api/email/Fields.php:234
+msgid ""
+"You can validate certain types of information by disallowing certain symbols. "
+"Symbols added here will prevent the form from being submitted if added by the "
+"user."
+msgstr ""
+"Μπορείτε να επικυρώσετε συγκεκριμένους τύπους πληροφοριών αποκλείοντας ορισμένα "
+"σύμβολα. Τα σύμβολα που προστίθενται εδώ θα εμποδίσουν την υποβολή της φόρμας εάν "
+"προστεθεί από τον χρήστη."
+
+#: components/api/email/Fields.php:238 components/api/email/Fields.php:326
+msgid "All"
+msgstr "Ολα"
+
+#: components/api/email/Fields.php:239
+msgid "Letters Only (A-Z)"
+msgstr "Μόνο γράμματα (AZ)"
+
+#: components/api/email/Fields.php:240
+msgid "Numbers Only (0-9)"
+msgstr "Μόνο αριθμοί (0-9)"
+
+#: components/api/email/Fields.php:241
+msgid "Alphanumeric Only (A-Z, 0-9)"
+msgstr "Μόνο αλφαριθμητικό (AZ, 0-9)"
+
+#: components/api/email/Fields.php:250
+msgid "Required Field"
+msgstr "Υποχρεωτικό πεδίο"
+
+#: components/api/email/Fields.php:258
+msgid "Define whether the field should be required or optional"
+msgstr "Ορίστε εάν πρέπει να απαιτείται ή να είναι προαιρετικό το πεδίο"
+
+#: components/api/email/Fields.php:262
+msgid "Hidden Field"
+msgstr "Κρυφό πεδίο"
+
+#: components/api/email/Fields.php:270
+msgid "Define whether or not the field should be visible."
+msgstr "Ορίστε εάν το πεδίο πρέπει να είναι ορατό ή όχι."
+
+#: components/api/email/Fields.php:280
+msgid "Make Fullwidth"
+msgstr "Κάνετε Fullwidth"
+
+#: components/api/email/Fields.php:289
+msgid ""
+"If enabled, the field will take 100% of the width of the form, otherwise it will "
+"take 50%"
+msgstr ""
+"Αν είναι ενεργοποιημένο, το πεδίο θα πάρει το 100% του πλάτους της φόρμας, "
+"διαφορετικά θα χρειαστεί 50%"
+
+#: components/api/email/Fields.php:302
+msgid "Field Background Color"
+msgstr "Χρώμα φόντου πεδίου"
+
+#: components/api/email/Fields.php:303
+msgid "Pick a color to fill the module's input fields."
+msgstr "Επιλέξτε ένα χρώμα για να συμπληρώσετε τα πεδία εισαγωγής της ενότητας."
+
+#: components/api/email/Fields.php:310
+msgid "Enable"
+msgstr "επιτρέπω"
+
+#: components/api/email/Fields.php:318
+msgid ""
+"Enabling conditional logic makes this field only visible when any or all of the "
+"rules below are fulfilled<br><strong>Note:</strong> Only fields with an unique "
+"and non-empty field ID can be used"
+msgstr ""
+"Η ενεργοποίηση της λογικής υπό όρους καθιστά αυτό το πεδίο ορατό μόνο όταν "
+"πληρούνται ορισμένοι ή όλοι οι παρακάτω κανόνες <br> <strong>Σημείωση:</strong> "
+"Μπορούν να χρησιμοποιηθούν μόνο πεδία με μοναδικό και μη κενό αναγνωριστικό πεδίου"
+
+#: components/api/email/Fields.php:322
+msgid "Relation"
+msgstr "Σχέση"
+
+#: components/api/email/Fields.php:327
+msgid "Any"
+msgstr "Οποιος"
+
+#: components/api/email/Fields.php:333
+msgid "Choose whether any or all of the rules should be fulfilled"
+msgstr "Επιλέξτε αν πρέπει να πληρούνται κάποιοι ή όλοι οι κανόνες"
+
+#: components/api/email/Fields.php:340
+msgid "Rules"
+msgstr "Κανόνες"
+
+#: components/api/email/Fields.php:341
+msgid ""
+"Conditional logic rules can be used to hide and display different input fields "
+"conditionally based on how the visitor has interacted with different inputs."
+msgstr ""
+"Οι υπόνοιες λογικών κανόνων μπορούν να χρησιμοποιηθούν για την απόκρυψη και την "
+"εμφάνιση διαφορετικών πεδίων εισόδου ανάλογα με τον τρόπο αλληλεπίδρασης του "
+"επισκέπτη με διαφορετικές εισροές."
+
+#: components/api/email/Fields.php:383
+msgid "Choose a field..."
+msgstr "Επιλέξτε ένα πεδίο ..."
+
+#: components/api/email/Fields.php:391
+msgid "Field"
+msgstr "Πεδίο"
+
+#: components/api/email/Fields.php:398
+msgid ""
+"Choose a custom field. Custom fields must be defined in your email provider "
+"account."
+msgstr ""
+"Επιλέξτε ένα προσαρμοσμένο πεδίο. Τα προσαρμοσμένα πεδία πρέπει να ορίζονται στον "
+"λογαριασμό παροχής υπηρεσιών ηλεκτρονικού ταχυδρομείου."
+
+#: components/api/email/Infusionsoft.php:253
+msgid "App Name"
+msgstr "Όνομα Εφαρμογής"
+
+#: components/api/email/Infusionsoft.php:366
+msgid ""
+"Successfully authorized. Subscribers count will be updated in background, please "
+"check back in %1$s %2$s"
+msgstr ""
+"Επιτυχημένη εξουσιοδότηση. Η μέτρηση συνδρομητών θα ενημερωθεί στο παρασκήνιο, "
+"παρακαλούμε ελέγξτε πάλι σε %1$s %2$s"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minute"
+msgstr "λεπτό"
+
+#: components/api/email/Infusionsoft.php:368
+msgid "minutes"
+msgstr "λεπτά"
+
+#: components/api/email/Infusionsoft.php:396
+msgid "Already subscribed"
+msgstr "Υπάρχει ήδη συνδρομή"
+
+#: components/api/email/MadMimi.php:97 components/api/email/iContact.php:184
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: components/api/email/MailChimp.php:293
+msgid "An error occurred, please try later."
+msgstr "Παρουσιάστηκε κάποιο λάθος. Παρακαλούμε δοκιμάστε αργότερα."
+
+#: components/api/email/MailChimp.php:325
+msgid "You have signed up to a lot of lists very recently, please try again later"
+msgstr "Εγγραφήκατε σε πολλές λίστες τελευταία, παρακαλούμε δοκιμάστε αργότερα"
+
+#: components/api/email/MailPoet.php:38 components/api/email/_MailPoet2.php:28
+#: components/api/email/_MailPoet3.php:33
+msgid "MailPoet plugin is either not installed or not activated."
+msgstr "Το πρόσθετο MailPoet δεν είναι εγκατεστημένο ή δεν είναι ενεργοποιημένο."
+
+#: components/api/email/Mailster.php:53
+msgid "Opt-in"
+msgstr "Συμμετοχή"
+
+#: components/api/email/Mailster.php:117
+msgid "Mailster Newsletter Plugin is not enabled!"
+msgstr "Το plugin για το Δελτίο Mailster δεν είναι ενεργοποιημένο!"
+
+#: components/api/email/Mailster.php:121
+msgid "No lists were found. Please create a Mailster list first!"
+msgstr "Δεν βρέθηκαν λίστες. Παρακαλούμε δημιουργήστε πρώτα μια λίστα Mailster!"
+
+#: components/api/email/Mailster.php:137 components/api/email/_MailPoet2.php:97
+#: components/api/email/_MailPoet3.php:148
+msgid "An error occurred. Please try again later."
+msgstr "Παρουσιάστηκε κάποιο λάθος. Παρακαλούμε δοκιμάστε αργότερα."
+
+#: components/api/email/Ontraport.php:175
+msgid "APP ID"
+msgstr "ID Εφαρμογής"
+
+#: components/api/email/Provider.php:102
+msgid "Subscribed via"
+msgstr "Συνδρομή μέσω"
+
+#: components/api/email/SalesForce.php:144
+msgid "Instance URL"
+msgstr "URL Στιγμιότυπου"
+
+#: components/api/email/SalesForce.php:149
+msgid "Consumer Key"
+msgstr "Κλειδί Καταναλωτή"
+
+#: components/api/email/SalesForce.php:154
+msgid "Consumer Secret"
+msgstr "Μυστικό Καταναλωτή"
+
+#: components/api/email/SalesForce.php:161
+msgid "Organization ID"
+msgstr "ID Οργανισμού"
+
+#: components/api/email/SalesForce.php:186
+msgid "Organization ID cannot be empty"
+msgstr "Το ID Οργανισμού δεν μπορεί να είναι κενό"
+
+#: components/api/email/SalesForce.php:256
+#: components/api/email/SalesForce.php:343
+msgid "An error occurred. Please try again."
+msgstr "Παρουσιάστηκε κάποιο λάθος. Παρακαλούμε δοκιμάστε αργότερα."
+
+#: components/api/email/SalesForce.php:307
+msgid "Unknown Organization ID"
+msgstr "Άγνωστο ID Οργανισμού"
+
+#: components/api/email/_MailPoet2.php:144
+msgid "Already Subscribed"
+msgstr "Υπάρχει ήδη συνδρομή"
+
+#: components/api/email/iContact.php:181
+msgid "App ID"
+msgstr "Αναγνωριστικό εφαρμογής"
+
+#: components/api/email/iContact.php:187
+msgid "App Password"
+msgstr "Κωδικός πρόσβασης εφαρμογών"
+
+#: components/api/email/init.php:51
+msgid "ERROR: Invalid arguments."
+msgstr "ΛΑΘΟΣ: Μη έγκυρα ορίσματα."
+
+#: components/data/init.php:191
+msgid "Invalid attribute key"
+msgstr "Μη έγκυρο κλειδί ιδιότητας"
+
+#: components/data/init.php:258
+msgid "Invalid tag element"
+msgstr "Μη έγκυρο στοιχείο ετικέτας"
+
+#: components/data/init.php:328
+msgid "This is not a valid excuse to not escape the passed value."
+msgstr "Αυτό δεν είναι έγκυρη δικαιολογία για να μην ξεφύγουμε από την τιμή που περάσαμε."
+
+#: components/data/init.php:367
+msgid "This is not a valid excuse to not sanitize the passed value."
+msgstr "Αυτό δεν αποτελεί έγκυρη δικαιολογία για να μην απολυμαίνεται η αξία που πέρασε."
+
+#: components/lib/WPHttp.php:192
+msgid "A valid URL was not provided."
+msgstr "Δεν δόθηκε έγκυρη URL."
+
+#: components/lib/WPHttp.php:196
+msgid "User has blocked requests through HTTP."
+msgstr "Ο χρήστης έχει αποκλείσει αιτήματα μέσω HTTP."
+
+#: components/lib/WPHttp.php:209
+msgid "Destination directory for file streaming does not exist or is not writable."
+msgstr ""
+"Ο κατάλογος προορισμού για τη ροή αρχείων δεν υπάρχει ή δεν επιτρέπεται η εγγραφή "
+"σε αυτόν."
+
+#: functions.php:101
+msgid "Once Monthly"
+msgstr "Κάθε Μήνα"
+
+#: functions.php:113
+msgid "Configuration Error"
+msgstr "Λάθος παραμετροποίησης"
+
+#: functions.php:522
+msgid "Got it, thanks!"
+msgstr "Το κατάλαβα, ευχαριστώ!"
+
+#: functions.php:1383
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: functions.php:212
+#. Translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "επί"

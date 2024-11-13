@@ -1,0 +1,24 @@
+@import "../../../scss/base";
+
+.et-core-control-menu {
+  padding: 0;
+  list-style: none;
+  color: $text-primary;
+
+  &__wrapper {
+    padding: 15px;
+  }
+
+  &__item {
+    line-height: 30px;
+    padding: 2px 12px;
+    border-radius: 3px;
+    transition: background $transition-duration $transition-timing-function, color $transition-duration $transition-timing-function;
+    cursor: pointer;
+
+    &--hovered {
+      background: $item-background-hover;
+      color: $white;
+    }
+  }
+}
