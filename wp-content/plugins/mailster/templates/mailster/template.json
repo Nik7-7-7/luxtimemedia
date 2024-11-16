@@ -1,0 +1,228 @@
+{
+	"schemas": [
+		{
+			"name": "Original",
+			"colors": {
+				"bg-color": "#FEFEFE",
+				"color-font": "#58595B",
+				"color-links": "#2BB3E7",
+				"footer-color-font": "#58595B",
+				"subline-color": "#9a9ca1",
+				"hr-line-color": "#9a9ca1",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#2BB3E7",
+				"button-bg-hover-color": "#3bb9eb"
+			}
+		},
+		{
+			"name": "Corporate Slate",
+			"colors": {
+				"bg-color": "#F7F9FA",
+				"color-font": "#4A4D50",
+				"color-links": "#3498DB",
+				"footer-color-font": "#4A4D50",
+				"subline-color": "#7F8C8D",
+				"hr-line-color": "#7F8C8D",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#3498DB",
+				"button-bg-hover-color": "#2980B9"
+			}
+		},
+		{
+			"name": "Modern Edge",
+			"colors": {
+				"bg-color": "#FAFBFC",
+				"color-font": "#404345",
+				"color-links": "#E74C3C",
+				"footer-color-font": "#404345",
+				"subline-color": "#95A5A6",
+				"hr-line-color": "#95A5A6",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#E74C3C",
+				"button-bg-hover-color": "#C0392B"
+			}
+		},
+		{
+			"name": "Tech Blue",
+			"colors": {
+				"bg-color": "#F4F6F7",
+				"color-font": "#353839",
+				"color-links": "#2980B9",
+				"footer-color-font": "#353839",
+				"subline-color": "#7E8C8D",
+				"hr-line-color": "#7E8C8D",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#2980B9",
+				"button-bg-hover-color": "#2471A3"
+			}
+		},
+		{
+			"name": "Professional Contrast",
+			"colors": {
+				"bg-color": "#FBFCFC",
+				"color-font": "#5E5E60",
+				"color-links": "#16A085",
+				"footer-color-font": "#5E5E60",
+				"subline-color": "#BDC3C7",
+				"hr-line-color": "#BDC3C7",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#16A085",
+				"button-bg-hover-color": "#1ABC9C"
+			}
+		},
+		{
+			"name": "Executive Grey",
+			"colors": {
+				"bg-color": "#F2F3F4",
+				"color-font": "#515254",
+				"color-links": "#34495E",
+				"footer-color-font": "#515254",
+				"subline-color": "#99A3A4",
+				"hr-line-color": "#99A3A4",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#34495E",
+				"button-bg-hover-color": "#2C3E50"
+			}
+		},
+		{
+			"name": "Sunset Glow",
+			"colors": {
+				"bg-color": "#FFF8E1",
+				"color-font": "#6E6658",
+				"color-links": "#FF7043",
+				"footer-color-font": "#6E6658",
+				"subline-color": "#A1887F",
+				"hr-line-color": "#A1887F",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#FF7043",
+				"button-bg-hover-color": "#FF5722"
+			}
+		},
+		{
+			"name": "Autumn Spice",
+			"colors": {
+				"bg-color": "#FEF5E7",
+				"color-font": "#795548",
+				"color-links": "#F9A825",
+				"footer-color-font": "#795548",
+				"subline-color": "#A98274",
+				"hr-line-color": "#A98274",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#F9A825",
+				"button-bg-hover-color": "#F57F17"
+			}
+		},
+		{
+			"name": "Cozy Latte",
+			"colors": {
+				"bg-color": "#FAF3E0",
+				"color-font": "#6D4C41",
+				"color-links": "#8D6E63",
+				"footer-color-font": "#6D4C41",
+				"subline-color": "#BCAAA4",
+				"hr-line-color": "#BCAAA4",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#8D6E63",
+				"button-bg-hover-color": "#795548"
+			}
+		},
+		{
+			"name": "Warmth Radiance",
+			"colors": {
+				"bg-color": "#FFFDE7",
+				"color-font": "#8E7618",
+				"color-links": "#FFCA28",
+				"footer-color-font": "#8E7618",
+				"subline-color": "#C0A080",
+				"hr-line-color": "#C0A080",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#FFCA28",
+				"button-bg-hover-color": "#FFB300"
+			}
+		},
+		{
+			"name": "Golden Hour",
+			"colors": {
+				"bg-color": "#FFF3E0",
+				"color-font": "#7D6608",
+				"color-links": "#FFB74D",
+				"footer-color-font": "#7D6608",
+				"subline-color": "#AFB6B2",
+				"hr-line-color": "#AFB6B2",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#FFB74D",
+				"button-bg-hover-color": "#FFA726"
+			}
+		},
+		{
+			"name": "Midnight Blue",
+			"colors": {
+				"bg-color": "#2C3E50",
+				"color-font": "#ECF0F1",
+				"color-links": "#3498DB",
+				"footer-color-font": "#ECF0F1",
+				"subline-color": "#546E7A",
+				"hr-line-color": "#546E7A",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#2980B9",
+				"button-bg-hover-color": "#3498DB"
+			}
+		},
+		{
+			"name": "Slate Grey",
+			"colors": {
+				"bg-color": "#34495E",
+				"color-font": "#BDC3C7",
+				"color-links": "#E74C3C",
+				"footer-color-font": "#BDC3C7",
+				"subline-color": "#7F8C8D",
+				"hr-line-color": "#7F8C8D",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#E74C3C",
+				"button-bg-hover-color": "#C0392B"
+			}
+		},
+		{
+			"name": "Deep Space",
+			"colors": {
+				"bg-color": "#212121",
+				"color-font": "#BDBDBD",
+				"color-links": "#78909C",
+				"footer-color-font": "#BDBDBD",
+				"subline-color": "#37474F",
+				"hr-line-color": "#37474F",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#607D8B",
+				"button-bg-hover-color": "#78909C"
+			}
+		},
+		{
+			"name": "Emerald Night",
+			"colors": {
+				"bg-color": "#1E272E",
+				"color-font": "#C8D6E5",
+				"color-links": "#00B894",
+				"footer-color-font": "#C8D6E5",
+				"subline-color": "#8395A7",
+				"hr-line-color": "#8395A7",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#00B894",
+				"button-bg-hover-color": "#1ABC9C"
+			}
+		},
+		{
+			"name": "Royal Purple",
+			"colors": {
+				"bg-color": "#4A148C",
+				"color-font": "#EDE7F6",
+				"color-links": "#7C4DFF",
+				"footer-color-font": "#EDE7F6",
+				"subline-color": "#9575CD",
+				"hr-line-color": "#9575CD",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#7C4DFF",
+				"button-bg-hover-color": "#673AB7"
+			}
+		}
+	]
+}

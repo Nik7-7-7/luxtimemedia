@@ -1,0 +1,3 @@
+/* The CSS in this file gets loaded outside of the webcomponent. Only put CSS that cannot interfere with user styles.*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+

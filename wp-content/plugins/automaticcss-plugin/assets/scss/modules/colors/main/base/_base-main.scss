@@ -1,0 +1,177 @@
+// base Options
+$option-base-clr: on !default;
+$option-base-main-trans: on !default;
+$option-base-light-trans: on !default;
+$option-base-dark-trans: on !default;
+$option-base-ultra-dark-trans: on !default;
+
+// base Vars
+$base-hex: #e56c70 !default;
+$base-r: 229 !default;
+$base-g: 108 !default;
+$base-b: 112 !default;
+$base-h: 358 !default;
+$base-s: 70% !default;
+$base-l: 66% !default;
+$base-hover-h: 358 !default;
+$base-hover-s: 70% !default;
+$base-hover-l: 1.15 !default;
+$base-ultra-light-h: 358 !default;
+$base-ultra-light-s: 70% !default;
+$base-ultra-light-l: 95% !default;
+$base-light-h: 358 !default;
+$base-light-s: 70% !default;
+$base-light-l: 85% !default;
+$base-medium-h: 358 !default;
+$base-medium-s: 70% !default;
+$base-medium-l: 50% !default;
+$base-dark-h: 358 !default;
+$base-dark-s: 70% !default;
+$base-dark-l: 25% !default;
+$base-ultra-dark-h: 358 !default;
+$base-ultra-dark-s: 70% !default;
+$base-ultra-dark-l: 10% !default;
+// Added in 3.0
+$base-semi-light-h: 358 !default;
+$base-semi-light-s: 70% !default;
+$base-semi-light-l: 60% !default;
+$base-semi-dark-h: 358 !default;
+$base-semi-dark-s: 70% !default;
+$base-semi-dark-l: 40% !default;
+
+
+// Base Color Map
+$color-base:(); // Initialize Map
+@if $option-base-clr == on {
+  $color-base: (
+    "main": (
+      "base": $base-hex,
+      "base-hover": hsl($base-hover-h, $base-hover-s, $base-hover-l),
+      "base-ultra-light": hsl($base-ultra-light-h, $base-ultra-light-s, $base-ultra-light-l),
+      "base-light": hsl($base-light-h, $base-light-s, $base-light-l),
+      "base-semi-light": hsl($base-semi-light-h, $base-semi-light-s, $base-semi-light-l),
+      "base-semi-dark": hsl($base-semi-dark-h, $base-semi-dark-s, $base-semi-dark-l),
+      "base-dark": hsl($base-dark-h, $base-dark-s, $base-dark-l),
+      "base-ultra-dark": hsl($base-ultra-dark-h, $base-ultra-dark-s, $base-ultra-dark-l),
+    ),
+    "trans": (
+      "base-trans-10": rgba($base-hex, .1),
+      "base-trans-20": rgba($base-hex, .2),
+      "base-trans-30": rgba($base-hex, .3),
+      "base-trans-40": rgba($base-hex, .4),
+      "base-trans-50": rgba($base-hex, .5),
+      "base-trans-60": rgba($base-hex, .6),
+      "base-trans-70": rgba($base-hex, .7),
+      "base-trans-80": rgba($base-hex, .8),
+      "base-trans-90": rgba($base-hex, .9),
+    ),
+    "light-trans": (
+      "base-light-trans-10": hsl($base-light-h, $base-light-s, $base-light-l, .1),
+      "base-light-trans-20": hsl($base-light-h, $base-light-s, $base-light-l, .2),
+      "base-light-trans-30": hsl($base-light-h, $base-light-s, $base-light-l, .3),
+      "base-light-trans-40": hsl($base-light-h, $base-light-s, $base-light-l, .4),
+      "base-light-trans-50": hsl($base-light-h, $base-light-s, $base-light-l, .5),
+      "base-light-trans-60": hsl($base-light-h, $base-light-s, $base-light-l, .6),
+      "base-light-trans-70": hsl($base-light-h, $base-light-s, $base-light-l, .7),
+      "base-light-trans-80": hsl($base-light-h, $base-light-s, $base-light-l, .8),
+      "base-light-trans-90": hsl($base-light-h, $base-light-s, $base-light-l, .9),
+    ),
+    "dark-trans": (
+      "base-dark-trans-10": hsl($base-dark-h, $base-dark-s, $base-dark-l, .1),
+      "base-dark-trans-20": hsl($base-dark-h, $base-dark-s, $base-dark-l, .2),
+      "base-dark-trans-30": hsl($base-dark-h, $base-dark-s, $base-dark-l, .3),
+      "base-dark-trans-40": hsl($base-dark-h, $base-dark-s, $base-dark-l, .4),
+      "base-dark-trans-50": hsl($base-dark-h, $base-dark-s, $base-dark-l, .5),
+      "base-dark-trans-60": hsl($base-dark-h, $base-dark-s, $base-dark-l, .6),
+      "base-dark-trans-70": hsl($base-dark-h, $base-dark-s, $base-dark-l, .7),
+      "base-dark-trans-80": hsl($base-dark-h, $base-dark-s, $base-dark-l, .8),
+      "base-dark-trans-90": hsl($base-dark-h, $base-dark-s, $base-dark-l, .9),
+    ),
+    "ultra-dark-trans": (
+      "base-ultra-dark-trans-10": hsl($base-ultra-dark-h, $base-ultra-dark-s, $base-ultra-dark-l, .1),
+      "base-ultra-dark-trans-20": hsl($base-ultra-dark-h, $base-ultra-dark-s, $base-ultra-dark-l, .2),
+      "base-ultra-dark-trans-30": hsl($base-ultra-dark-h, $base-ultra-dark-s, $base-ultra-dark-l, .3),
+      "base-ultra-dark-trans-40": hsl($base-ultra-dark-h, $base-ultra-dark-s, $base-ultra-dark-l, .4),
+      "base-ultra-dark-trans-50": hsl($base-ultra-dark-h, $base-ultra-dark-s, $base-ultra-dark-l, .5),
+      "base-ultra-dark-trans-60": hsl($base-ultra-dark-h, $base-ultra-dark-s, $base-ultra-dark-l, .6),
+      "base-ultra-dark-trans-70": hsl($base-ultra-dark-h, $base-ultra-dark-s, $base-ultra-dark-l, .7),
+      "base-ultra-dark-trans-80": hsl($base-ultra-dark-h, $base-ultra-dark-s, $base-ultra-dark-l, .8),
+      "base-ultra-dark-trans-90": hsl($base-ultra-dark-h, $base-ultra-dark-s, $base-ultra-dark-l, .9),
+    ),
+    "partials": (
+      "base-hex": $base-hex,
+        "base-hsl": $base-h $base-s $base-l,
+        "base-rgb": $base-r $base-g $base-b,
+        "base-r": $base-r,
+        "base-g": $base-g,
+        "base-b": $base-b,
+        "base-h": $base-h,
+        "base-s": $base-s,
+        "base-l": $base-l,
+        "base-hover-h": $base-hover-h,
+        "base-hover-s": $base-hover-s,
+        "base-hover-l": $base-hover-l,
+        "base-ultra-light-h": $base-ultra-light-h,
+        "base-ultra-light-s": $base-ultra-light-s,
+        "base-ultra-light-l": $base-ultra-light-l,
+        "base-light-h": $base-light-h,
+        "base-light-s": $base-light-s,
+        "base-light-l": $base-light-l,
+        "base-semi-light-h": $base-semi-light-h,
+        "base-semi-light-s": $base-semi-light-s,
+        "base-semi-light-l": $base-semi-light-l,
+        "base-semi-dark-h": $base-semi-dark-h,
+        "base-semi-dark-s": $base-semi-dark-s,
+        "base-semi-dark-l": $base-semi-dark-l,
+        "base-dark-h": $base-dark-h,
+        "base-dark-s": $base-dark-s,
+        "base-dark-l": $base-dark-l,
+        "base-ultra-dark-h": $base-ultra-dark-h,
+        "base-ultra-dark-s": $base-ultra-dark-s,
+        "base-ultra-dark-l": $base-ultra-dark-l,
+    ),
+  );
+
+  // Transparency options
+  @if $option-base-main-trans == off {
+    $color-base: map-remove($color-base, "trans");
+  }
+  @if $option-base-light-trans == off {
+    $color-base: map-remove($color-base, "light-trans");
+  }
+  @if $option-base-dark-trans == off {
+    $color-base: map-remove($color-base, "dark-trans");
+  }
+  @if $option-base-ultra-dark-trans == off {
+    $color-base: map-remove($color-base, "ultra-dark-trans");
+  }
+
+}
+
+// Handle Deprecated Options
+@if $option-base-clr == on {
+  // Add complimentary color back if enabled
+  @if $option-comp-colors == on {
+    $color-base: map-merge($color-base, (
+      "main": map-merge(map-get($color-base, "main"), (
+        "base-comp": hsl($base-h + 180, $base-s, $base-l)
+      )),
+      "partials": map-merge(map-get($color-base, "partials"), (
+        "base-comp-h": $base-h + 180
+      ))
+    ));
+  }
+  // Add medium back if enabled
+  @if $option-medium-shade == on {
+    $color-base: map-merge($color-base, (
+      "main": map-merge(map-get($color-base, "main"), (
+        "base-medium": hsl($base-medium-h, $base-medium-s, $base-medium-l)
+      )),
+      "partials": map-merge(map-get($color-base, "partials"), (
+        "base-medium-h": $base-medium-h,
+        "base-medium-s": $base-medium-s,
+        "base-medium-l": $base-medium-l
+      ))
+    ));
+  }
+}

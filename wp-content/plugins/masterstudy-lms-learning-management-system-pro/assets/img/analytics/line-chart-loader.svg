@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="Line" width="564" height="195" viewBox="0 0 564 195" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<path d="M8.28125 152.045L68.9 186.42L129.519 161.42L190.138 105.17L251.9 114.545L312.519 142.67L373.138 92.2798L433.756 98.9204L494.375 25.8735L556.138 8.29541" stroke="#001931" stroke-opacity="0.1" stroke-width="15" stroke-linecap="round" stroke-dasharray="0,0,583.4980942527847,62.70045311049658"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="1.3513513513513513s" values="0,0,583.4980942527847,62.70045311049658; 
+          0,62.70045311049658,583.4980942527847,0; 
+          583.4980942527847,62.70045311049658,0,0" keyTimes="0; 0.097029702970297; 1"></animate></path>
+</svg>

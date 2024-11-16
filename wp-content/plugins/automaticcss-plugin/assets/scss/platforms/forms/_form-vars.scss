@@ -1,0 +1,340 @@
+// Labels
+$f-label-size-pure: 1.4 !default; // dashboard
+$f-label-size-min: $text-m-min !default;
+$f-label-size-max: $text-m-max !default;
+$f-label-size: fluidClamp($f-label-size-min, $f-label-size-max);
+$f-label-font-weight: 400 !default; // dashboard
+$f-label-line-height: 1.2 !default; // dashboard
+$f-label-padding-x: 0 !default; // dashboard
+$f-label-padding-y: 0 !default; // dashboard
+$f-label-margin-bottom: 0.25em !default; // dashboard
+$f-label-text-transform: null !default; // dashboard
+$f-label-inside-position-left: 1.5em !default;
+$f-label-inside-position-top: 0 !default;
+$f-label-inside-scale: 1 !default;
+
+// Labels Light
+$f-light-label-text-color: var(--neutral-dark) !default; // dashboard
+$f-light-label-background-color: null !default; // dashboard
+$f-light-label-inside-background-color: transparent !default;
+$f-light-label-inside-background-color-focus: transparent !default;
+
+// Labels Dark
+$f-dark-label-text-color: var(--neutral-ultra-light) !default; // dashboard
+$f-dark-label-background-color: transparent !default; // dashboard
+$f-dark-label-inside-background-color: transparent !default;
+$f-dark-label-inside-background-color-focus: transparent !default;
+
+// Required Light
+$f-light-required-color: var(--action) !default; // dashboard
+
+// Required Dark
+$f-dark-required-color: var(--action) !default; // dashboard
+
+// Legend
+$f-legend-text-weight: 600 !default; // dashboard
+$f-legend-size-pure: 1.5 !default; // dashboard
+$f-legend-size-min: 1.8 !default; // dashboard
+$f-legend-size-max: 2 !default; // dashboard
+$f-legend-size: fluidClamp($f-legend-size-min, $f-legend-size-max);
+$f-legend-margin-bottom: 1em !default; // dashboard
+$f-legend-border: none !default; // dashboard
+$f-legend-line-height: 1.2 !default; // dashboard
+
+// Legend Light
+$f-light-legend-text-color: var(--neutral-dark) !default; // dashboard
+
+// Legend Dark
+$f-dark-legend-text-color: var(--neutral-ultra-light) !default; // dashboard
+
+// Help Text
+$f-help-text-weight: 400 !default; // dashboard
+$f-help-size-pure: 1.2 !default; // dashboard
+$f-help-size-min: 1.2 !default; // dashboard
+$f-help-size-max: 1.4 !default; // dashboard
+$f-help-size: fluidClamp($f-help-size-min, $f-help-size-max);
+$f-help-line-height: 1.4 !default; // dashboard
+$f-help-margin-block: 0.5em 0 !default;
+
+// Help Text Light
+$f-light-help-text-color: var(--neutral-semi-dark) !default; // dashboard
+
+// Help Text Dark
+$f-dark-help-text-color: var(--neutral-semi-dark) !default; // dashboard
+
+// Field & Fieldset
+$f-field-margin-bottom: 1.5em !default; // dashboard
+$f-fieldset-margin-bottom: 1.5em !default; // dashboard
+$f-grid-gutter: 2rem !default; // dashboard
+
+// Inputs
+$f-input-border-style: solid !default; // dashboard
+$f-input-border-top-size: 0.1 !default; // dashboard
+$f-input-border-right-size: 0.1 !default; // dashboard
+$f-input-border-bottom-size: 0.1 !default; // dashboard
+$f-input-border-left-size: 0.1 !default; // dashboard
+$f-input-border-radius: $btn-border-radius !default; // dashboard
+$f-input-text-size-pure: 1.4 !default; // dashboard
+$f-input-text-size-min: 1.6 !default; // dashboard
+$f-input-text-size-max: 1.8 !default; // dashboard
+$f-input-size: fluidClamp($f-input-text-size-min, $f-input-text-size-max);
+$f-input-font-weight: 400 !default; // dashboard
+$f-input-line-height: 1.1 !default; // dashboard
+$f-input-height: 5 !default; // dashboard
+$f-input-padding-x: 1em !default; // dashboard
+$f-input-padding-y: 1.2em !default; // dashboard
+
+// Inputs Light
+$f-light-input-background: var(--neutral-white) !default; // dashboard
+$f-light-input-border-color: var(--neutral-light) !default; // dashboard
+$f-light-input-text-color: var(--neutral-dark) !default; // dashboard
+$f-light-input-placeholder-color: var(--neutral-dark) !default; // dashboard
+$f-light-input-placeholder-hsl: null !default; // gets filled by Core.php
+$f-light-input-placeholder-opacity: 0.5 !default; // dashboard
+
+// Inputs Dark
+$f-dark-input-background: var(--neutral-dark) !default; // dashboard
+$f-dark-input-border-color: var(--neutral-semi-dark) !default; // dashboard
+$f-dark-input-text-color: var(--neutral--ultra-light) !default; // dashboard
+$f-dark-input-placeholder-color: var(--neutral-ultra-light) !default; // dashboard
+$f-dark-input-placeholder-hsl: null !default; // gets filled by Core.php
+$f-dark-input-placeholder-opacity: 0.5 !default; // dashboard
+
+// Buttons
+$option-f-use-global-buttons: off !default;
+// Submit (Use Global)
+$f-light-submit-button-style: "primary" !default;
+$f-dark-submit-button-style: "primary" !default;
+// Secondary (Use Global)
+$f-light-secondary-button-style: "primary.btn--outline" !default;
+$f-dark-secondary-button-style: "primary.btn--outline" !default;
+// Next (Use Global)
+$f-light-next-button-style: "primary" !default;
+$f-dark-next-button-style: "primary" !default;
+// Next (Use Global)
+$f-light-next-button-style: "primary.btn--outline" !default;
+$f-dark-next-button-style: "primary.btn--outline" !default;
+// Previous (Use Global)
+$f-light-previous-button-style: "primary.btn--outline" !default;
+$f-dark-previous-button-style: "primary.btn--outline" !default;
+// Save (Use Global)
+$f-light-save-button-style: "success" !default;
+$f-dark-save-button-style: "success" !default;
+// Reset
+$f-light-reset-button-style: "neutral" !default;
+$f-dark-reset-button-style: "neutral" !default;
+// Clear
+$f-light-clear-button-style: "neutral.btn--outline" !default;
+$f-dark-clear-button-style: "neutral.btn--outline" !default;
+// Upload
+$f-light-upload-button-style: "primary" !default;
+$f-dark-upload-button-style: "primary" !default;
+
+$f-btn-border-style: solid !default; // dashboard
+$f-btn-border-width: 1px !default; // dashboard
+$f-btn-border-radius: var(--btn-radius) !default; // dashboard
+$f-btn-text-size-min: 1.6 !default; // dashboard
+$f-btn-text-size-max: 1.8 !default; // dashboard
+$f-btn-text-size: fluidClamp($f-btn-text-size-min, $f-btn-text-size-max);
+$f-btn-font-weight: 400 !default; // dashboard
+$f-btn-line-height: 1.1 !default; // dashboard
+$f-btn-padding-y: 0.5em !default; // dashboard
+$f-btn-padding-x: 1em !default; // dashboard
+$f-btn-margin-top: 0 !default; // dashboard
+$f-btn-text-decoration: null !default; // dashboard
+$f-btn-text-transform: null !default; // dashboard
+
+// Buttons Light
+$f-light-btn-background: var(--action) !default; // dashboard
+$f-light-btn-background-hover: var(--action-hover) !default; // dashboard
+$f-light-btn-border-color: var(--action) !default; // dashboard
+$f-light-btn-border-color-hover: var(--action-hover) !default; // dashboard
+$f-light-btn-text-color: var(--action-ultra-dark) !default; // dashboard
+$f-light-btn-text-color-hover: var(--action-ultra-dark) !default; // dashboard
+
+// Buttons Dark
+$f-dark-btn-background: var(--action) !default; // dashboard
+$f-dark-btn-background-hover: var(--action-hover) !default; // dashboard
+$f-dark-btn-border-color: var(--action) !default; // dashboard
+$f-dark-btn-border-color-hover: var(--action-hover) !default; // dashboard
+$f-dark-btn-text-color: var(--action-ultra-dark) !default; // dashboard
+$f-dark-btn-text-color-hover: var(--action-ultra-dark) !default; // dashboard
+
+// Buttons Light > Secondary
+$f-light-secondary-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-light-secondary-btn-background-color-hover: var(--neutral-light) !default; // dashboard
+$f-light-secondary-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-light-secondary-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Light > Next
+$f-light-next-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-light-next-btn-background-color-hover: var(--neutral-light) !default; // dashboard
+$f-light-next-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-light-next-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Light > Previous
+$f-light-prev-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-light-prev-btn-background-color-hover: var(--neutral-light) !default; // dashboard
+$f-light-prev-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-light-prev-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Light > Save
+$f-light-save-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-light-save-btn-background-color-hover: var(--neutral-light) !default; // dashboard
+$f-light-save-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-light-save-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Light > Reset
+$f-light-reset-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-light-reset-btn-background-color-hover: var(--neutral-light) !default; // dashboard
+$f-light-reset-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-light-reset-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Light > Clear
+$f-light-clear-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-light-clear-btn-background-color-hover: var(--neutral-light) !default; // dashboard
+$f-light-clear-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-light-clear-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Light > Upload
+$f-light-upload-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-light-upload-btn-background-color-hover: var(--neutral-light) !default; // dashboard
+$f-light-upload-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-light-upload-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+
+// Buttons Dark > Secondary
+$f-dark-secondary-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-dark-secondary-btn-background-color-hover: var(--neutral-light) !default; // dashboard
+$f-dark-secondary-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-dark-secondary-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Dark > Next
+$f-dark-next-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-dark-next-btn-background-color-hover: var(--neutral-ultra-light) !default; // dashboard
+$f-dark-next-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-dark-next-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Dark > Previous
+$f-dark-prev-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-dark-prev-btn-background-color-hover: var(--neutral-ultra-light) !default; // dashboard
+$f-dark-prev-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-dark-prev-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Dark > Save
+$f-dark-save-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-dark-save-btn-background-color-hover: var(--neutral-ultra-light) !default; // dashboard
+$f-dark-save-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-dark-save-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Dark > Reset
+$f-dark-reset-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-dark-reset-btn-background-color-hover: var(--neutral-ultra-light) !default; // dashboard
+$f-dark-reset-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-dark-reset-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Dark > Clear
+$f-dark-clear-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-dark-clear-btn-background-color-hover: var(--neutral-ultra-light) !default; // dashboard
+$f-dark-clear-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-dark-clear-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+// Buttons Dark > Upload
+$f-dark-upload-btn-background-color: var(--neutral-light) !default; // dashboard
+$f-dark-upload-btn-background-color-hover: var(--neutral-light) !default; // dashboard
+$f-dark-upload-btn-text-color: var(--neutral-ultra-dark) !default; // dashboard
+$f-dark-upload-btn-text-color-hover: var(--neutral-ultra-dark) !default; // dashboard
+
+// Radio & Checkbox
+$f-option-label-font-weight: 400 !default; // dashboard
+$f-option-label-font-size-min: 1.4 !default; // dashboard
+$f-option-label-font-size-max: 1.6 !default; // dashboard
+$f-option-label-size: fluidClamp($f-option-label-font-size-min, $f-option-label-font-size-max);
+$f-option-label-spacing: 0.5em !default; //dashboard
+
+// Radio & Checkbox Light
+$f-light-option-background-color: white !default;
+$f-light-option-action-color: var(--primary) !default; // dashboard
+$f-light-option-border-color: var(--neutral) !default; // dashboard
+$f-light-select-arrow-color: var(--neutral) !default; //dashboard
+
+// Radio & Checkbox Dark
+$f-dark-option-background-color: white !default;
+$f-dark-option-action-color: var(--primary) !default; // dashboard
+$f-dark-option-border-color: var(--neutral) !default; // dashboard
+$f-dark-select-arrow-color: var(--neutral-ultra-light) !default;
+
+// Progress
+$f-progress-height: 3rem !default; // dashboard
+$f-progress-bar-radius: $btn-border-radius !default; // dashboard
+
+// Progress Light
+$f-light-progress-background-color: var(--base-ultra-light) !default; // dashboard
+$f-light-progress-bar-fill-color: var(--primary) !default; // dashboard
+
+// Progress Dark
+$f-dark-progress-background-color: var(--base-ultra-light) !default; // dashboard
+$f-dark-progress-bar-fill-color: var(--primary) !default; // dashboard
+
+// Tabs
+$f-tab-border-size: 0px !default; // dashboard
+$f-tab-border-style: solid !default; // dashboard
+$f-tab-border-radius: $btn-border-radius !default; // dashboard
+$f-tab-text-size-pure: 1.4 !default; // dashboard
+$f-tab-text-size-min: 1.6 !default; // dashboard
+$f-tab-text-size-max: 1.8 !default; // dashboard
+$f-tab-text-size: fluidClamp($f-tab-text-size-min, $f-tab-text-size-max);
+$f-tab-text-weight: 400 !default; // dashboard
+$f-tab-text-line-height: 1 !default; // dashboard
+$f-tab-text-align: center !default; // dashboard
+$f-tab-text-transform: null !default; // dashboard
+$f-tab-text-decoration: none !default; // dashboard
+$f-tab-padding-y: 0.75em !default; // dashboard
+$f-tab-padding-x: 1.5em !default; // dashboard
+$f-tab-margin-x: 0 !default; // dashboard
+$f-tab-width: auto !default; // dashboard
+// Tabs Light
+$f-light-tab-background-color: transparent !default; // dashboard
+$f-light-tab-border-color: var(--neutral-light) !default; // dashboard
+$f-light-tab-border-bottom-color: var(--neutral-light) !default; // dashboard
+$f-light-tab-text-color: var(--neutral-dark) !default; // dashboard
+// Tabs Dark
+$f-dark-tab-background-color: transparent !default; // dashboard
+$f-dark-tab-border-color: var(--neutral-light) !default; // dashboard
+$f-dark-tab-border-bottom-color: var(--neutral-light) !default; // dashboard
+$f-dark-tab-text-color: var(--neutral-dark) !default; // dashboard
+// Tabs > Tabs Active
+$f-tab-active-border-bottom-size: 3px !default; // dashboard
+$f-tab-active-text-weight: 600 !default; // dashboard
+$f-tab-active-border-size: 0px !default; // dashboard
+$f-tab-active-border-style: solid !default; // dashboard
+// Tabs > Tabs Active Light
+$f-light-tab-active-background-color: transparent !default; // dashboard
+$f-light-tab-active-border-color: var(--primary) !default; // dashboard
+$f-light-tab-active-text-color: var(--neutral-dark) !default; // dashboard
+$f-light-tab-inactive-text-color: var(--neutral-dark-trans-80) !default; // dashboard
+// Tabs > Tabs Active Dark
+$f-dark-tab-active-background-color: transparent !default; // dashboard
+$f-dark-tab-active-border-color: var(--primary) !default; // dashboard
+$f-dark-tab-active-text-color: var(--neutral-light) !default; // dashboard
+$f-dark-tab-inactive-text-color: var(--neutral-light-trans-80) !default; // dashboard
+// Tabs > Tab Group
+$f-tab-group-padding-y: 0 !default; // dashboard
+$f-tab-group-padding-x: 0 !default; // dashboard
+$f-tab-group-border-bottom-size: 2px !default; // dashboard
+$f-tab-group-border-bottom-style: solid !default; // dashboard
+$f-tab-group-margin-bottom: 3rem !default; // dashboard
+// Tabs > Tab Group Light
+$f-light-tab-group-background-color: transparent !default; // dashboard
+$f-light-tab-group-border-bottom-color: var(--neutral-ultra-light) !default; // dashboard
+// Tabs > Tab Group Dark
+$f-dark-tab-group-background-color: transparent !default; // dashboard
+$f-dark-tab-group-border-bottom-color: var(--neutral-ultra-light) !default; // dashboard
+
+// Range Slider Light
+$f-light-range-background-color: var(--neutral-ultra-light) !default; // dashboard
+$f-light-range-left-track-color: var(--neutral-ultra-light) !default; //dashboard
+$f-light-range-right-track-color: var(--neutral-ultra-light) !default; //dashboard
+$f-light-range-thumb-color: var(--action) !default; // dashboard
+// Range Slider Dark
+$f-dark-range-background-color: var(--neutral-semi-dark) !default; // dashboard
+$f-dark-range-left-track-color: var(--neutral-semi-dark) !default; //dashboard
+$f-dark-range-right-track-color: var(--neutral-semi-dark) !default; //dashboard
+$f-dark-range-thumb-color: var(--action) !default; // dashboard
+
+// Focus Color Light
+$f-light-focus-color: var(--action) !default; // dashboard
+$f-light-focus-color-opacity: 0.25 !default; // dashboard
+$f-light-focus-hsl: null !default; // gets filled by Core.php
+
+// Focus Color Dark
+$f-dark-focus-color: var(--action) !default; // dashboard
+$f-dark-focus-color-opacity: 0.25 !default; // dashboard
+$f-dark-focus-hsl: null !default; // gets filled by Core.php

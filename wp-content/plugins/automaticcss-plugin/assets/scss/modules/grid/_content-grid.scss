@@ -1,0 +1,54 @@
+@import "options";
+
+// Content Grid Utilities
+@if $option-content-grid == on {
+	.content-grid {
+		@include content-grid;
+	}
+
+	.content--feature {
+		grid-column: feature;
+	}
+	.content--feature-max {
+		grid-column: feature-max;
+	}
+	.content--full {
+		grid-column: full;
+	}
+	.content--full-safe {
+		grid-column: full;
+		padding-inline: var(--gutter);
+	}
+	.content-grid:where(.content--full-safe) {
+		padding-inline: var(--gutter);
+	}
+
+	:is(.content--feature, .content--feature-max, .content--full, .content--full-safe):not(
+		.content-grid--off :is(.content--feature, .content--feature-max, .content--full, .content--full-safe)
+	) {
+		width: 100% !important;
+		max-width: 100%;
+	}
+
+	// Prevent collisions between content grid and padding classes
+	.content-grid {
+		&:is(
+			[class*="padding--"],
+			[class*="section--"],
+			[class*="header--"]
+			) {
+				padding-inline: 0;
+		}
+	}
+	@if $option-deprecated-padding == on {
+		.content-grid {
+			&:is(
+				[class*="pad--"],
+				[class*="pad-section--"],
+				[class*="pad-header--"]
+				) {
+					padding-inline: 0;
+			}
+		}
+	}
+}

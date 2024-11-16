@@ -1,0 +1,19 @@
+@mixin overlayBefore {
+	content: "";
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+  }
+
+  @mixin overlay($background) {
+	position: relative;
+	z-index: 0;
+
+	&::before {
+	  content: "";
+	  background: var(--overlay-background, #{$background});
+	  position: absolute;
+	  inset: 0;
+	  z-index: -1;
+	}
+  }

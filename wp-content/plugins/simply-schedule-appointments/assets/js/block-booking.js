@@ -26,7 +26,6 @@ registerBlockType("ssa/booking", {
 		"Displays an Appointment Booking Form. You can customize the appointment type and styles.",
 	icon: "calendar-alt",
 	category: "widgets",
-	example: {},
 
 	edit: function (props) {
 

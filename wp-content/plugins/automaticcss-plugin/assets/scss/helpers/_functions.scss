@@ -1,0 +1,161 @@
+// TURN RAW UNITS INTO REM UNITS
+
+@function append-rem($val) {
+  @return $val * 1rem;
+}
+
+// TURN RAW UNITS INTO % VALUES
+
+@function percent($val) {
+  @return $val * 1%;
+}
+
+// TURN RAW UNITS INTO VW
+
+@function vw($val) {
+  @return $val * 1vw;
+}
+
+// TURN RAW UNITS INTO VH
+
+@function vh($val) {
+  @return $val * 1vh;
+}
+
+// Exponent Math
+
+@function pow($number, $exponent) {
+  $value: 1;
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  }
+
+  @return $value;
+}
+
+@function fluidCalc($text-min, $text-max) {
+  $vp-delta: $vp-max - $vp-min;
+  $text-delta: $text-max - $text-min;
+  $vp-min-rem: $vp-min * 1rem;
+  $text-min-rem: $text-min * 1rem;
+  @return calc(
+    #{$text-min-rem} + (#{$text-delta} * ((100vw - #{$vp-min-rem}) / #{$vp-delta}))
+  );
+}
+
+@function fluidClamp($min, $max) {
+  $slope: ($max - $min) / ($vp-max - $vp-min);
+  $intercept: ($min - $slope * $vp-min) * 1rem;
+  $slope-vw: $slope * 100;
+  $min-rem: $min * 1rem;
+  $max-rem: $max * 1rem;
+  @return clamp(#{$min-rem}, calc(#{$slope-vw}vw + #{$intercept}), #{$max-rem});
+}
+
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+  @return $number;
+}
+
+@function fluid($min, $max) {
+  // Convert root font size from percentage to pixels (100% = 16px)
+  $root-px: (strip-unit($root-font-size) / 100) * 16;
+
+  // Convert to unitless values
+  $min-unitless: strip-unit($min);
+  $max-unitless: strip-unit($max);
+  $vp-min-unitless: strip-unit($vp-min);
+  $vp-max-unitless: strip-unit($vp-max);
+
+  $min-rem: $min-unitless / $root-px;
+  $max-rem: $max-unitless / $root-px;
+
+  $slope: ($max-rem - $min-rem) / ($vp-max-unitless - $vp-min-unitless);
+  $intercept: $min-rem - ($slope * $vp-min-unitless);
+  $slope-vw: $slope * 100;
+
+  @return clamp(#{$min-rem}rem, calc(#{$slope-vw}vw + #{$intercept}rem), #{$max-rem}rem);
+}
+
+@function fluidClampStop($stop, $min, $max) {
+  $slope: ($max - $min) / ($vp-max - $vp-min);
+  $intercept: ($min - $slope * $vp-min) * 1rem;
+  $slope-vw: $slope * 100;
+  $min-rem: $min * 1rem;
+  $max-rem: $max * 1rem;
+  @return max(
+    $stop,
+    clamp(#{$min-rem}, calc(#{$slope-vw}vw + #{$intercept}), #{$max-rem})
+  );
+}
+
+// Pixel to Rem Auto Converter
+@function ctr($pixel-value) {
+  $raw-root: $root-font-size / 1%;
+  $root: $raw-root / 100 * 16;
+  @return $pixel-value / $root * 1rem;
+}
+
+// Function to parse a CSS string into a map
+//
+// STEP 1: CREATE A PROPERTY/VALUE STRING
+// $your-string: "background: #000; color: #fff; width: 50px; height: 50px;";
+//
+// STEP 2: GENERATE YOUR MAP
+// $your-custom-css-map: parse-css-string($your-string);
+//
+// STEP 3: USE YOUR MAP
+// .your-selector {
+//   @each $key, $value in $your-custom-css-map {
+//     #{$key}: #{$value};
+//   }
+// }
+
+// NEED TO CREATE A MIXIN TO HANDLE THE LOOP
+
+@function parse-css-string($string) {
+  $map: ();
+  $length: str-length($string);
+  $start: 1;
+  $parsing: true;
+
+  @while $parsing {
+    // Find the next colon
+    $colon: str-index(str-slice($string, $start), ':');
+    @if $colon == null {
+      $parsing: false;
+    } @else {
+      $colon: $colon + $start - 1;
+
+      // Find the next semicolon
+      $semicolon: str-index(str-slice($string, $colon), ';');
+      @if $semicolon == null {
+        $semicolon: $length + 1;
+        $parsing: false;
+      } @else {
+        $semicolon: $semicolon + $colon - 1;
+      }
+
+      // Extract and trim key and value
+      $key: str-slice($string, $start, $colon - 1);
+      $value: str-slice($string, $colon + 1, $semicolon - 1);
+      $key: if(str-slice($key, 1, 1) == ' ', str-slice($key, 2), $key);
+      $value: if(str-slice($value, 1, 1) == ' ', str-slice($value, 2), $value);
+
+      // Add to map
+      $map: map-merge($map, ($key: $value));
+
+      // Move start to next property
+      $start: $semicolon + 1;
+    }
+  }
+
+  @return $map;
+}
+
+// END CSS STRING PARSER

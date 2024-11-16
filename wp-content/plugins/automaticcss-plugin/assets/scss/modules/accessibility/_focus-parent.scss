@@ -1,0 +1,49 @@
+// Focus Parent
+
+@if $option-accessibility-classes == on {
+
+  .focus-parent {
+    // If default style is "shadow"
+    @if $focus-style == shadow {
+      &:focus-within {
+        box-shadow: 0 0 0 var(--focus-width) var(--focus-color);
+      }
+      & :focus {
+        outline: none !important;
+        box-shadow: none !important;
+      }
+    }
+    // If default style is "outline"
+    @if $focus-style == outline {
+      &:focus-within {
+        outline: var(--focus-width) solid var(--focus-color);
+        outline-offset: var(--focus-offset);
+      }
+      & :focus {
+        outline: none !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+
+  .focus-parent--shadow {
+      &:focus-within {
+        box-shadow: 0 0 0 var(--focus-width) var(--focus-color);
+      }
+      & :focus {
+        outline: none !important;
+        box-shadow: none !important;
+      }
+    }
+    .focus-parent--outline {
+      &:focus-within {
+        outline: var(--focus-width) solid var(--focus-color);
+        outline-offset: var(--focus-offset);
+      }
+      & :focus {
+        outline: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+} // End options check

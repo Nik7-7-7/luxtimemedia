@@ -1,0 +1,10 @@
+@if $option-variable-grid == on {
+
+	.variable-grid {
+		display: grid !important;
+		grid-template-columns: repeat(auto-fit, minmax(min(var(--min, calc(var(--content-width) / 2 - var(--space-xxl))), 100%), 1fr));
+		grid-template-rows: var(--grid-1);
+		gap: var(--gap, var(--grid-gap));
+	}
+
+}

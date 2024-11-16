@@ -1,0 +1,6 @@
+// Loom uses section tags, which get our default section padding
+// And then cause a whitespace issue below the footer.
+// This fixes that issue.
+#shadow-host-companion {
+    padding: 0;
+  }

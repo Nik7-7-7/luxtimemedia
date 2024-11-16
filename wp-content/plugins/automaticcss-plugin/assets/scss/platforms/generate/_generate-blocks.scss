@@ -1,0 +1,86 @@
+@if $option-generate-blocks == on {
+/* Styles for GenerateBlocks */
+  // Establish content width for section inner wrappers
+
+  section > div {
+    inline-size: 100%;
+    max-inline-size: var(--width-vp-max);
+    margin-inline: auto;
+  }
+
+  // Set Generate Containers to Flex By Default
+
+  :where(
+    section > [class*="gb-container-"]:not(
+        // Exclude tabs elements
+        .gb-tabs,
+        // Exclude grid element
+        .gb-grid-wrapper,
+        // Exclude grids
+        [class*="grid--"],
+        )) 
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            inline-size: 100%;
+            // Support for auto contextual spacing
+            @if $option-content-gap == on {
+                gap: var(--content-gap);
+            }
+  }
+
+  // Set certain elements to 100% width by default so they don't shrink
+  // when they're the child of a flex item.
+  :where(
+    .gb-grid-wrapper,
+    .gb-accordion
+    ) {
+    inline-size: 100%;
+  }
+
+  // The grid wrapper has no flex direction set by default, so we set one.
+  section > .gb-grid-wrapper {
+    flex-direction: row;
+  }
+
+  // Button Overrides
+
+  @if $option-buttons == on and $option-generate-blocks == on {
+    // Generate Buttons
+  @each $btnColor, $btnProps in $buttons {
+    .btn--#{$btnColor} {
+      @each $prop, $value in $btnProps {
+        --#{$prop}: #{$value};
+      }
+    }
+  }
+    @each $buttonColor, $buttonProps in $buttons {
+      .btn--#{$buttonColor}:not(.wp-block-button),
+      .wp-block-button.btn--#{$buttonColor} > .wp-block-button__link,
+      .wp-block-button.btn--#{$buttonColor} > a {
+        @include btn-props();
+      }
+    }
+
+    // GENERATE BUTTON SIZES
+    @each $size, $extension in $sizeExtensions {
+      .btn--#{$extension}:not(.wp-block-button),
+      .wp-block-button.btn--#{$extension} > a,
+      .wp-block-button.btn--#{$extension} > .wp-block-button__link {
+        @include btn-props();
+        font-size: var(--text-#{$extension});
+        cursor: pointer;
+      }
+    }
+
+    a[class*="btn--"] {
+      display: inline-flex;
+    }
+
+    .btn--clear {
+      background: none;
+      border: none;
+    }
+  }
+} // End Generate Blocks Check

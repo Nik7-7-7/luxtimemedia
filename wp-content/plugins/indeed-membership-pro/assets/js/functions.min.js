@@ -1,0 +1,6 @@
+/*
+* Ultimate Membership Pro - Main Functions
+*/
+"use strict";
+function ihcBuyNewLevel(a){window.location.href=a}function ihcClosePopup(){jQuery("#popup_box").remove()}jQuery(document).ajaxSend(function(a,c,b){"string"===typeof b.data&&!1!==b.data.includes("action=ihc")&&"string"===typeof b.url&&b.url.includes("/admin-ajax.php")&&(a=jQuery('meta[name="ump-token"]').attr("content"),c.setRequestHeader("X-CSRF-UMP-TOKEN",a))});
+window.addEventListener("load",function(){jQuery(".ihc-mobile-bttn").on("click",function(){jQuery(".ihc-ap-menu").toggle()});jQuery(".ihc-js-account-page-account-banner-data").length&&IhcAccountPageBanner.init({triggerId:"js_ihc_edit_top_ap_banner",saveImageTarget:jQuery(".ihc-js-account-page-account-banner-data").attr("data-url_target"),cropImageTarget:jQuery(".ihc-js-account-page-account-banner-data").attr("data-url_target"),bannerClass:"ihc-user-page-top-ap-background"})});

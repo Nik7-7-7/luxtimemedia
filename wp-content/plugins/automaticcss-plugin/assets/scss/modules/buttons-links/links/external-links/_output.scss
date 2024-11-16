@@ -1,0 +1,13 @@
+@import 'mixins';
+
+@if $option-indicate-external-links == on {
+    @if $external-link-indicator-not == null {
+        a[target="_blank"] {
+            @include style-external-links;
+        }
+    } @else {
+        a[target="_blank"]:where(:not(#{$external-link-indicator-not})) {
+            @include style-external-links;
+        }
+    }
+}

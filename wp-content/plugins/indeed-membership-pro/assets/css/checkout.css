@@ -1,0 +1,763 @@
+/*
+* Checkout Showcase
+*
+*/
+/*Checkout Page */
+.ihc-checkout-page-wrapp{
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  margin: 10px auto;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.ihc-checkout-page-left-side{
+  display: inline-block;
+  /*min-width: 400px;*/
+  max-width: 600px;
+  padding: 10px 25px;
+  width: 49%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.ihc-checkout-page-right-side{
+  display: inline-block;
+  /*min-width: 400px;*/
+  max-width: 600px;
+  padding: 10px 25px;
+  width: 49%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.ihc-checkout-page-one-column{
+  display: block;
+  width: 100%;
+  margin:0 auto;
+}
+
+.iump-register-form .ihc-checkout-page-one-column{
+  padding:10px 0 !important;
+}
+.ihc-product-price-detail{
+  color:#888888;
+  display: block;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  padding-bottom: 7px;
+  padding-top: 3px;
+}
+.ihc-checkout-page-box-wrapper{
+  margin:15px 0;
+}
+.ihc-checkout-page-box-title{
+  font-size: 22px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin: 1em 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.ihc-checkout-page-customer-form-wrapper{
+  min-height: 250px;
+  min-width: 1px;
+}
+.ihc-checkout-page-customer-form{
+  margin-bottom: 40px;
+}
+.ihc-checkout-page-payment-selection-wrapper .ihc-checkout-page-box-title{
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+.ihc-checkout-page-payment-selection-wrapper .ihc-checkout-page-payment-selection{
+  background-color: #f5f5f5;
+  padding: 25px 15px;
+}
+.ihc-checkout-page-payment-selection-wrapper .ihc-checkout-page-payment-onsite-fields{
+  margin:30px 0;
+}
+.ihc-product-details{
+}
+.ihc-checkout-alert {
+  -webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid transparent;
+vertical-align: middle;
+width: 100%;
+margin: 1em 0 0;
+}
+.ihc-checkout-alert-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.ihc-checkout-alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color:#3c763d;
+}
+.ihc-checkout-alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.ihc-checkout-alert-warn {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.ihc-product-details-table{
+  border:none !important;
+  font-size: 14px;
+  font-weight: 500;
+  word-break: break-word;
+  table-layout: fixed;
+  margin: 0;
+  width:100% !important;
+}
+.ihc-product-details-table td{
+  border:none !important;
+  word-break: break-word;
+  padding: 0.1em 0.3em !important;
+  vertical-align: top;
+  background: transparent !important;
+}
+.ihc-product-details-table tr td:first-child{
+  width: 75%;
+}
+.ihc-product-details-table tr td:last-child{
+  width: 25%;
+}
+
+.ihc-subtotal-table tr td:first-child{
+  width: 60%;
+}
+.ihc-subtotal-table tr td:last-child{
+  width: 40%;
+}
+
+.ihc-product-details-table .ihc-product-name{
+  color:#333;
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+.ihc-product-details-table .ihc-product-description{
+  color:#888;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.ihc-product-details-table .ihc-prorate-description-wrapper{
+
+}
+.ihc-product-details-table .ihc-prorate-description{
+  color:#888;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+.ihc-product-details-table .ihc-prorate-description span{
+  color:#333;
+}
+.ihc-product-details-table .ihc-prorate-credit-description-wrapper .ihc-prorate-credit-description{
+  color:#888;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.ihc-product-details-table .ihc-prorate-credit-description-wrapper .ihc-prorate-credit{
+font-size: 12px;
+  color:#888;
+}
+.ihc-product-details-table .ihc-prorate-credit-description-wrapper .ihc-prorate-credit .ihc-product-price-detail{
+  font-size: 12px;
+}
+.ihc-product-details-table.ihc-price-description{
+  color:#888;
+  font-size: 12px;
+  line-height: 12px;
+  padding-bottom: 10px;
+}
+.ihc-product-extra-details-table{
+  border:none !important;
+}
+.ihc-product-details-table .ihc-product-price{
+  color:#333;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: right;
+}
+.ihc-then-payment-wrapper td{
+  padding-top: 15px !important;
+}
+.ihc-checkout-page-input-left{
+  width: 80%;
+  float: left;
+  padding-right: 10px;
+}
+.ihc-checkout-page-apply-right{
+  width: 20%;
+  float: right;
+}
+.ihc-checkout-page-input, .ihc-checkout-page-input-left input[type="text"], .ihc-checkout-page-input-left input[type="number"]{
+  width:100%;
+  -webkit-backface-visibility: hidden;
+  background: #fff;
+  border: solid 1px #ccc;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0.05rem 0.56rem;
+  -webkit-appearance: none;
+  outline-offset: 0;
+  border-radius: 0;
+  line-height: 35px;
+  font-size: 14px;
+  height: 35px;
+}
+.ihc-checkout-page-apply, .ihc-checkout-page-apply-right button[type="submit"]{
+  transition: background 150ms ease-in-out;
+  background: #33b5e5 !important;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff !important;
+  font-size: 14px !important;
+  font-weight: 700;
+  line-height: 35px !important;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 100% !important;
+  height: 35px !important;
+  cursor: pointer;
+}
+.ihc-dynamic-price-wrapper .ihc-checkout-page-apply-right button[type="submit"]{
+  background: #00aa9a !important;
+}
+.ihc-checkout-page-used{
+  height: 20px;
+  width: 100%;
+  padding: 5px 0;
+  content: " ";
+  font-size: 14px;
+}
+.ihc-checkout-page-used .ihc-checkout-page-used-label{
+  font-weight: bold;
+}
+.ihc-checkout-page-used .ihc-checkout-page-used-remove{
+  color: #2ea3f2;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.ihc-checkout-page-payment-selection .iump-form-checkbox, .ihc-checkout-page-payment-selection .iump-form-paybox, .ihc-checkout-page-payment-selection .iump-form-radiobox {
+    margin-bottom: 15px;
+    width: 32%;
+    padding-right: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+ .ihc-checkout-page-payment-selection .ihc-select-payment-theme-1 .iump-form-paybox{
+   text-align: left;
+   vertical-align: text-top;
+ }
+.ihc-checkout-page-payment-selection .ihc-select-payment-theme-3 select{
+  width: 100%;
+}
+.ihc-checkout-page-additional-info{
+  font-size: 14px;
+  padding: 10px 0 5px 0;
+  color:#666;
+}
+.ihc-taxes-wrapper{
+  border-top: 1px solid #ddd;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.ihc-taxes-wrapper .ihc-checkout-page-box-title{
+  font-size: 18px;
+  margin-bottom: 0px;
+  border-bottom:none;
+}
+.ihc-taxes-wrapper .ihc-tax-label{
+      color: #888888;
+      font-size: 14px;
+}
+.ihc-taxes-wrapper .ihc-tax-price{
+      color: #888888;
+      font-size: 14px;
+      text-align: right;
+}
+.ihc-subtotal-wrapper{
+  border-top: 1px solid #ddd;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.ihc-subtotal-wrapper .ihc-checkout-page-box-title{
+  font-size: 18px;
+  margin-bottom: 0px;
+  border-bottom:none;
+}
+.ihc-subtotal-wrapper .ihc-product-price{
+  line-height: 20px;
+  font-size: 18px;
+}
+.ihc-subtotal-wrapper .ihc-product-details-table{
+  margin: 10px 0;
+}
+.ihc-subtotal-wrapper td{
+  padding-bottom: 10px;
+}
+.ihc-product-fee-label-extra{
+  font-size: 13px;
+  color:#66666;
+  padding-left: 15px;
+}
+
+.ihc-product-price-extra{
+  font-size: 13px;
+  color:#66666;
+  text-align: right;
+}
+.ihc-terms-wrapper{
+  font-size: 14px;
+  color:#666;
+}
+.ihc-purchase-wrapper{
+  margin: 15px 0;
+  margin-top:25px;
+}
+.ihc-complete-purchase-button, .ihc-loading-purchase-button, .ihc-purchase-wrapper input[type="submit"]{
+  background-color: #7aa93c !important;
+  width: 100% !important;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff !important;
+  font-size: 1.2em !important;
+  font-weight: 700;
+  line-height: 1.5 !important;
+  outline: none;
+  padding: 0.56rem 0.1rem !important;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.ihc-loading-purchase-button{
+  text-align: center;
+}
+.ihc-loading-inline-payment-fields{
+  text-align: center;
+  margin: 40px auto;
+}
+.ihc-loading-inline-payment-fields .ihc-icon-spinner{
+ vertical-align: text-bottom;
+}
+.ihc-checkout-page-box-extra-options{
+  border-top: 1px solid #ddd;
+   background-color: #f5f5f5;
+   padding: 0px 20px 10px 20px;
+}
+.ihc-braintree-form-wrapper{
+  margin:15px auto;
+}
+.ihc-braintree-form-card-name-wrap{
+  margin-bottom: 40px;
+}
+.ihc-braintree-input{
+  background-color: transparent;
+  box-sizing: border-box;
+border: none;
+display: block;
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+width: 100%;
+font-size: 1em;
+line-height: 1.3em;
+height: 1.3em;
+  color: rgb(102, 102, 102);
+font-family: Montserrat, Arial, Helvetica;
+font-size: 14px;
+font-weight: 400;
+-webkit-font-smoothing: antialiased;
+border: 1px solid rgba(0,0,0,.15) !important;
+border-radius: 5px;
+color: #2b2b2b;
+padding: 8px 10px 7px !important;
+display: block;
+width: 100%;
+min-height: 45px;
+}
+.ihc-braintree-form-card-name-wrap .ihc-braintree-input{
+  background: rgba(0,0,0,0.03) !important;
+}
+.ihc-braintree-form-card-number-label{
+    max-width: 100%;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+.ihc-braintree-form-details-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+}
+.ihc-braintree-form-details-exp-wrap, .ihc-braintree-form-details-cvv-wrap{
+  width: 48%;
+}
+.ihc-braintree-form-details-wrap .ihc-braintree-form-details-elements{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      border: 1px solid rgba(0,0,0,.15) !important;
+      border-radius: 5px;
+      line-height: 1.3em;
+      height: 1.3em;
+      min-height: 45px;
+      position: relative;
+}
+.ihc-braintree-form-details-exp-wrap .ihc-braintree-form-details-elements .ihc-braintree-input{
+  width: 48%;
+  border:none !important;
+
+    padding-right: 3px !important;
+}
+.ihc-braintree-form-details-exp-wrap .ihc-braintree-form-details-elements .ihc-braintree-form-details-exp-split{
+  line-height: 45px;
+  font-size: 20px;
+  position: absolute;
+  left:49%;
+}
+.ihc-braintree-form-details-exp-label, .ihc-braintree-form-details-cvv-label{
+    max-width: 100%;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.ihc-braintree-form-sandbox-block {
+  position: relative;
+box-sizing: border-box;
+display: inline-block;
+padding: 5px 15px;
+background-color: #f5b95e;
+color: #fff;
+font-size: 12px;
+line-height: 12px;
+border-radius:  0 0 3px 3px;
+font-weight: bold;
+vertical-align: top;
+}
+.ihc-braintree-form-sandbox-block-wrapper{
+  margin-bottom: 30px;
+      border-top: 3px solid #f5b95e;
+      text-align: center;
+}
+
+.ihc-authorize-form-wrapper{
+  margin:15px auto;
+}
+.ihc-authorize-form-card-name-wrap{
+  margin-bottom: 40px;
+}
+.ihc-authorize-input{
+  background-color: transparent;
+  box-sizing: border-box;
+border: none;
+display: block;
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+width: 100%;
+font-size: 1em;
+line-height: 1.3em;
+height: 1.3em;
+  color: rgb(102, 102, 102);
+font-family: Montserrat, Arial, Helvetica;
+font-size: 14px;
+font-weight: 400;
+-webkit-font-smoothing: antialiased;
+border: 1px solid rgba(0,0,0,.15) !important;
+border-radius: 5px;
+color: #2b2b2b;
+padding: 8px 10px 7px !important;
+display: block;
+width: 100%;
+min-height: 45px;
+}
+.ihc-authorize-form-card-name-wrap .ihc-authorize-input{
+  background: rgba(0,0,0,0.03) !important;
+}
+.ihc-authorize-form-card-number-label{
+    max-width: 100%;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+.ihc-authorize-form-details-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+}
+.ihc-authorize-form-details-card-number-wrap{
+  width: 68%;
+}
+
+.ihc-authorize-form-details-exp-wrap{
+  width: 30%;
+}
+.ihc-authorize-form-details-wrap .ihc-authorize-form-details-elements{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      border: 1px solid rgba(0,0,0,.15) !important;
+      border-radius: 5px;
+      line-height: 1.3em;
+      height: 1.3em;
+      min-height: 45px;
+      position: relative;
+}
+.ihc-authorize-form-details-exp-wrap .ihc-authorize-form-details-elements .ihc-authorize-input{
+  border:none !important;
+  padding-right: 3px !important;
+}
+.ihc-authorize-form-details-exp-wrap .ihc-authorize-form-details-elements .ihc-authorize-form-details-exp-split{
+  line-height: 45px;
+  font-size: 20px;
+  position: absolute;
+  left:49%;
+}
+.ihc-authorize-form-details-exp-label, .ihc-authorize-form-details-cvv-label{
+    max-width: 100%;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.ihc-authorize-form-sandbox-block {
+  position: relative;
+box-sizing: border-box;
+display: inline-block;
+padding: 5px 15px;
+background-color: #f5b95e;
+color: #fff;
+font-size: 12px;
+line-height: 12px;
+border-radius:  0 0 3px 3px;
+font-weight: bold;
+vertical-align: top;
+}
+.ihc-authorize-form-sandbox-block-wrapper{
+  margin-bottom: 30px;
+      border-top: 3px solid #f5b95e;
+      text-align: center;
+}
+/* ****Register page custom style**** */
+.ihc-register-3 .ihc-checkout-page-input,.ihc-register-3 .ihc-checkout-page-input-left input[type="text"]{
+      background-color: #edf0f5;
+}
+.ihc-register-3 .ihc-checkout-page-payment-selection-wrapper .ihc-checkout-page-payment-selection{
+  background-color: #edf0f5;
+}
+.ihc-register-3 .ihc-checkout-page-box-extra-options{
+  background: transparent;
+  padding: 0px 0px 10px 0px;
+}
+.ihc-register-3 .ihc-checkout-page-apply,.ihc-register-3 .ihc-checkout-page-apply-right button[type="submit"]{
+  background: none repeat scroll 0 0 #33b5e5 !important;
+  border-radius: 3px;
+}
+
+.ihc-register-4 .ihc-checkout-page-one-column{
+  max-width: 100%;
+}
+.ihc-register-4 .ihc-checkout-page-box-extra-options{
+  background: transparent;
+  padding: 0px 0px 10px 0px;
+}
+.ihc-register-4 .ihc-checkout-page-input,.ihc-register-4 .ihc-checkout-page-input-left input[type="text"]{
+  background-color: #fafafa;
+  border: 1px solid #efefef;
+}
+
+.ihc-register-5 .ihc-checkout-page-one-column{
+  max-width: 100%;
+}
+
+.ihc-register-8 .ihc-checkout-page-input,.ihc-register-8 .ihc-checkout-page-input-left input[type="text"],
+.ihc-register-11 .ihc-checkout-page-input,.ihc-register-11 .ihc-checkout-page-input-left input[type="text"]{
+  border: 0 solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  background: transparent;
+}
+.ihc-register-9 .ihc-checkout-page-input,.ihc-register-9 .ihc-checkout-page-input-left input[type="text"],
+.ihc-register-12 .ihc-checkout-page-input,.ihc-register-12 .ihc-checkout-page-input-left input[type="text"]{
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 45px!important;
+  -webkit-border-radius: 45px!important;
+  -moz-border-radius: 45px!important;
+  -o-border-radius: 45px!important;
+  box-shadow: 2px 0 30px transparent;
+  -webkit-box-shadow: 0 0 9px transparent;
+  -moz-box-shadow: 2px 0 30px transparent;
+  -webkit-transition: all .3s linear 0s;
+  -moz-transition: all .3s linear 0s;
+  -ms-transition: all .3s linear 0s;
+  -o-transition: all .3s linear 0s;
+  transition: all .3s linear 0s;
+  min-height: 36px;
+}
+.ihc-register-9 .ihc-checkout-page-apply,.ihc-register-9  .ihc-checkout-page-apply-right button[type="submit"],
+.ihc-register-12 .ihc-checkout-page-apply,.ihc-register-12  .ihc-checkout-page-apply-right button[type="submit"]{
+  border-radius: 45px!important;
+  -webkit-border-radius: 45px!important;
+  -moz-border-radius: 45px!important;
+  -o-border-radius: 45px!important;
+  box-shadow: 2px 0 30px transparent;
+  -webkit-box-shadow: 0 0 9px transparent;
+  -moz-box-shadow: 2px 0 30px transparent;
+  -webkit-transition: all .3s linear 0s;
+  -moz-transition: all .3s linear 0s;
+  -ms-transition: all .3s linear 0s;
+  -o-transition: all .3s linear 0s;
+  transition: all .3s linear 0s;
+}
+.ihc-register-10 .ihc-checkout-page-input,.ihc-register-10 .ihc-checkout-page-input-left input[type="text"],
+.ihc-register-13 .ihc-checkout-page-input,.ihc-register-13 .ihc-checkout-page-input-left input[type="text"]{
+  -webkit-box-shadow: inset 0 1px 2px rgb(0 0 0 / 7%);
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 7%);
+}
+.ihc-register-14 .ihc-checkout-page-input,.ihc-register-14 .ihc-checkout-page-input-left input[type="text"]{
+  border: 2px solid rgba(0,0,0,.15);
+}
+
+.ihc-stripe-connect-form-wrapper{
+    margin: 15px auto;
+}
+.ihc-stripe-connect-form-card-name-wrap, .ihc-stripe-connect-form-card-number-wrap, .ihc-stripe-connect-form-wallets-wrap{
+    margin-bottom: 30px;
+}
+.ihc-stripe-connect-input{
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.3em;
+    height: 1.3em;
+    color: rgb(102, 102, 102);
+    font-family: Montserrat, Arial, Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    border: 1px solid rgba(0,0,0,.15) !important;
+    border-radius: 5px;
+    color: #2b2b2b;
+    padding: 8px 10px 7px !important;
+    width: 100%;
+    min-height: 45px;
+    background: rgba(0,0,0,0.03) !important;
+}
+.ihc-stripe-connect-form-card-number-input{
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.3em;
+  color: rgb(102, 102, 102);
+  font-family: Montserrat, Arial, Helvetica;
+  margin: 0;
+  font-size: 1em;
+  color: rgb(102, 102, 102);
+  padding: 8px 10px 7px !important;
+  width: 100%;
+  min-height: 45px;
+}
+.ihc-stripe-connect-form-sandbox-block {
+  position: relative;
+box-sizing: border-box;
+display: inline-block;
+padding: 5px 15px;
+background-color: #f5b95e;
+color: #fff;
+font-size: 12px;
+line-height: 12px;
+border-radius:  0 0 3px 3px;
+font-weight: bold;
+vertical-align: top;
+}
+.ihc-stripe-connect-form-sandbox-block-wrapper{
+  margin-bottom: 30px;
+      border-top: 3px solid #f5b95e;
+      text-align: center;
+}
+.ihc-stripe-connect-form-card-errors{
+  color: #dd3559;
+}
+.ihc-stripe-connect-saved-cards{
+  margin-bottom: 25px;
+}
+.ihc-stripe-connect-saved-card-wrapper{
+  padding: 10px 5px 10px 5px;
+  border:1px solid transparent;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.ihc-stripe-connect-saved-card-wrapper-selected{
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+}
+.ihc-stripe-connect-saved-card-details{
+  display: inline-block;
+}
+.ihc-stripe-connect-saved-card-brand{
+  text-transform: capitalize;
+}
+.ihc-stripe-connect-saved-card-number{
+  padding-left: 10px;
+  padding-right: 25px;
+}
+@media (max-width:468px) {
+    .ihc-product-details-table tr td:first-child{
+      width: 60%;
+    }
+    .ihc-product-details-table tr td:last-child {
+    width: 40%;
+  }
+  .ihc-checkout-page-input-left{
+    float:none;
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 10px;
+  }
+  .ihc-checkout-page-apply-right {
+    float:none;
+    width: 100%;
+    padding-right: 0px;
+  }
+  .ihc-authorize-form-details-exp-wrap {
+    width: 40%;
+  }
+  .ihc-authorize-form-details-card-number-wrap {
+    width: 58%;
+  }
+  .ihc-authorize-form-details-wrap{
+    font-size: 12px;
+  }
+  .ihc-checkout-page-used{
+    height: auto;
+  }
+  .ihc-checkout-page-payment-selection-wrapper .ihc-checkout-page-payment-selection{
+    padding: 25px 10px;
+  }
+  .ihc-checkout-page-payment-selection .iump-form-checkbox, .ihc-checkout-page-payment-selection .iump-form-paybox, .ihc-checkout-page-payment-selection .iump-form-radiobox{
+    padding-right: 5px;
+    width: 49%;
+  }
+}

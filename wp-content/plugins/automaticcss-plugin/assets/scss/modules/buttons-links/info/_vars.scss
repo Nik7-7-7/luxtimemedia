@@ -1,0 +1,130 @@
+// Info Defaults
+$option-info-btn: on !default;
+$option-info-btn-shades: on !default;
+$option-info-btn-outline: on !default;
+
+///// Main
+$btn-info-bg: var(--info) !default;
+$btn-info-hover: var(--info-hover) !default;
+$btn-info-text: var(--info-ultra-light) !default;
+$btn-info-hover-text: var(--info-ultra-light) !default;
+$btn-info-border-color: var(--info) !default;
+$btn-info-hover-border-color: var(--info-hover) !default;
+$btn-info-focus-color: var(--info-light) !default;
+///// Dark
+$btn-info-dark-bg: var(--info-dark) !default;
+$btn-info-dark-hover: var(--info-ultra-dark) !default;
+$btn-info-dark-text: var(--info-ultra-light) !default;
+$btn-info-dark-hover-text: var(--info-ultra-light) !default;
+$btn-info-dark-border-color: var(--info-dark) !default;
+$btn-info-dark-hover-border-color: var(--info-ultra-dark) !default;
+$btn-info-dark-focus-color: var(--info-semi-dark) !default;
+///// Light
+$btn-info-light-bg: var(--info-ultra-light) !default;
+$btn-info-light-hover: var(--info-light) !default;
+$btn-info-light-text: var(--info) !default;
+$btn-info-light-hover-text: var(--info-ultra-dark) !default;
+$btn-info-light-border-color: var(--info-ultra-light) !default;
+$btn-info-light-hover-border-color: var(--info-light) !default;
+$btn-info-light-focus-color: var(--info-light) !default;
+///// Outline
+$btn-info-outline-background: transparent !default;
+$btn-info-outline-background-hover: var(--info-hover) !default;
+$info-outline-btn-text: var(--info) !default;
+$info-outline-hover-text: var(--info-ultra-light) !default;
+$btn-info-outline-border-color: var(--info) !default;
+$btn-info-outline-border-hover: var(--info-hover) !default;
+$btn-info-outline-focus-color: var(--info-semi-light) !default;
+///// Outline Dark
+$btn-info-outline-dark-background: transparent !default;
+$btn-info-outline-dark-background-hover: var(--info-dark) !default;
+$info-outline-dark-btn-text: var(--info-dark) !default;
+$info-outline-dark-hover-text: var(--info-ultra-light) !default;
+$btn-info-outline-dark-border-color: var(--info-dark) !default;
+$btn-info-outline-dark-border-hover: var(--info-dark) !default;
+$btn-info-outline-dark-focus-color: var(--info-semi-dark) !default;
+///// Outline Light
+$btn-info-outline-light-background: transparent !default;
+$btn-info-outline-light-background-hover: var(--info-ultra-light) !default;
+$info-outline-light-btn-text: var(--info-ultra-light) !default;
+$info-outline-light-hover-text: var(--info-dark) !default;
+$btn-info-outline-light-border-color: var(--info-ultra-light) !default;
+$btn-info-outline-light-border-hover: var(--info-ultra-light) !default;
+$btn-info-outline-light-focus-color: var(--info-light) !default;
+
+$btn-info: (); // Initialize Map
+@if $option-info-btn == on {
+
+    $btn-info: (
+        "info": (
+            btn-background: $btn-info-bg,
+            btn-background-hover: $btn-info-hover,
+            btn-text-color: $btn-info-text,
+            btn-text-color-hover: $btn-info-hover-text,
+            btn-border-color: $btn-info-border-color,
+            btn-border-color-hover: $btn-info-hover-border-color,
+            focus-color: $btn-info-focus-color,
+        ),
+        "info-dark": (
+            btn-background: $btn-info-dark-bg,
+            btn-background-hover: $btn-info-dark-hover,
+            btn-text-color: $btn-info-dark-text,
+            btn-text-color-hover: $btn-info-dark-hover-text,
+            btn-border-color: $btn-info-dark-border-color,
+            btn-border-color-hover: $btn-info-dark-hover-border-color,
+            focus-color: $btn-info-dark-focus-color,
+        ),
+        "info-light": (
+            btn-background: $btn-info-light-bg,
+            btn-background-hover: $btn-info-light-hover,
+            btn-text-color: $btn-info-light-text,
+            btn-text-color-hover: $btn-info-light-hover-text,
+            btn-border-color: $btn-info-light-border-color,
+            btn-border-color-hover: $btn-info-light-hover-border-color,
+            focus-color: $btn-info-light-focus-color,
+        ),
+        "info.btn--outline": (
+            btn-background: $btn-info-outline-background,
+            btn-background-hover: $btn-info-outline-background-hover,
+            btn-text-color: $info-outline-btn-text,
+            btn-text-color-hover: $info-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-info-outline-border-color,
+            btn-border-color-hover: $btn-info-outline-border-hover,
+            focus-color: $btn-info-focus-color,
+        ),
+        "info-dark.btn--outline": (
+            btn-background: $btn-info-outline-dark-background,
+            btn-background-hover: $btn-info-outline-dark-background-hover,
+            btn-text-color: $info-outline-dark-btn-text,
+            btn-text-color-hover: $info-outline-dark-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-info-outline-dark-border-color,
+            btn-border-color-hover: $btn-info-outline-dark-border-hover,
+            focus-color: $btn-info-focus-color,
+        ),
+        "info-light.btn--outline": (
+            btn-background: $btn-info-outline-light-background,
+            btn-background-hover: $btn-info-outline-light-background-hover,
+            btn-text-color: $info-outline-light-btn-text,
+            btn-text-color-hover: $info-outline-light-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-info-outline-light-border-color,
+            btn-border-color-hover: $btn-info-outline-light-border-hover,
+            focus-color: $btn-info-focus-color,
+        ),
+    );
+
+    @if $option-info-btn-outline == off {
+        $btn-info: map-remove($btn-info, "info.btn--outline");
+        $btn-info: map-remove($btn-info, "info-dark.btn--outline");
+        $btn-info: map-remove($btn-info, "info-light.btn--outline");
+    }
+    @if $option-info-btn-shades == off {
+        $btn-info: map-remove($btn-info, "info-dark");
+        $btn-info: map-remove($btn-info, "info-light");
+        $btn-info: map-remove($btn-info, "info-dark.btn--outline");
+        $btn-info: map-remove($btn-info, "info-light.btn--outline-light");
+    }
+
+}

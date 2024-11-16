@@ -1,0 +1,7 @@
+// Programmatic color scheme protection
+$color-scheme-main-selectors: ":root", ".color-scheme--main";
+$colorscheme-locked-selectors: null !default;
+
+@if $colorscheme-locked-selectors !=null {
+	$color-scheme-main-selectors: join($color-scheme-main-selectors, $colorscheme-locked-selectors);
+}

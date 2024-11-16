@@ -1,0 +1,202 @@
+{
+	"$schema": "screen.schema.json",
+	"id": "cards",
+	"title": "Cards",
+	"type": "screen-container",
+	"iconPaths": [
+		"M1 16.0625C1 16.5301 1.37617 16.9062 1.84375 16.9062H3.94258C4.30117 18.0488 5.36641 18.875 6.625 18.875C7.88359 18.875 8.94883 18.0488 9.30742 16.9062H18.1562C18.6238 16.9062 19 16.5301 19 16.0625C19 15.5949 18.6238 15.2188 18.1562 15.2188H9.30742C8.94883 14.0762 7.88359 13.25 6.625 13.25C5.36641 13.25 4.30117 14.0762 3.94258 15.2188H1.84375C1.37617 15.2188 1 15.5949 1 16.0625ZM5.5 16.0625C5.5 15.7641 5.61853 15.478 5.82951 15.267C6.04048 15.056 6.32663 14.9375 6.625 14.9375C6.92337 14.9375 7.20952 15.056 7.42049 15.267C7.63147 15.478 7.75 15.7641 7.75 16.0625C7.75 16.3609 7.63147 16.647 7.42049 16.858C7.20952 17.069 6.92337 17.1875 6.625 17.1875C6.32663 17.1875 6.04048 17.069 5.82951 16.858C5.61853 16.647 5.5 16.3609 5.5 16.0625ZM12.25 10.4375C12.25 10.1391 12.3685 9.85298 12.5795 9.64201C12.7905 9.43103 13.0766 9.3125 13.375 9.3125C13.6734 9.3125 13.9595 9.43103 14.1705 9.64201C14.3815 9.85298 14.5 10.1391 14.5 10.4375C14.5 10.7359 14.3815 11.022 14.1705 11.233C13.9595 11.444 13.6734 11.5625 13.375 11.5625C13.0766 11.5625 12.7905 11.444 12.5795 11.233C12.3685 11.022 12.25 10.7359 12.25 10.4375ZM13.375 7.625C12.1164 7.625 11.0512 8.45117 10.6926 9.59375H1.84375C1.37617 9.59375 1 9.96992 1 10.4375C1 10.9051 1.37617 11.2812 1.84375 11.2812H10.6926C11.0512 12.4238 12.1164 13.25 13.375 13.25C14.6336 13.25 15.6988 12.4238 16.0574 11.2812H18.1562C18.6238 11.2812 19 10.9051 19 10.4375C19 9.96992 18.6238 9.59375 18.1562 9.59375H16.0574C15.6988 8.45117 14.6336 7.625 13.375 7.625ZM7.75 5.9375C7.45163 5.9375 7.16548 5.81897 6.95451 5.608C6.74353 5.39702 6.625 5.11087 6.625 4.8125C6.625 4.51413 6.74353 4.22798 6.95451 4.017C7.16548 3.80603 7.45163 3.6875 7.75 3.6875C8.04837 3.6875 8.33452 3.80603 8.54549 4.017C8.75647 4.22798 8.875 4.51413 8.875 4.8125C8.875 5.11087 8.75647 5.39702 8.54549 5.608C8.33452 5.81897 8.04837 5.9375 7.75 5.9375ZM10.4324 3.96875C10.0738 2.82617 9.00859 2 7.75 2C6.49141 2 5.42617 2.82617 5.06758 3.96875H1.84375C1.37617 3.96875 1 4.34492 1 4.8125C1 5.28008 1.37617 5.65625 1.84375 5.65625H5.06758C5.42617 6.79883 6.49141 7.625 7.75 7.625C9.00859 7.625 10.0738 6.79883 10.4324 5.65625H18.1562C18.6238 5.65625 19 5.28008 19 4.8125C19 4.34492 18.6238 3.96875 18.1562 3.96875H10.4324Z"
+	],
+	"content": [
+		{
+			"id": "option-cards",
+			"title": "Card Framework (Experimental)",
+			"type": "toggle",
+			"default": "off",
+			"style": "primary",
+			"tooltip": "Enable the ACSS card framework."
+		},
+		{
+			"id": "forms-style-tabs",
+			"title": "Forms Tabs",
+			"type": "tabs-container",
+			"style": "full-width",
+			"tooltip": "",
+			"displayWhen": [
+				"option-cards",
+				"on"
+			],
+			"content": [
+				{
+					"id": "form-default-styles",
+					"title": "Default",
+					"icon": "settings",
+					"content": [
+						{
+							"id": "card-spacing",
+							"title": "Spacing",
+							"type": "section-container",
+							"tooltip": "",
+							"description": "",
+							"default": "on",
+							"displayWhen": [
+								"option-cards",
+								"on"
+							],
+							"content": [
+								{
+									"id": "card-padding",
+									"title": "Card Padding",
+									"type": "text",
+									"default": "var(--space-l)",
+									"tooltip": ""
+								},
+								{
+									"id": "card-gap",
+									"title": "Card Content Gap",
+									"type": "text",
+									"default": "calc(var(--content-gap) / 2)",
+									"tooltip": ""
+								}
+							]
+						},
+						{
+							"id": "card-typography",
+							"title": "Typography",
+							"type": "section-container",
+							"tooltip": "",
+							"description": "",
+							"default": "on",
+							"content": [
+								{
+									"id": "card-heading-size",
+									"title": "Heading Size",
+									"type": "text",
+									"default": "var(--h3)",
+									"tooltip": ""
+								},
+								{
+									"id": "card-text-size",
+									"title": "Text Size",
+									"type": "text",
+									"default": "var(--text-s)",
+									"tooltip": ""
+								}
+							]
+						},
+						{
+							"id": "card-icons",
+							"title": "Icons",
+							"type": "section-container",
+							"tooltip": "",
+							"description": "",
+							"default": "on",
+							"content": [
+								{
+									"id": "card-icon-size",
+									"title": "Icon Size",
+									"type": "text",
+									"default": "48px",
+									"tooltip": ""
+								}
+							]
+						},
+						{
+							"id": "card-avatars",
+							"title": "Avatars",
+							"type": "section-container",
+							"tooltip": "",
+							"description": "",
+							"default": "on",
+							"content": [
+								{
+									"id": "card-avatar-size",
+									"title": "Avatar Size",
+									"type": "text",
+									"default": "60px",
+									"tooltip": ""
+								},
+								{
+									"id": "card-avatar-radius",
+									"title": "Avatar Radius",
+									"type": "text",
+									"default": "50vw",
+									"tooltip": ""
+								},
+								{
+									"id": "card-avatar-aspect-ratio",
+									"title": "Aspect Ratio",
+									"type": "text",
+									"default": "1",
+									"tooltip": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "form-light-styles",
+					"title": "Light Cards",
+					"icon": "sun",
+					"content": [
+						{
+							"id": "light-card-background",
+							"title": "Background",
+							"type": "text",
+							"default": "var(--white)",
+							"tooltip": ""
+						},
+						{
+							"id": "light-card-heading-color",
+							"title": "Heading Color",
+							"type": "text",
+							"default": "var(--text-dark)",
+							"tooltip": ""
+						},
+						{
+							"id": "light-card-text-color",
+							"title": "Text Color",
+							"type": "text",
+							"default": "var(--text-dark-muted)",
+							"tooltip": ""
+						},
+						{
+							"id": "light-card-link-hover",
+							"type": "hover-container",
+							"content": [
+								{
+									"id": "light-card-link-color",
+									"title": "Link Color",
+									"type": "text",
+									"default": "var(--primary)",
+									"tooltip": ""
+
+								},
+								{
+									"id": "light-card-link-color-hover",
+									"title": "Link Hover",
+									"type": "text",
+									"default": "var(--primary-hover)",
+									"tooltip": ""
+								}
+							]
+						},
+						{
+							"id": "light-card-icon-color",
+							"title": "Icon Color",
+							"type": "text",
+							"default": "var(--text-dark-muted)",
+							"tooltip": ""
+						}
+					]
+				},
+				{
+					"id": "form-dark-styles",
+					"title": "Dark Cards",
+					"icon": "moon",
+					"content": [
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+$flexDirections: (
+  col: column,
+  row: row,
+  col-reverse: column-reverse,
+  row-reverse: row-reverse,
+);
+
+$flexAlignments: (
+  justify-content: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    between: space-between,
+    around: space-around,
+    stretch: stretch,
+  ),
+  align-content: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    baseline: baseline,
+    stretch: stretch,
+  ),
+  justify-items: (
+    start: flex-start,
+    center: center,
+    end: flex-end,
+    stretch: stretch,
+  ),
+  align-items: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    baseline: baseline,
+    stretch: stretch,
+  ),
+  self: (
+    start: flex-start,
+    end: flex-end,
+    stretch: stretch,
+    center: center,
+  ),
+);

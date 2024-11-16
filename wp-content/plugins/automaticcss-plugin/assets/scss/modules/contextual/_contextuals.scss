@@ -1,0 +1,26 @@
+@import "contextual-maps";
+@import "contextual-vars";
+
+// Generate Classes
+
+@each $utility-category, $utility-group in $contextuals{
+    @each $utility, $utility-value in $utility-group {
+        // Generate Background Color Classes
+        @if $utility-category == "background-colors" {
+            .bg--#{$utility} {
+                background-color: var(--bg-#{$utility});
+            }
+        }
+        // Generate Text Color Classes
+        @if $utility-category == "text-colors" {
+            .text--#{$utility}.text--#{$utility},
+            .text--#{$utility}.text--#{$utility} :where(:is(h1,h2,h3,h4,h5,h6)) {
+                color: var(--text-#{$utility});
+            }
+            .text--#{$utility} {
+                --link-color: var(--text-#{$utility});
+                --link-color-hover: var(--text-#{$utility}-muted);
+            }
+        }
+    }
+}

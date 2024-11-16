@@ -1,0 +1,19 @@
+:root {
+  // GENERATE WIDTH VARIABLES
+
+  @each $widthName, $widthValue in $widths {
+    --width-#{$widthName}: #{$widthValue};
+  }
+
+  // GENERATE RADIUS VARIABLES
+
+  @each $size, $value in $radius {
+    --radius-#{$size}: #{$value};
+  }
+
+  // GENERATE WIDTH VARIABLES
+
+  @each $widthName, $widthValue in $widths {
+    --width-#{$widthName}: #{$widthValue};
+  }
+} // END ROOT

@@ -1,0 +1,5 @@
+@if $option-acss-dashboard-icon-display == off {
+    acss-dashboard {
+        --acss-dashboard-icon-display: none !important;
+    }
+}

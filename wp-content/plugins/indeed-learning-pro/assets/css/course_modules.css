@@ -1,0 +1,214 @@
+/*!
+ *  Ultimate Learning Pro - Courses Modules style
+ */
+.ulp-course-module-order{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:50px;
+	color:#555;
+	font-size:26px;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:center;
+	line-height:40px;
+	color: #1089b4;
+	color: #ccc;
+	padding-left:17px;
+}
+.ulp-course-module-order:before{
+    content: '\00b7\00b7\A\00b7\00b7\A\00b7\00b7';
+    color: #ccc;
+    display: block;
+    font-size: 32px;
+    height: 29px;
+    letter-spacing: -1px;
+    line-height: 8px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    width: 23px;
+	font-weight: 500;
+}
+.ulp-course-module-title{
+	border-left:5px solid #1089b4;
+	color:#222;
+	padding: 3px 100px 0 20px;
+	min-height:40px;
+	height:100%;
+	width:100%;
+	position:relative;
+	left:50px;
+}
+.ulp-course-module-title .ulp-module-name{
+	    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 24px;
+	font-weight:500;
+    color: #777;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+}
+.ulp-course-module-title .ulp-module-name:focus{
+	color:#444;
+	border:none;
+	border-bottom:1px solid #ddd;
+	    box-shadow: none;
+}
+.ulp-course-module-options{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:75px;
+	min-height:40px;
+}
+.ulp-course-module-options .fa-ulp{
+	width: 22px;
+    height: 24px;
+    font-size: 17px;
+    color: #999;
+    margin-left: 0px;
+    vertical-align: middle;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.ulp-course-module-options .fa-ulp:hover{
+	color: #00a0d2;
+}
+.ulp-add-module-button{
+	margin: 5px 0;
+	margin-top: 15px;
+    background: none;
+    border: 1px dashed #ccc;
+    background-color: rgba(255,255,255,0.35);
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+    color: #aaa;
+}
+.ulp-add-module-button:hover{
+	background-color: rgba(255,255,255,0.65);
+}
+.ulp-add-module-button:focus{
+	background-color: rgba(255,255,255,0.65);
+}
+.ulp-add-module-button .fa-ulp{
+	font-size:30px;
+}
+.ulp-course-module-list{
+	margin:10px 0 10px 50px;
+	box-sizing:border-box;
+}
+.ulp-course-module-list .ui-multiselect, .ulp-quiz-questions-select  .ui-multiselect{
+	width:100% !important;
+	border:none;
+}
+.ulp-course-module-list .ui-multiselect .ui-widget-header,
+.ulp-quiz-questions-select .ui-multiselect .ui-widget-header{
+	background:none;
+	color:#555;
+}
+.ulp-course-module-list .ui-multiselect div.selected,
+.ulp-quiz-questions-select .ui-multiselect div.selected{
+	width:50% !important;
+}
+.ulp-course-module-list .ui-multiselect ul.selected,
+.ulp-quiz-questions-select .ui-multiselect ul.selected{
+	background:none;
+	height: auto !important;
+}
+.ulp-course-module-list .ui-multiselect ul.selected li,
+.ulp-quiz-questions-select .ui-multiselect ul.selected li {
+	background:#fafafa;
+	min-height:35px;
+	line-height:35px;
+	color:#4b4b4b;
+	borer:none !important;
+	border-left:5px solid #1c9ab1 !important;
+	border-bottom:1px solid #e2e2e2 !important;
+	margin-bottom:0px;
+	font-size:12px;
+	width:100% !important;
+	}
+.ulp-course-module-list .ui-multiselect ul.selected li.ui-element,
+.ulp-quiz-questions-select .ui-multiselect ul.selected li.ui-element {
+	position:relative;
+}
+.ulp-course-module-list .ui-multiselect ul.selected li:before,
+.ulp-quiz-questions-select .ui-multiselect ul.selected  li:before{
+	content: " ";
+	width:4px;
+	min-height:35px;
+	line-height:35px;
+	border-left:7px double #d9e5e7;
+	position:absolute;
+	left:0;
+}
+.ulp-course-module-list .ui-multiselect div.available,
+.ulp-quiz-questions-select .ui-multiselect div.available{
+	border:none;
+	width:50% !important;
+	padding-left:20px;
+}
+.ulp-course-module-list .ui-multiselect ul.available,
+.ulp-quiz-questions-select .ui-multiselect  ul.available{
+	background:none;
+}
+.ulp-course-module-list .ui-multiselect ul.available li,
+.ulp-quiz-questions-select .ui-multiselect ul.available li{
+	    background: rgba(255,255,255,0.5);
+	min-height:30px;
+	line-height:30px;
+	color:#4b4b4b;
+}
+.ulp-course-module-list .ui-multiselect div.available .search,
+.ulp-quiz-questions-select .ui-multiselect div.available .search{
+	    width: 100%;
+    height: 35px;
+    background: #fff;
+    opacity: 0.9;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 10px;
+	margin-bottom: 5px;
+	background:none;
+	border:none;
+	border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #1089b4;
+}
+.ulp-course-module-list .ui-multiselect div.available .search:focus,
+.ulp-quiz-questions-select .ui-multiselect div.available .search:focus{
+    background: #fff;
+}
+.ui-multiselect li a.action{
+	right: 5px;
+    top: 0;
+	color:#666;
+}
+.ui-multiselect li .fa-sort-ulp{
+	position: absolute;
+    right: 20px;
+    top: 0px;
+    line-height: 35px;
+}
+.ui-multiselect li .moduleicon-ulp{
+	position:relative;
+	color:#1089b4;
+	right:auto;
+	padding-right:5px;
+	font-size:15px;
+}
+.ui-multiselect .count{
+	color:#222;
+	font-size:12px;
+}
+.ulp-course-module-list .ui-multiselect .ui-state-hover,
+.ulp-quiz-questions-select .ui-multiselect .ui-state-hover{
+	color:#4b4b4b !important;
+	/*background: inherit !important;*/
+}

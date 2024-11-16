@@ -1,0 +1,58 @@
+@import "../../modules/centering";
+
+@if $option-centering == on {
+  @each $extension in $centering-extensions {
+    .center--#{$extension} {
+      @if $extension == "all" {
+        @include center-all;
+      }
+      @if $extension == "y" {
+        @include center-y;
+      }
+      @if $extension == "x" {
+        @include center-x;
+      }
+      @if $extension == "left" {
+        @include center-left;
+      }
+      @if $extension == "right" {
+        @include center-right;
+      }
+      @if $extension == "top" {
+        @include center-top;
+      }
+      @if $extension == "bottom" {
+        @include center-bottom;
+      }
+    }
+  }
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) {
+      @each $extension in $centering-extensions {
+        .center--#{$extension}-#{$breakpoint} {
+          @if $extension == "all" {
+            @include center-all;
+          }
+          @if $extension == "y" {
+            @include center-y;
+          }
+          @if $extension == "x" {
+            @include center-x;
+          }
+          @if $extension == "left" {
+            @include center-left;
+          }
+          @if $extension == "right" {
+            @include center-right;
+          }
+          @if $extension == "top" {
+            @include center-top;
+          }
+          @if $extension == "bottom" {
+            @include center-bottom;
+          }
+        }
+      }
+    }
+  }
+}

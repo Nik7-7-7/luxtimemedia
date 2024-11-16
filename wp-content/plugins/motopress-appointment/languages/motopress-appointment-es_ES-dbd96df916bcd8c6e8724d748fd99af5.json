@@ -1,0 +1,132 @@
+{
+    "translation-revision-date": "2022-01-10 22:04",
+    "generator": "WP-CLI\/2.10.0",
+    "source": "assets\/js\/settings-page.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "es_ES",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Sun": [
+                "Dom"
+            ],
+            "Mon": [
+                "Lun"
+            ],
+            "Tue": [
+                "Mar"
+            ],
+            "Wed": [
+                "Mie"
+            ],
+            "Thu": [
+                "Jue"
+            ],
+            "Fri": [
+                "Vie"
+            ],
+            "Sat": [
+                "S\u00e1b"
+            ],
+            "Sunday": [
+                "Domingo"
+            ],
+            "Monday": [
+                "Lunes"
+            ],
+            "Tuesday": [
+                "Martes"
+            ],
+            "Wednesday": [
+                "Mi\u00e9rcoles"
+            ],
+            "Thursday": [
+                "Jueves"
+            ],
+            "Friday": [
+                "Viernes"
+            ],
+            "Saturday": [
+                "S\u00e1bado"
+            ],
+            "Jan": [
+                "Ene"
+            ],
+            "Feb": [
+                "Feb"
+            ],
+            "Mar": [
+                "Mar"
+            ],
+            "Apr": [
+                "Abr"
+            ],
+            "Month (short)\u0004May": [
+                "May"
+            ],
+            "Jun": [
+                "Jun"
+            ],
+            "Jul": [
+                "Jul"
+            ],
+            "Aug": [
+                "Ago"
+            ],
+            "Sep": [
+                "Sep"
+            ],
+            "Oct": [
+                "Oct"
+            ],
+            "Nov": [
+                "Nov"
+            ],
+            "Dec": [
+                "Dic"
+            ],
+            "January": [
+                "Enero"
+            ],
+            "February": [
+                "Febrero"
+            ],
+            "March": [
+                "Marzo"
+            ],
+            "April": [
+                "Abril"
+            ],
+            "Month\u0004May": [
+                "Mayo"
+            ],
+            "June": [
+                "Junio"
+            ],
+            "July": [
+                "Julio"
+            ],
+            "August": [
+                "Agosto"
+            ],
+            "September": [
+                "Septiembre"
+            ],
+            "October": [
+                "Octubre"
+            ],
+            "November": [
+                "Noviembre"
+            ],
+            "December": [
+                "Diciembre"
+            ],
+            "Phone number is invalid.": [
+                ""
+            ]
+        }
+    }
+}

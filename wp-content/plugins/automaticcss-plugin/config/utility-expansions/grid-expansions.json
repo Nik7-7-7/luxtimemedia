@@ -1,0 +1,66 @@
+{
+	"$schema": "expansions.schema.json",
+	"label": "Grid",
+	"expansions": {
+		"auto-grid": {
+    		"expandTo": "/* START AUTO GRID */\n%root% {\n  /* Number of columns */\n  --column-count: 3;\n  /* Minimum item width */\n  --min: calc((var(--content-width) - ((var(--column-count) - 1) * var(--grid-gap))) / var(--column-count));\n  /* No touchey */\n  display: grid !important;\n  gap: var(--grid-gap);\n  --min-formula: min(100%, max(var(--min), (100% - (var(--column-count) - 1) * var(--grid-gap)) / var(--column-count)));\n  --grid-template-columns: repeat(auto-fit, minmax(var(--min-formula), 1fr));\n  grid-template-columns: var(--grid-template-columns);\n  \n}\n%root% > * {\n  min-width: 0;\n  max-width: 100%;\n  overflow-wrap: break-word;\n}\n/* END AUTO GRID */"
+		},
+		"variable-grid": {
+			"expandTo": "/* Variable Grid */\n%root% {\n\t--min: calc(var(--content-width) / 2 - var(--space-xxl));\n\tdisplay: grid !important;\n\tgrid-template-columns: repeat(auto-fit, minmax(min(var(--min, calc(var(--content-width) / 2 - var(--space-xxl))), 100%), 1fr));\n\tgrid-template-rows: var(--grid-1);\n\tgap: var(--gap, var(--grid-gap));\n}\n/* End Variable Grid */"
+		},
+		"grid-1": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-1);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-2": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-2);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-3": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-3);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-4": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-4);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-5": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-5);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-6": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-6);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-7": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-7);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-8": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-8);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-9": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-9);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-10": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-10);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-11": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-11);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-12": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-12);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-1-2": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-1-2);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-1-3": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-1-3);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-2-1": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-2-1);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-2-3": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-2-3);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-3-1": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-3-1);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		},
+		"grid-3-2": {
+			"expandTo": "%root% {\n  display: grid;\n  grid-template-columns: var(--grid-3-2);\n  grid-template-rows: 1fr;\n  inline-size: 100%;\n}"
+		}
+	}
+}

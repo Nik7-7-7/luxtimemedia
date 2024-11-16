@@ -1,0 +1,11 @@
+.frames-builder-color-mode-alt-active {
+	color: var(--oxy-active);
+}
+
+.frames-builder-color-toggle-wrapper {
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}

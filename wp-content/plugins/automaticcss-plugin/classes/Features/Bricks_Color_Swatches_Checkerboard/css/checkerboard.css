@@ -1,0 +1,28 @@
+
+/*palette in grid view*/
+.color-palette.grid li{
+	background-color: white; 
+	background-image: linear-gradient(45deg, #ccc 25%, transparent 25%),
+				  linear-gradient(-45deg, #ccc 25%, transparent 25%),
+				  linear-gradient(45deg, transparent 75%, #ccc 75%),
+				  linear-gradient(-45deg, transparent 75%, #ccc 75%);
+				background-size: 10px 10px;
+				background-position: 0 0, 0 5px, 5px -5px, -5px 0px;
+	border-radius: 100vw;
+  }
+
+  /*palette in list view*/
+  .color-palette.list li .color-button::before {
+    background-color: white;
+    background-image: linear-gradient(45deg, #ccc 25%, transparent 25%),
+      linear-gradient(-45deg, #ccc 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #ccc 75%),
+      linear-gradient(-45deg, transparent 75%, #ccc 75%);
+    background-size: 10px 10px;
+    background-position: 0 0, 0 5px, 5px -5px, -5px 0px;
+    border-radius: 100vw;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    content: "";
+}

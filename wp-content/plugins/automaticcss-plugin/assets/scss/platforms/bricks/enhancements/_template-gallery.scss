@@ -1,0 +1,31 @@
+// Gallery Thumbnail Size
+
+$option-bricks-template-gallery-enhancements: on !default;
+
+@if $option-bricks-template-gallery-enhancements == on {
+  // Change gallery thumb size and aspect ratio
+  // #bricks-popup.templates .bricks-layout-item-inner {
+  //   height:100%!important;       
+  //   aspect-ratio: 4/3;
+  // }
+  // Object Fit Thumbnails
+  #bricks-popup.templates img { 
+    object-fit: cover !important;
+  }
+  // Fix Hover Opacity
+  #bricks-popup .bricks-layout-item-inner.has-img:hover .overlay-wrapper {
+    opacity: .5;
+  }
+  // Hide frame type
+  #bricks-popup.templates .bricks-layout-item-inner .button.type {
+    display: none !important;
+  }
+  // Hide frame author
+  #bricks-popup.templates .bricks-layout-item-inner .overlay-wrapper .user {
+    display: none !important;
+  }
+  // Full width layout
+  #bricks-popup.templates #bricks-popup-inner {
+    max-width: 100% !important;
+  }
+}

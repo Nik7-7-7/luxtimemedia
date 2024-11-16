@@ -1,0 +1,42 @@
+// html {
+//   @if $output-root-font-size != false {
+//     font-size: var(--root-font-size) !important;
+//   }
+// }
+
+.breakdance body {
+  --bde-body-font-size: var(--text-m);
+  line-height: var(--base-text-lh);
+  --bde-text-color: var(--body-color);
+}
+
+.breakdance h1 {
+  --bde-h1-font-size: var(--h1);
+  --bde-headings-color: var(--h1-color);
+  line-height: var(--h1-lh);
+}
+.breakdance h2 {
+  --bde-h2-font-size: var(--h2);
+  --bde-headings-color: var(--h2-color);
+  line-height: var(--h2-lh);
+}
+.breakdance h3 {
+  --bde-h3-font-size: var(--h3);
+  --bde-headings-color: var(--h3-color);
+  line-height: var(--h3-lh);
+}
+.breakdance h4 {
+  --bde-h4-font-size: var(--h4);
+  --bde-headings-color: var(--h4-color);
+  line-height: var(--h4-lh);
+}
+.breakdance h5 {
+  --bde-h5-font-size: var(--h5);
+  --bde-headings-color: var(--h5-color);
+  line-height: var(--h5-lh);
+}
+.breakdance h6 {
+  --bde-h6-font-size: var(--h6);
+  --bde-headings-color: var(--h6-color);
+  line-height: var(--h6-lh);
+}

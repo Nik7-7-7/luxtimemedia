@@ -1,0 +1,89 @@
+@import "vars";
+
+@mixin smart-spacing-normalize {
+    :where(p,h1,h2,h3,h4,h5,h6,ul,ol,li) {
+        margin-block: 0;
+    }
+}
+
+@mixin smart-spacing {
+    // Flow Spacing
+    > * + * {
+        margin-block-start: var(--flow-spacing, initial);
+        margin-block-end: 0;
+    }
+    // Headings
+    > * + :where(h1, h2, h3, h4, h5, h6) {
+        margin-block-start: var(--heading-spacing, var(--flow-spacing, initial));
+        margin-block-end: 0;
+    }
+    > :where(* + h2) {
+        margin-block-start: var(--h2-spacing, var(--heading-spacing));
+        margin-block-end: 0;
+    }
+    > :where(* + h3) {
+        margin-block-start: var(--h3-spacing, var(--heading-spacing));
+        margin-block-end: 0;
+    }
+     > :where(* + h4) {
+        margin-block-start: var(--h4-spacing, var(--heading-spacing));
+        margin-block-end: 0;
+    }
+    > :where(* + h5) {
+        margin-block-start: var(--h5-spacing, var(--heading-spacing));
+        margin-block-end: 0;
+    }
+    > :where(* + h6) {
+        margin-block-start: var(--h6-spacing, var(--heading-spacing));
+        margin-block-end: 0;
+    }
+    // Paragraphs
+    > * + p {
+        margin-block-start: var(--paragraph-spacing, var(--flow-spacing, initial));
+        margin-block-end: 0;
+    }
+    // Lists
+    > :is(* + ul, * + ol) {
+        margin-block: var(--list-spacing, var(--flow-spacing, initial));
+    }
+    > :is(ul, ol) {
+        padding-inline-start: var(--list-indent-spacing, var(--flow-spacing, initial));
+    }
+    // List items
+    > ul * + li, > ol * + li {
+        margin-block-start: var(--list-item-spacing, var(--flow-spacing, initial));
+        margin-block-end: 0;
+    }
+    // Nested lists
+    > ul ul, > ol ol, > ul ol, > ol ul {
+        margin-block: var(--nested-list-spacing, var(--list-item-spacing, initial));
+        padding-inline-start: var(--nested-list-indent-spacing, initial);
+    }
+    // Nested list items
+    > :is(ul, ol) :is(ul, ol) li {
+        margin-block-start: var(--nested-list-item-spacing, var(--list-item-spacing, initial));
+    }
+    // Figure tags
+    > * + figure, > * + picture {
+        margin-block: var(--figure-spacing, var(--flow-spacing, initial));
+    }
+    figcaption {
+        margin-block: var(--figcaption-spacing, var(--flow-spacing, initial));
+    }
+    // Blockquotes
+    > * + blockquote:where(:not(figure > blockquote)) {
+        margin-block: var(--blockquote-spacing, var(--flow-spacing, initial));
+    }
+    > blockquote * + * {
+        margin-block-start: var(--paragraph-spacing, var(--flow-spacing, initial));
+        margin-block-end: 0;
+    }
+    // Remove duplicate margins
+    $smart-spacing-duplicate-margin-elements: null !default;
+    @if $smart-spacing-duplicate-margin-elements != null {
+        > #{$smart-spacing-duplicate-margin-elements} + * {
+            --paragraph-spacing: 0;
+            --flow-spacing: 0;
+        }
+    }
+}

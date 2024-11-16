@@ -1,0 +1,15 @@
+@if $option-textures == on {
+	$index: 1;
+	@each $texture, $props in $textures {
+		$name: map-get($props, "name");
+		$asset: map-get($props, "asset");
+		@if $asset != null {
+			.texture-#{$name},  .texture-#{$index} {
+				@include texture($index);
+			}
+		}
+		$index: $index + 1;
+	}
+}
+
+@import "overlays";

@@ -1,0 +1,180 @@
+@import "options"; // Needed for Content Grid Mixin
+
+@mixin load-grid--has-nested($selector, $child) {
+    // This internal mixin loads all grid & gap classes for platforms that use inaccessible nested wrappers.
+  
+    // First, check to see if grid is turned on
+    @if $option-grid == on {
+      // Load grid utility classes
+      @each $grid-type, $col-set in $grids {
+        @each $col-count, $value in $col-set {
+          .grid--#{$col-count}:not(#{$selector}),
+          #{$selector}.grid--#{$col-count} > #{$child} {
+            display: grid !important;
+            grid-template-columns: #{$value};
+            inline-size: 100%;
+  
+            @if $col-count == "1" {
+              > * {
+                grid-column: 1 !important;
+              }
+            }
+          }
+        }
+      }
+      // Load breakpoint grid utility classes
+      @each $breakpoint, $value in $breakpoints {
+        @include breakpoint($breakpoint) {
+          @each $grid-type, $col-set in $grids {
+            @each $col-count, $colValue in $col-set {
+              @if $grid-type == standard {
+                .grid--#{$breakpoint}-#{$col-count}:not(#{$selector}),
+                #{$selector}.grid--#{$breakpoint}-#{$col-count} > #{$child} {
+                  grid-template-columns: #{$colValue};
+  
+                  @if $col-count == "1" {
+                    > #{$selector} {
+                      grid-column: 1 !important;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      // Load alternating grids
+      @each $breakpoint, $value in $breakpoints {
+      @include breakpoint-up($breakpoint) {
+      @each $grid, $value in $gridsReversed {
+        .grid--alternate-#{$breakpoint}:not(#{$selector}),
+        .grid--alternate-#{$breakpoint} > #{$child} {
+          > .grid--#{$grid}:nth-of-type(even) {
+            grid-template-columns: #{$value};
+            > #{$selector}:last-child {
+              order: -1;
+                }
+              }
+            }
+          }
+        }
+      }
+      // Reset auto staggered grids @ L breakpoint
+      // @include breakpoint(l) {
+      //   .grid--auto-1-2:not(#{$selector}),
+      //   #{$selector}.grid--auto-1-2 > #{$child} {
+      //     display: grid !important;
+      //     grid-template-columns: repeat(
+      //       auto-fit,
+      //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+      //     );
+      //   }
+      //   .grid--auto-1-3:not(#{$selector}),
+      //   #{$selector}.grid--auto-1-3 > #{$child} {
+      //     display: grid !important;
+      //     grid-template-columns: repeat(
+      //       auto-fit,
+      //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+      //     );
+      //   }
+      //   .grid--auto-3-2:not(#{$selector}),
+      //   #{$selector}.grid--auto-3-2 > #{$child} {
+      //     display: grid !important;
+      //     grid-template-columns: repeat(
+      //       auto-fit,
+      //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+      //     );
+      //   }
+      //   .grid--auto-2-3:not(#{$selector}),
+      //   #{$selector}.grid--auto-2-3 > #{$child} {
+      //     display: grid !important;
+      //     grid-template-columns: repeat(
+      //       auto-fit,
+      //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+      //     );
+      //   }
+      //   .grid--auto-2-1:not(#{$selector}),
+      //   #{$selector}.grid--auto-2-1 > #{$child} {
+      //     display: grid !important;
+      //     grid-template-columns: repeat(
+      //       auto-fit,
+      //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+      //     );
+      //   }
+      //   .grid--auto-3-1:not(#{$selector}),
+      //   #{$selector}.grid--auto-3-1 > #{$child} {
+      //     display: grid !important;
+      //     grid-template-columns: repeat(
+      //       auto-fit,
+      //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+      //     );
+      //   }
+      // }
+    } // End @if-grid-on
+    @if $option-auto-grid == on {
+      // Auto Grid Classes
+      @each $grid, $col-count in $auto-grids {
+        .grid--#{$grid}:not(#{$selector}),
+        #{$selector}.grid--#{$grid} > #{$child} {
+            --column-count: #{$col-count};
+        }
+      }
+      // Generate Staggered Auto Grids
+      @each $grid, $col-count in $auto-staggered-grids {
+        .grid--#{$grid}:not(#{$selector}),
+        #{$selector}.grid--#{$grid} > #{$child} {
+            grid-template-columns: #{$col-count};
+        }
+      }
+      // Stack auto grids at breakpoint
+      @include breakpoint(#{$auto-staggered-grid-breakpoint}) {
+        @each $grid, $col-count in $auto-staggered-grids {
+          .grid--#{$grid}:not(#{$selector}),
+          #{$selector}.grid--#{$grid} > #{$child} {
+              grid-template-columns: var(--grid-template-columns);
+              --column-count: 1;
+          }
+        }
+      }
+    }
+  } // End mixin
+
+// Recipe for Content Grid
+@mixin content-grid {
+	--full: minmax(var(--gutter), 1fr);
+	padding-inline: 0;
+	column-gap: 0 !important;
+	display: grid !important;
+	grid-template-columns:
+		[full-start]
+			var(--full)
+		[feature-max-start]
+			minmax(0, var(--feature-max-width, #{$content-feature-max}))
+		[feature-start]
+			minmax(0, var(--feature-width, #{$content-feature}))
+		[content-start]
+			min(var(--content-width), 100% - var(--gutter) * 2)
+		[content-end]
+			minmax(0, var(--feature-width, #{$content-feature}))
+		[feature-end]
+			minmax(0, var(--feature-max-width, #{$content-feature-max}))
+		[feature-max-end]
+			var(--full)
+		[full-end];
+
+	> :not(
+		.content--feature,
+		.content--feature-max,
+		.content--full,
+		.content--full-safe) {
+			width: 100%;
+	}
+
+	> :where(:not(
+		.content--feature,
+		.content--feature-max,
+		.content--full,
+		.content--full-safe)) {
+			grid-column: content;
+	}
+}

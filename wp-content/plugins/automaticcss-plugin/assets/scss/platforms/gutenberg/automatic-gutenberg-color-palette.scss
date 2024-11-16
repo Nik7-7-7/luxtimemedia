@@ -1,0 +1,26 @@
+@import "../../dashboard/options";
+@import "../../modules/colors/color-merge";
+
+@each $color, $value in $all-colors {
+	.has-#{$color}-color {
+		color: var(--#{$color});
+	}
+	.has-#{$color}-background-color {
+		background-color: var(--#{$color});
+	}
+	.has-#{$color}-border-color {
+		border-color: var(--#{$color});
+	}
+}
+
+@each $color, $value in $all-status-colors {
+	.has-#{$color}-color {
+		color: var(--#{$color});
+	}
+	.has-#{$color}-background-color {
+		background-color: var(--#{$color});
+	}
+	.has-#{$color}-border-color {
+		border-color: var(--#{$color});
+	}
+}

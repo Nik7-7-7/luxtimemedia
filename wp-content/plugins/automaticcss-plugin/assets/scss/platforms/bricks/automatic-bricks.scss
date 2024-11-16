@@ -1,0 +1,22 @@
+// Main Framework Imports
+@import "../../automatic-imports";
+
+// Mixins
+@import "../../helpers/mixins";
+
+@include if-bricks-on {
+  @import "accessibility";
+  @import "typography";
+  @import "buttons";
+  @import "flex-grid";
+  // @import "flex"; // Removed in 3.0. Delete in 3.1 if not needed.
+  // @import "centering"; Removed in 3.0. Delete in 3.1 if not needed.
+  // @import "display"; Removed in 3.0. Delete in 3.1 if not needed.
+  @import "enhancements/bricks-grid-overlay";
+}
+
+// Fix bricks canvas "add to canvas" notice.
+
+#bricks-blank-canvas .description {
+  max-width: 100%;
+}

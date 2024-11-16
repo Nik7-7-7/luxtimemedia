@@ -340,37 +340,36 @@ class SSA_Availability_Model extends SSA_Db_Model {
 	);
 
 	public function filter_where_conditions( $where, $args ) {
-		global $wpdb;
 		if ( !empty( $args['appointment_type_id'] ) ) {
-			$where .= $wpdb->prepare( ' AND appointment_type_id=%d', sanitize_text_field( $args['appointment_type_id'] ) );
+			$where .= ' AND appointment_type_id="'.sanitize_text_field( $args['appointment_type_id'] ).'"';
 		}
 
 		if ( !empty( $args['resource_group_id'] ) ) {
-			$where .= $wpdb->prepare( ' AND resource_group_id=%d', sanitize_text_field( $args['resource_group_id'] ) );
+			$where .= ' AND resource_group_id="'.sanitize_text_field( $args['resource_group_id'] ).'"';
 		}
 
 		if ( !empty( $args['staff_id'] ) ) {
-			$where .= $wpdb->prepare( ' AND staff_id=%d', sanitize_text_field( $args['staff_id'] ) );
+			$where .= ' AND staff_id="'.sanitize_text_field( $args['staff_id'] ).'"';
 		}
 		
 		if ( isset( $args['is_available'] ) ) {
-			$where .= $wpdb->prepare( ' AND is_available=%d', sanitize_text_field( $args['is_available'] ) );
+			$where .= ' AND is_available="'.sanitize_text_field( $args['is_available'] ).'"';
 		}
 
 		if ( isset( $args['type'] ) ) {
-			$where .= $wpdb->prepare( ' AND type=%s', sanitize_text_field( $args['type'] ) );
+			$where .= ' AND type="'.sanitize_text_field( $args['type'] ).'"';
 		}
 
 		if ( isset( $args['subtype'] ) ) {
-			$where .= $wpdb->prepare( ' AND subtype=%s', sanitize_text_field( $args['subtype'] ) );
+			$where .= ' AND subtype="'.sanitize_text_field( $args['subtype'] ).'"';
 		}
 
 		if ( isset( $args['cache_args_hash'] ) ) {
-			$where .= $wpdb->prepare( ' AND cache_args_hash=%d', sanitize_text_field( $args['cache_args_hash'] ) );
+			$where .= ' AND cache_args_hash='.sanitize_text_field( $args['cache_args_hash'] );
 		}
 
 		if ( isset( $args['cache_key'] ) ) {
-			$where .= $wpdb->prepare( ' AND cache_key=%d', sanitize_text_field( $args['cache_key'] ) );
+			$where .= ' AND cache_key="'.sanitize_text_field( $args['cache_key'] ).'"';
 		}
 
 		if ( isset( $args['intersects_period'] ) ) {

@@ -1,0 +1,129 @@
+{
+	"id": "dashboard",
+	"type": "dashboard-container",
+	"screens": [
+		"layout",
+		"palette",
+		"typography",
+		"spacing",
+		"buttons-links",
+		"backgrounds-text",
+		"borders-dividers",
+		"cards",
+		"additional-styling",
+		"frames",
+		"form-styling",
+		"custom-css",
+		"options",
+		"cheat-sheet",
+		"deprecated"
+	],
+	"config": {
+		"dashboardOpen": true
+	},
+	"globals": {
+		"color": {
+			"hoverMultiplier": 1.15,
+			"compModifier": 180,
+			"isActive": true,
+			"isTransparencies": true,
+			"shades": [
+				{
+					"name": "ultra-light",
+					"l": 95
+				},
+				{
+					"name": "light",
+					"l": 85
+				},
+				{
+					"name": "semi-light",
+					"l": 65
+				},
+				{
+					"name": "medium",
+					"l": 50
+				},
+				{
+					"name": "semi-dark",
+					"l": 35
+				},
+				{
+					"name": "dark",
+					"l": 25
+				},
+				{
+					"name": "ultra-dark",
+					"l": 10
+				}
+			]
+		},
+		"calc": {
+			"contentWidth": {
+				"max": "vp-max",
+				"min": "vp-min"
+			},
+			"lists": {
+				"headings": {
+					"variables": [
+						"h1",
+						"h2",
+						"h3",
+						"h4",
+						"h5",
+						"h6"
+					],
+					"base": "h4"
+				},
+				"text": {
+					"variables": [
+						"text-xxl",
+						"text-xl",
+						"text-l",
+						"text-m",
+						"text-s",
+						"text-xs"
+					],
+					"base": "text-m"
+				},
+				"spacing": {
+					"variables": [
+						"space-xxl",
+						"space-xl",
+						"space-l",
+						"space-m",
+						"space-s",
+						"space-xs"
+					],
+					"base": "space-m"
+				}
+			},
+			"modifiers": {
+				"section-spacing": {
+					"variables": [
+						"section-space-xxl",
+						"section-space-xl",
+						"section-space-l",
+						"section-space-m",
+						"section-space-s",
+						"section-space-xs"
+					],
+					"base": "section-space-m",
+					"type": "multiplier-in-relation"
+				},
+				"border-radius": {
+					"variables": [
+						"radius-xxl",
+						"radius-xl",
+						"radius-l",
+						"radius-m",
+						"radius-s",
+						"radius-xs"
+					],
+					"base": "radius-m",
+					"type": "multiplier-simple"
+				}
+			}
+		}
+	}
+}

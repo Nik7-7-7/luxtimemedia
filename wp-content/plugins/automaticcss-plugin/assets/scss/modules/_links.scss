@@ -1,0 +1,47 @@
+@if $option-link-color == on {
+
+  a[class*="link--"],
+  [class*="link--"] a,
+  button[class*="link--"],
+  [class*="link--"] button {
+    color: var(--link-color);
+    @if $option-link-classes-use-decoration-color == off {
+      text-decoration-color: var(--link-color);
+    }
+    &:hover {
+      color: var(--link-color-hover);
+      @if $option-link-classes-use-decoration-color == off {
+        text-decoration-color: var(--link-color-hover);
+      }
+    }
+  }
+
+  button[class*="link--"],
+  [class*="link--"] button {
+    background: transparent;
+  }
+
+  // Main
+  @each $color-name, $color-value in $core-colors {
+      .link--#{$color-name} {
+        --link-color: var(--#{$color-name});
+        --link-color-hover: var(--#{$color-name}-hover);
+      }
+      .link-hover--#{$color-name}.link-hover--#{$color-name} {
+        --link-color-hover: var(--#{$color-name});
+      }
+    }
+
+  // Status
+  @if $option-status-color-classes == on {
+    @each $color-name, $color-value in $core-status-colors {
+      .link--#{$color-name} {
+        --link-color: var(--#{$color-name});
+        --link-color-hover: var(--#{$color-name}-hover);
+      }
+      .link-hover--#{$color-name}.link-hover--#{$color-name} {
+        --link-color-hover: var(--#{$color-name});
+      }
+    }
+  }
+}

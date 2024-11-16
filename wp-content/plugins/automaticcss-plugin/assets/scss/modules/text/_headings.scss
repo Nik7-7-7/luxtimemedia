@@ -1,0 +1,26 @@
+// @if $option-basic-text-classes == on {
+//   @each $size in $headingExtensions {
+//     .h--#{$size} {
+//       font-size: var(--h#{$size});
+//       line-height: var(--h#{$size}-lh, var(--base-heading-lh));
+//       max-inline-size: var(--h#{$size}-length);
+//       color: var(--h#{$size}-color, var(--heading-color));
+//     }
+//   }
+// }
+
+@if $option-basic-text-classes == on {
+  @each $size, $style-list in $headingGlobalStyles {
+    // Support for "h--1" deprecated heading class syntax
+    $old-h-selector: '.h--' + str-slice($size, 2);
+    // Generate heading classes
+    .#{$size}.#{$size}, #{$old-h-selector}#{$old-h-selector} {
+      font-size: var(--#{$size});
+      @each $prop, $value in $style-list {
+        @if $value != null {
+          #{$prop}: var(--#{$size}-#{$prop});
+      }
+    }
+    }
+  }
+} // End option check

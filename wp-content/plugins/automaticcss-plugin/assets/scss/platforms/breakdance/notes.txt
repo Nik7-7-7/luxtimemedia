@@ -1,0 +1,6 @@
+## Sections
+
+Sections have an unselectable inner wrapper.
+Padding is set on the inner container by default (should be set on section itself).
+ACSS will remove the inner container padding by default and add default padding to the section instead.
+

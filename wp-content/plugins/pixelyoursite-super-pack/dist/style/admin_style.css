@@ -1,0 +1,81 @@
+.pys_flex_block
+{
+    display: flex;
+}
+.pys_flex_block .condition_search
+{
+    width: 100%;
+}
+#pys .btn.remove-conditions-row.hidden
+{
+    display: none;
+    visibility: hidden;
+}
+
+
+.pixel_conditions {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+.pixel_conditions > * {
+    flex: 1;
+}
+.pixel_conditions .condition_select {
+    margin-right:10px!important;
+}
+
+.pixel_conditions .condition_search {
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #fff url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 5px top 55%;
+    background-size: 16px 16px;
+    position: relative;
+}
+.pixel_conditions .condition_search .view_input{padding: 6px;}
+.pixel_conditions .condition_search ul{
+    display:none;
+    position: absolute;
+    background: #F8F8F8;
+    left: 0;
+    right: 0;
+    top: 29px;
+    padding: 10px;
+    border: 1px solid #8c8f94;
+    border-top: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    z-index: 100;
+}
+.pixel_conditions .condition_search ul .item {
+    padding: 4px;
+    border-bottom: 1px solid #0000000a;
+}
+.pixel_conditions .condition_search .view_input.open + ul {
+    display:block;
+}
+.pixel_conditions .condition_search ul input {
+    width: 100%;
+}
+
+#pys .pysselect2 ul {
+    margin-bottom:0px;
+}
+#pys .pysselect2-search {
+    width:auto;
+}
+#pys .pysselect2-container--default .pysselect2-selection--multiple .pysselect2-selection__choice__remove {
+    padding:5px;
+}
+#pys span.pysselect2.pysselect2-container {
+    width: 100%!important;
+    display: block;
+}
+.pixel_conditions .pysselect2-selection__rendered {
+    line-height: 9px !important;
+}
+.pixel_conditions .pysselect2-container .pysselect2-selection--multiple {
+    min-height: 32px;
+    height: 32px;
+}

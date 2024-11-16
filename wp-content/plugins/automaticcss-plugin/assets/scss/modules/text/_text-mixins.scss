@@ -1,0 +1,220 @@
+// Mixins to load site defaults
+//// Default text styles
+@mixin load-default-text() {
+  // Body Styles
+  body {
+    font-size: var(--default-font-size, var(--text-m));
+    @each $prop, $value in $textDefaultStyles {
+      @if $value != null and $prop != "max-width" {
+        #{$prop}: var(--text-#{$prop});
+      }
+    }
+  }
+
+  // Line height must be called on specific elements to support calc functions via custom properties
+  p, li {
+    line-height: var(--text-line-height, $base-text-lh);
+  }
+
+  // Support for global heading styles
+  h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.h--1,.h--2,.h--3,.h--4,.h--5,.h--6 {
+    @each $prop, $value in $headingDefaultStyles {
+      @if $value != null {
+        #{$prop}: var(--heading-#{$prop});
+      }
+    }
+  }
+
+  @for $i from 1 through 6 {
+    h#{$i} {
+      font-size: var(--h#{$i});
+      // Directly access the map for the current heading level h#{$i}
+      $current-heading-styles: map-get($headingGlobalStyles, 'h#{$i}');
+
+      // Check if there is a valid map for the current heading
+      @if $current-heading-styles != null {
+        @each $prop, $value in $current-heading-styles {
+          @if $value != null {
+            // Output the property with a CSS variable
+            #{$prop}: var(--h#{$i}-#{$prop});
+          }
+        }
+      }
+    }
+  }
+
+  // Default paragraph length cap
+  @if $text-max-width != null {
+    p, li {
+      max-inline-size: var(--text-m-length, $text-max-width);
+      width: 100%;
+    }
+  }
+}
+//// Default body styles
+@mixin load-default-body() {
+  @if $option-boxed-layout == on {
+    html {
+      background-color: var(--device-bg-color, $device-bg-color);
+    }
+  }
+  body {
+    color: var(--body-color, $body-color);
+    background-color: var(--body-bg-color, $body-bg-color);
+    @if $option-boxed-layout == on {
+      inline-size: 100%;
+      max-inline-size: var(--body-max-width, $body-max-width);
+      box-shadow: var(--body-box-shadow, $body-box-shadow);
+      border-color: var(--body-border-color, $body-border-color);
+      border-style: var(--body-border-style, $body-border-style);
+      border-width: var(--body-border-width, $body-border-width);
+      border-radius: var(--body-border-radius, $body-border-radius);
+      margin-block-start: var(--body-margin-top, #{$body-margin-top}) !important;
+      margin-inline: auto !important;
+    }
+  }
+  html:has(body.boxed-layout) {
+    background-color: var(--device-bg-color, $device-bg-color);
+  }
+}
+
+$link-default-not-selectors: null;
+@if $option-link-default-not == off or $link-default-not == null {
+  $link-default-not-selectors: "[class*="btn--"]";
+} @else {
+  $link-default-not-selectors: "[class*="btn--"], #{$link-default-not}";
+}
+
+//// Default link styles
+@mixin load-default-links() {
+  body a:where(:not(#{$link-default-not-selectors})) {
+    color: var(--link-color, $link-color);
+    font-weight: var(--link-weight, $link-weight);
+    -webkit-text-decoration: var(--link-decoration, $link-decoration);
+    text-decoration: var(--link-decoration, $link-decoration);
+    text-underline-offset: var(--link-underline-offset, $link-underline-offset);
+    @if $link-decoration-color != null {
+      text-decoration-color: var(--link-decoration-color);
+    }
+    @if $link-decoration-thickness != null {
+      text-decoration-thickness: var(--link-decoration-thickness);
+    }
+    transition: var(--link-transition, var(--transition));
+
+    @media (hover: hover) and (pointer: fine) {
+      &:hover {
+        color: var(--link-color-hover, $link-color-hover);
+        @if $link-decoration-hover != "inherit" {
+          -webkit-text-decoration: var(--link-decoration-hover, $link-decoration-hover);
+          text-decoration: var(--link-decoration-hover, $link-decoration-hover);
+        }
+        @if $link-decoration-color-hover != null {
+          --link-decoration-color: var(--link-decoration-color-hover);
+        }
+      }
+    }
+  }
+
+  // Default link style for headings
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    a {
+      font-weight: inherit;
+      text-decoration: inherit;
+      color: currentcolor;
+      text-underline-offset: var(--link-underline-offset, $link-underline-offset);
+
+      @media (hover: hover) and (pointer: fine) {
+        &:hover {
+          color: currentcolor;
+        }
+      }
+    }
+  }
+
+}
+
+///  Removed when using the new default styles.
+///  Delete in 3.1 if not needed.
+// //// Before Builder Defaults
+// @mixin load-before-builder-default-styles {
+//   // Headings
+//   @for $i from 1 through 6 {
+//     h#{$i} {
+//         color: var(--h#{$i}-color, var(--black));
+//     }
+//   }
+// }
+
+// Text Mixins
+@mixin fluid-text($pure, $min, $max) {
+  font-size: #{$pure}rem;
+  font-size: fluidCalc($min, $max);
+  font-size: fluidClamp($min, $max);
+}
+
+@mixin map-get-fluid-text($extension) {
+  font-size: map-get(map-get($textSizing, pure), text-#{$extension}-pure);
+  font-size: map-get(map-get($textSizing, calc), text-#{$extension}-calc);
+  font-size: map-get(map-get($textSizing, clamp), text-#{$extension}-clamp);
+}
+
+@mixin map-get-fluid-heading($extension) {
+  font-size: map-get(map-get($headingSizes, pure), #{$extension}-pure);
+  font-size: map-get(map-get($headingSizes, calc), #{$extension}-calc);
+  font-size: map-get(map-get($headingSizes, clamp), #{$extension}-clamp);
+}
+
+// Heading Style Mixins
+
+@mixin heading-style($level: h2) {
+  font-size: var(--#{$level});
+  // Output styles from $headingDefaultStyles
+  @each $property, $value in $headingDefaultStyles {
+    @if $value != null {
+      #{$property}: var(--heading-#{$property});
+    }
+  }
+
+  // Get the specific styles for the heading level
+  $specificStyles: map-get($headingGlobalStyles, $level);
+
+  // Output specific styles, overriding defaults where applicable
+  @each $property, $value in $specificStyles {
+    @if $value != null {
+      // Only output if the property is different from the default
+      @if not map-has-key($headingDefaultStyles, $property) or $value != map-get($headingDefaultStyles, $property) {
+        #{$property}: var(--#{$level}-#{$property}, var(--heading-#{$property}));
+      }
+    }
+  }
+}
+
+// Text Style Mixins
+
+@mixin text-style($level: m) {
+  font-size: var(--text-#{$level});
+  // Output styles from $textDefaultStyles
+  @each $property, $value in $textDefaultStyles {
+    @if $value != null {
+      #{$property}: var(--text-#{$property});
+    }
+  }
+
+  // Get the specific styles for the text level
+  $specificStyles: map-get($textGlobalStyles, $level);
+
+  // Output specific styles, overriding defaults where applicable
+  @each $property, $value in $specificStyles {
+    @if $value != null {
+      // Only output if the property is different from the default
+      @if not map-has-key($textDefaultStyles, $property) or $value != map-get($textDefaultStyles, $property) {
+        #{$property}: var(--text-#{$level}-#{$property}, var(--text-#{$property}));
+      }
+    }
+  }
+}

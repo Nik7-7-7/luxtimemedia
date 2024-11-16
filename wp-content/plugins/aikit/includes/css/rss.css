@@ -1,0 +1,92 @@
+.form-check-input:checked {
+    background: none !important;
+}
+
+.wp-core-ui select {
+    max-width: none !important;
+}
+
+form#aikit-rss-form {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    background-color: #eff4fb;
+}
+
+.aikit-rss-tabs li a.active {
+    background-color: #eff4fb !important;
+    border-bottom-color: transparent !important;
+}
+
+#aikit-rss-jobs, .aikit-rss-view {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    background-color: #eff4fb;
+}
+
+.aikit-rss-action {
+    padding: 10px 5px;
+}
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.aikit-badge, .aikit-badge-active {
+    background-color: #0d6efdd9;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.aikit-badge-danger {
+    background-color: #dc8935;
+}
+
+.aikit-badge-success {
+    background-color: #28a745;
+}
+
+.aikit-badge-inactive {
+    background-color: #ccc;
+    color: #424242;
+}
+
+.nav-tabs li {
+    margin-bottom: -1px !important;
+
+}
+
+h1 {
+    font-size: 23px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.aikit-rss-form-check-input {
+    margin-top: 5px !important;
+}
+
+.aikit-rss-jobs-pagination a {
+    margin: 0 5px;
+}
+
+.aikit-top-hidden-note {
+    display: none;
+}
+
+.aikit-top-hidden-toggle {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-weight: bold;
+}

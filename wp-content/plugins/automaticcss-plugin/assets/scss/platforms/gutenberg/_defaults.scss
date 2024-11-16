@@ -1,0 +1,27 @@
+// Gutenberg sets styles inline with custom properties.
+// We have to override these custom properties to set defaults.
+
+@include if-all-builders-off {  
+    h1 {
+        --wp--preset--font-size--xx-large: var(--h1);
+    }
+    h2 {
+        --wp--preset--font-size--x-large: var(--h2);
+    }
+    h3 {
+        --wp--preset--font-size--large: var(--h3);
+    }
+    h4 {
+        --wp--preset--font-size--medium: var(--h4);
+    }
+    h5 {
+        --wp--preset--font-size--xx-medium: var(--h5);
+    }
+    h6 {
+        --wp--preset--font-size--xx-small: var(--h6);
+    }
+    body p {
+        // This doesn't work yet.
+        --wp--preset--font-size--medium: var(--text-m);
+    }
+}

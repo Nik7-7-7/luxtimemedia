@@ -1,0 +1,19 @@
+@each $color, $value in $contextual-link-relationships {
+    @if nth($value, 1) != null {
+        $selector_string: '.bg--#{$color}' + get_texture_selectors($color);
+
+        #{$selector_string} {
+            :is(a):where(
+                :not(#{$link-default-not-selectors},
+                :is(h1,h2,h3,h4,h5,h6) a
+                )) {
+                color: var(--bg-#{$color}-link);
+				@if nth($value, 2) != null {
+					&:hover {
+						color: var(--bg-#{$color}-link-hover);
+					}
+				}
+            }
+        }
+    }
+}

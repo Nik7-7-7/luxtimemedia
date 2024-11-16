@@ -1,0 +1,116 @@
+.form-check-input:checked {
+    background: none !important;
+}
+
+.wp-core-ui select {
+    max-width: none !important;
+}
+
+input[type=color] {
+    max-width: 60px !important;
+    margin: 10px 20px;
+}
+
+h4 {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+
+input[type="radio"] {
+    margin-top: 5px;
+}
+
+small {
+    font-size: 12px;
+    color: #6c757d;
+    margin-left: 3px;
+}
+
+.aikit-comments-content{
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    background-color: #eff4fb;
+    position: relative;
+    min-height: 600px;
+}
+
+.nav-tabs li {
+    margin-bottom: -1px !important;
+}
+
+li a.active {
+    background-color: #eff4fb !important;
+    border-bottom-color: transparent !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aikit-notice-message {
+    font-size: 15px;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    text-align: center;
+}
+
+.aikit-badge, .aikit-badge-active {
+    background-color: #0d6efdd9;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.tab-content {
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    border-top: none;
+    min-height: 500px;
+}
+
+.aikit-paragraph {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.aikit-comments-job-info-tabs {
+    margin-top: 15px;
+}
+
+.aikit-token-count-container {
+    font-size: 14px;
+}
+
+
+.aikit-jobs-pagination a {
+    margin: 5px;
+}
+
+.aikit-jobs-pagination-current {
+    font-weight: 700;
+}
+
+.aikit-top-hidden-note {
+    display: none;
+}
+
+.aikit-util-button {
+    font-weight: bold;
+}
+
+.aikit-entered-data {
+    height: 200px;
+}
+
+h6 {
+    margin-top: 15px;
+}
+
+.aikit-view-post-link {
+    margin-left: 10px;
+    font-size: 14px;
+}

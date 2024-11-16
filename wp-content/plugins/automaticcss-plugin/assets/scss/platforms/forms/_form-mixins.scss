@@ -1,0 +1,151 @@
+// Light Forms
+
+@mixin f-light-input-style {
+  background-color: var(--f-light-input-background, #{$f-light-input-background});
+  border-top-width: append-rem(var(--f-input-border-top-size, #{$f-input-border-top-size}));
+  border-right-width: append-rem(var(--f-input-border-right-size, #{$f-input-border-right-size}));
+  border-bottom-width: append-rem(var(--f-input-border-bottom-size, #{$f-input-border-bottom-size}));
+  border-left-width: append-rem(var(--f-input-border-left-size, #{$f-input-border-left-size}));
+  border-style: var(--f-input-border-style, #{$f-input-border-style});
+  border-color: var(--f-light-input-border-color, #{$f-light-input-border-color});
+  border-radius: var(--f-input-border-radius, #{$f-input-border-radius});
+  color: var(--f-light-input-text-color, #{$f-light-input-text-color});
+  font-size: var(--f-input-size, --text-m);
+  font-weight: var(--f-input-font-weight, #{$f-input-font-weight});
+  line-height: var(--f-input-line-height, #{$f-input-line-height});
+  padding: var(--f-input-padding-y, #{$f-input-padding-y}) var(--f-input-padding-x, #{$f-input-padding-x});
+  -webkit-border-radius: var(--f-input-border-radius, #{$f-input-border-radius});
+  -moz-border-radius: var(--f-input-border-radius, #{$f-input-border-radius});
+  -ms-border-radius: var(--f-input-border-radius, #{$f-input-border-radius});
+  -o-border-radius: var(--f-input-border-radius, #{$f-input-border-radius});
+  height: append-rem(var(--f-input-height, #{$f-input-height}));
+}
+
+@mixin f-light-btn-style {
+  background-color: var(--f-light-btn-background, #{$f-light-btn-background});
+  color: var(--f-light-btn-text-color, #{$f-light-btn-text-color});
+  border-style: var(--f-btn-border-style, #{$f-btn-border-style});
+  border-width: var(--f-btn-border-width, #{$f-btn-border-width});
+  border-color: var(--f-light-btn-border-color, #{$f-light-btn-border-color});
+  border-radius: var(--f-btn-border-radius, #{$f-btn-border-radius});
+  -webkit-border-radius: var(--f-btn-border-radius, #{$f-btn-border-radius});
+  -moz-border-radius: var(--f-btn-border-radius, #{$f-btn-border-radius});
+  -ms-border-radius: var(--f-btn-border-radius, #{$f-btn-border-radius});
+  -o-border-radius: var(--f-btn-border-radius, #{$f-btn-border-radius});
+  font-size: var(--f-btn-text-size, --text-m);
+  font-weight: var(--f-btn-font-weight, #{$f-btn-font-weight});
+  line-height: var(--f-btn-line-height, #{$f-btn-line-height});
+  padding: var(--f-btn-padding-y, #{$f-btn-padding-y}) var(--f-btn-padding-x, #{$f-btn-padding-x});
+  margin-block-start: var(--f-btn-margin-top, #{$f-btn-margin-top});
+  text-align: center;
+  -webkit-text-decoration: var(--f-btn-text-decoration, #{$f-btn-text-decoration});
+  text-decoration: var(--f-btn-text-decoration, #{$f-btn-text-decoration});
+  text-transform: var(--f-btn-text-transform, #{$f-btn-text-transform});
+  transition: all var(--btn-transition-duration) ease;
+
+  &:hover {
+    background-color: var(--f-light-btn-background-hover, #{$f-light-btn-background-hover});
+    color: var(--f-light-btn-text-color-hover, #{$f-light-btn-text-color-hover});
+    border-color: var(--f-light-btn-border-color-hover, #{$f-light-btn-border-color-hover});
+  }
+}
+
+@mixin f-light-label-style {
+  background-color: var(--f-light-label-background-color, #{$f-light-label-background-color});
+  color: var(--f-light-label-text-color, #{$f-light-label-text-color});
+  font-size: var(--f-label-size, --text-m);
+  font-weight: var(--f-label-font-weight, #{$f-label-font-weight});
+  line-height: var(--f-label-line-height, #{$f-label-line-height});
+  margin-bottom: var(--f-label-margin-bottom, #{$f-label-margin-bottom});
+  text-transform: var(--f-label-text-transform, #{$f-label-text-transform});
+  padding: var(--f-label-padding-y, #{$f-label-padding-y}) var(--f-label-padding-x, #{$f-label-padding-x});
+}
+
+@mixin f-light-option-label-style {
+  background-color: var(--f-light-option-background-color, #{$f-light-option-background-color});
+  display: inline-block;
+  color: var(--f-light-label-text-color, #{$f-light-label-text-color});
+  font-family: inherit;
+  font-size: var(--f-option-label-size, --text-m);
+  font-weight: var(--f-option-label-font-weight, #{$f-option-label-font-weight});
+  line-height: 1.4;
+  margin: 0 0 10px;
+  -webkit-padding-start: 1.75em;
+  padding-inline-start: 1.75em;
+}
+
+// Dark Forms
+
+@mixin f-dark-input-style {
+  background-color: var(--f-dark-input-background, #{$f-dark-input-background});
+  border-top-width: append-rem(var(--f-input-border-top-size, #{$f-input-border-top-size}));
+  border-right-width: append-rem(var(--f-input-border-right-size, #{$f-input-border-right-size}));
+  border-bottom-width: append-rem(var(--f-input-border-bottom-size, #{$f-input-border-bottom-size}));
+  border-left-width: append-rem(var(--f-input-border-left-size, #{$f-input-border-left-size}));
+  border-style: var(--f-input-border-style, #{$f-input-border-style});
+  border-color: var(--f-dark-input-border-color, #{$f-dark-input-border-color});
+  border-radius: var(--f-input-border-radius, #{$f-input-border-radius});
+  color: var(--f-dark-input-text-color, #{$f-dark-input-text-color});
+  font-size: var(--f-input-size, --text-m);
+  font-weight: var(--f-input-font-weight, #{$f-input-font-weight});
+  line-height: var(--f-input-line-height, #{$f-input-line-height});
+  padding: var(--f-input-padding-y, #{$f-input-padding-y}) var(--f-input-padding-x, #{$f-input-padding-x});
+  -webkit-border-radius: var(--f-input-border-radius, #{$f-input-border-radius});
+  -moz-border-radius: var(--f-input-border-radius, #{$f-input-border-radius});
+  -ms-border-radius: var(--f-input-border-radius, #{$f-input-border-radius});
+  -o-border-radius: var(--f-input-border-radius, #{$f-input-border-radius});
+  height: append-rem(var(--f-input-height, #{$f-input-height}));
+}
+
+@mixin f-dark-btn-style {
+  background-color: var(--f-dark-btn-background, #{$f-dark-btn-background});
+  color: var(--f-dark-btn-text-color, #{$f-dark-btn-text-color});
+  border-style: var(--f-btn-border-style, #{$f-btn-border-style});
+  border-width: var(--f-btn-border-width, #{$f-btn-border-width});
+  border-color: var(--f-dark-btn-border-color, #{$f-dark-btn-border-color});
+  border-radius: var(--f-btn-border-radius, #{$f-btn-border-radius});
+  -webkit-border-radius: var(--f-btn-border-radius, #{$f-btn-border-radius});
+  -moz-border-radius: var(--f-btn-border-radius, #{$f-btn-border-radius});
+  -ms-border-radius: var(--f-btn-border-radius, #{$f-btn-border-radius});
+  -o-border-radius: var(--f-btn-border-radius, #{$f-btn-border-radius});
+  font-size: var(--f-btn-text-size, --text-m);
+  font-weight: var(--f-btn-font-weight, #{$f-btn-font-weight});
+  line-height: var(--f-btn-line-height, #{$f-btn-line-height});
+  padding: var(--f-btn-padding-y, #{$f-btn-padding-y}) var(--f-btn-padding-x, #{$f-btn-padding-x});
+  margin-top: var(--f-btn-margin-top, #{$f-btn-margin-top});
+  text-align: center;
+  -webkit-text-decoration: var(--f-btn-text-decoration, #{$f-btn-text-decoration});
+  text-decoration: var(--f-btn-text-decoration, #{$f-btn-text-decoration});
+  text-transform: var(--f-btn-text-transform, #{$f-btn-text-transform});
+  transition: all var(--btn-transition-duration) ease;
+
+  &:hover {
+    background-color: var(--f-dark-btn-background-hover, #{$f-dark-btn-background-hover});
+    color: var(--f-dark-btn-text-color-hover, #{$f-dark-btn-text-color-hover});
+    border-color: var(--f-dark-btn-border-color-hover, #{$f-dark-btn-border-color-hover});
+  }
+}
+
+@mixin f-dark-label-style {
+  background-color: var(--f-dark-label-background-color, #{$f-dark-label-background-color});
+  color: var(--f-dark-label-text-color, #{$f-dark-label-text-color});
+  font-size: var(--f-label-size, --text-m);
+  font-weight: var(--f-label-font-weight, #{$f-label-font-weight});
+  line-height: var(--f-label-line-height, #{$f-label-line-height});
+  margin-bottom: var(--f-label-margin-bottom, #{$f-label-margin-bottom});
+  text-transform: var(--f-label-text-transform, #{$f-label-text-transform});
+  padding: var(--f-label-padding-y, #{$f-label-padding-y}) var(--f-label-padding-x, #{$f-label-padding-x});
+}
+
+@mixin f-dark-option-label-style {
+  background-color: var(--f-dark-option-background-color, #{$f-dark-option-background-color});
+  display: inline-block;
+  color: var(--f-dark-label-text-color, #{$f-dark-label-text-color});
+  font-family: inherit;
+  font-size: var(--f-option-label-size, --text-m);
+  font-weight: var(--f-option-label-font-weight, #{$f-option-label-font-weight});
+  line-height: 1.4;
+  margin: 0 0 10px;
+  -webkit-padding-start: 1.75em;
+  padding-inline-start: 1.75em;
+}

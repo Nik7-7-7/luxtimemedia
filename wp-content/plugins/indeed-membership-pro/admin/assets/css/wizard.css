@@ -1,0 +1,368 @@
+#adminmenumain{
+    /*display: none;*/
+}
+.ihc-admin-header{
+    display: none;
+}
+.iump-wizard-content-loading-wrapp{
+    opacity: 0.5;
+}
+
+.iump-body-wizard #wpcontent {
+    background-color: var(--iump-main-background-color);
+    background-color: #fff !important;
+    padding-left: 0px !important
+}
+.iump-body-wizard .ihc-footer-wrap{
+  display: none;
+}
+.iump-wizard-main-wrapper{
+
+}
+.iump-wizard-header-wrapper{
+  padding: 30px 60px;
+  text-align: center;
+}
+.iump-wizard-progress-bar-wrapp{
+      background-color: #fff;
+      background-color: var(--iump-main-background-color);
+      padding: 25px 15px;
+      display: flex;
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item{
+  text-align: center;
+  position: relative;
+  flex: 1;
+  z-index: 10;
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item:after {
+  content: '';
+  width: 100px;
+  border-bottom: solid 2px #EBF3F5;
+  position: absolute;
+  right: -50px;
+  top: calc(50% - 23px);
+  z-index: -1;
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item:last-child:after{
+  border:none;
+  display: none;
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item .iump-wizard-progress-bar-item-icon-wrapper {
+    border: 1px solid var(--iump-blue-color);
+    border-radius: 50%;
+    padding: 10px;
+    width: 20px;
+    margin: 0 auto;
+    height: 20px;
+    box-sizing: content-box;
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item .iump-wizard-progress-bar-item-icon-wrapper .iump-wizard-progress-bar-step{
+  font-size: 17px;
+  color: var(--iump-blue-color);
+  line-height: 20px;
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item .iump-wizard-progress-bar-item-icon-wrapper svg path{
+    fill: var(--iump-blue-color);
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item.iump-wizard-progress-bar-item-selected .iump-wizard-progress-bar-item-icon-wrapper,
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item.iump-wizard-progress-bar-item-completed .iump-wizard-progress-bar-item-icon-wrapper{
+  background-color: var(--iump-blue-color);
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item.iump-wizard-progress-bar-item-completed:after{
+  border-color: var(--iump-blue-color);
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item.iump-wizard-progress-bar-item-completed .iump-wizard-progress-bar-item-icon-wrapper svg path{
+  fill: #fff;
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item.iump-wizard-progress-bar-item-selected .iump-wizard-progress-bar-step{
+  color: #fff;
+}
+.iump-wizard-progress-bar-wrapp .iump-wizard-progress-bar-item .iump-wizard-progress-bar-item-label{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--iump-primary-text-color);
+  margin: 8px 0 0 0;
+  min-height: 36px;
+}
+.iump-wizard-wrap-for-content-wrapper{
+    padding: 20px 58px;
+    padding-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    color: var(--iump-primary-text-color);
+}
+.iump-wizard-wrap-for-content-wrapper .iump-wizard-wrap-for-content-title{
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+  }
+.iump-wizard-wrap-for-content-wrapper .iump-wizard-wrap-for-content-title span{
+  color: var(--iump-blue-color);
+  font-weight: 800;
+}
+.iump-wizard-wrap-for-content-wrapper .iump-wizard-wrap-for-content-description{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--iump-primary-text-color);
+  margin: 8px 0 0 0;
+  position: relative;
+  width: 75%;
+}
+.iump-wizard-wrap-for-content-wrapper .iump-wizard-wrap-for-content{
+    margin-top:30px;
+}
+
+.iump-wizard-general-buttons{
+  border-top: 2px solid var(--iump-main-background-color);
+  padding: 28px 60px;
+  height: 42px;
+}
+.iump-wizard-general-buttons .iump-wizard-button {
+  background: #fff;
+  color: var(--iump-second-text-color);
+  border: 1px solid var(--iump-blue-second-border-color);
+  padding: 12px 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  cursor: pointer;
+  align-items: center;
+  float:right;
+}
+.iump-wizard-general-buttons .iump-wizard-button:hover{
+  color: var(--iump-primary-text-color);
+}
+.iump-wizard-general-buttons .iump-wizard-button.iump-js-wizard-go-next{
+  color:#fff;
+  background-color:  var(--iump-blue-color) !important;
+  border-color:  var(--iump-blue-color) !important;
+}
+.iump-wizard-general-buttons .iump-wizard-button.iump-js-wizard-go-next:hover{
+  color:#fff;
+  background-color:var(--iump-blue-darker-color) !important;
+  border-color:var(--iump-blue-darker-color) !important;
+}
+.iump-wizard-footer-wrapper{
+  padding: 40px 60px;
+  height: 42px;
+  text-align: center;
+}
+.iump-wizard-footer-wrapper span{
+  font-weight: 400;
+  color: var(--iump-blue-color);
+  font-size:12px;
+  font-family: "Poppins", sans-serif;
+}
+.iump-wizard-footer-wrapper span:hover{
+  text-decoration: underline;
+}
+.iump-js-wizard-step-1 .ihc-form-element{
+  line-height: 34px !important;
+  width: 70%;
+}
+.iump-js-wizard-step-1 .iump-wizard-wrap-for-content{
+  margin-top: 50px;
+}
+.iump-js-wizard-step-1 h4{
+  font-size: 16px;
+}
+.iump-js-wizard-step-1 h4 span{
+  color:#ff3b3b;
+}
+.iump-js-wizard-step-1 .iump-submit-button{
+    background: #fff;
+    color: var(--iump-green-color);
+    border: 1px solid var(--iump-green-color);
+    padding: 8px 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.iump-js-wizard-step-1 .iump-wizard-field-notice{
+  display: block;
+}
+.iump-js-wizard-step-2 .iump-form-line{
+  padding: 5px 15px;
+}
+
+.iump-wizard-field-notice {
+    z-index: 100;
+    background: #dd3559;
+    background: transparent;
+    padding: 5px 8px;
+    padding-left:0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    right: 0;
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    top: 100%;
+    margin-top: 4px;
+    opacity: 1;
+    -webkit-transition: .6s linear;
+    -moz-transition: .6s linear;
+    -ms-transition: .6s linear;
+    -o-transition: .6s linear;
+    transition: .6s linear;
+    -webkit-animation: 1s fadeIn;
+    animation: 1s fadeIn;
+    color: #fff !important;
+    color: #dd3559 !important;
+    display: block;
+}
+.iump-wizard-access-type-wrapper{
+  display: block;
+  margin:0;
+}
+.iump-wizard-access-type-wrapper .iump-wizard-access-type-item{
+    border: 1px solid;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 6px 18px;
+    border: 1px solid var(--iump-blue-second-border-color);
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 15px;
+    cursor: pointer;
+    width: auto;
+    display: inline-block;
+    margin-top: 4px;
+    color: var(--iump-second-text-color);
+}
+.iump-wizard-access-type-wrapper .iump-wizard-access-type-item.iump-wizard-ati-selected{
+    background-color: var(--iump-blue-color);
+    border: 1px solid var(--iump-blue-color);
+    color:#fff;
+}
+.iump-wizard-wrap-for-content .iump-wizard-additional-details{
+  color:var(--iump-second-text-color);
+  font-size: 12px;
+}
+.iump-wizard-wrap-for-content .iump-form-line{
+  border-bottom: none !important;
+}
+.iump-wizard-wrap-for-content .ihc-price-wrapper{
+  margin-top: 0px;
+}
+.iump-wizard-payment-selection-wrapper{
+  margin-top: 15px;
+}
+.iump-wizard-payment-selection-wrapper h5{
+  display: inline-block;
+}
+.iump-wizard-payment-settings-wrapper{
+  margin-bottom: 25px;
+  padding-left: 60px;
+
+  -webkit-transition: .6s linear;
+  -moz-transition: .6s linear;
+  -ms-transition: .6s linear;
+  -o-transition: .6s linear;
+  transition: .6s linear;
+  -webkit-animation: 1s fadeIn;
+  animation: 1s fadeIn;
+}
+.iump-wizard-payment-settings-wrapper .iump-form-line,
+.iump-wizard-payment-settings-wrapper .col-xs-6,
+.iump-js-wizard-step-4 .col-xs-6{
+  padding-left: 0;
+}
+.iump-wizard-wrap-for-content .ihc-stripe-connect-status{
+  color: var(--iump-blue-color);
+  font-weight: 600;
+  padding: 0;
+}
+.iump-wizard-wrap-for-content .ihc-payment-bank-editor .wp-editor-wrap .wp-editor-container{
+}
+.iump-wizard-wrap-for-content .ihc-payment-bank-editor-constants{
+  color:var(--iump-second-text-color);
+  font-size: 12px;
+}
+.ihc-membership-type-settings-regular-period{
+  max-width: 450px;
+}
+.iump-wizard-wrap-for-content h4{
+  font-size: 15px;
+}
+.iump-js-wizard-step-4 .iump-form-line{
+    padding: 5px 15px;
+}
+.ihc-membership-type-settings-regular-period input, .ihc-membership-type-settings-regular-period select{
+  max-width: 150px;
+  min-width: 120px !important;
+}
+.iump-wizard-header-wrapper .iump-page-headline{
+  margin-bottom: 10px;
+}
+.iump-wizard-complete-top{
+  text-align: center;
+  margin-top: 60px;
+}
+.iump-wizard-complete-top .iump-page-headline{
+  margin-bottom: 10px;
+}
+.iump-page-headline-colored{
+  color:var(--iump-blue-color);
+}
+.iump-wizard-complete-middle{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+.iump-wizard-complete-pages .iump-wizard-complete-page-link{
+      border: 1px solid;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      padding: 6px 18px;
+      border: 1px solid var(--iump-blue-second-border-color);
+      border-radius: 4px;
+      font-family: "Poppins", sans-serif;
+      margin-right: 15px;
+      cursor: pointer;
+      width: auto;
+      display: inline-block;
+      margin-top: 14px;
+      color: var(--iump-second-text-color);
+  }
+.iump-wizard-complete-pages .iump-wizard-complete-page-link:hover{
+      background-color: var(--iump-blue-color);
+      border: 1px solid var(--iump-blue-color);
+      color:#fff;
+}
+.ihc-stripe-connect-btn-wizard-wrapper{
+  margin-top: 20px;
+  /*margin-bottom: 30px;*/
+}
+.ihc-stripe-connect-setup-details{
+   margin-top: 30px;
+ }
+.ihc-stripe-connect-btn-wizard, .ihc-stripe-connect-btn-wizard:hover{
+    background: var(--iump-blue-darker-color);
+    color: #fff !important;
+    border: 1px solid var(--iump-blue-darker-color);
+    padding: 8px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.iump-wizard-complete-pages .iump-wizard-complete-page-link i{
+  margin-right: 10px;
+  color:#333;
+}
+.iump-wizard-complete-pages .iump-wizard-complete-page-link:hover i{
+  color:#fff;
+}
+.lincs-row{
+  padding-bottom: 10px;
+}

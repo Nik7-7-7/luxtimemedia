@@ -1,0 +1,87 @@
+$btn-props: (
+    // Main (Establish Properties)
+    "main": (
+        background: var(--btn-background),
+        color: var(--btn-text-color),
+        padding-block: var(--btn-padding-block),
+        padding-inline: var(--btn-padding-inline),
+        min-inline-size: var(--btn-min-width),
+        line-height: var(--btn-line-height),
+        font-size: var(--btn-font-size, var(--text-m)),
+        font-weight: var(--btn-font-weight),
+        font-style: var(--btn-font-style),
+        text-transform: var(--btn-text-transform),
+        letter-spacing: var(--btn-letter-spacing),
+        text-decoration: var(--btn-text-decoration),
+        border-width: var(--btn-border-width),
+        border-style: var(--btn-border-style),
+        border-radius: var(--btn-radius),
+        border-color: var(--btn-border-color),
+        transition: var(--btn-transition, var(--transition)),
+        justify-content: var(--btn-justify-content, center),
+        text-align: var(--btn-text-align, center),
+    ),
+    // Hover (Establish Properties)
+    "hover": (
+        background: var(--btn-background-hover),
+        color: var(--btn-text-color-hover),
+        border-color: var(--btn-border-color-hover),
+        text-decoration: var(--btn-text-decoration-hover),
+    ),
+    // Dark (Swap Values)
+    "dark": (
+        btn-background: var(--btn-dark-background),
+        btn-text-color: var(--btn-dark-text-color),
+        btn-border-color: var(--btn-dark-border-color),
+        btn-background-hover: var(--btn-dark-background-hover),
+        btn-text-color-hover: var(--btn-dark-text-color-hover),
+        btn-border-color-hover: var(--btn-dark-border-color-hover),
+    ),
+    // Light (Swap Values)
+    "light": (
+        btn-background: var(--btn-light-background),
+        btn-text-color: var(--btn-light-text-color),
+        btn-border-color: var(--btn-light-border-color),
+        btn-background-hover: var(--btn-light-background-hover),
+        btn-text-color-hover: var(--btn-light-text-color-hover),
+        btn-border-color-hover: var(--btn-light-border-color-hover),
+    ),
+    // Outline (Swap Values)
+    "outline": (
+        btn-background: var(--btn-outline-background),
+        btn-background-hover: var(--btn-outline-background-hover),
+        btn-border-width: var(--btn-outline-border-width),
+        btn-border-color: var(--btn-outline-border-color),
+        btn-text-color: var(--btn-outline-text-color),
+        btn-text-color-hover: var(--btn-outline-text-color-hover),
+        btn-border-color-hover: var(--btn-outline-border-hover),
+    ), 
+    // Outline Dark (Swap Values)
+    "outline-dark": (
+        btn-background: var(--btn-outline-dark-background),
+        btn-border-width: var(--btn-outline-dark-border-width),
+        btn-border-color: var(--btn-outline-dark-border-color),
+        btn-text-color: var(--btn-outline-dark-text-color),
+        btn-background-hover: var(--btn-outline-dark-background-hover),
+        btn-text-color-hover: var(--btn-outline-dark-text-color-hover),
+        btn-border-color-hover: var(--btn-outline-dark-border-hover),
+    ),
+    // Outline Light (Swap Values)
+    "outline-light": (
+        btn-background: var(--btn-outline-light-background),
+        btn-border-width: var(--btn-outline-light-border-width),
+        btn-border-color: var(--btn-outline-light-border-color),
+        btn-text-color: var(--btn-outline-light-text-color),
+        btn-background-hover: var(--btn-outline-light-background-hover),
+        btn-text-color-hover: var(--btn-outline-light-text-color-hover),
+        btn-border-color-hover: var(--btn-outline-light-border-hover),
+    ),
+);
+
+$btn-props--main: map-get($btn-props, "main");
+$btn-props--hover: map-get($btn-props, "hover");
+$btn-props--dark: map-get($btn-props, "dark");
+$btn-props--light: map-get($btn-props, "light");
+$btn-props--outline: map-get($btn-props, "outline");
+$btn-props--outline-dark: map-get($btn-props, "outline-dark");
+$btn-props--outline-light: map-get($btn-props, "outline-light");

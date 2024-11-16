@@ -21,16 +21,8 @@ abstract class TD_Async_Action_Model extends TD_DB_Model {
 
 	public function date_filter_where_conditions( $where, $args ) {
 		global $wpdb;
-		if( ! empty( $args['action'] ) ) {
-			if( is_array( $args['action'] ) ) {
-				$actions = implode( ',', array_map( function ( $action ) {
-					return '"' . sanitize_text_field ( $action ) . '"';
-				}, $args['action'] ) );
-			} else {
-				$actions = sanitize_text_field( $args['action'] );
-			}
-			
-			$where .= " AND `action` IN( $actions ) ";
+		if ( !empty( $args['action'] ) ) {
+			$where .= ' AND action="'.sanitize_text_field( $args['action'] ).'"';
 		}
 
 		if ( !empty( $this->schema['date_queued'] ) ) {		

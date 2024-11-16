@@ -1,0 +1,102 @@
+{
+    "translation-revision-date": "2022-01-10 22:04",
+    "generator": "WP-CLI\/2.10.0",
+    "source": "assets\/js\/calendar-page.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "fr_FR",
+                "plural-forms": "nplurals=2; plural=(n > 1);"
+            },
+            "Status": [
+                "\u00c9tat"
+            ],
+            "Customer": [
+                "Client"
+            ],
+            "Services": [
+                "Services"
+            ],
+            "Service": [
+                "Service"
+            ],
+            "Employees": [
+                "Employ\u00e9s"
+            ],
+            "Employee": [
+                "Employ\u00e9"
+            ],
+            "Time": [
+                "dur\u00e9e"
+            ],
+            "Clients": [
+                "Clients"
+            ],
+            "Booking": [
+                "R\u00e9servation"
+            ],
+            "Location": [
+                "Localisation"
+            ],
+            "Locations": [
+                "Emplacements"
+            ],
+            "Reservation details": [
+                "D\u00e9tails de la r\u00e9servation"
+            ],
+            "Timetable": [
+                "Horaire"
+            ],
+            "Bookings": [
+                "R\u00e9servations"
+            ],
+            "View Booking": [
+                "Voir r\u00e9servation"
+            ],
+            "Date": [
+                "Date"
+            ],
+            "Next": [
+                "Suivant"
+            ],
+            "Calendar": [
+                ""
+            ],
+            "Previous": [
+                ""
+            ],
+            "Today": [
+                ""
+            ],
+            "Month": [
+                ""
+            ],
+            "Week": [
+                ""
+            ],
+            "Day": [
+                ""
+            ],
+            "There are no events in this range.": [
+                ""
+            ],
+            "+%d more": [
+                ""
+            ],
+            "All": [
+                ""
+            ],
+            "Statuses": [
+                ""
+            ],
+            "All day": [
+                ""
+            ],
+            "View Bookings": [
+                ""
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@if $option-line-clamp-classes == on {
+
+    [class*="line-clamp--"] {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: var(--line-count);
+    }
+
+    @each $line-clamp, $line-clamp-value in $line-clamps {
+        .line-clamp--#{$line-clamp} {
+            --line-count: #{$line-clamp-value};
+        }
+    }
+}

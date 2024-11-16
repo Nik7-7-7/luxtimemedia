@@ -1,0 +1,10 @@
+{
+	"expansions": [
+		"color-expansions",
+		"grid-expansions",
+		"ipsum-expansions",
+		"js-expansions",
+		"media-query-expansions",
+		"miscellaneous-expansions"
+	]
+}

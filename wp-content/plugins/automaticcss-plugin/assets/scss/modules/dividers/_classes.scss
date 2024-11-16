@@ -1,0 +1,54 @@
+@import "vars";
+
+@mixin divider($position: bottom) {
+    position: relative;
+    overflow: visible;
+
+	// Dividers use :after elements to avoid clashing with custom overlay ::before elements.
+
+    @if $position == bottom {
+        margin-block-end: calc(var(--divider-gap) * 2);
+        &::after {
+            inset-block-end: calc(var(--divider-gap) * -1 - var(--divider-size));
+        }
+    }
+    @if $position == top {
+        margin-block-start: calc(var(--divider-gap) * 2);
+        &::after {
+            inset-block-start: calc(var(--divider-gap) * -1 - var(--divider-size));
+        }
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        inset-inline-start: 0;
+        inline-size: var(--divider-inline-size);
+        border-block-end: var(--divider);
+    }
+
+}
+
+@if $option-divider-classes == on {
+
+    // Individual
+
+    .divider-bottom.divider-bottom {
+        @include divider(bottom);
+    }
+    .divider-top.divider-top {
+        @include divider(top);
+    }
+
+    // Programmatic
+
+    .divider--all.divider--all {
+        row-gap: 0;
+
+        & > *:not(:last-child) {
+            @include divider(bottom);
+        }
+    }
+
+}

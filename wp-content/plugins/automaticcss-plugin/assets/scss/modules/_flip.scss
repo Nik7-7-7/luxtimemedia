@@ -1,0 +1,21 @@
+@if $option-flip == on {
+  .flip--x,
+  .flip--x > div {
+    transform: scaleX(-1);
+  }
+
+  .flip--y,
+  .flip--y > div {
+    transform: scaleY(-1);
+  }
+
+  .flip--xy,
+  .flip--xy > div {
+    transform: scale(-1, -1);
+  }
+
+  .flip--both,
+  .flip--both > div {
+    transform: scale(-1, -1);
+  }
+}

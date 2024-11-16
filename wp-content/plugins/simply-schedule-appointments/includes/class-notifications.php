@@ -39,11 +39,8 @@ class SSA_Notifications {
 	 * @since  0.0.3
 	 */
 	public function hooks() {
-		add_action( 'ssa/appointment/after_delete', array( $this, 'cleanup_notifications_corresponding_to_appointment' ), 1000, 1 );
 		add_action( 'ssa/appointment/booked', array( $this, 'queue_booked_notifications' ), 1000, 4 );
 		add_action( 'ssa/appointment/rescheduled', array( $this, 'queue_rescheduled_notifications' ), 1000, 4 );
-		add_action( 'ssa/appointment/rescheduled', array( $this, 'cleanup_outdated_notifications'), 10, 4 );
-		add_action( 'ssa/appointment/rescheduled', array( $this, 'queue_start_date_notifications'), 10, 4 );
 		add_action( 'ssa/appointment/booked', array( $this, 'queue_start_date_notifications' ), 1000, 4 );
 		add_action( 'ssa/appointment/customer_information_edited', array( $this, 'queue_customer_information_edited_notifications' ), 1000, 4 );
 		add_action( 'ssa/appointment/canceled', array( $this, 'queue_canceled_notifications' ), 1000, 4 );
@@ -193,57 +190,6 @@ class SSA_Notifications {
 		ssa_complete_action( $async_action['id'], $response );
 	}
 
-	/**
-	 * Remove notifications corresponding to an appointment that is being deleted
-	 * 
-	 */
-	public function cleanup_notifications_corresponding_to_appointment( $appointment_id ) {
-		$corresponding_scheduled_actions = $this->plugin->async_action_model->query(
-			array(
-				'object_id' => $appointment_id,
-				'object_type' => 'appointment',
-			)
-		);
-
-		$to_remove_action_ids = array_column( $corresponding_scheduled_actions, 'id' );
-		
-		if ( ! empty( $to_remove_action_ids ) ) {
-			$this->plugin->async_action_model->bulk_delete( array( 
-				'id' => $to_remove_action_ids
-			) );
-		}
-	}
-	
-	/**
-	 * Remove outdated actions for rescheduled appointments
-	 *
-	 * @param $single_notification_settings
-	 * @param $payload
-	 * @return void
-	 */
-	 public function cleanup_outdated_notifications(  $appointment_id, $data, $data_before = array(), $response = null  ) {
-		$appointment_object = new SSA_Appointment_Object( $appointment_id );
-		$to_remove_action_ids = array();
-		$corresponding_scheduled_actions = $this->plugin->async_action_model->query(
-			array(
-				'object_id' => $appointment_object->id,
-				'action' => ['ssa_fire_appointment_start_date_notifications', 'ssa_fire_appointment_booked_notifications']
-			)
-		);
-		foreach ( $corresponding_scheduled_actions as $scheduled_action ) {
-			if( ! empty( $scheduled_action['payload']['appointment']['start_date'] ) ) {
-				if ( $scheduled_action['payload']['appointment']['start_date'] !== $appointment_object->start_date ) {
-					$to_remove_action_ids[] = $scheduled_action['id'];
-				}
-			}
-		}
-		if ( ! empty( $to_remove_action_ids ) ) {
-			$this->plugin->async_action_model->bulk_delete( array( 
-				'id' => $to_remove_action_ids
-			) );
-		}
-	 }
-	 
 	public function should_fire_notification( $single_notification_settings, $payload ) {
 		// ssa_debug_log( __FUNCTION__ .'()' );
 		// ssa_debug_log( $single_notification_settings, 1, '$single_notification_settings' );
@@ -379,8 +325,7 @@ class SSA_Notifications {
 			array( '<p>'      , '</p>'      , '}}'      , '%}'       ),
 			$string
 		);
-		$string = str_replace( '{{ Appointment.customer_information_summary }}', '{% for label, entered_value in Appointment.customer_information_strings %}{% if entered_value|trim %}{{ label|internationalize(Appointment.customer_locale) }}: {{ entered_value|trim|raw }} <br />{%endif%}{% endfor %}', $string );
-		$string = str_replace( '{{ Appointment.customer_information_summary_admin_locale }}', '{% for label, entered_value in Appointment.customer_information_strings %}{% if entered_value|trim %}{{ label|internationalize }}: {{ entered_value|trim|raw }} <br />{%endif%}{% endfor %}', $string );
+		$string = str_replace( '{{ Appointment.customer_information_summary }}', '{% for label, entered_value in Appointment.customer_information_strings %}{% if entered_value|trim %}{{ label|internationalize }}: {{ entered_value|trim|raw }} <br />{%endif%}{% endfor %}', $string );
 		$instructions = "{{ Appointment.AppointmentType.instructions|raw }} 
 
 			{% if Appointment.web_meeting_url %}
@@ -597,8 +542,7 @@ class SSA_Notifications {
 				'example_appointment_type_id' => $appointment_type_object->id,
 			) );
 		}
-		
-		$template_string = $this->plugin->templates->cleanup_variables_in_string( $template_string );
+
 		$template_string = $this->prepare_notification_template( $template_string );
 		$template_string = $this->plugin->templates->render_template_string( $template_string, $notification_vars );
 		$template_string = str_replace(

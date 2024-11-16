@@ -1,0 +1,37 @@
+// Make entire cards clickable
+// Some builders require separate instructions
+// to remove the effect from the builder canvas
+
+@if $option-accessibility-classes == on {
+
+  @if $option-oxygen == off and $option-bricks == off {
+      .clickable-parent:not(a) {
+        position: static;
+
+        a {
+          position: static;
+        }
+
+        > a::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          cursor: pointer !important;
+          display: flex;
+        }
+      }
+
+      a.clickable-parent {
+        position: static;
+
+        &::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          cursor: pointer !important;
+          display: flex;
+        }
+      }
+  } // End builder check
+
+} // End options check

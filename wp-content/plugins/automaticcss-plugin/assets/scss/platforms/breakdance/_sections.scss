@@ -1,0 +1,18 @@
+.breakdance {
+    --bde-section-width: var(--content-width);
+    --bde-header-width: var(--content-width);
+}
+
+// Breakdance applies default padding to the section's inner container
+// This removes that padding so ACSS can apply it to the section itself
+section {
+    --bde-section-vertical-padding: 0;
+    --bde-section-horizontal-padding: 0;
+}
+
+// Inner container has a max-width but not a width. 
+// When the section is set to flex, this collapses the inner container. 
+// Setting default width to 100% fixes this.
+.section-container {
+    width: 100%;
+}

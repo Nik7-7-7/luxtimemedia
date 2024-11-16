@@ -1,0 +1,406 @@
+/*!
+ *  Ultimate Learning Pro Frotend Style file
+ *  Courses grid
+ *  Students Grid
+ */
+.theme_1 .ulp-grid-list-students{
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    min-height: 1px;
+    padding: 5px 10px;
+	padding-bottom:20px;
+    position: relative;
+    width: 292px;
+    vertical-align: top;
+    text-align: left;
+}
+.theme_1 .ulp-grid-list-students .student-img{
+	-webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease-in-out;
+    border-bottom-color: rgb(136, 136, 136);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(136, 136, 136);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(136, 136, 136);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(136, 136, 136);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    height: auto;
+    line-height: 21px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 14px;
+	min-height:60px;
+}
+.theme_1 .ulp-grid-list-students .student-img img {
+    border-bottom-color: rgb(136, 136, 136);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(136, 136, 136);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(136, 136, 136);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(136, 136, 136);
+    border-top-style: none;
+    border-top-width: 0px;
+    display: inline;
+    max-width: 100%;
+    width: 100%;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    pointer: cursor;
+    -webkit-filter: grayscale(0%);
+}
+.theme_1 .ulp-grid-list-students .student-name {
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 14px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    background-color: #444;
+    z-index: 9994;
+}
+.theme_1 .ulp-grid-list-students .student-name span {
+    background-color: rgb(0, 175, 209);
+    position: absolute;
+    top: 90%;
+    right: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 1px 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+	min-width: 80px;
+}
+.theme_1 .ulp-grid-list-students .student-email, .theme_1 .ulp-grid-list-students .student-registered {
+    color: #777;
+    font-size: 13px;
+	font-weight:bold;
+}
+
+.theme_2 .ulp-content-grid-list ul li, .ulp-carousel-view ul li {
+    margin: 0px !important;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    min-height: 1px;
+    min-width: inherit;
+    padding: 5px 18px;
+    position: relative;
+    vertical-align: top;
+    text-align: left;
+    float: left;
+}
+.theme_2 .student-img {
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease-in-out;
+    border-bottom-color: rgb(136, 136, 136);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(136, 136, 136);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(136, 136, 136);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(136, 136, 136);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(136, 136, 136);
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    height: auto;
+    line-height: 21px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    width: 100%;
+    cursor: pointer;
+}
+.theme_2 .student-img img {
+    border-bottom-color: rgb(136, 136, 136);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(136, 136, 136);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(136, 136, 136);
+    border-right-style: none;
+    border-right-width: 2px;
+    border-top-color: rgb(136, 136, 136);
+    border-top-style: none;
+    border-top-width: 0px;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    -webkit-filter: grayscale(0%);
+}
+.theme_2 .student-content {
+    position: relative;
+    padding: 30px 3px;
+    padding-top: 10px;
+}
+.theme_2 .student-content:before {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: " ";
+    margin-left: -8px;
+    border: solid transparent;
+    border-color: transparent;
+    border-bottom-color: #fff;
+    border-width: 8px;
+    pointer-events: none;
+    z-index: 9999;
+}
+.theme_2 .student-name {
+    font-family: "Montserrat";
+    font-size: 25.667px;
+    text-align: center;
+    line-height: 35px;
+}
+.theme_2 .student-points {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 21px;
+	font-weight:600;
+    margin-bottom: 0;
+    text-align: center;
+}
+.theme_2 .student-desc {
+    font-size: 85%;
+    margin: 15px 0;
+    margin-bottom: 5px;
+	text-align:center;
+}
+.theme_2 .ulp-grid-list-students .student-email, .theme_2  .ulp-grid-list-students .student-registered {
+    color: #777;
+    font-size: 12px;
+	font-weight:bold;
+}
+.ulp-grid-list-courses{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    box-sizing: inherit;
+    padding-right: 15px;
+    padding-left: 15px;	
+}
+.ulp-grid-list-courses{
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+}
+ .ulp-grid-list-courses .ulp-feat-img-wrapp {
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+	min-width:1px;
+	height: 340px;
+}
+.ulp-grid-list-courses .ulp-feat-img-single-course {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width:100%;
+	height: 340px;
+}
+ .ulp-grid-list-courses .ulp-course-price {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: .4px;
+    padding: 11px 28px;
+    display: flex;
+    background: #fff;
+    text-transform: uppercase;
+    z-index: 9;
+    color: #18c1f0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: .4px;
+}
+.ulp-grid-list-courses  .ulp-list-courses-item-wrapp-content {
+    height: auto;
+    padding-bottom: 25px;
+}
+.ulp-grid-list-courses .ulp-list-courses-item-title {
+    margin-bottom: .5rem;
+    font-family: Roboto;
+    color: #202121;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    text-transform: none;
+    padding: 25px 28px 12px 28px;
+    line-height: 18px;
+}
+.ulp-grid-list-courses .ulp-list-courses-item-title a {
+    font-size: 16px;
+    letter-spacing: .3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #202121;
+    font-family: Roboto;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.ulp-grid-list-courses .ulp-list-courses-item-wrapp-second-content {
+    padding: 0 28px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.38;
+    letter-spacing: .3px;
+    color: #878787;
+    margin-bottom: 24px;
+}
+.pag-theme1 .owl-imt-carousel .owl-imt-controls .owl-imt-nav .owl-imt-next {
+    background-color: #ddd;
+    width: 26px;
+    height: 26px;
+    padding: 0px;
+    margin: 2px;
+    margin-bottom: 8px;
+    font-family: FontAwesome-imt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    vertical-align: middle;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+}
+.pag-theme1 .owl-imt-carousel .owl-imt-controls .owl-imt-nav .owl-imt-next:before {
+    content: "\f054";
+}
+.pag-theme1 .owl-ulp-carousel .owl-ulp-controls .owl-ulp-nav .owl-ulp-prev {
+    background-color: #ddd;
+    width: 26px;
+    height: 26px;
+    padding: 0px;
+    margin: 2px;
+    margin-bottom: 8px;
+    font-family: FontAwesome-imt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    vertical-align: middle;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+}
+.pag-theme1 .owl-ulp-carousel .owl-ulp-controls .owl-ulp-nav .owl-ulp-prev:before {
+    content: "\f053";
+}
+.pag-theme1 .ulp-wrapp-list-grid .owl-ulp-carousel .owl-ulp-controls .owl-ulp-nav [class*='owl-ulp-']:hover {
+    background: #4dc7a0;
+    color: white;
+    text-decoration: none;
+}

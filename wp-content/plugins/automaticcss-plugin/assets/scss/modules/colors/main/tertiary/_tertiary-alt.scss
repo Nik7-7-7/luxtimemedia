@@ -1,0 +1,148 @@
+// tertiary Options
+$option-tertiary-clr-alt: off !default;
+
+// tertiary Alt Vars
+$tertiary-alt-hex: #e56c70 !default;
+$tertiary-r-alt: 229 !default;
+$tertiary-g-alt: 108 !default;
+$tertiary-b-alt: 112 !default;
+$tertiary-h-alt: 358 !default;
+$tertiary-s-alt: 70% !default;
+$tertiary-l-alt: 66% !default;
+$tertiary-hover-h-alt: 358 !default;
+$tertiary-hover-s-alt: 70% !default;
+$tertiary-hover-l-alt: 1.15 !default;
+$tertiary-ultra-light-h-alt: 358 !default;
+$tertiary-ultra-light-s-alt: 70% !default;
+$tertiary-ultra-light-l-alt: 95% !default;
+$tertiary-light-h-alt: 358 !default;
+$tertiary-light-s-alt: 70% !default;
+$tertiary-light-l-alt: 85% !default;
+$tertiary-medium-h-alt: 358 !default;
+$tertiary-medium-s-alt: 70% !default;
+$tertiary-medium-l-alt: 50% !default;
+$tertiary-dark-h-alt: 358 !default;
+$tertiary-dark-s-alt: 70% !default;
+$tertiary-dark-l-alt: 25% !default;
+$tertiary-ultra-dark-h-alt: 358 !default;
+$tertiary-ultra-dark-s-alt: 70% !default;
+$tertiary-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$tertiary-semi-light-h-alt: 358 !default;
+$tertiary-semi-light-s-alt: 70% !default;
+$tertiary-semi-light-l-alt: 60% !default;
+$tertiary-semi-dark-h-alt: 358 !default;
+$tertiary-semi-dark-s-alt: 70% !default;
+$tertiary-semi-dark-l-alt: 40% !default;
+
+// Tertiary Alt Color Map
+$color-tertiary-alt:(); // Initialize Map
+@if $option-tertiary-clr-alt == on and $option-tertiary-clr == on {
+  $color-tertiary-alt: (
+    "main": (
+      "tertiary": $tertiary-alt-hex,
+      "tertiary-hover": hsl($tertiary-hover-h-alt, $tertiary-hover-s-alt, $tertiary-hover-l-alt),
+      "tertiary-ultra-light": hsl($tertiary-ultra-light-h-alt, $tertiary-ultra-light-s-alt, $tertiary-ultra-light-l-alt),
+      "tertiary-light": hsl($tertiary-light-h-alt, $tertiary-light-s-alt, $tertiary-light-l-alt),
+      "tertiary-semi-light": hsl($tertiary-semi-light-h-alt, $tertiary-semi-light-s-alt, $tertiary-semi-light-l-alt),
+      "tertiary-semi-dark": hsl($tertiary-semi-dark-h-alt, $tertiary-semi-dark-s-alt, $tertiary-semi-dark-l-alt),
+      "tertiary-dark": hsl($tertiary-dark-h-alt, $tertiary-dark-s-alt, $tertiary-dark-l-alt),
+      "tertiary-ultra-dark": hsl($tertiary-ultra-dark-h-alt, $tertiary-ultra-dark-s-alt, $tertiary-ultra-dark-l-alt),
+      "tertiary-comp": hsl($tertiary-h-alt + 180, $tertiary-s-alt, $tertiary-l-alt),
+    ),
+    "trans": (
+      "tertiary-trans-10": rgba($tertiary-alt-hex, .1),
+      "tertiary-trans-20": rgba($tertiary-alt-hex, .2),
+      "tertiary-trans-30": rgba($tertiary-alt-hex, .3),
+      "tertiary-trans-40": rgba($tertiary-alt-hex, .4),
+      "tertiary-trans-50": rgba($tertiary-alt-hex, .5),
+      "tertiary-trans-60": rgba($tertiary-alt-hex, .6),
+      "tertiary-trans-70": rgba($tertiary-alt-hex, .7),
+      "tertiary-trans-80": rgba($tertiary-alt-hex, .8),
+      "tertiary-trans-90": rgba($tertiary-alt-hex, .9),
+    ),
+    "light-trans": (
+      "tertiary-light-trans-10": hsl($tertiary-light-h-alt, $tertiary-light-s-alt, $tertiary-light-l-alt, .1),
+      "tertiary-light-trans-20": hsl($tertiary-light-h-alt, $tertiary-light-s-alt, $tertiary-light-l-alt, .2),
+      "tertiary-light-trans-30": hsl($tertiary-light-h-alt, $tertiary-light-s-alt, $tertiary-light-l-alt, .3),
+      "tertiary-light-trans-40": hsl($tertiary-light-h-alt, $tertiary-light-s-alt, $tertiary-light-l-alt, .4),
+      "tertiary-light-trans-50": hsl($tertiary-light-h-alt, $tertiary-light-s-alt, $tertiary-light-l-alt, .5),
+      "tertiary-light-trans-60": hsl($tertiary-light-h-alt, $tertiary-light-s-alt, $tertiary-light-l-alt, .6),
+      "tertiary-light-trans-70": hsl($tertiary-light-h-alt, $tertiary-light-s-alt, $tertiary-light-l-alt, .7),
+      "tertiary-light-trans-80": hsl($tertiary-light-h-alt, $tertiary-light-s-alt, $tertiary-light-l-alt, .8),
+      "tertiary-light-trans-90": hsl($tertiary-light-h-alt, $tertiary-light-s-alt, $tertiary-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "tertiary-dark-trans-10": hsl($tertiary-dark-h-alt, $tertiary-dark-s-alt, $tertiary-dark-l-alt, .1),
+      "tertiary-dark-trans-20": hsl($tertiary-dark-h-alt, $tertiary-dark-s-alt, $tertiary-dark-l-alt, .2),
+      "tertiary-dark-trans-30": hsl($tertiary-dark-h-alt, $tertiary-dark-s-alt, $tertiary-dark-l-alt, .3),
+      "tertiary-dark-trans-40": hsl($tertiary-dark-h-alt, $tertiary-dark-s-alt, $tertiary-dark-l-alt, .4),
+      "tertiary-dark-trans-50": hsl($tertiary-dark-h-alt, $tertiary-dark-s-alt, $tertiary-dark-l-alt, .5),
+      "tertiary-dark-trans-60": hsl($tertiary-dark-h-alt, $tertiary-dark-s-alt, $tertiary-dark-l-alt, .6),
+      "tertiary-dark-trans-70": hsl($tertiary-dark-h-alt, $tertiary-dark-s-alt, $tertiary-dark-l-alt, .7),
+      "tertiary-dark-trans-80": hsl($tertiary-dark-h-alt, $tertiary-dark-s-alt, $tertiary-dark-l-alt, .8),
+      "tertiary-dark-trans-90": hsl($tertiary-dark-h-alt, $tertiary-dark-s-alt, $tertiary-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "tertiary-ultra-dark-trans-10": hsl($tertiary-ultra-dark-h-alt, $tertiary-ultra-dark-s-alt, $tertiary-ultra-dark-l-alt, .1),
+      "tertiary-ultra-dark-trans-20": hsl($tertiary-ultra-dark-h-alt, $tertiary-ultra-dark-s-alt, $tertiary-ultra-dark-l-alt, .2),
+      "tertiary-ultra-dark-trans-30": hsl($tertiary-ultra-dark-h-alt, $tertiary-ultra-dark-s-alt, $tertiary-ultra-dark-l-alt, .3),
+      "tertiary-ultra-dark-trans-40": hsl($tertiary-ultra-dark-h-alt, $tertiary-ultra-dark-s-alt, $tertiary-ultra-dark-l-alt, .4),
+      "tertiary-ultra-dark-trans-50": hsl($tertiary-ultra-dark-h-alt, $tertiary-ultra-dark-s-alt, $tertiary-ultra-dark-l-alt, .5),
+      "tertiary-ultra-dark-trans-60": hsl($tertiary-ultra-dark-h-alt, $tertiary-ultra-dark-s-alt, $tertiary-ultra-dark-l-alt, .6),
+      "tertiary-ultra-dark-trans-70": hsl($tertiary-ultra-dark-h-alt, $tertiary-ultra-dark-s-alt, $tertiary-ultra-dark-l-alt, .7),
+      "tertiary-ultra-dark-trans-80": hsl($tertiary-ultra-dark-h-alt, $tertiary-ultra-dark-s-alt, $tertiary-ultra-dark-l-alt, .8),
+      "tertiary-ultra-dark-trans-90": hsl($tertiary-ultra-dark-h-alt, $tertiary-ultra-dark-s-alt, $tertiary-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "tertiary-hex": $tertiary-alt-hex,
+        "tertiary-hsl": $tertiary-h $tertiary-s $tertiary-l-alt,
+        "tertiary-rgb": $tertiary-r $tertiary-g $tertiary-b-alt,
+        "tertiary-r": $tertiary-r-alt,
+        "tertiary-g": $tertiary-g-alt,
+        "tertiary-b": $tertiary-b-alt,
+        "tertiary-h": $tertiary-h-alt,
+        "tertiary-s": $tertiary-s-alt,
+        "tertiary-l": $tertiary-l-alt,
+        "tertiary-hover-h": $tertiary-hover-h-alt,
+        "tertiary-hover-s": $tertiary-hover-s-alt,
+        "tertiary-hover-l": $tertiary-hover-l-alt,
+        "tertiary-ultra-light-h": $tertiary-ultra-light-h-alt,
+        "tertiary-ultra-light-s": $tertiary-ultra-light-s-alt,
+        "tertiary-ultra-light-l": $tertiary-ultra-light-l-alt,
+        "tertiary-light-h": $tertiary-light-h-alt,
+        "tertiary-light-s": $tertiary-light-s-alt,
+        "tertiary-light-l": $tertiary-light-l-alt,
+        "tertiary-semi-light-h": $tertiary-semi-light-h-alt,
+        "tertiary-semi-light-s": $tertiary-semi-light-s-alt,
+        "tertiary-semi-light-l": $tertiary-semi-light-l-alt,
+        "tertiary-semi-dark-h": $tertiary-semi-dark-h-alt,
+        "tertiary-semi-dark-s": $tertiary-semi-dark-s-alt,
+        "tertiary-semi-dark-l": $tertiary-semi-dark-l-alt,
+        "tertiary-dark-h": $tertiary-dark-h-alt,
+        "tertiary-dark-s": $tertiary-dark-s-alt,
+        "tertiary-dark-l": $tertiary-dark-l-alt,
+        "tertiary-ultra-dark-h": $tertiary-ultra-dark-h-alt,
+        "tertiary-ultra-dark-s": $tertiary-ultra-dark-s-alt,
+        "tertiary-ultra-dark-l": $tertiary-ultra-dark-l-alt,
+        "tertiary-comp-h": $tertiary-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-tertiary-clr-alt == on and $option-tertiary-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-tertiary-alt: map-merge($color-tertiary-alt, (
+      "main": map-merge(map-get($color-tertiary-alt, "main"), (
+        "tertiary-medium": hsl($tertiary-medium-h-alt, $tertiary-medium-s-alt, $tertiary-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-tertiary-alt, "partials"), (
+        "tertiary-medium-h": $tertiary-medium-h-alt,
+        "tertiary-medium-s": $tertiary-medium-s-alt,
+        "tertiary-medium-l": $tertiary-medium-l-alt
+      ))
+    ));
+  }
+}

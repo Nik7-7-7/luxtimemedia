@@ -1,0 +1,562 @@
+.notice,
+.error,
+.update-nag,
+.updated {
+	display: none !important;
+}
+div.fs-notice.updated,
+div.fs-notice.success,
+div.fs-notice.promotion {
+	display: none !important;
+	visibility: hidden;
+	z-index: -1;
+	position: absolute;
+}
+.notice.inline,
+.error.inline,
+.update-nag.inline,
+.updated.inline {
+	display: block !important;
+}
+#adminmenu #menu-posts-newsletter .wp-first-item {
+	display: block;
+}
+#mailster-setup {
+	font-size: 16px;
+}
+#mailster-setup p {
+	line-height: 1.5em;
+	font-size: 16px;
+}
+#mailster-setup .two-col {
+	display: flex;
+}
+#mailster-setup .two-col .col {
+	flex: 1;
+}
+#mailster-setup #step_start .mailster-setup-step-form {
+	display: flex;
+	align-items: center;
+}
+
+#mailster-setup #step_start .welcome-splash {
+	background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path fill="%23F2F4F8" d="M36,-62.2C44.3,-50.6,47.2,-36.7,48.3,-24.8C49.4,-13,48.6,-3,50.4,9.6C52.2,22.2,56.5,37.5,52.4,49.3C48.2,61.1,35.5,69.4,23.4,67.4C11.3,65.3,-0.3,52.9,-13.4,48C-26.5,43,-41.1,45.7,-50.6,40.6C-60.2,35.5,-64.6,22.7,-66.5,9.6C-68.4,-3.6,-67.6,-17.1,-61.4,-26.9C-55.1,-36.6,-43.2,-42.7,-32,-53.1C-20.9,-63.4,-10.4,-78.1,1.7,-80.7C13.8,-83.3,27.6,-73.9,36,-62.2Z" transform="translate(100 100)" /></svg>');
+	background-repeat: no-repeat;
+	padding: 3em 0;
+	background-size: 140%;
+	background-position: 50% 30%;
+}
+#mailster-setup #step_start .welcome-splash img {
+	-webkit-filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.15));
+	filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.15));
+	font-size: 3em;
+}
+
+#mailster-setup #step_start .skip-link {
+	font-size: 14px;
+	position: absolute;
+	bottom: 2em;
+}
+#mailster-setup #step_start .skip-link a {
+	text-decoration: none;
+}
+#mailster-setup .hide-in-wizard {
+	display: none;
+}
+#mailster-setup .mailster-setup-steps-nav {
+	list-style: none;
+	margin: 2em auto 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#mailster-setup .mailster-setup-steps-nav li {
+	margin: 0;
+}
+#mailster-setup .mailster-setup-steps-nav li a {
+	border: 1px solid #c3c4c4;
+	width: 6px;
+	height: 6px;
+	display: block;
+	border-radius: 50%;
+	margin: 2px;
+}
+#mailster-setup .mailster-setup-steps-nav li a.current,
+#mailster-setup .mailster-setup-steps-nav li a.prev {
+	background: #c3c4c4;
+}
+#mailster-setup .mailster-setup-steps-nav li a:focus {
+	box-shadow: none;
+}
+
+#mailster-setup .mailster-setup-steps {
+	background: #fff;
+	overflow: hidden;
+	zoom: 1;
+	clear: both;
+	max-width: 1050px;
+	width: 70vw;
+	min-width: 900px;
+	position: relative;
+	margin: 10px auto;
+	border: 1px solid #c3c4c4;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+#mailster-setup .mailster-setup-steps p {
+	max-width: 680px;
+}
+
+#mailster-setup .mailster-setup-step {
+	position: relative;
+	inset: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+#mailster-setup .mailster-setup-step .mailster-setup-step-body {
+}
+#mailster-setup .mailster-setup-step.active {
+	display: block;
+}
+#mailster-setup .mailster-setup-steps .spinner {
+	float: left;
+}
+.rtl #mailster-setup .mailster-setup-steps .spinner {
+	float: right;
+}
+#mailster-setup .status {
+	font-size: 12px;
+	font-style: italic;
+	line-height: 33px;
+}
+#mailster-setup h2,
+#mailster-setup h3,
+#mailster-setup h4 {
+	font-weight: 400;
+}
+#mailster-setup .mailster-setup-step h2 {
+	font-size: 2em;
+	line-height: 1.2em;
+}
+#mailster-setup .mailster-setup-step h2.section-title {
+	padding: 50px 50px 10px;
+	margin: 0.3em 0 0;
+}
+#mailster-setup .mailster-setup-step-body {
+	padding: 0 50px 40px;
+}
+#mailster-setup #step_start .mailster-setup-step-body {
+	padding-right: 20px;
+}
+.rtl #mailster-setup #step_start .mailster-setup-step-body {
+	padding-right: 40px;
+}
+
+#mailster-setup .mailster-setup-step-buttons {
+	text-align: right;
+	padding: 1em 2em;
+	box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+#mailster-setup .mailster-setup-step-buttons .last-step {
+	text-decoration: none;
+}
+.rtl #mailster-setup .mailster-setup-step-buttons {
+	text-align: left;
+}
+#mailster-setup .button.next-step:active {
+	vertical-align: inherit;
+}
+#homepage_title {
+	padding: 3px 8px;
+	font-size: 1.7em;
+	line-height: 100%;
+	height: 1.7em;
+	width: 100%;
+	outline: none;
+	margin: 0 0 3px;
+	background-color: #fff;
+}
+#mailster-setup .edit-slug-area {
+	display: none;
+}
+#mailster-setup .mailster-setup-step .nav-tab {
+	font-size: inherit;
+}
+#mailster-setup .deliverytab {
+	border: 1px solid #c3c4c4;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+	padding: 15px;
+	display: none;
+}
+#mailster-setup .current .deliverytab {
+	display: block;
+}
+#mailster-setup .current .deliverytab .hide-on-setup {
+	display: none;
+}
+#mailster-setup .current .deliverytab > * {
+	transition: all 0.3s ease-in-out;
+}
+#mailster-setup .deliverytab:empty {
+	display: none;
+}
+#step_delivery section.loading .deliverytab > * {
+	pointer-events: none;
+	opacity: 0.5;
+	filter: blur(2px);
+}
+#mailster-setup .button.loading {
+	background-color: #ededed;
+	background: linear-gradient(
+			100deg,
+			rgba(255, 255, 255, 0) 40%,
+			rgba(255, 255, 255, 0.5) 50%,
+			rgba(255, 255, 255, 0) 60%
+		)
+		#ededed;
+	background-size: 200% 100%;
+	background-position-x: 180%;
+	animation: 1s skeleton-loading ease-in-out infinite;
+}
+#mailster-setup #load_location_db {
+	display: none;
+}
+
+section {
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+	padding: 2em 2em;
+	margin-top: 15px;
+	border-radius: 5px;
+	position: relative;
+	border: 1px solid #c3c4c4;
+}
+#step_delivery .deliverymethods {
+	margin-top: 3em;
+}
+#step_delivery section img {
+	float: right;
+	width: 128px;
+	height: 128px;
+	border: 1px solid #c3c4c4;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+.rtl #step_delivery section img {
+	float: left;
+}
+#step_delivery section.current img {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#step_delivery section {
+}
+#step_delivery section.current {
+	border: 1px solid #2bb3e7;
+	box-shadow: 0 1px 15px rgba(43, 179, 231, 0.65);
+}
+#step_delivery section .save-delivery,
+#step_delivery section .send-test,
+#step_delivery section .deliverystatus {
+	display: none;
+}
+#step_delivery section.current .save-delivery,
+#step_delivery section.current .send-test,
+#step_delivery section.current .deliverystatus {
+	display: inline-block;
+}
+#step_delivery section .notice {
+	display: none !important;
+}
+#step_delivery section .deliverystatus {
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	bottom: 6.3em;
+	margin: 3em;
+	background-color: #fff;
+	padding: 0.2em 0.5em;
+	border: 1px solid #c3c4c4;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+#step_delivery section .deliverystatus:empty {
+	display: none;
+}
+#step_delivery section .deliverystatus span {
+	display: block;
+	margin: 0.3em 0;
+}
+.mailster-homepage-previews {
+	display: flex;
+	gap: 8px;
+}
+
+.mailster-homepage-preview {
+	position: relative;
+	left: 0;
+	width: 620px;
+	height: 500px;
+	transform-origin: top left;
+	border: 1px solid #c3c4c4;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+	padding: 30px;
+	padding-bottom: 0;
+	background-color: #f6f6fc;
+	overflow: hidden;
+}
+.mailster-homepage-preview-small {
+	width: 240px;
+	height: 140px;
+	transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+	margin-bottom: 8px;
+}
+.mailster-homepage-preview-small:hover {
+	box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+}
+.mailster-homepage-slugs {
+	display: none;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+.mailster-homepage-slugs li {
+	float: left;
+	border: 1px solid #c3c4c4;
+	border-bottom: none;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+	border-radius: 5px 5px 0 0;
+	margin-left: 5px;
+	margin-bottom: 0;
+	padding: 0.2em 0.5em;
+}
+
+.mailster-homepage-preview .mailster-homepage-preview-browser {
+	width: 250%;
+	height: 250%;
+	pointer-events: none;
+	scale: 0.4;
+	transform-origin: top left;
+	overflow: hidden;
+}
+.rtl .mailster-homepage-preview .mailster-homepage-preview-browser {
+	transform-origin: top right;
+}
+.mailster-homepage-preview-small .mailster-homepage-preview-browser {
+	width: 500%;
+	height: 500%;
+	scale: 0.2;
+}
+.mailster-homepage-preview .mailster-homepage-preview-browser iframe {
+	width: 100%;
+	height: 100%;
+}
+.mailster-homepage-preview .action-buttons {
+	opacity: 0;
+	position: relative;
+	top: 45%;
+	left: 50%;
+	translate: -50%;
+	display: inline-block;
+	transition: opacity 0.1s ease-in-out;
+	z-index: 1;
+}
+.mailster-homepage-preview .action-buttons a {
+	color: #fff;
+	font-size: 15px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+	-webkit-font-smoothing: antialiased;
+	font-weight: 600;
+	padding: 15px 12px;
+	text-align: center;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+	background: #1d2327;
+	background: rgba(0, 0, 0, 0.7);
+	text-decoration: none;
+	transition: all 0.1s ease-in-out;
+}
+.mailster-homepage-preview:hover .action-buttons {
+	opacity: 1;
+}
+.mailster-homepage-preview:hover .action-buttons a:hover {
+	background: rgba(0, 0, 0, 1);
+}
+.mailster-homepage-preview svg {
+	display: block;
+	z-index: 2;
+}
+
+.templates {
+	display: flex;
+	flex-wrap: wrap;
+}
+.templates .template {
+	width: 33%;
+	box-sizing: border-box;
+}
+.templates .template .locked {
+	display: none;
+}
+.templates .template.is-locked header::before {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke-linecap="round" stroke-width="2.0" stroke="%23545454" fill="none" stroke-linejoin="round"><path d="M17 21h-10c-1.105 0-2-.895-2-2v-7c0-1.105.895-2 2-2h10c1.105 0 2 .895 2 2v7c0 1.105-.895 2-2 2Z"></path><path d="M8 10v-3 0c0-2.209 1.791-4 4-4v0c2.209 0 4 1.791 4 4v0 3"></path></g><path fill="none" d="M0 0h24v24h-24Z"></path></svg>');
+	background-size: 100%;
+	content: ' ';
+	width: 16px;
+	height: 15px;
+	display: inline-block;
+}
+.templates .template.is-locked .locked {
+	position: absolute;
+	z-index: 100;
+	height: 100%;
+	display: none;
+	flex-direction: column;
+	padding: 0 1em;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.55);
+	text-align: center;
+}
+.templates .template.is-locked:hover .locked {
+	display: flex;
+}
+.templates .template.is-locked:hover .mailster-template-preview-browser {
+	filter: blur(12px);
+	opacity: 0.5;
+}
+.mailster-template-previews {
+	display: flex;
+	gap: 8px;
+}
+
+.mailster-template-preview {
+	position: relative;
+	left: 0;
+	width: 300px;
+	width: 96%;
+	height: 400px;
+	transform-origin: top left;
+	border: 1px solid #c3c4c4;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+	margin-bottom: 8px;
+	margin-right: 8px;
+	padding: 0;
+	background-color: #f6f6fc;
+
+	overflow: hidden;
+	cursor: pointer;
+	transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+	_filter: grayscale(50%);
+}
+.mailster-template-preview a.button-link {
+	color: #fff;
+}
+.loading .mailster-template-preview {
+	background-color: #ededed;
+	background: linear-gradient(
+			100deg,
+			rgba(255, 255, 255, 0) 40%,
+			rgba(255, 255, 255, 0.5) 50%,
+			rgba(255, 255, 255, 0) 60%
+		)
+		#ededed;
+	background-size: 200% 100%;
+	background-position-x: 180%;
+	animation: 1s skeleton-loading ease-in-out infinite;
+}
+.loading .mailster-template-preview * {
+	display: none;
+}
+.mailster-template-preview .mailster-template-preview-browser {
+	width: 333%;
+	height: 333%;
+	pointer-events: none;
+	scale: 0.3;
+	transform-origin: top left;
+	overflow: hidden;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin: 0;
+}
+.rtl .mailster-template-preview .mailster-template-preview-browser {
+	transform-origin: top right;
+}
+.mailster-template-preview header {
+	font-size: 15px;
+	font-weight: 600;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.65);
+	padding: 15px;
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+.mailster-template-preview .mailster-template-preview-browser iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.template.is-premium .mailster-template-preview {
+	border: 1px solid #ffb900;
+}
+.template.is-premium .mailster-template-preview:hover {
+	border: 1px solid #2bb3e7;
+	box-shadow: 0 1px 15px rgba(255, 185, 0, 0.65);
+}
+.template.is-premium .mailster-template-preview header:after {
+	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="none"><path stroke="%23ffb900" fill="%23ffb900" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7.458 20.86l2.81526e-08-1.51005e-08c-.584032.313263-1.31143.093761-1.6247-.490271 -.126301-.23547-.170399-.506358-.125305-.769729l.868-5.023 -3.676-3.559 4.32484e-08 4.2531e-08c-.472532-.464694-.478886-1.22447-.0141923-1.697 .183566-.186662.42314-.308172.682192-.346003l5.082-.733 2.27-4.574 3.97642e-08-7.94342e-08c.299141-.597572 1.02607-.839499 1.62364-.540358 .233761.117019.423339.306597.540358.540358l2.27 4.574 5.082.733 1.00541e-07 1.46825e-08c.655786.0957675 1.10977.705022 1.014 1.36081 -.0378307.259052-.159341.498626-.346003.682192l-3.678 3.557 .868 5.023 2.1535e-08 1.2438e-07c.113064.653026-.324662 1.27406-.977688 1.38713 -.264187.045741-.536083.00168883-.772312-.125129l-4.544-2.369Z"></path></g></svg>');
+	background-size: 100%;
+	content: ' ';
+	width: 16px;
+	height: 15px;
+	display: inline-block;
+	right: 15px;
+	position: absolute;
+}
+.rtl .template.is-premium .mailster-template-preview header:after {
+	right: auto;
+	left: 15px;
+}
+.mailster-template-preview:hover,
+.template.active .mailster-template-preview {
+	_filter: grayscale(0%);
+	border: 1px solid #2bb3e7;
+	box-shadow: 0 1px 15px rgba(43, 179, 231, 0.65);
+}
+.theme-badge {
+	border: 1px solid #c3c4c4;
+	font-size: 12px;
+	line-height: 1em;
+	font-weight: normal;
+	border-radius: 4px;
+	padding: 0.2em 0.4em;
+	margin-left: 0.6em;
+	display: none;
+	background-color: #fff;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+.template.active .theme-badge {
+	float: right;
+	display: inline-block;
+}
+.template.active.is-premium .theme-badge {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.rtl .template.active .theme-badge {
+	float: left;
+}
+#mailster-setup .subscribe iframe {
+	margin-left: -5px;
+	margin-right: -5px;
+	width: 100%;
+	height: 300px;
+}
+@keyframes skeleton-loading {
+	to {
+		background-position-x: -20%;
+	}
+}

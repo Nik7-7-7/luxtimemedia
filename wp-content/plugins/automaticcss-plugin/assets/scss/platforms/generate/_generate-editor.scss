@@ -1,0 +1,32 @@
+// These styles apply overrides to generate in the editor only
+
+// Make grid classes work on Generate grid element
+
+@include load-grid--has-nested(".gb-grid-wrapper", div);
+@include load-gap--has-nested(".gb-grid-wrapper", div);
+
+// Deactivate grid classes on Generate grid wrapper
+
+.gb-grid-wrapper[class*="grid--"] {
+    display: initial !important;
+}
+
+// Make stretch class work on Generate grid wrapper
+
+.gb-grid-wrapper.stretch > div {
+    align-items: stretch;
+}
+
+///// Overrides for Generate inside of Gutenberg
+
+.section__container[class*="gb-container-"] {
+    inline-size: 100%;
+    max-inline-size: var(--content-width);
+    margin-inline: auto;
+}
+
+:where(section > [class*="gb-container-"]) {
+    inline-size: 100%;
+    max-inline-size: var(--content-width);
+    margin-inline: auto;
+}

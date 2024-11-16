@@ -1,0 +1,19 @@
+$option-overflow-detection: off !default;
+
+@if $option-overflow-detection == on {
+	*:not(#wpadminbar, #wpadminbar *),
+	*:not(#wpadminbar, #wpadminbar *)::before,
+	*:not(#wpadminbar, #wpadminbar *)::after {
+		outline: 2px solid crimson !important;
+		background: color-mix(in oklab, crimson, transparent 97%)!important;
+	}
+}
+
+// For live preview and manual checking
+
+.overflow-detection *:not(#wpadminbar, #wpadminbar *),
+.overflow-detection *:not(#wpadminbar, #wpadminbar *)::before,
+.overflow-detection *:not(#wpadminbar, #wpadminbar *)::after {
+	outline: 2px solid crimson !important;
+	background: color-mix(in oklab, crimson, transparent 97%) !important;
+}

@@ -1,0 +1,34 @@
+@import "vars";
+@import "maps";
+
+:root {
+    // Radius Tokens
+    --radius: #{$base-radius};
+    @each $group, $set in $radius {
+        @each $option, $value in $set {
+            @if $group == "other" {
+                --radius-#{$option}: #{$value};
+            }
+        }
+    }
+    // Additional Sizes (If On)
+    @if $option-radius-sizes == on {
+        @each $group, $set in $radius {
+            @each $option, $value in $set {
+                @if $group == "sizes" {
+                --radius-#{$option}: #{$value};
+                }
+            }
+        }
+    } @else {
+        --radius-m: var(--radius);
+    }
+    // Border Tokens
+    --border-size: #{$border-size};
+    --border-style: #{$border-style};
+    --border-color-dark: #{$border-color-dark};
+    --border-color-light: #{$border-color-light};
+    --border: #{$border-main};
+    --border-light: #{$border-light};
+    --border-dark: #{$border-dark};
+}

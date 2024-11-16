@@ -1,0 +1,14 @@
+$option-bricks-replace-components-with-frames: off !default;
+
+@if $option-bricks-replace-components-with-frames == on {
+    #bricks-panel-elements .bricks-add-element.bricks-add-element.bricks-add-element {
+        &[data-element-name="toggle" i],
+        &[data-element-name="accordion-nested" i],
+        &[data-element-name="tabs-nested" i],
+        &[data-element-name="slider-nested" i],
+        &[data-element-name="toggle" i]
+            {
+                display: none !important;
+            }
+    }
+}

@@ -1,0 +1,44 @@
+// Options
+$option-rounded: on !default; // Main option for radius classes
+$option-radius-sizes: on !default; // Option to generate extra radius sizes
+$option-auto-radius: off !default;
+$option-border-classes: on !default;
+
+// Border Variables
+$border-size: 1px !default;
+$border-style: solid !default;
+$border-color-light: var(--white-trans-20) !default;
+$border-color-dark: var(--black-trans-20) !default;
+
+$border-main: var(--border-size) var(--border-style) var(--border-color-dark) !default;
+$border-dark: var(--border-size) var(--border-style) var(--border-color-dark) !default;
+$border-light: var(--border-size) var(--border-style) var(--border-color-light) !default;
+
+// Radius Variables
+$base-radius: 1rem !default;
+$radius-scale: 1.5 !default;
+
+// Internal Radius Variables for scale
+$radius-s-math: $base-radius / $radius-scale;
+$radius-xs-math: $radius-s-math / $radius-scale;
+$radius-m-math: $base-radius;
+$radius-l-math: $base-radius * $radius-scale;
+$radius-xl-math: $radius-l-math * $radius-scale;
+$radius-xxl-math: $radius-xl-math * $radius-scale;
+
+// Auto Radius
+$auto-radius-selectors: null !default;
+
+$border-colors: (
+	light: var(--border-color-light),
+	dark: var(--border-color-dark)
+);
+
+$border-positions: (
+	top: block-start,
+	bottom: block-end,
+	left: inline-start,
+	right: inline-end,
+	block: block,
+	inline: inline
+);

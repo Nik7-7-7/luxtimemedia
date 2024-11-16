@@ -1,0 +1,63 @@
+@if $option-owl == on {
+    @include if-builders-off {
+      @each $size, $extension in $sizeExtensions {
+        .owl--#{$extension} > * + * {
+          @if $size == xs {
+            @include map-get-owl(xs);
+          } @else if $size == s {
+            @include map-get-owl(s);
+          } @else if $size == m {
+            @include map-get-owl(m);
+          } @else if $size == l {
+            @include map-get-owl(l);
+          } @else if $size == xl {
+            @include map-get-owl(xl);
+          } @else if $size == xxl {
+            @include map-get-owl(xxl);
+          }
+        }
+      }
+    }
+    // Oxygen Override for Owl Spacing
+    @if $option-oxygen == on {
+      @each $size, $extension in $sizeExtensions {
+        .owl--#{$extension}:not(.ct-section) > * + *,
+        .ct-section.owl--#{$extension} .ct-section-inner-wrap > * + * {
+          @if $size == xs {
+            @include map-get-owl(xs);
+          } @else if $size == s {
+            @include map-get-owl(s);
+          } @else if $size == m {
+            @include map-get-owl(m);
+          } @else if $size == l {
+            @include map-get-owl(l);
+          } @else if $size == xl {
+            @include map-get-owl(xl);
+          } @else if $size == xxl {
+            @include map-get-owl(xxl);
+          }
+        }
+      }
+    }
+
+    // Bricks override for Owl Spacing
+    @if $option-bricks == on {
+      @each $size, $extension in $sizeExtensions {
+        .owl--#{$extension} > *:not(.bricks-element-actions) + * {
+          @if $size == xs {
+            @include map-get-owl(xs);
+          } @else if $size == s {
+            @include map-get-owl(s);
+          } @else if $size == m {
+            @include map-get-owl(m);
+          } @else if $size == l {
+            @include map-get-owl(l);
+          } @else if $size == xl {
+            @include map-get-owl(xl);
+          } @else if $size == xxl {
+            @include map-get-owl(xxl);
+          }
+        }
+      }
+    }
+  }

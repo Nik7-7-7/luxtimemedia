@@ -1,0 +1,30 @@
+@mixin texture($name: "1") {
+	background-color: var(--texture-background-color, var(--texture-#{$name}-background-color));
+	background-image: var(--texture-asset, var(--texture-#{$name}-asset));
+	background-position: var(--texture-position, var(--texture-#{$name}-position, center center));
+	background-attachment: var(--texture-attachment, var(--texture-#{$name}-attachment));
+	background-repeat: var(--texture-repeat, var(--texture-#{$name}-repeat));
+	background-size: var(--texture-size, var(--texture-#{$name}-size));
+	border-image: fill 1 var(--texture-overlay, var(--texture-#{$name}-overlay, none));
+	animation: var(--texture-animation, var(--texture-#{$name}-animation, none));
+}
+
+@mixin texture-overlay($name: "1") {
+	position: relative;
+	z-index: 0;
+	isolation: isolate;
+
+	&::before {
+		content: "";
+		background: var(--overlay-background);
+		background-position: var(--background-position, var(--texture-#{$name}-position, center center));
+		background-repeat: var(--texture-repeat, var(--texture-#{$name}-repeat));
+		background-size: var(--texture-size, var(--texture-#{$name}-size));
+		border-image: fill 1 var(--overlay, var(--texture-#{$name}-overlay-overlay, none));
+		mix-blend-mode: var(--blend-mode, var(--texture-#{$name}-blend-mode, normal));
+		position: absolute;
+		inset: var(--overlay-inset, 0);
+		z-index: var(--overlay-z-index, -1);
+		opacity: var(--overlay-opacity, var(--texture-#{$name}-overlay-opacity, 1));
+	}
+}

@@ -1,0 +1,5 @@
+Email*,Username,Password,First Name,Last Name,Membership Slug,Started Time,Expired Date
+user_1@exemple.com,user_1,,User,One,free_demo,,2027-03-14 09:45:58
+user_1@exemple.com,,,,,onetime_demo,,2027-03-14 09:45:58
+user_2@exemple.com,user_2,,,,,,
+user_3@exemple.com,,,User,Three,free_demo,,

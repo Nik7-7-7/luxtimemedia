@@ -1,0 +1,180 @@
+// MAIN COLOR SCHEME
+#{$color-scheme-main-selectors} {
+  // Generate tokens for partials
+  @each $utility, $value in $color-partials {
+    --#{$utility}: #{$value};
+  }
+  @each $utility, $value in $status-color-partials {
+    --#{$utility}: #{$value};
+  }
+  // Generate tokens for main colors and shades
+  @each $utility, $value in $core-colors {
+    --#{$utility}: #{$value};
+  }
+  @each $utility, $value in $core-status-colors {
+    --#{$utility}: #{$value};
+  }
+  // Generate tokens for transparencies
+  @each $utility, $value in $trans-colors {
+    --#{$utility}: #{$value};
+  }
+  @each $utility, $value in $trans-status-colors {
+    --#{$utility}: #{$value};
+  }
+  --shade-white: #fff;
+  --shade-black: #000;
+  //// Generate Contextual Background Tokens
+  // These must be generated inside of .color-scheme--main to ensure
+  // compatibility with color-scheme protection.
+  @each $utility-category, $utility-group in $contextuals {
+    @each $utility-name, $utility-value in $utility-group {
+      @if $utility-category == "background-colors" {
+          --bg-#{$utility-name}: #{$utility-value};
+      }
+    }
+  }
+  //// Generate Contextual Text Tokens
+  // These must be generated inside of .color-scheme--main to ensure
+  // compatibility with color-scheme protection.
+  @each $utility-category, $utility-group in $contextuals {
+    @each $utility-name, $utility-value in $utility-group {
+      @if $utility-category == "text-colors" {
+          --text-#{$utility-name}: #{$utility-value};
+      }
+    }
+  }
+  @if $body-bg-color != null {
+    --body-bg-color: #{$body-bg-color};
+  }
+  @if $body-color != null {
+    --body-color: #{$body-color};
+  }
+  @if $heading-color != null {
+    --heading-color: #{$heading-color};
+  }
+  @if $h1-color != null {
+    --h1-color: #{$h1-color};
+  }
+  @if $h2-color != null {
+    --h2-color: #{$h1-color};
+  }
+  @if $h3-color != null {
+    --h3-color: #{$h1-color};
+  }
+  @if $h4-color != null {
+    --h4-color: #{$h1-color};
+  }
+  @if $h5-color != null {
+    --h5-color: #{$h1-color};
+  }
+  @if $h6-color != null {
+    --h6-color: #{$h1-color};
+  }
+}
+
+:root {
+  // Dashboard Variables
+  --section-padding-x: #{$section-padding-x-rem};
+  --section-padding-block: #{$section-padding-block};
+  --section-gutter: #{$section-padding-x-rem};
+  --gutter: #{$section-padding-x-rem};
+  // TEXT SIZE VARIABLES
+  @each $variable, $value in $textVariables {
+    --#{$variable}: #{$value};
+  }
+    --root-font-size: #{$root-font-size};
+  // HEADING SIZE VARIABLES
+  @each $variable, $value in $headingVariables {
+    --#{$variable}: #{$value};
+  }
+  // SPACING VARIABLES
+  @each $variable, $value in $spacingVariables {
+    --#{$variable}: #{$value};
+  }
+  // SECTION SPACING VARIABLES
+  @each $variable, $value in $sectionSpacingVariables {
+    --#{$variable}: #{$value};
+  }
+  // WIDTH VARIABLES
+  --content-width: #{$content-width};
+  --content-width-safe: min(var(--content-width), calc(100% - var(--gutter) * 2));
+  @each $width, $value in $widths {
+    --width-#{$width}: calc(var(--content-width) * #{$value});
+  }
+  // Focus Variables
+  --focus-color: #{$focus-color};
+  --focus-width: #{$focus-width};
+  --focus-offset: #{$focus-offset};
+  // Box Shadows
+  --box-shadow-#{$box-shadow-1-name}: #{$box-shadow-1-value};
+  --box-shadow-#{$box-shadow-2-name}: #{$box-shadow-2-value};
+  --box-shadow-#{$box-shadow-3-name}: #{$box-shadow-3-value};
+  --box-shadow-1: #{$box-shadow-1-value};
+  --box-shadow-2: #{$box-shadow-2-value};
+  --box-shadow-3: #{$box-shadow-3-value};
+  --admin-bar-height: var(--wp-admin--admin-bar--height, 0px);
+  // Text Default Vars
+  @each $size, $style-list in $textGlobalStyles {
+    @each $prop, $value in $style-list {
+      @if $value != null {
+        --text-#{$size}-#{$prop}: #{$value};
+      }
+    }
+  }
+  --base-text-lh: #{$base-text-lh}; // Deprecated
+  // Heading Global Style Vars (All)
+  @each $prop, $value in $headingDefaultStyles {
+    @if $value != null {
+      --heading-#{$prop}: #{$value};
+    }
+  }
+  --base-heading-lh: #{$base-heading-lh}; // Deprecated
+  // Heading Global Style Vars (Specific)
+  @each $size, $style-list in $headingGlobalStyles {
+    @each $prop, $value in $style-list {
+      @if $value != null {
+        --#{$size}-#{$prop}: #{$value};
+      }
+    }
+  }
+  // Text Global Style Vars (All)
+  @each $prop, $value in $textDefaultStyles {
+    @if $value != null {
+      --text-#{$prop}: #{$value};
+    }
+  }
+}
+// Traditional Grid
+@import "grid/tokens";
+// Auto Grid
+@import "grid/auto-grid/tokens";
+// Header Height
+@import "header-height/tokens";
+// Scroll Offset
+@import "scroll-offset/tokens";
+// Smart Spacing
+@import "smart-spacing/tokens";
+// Button Tokens
+@import "buttons-links/button-tokens";
+// Link Tokens
+@import "buttons-links/links/tokens";
+// External Link Tokens
+@import "buttons-links/links/external-links/tokens";
+// Card Styles
+@import "cards/tokens";
+// Columns Tokens
+@import "columns/col-tokens";
+// Sticky Tokens
+@import "sticky/sticky-tokens";
+// Contextual Tokens
+@import "contextual/contextual-tokens";
+// Borders
+@import "borders/tokens";
+// Dividers
+@import "dividers/tokens";
+// Transition
+@import "transition/tokens";
+// Boxed Layout
+@import "boxed-layout/tokens";
+// Textures
+@import "textures/tokens";

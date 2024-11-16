@@ -1,0 +1,11 @@
+@each $color, $value in $contextual-heading-relationships {
+	@if $value != null and $value != '' {
+		$selector_string: '.bg--#{$color}' + get_texture_selectors($color);
+
+		#{$selector_string} {
+			:where(h1,h2,h3,h4,h5,h6) {
+				color: var(--bg-#{$color}-heading);
+			}
+		}
+	}
+}

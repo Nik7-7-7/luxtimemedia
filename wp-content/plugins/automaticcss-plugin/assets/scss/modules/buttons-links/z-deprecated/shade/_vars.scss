@@ -1,0 +1,51 @@
+// Shade Defaults
+$option-shade-btn: on !default;
+$option-shade-btn-outline: on !default;
+
+///// Main
+$btn-shade-bg: var(--shade) !default;
+$btn-shade-hover: var(--shade-hover) !default;
+$btn-shade-text: var(--shade-ultra-light) !default;
+$btn-shade-hover-text: var(--shade-ultra-light) !default;
+$btn-shade-border-color: var(--shade) !default;
+$btn-shade-hover-border-color: var(--shade-hover) !default;
+$btn-shade-focus-color: var(--shade-light) !default;
+///// Outline
+$btn-shade-outline-background: transparent !default;
+$btn-shade-outline-background-hover: var(--shade-hover) !default;
+$shade-outline-btn-text: var(--shade) !default;
+$shade-outline-hover-text: var(--shade-ultra-light) !default;
+$btn-shade-outline-border-color: var(--shade) !default;
+$btn-shade-outline-border-hover: var(--shade-hover) !default;
+$btn-shade-outline-focus-color: var(--shade-semi-light) !default;
+
+$btn-shade: (); // Initialize Map
+@if $option-shade-btn == on {
+
+    $btn-shade: (
+        "shade": (
+            btn-background: $btn-shade-bg,
+            btn-background-hover: $btn-shade-hover,
+            btn-text-color: $btn-shade-text,
+            btn-text-color-hover: $btn-shade-hover-text,
+            btn-border-color: $btn-shade-border-color,
+            btn-border-color-hover: $btn-shade-hover-border-color,
+            focus-color: $btn-shade-focus-color,
+        ),
+        "shade.btn--outline": (
+            btn-background: $btn-shade-outline-background,
+            btn-background-hover: $btn-shade-outline-background-hover,
+            btn-text-color: $shade-outline-btn-text,
+            btn-text-color-hover: $shade-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-shade-outline-border-color,
+            btn-border-color-hover: $btn-shade-outline-border-hover,
+            focus-color: $btn-shade-focus-color,
+        ),
+    );
+
+    @if $option-shade-btn-outline == off {
+        $btn-shade: map-remove($btn-shade, "shade.btn--outline");
+    }
+
+}

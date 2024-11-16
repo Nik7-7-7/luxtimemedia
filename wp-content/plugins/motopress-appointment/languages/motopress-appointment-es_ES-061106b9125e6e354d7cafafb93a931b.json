@@ -1,0 +1,102 @@
+{
+    "translation-revision-date": "2022-01-10 22:04",
+    "generator": "WP-CLI\/2.10.0",
+    "source": "assets\/js\/calendar-page.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "es_ES",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Status": [
+                "Estado"
+            ],
+            "Customer": [
+                "Cliente"
+            ],
+            "Services": [
+                "Servicios"
+            ],
+            "Service": [
+                "Servicio"
+            ],
+            "Employees": [
+                "Empleados"
+            ],
+            "Employee": [
+                "Empleado"
+            ],
+            "Time": [
+                "Tiempo"
+            ],
+            "Clients": [
+                "Clientes"
+            ],
+            "Booking": [
+                "Reserva"
+            ],
+            "Location": [
+                "Ubicaci\u00f3n"
+            ],
+            "Locations": [
+                "Ubicaciones"
+            ],
+            "Reservation details": [
+                "Detalles de la reserva"
+            ],
+            "Timetable": [
+                "Horario"
+            ],
+            "Bookings": [
+                "Reservas"
+            ],
+            "View Booking": [
+                "Ver reserva"
+            ],
+            "Date": [
+                "Fecha"
+            ],
+            "Next": [
+                "Siguiente"
+            ],
+            "Calendar": [
+                ""
+            ],
+            "Previous": [
+                ""
+            ],
+            "Today": [
+                ""
+            ],
+            "Month": [
+                ""
+            ],
+            "Week": [
+                ""
+            ],
+            "Day": [
+                ""
+            ],
+            "There are no events in this range.": [
+                ""
+            ],
+            "+%d more": [
+                ""
+            ],
+            "All": [
+                ""
+            ],
+            "Statuses": [
+                ""
+            ],
+            "All day": [
+                ""
+            ],
+            "View Bookings": [
+                ""
+            ]
+        }
+    }
+}

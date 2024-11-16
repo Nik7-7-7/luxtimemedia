@@ -1,0 +1,46 @@
+#aikit-post-finder-search-results, #aikit-post-finder-selected-results {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.aikit-post-finder-result {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.aikit-post-finder-result a {
+    color: #3384ff;
+    text-decoration: none;
+}
+
+.aikit-post-finder-result:hover {
+    background-color: #f5f5f5;
+}
+
+.aikit-post-finder-insert-post, .aikit-post-finder-remove-post {
+    float: right;
+}
+
+#aikit-post-finder-add-all{
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+}
+
+.aikit-post-finder-search-result-container {
+    position: relative;
+}
+
+.aikit-post-finder {
+    border: 1px solid #cce1ff;
+    padding: 10px;
+    background: #e8f1ff;
+}

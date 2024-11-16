@@ -1,0 +1,148 @@
+// base Options
+$option-base-clr-alt: off !default;
+
+// base Alt Vars
+$base-alt-hex: #e56c70 !default;
+$base-r-alt: 229 !default;
+$base-g-alt: 108 !default;
+$base-b-alt: 112 !default;
+$base-h-alt: 358 !default;
+$base-s-alt: 70% !default;
+$base-l-alt: 66% !default;
+$base-hover-h-alt: 358 !default;
+$base-hover-s-alt: 70% !default;
+$base-hover-l-alt: 1.15 !default;
+$base-ultra-light-h-alt: 358 !default;
+$base-ultra-light-s-alt: 70% !default;
+$base-ultra-light-l-alt: 95% !default;
+$base-light-h-alt: 358 !default;
+$base-light-s-alt: 70% !default;
+$base-light-l-alt: 85% !default;
+$base-medium-h-alt: 358 !default;
+$base-medium-s-alt: 70% !default;
+$base-medium-l-alt: 50% !default;
+$base-dark-h-alt: 358 !default;
+$base-dark-s-alt: 70% !default;
+$base-dark-l-alt: 25% !default;
+$base-ultra-dark-h-alt: 358 !default;
+$base-ultra-dark-s-alt: 70% !default;
+$base-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$base-semi-light-h-alt: 358 !default;
+$base-semi-light-s-alt: 70% !default;
+$base-semi-light-l-alt: 60% !default;
+$base-semi-dark-h-alt: 358 !default;
+$base-semi-dark-s-alt: 70% !default;
+$base-semi-dark-l-alt: 40% !default;
+
+// Base Alt Color Map
+$color-base-alt:(); // Initialize Map
+@if $option-base-clr-alt == on and $option-base-clr == on {
+  $color-base-alt: (
+    "main": (
+      "base": $base-alt-hex,
+      "base-hover": hsl($base-hover-h-alt, $base-hover-s-alt, $base-hover-l-alt),
+      "base-ultra-light": hsl($base-ultra-light-h-alt, $base-ultra-light-s-alt, $base-ultra-light-l-alt),
+      "base-light": hsl($base-light-h-alt, $base-light-s-alt, $base-light-l-alt),
+      "base-semi-light": hsl($base-semi-light-h-alt, $base-semi-light-s-alt, $base-semi-light-l-alt),
+      "base-semi-dark": hsl($base-semi-dark-h-alt, $base-semi-dark-s-alt, $base-semi-dark-l-alt),
+      "base-dark": hsl($base-dark-h-alt, $base-dark-s-alt, $base-dark-l-alt),
+      "base-ultra-dark": hsl($base-ultra-dark-h-alt, $base-ultra-dark-s-alt, $base-ultra-dark-l-alt),
+      "base-comp": hsl($base-h-alt + 180, $base-s-alt, $base-l-alt),
+    ),
+    "trans": (
+      "base-trans-10": rgba($base-alt-hex, .1),
+      "base-trans-20": rgba($base-alt-hex, .2),
+      "base-trans-30": rgba($base-alt-hex, .3),
+      "base-trans-40": rgba($base-alt-hex, .4),
+      "base-trans-50": rgba($base-alt-hex, .5),
+      "base-trans-60": rgba($base-alt-hex, .6),
+      "base-trans-70": rgba($base-alt-hex, .7),
+      "base-trans-80": rgba($base-alt-hex, .8),
+      "base-trans-90": rgba($base-alt-hex, .9),
+    ),
+    "light-trans": (
+      "base-light-trans-10": hsl($base-light-h-alt, $base-light-s-alt, $base-light-l-alt, .1),
+      "base-light-trans-20": hsl($base-light-h-alt, $base-light-s-alt, $base-light-l-alt, .2),
+      "base-light-trans-30": hsl($base-light-h-alt, $base-light-s-alt, $base-light-l-alt, .3),
+      "base-light-trans-40": hsl($base-light-h-alt, $base-light-s-alt, $base-light-l-alt, .4),
+      "base-light-trans-50": hsl($base-light-h-alt, $base-light-s-alt, $base-light-l-alt, .5),
+      "base-light-trans-60": hsl($base-light-h-alt, $base-light-s-alt, $base-light-l-alt, .6),
+      "base-light-trans-70": hsl($base-light-h-alt, $base-light-s-alt, $base-light-l-alt, .7),
+      "base-light-trans-80": hsl($base-light-h-alt, $base-light-s-alt, $base-light-l-alt, .8),
+      "base-light-trans-90": hsl($base-light-h-alt, $base-light-s-alt, $base-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "base-dark-trans-10": hsl($base-dark-h-alt, $base-dark-s-alt, $base-dark-l-alt, .1),
+      "base-dark-trans-20": hsl($base-dark-h-alt, $base-dark-s-alt, $base-dark-l-alt, .2),
+      "base-dark-trans-30": hsl($base-dark-h-alt, $base-dark-s-alt, $base-dark-l-alt, .3),
+      "base-dark-trans-40": hsl($base-dark-h-alt, $base-dark-s-alt, $base-dark-l-alt, .4),
+      "base-dark-trans-50": hsl($base-dark-h-alt, $base-dark-s-alt, $base-dark-l-alt, .5),
+      "base-dark-trans-60": hsl($base-dark-h-alt, $base-dark-s-alt, $base-dark-l-alt, .6),
+      "base-dark-trans-70": hsl($base-dark-h-alt, $base-dark-s-alt, $base-dark-l-alt, .7),
+      "base-dark-trans-80": hsl($base-dark-h-alt, $base-dark-s-alt, $base-dark-l-alt, .8),
+      "base-dark-trans-90": hsl($base-dark-h-alt, $base-dark-s-alt, $base-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "base-ultra-dark-trans-10": hsl($base-ultra-dark-h-alt, $base-ultra-dark-s-alt, $base-ultra-dark-l-alt, .1),
+      "base-ultra-dark-trans-20": hsl($base-ultra-dark-h-alt, $base-ultra-dark-s-alt, $base-ultra-dark-l-alt, .2),
+      "base-ultra-dark-trans-30": hsl($base-ultra-dark-h-alt, $base-ultra-dark-s-alt, $base-ultra-dark-l-alt, .3),
+      "base-ultra-dark-trans-40": hsl($base-ultra-dark-h-alt, $base-ultra-dark-s-alt, $base-ultra-dark-l-alt, .4),
+      "base-ultra-dark-trans-50": hsl($base-ultra-dark-h-alt, $base-ultra-dark-s-alt, $base-ultra-dark-l-alt, .5),
+      "base-ultra-dark-trans-60": hsl($base-ultra-dark-h-alt, $base-ultra-dark-s-alt, $base-ultra-dark-l-alt, .6),
+      "base-ultra-dark-trans-70": hsl($base-ultra-dark-h-alt, $base-ultra-dark-s-alt, $base-ultra-dark-l-alt, .7),
+      "base-ultra-dark-trans-80": hsl($base-ultra-dark-h-alt, $base-ultra-dark-s-alt, $base-ultra-dark-l-alt, .8),
+      "base-ultra-dark-trans-90": hsl($base-ultra-dark-h-alt, $base-ultra-dark-s-alt, $base-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "base-hex": $base-alt-hex,
+        "base-hsl": $base-h $base-s $base-l-alt,
+        "base-rgb": $base-r $base-g $base-b-alt,
+        "base-r": $base-r-alt,
+        "base-g": $base-g-alt,
+        "base-b": $base-b-alt,
+        "base-h": $base-h-alt,
+        "base-s": $base-s-alt,
+        "base-l": $base-l-alt,
+        "base-hover-h": $base-hover-h-alt,
+        "base-hover-s": $base-hover-s-alt,
+        "base-hover-l": $base-hover-l-alt,
+        "base-ultra-light-h": $base-ultra-light-h-alt,
+        "base-ultra-light-s": $base-ultra-light-s-alt,
+        "base-ultra-light-l": $base-ultra-light-l-alt,
+        "base-light-h": $base-light-h-alt,
+        "base-light-s": $base-light-s-alt,
+        "base-light-l": $base-light-l-alt,
+        "base-semi-light-h": $base-semi-light-h-alt,
+        "base-semi-light-s": $base-semi-light-s-alt,
+        "base-semi-light-l": $base-semi-light-l-alt,
+        "base-semi-dark-h": $base-semi-dark-h-alt,
+        "base-semi-dark-s": $base-semi-dark-s-alt,
+        "base-semi-dark-l": $base-semi-dark-l-alt,
+        "base-dark-h": $base-dark-h-alt,
+        "base-dark-s": $base-dark-s-alt,
+        "base-dark-l": $base-dark-l-alt,
+        "base-ultra-dark-h": $base-ultra-dark-h-alt,
+        "base-ultra-dark-s": $base-ultra-dark-s-alt,
+        "base-ultra-dark-l": $base-ultra-dark-l-alt,
+        "base-comp-h": $base-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-base-clr-alt == on and $option-base-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-base-alt: map-merge($color-base-alt, (
+      "main": map-merge(map-get($color-base-alt, "main"), (
+        "base-medium": hsl($base-medium-h-alt, $base-medium-s-alt, $base-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-base-alt, "partials"), (
+        "base-medium-h": $base-medium-h-alt,
+        "base-medium-s": $base-medium-s-alt,
+        "base-medium-l": $base-medium-l-alt
+      ))
+    ));
+  }
+}

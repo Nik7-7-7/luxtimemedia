@@ -1,0 +1,3777 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AIKit 1.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/aikit\n"
+"POT-Creation-Date: 2024-02-25T11:28:50+00:00\n"
+"PO-Revision-Date: 2024-02-25 12:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: aikit\n"
+
+#. Plugin Name of the plugin
+#: includes/admin.php:262
+msgid "AIKit"
+msgstr "AIKit"
+
+#. Plugin URI of the plugin
+msgid "https://getaikit.com"
+msgstr "https://getaikit.com"
+
+#. Description of the plugin
+msgid ""
+"AIKit is your WordPress AI assistant, powered by OpenAI's GPT, DALL.E & "
+"StabilityAI's Stable Diffusion."
+msgstr ""
+"AIKit ist dein WordPress-KI-Assistent, angetrieben von OpenAIs GPT, DALL.E & "
+"StabilityAIs Stable Diffusion."
+
+#: aikit.php:111
+msgid ""
+"Thank you for using AIKit! Please consider entering your OpenAI key in order "
+"to start leveraging AI content generation."
+msgstr ""
+"Danke, dass du AIKit benutzt!Bitte gib deinen OpenAI-Schlüssel ein, um mit "
+"der Erstellung von KI-Inhalten zu beginnen."
+
+#: aikit.php:115
+msgid "Configure AIKit"
+msgstr "AIKit konfigurieren"
+
+#: includes/admin.php:51
+msgid "English"
+msgstr "Englisch"
+
+#: includes/admin.php:55
+msgid "German"
+msgstr "Deutsch"
+
+#: includes/admin.php:59
+msgid "French"
+msgstr "Französisch"
+
+#: includes/admin.php:63
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: includes/admin.php:67
+msgid "Italian"
+msgstr "Italienisch"
+
+#: includes/admin.php:71
+msgid "Portuguese"
+msgstr "Portugiesisch"
+
+#: includes/admin.php:75
+msgid "Dutch"
+msgstr "Niederländisch"
+
+#: includes/admin.php:79
+msgid "Polish"
+msgstr "Polnisch"
+
+#: includes/admin.php:83
+msgid "Russian"
+msgstr "Russisch"
+
+#: includes/admin.php:87
+msgid "Japanese"
+msgstr "Japanisch"
+
+#: includes/admin.php:91
+msgid "Chinese"
+msgstr "Chinesisch"
+
+#: includes/admin.php:95
+msgid "Brazilian Portuguese"
+msgstr "Brasilianisches Portugiesisch"
+
+#: includes/admin.php:99
+msgid "Turkish"
+msgstr "Türkisch"
+
+#: includes/admin.php:103
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: includes/admin.php:107
+msgid "Korean"
+msgstr "Koreanisch"
+
+#: includes/admin.php:111
+msgid "Hindi"
+msgstr "Hindi"
+
+#: includes/admin.php:115
+msgid "Indonesian"
+msgstr "Indonesisch"
+
+#: includes/admin.php:119
+msgid "Swedish"
+msgstr "Schwedisch"
+
+#: includes/admin.php:123
+msgid "Danish"
+msgstr "Dänisch"
+
+#: includes/admin.php:127
+msgid "Finnish"
+msgstr "Finnisch"
+
+#: includes/admin.php:131
+msgid "Norwegian"
+msgstr "Norwegisch"
+
+#: includes/admin.php:135
+msgid "Romanian"
+msgstr "Rumänisch"
+
+#: includes/admin.php:139
+msgid "Georgian"
+msgstr "Georgisch"
+
+#: includes/admin.php:143
+msgid "Vietnamese"
+msgstr "Vietnamesisch"
+
+#: includes/admin.php:147
+msgid "Hungarian"
+msgstr "Ungarisch"
+
+#: includes/admin.php:151
+msgid "Bulgarian"
+msgstr "Bulgarisch"
+
+#: includes/admin.php:155
+msgid "Greek"
+msgstr "Griechisch"
+
+#: includes/admin.php:159
+msgid "Persian"
+msgstr "Persisch"
+
+#: includes/admin.php:163
+msgid "Slovak"
+msgstr "Slowakisch"
+
+#: includes/admin.php:167
+msgid "Czech"
+msgstr "Tschechisch"
+
+#: includes/admin.php:171
+msgid "Lithuanian"
+msgstr "Litauisch"
+
+#: includes/admin.php:175
+msgid "Catalan"
+msgstr "Katalanisch"
+
+#: includes/admin.php:179
+msgid "Croatian"
+msgstr "Kroatisch"
+
+#: includes/admin.php:183
+msgid "Ukrainian"
+msgstr "Ukrainisch"
+
+#: includes/admin.php:187
+msgid "Hebrew"
+msgstr "Hebräisch"
+
+#: includes/admin.php:261
+msgid "AIKit Writer"
+msgstr "AIKit-Autoschreiber"
+
+#: includes/admin.php:271 includes/admin.php:272
+msgid "Auto Writer"
+msgstr "Autoschreiber"
+
+#: includes/admin.php:280 includes/admin.php:281
+msgid "Scheduler"
+msgstr "Planer"
+
+#: includes/admin.php:289 includes/admin.php:290
+#: includes/openai/repurposer/repurposer.php:901
+msgid "Repurpose"
+msgstr "Wiederverwendung"
+
+#: includes/admin.php:298 includes/admin.php:299
+#: includes/openai/comments/comments.php:237
+msgid "AI Comments"
+msgstr "AI-Kommentare"
+
+#: includes/admin.php:307 includes/admin.php:308
+msgid "RSS"
+msgstr "RSS"
+
+#: includes/admin.php:316 includes/admin.php:317
+#: includes/openai/embeddings/embeddings.php:468
+msgid "Embeddings"
+msgstr "Embeddings"
+
+#: includes/admin.php:325 includes/admin.php:326
+#: includes/openai/chatbot/chatbot-settings.php:77
+msgid "Chatbot"
+msgstr "Chatbot"
+
+#: includes/admin.php:334 includes/admin.php:335
+#: includes/openai/fine-tuner/fine-tuner.php:621
+msgid "Fine-tune Models"
+msgstr "Feinabstimmung der Modelle"
+
+#: includes/admin.php:343 includes/admin.php:344
+#: includes/tts/text-to-speech.php:83
+msgid "Text to Speech"
+msgstr "Text to Speech"
+
+#: includes/admin.php:352
+msgid "Add/Edit AI Menu Prompts"
+msgstr "AI-Menü-Prompts hinzufügen/bearbeiten"
+
+#: includes/admin.php:353
+msgid "AI Menu Prompts"
+msgstr "AI-Menü-Prompts"
+
+#: includes/admin.php:361
+msgid "AIKit Settings"
+msgstr "AIKit-Einstellungen"
+
+#: includes/admin.php:362
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/admin.php:370 includes/admin.php:371
+msgid "Export/Import Settings"
+msgstr "Einstellungen exportieren/importieren"
+
+#: includes/admin.php:395 includes/admin.php:1434 includes/admin.php:1645
+msgid "OpenAI"
+msgstr "OpenAI"
+
+#: includes/admin.php:398
+msgid "StabilityAI"
+msgstr "StabilityAI"
+
+#: includes/admin.php:401 includes/admin.php:1430
+msgid "Eleven Labs"
+msgstr "Eleven Labs"
+
+#: includes/admin.php:404 includes/openai/embeddings/embeddings.php:744
+#: includes/openai/embeddings/embeddings.php:1017
+msgid "Qdrant"
+msgstr "Qdrant"
+
+#: includes/admin.php:407
+msgid "Rapid API"
+msgstr "Rapid API"
+
+#: includes/admin.php:410
+msgid "Image Generation"
+msgstr "Bilderzeugung"
+
+#: includes/admin.php:413
+msgid "Text-to-Speech"
+msgstr "Text-zu-Sprache"
+
+#: includes/admin.php:416
+msgid "General"
+msgstr "Allgemein"
+
+#: includes/admin.php:443
+msgid "Audio Player Preview:"
+msgstr "Audio Player Vorschau:"
+
+#: includes/admin.php:456 includes/admin.php:750
+#: includes/openai/chatbot/chatbot-settings.php:597
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: includes/admin.php:577
+msgid ""
+"Here you can edit or add new prompts that would appear in the \"AI\" "
+"dropdown menu. You can also reorder the prompts by dragging and dropping "
+"them in the order you wish. "
+msgstr ""
+"Hier kannst du neue Eingabeaufforderungen bearbeiten oder hinzufügen, die "
+"dann im Dropdown-Menü “AI” erscheinen. Du kannst die Prompts auch neu "
+"anordnen, indem du sie per Drag & Drop in die von dir gewünschte Reihenfolge "
+"bringst. "
+
+#: includes/admin.php:578
+msgid ""
+"There are lots of online resources that could help and give you tips & trick "
+"on how to best edit prompts. Simply search YouTube/Google for \"Prompt "
+"engineering\" to gain more knowledge on the topic."
+msgstr ""
+"Es gibt viele Online-Ressourcen, die dir helfen können und dir Tipps und "
+"Tricks geben, wie du Prompts am besten bearbeitest. Suche einfach auf "
+"YouTube/Google nach “Prompt Engineering”, um mehr über das Thema zu erfahren."
+
+#: includes/admin.php:583
+msgid "Add Prompt"
+msgstr "Prompt hinzufügen"
+
+#: includes/admin.php:585
+msgid ""
+"Resetting prompts will remove all changes you made in this screen, and will "
+"bring back the builtin prompts that AIKit provides out of the box. Are you "
+"sure you want to proceed?"
+msgstr ""
+"Wenn du die Eingabeaufforderungen zurücksetzt, werden alle Änderungen, die "
+"du in diesem Bildschirm vorgenommen hast, entfernt und die integrierten "
+"Eingabeaufforderungen, die AIKit standardmäßig bereitstellt, werden "
+"wiederhergestellt. Bist du sicher, dass du fortfahren möchtest?"
+
+#: includes/admin.php:586
+msgid "Reset Prompts"
+msgstr "Prompts zurücksetzen"
+
+#: includes/admin.php:608 includes/admin.php:762
+msgid "Are you sure you want to remove this prompt?"
+msgstr "Bist du sicher, dass du diese Prompt entfernen möchtest?"
+
+#: includes/admin.php:617 includes/admin.php:772
+msgid "Requires text selection"
+msgstr "Erfordert Textauswahl"
+
+#: includes/admin.php:620 includes/admin.php:775
+msgid ""
+"Choose this option if you want to enforce text selection in the text editor. "
+"Most of the time you will want to leave this option selected. Deselect it "
+"only if you are adding a prompt that doesn't require input from author, like "
+"if you want OpenAI to generate text about random topic for example."
+msgstr ""
+"Wähle diese Option, wenn du die Textauswahl im Texteditor erzwingen willst. "
+"In den meisten Fällen wirst du diese Option ausgewählt lassen wollen. "
+"Deaktiviere sie nur, wenn du eine Prompt hinzufügst, die keine Eingaben vom "
+"Autor erfordert, z. B. wenn du möchtest, dass OpenAI einen Text zu einem "
+"zufälligen Thema generiert."
+
+#: includes/admin.php:627 includes/admin.php:783
+msgid "Temperature"
+msgstr "Temperatur"
+
+#: includes/admin.php:633 includes/admin.php:789
+msgid ""
+"Controls randomness: Lowering results in less random completions. As the "
+"temperature approaches zero, the model will become deterministic and "
+"repetitive."
+msgstr ""
+"Steuert die Zufälligkeit: Ein Absenken führt zu weniger zufälligen "
+"Abschlüssen. Wenn sich die Temperatur dem Nullpunkt nähert, wird das Modell "
+"deterministisch und repetitiv."
+
+#: includes/admin.php:640 includes/admin.php:799
+msgid "Number of words to generate"
+msgstr "Anzahl der zu erzeugenden Wörter"
+
+#: includes/admin.php:649 includes/admin.php:808
+msgid "Fixed number of words"
+msgstr "Feste Anzahl von Wörtern"
+
+#: includes/admin.php:654 includes/admin.php:813
+msgid "Number of words"
+msgstr "Anzahl der Wörter"
+
+#: includes/admin.php:660 includes/admin.php:819
+msgid ""
+"Choose this option if you want to generate a fixed number of words, "
+"regardless of how long the selected text is. This is helpful for certain "
+"types of prompts, like generating a paragraph on a certain topic for example."
+msgstr ""
+"Wähle diese Option, wenn du eine feste Anzahl von Wörtern erzeugen willst, "
+"unabhängig davon, wie lang der ausgewählte Text ist. Dies ist für bestimmte "
+"Arten von Prompts hilfreich, z. B. um einen Absatz zu einem bestimmten Thema "
+"zu erstellen."
+
+#: includes/admin.php:672 includes/admin.php:831
+msgid "Relative to length of text selected"
+msgstr "Abhängig von der Länge des ausgewählten Textes"
+
+#: includes/admin.php:677 includes/admin.php:836
+msgid "Multiplier"
+msgstr "Multiplikator"
+
+#: includes/admin.php:686 includes/admin.php:845
+msgid ""
+"Choose this option if you want to calculate the length of the generated "
+"words relative to the length of words selected. 1x = same length as select "
+"text, 2x means two times, etc. Summarization is a good candidate to use this "
+"option for."
+msgstr ""
+"Wähle diese Option, wenn du die Länge der generierten Wörter im Verhältnis "
+"zur Länge der ausgewählten Wörter berechnen möchtest. 1x = dieselbe Länge "
+"wie der ausgewählte Text, 2x bedeutet das Doppelte usw. Die Zusammenfassung "
+"ist ein guter Kandidat, womit du diese Option verwenden kannst."
+
+#: includes/admin.php:696 includes/admin.php:856
+#: includes/openai/auto-writer/auto-writer-form.php:306
+#: includes/openai/fine-tuner/fine-tuner.php:731
+#: includes/openai/fine-tuner/fine-tuner.php:1040
+#: includes/openai/fine-tuner/fine-tuner.php:1147
+#: includes/openai/repurposer/repurposer.php:911
+#: includes/openai/rss/rss.php:509
+msgid "Prompts"
+msgstr "Prompts"
+
+#: includes/admin.php:713 includes/admin.php:715 includes/admin.php:873
+#: includes/admin.php:875
+msgid "Menu title"
+msgstr "Titel des Menüs"
+
+#: includes/admin.php:718 includes/admin.php:878
+msgid "This is title that will appear in the AI menu for this prompt."
+msgstr "Dies ist der Titel, der im AI-Menü für diese Prompt erscheinen wird."
+
+#: includes/admin.php:725 includes/admin.php:886
+#: includes/openai/comments/comments.php:351
+#: includes/openai/comments/comments.php:695
+msgid "Prompt"
+msgstr "Prompt"
+
+#: includes/admin.php:728 includes/admin.php:889
+msgid "If this prompt requires text selection, the phrase"
+msgstr "Wenn diese Prompt eine Textauswahl erfordert, wird die Phrase"
+
+#: includes/admin.php:730 includes/admin.php:891
+msgid ""
+"will be replaced by the selected text before doing the request. Make sure to "
+"include it in your prompt."
+msgstr ""
+"durch den ausgewählten Text ersetzt, bevor die Anfrage ausgeführt wird. "
+"Achte darauf, dass du ihn in deine Prompt aufnimmst."
+
+#: includes/admin.php:731 includes/admin.php:892
+msgid "You can also add"
+msgstr "Du kannst auch hinzufügen"
+
+#: includes/admin.php:733 includes/admin.php:894
+msgid ""
+"to include the title of the post in the prompt to give AI more context of "
+"what you write about."
+msgstr ""
+"den Titel des Beitrags in die Aufforderung aufzunehmen, um KI mehr Kontext "
+"zu geben, worüber du schreibst."
+
+#: includes/admin.php:919
+msgid "Text Generation Settings"
+msgstr "Einstellungen für die Texterstellung"
+
+#: includes/admin.php:926 includes/admin.php:1244
+msgid "Image Generation Settings"
+msgstr "Einstellungen für die Bilderzeugung"
+
+#: includes/admin.php:933
+msgid "Text-to-Speech Generation Settings"
+msgstr "Einstellungen für die Text-zu-Sprache-Erzeugung"
+
+#: includes/admin.php:940
+msgid "OpenAI Settings"
+msgstr "OpenAI-Einstellungen"
+
+#: includes/admin.php:950
+msgid "OpenAI Key"
+msgstr "OpenAI-Schlüssel"
+
+#: includes/admin.php:959
+msgid "RapidAPI Settings"
+msgstr "RapidAPI-Einstellungen"
+
+#: includes/admin.php:968
+msgid "Rapid API Key"
+msgstr "Rapid API Schlüssel"
+
+#: includes/admin.php:979
+msgid "Text Generation Model"
+msgstr "Textgenerierungsmodell"
+
+#: includes/admin.php:990
+msgid "Language for text generation"
+msgstr "Sprache für die Texterstellung"
+
+#: includes/admin.php:1000
+msgid "OpenAI System Message"
+msgstr "OpenAI-Systemmeldung"
+
+#: includes/admin.php:1011
+msgid "Max Tokens Multiplier (text length)"
+msgstr "Max Token Multiplikator (Textlänge)"
+
+#: includes/admin.php:1022 includes/openai/fine-tuner/fine-tuner.php:868
+#: includes/openai/fine-tuner/fine-tuner.php:1367
+msgid "Prompt Stop Sequence"
+msgstr "Aufforderung Stop Sequenz"
+
+#: includes/admin.php:1033 includes/openai/fine-tuner/fine-tuner.php:887
+#: includes/openai/fine-tuner/fine-tuner.php:1385
+msgid "Completion Stop Sequence"
+msgstr "Fertigstellung Stop Sequence"
+
+#: includes/admin.php:1043
+msgid "Image Generation Model"
+msgstr "Modell der Bilderzeugung"
+
+#: includes/admin.php:1053
+msgid "Image Preferred Quality"
+msgstr "Bild Bevorzugte Qualität"
+
+#: includes/admin.php:1063
+msgid "Image Preferred Style"
+msgstr "Bild Bevorzugter Stil"
+
+#: includes/admin.php:1073
+msgid "Text-to-Speech Generation Model"
+msgstr "Text-zu-Sprache-Erzeugungsmodell"
+
+#: includes/admin.php:1082
+msgid "Text-to-Speech Voice"
+msgstr "Text-in-Sprache-Sprache"
+
+#: includes/admin.php:1104
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: includes/admin.php:1113
+msgid "Elementor support"
+msgstr "Elementor Unterstützung"
+
+#: includes/admin.php:1124
+msgid "StabilityAI Settings"
+msgstr "StabilityAI Settings"
+
+#: includes/admin.php:1133
+msgid "StabilityAI Key"
+msgstr "StabilityAI-Schlüssel"
+
+#: includes/admin.php:1143
+msgid "StabilityAI Default Engine"
+msgstr "StabilityAI Standard-Engine"
+
+#: includes/admin.php:1153
+msgid "StabilityAI Default Sampler"
+msgstr "StabilityAI Standard-Sampler"
+
+#: includes/admin.php:1163
+msgid "StabilityAI Default Steps"
+msgstr "StabilityAI Standard-Schritte"
+
+#: includes/admin.php:1173
+msgid "StabilityAI Default Cfg Scale"
+msgstr "StabilityAI Default Cfg Scale"
+
+#: includes/admin.php:1183
+msgid "StabilityAI Default Seed"
+msgstr "StabilityAI Default Seed"
+
+#: includes/admin.php:1194
+msgid "Text-to-Speech Settings"
+msgstr "Text-to-Speech-Einstellungen"
+
+#: includes/admin.php:1203
+msgid "Default Text-to-Speech API"
+msgstr "Standard Text-to-Speech-API"
+
+#: includes/admin.php:1213
+msgid "Audio Player Primary Color"
+msgstr "Audio Player Primärfarbe"
+
+#: includes/admin.php:1223
+msgid "Audio Player Secondary Color"
+msgstr "Audio Player Sekundärfarbe"
+
+#: includes/admin.php:1233
+msgid "Audio Player Message"
+msgstr "Audio Player Nachricht"
+
+#: includes/admin.php:1253
+msgid "Default Image Generation API"
+msgstr "Standard-API zur Bilderzeugung"
+
+#: includes/admin.php:1263
+msgid "Image sizes available"
+msgstr "Verfügbare Bildgrößen"
+
+#: includes/admin.php:1318
+msgid "Image counts for each size"
+msgstr "Anzahl der Bilder für jede Größe"
+
+#: includes/admin.php:1328
+msgid "Image generation styles"
+msgstr "Stile für die Bilderzeugung"
+
+#: includes/admin.php:1339
+msgid "Qdrant Settings (Embeddings)"
+msgstr "Qdrant-Einstellungen (Embeddings)"
+
+#: includes/admin.php:1348
+msgid "Qdrant Host (Cluster URL)"
+msgstr "Qdrant-Host (Cluster-URL)"
+
+#: includes/admin.php:1358
+msgid "Qdrant API Key"
+msgstr "Qdrant API-Schlüssel"
+
+#: includes/admin.php:1370
+msgid "Eleven Labs Settings"
+msgstr "Eleven Labs Einstellungen"
+
+#: includes/admin.php:1379
+msgid "Eleven Labs API Key"
+msgstr "Eleven Labs API-Schlüssel"
+
+#: includes/admin.php:1389
+msgid "Eleven Labs Model"
+msgstr "Eleven Labs Modell"
+
+#: includes/admin.php:1399
+msgid "Eleven Labs Voice"
+msgstr "Eleven Labs Stimme"
+
+#: includes/admin.php:1408
+msgid ""
+"These settings are used for text-to-speech generation and audio player "
+"customization."
+msgstr ""
+"Diese Einstellungen werden für die Erzeugung von Text-to-Speech und die "
+"Anpassung des Audioplayers verwendet."
+
+#: includes/admin.php:1412
+msgid "These settings are used for text generation."
+msgstr "Diese Einstellungen werden für die Texterstellung verwendet."
+
+#: includes/admin.php:1417
+msgid "These settings are used for image generation."
+msgstr "Diese Einstellungen werden für die Bilderzeugung verwendet."
+
+#: includes/admin.php:1422
+msgid "These settings are used for text-to-speech generation."
+msgstr ""
+"Diese Einstellungen werden für die Text-to-Speech-Erstellung verwendet."
+
+#: includes/admin.php:1438
+msgid ""
+"This is the default API that will be used for text-to-speech generation."
+msgstr ""
+"Dies ist die Standard-API, die für die Text-to-Speech-Erstellung verwendet "
+"wird."
+
+#: includes/admin.php:1458
+msgid "This is the OpenAI model that will be used to generate the audio."
+msgstr "Dies ist das OpenAI-Modell, mit dem die Audiodaten erzeugt werden."
+
+#: includes/admin.php:1479
+msgid ""
+"This is the OpenAI voice that will be used to generate the audio. For easier "
+"selection you can listen to the voices here:"
+msgstr ""
+"Dies ist die OpenAI-Stimme, die für die Audiogenerierung verwendet wird. Um "
+"die Auswahl zu erleichtern, kannst du dir die Stimmen hier anhören:"
+
+#: includes/admin.php:1505
+msgid "Standard definition"
+msgstr "Standarddefinition"
+
+#: includes/admin.php:1506
+msgid "High Definition"
+msgstr "Hohe Auflösung"
+
+#: includes/admin.php:1510
+msgid ""
+"Currently only \"dalle.e 3\" model supports high definition image generation."
+msgstr ""
+"Derzeit unterstützt nur das Modell “dalle.e 3” die Erzeugung hochauflösender "
+"Bilder."
+
+#: includes/admin.php:1520
+msgid "Natural"
+msgstr "Natürlich"
+
+#: includes/admin.php:1521
+msgid "Vivid"
+msgstr "Lebendig"
+
+#: includes/admin.php:1525
+msgid "Currently only \"dalle.e 3\" model supports image styles."
+msgstr "Currently only “dalle.e 3” model supports image styles."
+
+#: includes/admin.php:1546
+msgid "This is the Eleven Labs model that will be used to generate the audio."
+msgstr ""
+"Das ist das Modell von Eleven Labs, das für die Erstellung der Audiodaten "
+"verwendet wird."
+
+#: includes/admin.php:1566
+msgid ""
+"This is the Eleven Labs voice that will be used to generate the audio. "
+"Please try available voices "
+msgstr ""
+"Dies ist die Stimme von Eleven Labs, die für die Audiogenerierung verwendet "
+"wird. Bitte probiere die verfügbaren Stimmen aus "
+
+#: includes/admin.php:1566 includes/openai/auto-writer/auto-writer.php:806
+msgid "here"
+msgstr "hier"
+
+#: includes/admin.php:1576
+msgid "This is the primary color of the audio player."
+msgstr "Dies ist die Hauptfarbe des Audioplayers."
+
+#: includes/admin.php:1586
+msgid "This is the secondary color of the audio player."
+msgstr "Dies ist die Sekundärfarbe des Audioplayers."
+
+#: includes/admin.php:1596
+msgid "This is the message that will be displayed in the audio player."
+msgstr "Dies ist die Nachricht, die im Audioplayer angezeigt wird."
+
+#: includes/admin.php:1602
+msgid ""
+"provides one of the best and human-like AI text-to-speech and voice cloning "
+"services."
+msgstr ""
+"bietet einen der besten und menschenähnlichsten KI-Text-to-Speech- und Voice-"
+"Cloning-Dienste."
+
+#: includes/admin.php:1610
+msgid "You can get your ElevenLabs API key from your "
+msgstr "Du kannst deinen ElevenLabs API-Schlüssel von deinem "
+
+#: includes/admin.php:1610
+msgid "Eleven Labs account"
+msgstr "Eleven Labs konto"
+
+#: includes/admin.php:1616
+msgid ""
+"is a vector search engine. It is used to store and query embeddings, which "
+"allow you to do similarity search and can be used along with AIKit Chatbot "
+"to efficiently answer your users' questions around your product or services."
+msgstr ""
+"ist eine Vektorsuchmaschine. Sie wird verwendet, um Einbettungen zu "
+"speichern und abzufragen, die dir eine Ähnlichkeitssuche ermöglichen und "
+"zusammen mit dem AIKit Chatbot verwendet werden können, um die Fragen deiner "
+"Nutzer/innen zu deinem Produkt oder deinen Dienstleistungen effizient zu "
+"beantworten."
+
+#: includes/admin.php:1624
+msgid "You can get your Qdrant host address from your "
+msgstr "Du kannst deine Qdrant-Hostadresse von deinem "
+
+#: includes/admin.php:1624 includes/admin.php:1634
+msgid "Qdrant account"
+msgstr "Qdrant-Konto"
+
+#: includes/admin.php:1634
+msgid "You can get your API key from your "
+msgstr "Du kannst deinen API-Schlüssel von deinem "
+
+#: includes/admin.php:1635
+msgid "Leave empty if you are using a hosted instance with no API key."
+msgstr ""
+"Lass es leer, wenn du eine gehostete Instanz ohne API-Schlüssel verwendest."
+
+#: includes/admin.php:1649
+msgid "Stability.ai"
+msgstr "Stability.ai"
+
+#: includes/admin.php:1654
+msgid ""
+"Select the default image generation API. This is the image generation API "
+"that will be used in the background jobs like auto writer and repurposing "
+"jobs."
+msgstr ""
+"Wähle die Standard-API für die Bilderzeugung aus. Dies ist die "
+"Bilderzeugungs-API, die in den Hintergrundjobs wie Auto-Writer und "
+"Wiederverwendungsjobs verwendet wird."
+
+#: includes/admin.php:1662
+msgid "Here you can adjust general settings for image generation."
+msgstr ""
+"Hier kannst du allgemeine Einstellungen für die Bilderzeugung vornehmen."
+
+#: includes/admin.php:1666
+msgid ""
+"is a Stable Diffusion based AI image generator. It is a great alternative to "
+"OpenAI for image generation. Here you can adjust the settings for the "
+"StabilityAI."
+msgstr ""
+"ist ein auf Stable Diffusion basierender KI-Bildgenerator. Er ist eine gute "
+"Alternative zu OpenAI für die Bilderzeugung. Hier kannst du die "
+"Einstellungen für die StabilityAI anpassen."
+
+#: includes/admin.php:1675
+msgid ""
+"Please enter your StabilityAI key here. You can get your key from the "
+"StabilityAI website."
+msgstr ""
+"Bitte gib deinen StabilityAI-Schlüssel hier ein. Du kannst deinen Schlüssel "
+"von der StabilityAI-Website erhalten."
+
+#: includes/admin.php:1694
+msgid ""
+"The default model that will be used when generating an image using Stability."
+"ai."
+msgstr ""
+"Das Standardmodell, das bei der Erstellung eines Bildes mit Stability.ai "
+"verwendet wird."
+
+#: includes/admin.php:1719
+msgid ""
+"A sampler determines how the image is \"calculated\". A sampler processes an "
+"input (prompt) to produce an output (image). Since these samplers are "
+"different mathematically, they will produce difference results for the same "
+"prompt."
+msgstr ""
+"Ein Sampler bestimmt, wie das Bild “berechnet” wird. Ein Sampler verarbeitet "
+"eine Eingabe (Prompt), um eine Ausgabe (Bild) zu erzeugen. Da diese Sampler "
+"mathematisch unterschiedlich sind, liefern sie für dieselbe "
+"Eingabeaufforderung unterschiedliche Ergebnisse."
+
+#: includes/admin.php:1733
+msgid ""
+"Generation steps control how many times the image is sampled. Increasing the "
+"number of steps might give you better results, up to a point where there're "
+"diminishing returns. More steps would also cost you more."
+msgstr ""
+"Die Generierungsschritte bestimmen, wie oft das Bild abgetastet wird. Wenn "
+"du die Anzahl der Schritte erhöhst, kannst du bessere Ergebnisse erzielen, "
+"bis zu einem Punkt, an dem der Nutzen nachlässt. Mehr Schritte würden dich "
+"auch mehr kosten."
+
+#: includes/admin.php:1746
+msgid ""
+"Prompt strength (CFG scale) controls how much the final image will adhere to "
+"your prompt. Lower values would give the model more \"creativity\", while "
+"higher values will produce a final image that's close to your prompt."
+msgstr ""
+"Die Prompt-Stärke (CFG-Skala) bestimmt, wie sehr sich das endgültige Bild an "
+"deinen Prompt hält. Niedrigere Werte geben dem Modell mehr “Kreativität”, "
+"während höhere Werte ein endgültiges Bild erzeugen, das deinem Prompt sehr "
+"ähnlich ist."
+
+#: includes/admin.php:1758
+msgid ""
+"Seed is a number used to initialize the image generation. Using a certain "
+"seed with same settings will produce the same image. \"0\" means a random "
+"seed will be used everytime."
+msgstr ""
+"Seed ist eine Zahl, die zur Initialisierung der Bilderzeugung verwendet "
+"wird. Wenn du einen bestimmten Seed mit denselben Einstellungen verwendest, "
+"wird das gleiche Bild erzeugt. “0” bedeutet, dass jedes Mal ein zufälliger "
+"Seed verwendet wird."
+
+#: includes/admin.php:1765
+msgid "Adjust the plugin to your needs by editing the settings here."
+msgstr ""
+"Passe das Plugin an deine Bedürfnisse an, indem du die Einstellungen hier "
+"bearbeitest."
+
+#: includes/admin.php:1774 includes/openai/chatbot/chatbot-settings.php:335
+msgid ""
+"Please set this only if you are using a fine-tuned model. Leave empty if you "
+"are using any of the built-in models. Prompt stop sequence is used to mark "
+"the stop of the prompt."
+msgstr ""
+"Bitte stelle dies nur ein, wenn du ein fein abgestimmtes Modell verwendest. "
+"Lass es leer, wenn du eines der eingebauten Modelle verwendest. Die Prompt-"
+"Stopsequenz wird verwendet, um das Ende des Prompts zu markieren."
+
+#: includes/admin.php:1786 includes/openai/chatbot/chatbot-settings.php:350
+msgid ""
+"Please set this only if you are using a fine-tuned model. Leave empty if you "
+"are using any of the built-in models. Completion stop sequence is used to "
+"mark the stop of the completion."
+msgstr ""
+"Bitte stelle dies nur ein, wenn du ein fein abgestimmtes Modell verwendest. "
+"Lass es leer, wenn du eines der eingebauten Modelle verwendest. Die "
+"Abschluss-Stopsequenz wird verwendet, um das Ende des Abschlusses zu "
+"markieren."
+
+#: includes/admin.php:1798
+msgid "Enter your RapidAPI key for"
+msgstr "Gib deinen RapidAPI-Schlüssel für"
+
+#: includes/admin.php:1799
+msgid "Subtitles for YouTube"
+msgstr "Untertitel für YouTube"
+
+#: includes/admin.php:1800
+msgid ""
+" here. This API is used to read YouTube video subtitles to allow you to "
+"fetch the content of videos and repurpose/spin them and create posts based "
+"on them in your website."
+msgstr ""
+" hier. Diese API wird verwendet, um die Untertitel von YouTube-Videos zu "
+"lesen, damit du den Inhalt der Videos abrufen und sie auf deiner Website "
+"weiterverwenden/spinnen und darauf basierende Beiträge erstellen kannst."
+
+#: includes/admin.php:1801 includes/openai/repurposer/repurposer.php:796
+msgid ""
+"\"Subtitles for YouTube\" API offers a generous 100 free requests per day "
+"which will be enough for most users."
+msgstr ""
+"Die “Subtitles for YouTube”-API bietet großzügige 100 kostenlose Anfragen "
+"pro Tag, was für die meisten Nutzer ausreichen dürfte."
+
+#: includes/admin.php:1802 includes/openai/repurposer/repurposer.php:797
+msgid "If you would like to repurpose videos, please"
+msgstr "Wenn du Videos weiterverwenden möchtest, bitte"
+
+#: includes/admin.php:1803 includes/openai/repurposer/repurposer.php:798
+msgid "subscribe"
+msgstr "abonnieren"
+
+#: includes/admin.php:1804
+msgid "to a plan, then enter your API key here."
+msgstr "zu einem Plan, dann gib deinen API-Schlüssel hier ein."
+
+#: includes/admin.php:1815
+msgid "Elementor supported?"
+msgstr "Wird Elementor unterstützt?"
+
+#: includes/admin.php:1819
+msgid ""
+"When this is enabled, you will be able to use AIKit right inside Elementor "
+"editor using a widget called \"AIKit Editor\"."
+msgstr ""
+"Wenn dies aktiviert ist, kannst du AIKit direkt im Elementor-Editor mit "
+"einem Widget namens “AIKit Editor” verwenden."
+
+#: includes/admin.php:1852
+msgid ""
+"Image styles are phrases that will be added at the end an image's prompt to "
+"change the look of the image. You can use it to maintain a certain style of "
+"images for your posts. If you like colorful images, you can add "
+"\"colourful\" as one of the styles. If you want to appear as if they were "
+"drawn by leonardo davinci, add \"by leonardo davinci\" as a style. Each line "
+"would be considered a different style and AIKit will choose a random style "
+"out of this list each time it generates an image and append it at the end of "
+"the prompt. "
+msgstr ""
+"Bildstile sind Phrasen, die am Ende der Eingabeaufforderung eines Bildes "
+"hinzugefügt werden, um das Aussehen des Bildes zu verändern. Du kannst sie "
+"verwenden, um einen bestimmten Bildstil für deine Beiträge beizubehalten. "
+"Wenn du bunte Bilder magst, kannst du “bunt” als einen der Stile hinzufügen. "
+"Wenn du möchtest, dass sie aussehen, als wären sie von Leonardo Davinci "
+"gezeichnet worden, füge “by leonardo davinci” als Stil hinzu. Jede Zeile "
+"wird als ein anderer Stil betrachtet und AIKit wählt jedes Mal, wenn es ein "
+"Bild erzeugt, einen zufälligen Stil aus dieser Liste aus und fügt ihn am "
+"Ende der Eingabeaufforderung an. "
+
+#: includes/admin.php:1888
+msgid ""
+"This controls the number of image you want to generate for each image size, "
+"these will appear as options in the AI image generation menu. Enter comma-"
+"separated numbers. Example: \"1,2,4\". Maximum allowed number is 10."
+msgstr ""
+"Damit legst du die Anzahl der Bilder fest, die du für jede Bildgröße "
+"erzeugen willst. Diese erscheinen als Optionen im Menü zur Erzeugung von AI-"
+"Bildern. Gib kommagetrennte Zahlen ein. Beispiel: “1,2,4”. Die maximal "
+"zulässige Anzahl ist 10."
+
+#: includes/admin.php:1900
+msgid "Small"
+msgstr "Klein"
+
+#: includes/admin.php:1900
+msgid "Only available for Dall.e 2"
+msgstr "Nur für Dall.e 2 verfügbar"
+
+#: includes/admin.php:1904
+msgid ""
+"This controls the size of the images generated. If you want to have the "
+"option to generate small images in the AI image generation menu, check this "
+"box."
+msgstr ""
+"Hier wird die Größe der erzeugten Bilder festgelegt. Wenn du im Menü zur "
+"Erzeugung von AI-Bildern die Option haben möchtest, kleine Bilder zu "
+"erzeugen, aktiviere dieses Feld."
+
+#: includes/admin.php:1918
+msgid "Medium"
+msgstr "Medium"
+
+#: includes/admin.php:1918
+msgid "Only available for Dall.e 2 & Stable Diffusion"
+msgstr "Nur verfügbar für Dall.e 2 & Stable Diffusion"
+
+#: includes/admin.php:1923
+msgid ""
+"If you want to have the option to generate medium images in the AI image "
+"generation menu, check this box."
+msgstr ""
+"Wenn du im Menü zur Erzeugung von AI-Bildern die Option haben möchtest, "
+"mittlere Bilder zu erzeugen, markiere dieses Feld."
+
+#: includes/admin.php:1936
+msgid "Large"
+msgstr "Groß"
+
+#: includes/admin.php:1936
+msgid "Available for all Dall.e & Stable Diffusion models."
+msgstr "Erhältlich für alle Dall.e & Stable Diffusion Modelle."
+
+#: includes/admin.php:1941
+msgid ""
+"If you want to have the option to generate large images in the AI image "
+"generation menu, check this box."
+msgstr ""
+"Wenn du im Menü zur Erzeugung von AI-Bildern die Option haben möchtest, "
+"große Bilder zu erzeugen, markiere dieses Feld."
+
+#: includes/admin.php:1955 includes/admin.php:1974 includes/admin.php:1993
+msgid " X Large"
+msgstr " X Groß"
+
+#: includes/admin.php:1955 includes/admin.php:1974
+msgid "Only available for Dall.e 3"
+msgstr "Nur für Dall.e 3 verfügbar"
+
+#: includes/admin.php:1960
+msgid ""
+"If you want to have the option to generate x large images (landscape) in the "
+"AI image generation menu, check this box."
+msgstr ""
+"Wenn du im Menü für die AI-Bilderzeugung die Option haben möchtest, x große "
+"Bilder (Querformat) zu erzeugen, aktiviere dieses Kästchen."
+
+#: includes/admin.php:1979 includes/admin.php:1998
+msgid ""
+"If you want to have the option to generate x large images (portrait) in the "
+"AI image generation menu, check this box."
+msgstr ""
+"Wenn du im Menü für die AI-Bilderzeugung die Option haben möchtest, x große "
+"Bilder (Hochformat) zu erzeugen, aktiviere dieses Kästchen."
+
+#: includes/admin.php:1993
+msgid "Only available for Stable Diffusion \"SDXL\" model"
+msgstr "Nur verfügbar für das Modell “SDXL” mit stabiler Diffusion"
+
+#: includes/admin.php:2015
+msgid "The OpenAI key is invalid. Make sure you have entered the correct key."
+msgstr ""
+"Der OpenAI-Schlüssel ist ungültig. Vergewissere dich, dass du den richtigen "
+"Schlüssel eingegeben hast."
+
+#: includes/admin.php:2022
+msgid "The OpenAI key is valid."
+msgstr "Der OpenAI-Schlüssel ist gültig."
+
+#: includes/admin.php:2033
+msgid "For instructions on how to get an OpenAI key, please visit "
+msgstr ""
+"Eine Anleitung, wie du einen OpenAI-Schlüssel bekommst, findest du unter "
+
+#: includes/admin.php:2064
+msgid "The language of the text you want to generate."
+msgstr "Die Sprache des Textes, den du erstellen willst."
+
+#: includes/admin.php:2068
+msgid ""
+" For consistent autocomplete results, make sure that the text you write in "
+"your post is written in the same language you picked here."
+msgstr ""
+" Um einheitliche Autovervollständigungsergebnisse zu erzielen, solltest du "
+"sicherstellen, dass der Text in deinem Beitrag in der gleichen Sprache "
+"geschrieben ist, die du hier ausgewählt hast."
+
+#: includes/admin.php:2090
+msgid "\"Dall.e 3\" is currently the most capable image generation model."
+msgstr "“Dall.e 3” ist das derzeit leistungsfähigste Modell zur Bilderzeugung."
+
+#: includes/admin.php:2092 includes/admin.php:2132
+msgid " For more information, see "
+msgstr " Für weitere Informationen, siehe "
+
+#: includes/admin.php:2130
+msgid ""
+"Some models are more capable than others. For example, the \"gpt-3.5-turbo\" "
+"model provides good balance between cost and value right now."
+msgstr ""
+"Einige Modelle sind leistungsstärker als andere. Das Modell “gpt-3.5-turbo” "
+"zum Beispiel bietet derzeit ein gutes Gleichgewicht zwischen Kosten und Wert."
+
+#: includes/admin.php:2148
+msgid ""
+"AIKit's builtin prompts are already preconfigured to generate a sensible "
+"number of words depending on the prompt.\n"
+"                However, if you want to change the number of words "
+"generated, you can do so here. The slider is a multiplier of the number of "
+"tokens that AIKit\n"
+"                would normally generate. For example, if a request would "
+"normally generate 100 words, you can set the multiplier to 2x and AIKit will "
+"generate 200 words instead."
+msgstr ""
+"Die eingebauten Prompts von AIKit sind bereits so vorkonfiguriert, dass sie "
+"je nach Prompt eine sinnvolle Anzahl von Wörtern erzeugen.\n"
+"                Wenn du jedoch die Anzahl der generierten Wörter ändern "
+"möchtest, kannst du das hier tun. Der Schieberegler ist ein Multiplikator "
+"für die Anzahl der Token, die AIKit\n"
+"                normalerweise erzeugen würde. Wenn zum Beispiel eine Anfrage "
+"normalerweise 100 Wörter erzeugen würde, kannst du den Multiplikator auf 2x "
+"setzen und AIKit erzeugt stattdessen 200 Wörter."
+
+#: includes/admin.php:2157
+msgid ""
+"Think of this as a global way to increase/decrease the length of generated "
+"text for all existing autocomplete options/prompts at once."
+msgstr ""
+"Betrachte dies als eine globale Möglichkeit, die Länge des generierten "
+"Textes für alle vorhandenen Autovervollständigungsoptionen/-prompts auf "
+"einmal zu erhöhen/verringern."
+
+#: includes/admin.php:2170
+msgid "Green"
+msgstr "Grün"
+
+#: includes/admin.php:2171
+msgid "Blue"
+msgstr "Blau"
+
+#: includes/admin.php:2172
+msgid "Red"
+msgstr "Rot"
+
+#: includes/admin.php:2173
+msgid "Orange"
+msgstr "Orange"
+
+#: includes/admin.php:2174
+msgid "Purple"
+msgstr "Lila"
+
+#: includes/admin.php:2179
+msgid ""
+"If you prefer to have the autocompleted text stand out more, you can choose "
+"a background color for the autocompleted text."
+msgstr ""
+"Wenn du möchtest, dass der automatisch vervollständigte Text mehr "
+"hervorsticht, kannst du eine Hintergrundfarbe für den automatisch "
+"vervollständigten Text wählen."
+
+#: includes/admin.php:2193
+msgid ""
+"System message help set the behaviour of the model. You can use it to ask "
+"the model to mimic a certain style or take a certain perspective for all "
+"text generations. For example, if you set this to \"Shakespeare' style\", "
+"the mode will follow the style of Shakespeare in all text generations when "
+"possible. System message should work ONLY with GPT-4 and to a lesser extent "
+"with gpt-3.5-turbo models."
+msgstr ""
+"Die Systemmeldung hilft dabei, das Verhalten des Modells festzulegen. Damit "
+"kannst du das Modell auffordern, einen bestimmten Stil zu imitieren oder "
+"eine bestimmte Perspektive für alle Textgenerationen einzunehmen. Wenn du z. "
+"B. “Shakespeare-Stil” einstellst, folgt der Modus dem Stil von Shakespeare "
+"in allen Textgenerationen, wenn möglich. Die Systemmeldung sollte NUR mit "
+"GPT-4 und in geringerem Maße mit gpt-3.5-Turbo-Modellen funktionieren."
+
+#: includes/import-export.php:128
+msgid "AIKit Export/Import Settings"
+msgstr "AIKit Export/Import Einstellungen"
+
+#: includes/import-export.php:129
+msgid "Export Settings"
+msgstr "Einstellungen exportieren"
+
+#: includes/import-export.php:130
+msgid "Download the current settings and prompts as a json file."
+msgstr ""
+"Lade die aktuellen Einstellungen und Eingabeaufforderungen als json-Datei "
+"herunter."
+
+#: includes/import-export.php:131
+msgid "Export All Settings + Prompts"
+msgstr "Alle Einstellungen + Prompts exportieren"
+
+#: includes/import-export.php:133
+msgid "Export Prompts only"
+msgstr "Nur Prompts exportieren"
+
+#: includes/import-export.php:135 includes/import-export.php:143
+msgid "Import Settings"
+msgstr "Einstellungen importieren"
+
+#: includes/import-export.php:136
+msgid "Upload a settings json file to import settings and/or prompts."
+msgstr ""
+"Lade eine Einstellungs-Json-Datei hoch, um Einstellungen und/oder Prompts zu "
+"importieren."
+
+#: includes/import-export.php:137
+#: includes/openai/auto-writer/auto-writer.php:805
+#: includes/openai/fine-tuner/fine-tuner.php:1106
+msgid "Important:"
+msgstr "Wichtig:"
+
+#: includes/import-export.php:137
+msgid ""
+"It's highly recommended to backup your current settings before importing new "
+"settings, so you can revert back if needed."
+msgstr ""
+"Es wird dringend empfohlen, deine aktuellen Einstellungen zu sichern, bevor "
+"du neue Einstellungen importierst, damit du sie bei Bedarf wiederherstellen "
+"kannst."
+
+#: includes/import-export.php:159
+msgid "Settings were imported successfully."
+msgstr "Die Einstellungen wurden erfolgreich importiert."
+
+#: includes/import-export.php:161
+msgid "File must be a json file."
+msgstr "Die Datei muss eine json-Datei sein."
+
+#: includes/import-export.php:164
+msgid "File not uploaded."
+msgstr "Datei nicht hochgeladen."
+
+#: includes/integration/elementor-editor.php:36
+msgid "AIKit Editor"
+msgstr "AIKit-Editor"
+
+#: includes/openai/auto-writer/auto-writer-form.php:53
+#: includes/openai/repurposer/repurposer.php:735
+#: includes/openai/rss/rss.php:346
+msgid "Draft"
+msgstr "Entwurf"
+
+#: includes/openai/auto-writer/auto-writer-form.php:54
+#: includes/openai/repurposer/repurposer.php:736
+#: includes/openai/rss/rss.php:347
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:58
+#: includes/openai/auto-writer/auto-writer.php:1219
+#: includes/openai/repurposer/repurposer.php:1033
+#: includes/openai/rss/rss.php:351 includes/openai/rss/rss.php:733
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/openai/auto-writer/auto-writer-form.php:59
+#: includes/openai/auto-writer/auto-writer.php:1219
+#: includes/openai/repurposer/repurposer.php:1033
+#: includes/openai/rss/rss.php:352 includes/openai/rss/rss.php:733
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: includes/openai/auto-writer/auto-writer-form.php:63
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: includes/openai/auto-writer/auto-writer-form.php:64
+msgid "scheduled Successfully."
+msgstr "Erfolgreich geplant."
+
+#: includes/openai/auto-writer/auto-writer-form.php:65
+msgid "AI Auto Writer"
+msgstr "AIKit-Autoschreiber"
+
+#: includes/openai/auto-writer/auto-writer-form.php:79
+#: includes/openai/repurposer/repurposer.php:759
+#: includes/openai/rss/rss.php:383
+msgid "Selected language:"
+msgstr "Ausgewählte Sprache:"
+
+#: includes/openai/auto-writer/auto-writer-form.php:81
+#: includes/openai/repurposer/repurposer.php:761
+#: includes/openai/rss/rss.php:385
+msgid "Change language"
+msgstr "Sprache ändern"
+
+#: includes/openai/auto-writer/auto-writer-form.php:89
+msgid "« Back to Scheduler"
+msgstr "« Zurück zu Planer"
+
+#: includes/openai/auto-writer/auto-writer-form.php:95
+#: includes/openai/auto-writer/auto-writer.php:176
+#: includes/openai/auto-writer/auto-writer.php:899
+#: includes/openai/repurposer/repurposer.php:1128
+msgid "Type"
+msgstr "Art"
+
+#: includes/openai/auto-writer/auto-writer-form.php:98
+msgid "Single Topic"
+msgstr "Einzelnes Thema"
+
+#: includes/openai/auto-writer/auto-writer-form.php:102
+msgid "Multiple Topics"
+msgstr "Mehrere Themen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:105
+msgid ""
+"If you have multiple topics that you want to write about, select \"Multiple "
+"Topics\". In this case you will need to enter the topics in the \"Topics\" "
+"field below, one topic per line, then AIKit will choose a random topic from "
+"the list for each article it generates. This is useful when you want to add "
+"variety to your content, particularly for scheduled generations."
+msgstr ""
+"Wenn du mehrere Themen hast, über die du schreiben möchtest, wähle “Mehrere "
+"Themen”. In diesem Fall musst du die Themen in das Feld “Themen” unten "
+"eingeben, ein Thema pro Zeile, dann wählt AIKit für jeden Artikel, den es "
+"erstellt, ein zufälliges Thema aus der Liste. Das ist nützlich, wenn du "
+"Abwechslung in deine Inhalte bringen willst, insbesondere bei geplanten "
+"Generationen."
+
+#: includes/openai/auto-writer/auto-writer-form.php:111
+msgid "Strategy"
+msgstr "Strategie"
+
+#: includes/openai/auto-writer/auto-writer-form.php:114
+msgid "Random"
+msgstr "Zufällig"
+
+#: includes/openai/auto-writer/auto-writer-form.php:118
+msgid "Visit every topic once"
+msgstr "Jedes Thema einmal besuchen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:121
+msgid ""
+"If you have multiple topics that you want to write about, you can choose to "
+"have AIKit visit each topic once, or choose \"Random\" to have AIKit choose "
+"a random topic from the list for each article it generates."
+msgstr ""
+"Wenn du mehrere Themen hast, über die du schreiben möchtest, kannst du "
+"wählen, ob AIKit jedes Thema einmal besuchen soll, oder ob du “Zufall” "
+"wählst, damit AIKit für jeden Artikel ein zufälliges Thema aus der Liste "
+"auswählt."
+
+#: includes/openai/auto-writer/auto-writer-form.php:128
+msgid "Please enter a brief description of the topic you want to write about."
+msgstr ""
+"Bitte gib eine kurze Beschreibung des Themas ein, über das du schreiben "
+"möchtest."
+
+#: includes/openai/auto-writer/auto-writer-form.php:129
+msgid ""
+"Write a brief description of the topic you want to write about, or one topic "
+"description per line if you have multiple topics..."
+msgstr ""
+"Schreibe eine kurze Beschreibung des Themas, über das du schreiben willst, "
+"oder eine Themenbeschreibung pro Zeile, wenn du mehrere Themen hast…"
+
+#: includes/openai/auto-writer/auto-writer-form.php:137
+#: includes/openai/auto-writer/auto-writer-form.php:138
+#: includes/openai/repurposer/repurposer.php:839
+#: includes/openai/repurposer/repurposer.php:840
+msgid "SEO keywords to focus on (comma-separated)"
+msgstr "SEO-Keywords, auf die du dich konzentrieren willst (kommagetrennt)"
+
+#: includes/openai/auto-writer/auto-writer-form.php:144
+#: includes/openai/auto-writer/auto-writer-form.php:145
+#: includes/openai/auto-writer/auto-writer-form.php:273
+#: includes/openai/auto-writer/auto-writer-form.php:274
+msgid "How many times to run (0=infinity)"
+msgstr "Wie oft ausgeführt werden soll (0=unendlich)"
+
+#: includes/openai/auto-writer/auto-writer-form.php:159
+#: includes/openai/repurposer/repurposer.php:850
+#: includes/openai/rss/rss.php:467
+msgid "Model"
+msgstr "Model"
+
+#: includes/openai/auto-writer/auto-writer-form.php:169
+#: includes/openai/repurposer/repurposer.php:873
+#: includes/openai/rss/rss.php:435
+msgid "Post type"
+msgstr "Beitragstyp"
+
+#: includes/openai/auto-writer/auto-writer-form.php:179
+#: includes/openai/repurposer/repurposer.php:883
+#: includes/openai/rss/rss.php:445
+msgid "Post category"
+msgstr "Beitragskategorie"
+
+#: includes/openai/auto-writer/auto-writer-form.php:189
+#: includes/openai/repurposer/repurposer.php:893
+#: includes/openai/rss/rss.php:457
+msgid "Post status"
+msgstr "Poststatus"
+
+#: includes/openai/auto-writer/auto-writer-form.php:206
+#: includes/openai/auto-writer/auto-writer.php:1173
+#: includes/openai/comments/comments.php:333
+#: includes/openai/comments/comments.php:424
+#: includes/openai/embeddings/embeddings.php:732
+#: includes/openai/embeddings/embeddings.php:1086
+#: includes/openai/fine-tuner/fine-tuner.php:811
+#: includes/openai/fine-tuner/fine-tuner.php:1415
+#: includes/openai/repurposer/repurposer.php:1003
+#: includes/openai/rss/rss.php:487 includes/openai/rss/rss.php:704
+#: includes/tts/text-to-speech.php:194 includes/tts/text-to-speech.php:276
+msgid "Status"
+msgstr "Status"
+
+#: includes/openai/auto-writer/auto-writer-form.php:215
+msgid "Articles: "
+msgstr "Artikel: "
+
+#: includes/openai/auto-writer/auto-writer-form.php:219
+msgid "Sections per article: "
+msgstr "Abschnitte pro Artikel: "
+
+#: includes/openai/auto-writer/auto-writer-form.php:223
+msgid "Maximum words per section: "
+msgstr "Maximale Wörter pro Abschnitt: "
+
+#: includes/openai/auto-writer/auto-writer-form.php:233
+msgid "Include outline"
+msgstr "Gliederung einschließen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:238
+msgid "Include featured article image"
+msgstr "Bild zum Artikel einfügen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:243
+msgid "Include section images"
+msgstr "Abschnittsbilder einfügen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:248
+msgid "Include conclusion"
+msgstr "Schlussfolgerung einbeziehen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:253
+msgid "Include TL;DR"
+msgstr "TL;DR einbeziehen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:261
+#: includes/openai/rss/rss.php:496
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: includes/openai/auto-writer/auto-writer-form.php:281
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:282
+msgid "Confirm Schedule"
+msgstr "Plan Bestätigen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:289
+msgid "Schedule"
+msgstr "Planen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:290
+msgid "Generate"
+msgstr "Erstelle"
+
+#: includes/openai/auto-writer/auto-writer-form.php:297
+msgid "Please don't close this page until generation is done."
+msgstr ""
+"Bitte schließe diese Seite nicht, bevor die Generierung abgeschlossen ist."
+
+#: includes/openai/auto-writer/auto-writer-form.php:301
+#: includes/openai/repurposer/repurposer.php:906
+#: includes/openai/rss/rss.php:504
+msgid ""
+"If you like to edit the prompts used by the AI, click on the accordion below."
+msgstr ""
+"Wenn du die von der KI verwendeten Prompts bearbeiten möchtest, klicke auf "
+"das Akkordeon unten."
+
+#: includes/openai/auto-writer/auto-writer-form.php:327
+#: includes/openai/repurposer/repurposer.php:932
+#: includes/openai/rss/rss.php:530
+msgid " uses"
+msgstr " verwendet"
+
+#: includes/openai/auto-writer/auto-writer-form.php:335
+#: includes/openai/repurposer/repurposer.php:940
+#: includes/openai/rss/rss.php:538
+msgid "Save prompts for future use (for currently-selected language)."
+msgstr ""
+"Eingabeaufforderungen für die spätere Verwendung speichern (für die aktuell "
+"gewählte Sprache)."
+
+#: includes/openai/auto-writer/auto-writer-form.php:340
+#: includes/openai/repurposer/repurposer.php:945
+#: includes/openai/rss/rss.php:543
+msgid "Are you sure you want to reset saved prompts?"
+msgstr ""
+"Bist du sicher, dass du die gespeicherten Eingabeaufforderungen zurücksetzen "
+"willst?"
+
+#: includes/openai/auto-writer/auto-writer-form.php:340
+#: includes/openai/repurposer/repurposer.php:945
+#: includes/openai/rss/rss.php:543
+msgid "Reset prompts to default"
+msgstr "Eingabeaufforderungen auf Standard zurücksetzen"
+
+#: includes/openai/auto-writer/auto-writer-form.php:344
+#: includes/openai/repurposer/repurposer.php:949
+#: includes/openai/rss/rss.php:547
+msgid "You can use the following placeholders in your prompts:"
+msgstr "Du kannst die folgenden Platzhalter in deinen Prompts verwenden:"
+
+#: includes/openai/auto-writer/auto-writer-form.php:348
+msgid "this will be replaced with you article description/topic."
+msgstr "wird durch deine Artikelbeschreibung/Thema ersetzt."
+
+#: includes/openai/auto-writer/auto-writer-form.php:349
+msgid "this will be replaced with the text of generated section."
+msgstr "wird dieser durch den Text des generierten Abschnitts ersetzt."
+
+#: includes/openai/auto-writer/auto-writer-form.php:350
+#: includes/openai/repurposer/repurposer.php:953
+#: includes/openai/rss/rss.php:551
+msgid "this will be replaced with text needed for that prompt."
+msgstr ""
+"wird dieser durch den Text ersetzt, der für diese Aufforderung benötigt wird."
+
+#: includes/openai/auto-writer/auto-writer-form.php:351
+msgid ""
+"this will be replaced with the suggested headlines for the sections about to "
+"be generated."
+msgstr ""
+"wird dies durch die vorgeschlagenen Überschriften für die Abschnitte "
+"ersetzt, die gerade erstellt werden."
+
+#: includes/openai/auto-writer/auto-writer-form.php:352
+#: includes/openai/repurposer/repurposer.php:955
+#: includes/openai/rss/rss.php:553
+msgid "this will be replaced with the SEO keywords you entered."
+msgstr "werden diese durch die von dir eingegebenen SEO-Keywords ersetzt."
+
+#: includes/openai/auto-writer/auto-writer-form.php:353
+msgid ""
+"this will be replaced with the number of headlines for the article section."
+msgstr ""
+"wird durch die Anzahl der Überschriften für den Artikelabschnitt ersetzt."
+
+#: includes/openai/auto-writer/auto-writer-form.php:373
+msgid "Every 30 minutes"
+msgstr "Jede 30 Minuten"
+
+#: includes/openai/auto-writer/auto-writer-form.php:374
+#: includes/openai/rss/rss.php:650
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: includes/openai/auto-writer/auto-writer-form.php:375
+#: includes/openai/rss/rss.php:651
+msgid "Twice daily"
+msgstr "Zweimal täglich"
+
+#: includes/openai/auto-writer/auto-writer-form.php:376
+#: includes/openai/rss/rss.php:652
+msgid "Daily"
+msgstr "Täglich"
+
+#: includes/openai/auto-writer/auto-writer-form.php:377
+msgid "Every other day"
+msgstr "Jeden zweiten Tag"
+
+#: includes/openai/auto-writer/auto-writer-form.php:378
+msgid "Twice weekly"
+msgstr "Zweimal wöchentlich"
+
+#: includes/openai/auto-writer/auto-writer-form.php:379
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: includes/openai/auto-writer/auto-writer-form.php:380
+msgid "Fortnightly"
+msgstr "Vierzehntägig"
+
+#: includes/openai/auto-writer/auto-writer-form.php:381
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: includes/openai/auto-writer/auto-writer-form.php:385
+msgid "Once"
+msgstr "Einmal"
+
+#: includes/openai/auto-writer/auto-writer-form.php:406
+#: includes/openai/auto-writer/auto-writer.php:1174
+msgid "Interval"
+msgstr "Intervall"
+
+#: includes/openai/auto-writer/auto-writer.php:151
+msgid "AIKit Auto Writer"
+msgstr "AIKit-Autoschreiber"
+
+#: includes/openai/auto-writer/auto-writer.php:152
+msgid ""
+"AIKit Auto Writer is a tool helps you write drafts quickly, but please "
+"review and edit before publishing for best results. This is not a substitute "
+"for human editing, but a drafting aid. Happy writing!"
+msgstr ""
+"AIKit Auto Writer ist ein Werkzeug, das dir hilft, Entwürfe schnell zu "
+"schreiben, aber bitte überprüfe und bearbeite sie vor der Veröffentlichung, "
+"um optimale Ergebnisse zu erzielen. Es ist kein Ersatz für ein menschliches "
+"Lektorat, sondern eine Entwurfshilfe. Viel Spaß beim Schreiben!"
+
+#: includes/openai/auto-writer/auto-writer.php:177
+#: includes/openai/auto-writer/auto-writer.php:900
+#: includes/openai/chatbot/chatbot-settings.php:456
+#: includes/openai/repurposer/repurposer.php:1129
+#: includes/openai/repurposer/repurposer.php:1160
+msgid "Title"
+msgstr "Titel"
+
+#: includes/openai/auto-writer/auto-writer.php:178
+#: includes/openai/auto-writer/auto-writer.php:901
+#: includes/openai/comments/comments.php:425
+#: includes/openai/embeddings/embeddings.php:1087
+#: includes/openai/fine-tuner/fine-tuner.php:1416
+#: includes/openai/repurposer/repurposer.php:1007
+#: includes/openai/repurposer/repurposer.php:1130
+#: includes/openai/rss/rss.php:586 includes/openai/rss/rss.php:705
+#: includes/tts/text-to-speech.php:277
+msgid "Date created"
+msgstr "Erstellungsdatum"
+
+#: includes/openai/auto-writer/auto-writer.php:213
+msgid "No auto-written posts found."
+msgstr "Keine automatisch geschriebenen Beiträge gefunden."
+
+#: includes/openai/auto-writer/auto-writer.php:226
+#: includes/openai/auto-writer/auto-writer.php:1244
+#: includes/openai/chatbot/chatbot-settings.php:730
+#: includes/openai/comments/comments.php:488
+#: includes/openai/embeddings/embeddings.php:1144
+#: includes/openai/fine-tuner/fine-tuner.php:1475
+#: includes/openai/repurposer/repurposer.php:1055
+#: includes/openai/rss/rss.php:752 includes/tts/text-to-speech.php:338
+msgid "« Previous"
+msgstr "« Zurück"
+
+#: includes/openai/auto-writer/auto-writer.php:227
+#: includes/openai/auto-writer/auto-writer.php:1259
+#: includes/openai/chatbot/chatbot-settings.php:745
+#: includes/openai/comments/comments.php:503
+#: includes/openai/embeddings/embeddings.php:1159
+#: includes/openai/fine-tuner/fine-tuner.php:1490
+#: includes/openai/repurposer/repurposer.php:1070
+#: includes/openai/rss/rss.php:767 includes/tts/text-to-speech.php:353
+msgid "Next »"
+msgstr "Weiter »"
+
+#: includes/openai/auto-writer/auto-writer.php:278
+msgid "Please enter a topic."
+msgstr "Bitte gib ein Thema ein."
+
+#: includes/openai/auto-writer/auto-writer.php:698
+msgid "There was an error scheduling the post generation."
+msgstr "Es gab einen Fehler bei der Planung der Beitragserstellung."
+
+#: includes/openai/auto-writer/auto-writer.php:704
+msgid "Post generation scheduled."
+msgstr "Postgenerierung geplant."
+
+#: includes/openai/auto-writer/auto-writer.php:744
+msgid "Post generation edited."
+msgstr "Beitragserstellung bearbeitet."
+
+#: includes/openai/auto-writer/auto-writer.php:788
+msgid "AIKit Scheduled AI Generators"
+msgstr "AIKit Geplante AI-Generatoren"
+
+#: includes/openai/auto-writer/auto-writer.php:792
+msgid ""
+"AIKit Scheduled AI Generators allow you to schedule content to be generated "
+"by AI. Please review and edit before publishing for best results. This is "
+"not a substitute for human editing, but a drafting aid. Happy writing!"
+msgstr ""
+"Mit den AIKit Scheduled AI Generators kannst du Inhalte planen, die von der "
+"KI generiert werden sollen. Bitte überprüfe und bearbeite sie vor der "
+"Veröffentlichung, um optimale Ergebnisse zu erzielen. Dies ist kein Ersatz "
+"für die menschliche Bearbeitung, sondern eine Entwurfshilfe. Viel Spaß beim "
+"Schreiben!"
+
+#: includes/openai/auto-writer/auto-writer.php:793
+#: includes/openai/comments/comments.php:239
+#: includes/openai/embeddings/embeddings.php:470
+#: includes/openai/repurposer/repurposer.php:683
+#: includes/openai/rss/rss.php:282 includes/tts/text-to-speech.php:85
+msgid "How to setup?"
+msgstr "Wie wird es eingerichtet?"
+
+#: includes/openai/auto-writer/auto-writer.php:796
+#: includes/openai/comments/comments.php:245
+#: includes/openai/embeddings/embeddings.php:486
+#: includes/openai/repurposer/repurposer.php:687
+#: includes/openai/rss/rss.php:286 includes/tts/text-to-speech.php:95
+msgid "Note:"
+msgstr "Hinweis:"
+
+#: includes/openai/auto-writer/auto-writer.php:797
+msgid ""
+"By default, WordPress scheduled jobs only runs when someone visits your "
+"site. To ensure that your scheduled AI generators runs even if nobody visits "
+"your site, you can set up a cron job on your server to call the WordPress "
+"cron system at regular intervals. Please ask your host provider to do that "
+"for you. Here is the cron job definition:"
+msgstr ""
+"Standardmäßig werden die geplanten WordPress-Jobs nur ausgeführt, wenn "
+"jemand deine Website besucht. Um sicherzustellen, dass deine geplanten AI-"
+"Generatoren auch dann laufen, wenn niemand deine Seite besucht, kannst du "
+"einen Cron-Job auf deinem Server einrichten, der das WordPress-Cron-System "
+"in regelmäßigen Abständen aufruft. Bitte deinen Host-Provider, das für dich "
+"zu tun. Hier ist die Definition des Cron-Jobs:"
+
+#: includes/openai/auto-writer/auto-writer.php:806
+msgid ""
+"Please consider the rate limits of your OpenAI account when setting up "
+"generators in order to avoid errors. You can find the rate limits "
+msgstr ""
+"Bitte beachte beim Einrichten von Generatoren die Ratenlimits deines OpenAI-"
+"Kontos, um Fehler zu vermeiden. Du findest die Ratenlimits "
+
+#: includes/openai/auto-writer/auto-writer.php:821
+#: includes/openai/repurposer/repurposer.php:987
+msgid "Are you sure you want to activate all jobs?"
+msgstr "Bist du sicher, dass du alle Jobs aktivieren willst?"
+
+#: includes/openai/auto-writer/auto-writer.php:821
+#: includes/openai/repurposer/repurposer.php:987
+msgid "Activate all"
+msgstr "Aktiviere alle"
+
+#: includes/openai/auto-writer/auto-writer.php:822
+#: includes/openai/repurposer/repurposer.php:988
+msgid "Are you sure you want to deactivate all jobs?"
+msgstr "Bist du sicher, dass du alle Jobs deaktivieren willst?"
+
+#: includes/openai/auto-writer/auto-writer.php:822
+#: includes/openai/repurposer/repurposer.php:988
+msgid "Deactivate all"
+msgstr "Alle deaktivieren"
+
+#: includes/openai/auto-writer/auto-writer.php:823
+#: includes/openai/repurposer/repurposer.php:989
+msgid "Are you sure you want to delete all jobs?"
+msgstr "Bist du sicher, dass du alle Jobs löschen willst?"
+
+#: includes/openai/auto-writer/auto-writer.php:823
+#: includes/openai/repurposer/repurposer.php:989
+msgid "Delete all"
+msgstr "Alle löschen"
+
+#: includes/openai/auto-writer/auto-writer.php:828
+msgid "Add new"
+msgstr "Neu hinzufügen"
+
+#: includes/openai/auto-writer/auto-writer.php:843
+msgid "No record found."
+msgstr "Kein Eintrag gefunden."
+
+#: includes/openai/auto-writer/auto-writer.php:849
+msgid "AIKit Scheduled AI Generator"
+msgstr "AIKit Geplanter AI-Generator"
+
+#: includes/openai/auto-writer/auto-writer.php:849
+msgid " - Edit"
+msgstr " - Bearbeiten"
+
+#: includes/openai/auto-writer/auto-writer.php:887
+#: includes/openai/repurposer/repurposer.php:1113
+msgid "Generated Posts"
+msgstr "Erstellte Beiträge"
+
+#: includes/openai/auto-writer/auto-writer.php:890
+#: includes/openai/comments/comments.php:324
+#: includes/openai/embeddings/embeddings.php:714
+#: includes/openai/fine-tuner/fine-tuner.php:793
+#: includes/openai/repurposer/repurposer.php:1119
+#: includes/openai/rss/rss.php:574 includes/tts/text-to-speech.php:185
+msgid "Logs"
+msgstr "Logbuch"
+
+#: includes/openai/auto-writer/auto-writer.php:907
+#: includes/openai/repurposer/repurposer.php:1136
+msgid "No posts generated yet."
+msgstr "Es wurden noch keine Beiträge erstellt."
+
+#: includes/openai/auto-writer/auto-writer.php:927
+#: includes/openai/comments/comments.php:379
+#: includes/openai/embeddings/embeddings.php:780
+#: includes/openai/fine-tuner/fine-tuner.php:988
+#: includes/openai/repurposer/repurposer.php:1169
+#: includes/openai/rss/rss.php:612 includes/tts/text-to-speech.php:231
+msgid ""
+"API errors can happen due to many reasons (such as API being down or rate "
+"limits have been exceeded, etc). In case of errors, do not worry, AIKit will "
+"keep retrying the job till it succeeds."
+msgstr ""
+"API-Fehler können aus vielen Gründen auftreten (z. B. weil die API nicht "
+"verfügbar ist oder die Ratenlimits überschritten wurden). Mach dir keine "
+"Sorgen, wenn Fehler auftreten. AIKit wird den Auftrag so lange wiederholen, "
+"bis er erfolgreich ist."
+
+#: includes/openai/auto-writer/auto-writer.php:933
+#: includes/openai/comments/comments.php:385
+#: includes/openai/embeddings/embeddings.php:786
+#: includes/openai/fine-tuner/fine-tuner.php:996
+#: includes/openai/repurposer/repurposer.php:1174
+#: includes/openai/rss/rss.php:618 includes/tts/text-to-speech.php:237
+msgid "No logs found."
+msgstr "Keine Logs gefunden."
+
+#: includes/openai/auto-writer/auto-writer.php:1171
+msgid "Topic(s)"
+msgstr "Thema(n)"
+
+#: includes/openai/auto-writer/auto-writer.php:1172
+#: includes/openai/repurposer/repurposer.php:1001
+msgid "Keywords"
+msgstr "Schlüsselwörter"
+
+#: includes/openai/auto-writer/auto-writer.php:1175
+msgid "Last generation"
+msgstr "Letzte Generation"
+
+#: includes/openai/auto-writer/auto-writer.php:1176
+msgid "Next generation"
+msgstr "Nächste Generation"
+
+#: includes/openai/auto-writer/auto-writer.php:1177
+#: includes/openai/repurposer/repurposer.php:1005
+msgid "Is running"
+msgstr "Läuft"
+
+#: includes/openai/auto-writer/auto-writer.php:1178
+msgid "Run count"
+msgstr "Anzahl der Läufe"
+
+#: includes/openai/auto-writer/auto-writer.php:1179
+msgid "Max run count"
+msgstr "Maximale Anzahl von Läufen"
+
+#: includes/openai/auto-writer/auto-writer.php:1180
+#: includes/openai/comments/comments.php:427
+#: includes/openai/embeddings/embeddings.php:1088
+#: includes/openai/fine-tuner/fine-tuner.php:1417
+#: includes/openai/repurposer/repurposer.php:1008
+#: includes/openai/rss/rss.php:706 includes/tts/text-to-speech.php:278
+msgid "Actions"
+msgstr "Aktionen"
+
+#: includes/openai/auto-writer/auto-writer.php:1194
+#: includes/openai/chatbot/chatbot-settings.php:700
+#: includes/openai/comments/comments.php:447
+#: includes/openai/embeddings/embeddings.php:1112
+#: includes/openai/fine-tuner/fine-tuner.php:1441
+#: includes/openai/repurposer/repurposer.php:1018
+#: includes/openai/rss/rss.php:720 includes/tts/text-to-speech.php:298
+msgid "No entries found"
+msgstr "Keine Einträge gefunden"
+
+#: includes/openai/auto-writer/auto-writer.php:1223
+#: includes/openai/chatbot/chatbot-settings.php:214
+#: includes/openai/chatbot/chatbot-settings.php:229
+#: includes/openai/chatbot/chatbot-settings.php:259
+#: includes/openai/chatbot/chatbot-settings.php:362
+#: includes/openai/repurposer/repurposer.php:1034
+#: includes/openai/repurposer/repurposer.php:1035
+#: includes/openai/repurposer/repurposer.php:1036
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/openai/auto-writer/auto-writer.php:1223
+#: includes/openai/chatbot/chatbot-settings.php:215
+#: includes/openai/chatbot/chatbot-settings.php:230
+#: includes/openai/chatbot/chatbot-settings.php:260
+#: includes/openai/chatbot/chatbot-settings.php:363
+#: includes/openai/repurposer/repurposer.php:1034
+#: includes/openai/repurposer/repurposer.php:1035
+msgid "No"
+msgstr "Nein"
+
+#: includes/openai/auto-writer/auto-writer.php:1227
+#: includes/openai/embeddings/embeddings.php:684
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: includes/openai/auto-writer/auto-writer.php:1228
+#: includes/openai/comments/comments.php:471
+#: includes/openai/embeddings/embeddings.php:1127
+#: includes/openai/fine-tuner/fine-tuner.php:1458
+#: includes/openai/repurposer/repurposer.php:1040
+#: includes/openai/rss/rss.php:737 includes/tts/text-to-speech.php:321
+msgid "Delete"
+msgstr "Löschen"
+
+#: includes/openai/auto-writer/auto-writer.php:1228
+msgid "Are you sure you want to delete this scheduled generator?"
+msgstr "Bist du sicher, dass du diesen geplanten Generator löschen willst?"
+
+#: includes/openai/chatbot/chatbot-settings.php:79
+msgid ""
+"AIKit Chatbot allows you to create a chatbot that can be used on your "
+"website. You, or your users can use it to answer questions and provide "
+"support about your products or services."
+msgstr ""
+"AIKit Chatbot ermöglicht es dir, einen Chatbot zu erstellen, der auf deiner "
+"Website eingesetzt werden kann. Du oder deine Nutzerinnen und Nutzer können "
+"ihn nutzen, um Fragen zu beantworten und Unterstützung zu deinen Produkten "
+"oder Dienstleistungen anzubieten."
+
+#: includes/openai/chatbot/chatbot-settings.php:96
+#: includes/openai/fine-tuner/fine-tuner.php:1077
+msgid ""
+"Please set your OpenAI API key in the AIKit settings page in order to use "
+"Chatbot."
+msgstr ""
+"Bitte lege deinen OpenAI API-Schlüssel auf der AIKit-Einstellungsseite fest, "
+"um Chatbot nutzen zu können."
+
+#: includes/openai/chatbot/chatbot-settings.php:109
+#: includes/openai/fine-tuner/fine-tuner.php:1090
+msgid ""
+"Please make sure you are using a valid OpenAI API key to be able to load all "
+"available models."
+msgstr ""
+"Bitte stelle sicher, dass du einen gültigen OpenAI-API-Schlüssel verwendest, "
+"damit du alle verfügbaren Modelle laden kannst."
+
+#: includes/openai/chatbot/chatbot-settings.php:137
+msgid "Frontend Only"
+msgstr "Nur Frontend"
+
+#: includes/openai/chatbot/chatbot-settings.php:138
+msgid "Admin Panel Only"
+msgstr "Nur Administrationsbereich"
+
+#: includes/openai/chatbot/chatbot-settings.php:139
+msgid "Admin Panel & Frontend"
+msgstr "Administrationsbereich & Frontend"
+
+#: includes/openai/chatbot/chatbot-settings.php:140
+msgid "Only using shortcode"
+msgstr "Nur mit Shortcode"
+
+#: includes/openai/chatbot/chatbot-settings.php:174
+msgid "Select Embedding"
+msgstr "Einbettung auswählen"
+
+#: includes/openai/chatbot/chatbot-settings.php:193
+msgid "Chatbot Settings"
+msgstr "Chatbot-Einstellungen"
+
+#: includes/openai/chatbot/chatbot-settings.php:196
+msgid "Chatbot Conversation History"
+msgstr "Chatbot-Konversationsverlauf"
+
+#: includes/openai/chatbot/chatbot-settings.php:206
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: includes/openai/chatbot/chatbot-settings.php:212
+msgid "Enable Chatbot"
+msgstr "Chatbot aktivieren"
+
+#: includes/openai/chatbot/chatbot-settings.php:227
+msgid "Enable Voice (Speech to text)"
+msgstr "Sprache aktivieren (Sprache zu Text)"
+
+#: includes/openai/chatbot/chatbot-settings.php:242
+msgid "Default view"
+msgstr "Standardansicht"
+
+#: includes/openai/chatbot/chatbot-settings.php:244
+msgid "Collapsed"
+msgstr "Zusammengeklappt"
+
+#: includes/openai/chatbot/chatbot-settings.php:245
+msgid "Expanded"
+msgstr "Erweitert"
+
+#: includes/openai/chatbot/chatbot-settings.php:257
+msgid "Log messages"
+msgstr "Log-Meldungen"
+
+#: includes/openai/chatbot/chatbot-settings.php:274
+msgid "To include Chatbot in any specific page, you can use the shortcode: "
+msgstr ""
+"Um den Chatbot in eine bestimmte Seite einzubinden, kannst du den Shortcode "
+"verwenden: "
+
+#: includes/openai/chatbot/chatbot-settings.php:276
+msgid ""
+"If you want to display the chatbot inside the page (inline) instead of on "
+"the side, pass the inline parameter to the shotcode like this:"
+msgstr ""
+"Wenn du den Chatbot innerhalb der Seite (inline) statt an der Seite anzeigen "
+"willst, übergib den Parameter inline wie folgt an den Shotcode:"
+
+#: includes/openai/chatbot/chatbot-settings.php:288
+msgid "Chatbot model"
+msgstr "Chatbot-Modell"
+
+#: includes/openai/chatbot/chatbot-settings.php:291
+msgid "For best results, please use chat models like gpt-3.5-turbo or gpt-4."
+msgstr ""
+"Für beste Ergebnisse verwende bitte Chat-Modelle wie gpt-3.5-turbo oder "
+"gpt-4."
+
+#: includes/openai/chatbot/chatbot-settings.php:299
+msgid "Show Chatbot on"
+msgstr "Chatbot anzeigen auf"
+
+#: includes/openai/chatbot/chatbot-settings.php:310
+msgid "Max response tokens"
+msgstr "Maximale Antwort-Token"
+
+#: includes/openai/chatbot/chatbot-settings.php:328
+msgid "Prompt stop sequence (Optional)"
+msgstr "Aufforderung zum Anhalten (optional)"
+
+#: includes/openai/chatbot/chatbot-settings.php:343
+msgid "Completion stop sequence (Optional)"
+msgstr "Beendigung der Stoppsequenz (Optional)"
+
+#: includes/openai/chatbot/chatbot-settings.php:360
+msgid "Use embeddings"
+msgstr "Einbettungen verwenden"
+
+#: includes/openai/chatbot/chatbot-settings.php:368
+msgid "Watch tutorial video"
+msgstr "Tutorial-Video ansehen"
+
+#: includes/openai/chatbot/chatbot-settings.php:378
+msgid "Embedding"
+msgstr "Einbettung"
+
+#: includes/openai/chatbot/chatbot-settings.php:381
+msgid ""
+"Select the embedding you want to use to answer user questions. If you don't "
+"find your embedding in the list, please make sure the embedding creation "
+"process is already complete."
+msgstr ""
+"Wähle die Einbettung aus, die du zur Beantwortung von Nutzerfragen verwenden "
+"möchtest. Wenn du deine Einbettung nicht in der Liste findest, vergewissere "
+"dich bitte, dass der Erstellungsprozess der Einbettung bereits abgeschlossen "
+"ist."
+
+#: includes/openai/chatbot/chatbot-settings.php:391
+msgid "Embedding Answer Formulation Prompt"
+msgstr "Antwortformulierung einbetten Aufforderung"
+
+#: includes/openai/chatbot/chatbot-settings.php:393
+msgid ""
+"Embedding Answer formulation prompt will be used to formulate the answer to "
+"the user question along with the result of the embedding semantic search. "
+"What happens is the following. A user asks a question in the Chatbot, then "
+"using embeddings, a semantic search (search by meaning) occurs to retrieve "
+"the closest answer to the user question. Then, the answer formulation prompt "
+"is used to formulate the answer to the user question. For example, if the "
+"user asks \"How much does your service cost?\", the semantic search will "
+"retrieve the closest answer to this question, for example \"Our prices start "
+"at $10 per month and you get a discount if you pay annually.\". Then, the "
+"answer formulation prompt will be used to formulate the answer to the user "
+"question, for example \"Service cost starts at $10 per month\"."
+msgstr ""
+"Einbettung Die Antwortformulierungsaufforderung wird verwendet, um die "
+"Antwort auf die Benutzerfrage zusammen mit dem Ergebnis der einbettenden "
+"semantischen Suche zu formulieren. Das läuft folgendermaßen ab. Ein Nutzer "
+"stellt dem Chatbot eine Frage. Dann wird mithilfe von Einbettungen eine "
+"semantische Suche (Suche nach Bedeutung) durchgeführt, um die Antwort zu "
+"finden, die der Nutzerfrage am nächsten kommt. Dann wird die "
+"Antwortformulierungsaufforderung verwendet, um die Antwort auf die "
+"Nutzerfrage zu formulieren. Wenn der Nutzer zum Beispiel fragt: “Wie viel "
+"kostet Ihr Service?”, findet die semantische Suche die Antwort, die der "
+"Frage am nächsten kommt, z. B. “Unsere Preise beginnen bei 10 US-Dollar pro "
+"Monat und Sie erhalten einen Rabatt, wenn Sie jährlich zahlen.”. Dann wird "
+"die Antwortformulierungsaufforderung verwendet, um die Antwort auf die "
+"Nutzerfrage zu formulieren, z. B. “Die Kosten für den Service beginnen bei "
+"10 US-Dollar pro Monat”."
+
+#: includes/openai/chatbot/chatbot-settings.php:394
+msgid "Make sure to include the following placeholders in your prompt: "
+msgstr ""
+"Achte darauf, dass du die folgenden Platzhalter in deine Eingabeaufforderung "
+"einfügst: "
+
+#: includes/openai/chatbot/chatbot-settings.php:394
+msgid " and "
+msgstr " und "
+
+#: includes/openai/chatbot/chatbot-settings.php:394
+msgid ""
+". These placeholders will be replaced with the result (from vector database) "
+"and the question (asked by user) respectively."
+msgstr ""
+". Diese Platzhalter werden durch das Ergebnis (aus der Vektordatenbank) bzw. "
+"die Frage (vom Nutzer gestellt) ersetzt."
+
+#: includes/openai/chatbot/chatbot-settings.php:409
+msgid "Chatbot Context"
+msgstr "Chatbot-Kontext"
+
+#: includes/openai/chatbot/chatbot-settings.php:411
+msgid ""
+"You can use this field to set the behaviour of the chatbot. For example, use "
+"something like \"You are a helpful assistant.\" or \"Answer in the style of "
+"Shakespeare.\" ."
+msgstr ""
+"In diesem Feld kannst du das Verhalten des Chatbots festlegen. Verwende zum "
+"Beispiel etwas wie “Du bist ein hilfreicher Assistent” oder “Antworte im "
+"Stil von Shakespeare”. ."
+
+#: includes/openai/chatbot/chatbot-settings.php:422
+msgid "Show Chatbot only for user role"
+msgstr "Chatbot nur für Benutzerrolle anzeigen"
+
+#: includes/openai/chatbot/chatbot-settings.php:435
+msgid "Page content aware?"
+msgstr "Seiteninhalt bewusst?"
+
+#: includes/openai/chatbot/chatbot-settings.php:437
+msgid ""
+"If enabled, the chatbot will be able to use the content of the current page "
+"to generate better responses. Important: it will increase your API costs!"
+msgstr ""
+"Wenn diese Option aktiviert ist, kann der Chatbot den Inhalt der aktuellen "
+"Seite nutzen, um bessere Antworten zu generieren. Wichtig: Dies erhöht deine "
+"API-Kosten!"
+
+#: includes/openai/chatbot/chatbot-settings.php:443
+msgid "Please select an embedding from embedding list."
+msgstr "Bitte wähle eine Einbettung aus der Einbettungsliste aus."
+
+#: includes/openai/chatbot/chatbot-settings.php:447
+msgid "Appearance"
+msgstr "Aussehen"
+
+#: includes/openai/chatbot/chatbot-settings.php:469
+msgid "Input text placeholder"
+msgstr "Platzhalter für Eingabetext"
+
+#: includes/openai/chatbot/chatbot-settings.php:482
+msgid "Start Message"
+msgstr "Start Nachricht"
+
+#: includes/openai/chatbot/chatbot-settings.php:496
+msgid "Main Color"
+msgstr "Hauptfarbe"
+
+#: includes/openai/chatbot/chatbot-settings.php:508
+msgid "Secondary Color"
+msgstr "Sekundärfarbe"
+
+#: includes/openai/chatbot/chatbot-settings.php:522
+msgid "Title Color"
+msgstr "Titel Farbe"
+
+#: includes/openai/chatbot/chatbot-settings.php:537
+msgid "AI Message Bubble Color"
+msgstr "AI Message Bubble Farbe"
+
+#: includes/openai/chatbot/chatbot-settings.php:549
+msgid "AI Message Text Color"
+msgstr "AI Nachricht Textfarbe"
+
+#: includes/openai/chatbot/chatbot-settings.php:562
+msgid "User Message Bubble Color"
+msgstr "Farbe der Sprechblase für Benutzernachrichten"
+
+#: includes/openai/chatbot/chatbot-settings.php:574
+msgid "User Message Text Color"
+msgstr "Textfarbe der Benutzernachricht"
+
+#: includes/openai/chatbot/chatbot-settings.php:584
+msgid "Reset Colors"
+msgstr "Farben zurücksetzen"
+
+#: includes/openai/chatbot/chatbot-settings.php:622
+msgid "« Back to History"
+msgstr "« Zurück zur Geschichte"
+
+#: includes/openai/chatbot/chatbot-settings.php:629
+msgid "Please select a conversation."
+msgstr "Bitte wählen Sie ein Gespräch aus."
+
+#: includes/openai/chatbot/chatbot-settings.php:636
+msgid "No messages found for this conversation."
+msgstr "Es wurden keine Nachrichten für diese Unterhaltung gefunden."
+
+#: includes/openai/chatbot/chatbot-settings.php:646
+#: includes/openai/chatbot/chatbot-settings.php:675
+msgid "User"
+msgstr "Benutzer"
+
+#: includes/openai/chatbot/chatbot-settings.php:649
+msgid "AI"
+msgstr "KI"
+
+#: includes/openai/chatbot/chatbot-settings.php:674
+msgid "User IP Address"
+msgstr "Benutzer-IP-Adresse"
+
+#: includes/openai/chatbot/chatbot-settings.php:676
+msgid "Date"
+msgstr "Datum"
+
+#: includes/openai/chatbot/chatbot.php:217
+msgid ""
+"Error 190: An error occurred while generating the response, please try again "
+"later."
+msgstr ""
+"Fehler 190: Beim Generieren der Antwort ist ein Fehler aufgetreten, bitte "
+"versuche es später noch einmal."
+
+#: includes/openai/chatbot/chatbot.php:282
+msgid ""
+"Error 200: An error occurred while generating the response, please try again."
+msgstr ""
+"Fehler 200: Beim Generieren der Antwort ist ein Fehler aufgetreten, bitte "
+"versuche es erneut."
+
+#: includes/openai/chatbot/chatbot.php:468
+msgid "Could not get permission to use your mic."
+msgstr "Ich konnte keine Erlaubnis bekommen, dein Mikrofon zu benutzen."
+
+#: includes/openai/chatbot/chatbot.php:491
+msgid "Can you please help me with..."
+msgstr "Kannst du mir bitte helfen mit…"
+
+#: includes/openai/comments/comments.php:240
+msgid ""
+"AIKit AI comments allows you to automatically generate comments for your "
+"posts using AI to increase engagement and SEO."
+msgstr ""
+"AIKit KI-Kommentare ermöglicht es dir, mit Hilfe von KI automatisch "
+"Kommentare für deine Beiträge zu erstellen, um das Engagement und die SEO zu "
+"erhöhen."
+
+#: includes/openai/comments/comments.php:246
+msgid ""
+"AIKit AI comments creation jobs run in the background as scheduled jobs."
+msgstr ""
+"AIKit-Kommentarerstellungsaufträge laufen im Hintergrund als geplante "
+"Aufträge."
+
+#: includes/openai/comments/comments.php:247
+msgid ""
+"By default, WordPress scheduled jobs only run when someone visits your site. "
+"To ensure that your comment generation jobs run even if nobody visits your "
+"site, you can set up a cron job on your server to call the WordPress cron "
+"system at regular intervals. Please ask your host provider to do that for "
+"you. Here is the cron job definition:"
+msgstr ""
+"Standardmäßig werden geplante WordPress-Jobs nur ausgeführt, wenn jemand "
+"deine Website besucht. Um sicherzustellen, dass deine "
+"Kommentarerstellungsjobs auch dann laufen, wenn niemand deine Seite besucht, "
+"kannst du einen Cron-Job auf deinem Server einrichten, der das WordPress-"
+"Cron-System in regelmäßigen Abständen aufruft. Bitte deinen Host-Provider, "
+"dies für dich zu tun. Hier ist die Definition des Cron-Jobs:"
+
+#: includes/openai/comments/comments.php:256
+#: includes/openai/embeddings/embeddings.php:497
+#: includes/openai/fine-tuner/fine-tuner.php:628
+#: includes/openai/repurposer/repurposer.php:700
+#: includes/openai/rss/rss.php:299 includes/tts/text-to-speech.php:106
+msgid "Jobs"
+msgstr "Jobs"
+
+#: includes/openai/comments/comments.php:283
+#: includes/openai/embeddings/embeddings.php:529
+#: includes/openai/fine-tuner/fine-tuner.php:660
+#: includes/openai/rss/rss.php:315 includes/tts/text-to-speech.php:148
+msgid "Job not found."
+msgstr "Job nicht gefunden."
+
+#: includes/openai/comments/comments.php:291
+msgid ""
+"Please set back and relax while the your comment generation job is being "
+"processed. Status of the job will change to reflect when this is done."
+msgstr ""
+"Bitte lehne dich zurück und entspanne dich, während dein Kommentarauftrag "
+"bearbeitet wird. Der Status des Auftrags wird sich ändern, sobald dies "
+"erledigt ist."
+
+#: includes/openai/comments/comments.php:294
+msgid ""
+"Congratulations! Your text to comment generation job is processed "
+"successfully and the generated comments have been added to your post."
+msgstr ""
+"Herzlichen Glückwunsch! Dein Text-zu-Kommentar-Auftrag wurde erfolgreich "
+"bearbeitet und die erzeugten Kommentare wurden deinem Beitrag hinzugefügt."
+
+#: includes/openai/comments/comments.php:321
+#: includes/openai/embeddings/embeddings.php:711
+#: includes/openai/fine-tuner/fine-tuner.php:790
+#: includes/tts/text-to-speech.php:182
+msgid "Job Info"
+msgstr "Job-Infos"
+
+#: includes/openai/comments/comments.php:339
+msgid "Comments to generate"
+msgstr "Zu erzeugende Kommentare"
+
+#: includes/openai/comments/comments.php:345
+msgid "Post"
+msgstr "Beitrag"
+
+#: includes/openai/comments/comments.php:359
+msgid "Generated comments"
+msgstr "Erstellte Kommentare"
+
+#: includes/openai/comments/comments.php:414
+#: includes/tts/text-to-speech.php:266
+msgid "Are you sure you want to delete all pending jobs?"
+msgstr "Bist du sicher, dass du alle ausstehenden Aufträge löschen willst?"
+
+#: includes/openai/comments/comments.php:414
+#: includes/tts/text-to-speech.php:266
+msgid "Delete all pending jobs"
+msgstr "Alle ausstehenden Aufträge löschen"
+
+#: includes/openai/comments/comments.php:423
+#: includes/tts/text-to-speech.php:275
+msgid "Post title"
+msgstr "Beitragstyp"
+
+#: includes/openai/comments/comments.php:426
+msgid "Comment count to generate"
+msgstr "Anzahl der zu erzeugenden Kommentare"
+
+#: includes/openai/comments/comments.php:457
+#: includes/tts/text-to-speech.php:308
+msgid "(no title)"
+msgstr "(ohne Titel)"
+
+#: includes/openai/comments/comments.php:470
+#: includes/openai/embeddings/embeddings.php:1126
+#: includes/openai/fine-tuner/fine-tuner.php:1457
+#: includes/openai/repurposer/repurposer.php:1039
+#: includes/openai/rss/rss.php:736 includes/tts/text-to-speech.php:320
+msgid "View"
+msgstr "Ansicht"
+
+#: includes/openai/comments/comments.php:471
+msgid "Are you sure you want to delete this comments jobs?"
+msgstr "Bist du sicher, dass du diese Kommentare löschen willst?"
+
+#: includes/openai/comments/comments.php:589
+msgid "AIKit AI Comments"
+msgstr "AIKit AI Kommentare"
+
+#: includes/openai/comments/comments.php:600
+#: includes/tts/text-to-speech.php:409
+msgid "Pending"
+msgstr "Anhängig"
+
+#: includes/openai/comments/comments.php:601
+#: includes/openai/embeddings/embeddings.php:1183
+#: includes/openai/fine-tuner/fine-tuner.php:1515
+#: includes/tts/text-to-speech.php:410
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: includes/openai/comments/comments.php:656
+msgid "Job(s) already exist for this post:"
+msgstr "Für diese Stelle gibt es bereits eine Stelle(n):"
+
+#: includes/openai/comments/comments.php:683
+msgid "Generate more AI comments"
+msgstr "Mehr KI-Kommentare generieren"
+
+#: includes/openai/comments/comments.php:683
+msgid "Generate AI comments"
+msgstr "AI-Kommentare generieren"
+
+#: includes/openai/comments/comments.php:688
+msgid "Number of comments to generate"
+msgstr "Anzahl der zu erzeugenden Kommentare"
+
+#: includes/openai/comments/comments.php:702
+msgid "Selected Language"
+msgstr "Ausgewählte Sprache"
+
+#: includes/openai/comments/comments.php:709
+msgid "Change Language"
+msgstr "Sprache ändern"
+
+#: includes/openai/comments/comments.php:715
+msgid "Save prompt for future use"
+msgstr "Sauvegarder l’invite pour une utilisation ultérieure"
+
+#: includes/openai/comments/comments.php:721
+msgid "Reset prompt to default"
+msgstr "Réinitialiser l’invite à la valeur par défaut"
+
+#: includes/openai/comments/comments.php:727
+msgid "AIKit AI Comments generates AI comments for your post."
+msgstr "AIKit AI Comments erzeugt AI-Kommentare für deinen Beitrag."
+
+#: includes/openai/comments/comments.php:730
+msgid "Make sure to include the "
+msgstr "Achte darauf, dass du die "
+
+#: includes/openai/comments/comments.php:732
+msgid ""
+" phrase in your prompt as this will be replaced with the post content before "
+"doing the AI reneration request."
+msgstr ""
+" Phrase in deiner Eingabeaufforderung, da diese durch den Inhalt des "
+"Beitrags ersetzt wird, bevor die KI-Reneration angefordert wird."
+
+#: includes/openai/embeddings/embeddings.php:322
+msgid ""
+"This embedding is currently selected for the chatbot. Please select another "
+"embedding for the chatbot before deleting this one."
+msgstr ""
+"Diese Einbettung ist derzeit für den Chatbot ausgewählt. Bitte wähle eine "
+"andere Einbettung für den Chatbot aus, bevor du diese Einbettung löschst."
+
+#: includes/openai/embeddings/embeddings.php:462
+#: includes/openai/fine-tuner/fine-tuner.php:616
+msgid "View / Edit Job"
+msgstr "Job anzeigen/bearbeiten"
+
+#: includes/openai/embeddings/embeddings.php:462
+msgid "Create Embeddings Job"
+msgstr "Job Einbettungen erstellen"
+
+#: includes/openai/embeddings/embeddings.php:471
+#: includes/tts/text-to-speech.php:86
+msgid "Watch Video"
+msgstr "Video anschauen"
+
+#: includes/openai/embeddings/embeddings.php:472
+msgid ""
+"AIKit Embeddings allows you to turn your data into vector representation "
+"which can be used to build improved Chatbot experience to answer your "
+"customers' questions about your product or service."
+msgstr ""
+"Mit AIKit Embeddings kannst du deine Daten in eine Vektordarstellung "
+"umwandeln, mit der du ein besseres Chatbot-Erlebnis aufbauen kannst, um die "
+"Fragen deiner Kunden zu deinem Produkt oder deiner Dienstleistung zu "
+"beantworten."
+
+#: includes/openai/embeddings/embeddings.php:477
+msgid ""
+"To use embeddings, you can either choose to store your data locally, which "
+"it the cheaper option (for small to moderate datasets), or use Qdrant in "
+"case you have much data to store and process. If you choose to store data "
+"locally, then you don't need to do anything. If you choode the Qdrant "
+"router, them you need to create an account, you can create one for free at"
+msgstr ""
+"Um Embeddings zu nutzen, kannst du entweder deine Daten lokal speichern, was "
+"die günstigere Option ist (für kleine bis mittlere Datensätze), oder Qdrant "
+"nutzen, wenn du viele Daten speichern und verarbeiten musst. Wenn du dich "
+"für die lokale Datenspeicherung entscheidest, musst du nichts tun. Wenn du "
+"dich für den Qdrant-Router entscheidest, musst du ein Konto einrichten, das "
+"du kostenlos unter"
+
+#: includes/openai/embeddings/embeddings.php:481
+msgid ""
+"Once you have you account created, Qdrant gives you a free forever cluster "
+"that can be used to store and query your data (embeddings). To connect to "
+"your cluster you need to enter the host URL and the API key of it in the "
+msgstr ""
+"Sobald du ein Konto erstellt hast, stellt dir Qdrant einen kostenlosen "
+"Cluster zur Verfügung, den du für die Speicherung und Abfrage deiner Daten "
+"(Embeddings) nutzen kannst. Um dich mit deinem Cluster zu verbinden, musst "
+"du die Host-URL und den API-Schlüssel des Clusters in das Feld "
+
+#: includes/openai/embeddings/embeddings.php:481
+#: includes/openai/embeddings/embeddings.php:1063
+msgid "AIKit settings page"
+msgstr "AIKit Einstellungen Seite"
+
+#: includes/openai/embeddings/embeddings.php:487
+msgid "AIKit embedding creation jobs run in the background as scheduled jobs."
+msgstr "AIKit-Einbettungsaufträge laufen im Hintergrund als geplante Aufträge."
+
+#: includes/openai/embeddings/embeddings.php:488
+msgid ""
+"By default, WordPress scheduled jobs only run when someone visits your site. "
+"To ensure that your embedding creation jobs run even if nobody visits your "
+"site, you can set up a cron job on your server to call the WordPress cron "
+"system at regular intervals. Please ask your host provider to do that for "
+"you. Here is the cron job definition:"
+msgstr ""
+"Standardmäßig werden geplante WordPress-Jobs nur ausgeführt, wenn jemand "
+"deine Website besucht. Um sicherzustellen, dass deine Einbettungsaufträge "
+"auch dann ausgeführt werden, wenn niemand deine Seite besucht, kannst du "
+"einen Cron-Job auf deinem Server einrichten, der das WordPress-Cron-System "
+"in regelmäßigen Abständen aufruft. Bitte deinen Host-Provider, dies für dich "
+"zu tun. Hier ist die Definition des Cron-Jobs:"
+
+#: includes/openai/embeddings/embeddings.php:573
+msgid ""
+"Please set back and relax while the data is being collected from your posts/"
+"pages. Status of the job will change to reflect when this operation is done."
+msgstr ""
+"Bitte lehne dich zurück und entspanne dich, während die Daten von deinen "
+"Beiträgen/Seiten gesammelt werden. Der Status des Jobs wird sich ändern, "
+"wenn dieser Vorgang abgeschlossen ist."
+
+#: includes/openai/embeddings/embeddings.php:587
+msgid ""
+"Unfortunately, the embedding creation job failed. Please check the logs "
+"below for more information."
+msgstr ""
+"Leider ist der Auftrag zur Erstellung der Einbettung fehlgeschlagen. Bitte "
+"überprüfe die Protokolle unten für weitere Informationen."
+
+#: includes/openai/embeddings/embeddings.php:602
+msgid ""
+"Please set back and relax while the your embedding is being created. Status "
+"of the job will change to reflect when this is done."
+msgstr ""
+"Bitte lehne dich zurück und entspanne dich, während deine Einbettung "
+"erstellt wird. Der Status des Auftrags wird sich ändern, sobald dies "
+"erledigt ist."
+
+#: includes/openai/embeddings/embeddings.php:615
+msgid ""
+"Please have a look at the collected data and approve them. Feel free to edit "
+"them as you see fit."
+msgstr ""
+"Bitte sieh dir die gesammelten Daten an und bestätige sie. Du kannst sie "
+"gerne bearbeiten, wenn du es für richtig hältst."
+
+#: includes/openai/embeddings/embeddings.php:626
+#: includes/openai/embeddings/embeddings.php:809
+msgid "No data found."
+msgstr "Keine Daten gefunden."
+
+#: includes/openai/embeddings/embeddings.php:632
+msgid "Collected data"
+msgstr "Erfasste Daten"
+
+#: includes/openai/embeddings/embeddings.php:656
+msgid "Create Embedding"
+msgstr "Einbettung erstellen"
+
+#: includes/openai/embeddings/embeddings.php:677
+msgid ""
+"Congratulations! Your embedding is ready to be used. You you should see it "
+"in the list of embeddings available in the Chatbot setting page in case you "
+"want to use it in the Chatbot."
+msgstr ""
+"Herzlichen Glückwunsch! Deine Einbettung ist jetzt einsatzbereit. Du "
+"solltest sie in der Liste der verfügbaren Einbettungen auf der Chatbot-"
+"Einstellungsseite sehen, falls du sie im Chatbot verwenden möchtest."
+
+#: includes/openai/embeddings/embeddings.php:692
+msgid ""
+"This embedding is currently used with the Chatbot. Please select another "
+"embedding for the Chatbot before editing this one."
+msgstr ""
+"Diese Einbettung wird derzeit für den Chatbot verwendet. Bitte wähle eine "
+"andere Einbettung für den Chatbot, bevor du diese bearbeitest."
+
+#: includes/openai/embeddings/embeddings.php:721
+msgid "Entered / Collected Data"
+msgstr "Eingegebene / gesammelte Daten"
+
+#: includes/openai/embeddings/embeddings.php:741
+#: includes/openai/embeddings/embeddings.php:1014
+msgid "Embeddings Storage Type"
+msgstr "Einbettungen Speicherart"
+
+#: includes/openai/embeddings/embeddings.php:743
+#: includes/openai/embeddings/embeddings.php:1016
+msgid "Local"
+msgstr "Lokal"
+
+#: includes/openai/embeddings/embeddings.php:761
+#: includes/openai/embeddings/embeddings.php:1031
+#: includes/openai/embeddings/embeddings.php:1085
+msgid "Name"
+msgstr "Name"
+
+#: includes/openai/embeddings/embeddings.php:816
+#: includes/openai/fine-tuner/fine-tuner.php:1011
+msgid "Export as CSV"
+msgstr "Als CSV exportieren"
+
+#: includes/openai/embeddings/embeddings.php:822
+msgid "Here is the data collected so far."
+msgstr "Hier sind die bisher gesammelten Daten."
+
+#: includes/openai/embeddings/embeddings.php:824
+msgid "Here is the data you entered."
+msgstr "Hier sind die Daten, die du eingegeben hast."
+
+#: includes/openai/embeddings/embeddings.php:834
+msgid "Data"
+msgstr "Daten"
+
+#: includes/openai/embeddings/embeddings.php:861
+msgid ""
+"Enter your embedding data. This data will be transformed into vectors later "
+"and stored in the embeddings store (Qdrant). In Chatbot, when your user asks "
+"a question, a similarity search will be done against this data to find the "
+"closest text to answer that question, then the result will be fed into a GPT "
+"model (of your choice) to answer that question using your data."
+msgstr ""
+"Gib deine Einbettungsdaten ein. Diese Daten werden später in Vektoren "
+"umgewandelt und im Einbettungsspeicher (Qdrant) gespeichert. Wenn dein "
+"Nutzer im Chatbot eine Frage stellt, wird eine Ähnlichkeitssuche mit diesen "
+"Daten durchgeführt, um den Text zu finden, der der Frage am nächsten kommt. "
+"Das Ergebnis wird dann in ein GPT-Modell (deiner Wahl) eingespeist, um die "
+"Frage mit deinen Daten zu beantworten."
+
+#: includes/openai/embeddings/embeddings.php:862
+msgid ""
+"Each paragraph should be short and concise and discusses some information "
+"about your product or service."
+msgstr ""
+"Jeder Absatz sollte kurz und prägnant sein und einige Informationen über "
+"dein Produkt oder deine Dienstleistung enthalten."
+
+#: includes/openai/embeddings/embeddings.php:872
+msgid "Choose the source of your embeddings data"
+msgstr "Wähle die Quelle für deine Einbettungsdaten"
+
+#: includes/openai/embeddings/embeddings.php:874
+#: includes/openai/fine-tuner/fine-tuner.php:1120
+msgid "Manual"
+msgstr "Manuell"
+
+#: includes/openai/embeddings/embeddings.php:875
+#: includes/openai/fine-tuner/fine-tuner.php:1121
+msgid "Posts / Pages"
+msgstr "Beiträge / Seiten"
+
+#: includes/openai/embeddings/embeddings.php:887
+msgid ""
+"Please enter your embeddings data below. Keep writing and new inputs will be "
+"added automatically so you can fill in your data."
+msgstr ""
+"Bitte gib deine Einbettungsdaten unten ein. Schreibe weiter und neue "
+"Eingaben werden automatisch hinzugefügt, damit du deine Daten eintragen "
+"kannst."
+
+#: includes/openai/embeddings/embeddings.php:892
+#: includes/openai/fine-tuner/fine-tuner.php:1138
+msgid "Have a CSV file? Import it!"
+msgstr "Hast du eine CSV-Datei? Importiere sie!"
+
+#: includes/openai/embeddings/embeddings.php:901
+msgid "Paragraphs"
+msgstr "Paragraphen"
+
+#: includes/openai/embeddings/embeddings.php:941
+msgid ""
+"AIKit allows you to pick posts and pages from your site to use as embeddings "
+"data. The content of these pages & posts will be divided into paragraphs, "
+"and AIKit will feed it into the vector database."
+msgstr ""
+"Mit AIKit kannst du Beiträge und Seiten von deiner Website auswählen, um sie "
+"als Einbettungsdaten zu verwenden. Der Inhalt dieser Seiten und Beiträge "
+"wird in Absätze unterteilt und von AIKit in die Vektordatenbank eingespeist."
+
+#: includes/openai/embeddings/embeddings.php:943
+msgid ""
+"You will have a chance to review and edit this data once it is divided into "
+"paragraphs and before storing it into the vector database."
+msgstr ""
+"Du hast die Möglichkeit, diese Daten zu überprüfen und zu bearbeiten, sobald "
+"sie in Absätze unterteilt sind und bevor sie in der Vektordatenbank "
+"gespeichert werden."
+
+#: includes/openai/embeddings/embeddings.php:953
+msgid ""
+"Please select the posts/pages you want to use as embeddings data. You can "
+"filter by post type and search for a specific post/page."
+msgstr ""
+"Bitte wähle die Beiträge/Seiten aus, die du als Einbettungsdaten verwenden "
+"möchtest. Du kannst nach Beitragstyp filtern und nach einem bestimmten "
+"Beitrag/einer bestimmten Seite suchen."
+
+#: includes/openai/embeddings/embeddings.php:965
+#: includes/openai/fine-tuner/fine-tuner.php:1265
+msgid "Count Tokens"
+msgstr "Token zählen"
+
+#: includes/openai/embeddings/embeddings.php:966
+msgid "Number of tokens:"
+msgstr "Anzahl der Token:"
+
+#: includes/openai/embeddings/embeddings.php:978
+msgid "Create Embeddings"
+msgstr "Einbettungen erstellen"
+
+#: includes/openai/embeddings/embeddings.php:979
+#: includes/openai/fine-tuner/fine-tuner.php:1285
+msgid "Preprocess Data"
+msgstr "Daten vorverarbeiten"
+
+#: includes/openai/embeddings/embeddings.php:980
+#: includes/openai/fine-tuner/fine-tuner.php:1286
+msgid "Save & Continue Later"
+msgstr "Speichern & später fortfahren"
+
+#: includes/openai/embeddings/embeddings.php:1006
+msgid ""
+"Creating an embedding is the first step in turning your data into vectors "
+"(numbers). This can allow you to do semantic search (search by meaning, not "
+"exact words), and that can be used to answer user questions with the most "
+"relevant data from your website. You can create embeddings from text data "
+"(manual input) or from posts and pages on your site."
+msgstr ""
+"Die Erstellung einer Einbettung ist der erste Schritt zur Umwandlung Ihrer "
+"Daten in Vektoren (Zahlen). Dies ermöglicht Ihnen eine semantische Suche "
+"(Suche nach Bedeutung, nicht nach exakten Wörtern), die zur Beantwortung von "
+"Nutzerfragen mit den relevantesten Daten von Ihrer Website verwendet werden "
+"kann. Sie können Einbettungen aus Textdaten (manuelle Eingabe) oder aus "
+"Beiträgen und Seiten auf Ihrer Website erstellen."
+
+#: includes/openai/embeddings/embeddings.php:1020
+msgid ""
+"Local embeddings are stored in your WordPress database. Qdrant embeddings "
+"are stored in the Qdrant vector database. Local storage is enough for small "
+"to moderate data sizes, but you can use Qdrant to store and process your "
+"embeddings in case your dataset is huge and experience increased Chatbot "
+"response times. Always start with \"Local\" and then upgrade to use Qdrant "
+"if necessary."
+msgstr ""
+"Lokale Einbettungen werden in deiner WordPress-Datenbank gespeichert. Qdrant-"
+"Einbettungen werden in der Qdrant-Vektordatenbank gespeichert. Die lokale "
+"Speicherung reicht für kleine bis mittlere Datenmengen aus, aber du kannst "
+"Qdrant nutzen, um deine Embeddings zu speichern und zu verarbeiten, wenn "
+"dein Datensatz sehr groß ist und du eine längere Reaktionszeit für den "
+"Chatbot brauchst. Beginne immer mit “Lokal” und steigere dann bei Bedarf auf "
+"Qdrant."
+
+#: includes/openai/embeddings/embeddings.php:1038
+msgid "Enter a name for your embedding."
+msgstr "Gib einen Namen für deine Einbettung ein."
+
+#: includes/openai/embeddings/embeddings.php:1039
+msgid "Please enter a name for your embedding."
+msgstr "Bitte gib einen Namen für deine Einbettung ein."
+
+#: includes/openai/embeddings/embeddings.php:1048
+msgid ""
+"AIKit will use the \"text-embedding-ada-002\" model for embeddings from "
+"OpenAI since it's the most recommended in terms of performance and the "
+"cheapest from cost perspective."
+msgstr ""
+"AIKit wird das Modell “text-embedding-ada-002” für Einbettungen von OpenAI "
+"verwenden, da es in Bezug auf die Leistung am empfehlenswertesten und aus "
+"Kostensicht am günstigsten ist."
+
+#: includes/openai/embeddings/embeddings.php:1063
+msgid ""
+"Qdrant host is not set. In order to use embedding please set the Qdrant host "
+"(and API key if needed) in the "
+msgstr ""
+"Qdrant-Host ist nicht eingestellt. Um die Einbettung zu nutzen, setze bitte "
+"den Qdrant-Host (und ggf. den API-Schlüssel) in der "
+
+#: includes/openai/embeddings/embeddings.php:1073
+msgid "Add Data"
+msgstr "Daten hinzufügen"
+
+#: includes/openai/embeddings/embeddings.php:1127
+msgid "Are you sure you want to delete this embeddings job?"
+msgstr "Bist du sicher, dass du diesen Einbettungsauftrag löschen willst?"
+
+#: includes/openai/embeddings/embeddings.php:1178
+#: includes/openai/fine-tuner/fine-tuner.php:1509
+msgid "New"
+msgstr "Neu"
+
+#: includes/openai/embeddings/embeddings.php:1179
+msgid "Pending data"
+msgstr "Ausstehende Daten"
+
+#: includes/openai/embeddings/embeddings.php:1180
+#: includes/openai/fine-tuner/fine-tuner.php:1511
+msgid "Collecting data from posts"
+msgstr "Sammeln von Daten aus Beiträgen"
+
+#: includes/openai/embeddings/embeddings.php:1181
+msgid "Pending final approval on collected data"
+msgstr "Endgültige Genehmigung der gesammelten Daten steht noch aus"
+
+#: includes/openai/embeddings/embeddings.php:1182
+msgid "Creation in progress"
+msgstr "Erstellung in Arbeit"
+
+#: includes/openai/embeddings/embeddings.php:1184
+msgid "Failed"
+msgstr "Gescheitert"
+
+#: includes/openai/fine-tuner/fine-tuner.php:616
+msgid "Create Fine-tune Job"
+msgstr "Feinabstimmungsauftrag erstellen"
+
+#: includes/openai/fine-tuner/fine-tuner.php:623
+msgid ""
+"AIKit Fine-tuner is a tool that allows you to fine-tune your AI models. Fine-"
+"tuning a model allows you to feed in data about your product or service and "
+"train the model on it so that it can generate better results for your "
+"specific use case. You can use it to create a new model based on your "
+"existing model, or to improve your existing model by adding new data to it."
+msgstr ""
+"AIKit Fine-tuner ist ein Tool, mit dem du deine KI-Modelle feinabstimmen "
+"kannst. Die Feinabstimmung eines Modells ermöglicht es dir, Daten über dein "
+"Produkt oder deine Dienstleistung einzugeben und das Modell darauf zu "
+"trainieren, damit es bessere Ergebnisse für deinen speziellen Anwendungsfall "
+"erzielt. Du kannst damit ein neues Modell erstellen, das auf deinem "
+"bestehenden Modell basiert, oder dein bestehendes Modell verbessern, indem "
+"du ihm neue Daten hinzufügst."
+
+#: includes/openai/fine-tuner/fine-tuner.php:687
+msgid ""
+"Please set back and relax while the prompt/completion pairs are being "
+"generated for your training data. Status of the job will change to reflect "
+"when the generation is done."
+msgstr ""
+"Bitte lehne dich zurück und entspanne dich, während die Eingabeaufforderung/"
+"Vervollständigungspaare für deine Trainingsdaten erstellt werden. Der Status "
+"des Auftrags wird sich ändern, wenn die Generierung abgeschlossen ist."
+
+#: includes/openai/fine-tuner/fine-tuner.php:701
+msgid ""
+"Please set back and relax while the your model is being fine-tuned. Status "
+"of the job will change to reflect when this is done."
+msgstr ""
+"Bitte lehne dich zurück und entspanne dich, während dein Modell "
+"feinabgestimmt wird. Der Status des Auftrags wird sich ändern, wenn dies "
+"erledigt ist."
+
+#: includes/openai/fine-tuner/fine-tuner.php:714
+msgid ""
+"Please have a look at the generated prompt/completion pairs and approve "
+"them. Feel free to edit them as you see fit."
+msgstr ""
+"Bitte sieh dir die generierten Aufforderungs-/Vervollständigungspaare an und "
+"bestätige sie. Du kannst sie nach eigenem Ermessen bearbeiten."
+
+#: includes/openai/fine-tuner/fine-tuner.php:725
+#: includes/openai/fine-tuner/fine-tuner.php:1022
+msgid "No pairs found."
+msgstr "Keine Paare gefunden."
+
+#: includes/openai/fine-tuner/fine-tuner.php:734
+#: includes/openai/fine-tuner/fine-tuner.php:1043
+#: includes/openai/fine-tuner/fine-tuner.php:1150
+msgid "Completions"
+msgstr "Abschlüsse"
+
+#: includes/openai/fine-tuner/fine-tuner.php:762
+#: includes/openai/fine-tuner/fine-tuner.php:1284
+msgid "Start Fine-tuning"
+msgstr "Start der Feinabstimmung"
+
+#: includes/openai/fine-tuner/fine-tuner.php:775
+msgid ""
+"Congratulations! Your model is ready to be used. You you should see it in "
+"the list of models in the settings page or in the Chatbot setting page."
+msgstr ""
+"Herzlichen Glückwunsch! Dein Modell ist jetzt einsatzbereit. Du solltest es "
+"in der Liste der Modelle auf der Einstellungsseite oder auf der Chatbot-"
+"Einstellungsseite sehen."
+
+#: includes/openai/fine-tuner/fine-tuner.php:777
+msgid ""
+"For best results, please make sure to set the same \"Prompt Stop Sequence\" "
+"and \"Completion Stop Sequence\" in the settings page or Chatbot settings "
+"page when using this model."
+msgstr ""
+"Um die besten Ergebnisse zu erzielen, stelle bitte sicher, dass du auf der "
+"Einstellungsseite oder der Chatbot-Einstellungsseite dieselbe “Prompt Stop "
+"Sequence” und “Completion Stop Sequence” einstellst, wenn du dieses Modell "
+"verwendest."
+
+#: includes/openai/fine-tuner/fine-tuner.php:800
+msgid "Prompt / Completion Pairs"
+msgstr "Aufforderung/Vervollständigung Paare"
+
+#: includes/openai/fine-tuner/fine-tuner.php:823
+#: includes/openai/fine-tuner/fine-tuner.php:1413
+msgid "Model Name"
+msgstr "Modellname"
+
+#: includes/openai/fine-tuner/fine-tuner.php:845
+#: includes/openai/fine-tuner/fine-tuner.php:1349
+#: includes/openai/fine-tuner/fine-tuner.php:1412
+msgid "Model Name Suffix"
+msgstr "Modellname Suffix"
+
+#: includes/openai/fine-tuner/fine-tuner.php:907
+#: includes/openai/fine-tuner/fine-tuner.php:1336
+#: includes/openai/fine-tuner/fine-tuner.php:1414
+msgid "Base Model"
+msgstr "Basismodell"
+
+#: includes/openai/fine-tuner/fine-tuner.php:928
+msgid "Source of your training data"
+msgstr "Quelle für deine Trainingsdaten"
+
+#: includes/openai/fine-tuner/fine-tuner.php:950
+msgid "Prompt / Completion Generation Model"
+msgstr "Aufforderungs-/Vervollständigungsgenerierungsmodell"
+
+#: includes/openai/fine-tuner/fine-tuner.php:970
+#: includes/openai/fine-tuner/fine-tuner.php:1220
+msgid "How Many Prompt/Completion Pairs To Generate Per Paragraph"
+msgstr ""
+"Wie viele Aufforderungs-/Vervollständigungspaare pro Absatz erzeugt werden "
+"sollen"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1028
+msgid "Here are the prompt/completion pairs generated so far."
+msgstr ""
+"Hier sind die bisher erstellten Aufforderungs-/Vervollständigungspaare."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1031
+msgid "Here are the prompt/completion pairs you entered."
+msgstr ""
+"Hier sind die von dir eingegebenen Eingabeaufforderungs-/"
+"Vervollständigungspaare."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1102
+msgid ""
+"OpenAI expects the training data to be formatted in a prompt/completion pair "
+"format. This will be used to fine-tune the model, where each prompt is kinda "
+"like a question, and the completion could be the answer to that question."
+msgstr ""
+"OpenAI erwartet, dass die Trainingsdaten im Format eines Paares aus "
+"Eingabeaufforderung und Vervollständigung formatiert sind. Dies wird zur "
+"Feinabstimmung des Modells verwendet, wobei jeder Prompt eine Art Frage ist "
+"und die Vervollständigung die Antwort auf diese Frage sein könnte."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1103
+msgid ""
+"Each prompt (question) could be a question about your product or service, "
+"where the completion is the best (answer) response to that question."
+msgstr ""
+"Jede Aufforderung (Frage) könnte eine Frage zu deinem Produkt oder deiner "
+"Dienstleistung sein, bei der der Abschluss die beste (Antwort) Antwort auf "
+"diese Frage ist."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1107
+msgid ""
+"OpenAI recommends 500 pairs of prompts/completions for best fine-tuning "
+"results."
+msgstr ""
+"OpenAI empfiehlt 500 Paare von Aufforderungen/Vervollständigungen für die "
+"besten Ergebnisse bei der Feinabstimmung."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1108
+msgid "For more information, please refer to the"
+msgstr "Weitere Informationen findest du in der"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1108
+msgid "OpenAI fine-tuning guide"
+msgstr "OpenAI Anleitung zur Feinabstimmung"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1118
+msgid "Choose the source of your training data"
+msgstr "Wähle die Quelle für deine Trainingsdaten"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1133
+msgid ""
+"Please enter your training data below. Keep writing and new inputs will be "
+"added automatically to fill in your data."
+msgstr ""
+"Bitte gib deine Trainingsdaten unten ein. Schreibe weiter und neue Eingaben "
+"werden automatisch hinzugefügt, um deine Daten zu vervollständigen."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1196
+msgid ""
+"AIKit allows you to pick posts and pages from your site to use as training "
+"data. The content of these pages & posts will be divided into paragraphs, "
+"and AIKit will generate prompt/completion pairs based on them by using the "
+"model you select below."
+msgstr ""
+"AIKit ermöglicht es dir, Beiträge und Seiten von deiner Website als "
+"Trainingsdaten zu verwenden. Der Inhalt dieser Seiten und Beiträge wird in "
+"Absätze unterteilt und AIKit generiert daraus Eingabeaufforderung/"
+"Vervollständigung-Paare, indem es das Modell verwendet, das du unten "
+"auswählst."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1198
+msgid ""
+"These prompt/completion pairs (question & answers about your content) will "
+"be put together and sent to OpenAI as the training data to fine-tune your "
+"model. You will have a chance to review and edit these pairs once they are "
+"generated and before the fine-tuning process starts in the next step."
+msgstr ""
+"Diese Prompt/Completion-Paare (Fragen und Antworten zu deinem Inhalt) werden "
+"zusammengestellt und als Trainingsdaten an OpenAI gesendet, um dein Modell "
+"zu verfeinern. Du hast die Möglichkeit, diese Paare zu überprüfen und zu "
+"bearbeiten, sobald sie erstellt wurden und bevor der Feinabstimmungsprozess "
+"im nächsten Schritt beginnt."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1206
+msgid "Prompt/Completion Generation Model"
+msgstr "Modell der Eingabeaufforderung/Vervollständigung"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1209
+msgid ""
+"As part of preparing your training data, this model will be used to generate "
+"one or more prompt/completion pairs, which will be used to train the final "
+"model. It's highly recommended to choose a capable model here, like "
+"\"gpt-3.5-turbo\" or better in order for the generated prompt/completion "
+"pairs to be as good as possible."
+msgstr ""
+"Als Teil der Vorbereitung Ihrer Trainingsdaten wird dieses Modell verwendet, "
+"um ein oder mehrere Eingabeaufforderungs-/Vervollständigungspaare zu "
+"erzeugen, die zum Trainieren des endgültigen Modells verwendet werden. Es "
+"wird dringend empfohlen, hier ein leistungsfähiges Modell wie “gpt-3.5-"
+"turbo” oder besser zu wählen, damit die generierten Eingabeaufforderungs-/"
+"Vervollständigungspaare so gut wie möglich sind."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1227
+msgid ""
+"Choose how many prompt/completion pairs to generate per paragraph. The more "
+"pairs you generate, the more training data you will have which will improve "
+"the quality of your fine-tuned model, but it will affect the time it takes "
+"to fine-tune your model and the costs of that."
+msgstr ""
+"Wähle aus, wie viele Aufforderungs-/Vervollständigungspaare du pro Absatz "
+"generieren willst. Je mehr Paare du generierst, desto mehr Trainingsdaten "
+"stehen dir zur Verfügung, was die Qualität deines Feinabstimmungsmodells "
+"verbessert, sich aber auch auf die Zeit auswirkt, die du für die "
+"Feinabstimmung deines Modells benötigst, und die damit verbundenen Kosten."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1238
+msgid "Generation Prompt"
+msgstr "Generation Prompt"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1240
+msgid ""
+"This prompt will be used to generate the prompt/completion pairs. You can "
+"use the following variables in your prompt: [[number]] (the number of pairs "
+"to generate), [[paragraph]] (the paragraph to generate pairs for)."
+msgstr ""
+"Dieser Prompt wird verwendet, um die Prompt/Vervollständigungspaare zu "
+"erzeugen. Sie können die folgenden Variablen in Ihrer Eingabeaufforderung "
+"verwenden: [[Zahl]] (die Anzahl der zu erzeugenden Paare), [[Absatz]] (der "
+"Absatz, für den Paare erzeugt werden sollen)."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1253
+msgid ""
+"Please select the posts/pages you want to use as training data. You can "
+"filter by post type and search for a specific post/page."
+msgstr ""
+"Bitte wähle die Beiträge/Seiten aus, die du als Trainingsdaten verwenden "
+"möchtest. Du kannst nach Beitragstyp filtern und nach einem bestimmten "
+"Beitrag/einer bestimmten Seite suchen."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1266
+msgid "Number of training tokens:"
+msgstr "Anzahl der Trainingsmünzen:"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1278
+msgid ""
+"Token count is multiplied by 4 to reflect actual tokens used in training "
+"(with epoch=4). You can use the number of tokens to calculate the costs you "
+"will pay to fine-tune your model. Check "
+msgstr ""
+"Die Anzahl der Token wird mit 4 multipliziert, um die tatsächlich im "
+"Training verwendeten Token wiederzugeben (mit Epoche=4). Du kannst die "
+"Anzahl der Token nutzen, um die Kosten für die Feinabstimmung deines Modells "
+"zu berechnen. Überprüfe "
+
+#: includes/openai/fine-tuner/fine-tuner.php:1278
+msgid "OpenAI pricing"
+msgstr "OpenAI Preise"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1278
+msgid "for more information."
+msgstr "für weitere Informationen."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1328
+msgid ""
+"Fine-tuning allows you to train your own AI model based on an existing "
+"model. You can use this feature to create a model that is more specific to "
+"your needs, for example: to answer questions about your products or services."
+msgstr ""
+"Die Feinabstimmung ermöglicht es dir, dein eigenes KI-Modell auf der "
+"Grundlage eines bestehenden Modells zu trainieren. Du kannst diese Funktion "
+"nutzen, um ein Modell zu erstellen, das spezifischer auf deine Bedürfnisse "
+"zugeschnitten ist, z. B. um Fragen zu deinen Produkten oder Dienstleistungen "
+"zu beantworten."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1339
+msgid ""
+"Select a model as a base for your fine-tuning. The base model used in fine-"
+"tuning will greatly affect the quality of the results you will get. "
+"\"davinci\" is currently the most capable model while also being the most "
+"expensive to fine-tune. Please around and try different models to find the "
+"best model for your case."
+msgstr ""
+"Wähle ein Modell als Basis für deine Feinabstimmung. Das Basismodell, das du "
+"für die Feinabstimmung verwendest, hat einen großen Einfluss auf die "
+"Qualität der Ergebnisse, die du erhältst. “davinci” ist derzeit das "
+"leistungsfähigste Modell, aber auch das teuerste für die Feinabstimmung. "
+"Bitte probiere verschiedene Modelle aus, um das beste Modell für deinen Fall "
+"zu finden."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1356
+msgid ""
+"Enter a suffix name for your fine-tuned model. This will be used along with "
+"the base model name to generate a unique name for your model automatically."
+msgstr ""
+"Gib einen Suffix-Namen für dein Feinabstimmungsmodell ein. Dieser wird "
+"zusammen mit dem Namen des Basismodells verwendet, um automatisch einen "
+"eindeutigen Namen für dein Modell zu erzeugen."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1357
+msgid "Please enter a name for your fine-tuned model"
+msgstr "Bitte gib einen Namen für dein Feinabstimmungsmodell ein"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1374
+msgid ""
+"Enter a sequence of characters that will be used to stop the prompt. Please "
+"leave default value if you are not sure what to enter."
+msgstr ""
+"Gib eine Zeichenfolge ein, mit der die Eingabeaufforderung angehalten werden "
+"soll. Bitte lass den Standardwert stehen, wenn du dir nicht sicher bist, was "
+"du eingeben sollst."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1375
+msgid ""
+"Please enter a sequence of characters that will be used to stop the prompt"
+msgstr ""
+"Bitte gib eine Zeichenfolge ein, mit der die Eingabeaufforderung gestoppt "
+"werden soll"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1392
+msgid ""
+"Enter a sequence of characters that will be used to stop the completion. "
+"Please leave default value if you are not sure what to enter."
+msgstr ""
+"Gib eine Zeichenfolge ein, die zum Anhalten des Abschlusses verwendet wird. "
+"Bitte lass den Standardwert stehen, wenn du dir nicht sicher bist, was du "
+"eingeben sollst."
+
+#: includes/openai/fine-tuner/fine-tuner.php:1393
+msgid ""
+"Please enter a sequence of characters that will be used to stop the "
+"completion"
+msgstr ""
+"Bitte gib eine Zeichenfolge ein, mit der die Fertigstellung gestoppt werden "
+"soll"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1399
+msgid "Add Training Data"
+msgstr "Trainingsdaten hinzufügen"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1458
+msgid "Are you sure you want to delete this fine-tune job?"
+msgstr "Bist du sicher, dass du diesen Feinschliff löschen willst?"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1510
+msgid "Pending training data"
+msgstr "Ausstehende Trainingsdaten"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1512
+msgid "Generating prompt completion pairs"
+msgstr "Erzeugen von Vervollständigungspaaren für Prompts"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1513
+msgid "Pending final approval on generated prompt completion pairs"
+msgstr "Bis zur endgültigen Genehmigung der generierten Sofortvollzugspaare"
+
+#: includes/openai/fine-tuner/fine-tuner.php:1514
+msgid "Training in progress"
+msgstr "Ausbildung im Gange"
+
+#: includes/openai/post-finder.php:65
+msgid "Any"
+msgstr "Jede"
+
+#: includes/openai/post-finder.php:82
+msgid "Search for a post/page"
+msgstr "Suche nach einem Beitrag/einer Seite"
+
+#: includes/openai/post-finder.php:93
+msgid "Post Type"
+msgstr "Beitragstyp"
+
+#: includes/openai/post-finder.php:101
+msgid "Search"
+msgstr "Suche"
+
+#: includes/openai/post-finder.php:113
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: includes/openai/post-finder.php:114
+msgid "Add All"
+msgstr "Alle hinzufügen"
+
+#: includes/openai/post-finder.php:119
+msgid "Selected Posts"
+msgstr "Ausgewählte Beiträge"
+
+#: includes/openai/repurposer/repurposer.php:559
+msgid "URL is empty."
+msgstr "URL ist leer."
+
+#: includes/openai/repurposer/repurposer.php:577
+msgid "Could not extract text from URL."
+msgstr "Der Text konnte nicht aus der URL extrahiert werden."
+
+#: includes/openai/repurposer/repurposer.php:594
+msgid "Could not create job."
+msgstr "Konnte keinen Auftrag erstellen."
+
+#: includes/openai/repurposer/repurposer.php:599
+#: includes/openai/rss/rss.php:146
+msgid "Job created."
+msgstr "Job erstellt."
+
+#: includes/openai/repurposer/repurposer.php:679
+msgid "AIKit Repurpose"
+msgstr "AIKit Wiederverwendung"
+
+#: includes/openai/repurposer/repurposer.php:681
+msgid ""
+"AIKit repurposing jobs allow you to automatically create new posts out of "
+"existing content."
+msgstr ""
+"Mit AIKit Repurposing-Jobs kannst du automatisch neue Beiträge aus "
+"bestehenden Inhalten erstellen."
+
+#: includes/openai/repurposer/repurposer.php:682
+#: includes/openai/rss/rss.php:281
+msgid ""
+"Please review and edit before publishing for best results. This is not a "
+"substitute for human editing, but a drafting aid. Happy writing!"
+msgstr ""
+"Bitte überprüfe und bearbeite den Text vor der Veröffentlichung, um die "
+"besten Ergebnisse zu erzielen. Dies ist kein Ersatz für ein menschliches "
+"Lektorat, sondern eine Formulierungshilfe. Viel Spaß beim Schreiben!"
+
+#: includes/openai/repurposer/repurposer.php:688
+msgid "AIKit repurposing jobs run in the background as scheduled jobs."
+msgstr ""
+"AIKit-Wiederverwendungsaufträge laufen im Hintergrund als geplante Aufträge."
+
+#: includes/openai/repurposer/repurposer.php:689
+msgid ""
+"By default, WordPress scheduled jobs only run when someone visits your site. "
+"To ensure that your repurposing jobs run even if nobody visits your site, "
+"you can set up a cron job on your server to call the WordPress cron system "
+"at regular intervals. Please ask your host provider to do that for you. Here "
+"is the cron job definition:"
+msgstr ""
+"Standardmäßig werden geplante WordPress-Jobs nur ausgeführt, wenn jemand "
+"deine Website besucht. Um sicherzustellen, dass deine "
+"Wiederverwendungsaufträge auch dann ausgeführt werden, wenn niemand deine "
+"Seite besucht, kannst du einen Cron-Job auf deinem Server einrichten, der "
+"das WordPress-Cron-System in regelmäßigen Abständen aufruft. Bitte deinen "
+"Host-Provider, dies für dich zu tun. Hier ist die Definition des Cron-Jobs:"
+
+#: includes/openai/repurposer/repurposer.php:697
+msgid "Create Repurpose Job"
+msgstr "Wiederverwendungsauftrag erstellen"
+
+#: includes/openai/repurposer/repurposer.php:740
+#: includes/openai/rss/rss.php:356
+msgid "Created"
+msgstr "Erstellt"
+
+#: includes/openai/repurposer/repurposer.php:741
+msgid "Repurpose job"
+msgstr "Wiederverwendung Job"
+
+#: includes/openai/repurposer/repurposer.php:742
+#: includes/openai/rss/rss.php:359
+msgid "created Successfully."
+msgstr "erfolgreich erstellt."
+
+#: includes/openai/repurposer/repurposer.php:770
+#: includes/openai/rss/rss.php:394
+msgid "« Back to Jobs"
+msgstr "« Zurück zu Jobs"
+
+#: includes/openai/repurposer/repurposer.php:777
+msgid "Choose content type:"
+msgstr "Wähle den Inhaltstyp:"
+
+#: includes/openai/repurposer/repurposer.php:780
+msgid "Post or article"
+msgstr "Beitrag oder Artikel"
+
+#: includes/openai/repurposer/repurposer.php:784
+msgid "YouTube video"
+msgstr "YouTube-Video"
+
+#: includes/openai/repurposer/repurposer.php:785
+msgid "How to setup"
+msgstr "Einrichtung"
+
+#: includes/openai/repurposer/repurposer.php:793
+msgid ""
+"To repurpose a YouTube video, AIKit needs to read the subtitles of the "
+"video. To do so, you need to connect to "
+msgstr ""
+"Um ein YouTube-Video wiederzuverwenden, muss AIKit die Untertitel des Videos "
+"lesen. Dazu musst du eine Verbindung zu "
+
+#: includes/openai/repurposer/repurposer.php:794
+msgid "Subtitles for YouTube."
+msgstr "Subtitles for YouTube."
+
+#: includes/openai/repurposer/repurposer.php:795
+msgid ""
+"This API is used to read YouTube video subtitles to allow you to fetch the "
+"content of videos and repurpose/spin them and create posts based on them in "
+"your website."
+msgstr ""
+"Diese API wird verwendet, um die Untertitel von YouTube-Videos zu lesen. So "
+"kannst du den Inhalt der Videos abrufen und sie auf deiner Website "
+"weiterverwenden/spinnen und darauf basierende Beiträge erstellen."
+
+#: includes/openai/repurposer/repurposer.php:799
+msgid "to a plan, then enter your API key in the"
+msgstr "zu einem Plan, dann gib deinen API-Schlüssel in der"
+
+#: includes/openai/repurposer/repurposer.php:800
+msgid "settings page."
+msgstr "Einstellungsseite."
+
+#: includes/openai/repurposer/repurposer.php:808
+#: includes/openai/repurposer/repurposer.php:809
+msgid "URL of article, post or video"
+msgstr "URL des Artikels, Beitrags oder Videos"
+
+#: includes/openai/repurposer/repurposer.php:808
+msgid "Please enter a valid URL"
+msgstr "Bitte gib eine gültige URL ein"
+
+#: includes/openai/repurposer/repurposer.php:818
+msgid ""
+"Have a quick look at the extracted text to make sure it looks good and "
+"remove any unnecessary parts."
+msgstr ""
+"Sieh dir den extrahierten Text kurz an, um sicherzustellen, dass er gut "
+"aussieht und entferne alle unnötigen Teile."
+
+#: includes/openai/repurposer/repurposer.php:819
+msgid ""
+"Try to combine the text related to the same topic into one paragraph for "
+"better results."
+msgstr ""
+"Versuche, den Text zum gleichen Thema in einem Absatz zusammenzufassen, um "
+"bessere Ergebnisse zu erzielen."
+
+#: includes/openai/repurposer/repurposer.php:822
+#: includes/openai/repurposer/repurposer.php:823
+msgid "Extracted title"
+msgstr "Extrahierter Titel"
+
+#: includes/openai/repurposer/repurposer.php:828
+#: includes/openai/repurposer/repurposer.php:829
+#: includes/openai/repurposer/repurposer.php:1116
+msgid "Extracted text"
+msgstr "Extrahierter Text"
+
+#: includes/openai/repurposer/repurposer.php:855
+#: includes/openai/rss/rss.php:474
+msgid "Include featured image"
+msgstr "Bild einbinden"
+
+#: includes/openai/repurposer/repurposer.php:862
+#: includes/openai/repurposer/repurposer.php:863
+#: includes/openai/rss/rss.php:422 includes/openai/rss/rss.php:423
+msgid "Posts to generate: "
+msgstr "Zu generierende Beiträge: "
+
+#: includes/openai/repurposer/repurposer.php:954
+#: includes/openai/rss/rss.php:552
+msgid ""
+"this will be replaced with the combination of all the summaries of all parts "
+"of the post."
+msgstr ""
+"wird dies durch die Kombination aller Zusammenfassungen aller Teile des "
+"Beitrags ersetzt."
+
+#: includes/openai/repurposer/repurposer.php:999
+#: includes/openai/rss/rss.php:584
+msgid "URL"
+msgstr "URL"
+
+#: includes/openai/repurposer/repurposer.php:1000
+msgid "Job Type"
+msgstr "Job-Art"
+
+#: includes/openai/repurposer/repurposer.php:1002
+msgid "RSS Parent Job"
+msgstr ""
+
+#: includes/openai/repurposer/repurposer.php:1004
+msgid "Done"
+msgstr "Erledigt"
+
+#: includes/openai/repurposer/repurposer.php:1006
+msgid "Had errors"
+msgstr "Hatte Fehler"
+
+#: includes/openai/repurposer/repurposer.php:1036
+msgid "-"
+msgstr "-"
+
+#: includes/openai/repurposer/repurposer.php:1040
+msgid "Are you sure you want to delete this repurposing job?"
+msgstr "Bist du sicher, dass du diesen Auftrag löschen willst?"
+
+#: includes/openai/repurposer/repurposer.php:1041
+msgid "Pause"
+msgstr "Aktiviere"
+
+#: includes/openai/repurposer/repurposer.php:1041
+msgid "Resume"
+msgstr "Deaktiviere"
+
+#: includes/openai/repurposer/repurposer.php:1090
+msgid "Invalid ID"
+msgstr "Ungültige ID"
+
+#: includes/openai/repurposer/repurposer.php:1097
+msgid "Job not found"
+msgstr "Job nicht gefunden"
+
+#: includes/openai/repurposer/repurposer.php:1163
+msgid "Text"
+msgstr "Text"
+
+#: includes/openai/rss/rss.php:89
+msgid "Invalid RSS feed."
+msgstr "Ungültiger RSS-Feed."
+
+#: includes/openai/rss/rss.php:95
+msgid "Valid RSS feed."
+msgstr "Gültiger RSS-Feed."
+
+#: includes/openai/rss/rss.php:152
+msgid "Failed to create job."
+msgstr "Es ist nicht gelungen, einen Job zu schaffen."
+
+#: includes/openai/rss/rss.php:187
+msgid "Job updated."
+msgstr "Job aktualisiert."
+
+#: includes/openai/rss/rss.php:193
+msgid "Failed to update job."
+msgstr "Der Auftrag konnte nicht aktualisiert werden."
+
+#: includes/openai/rss/rss.php:219
+msgid "Job deleted."
+msgstr "Job gelöscht."
+
+#: includes/openai/rss/rss.php:278
+msgid "RSS Automatic Content Generation"
+msgstr "RSS Automatische Inhaltserstellung"
+
+#: includes/openai/rss/rss.php:280
+msgid ""
+"AIKit RSS automatic generation jobs allow you to automatically create new "
+"posts out of articles extracted from RSS feeds. Whenever an article is added "
+"to RSS feed, a job will be scheduled to generate a post based on it in your "
+"site. "
+msgstr ""
+"AIKit RSS-Automatik-Jobs ermöglichen es dir, automatisch neue Beiträge aus "
+"Artikeln zu erstellen, die aus RSS-Feeds extrahiert wurden. Jedes Mal, wenn "
+"ein Artikel zum RSS-Feed hinzugefügt wird, wird ein Job geplant, der einen "
+"Beitrag auf Basis dieses Artikels auf deiner Website erstellt. "
+
+#: includes/openai/rss/rss.php:287
+msgid "AIKit RSS generation jobs run in the background as scheduled jobs."
+msgstr ""
+"AIKit-RSS-Generierungsaufträge laufen im Hintergrund als geplante Aufträge."
+
+#: includes/openai/rss/rss.php:288
+msgid ""
+"By default, WordPress scheduled jobs only run when someone visits your site. "
+"To ensure that your jobs run even if nobody visits your site, you can set up "
+"a cron job on your server to call the WordPress cron system at regular "
+"intervals. Please ask your host provider to do that for you. Here is the "
+"cron job definition:"
+msgstr ""
+"Standardmäßig werden geplante WordPress-Aufträge nur ausgeführt, wenn jemand "
+"deine Website besucht. Um sicherzustellen, dass deine Aufträge auch dann "
+"ausgeführt werden, wenn niemand deine Seite besucht, kannst du einen Cron-"
+"Job auf deinem Server einrichten, der das WordPress-Cron-System in "
+"regelmäßigen Abständen aufruft. Bitte deinen Host-Provider, das für dich zu "
+"tun. Hier ist die Definition des Cron-Jobs:"
+
+#: includes/openai/rss/rss.php:296 includes/openai/rss/rss.php:498
+msgid "Add RSS Job"
+msgstr "RSS-Job hinzufügen"
+
+#: includes/openai/rss/rss.php:357
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#: includes/openai/rss/rss.php:358
+msgid "RSS job"
+msgstr "RSS-Job"
+
+#: includes/openai/rss/rss.php:360
+msgid "updated Successfully."
+msgstr "erfolgreich aktualisiert."
+
+#: includes/openai/rss/rss.php:401 includes/openai/rss/rss.php:402
+#: includes/openai/rss/rss.php:701
+msgid "RSS URL"
+msgstr "RSS-URL"
+
+#: includes/openai/rss/rss.php:401
+msgid "Please enter a valid RSS URL"
+msgstr "Bitte gib eine gültige RSS-URL ein"
+
+#: includes/openai/rss/rss.php:416 includes/openai/rss/rss.php:417
+msgid "Time to wait between generating articles (minutes)"
+msgstr "Wartezeit zwischen der Erstellung von Artikeln (Minuten)"
+
+#: includes/openai/rss/rss.php:571
+msgid "RSS Posts"
+msgstr "RSS Beiträge"
+
+#: includes/openai/rss/rss.php:585
+msgid "Repurpose Job"
+msgstr "Wiederverwendung Job"
+
+#: includes/openai/rss/rss.php:592
+msgid "No RSS post fetched yet."
+msgstr "Noch keine RSS-Post abgerufen."
+
+#: includes/openai/rss/rss.php:599
+msgid "Open"
+msgstr "Öffne"
+
+#: includes/openai/rss/rss.php:662
+msgid "How often to check for new articles in RSS feed"
+msgstr "Wie oft soll ich nach neuen Artikeln im RSS-Feed suchen"
+
+#: includes/openai/rss/rss.php:702
+msgid "Refresh Interval"
+msgstr "Auffrischungsintervall"
+
+#: includes/openai/rss/rss.php:703
+msgid "Next Refresh"
+msgstr "Nächste Auffrischung"
+
+#: includes/openai/rss/rss.php:732
+msgid "In few minutes"
+msgstr "In wenigen Minuten"
+
+#: includes/openai/rss/rss.php:737
+msgid "Are you sure you want to delete this RSS job?"
+msgstr "Bist du sicher, dass du diesen RSS-Job löschen willst?"
+
+#: includes/tts/text-to-speech.php:87
+msgid ""
+"AIKit Text to Speech allows you to convert your post content to audio and "
+"can then add an audio player to your post to allow your visitors to listen "
+"to your post content."
+msgstr ""
+"Mit AIKit Text to Speech kannst du den Inhalt deines Beitrags in Audio "
+"umwandeln und dann einen Audioplayer zu deinem Beitrag hinzufügen, damit "
+"deine Besucher den Inhalt anhören können."
+
+#: includes/tts/text-to-speech.php:90
+msgid ""
+"AIKit uses ElevenLabs to turn text to speech, and due to the maximum "
+"limitations on characters that can be processed per request, an article can "
+"be divided into different audio files that will be properly played in "
+"correct sequence in the audio player. AIKit also will make its best effort "
+"not to regenerate all the article audio in case it's updated, but rather "
+"regenerate only the updated paragraphs."
+msgstr ""
+"AIKit verwendet ElevenLabs, um Text in Sprache umzuwandeln, und aufgrund der "
+"maximalen Begrenzung der Zeichen, die pro Anfrage verarbeitet werden können, "
+"kann ein Artikel in verschiedene Audiodateien aufgeteilt werden, die in der "
+"richtigen Reihenfolge im Audioplayer abgespielt werden. AIKit wird sich "
+"außerdem bemühen, bei Aktualisierungen nicht den gesamten Audioteil des "
+"Artikels neu zu generieren, sondern nur die aktualisierten Abschnitte."
+
+#: includes/tts/text-to-speech.php:96
+msgid ""
+"AIKit text to speech creation jobs run in the background as scheduled jobs."
+msgstr ""
+"AIKit-Jobs zur Erstellung von Text zu Sprache laufen im Hintergrund als "
+"geplante Jobs."
+
+#: includes/tts/text-to-speech.php:97
+msgid ""
+"By default, WordPress scheduled jobs only run when someone visits your site. "
+"To ensure that your text to speech creation jobs run even if nobody visits "
+"your site, you can set up a cron job on your server to call the WordPress "
+"cron system at regular intervals. Please ask your host provider to do that "
+"for you. Here is the cron job definition:"
+msgstr ""
+"Standardmäßig werden geplante WordPress-Aufträge nur ausgeführt, wenn jemand "
+"deine Website besucht. Um sicherzustellen, dass deine Text-in-Sprache-"
+"Erstellungsaufträge auch dann ausgeführt werden, wenn niemand deine Website "
+"besucht, kannst du einen Cron-Job auf deinem Server einrichten, der das "
+"WordPress-Cron-System in regelmäßigen Abständen aufruft. Bitte deinen Host-"
+"Provider, dies für dich zu tun. Hier ist die Definition des Cron-Jobs:"
+
+#: includes/tts/text-to-speech.php:156
+msgid ""
+"Please set back and relax while the your text to speech is being processed. "
+"Status of the job will change to reflect when this is done."
+msgstr ""
+"Bitte lehne dich zurück und entspanne dich, während dein Text in Sprache "
+"umgewandelt wird. Der Status des Auftrags wird sich ändern, sobald dies "
+"erledigt ist."
+
+#: includes/tts/text-to-speech.php:159
+msgid ""
+"Congratulations! Your text to speech job is processed. If you chose to "
+"include the audio player in the post automatically, you don't need to do "
+"anything else. Otherwise, you can include the shortcode "
+"\"[aikit_audio_player]\" in your post to display the audio player."
+msgstr ""
+"Herzlichen Glückwunsch! Dein Text-in-Sprache-Auftrag ist bearbeitet. Wenn du "
+"dich entschieden hast, den Audioplayer automatisch in den Beitrag "
+"einzubinden, musst du nichts weiter tun. Ansonsten kannst du den Shortcode "
+"“[aikit_audio_player]” in deinen Beitrag einfügen, um den Audioplayer "
+"anzuzeigen."
+
+#: includes/tts/text-to-speech.php:207
+msgid "Generated audio files:"
+msgstr "Erstellte Audiodateien:"
+
+#: includes/tts/text-to-speech.php:321
+msgid "Are you sure you want to delete this text to speech job?"
+msgstr "Bist du sicher, dass du diesen Text-to-Speech-Job löschen willst?"
+
+#: includes/tts/text-to-speech.php:703
+msgid "AIKit Text-to-Speech"
+msgstr "AIKit Text-to-Speech"
+
+#: includes/tts/text-to-speech.php:719
+msgid "A job already exists for this post with status "
+msgstr "Für diese Stelle existiert bereits ein Job mit dem Status "
+
+#: includes/tts/text-to-speech.php:727
+msgid "Force regenerate audio"
+msgstr "Audio regenerieren erzwingen"
+
+#: includes/tts/text-to-speech.php:727
+msgid "Generate audio"
+msgstr "Audio generieren"
+
+#: includes/tts/text-to-speech.php:732
+msgid "Add audio player to post (once ready)"
+msgstr "Audio-Player zum Beitrag hinzufügen (sobald er fertig ist)"
+
+#: includes/tts/text-to-speech.php:737
+msgid ""
+"If you select this option, once the audio is ready, the shortcode will be "
+"replaced on top of the post to show the audio player."
+msgstr ""
+"Wenn du diese Option auswählst, wird der Shortcode oben im Beitrag ersetzt, "
+"um den Audioplayer anzuzeigen, sobald das Audio fertig ist."
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:429
+msgid "small image(s)"
+msgstr "kleine(s) Bild(er)"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:430
+msgid "medium image(s)"
+msgstr "Medium Bild(er)"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:431
+msgid "large image(s)"
+msgstr "große(s) Bild(er)"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:432
+msgid "x large (landscape) image(s)"
+msgstr "x große(s) Bild(er) (Querformat)"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:433
+msgid "large (portrait) image(s)"
+msgstr "große(s) Bild(er) (Hochformat)"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:434
+msgid "DALL·E"
+msgstr "DALL·E"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:435
+msgid "Stable Diffusion"
+msgstr "Stable Diffusion"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:472
+msgid "Select how do you want AI to edit your content"
+msgstr "Wähle aus, wie AI deinen Inhalt bearbeiten soll"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:505
+msgid "Generate AI Images using AIKit"
+msgstr "KI-Bilder mit AIKit generieren"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:531
+msgid "Missing Text Selection"
+msgstr "Fehlende Textauswahl"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:533
+msgid ""
+"Please make sure to select the text you want to use for AIKit to edit (or "
+"operate on)."
+msgstr ""
+"Achte darauf, dass du den Text auswählst, den du mit AIKit bearbeiten (oder "
+"bearbeiten lassen) möchtest."
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:537
+msgid "Ok"
+msgstr "Ok"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:543
+msgid "AIKit is not properly configured"
+msgstr "AIKit ist nicht richtig konfiguriert"
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:545
+msgid ""
+"It seems that AIKit is not configured correctly. Please make sure to enter a "
+"valid API key in the settings."
+msgstr ""
+"Es scheint, dass AIKit nicht richtig konfiguriert ist. Bitte stelle sicher, "
+"dass du in den Einstellungen einen gültigen API-Schlüssel eingibst."
+
+#: fe/build/index.js:1 fe/src/components/aiKitControls.js:549
+msgid "Go to settings"
+msgstr "AIKit-Einstellungen"
+
+#~ msgid "Logs & Errors"
+#~ msgstr "Protokolle und Fehler"
+
+#~ msgid "Autocompleted Text Background Color"
+#~ msgstr "Autovervollständigter Text Hintergrundfarbe"
+
+#~ msgid "OpenAI Preferred Model"
+#~ msgstr "OpenAI Bevorzugtes Modell"
+
+#~ msgid ""
+#~ "To use embeddings, you need to have a Qdrant account. If you don't have "
+#~ "one, you can create one for free at"
+#~ msgstr ""
+#~ "Um Einbettungen zu verwenden, brauchst du ein Qdrant-Konto. Wenn du noch "
+#~ "keins hast, kannst du es kostenlos erstellen unter"
+
+#~ msgid ""
+#~ "Some models are more capable than others. For example, the davinci model "
+#~ "is more capable than the ada model, which is more capable than the "
+#~ "babbage model, and so on. The davinci model is the most capable model, "
+#~ "but it is also the most expensive model. The ada model is the least "
+#~ "capable model, but it is also the least expensive model."
+#~ msgstr ""
+#~ "Einige Modelle sind leistungsfähiger als andere. Zum Beispiel ist das "
+#~ "Davinci-Modell leistungsfähiger als das Ada-Modell, das wiederum "
+#~ "leistungsfähiger als das Babbage-Modell ist, und so weiter. Das Modell "
+#~ "davinci ist das leistungsfähigste, aber auch das teuerste Modell. Das ada-"
+#~ "Modell ist das am wenigsten leistungsfähige Modell, aber auch das am "
+#~ "wenigsten teure Modell."
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Width (px)"
+#~ msgstr "Breite (px)"
+
+#~ msgid "Add/Edit Prompts (Advanced)"
+#~ msgstr "Prompts hinzufügen/bearbeiten (“Fortgeschritten”)"
+
+#~ msgid "Prompts (Advanced)"
+#~ msgstr "Prompts (“Fortgeschritten”)"

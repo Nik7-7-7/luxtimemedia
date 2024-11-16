@@ -34,9 +34,8 @@ class SSA_Upgrade {
 		'6.5.1', // Add cancelation_note to the admin and customers canceled notifications
 		'6.5.4', // Enforce encrypting stripe keys and secrets
 		'6.5.20', // Remove public_edit_url from event_type_group_shared type
-		'6.6.19', // Handle displaying new booking app banners
 		'6.6.21', // Remove public_edit_url from event_type_group_admin type
-		'6.7.13', // Disable old booking app if enabled with resources enabled at the same time
+		'6.7.4', // Email Admins who need to reconnect their calendars or their staff's calendars
 	);
 
 	/**
@@ -838,10 +837,6 @@ class SSA_Upgrade {
 	 * @return void
 	 */
 	public function migrate_appointment_type_labels(){
-		
-		if( ! empty( $GLOBALS["_COOKIE"]["__cypress_initial"] ) ) {
-			return;
-		}
 
 		// First let's make sure we have a fresh appt type labels tabel for the IDs to be reset
 		$this->plugin->appointment_type_label_model->truncate();
@@ -1199,46 +1194,6 @@ class SSA_Upgrade {
 	}
 
 	/**
-	* Migrates settings after specifically checking for the presence of a custom CSS file.
-	*
-	* @param string $from_version The version from which the migration is being performed.
-	*
-	* @return void
-	*/
-	public function migrate_to_version_6_6_19( $from_version ) {
-		$settings = $this->plugin->settings->get();
-
-		if ( $settings ) {
-				$theme_directory = get_stylesheet_directory();
-
-				// Build the path to the custom CSS directory
-				$custom_css_dir = $theme_directory . '/ssa/booking-app/';
-			
-				// List all files in the custom CSS directory
-				if (is_dir($custom_css_dir)) {
-					// List all files in the custom CSS directory
-					$files = scandir($custom_css_dir);
-
-					// Check if there's at least one CSS file
-					foreach ($files as $file) {
-						if (pathinfo($file, PATHINFO_EXTENSION) === 'css') {
-							$settings['global'][ 'should_display_new_booking_app_banner' ] = 'notice';
-							$this->plugin->settings->update( $settings );
-						}
-					}
-				}
-				$is_custom_css_existing = $this->plugin->styles_settings->get()['css'];
-				if ($is_custom_css_existing !== '') {
-					$settings['global'][ 'should_display_new_booking_app_banner' ] = 'notice';
-				}
-
-				$this->plugin->settings->update( $settings );
-
-		}
-		$this->record_version( '6.6.19' );
-	}
-
-	/*
 	 * Remove public_edit_url from calendar admin group event
 	 *
 	 * @param string $from_version
@@ -1258,26 +1213,79 @@ class SSA_Upgrade {
 		$this->plugin->calendar_events_settings->update( $settings );
 
 		$this->record_version( '6.6.21' );
-	}
 
-		
+	}
+	
 	/**
-	 * Disable old booking app if enabled with resources enabled at the same time
+	 * Email Admins who need to reconnect their calendars or their staff's calendars
+	 * The access token should always include a refresh token
 	 *
 	 * @param string $from_version
 	 * @return void
 	 */
-	public function migrate_to_version_6_7_13( $from_version ) {
-		$ssa_settings = $this->plugin->settings->get();
-		// if resources are enabled
-		if( !empty( $ssa_settings['resources']['enabled'] ) ) {
-			// disable the old booking app
-			$developer_settings = $this->plugin->developer_settings->get();
-			if ( !empty( $developer_settings['old_booking_app'] ) ) {
-				$developer_settings['old_booking_app'] = false;
-				$this->plugin->developer_settings->update( $developer_settings );
-			}
+	public function migrate_to_version_6_7_4( $from_version ) {
+		if ( ! function_exists( 'wp_mail' ) ) {
+			return; // prevent unlikely but fatal error
 		}
-		$this->record_version( '6.7.13' );
+
+		// assume everything is fine
+		$lost_staff_calendar_refresh_tokens = 0;
+		$should_reconnect_main_calendar = false;
+		
+		if ( class_exists( 'SSA_Staff_Model' ) ) {
+			$lost_staff_calendar_refresh_tokens = $this->plugin->staff_model->count_lost_staff_gcal_refresh_tokens();
+		}
+		
+		if ( class_exists( 'SSA_Google_Calendar_Settings' ) ) {
+			$should_reconnect_main_calendar = $this->plugin->google_calendar_settings->is_main_calendar_refresh_token_lost();
+		}
+		
+		if( 0 === $lost_staff_calendar_refresh_tokens && false === $should_reconnect_main_calendar ) {
+			$this->record_version( '6.7.4' );
+			return;
+		}
+		
+		// generate email body
+		$email_body = '';
+		
+		if ( true === $should_reconnect_main_calendar ) {
+			$email_body .= 'Appointments are unable to sync to your Google calendar. The appointment booking plugin (Simply Schedule Appointments) on your website has become disconnected from Google. Please reconnect your Google Calendar by visiting the settings page: ';
+			$email_body .= "\n" . $this->plugin->wp_admin->url( '/ssa/settings/google-calendar' );
+			$email_body .= "\n\n";
+		}
+		
+		// if not 0
+		if ( ! empty( (int) $lost_staff_calendar_refresh_tokens ) ) {
+			$email_body .= 'Your team members may get double-booked because Simply Schedule Appointments can not connect to their Google Calendar. You can identify the affected team members who need to reauthorize their Google Calendar connection by visiting the Team Members settings page: ';
+			$email_body .= "\n" . $this->plugin->wp_admin->url( '/ssa/settings/staff/all' );
+			$email_body .= "\n\n";
+		}
+
+		if ( empty( $email_body ) ) {
+			// we should never get here, but prevents a confusing email from being sent accidentally
+			$this->record_version( '6.7.4' );
+			return;
+		}
+
+		$email_body .= 'If you have any questions or need help please contact our team from the "Support" tab within the plugin.';
+		
+		// get WP admin email
+		$admin_email = get_option( 'admin_email' );
+		// get SSA admin email
+		$ssa_settings = $this->plugin->settings->get();
+		$ssa_admin_email = $ssa_settings['global']['admin_email'];
+		
+		// attempt to send to both emails
+		if($admin_email !== $ssa_admin_email) {
+			$to = array($admin_email, $ssa_admin_email);
+		} else {
+			$to = $admin_email;
+		}
+		
+		$subject = 'Action Required: Reconnect your Google Calendar';
+		$headers = array('Content-Type: text/plain; charset=UTF-8');
+		wp_mail( $to, $subject, $email_body, $headers );
+		$this->record_version( '6.7.4' );
 	}
+
 }

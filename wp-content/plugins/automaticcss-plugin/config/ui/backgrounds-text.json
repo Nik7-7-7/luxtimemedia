@@ -1,0 +1,1581 @@
+{
+	"$schema": "screen.schema.json",
+	"id": "backgrounds-text",
+	"title": "Backgrounds & Text",
+	"type": "screen-container",
+	"iconPaths": [
+		"M17.3125 10.0773C17.3125 10.1723 17.2773 10.2602 17.1648 10.3586C17.0312 10.4676 16.8098 10.5625 16.5391 10.5625H13.0938C11.2305 10.5625 9.71875 12.0742 9.71875 13.9375C9.71875 14.1766 9.74336 14.4086 9.79258 14.6336C9.90859 15.1855 10.1512 15.727 10.2988 16.0609C10.3234 16.1172 10.348 16.1664 10.3656 16.2121C10.5414 16.6164 10.5625 16.7535 10.5625 16.8133C10.5625 16.9996 10.4957 17.1473 10.4289 17.2281C10.3973 17.2668 10.3727 17.2844 10.3586 17.2914C10.348 17.2984 10.3305 17.302 10.3023 17.3055C10.2004 17.309 10.102 17.3125 10 17.3125C5.96055 17.3125 2.6875 14.0395 2.6875 10C2.6875 5.96055 5.96055 2.6875 10 2.6875C14.0395 2.6875 17.3125 5.96055 17.3125 10C17.3125 10.0246 17.3125 10.0492 17.3125 10.0773ZM19 10.0949C19 10.0633 19 10.0316 19 10C19 5.02891 14.9711 1 10 1C5.02891 1 1 5.02891 1 10C1 14.9711 5.02891 19 10 19C10.123 19 10.2496 18.9965 10.3727 18.993C11.4906 18.9473 12.25 17.9348 12.25 16.8133C12.25 16.3035 12.0355 15.8184 11.8246 15.3367C11.6734 14.9922 11.5188 14.6441 11.4449 14.2855C11.4203 14.173 11.4098 14.057 11.4098 13.9375C11.4098 13.0059 12.1656 12.25 13.0973 12.25H16.5391C17.8223 12.25 18.9895 11.3781 19.0035 10.0949H19ZM6.625 10C6.625 9.70163 6.50647 9.41548 6.29549 9.20451C6.08452 8.99353 5.79837 8.875 5.5 8.875C5.20163 8.875 4.91548 8.99353 4.7045 9.20451C4.49353 9.41548 4.375 9.70163 4.375 10C4.375 10.2984 4.49353 10.5845 4.7045 10.7955C4.91548 11.0065 5.20163 11.125 5.5 11.125C5.79837 11.125 6.08452 11.0065 6.29549 10.7955C6.50647 10.5845 6.625 10.2984 6.625 10ZM6.625 7.75C6.92337 7.75 7.20952 7.63147 7.42049 7.42049C7.63147 7.20952 7.75 6.92337 7.75 6.625C7.75 6.32663 7.63147 6.04048 7.42049 5.82951C7.20952 5.61853 6.92337 5.5 6.625 5.5C6.32663 5.5 6.04048 5.61853 5.82951 5.82951C5.61853 6.04048 5.5 6.32663 5.5 6.625C5.5 6.92337 5.61853 7.20952 5.82951 7.42049C6.04048 7.63147 6.32663 7.75 6.625 7.75ZM11.125 5.5C11.125 5.20163 11.0065 4.91548 10.7955 4.7045C10.5845 4.49353 10.2984 4.375 10 4.375C9.70163 4.375 9.41548 4.49353 9.20451 4.7045C8.99353 4.91548 8.875 5.20163 8.875 5.5C8.875 5.79837 8.99353 6.08452 9.20451 6.29549C9.41548 6.50647 9.70163 6.625 10 6.625C10.2984 6.625 10.5845 6.50647 10.7955 6.29549C11.0065 6.08452 11.125 5.79837 11.125 5.5ZM13.375 7.75C13.6734 7.75 13.9595 7.63147 14.1705 7.42049C14.3815 7.20952 14.5 6.92337 14.5 6.625C14.5 6.32663 14.3815 6.04048 14.1705 5.82951C13.9595 5.61853 13.6734 5.5 13.375 5.5C13.0766 5.5 12.7905 5.61853 12.5795 5.82951C12.3685 6.04048 12.25 6.32663 12.25 6.625C12.25 6.92337 12.3685 7.20952 12.5795 7.42049C12.7905 7.63147 13.0766 7.75 13.375 7.75Z"
+	],
+	"content": [
+		{
+			"id": "contextual-background-assignments",
+			"title": "Backgrounds",
+			"type": "accordion-container",
+			"tooltip": "",
+			"description": "",
+			"default": "on",
+			"content": [
+				{
+					"id": "body-bg-color",
+					"title": "Website",
+					"type": "text",
+					"default": "var(--white)",
+					"skip-if-empty": true,
+					"force-preview": true,
+					"tooltip": "The default background color of your website."
+				},
+				{
+					"id": "bg-dark",
+					"title": "Dark",
+					"type": "text",
+					"default": "var(--neutral-dark)",
+					"skip-if-empty": true,
+					"force-preview": true,
+					"tooltip": "The default color of 'dark' backgrounds.",
+					"documentation": "https://automaticcss.com/docs/background-text-assignments/"
+				},
+				{
+					"id": "bg-ultra-dark",
+					"title": "Ultra Dark",
+					"type": "text",
+					"default": "var(--neutral-ultra-dark)",
+					"skip-if-empty": true,
+					"force-preview": true,
+					"tooltip": "The default color of 'ultra dark' backgrounds.",
+					"documentation": "https://automaticcss.com/docs/background-text-assignments/"
+				},
+				{
+					"id": "bg-light",
+					"title": "Light",
+					"type": "text",
+					"default": "var(--neutral-light)",
+					"skip-if-empty": true,
+					"force-preview": true,
+					"tooltip": "The default color of 'light' backgrounds.",
+					"documentation": "https://automaticcss.com/docs/background-text-assignments/"
+				},
+				{
+					"id": "bg-ultra-light",
+					"title": "Ultra Light",
+					"type": "text",
+					"default": "var(--neutral-ultra-light)",
+					"skip-if-empty": true,
+					"force-preview": true,
+					"tooltip": "The default color of 'ultra light' backgrounds.",
+					"documentation": "https://automaticcss.com/docs/background-text-assignments/"
+				}
+			]
+		},
+		{
+			"id": "contextual-text-assignments",
+			"title": "Text",
+			"type": "accordion-container",
+			"tooltip": "",
+			"description": "",
+			"default": "on",
+			"content": [
+				{
+					"type": "clone",
+					"target": "body-color"
+				},
+				{
+					"id": "text-dark",
+					"title": "Dark",
+					"type": "text",
+					"default": "var(--black)",
+					"skip-if-empty": true,
+					"force-preview": true,
+					"tooltip": "The default color of 'dark' text.",
+					"documentation": "https://automaticcss.com/docs/background-text-assignments/"
+				},
+				{
+					"id": "text-dark-muted",
+					"title": "Dark Muted",
+					"type": "text",
+					"default": "var(--black-trans-80)",
+					"skip-if-empty": true,
+					"force-preview": true,
+					"tooltip": "The default color of 'muted' dark text.",
+					"documentation": "https://automaticcss.com/docs/background-text-assignments/"
+				},
+				{
+					"id": "text-light",
+					"title": "Light",
+					"type": "text",
+					"default": "var(--white)",
+					"skip-if-empty": true,
+					"force-preview": true,
+					"tooltip": "The default color of 'light' text.",
+					"documentation": "https://automaticcss.com/docs/background-text-assignments/"
+				},
+				{
+					"id": "text-light-muted",
+					"title": "Light Muted",
+					"type": "text",
+					"default": "var(--white-trans-80)",
+					"skip-if-empty": true,
+					"force-preview": true,
+					"tooltip": "The default color of 'muted' light text.",
+					"documentation": "https://automaticcss.com/docs/background-text-assignments/"
+				}
+			]
+		},
+		{
+			"id": "contextual-color-relationships-light",
+			"title": "Light Relationships",
+			"type": "accordion-container",
+			"tooltip": "",
+			"description": "",
+			"displayWhen": [
+				"option-relate-bg-text",
+				"on"
+			],
+			"content": [
+				{
+					"id": "dark-relationships-tabs",
+					"title": "Dark Relationships Tabs",
+					"type": "tabs-container",
+					"style": "full-width",
+					"content": [
+						{
+							"id": "ultra-light-relationships-settings",
+							"title": "Ultra Light",
+							"content": [
+								{
+									"id": "ultra-light-relationships-intro",
+									"type": "message",
+									"text": "These options configure foreground styles when using .bg--ultra-light."
+								},
+								{
+									"id": "bg-ultra-light-text",
+									"title": "Text Color",
+									"type": "text",
+									"default": "var(--text-dark)",
+									"skip-if-empty": true,
+									"force-preview": true
+								},
+								{
+									"id": "bg-ultra-light-heading",
+									"title": "Heading Color",
+									"type": "text",
+									"default": "var(--text-dark)",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"cssVariable": "color",
+									"target": ":is(.bg--ultra-light, [class*=texture--]) :is(h1, h2, h3, h4, h5, h6)"
+								},
+								{
+									"id": "bg-ultra-light-link-hover-container",
+									"type": "hover-container",
+									"content": [
+										{
+											"id": "bg-ultra-light-link",
+											"title": "Link Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"cssVariable": "color",
+											"target": ":is(.bg--ultra-light, [class*=texture--]) :is(a):not([class*='btn--'])"
+										},
+										{
+											"id": "bg-ultra-light-link-hover",
+											"title": "Link Color (Hover)",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"cssVariable": "color",
+											"target": ":is(.bg--ultra-light, [class*=texture--]) :is(a):not([class*='btn--']):hover"
+										}
+									]
+								},
+								{
+									"id": "bg-ultra-light-button",
+									"title": "Button Style",
+									"type": "text",
+									"default": "primary",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Expects the name of a button style (primary, secondary, etc.). You can attach '.btn--outline' to style name for outline variations",
+									"output": "quotes"
+								}
+							]
+						},
+						{
+							"id": "light-relationships-settings",
+							"title": "Light",
+							"content": [
+								{
+									"id": "light-relationships-intro",
+									"type": "message",
+									"text": "These options configure foreground styles when using .bg--light."
+								},
+								{
+									"id": "bg-light-text",
+									"title": "Text Color",
+									"type": "text",
+									"default": "var(--text-dark)",
+									"skip-if-empty": true,
+									"force-preview": true
+								},
+								{
+									"id": "bg-light-heading",
+									"title": "Heading Color",
+									"type": "text",
+									"default": "var(--text-dark)",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"cssVariable": "color",
+									"target": ":is(.bg--light, [class*=texture--]) :is(h1, h2, h3, h4, h5, h6)"
+								},
+								{
+									"id": "bg-light-link-hover-container",
+									"type": "hover-container",
+									"content": [
+										{
+											"id": "bg-light-link",
+											"title": "Link Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"cssVariable": "color",
+											"target": ":is(.bg--light, [class*=texture--]) :is(a):not([class*='btn--'])"
+										},
+										{
+											"id": "bg-light-link-hover",
+											"title": "Link Color (Hover)",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"cssVariable": "color",
+											"target": ":is(.bg--light, [class*=texture--]) :is(a):not([class*='btn--']):hover"
+										}
+									]
+								},
+								{
+									"id": "bg-light-button",
+									"title": "Button Style",
+									"type": "text",
+									"default": "primary",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Expects the name of a button style (primary, secondary, etc.). You can attach '.btn--outline' to style name for outline variations",
+									"output": "quotes"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "contextual-color-relationships-dark",
+			"title": "Dark Relationships",
+			"type": "accordion-container",
+			"tooltip": "",
+			"description": "",
+			"displayWhen": [
+				"option-relate-bg-text",
+				"on"
+			],
+			"content": [
+				{
+					"id": "dark-relationships-tabs",
+					"title": "Dark Relationships Tabs",
+					"type": "tabs-container",
+					"style": "full-width",
+					"content": [
+						{
+							"id": "ultra-dark-relationships-settings",
+							"title": "Ultra Dark",
+							"content": [
+								{
+									"id": "dark-relationships-intro",
+									"type": "message",
+									"text": "These options configure foreground styles when using .bg--ultra-dark."
+								},
+								{
+									"id": "bg-ultra-dark-text",
+									"title": "Text Color",
+									"type": "text",
+									"default": "var(--text-light)",
+									"skip-if-empty": true,
+									"force-preview": true
+								},
+								{
+									"id": "bg-ultra-dark-heading",
+									"title": "Heading Color",
+									"type": "text",
+									"default": "var(--text-light)",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"cssVariable": "color",
+									"target": ":is(.bg--ultra-dark, [class*=texture--]) :is(h1, h2, h3, h4, h5, h6)"
+								},
+								{
+									"id": "bg-ultra-dark-link-hover-container",
+									"type": "hover-container",
+									"content": [
+										{
+											"id": "bg-ultra-dark-link",
+											"title": "Link Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"cssVariable": "color",
+											"target": ":is(.bg--ultra-dark, [class*=texture--]) :is(a):not([class*='btn--'])"
+										},
+										{
+											"id": "bg-ultra-dark-link-hover",
+											"title": "Link Color (Hover)",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"cssVariable": "color",
+											"target": ":is(.bg--ultra-dark, [class*=texture--]) :is(a):not([class*='btn--']):hover"
+										}
+									]
+								},
+								{
+									"id": "bg-ultra-dark-button",
+									"title": "Button Style",
+									"type": "text",
+									"default": "primary",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Expects the name of a button style (primary, secondary, etc.). You can attach '.btn--outline' to style name for outline variations",
+									"output": "quotes"
+								}
+							]
+						},
+						{
+							"id": "dark-relationships-settings",
+							"title": "Dark",
+							"content": [
+								{
+									"id": "dark-relationships-intro",
+									"type": "message",
+									"text": "These options configure foreground styles when using .bg--dark."
+								},
+								{
+									"id": "bg-dark-text",
+									"title": "Text Color",
+									"type": "text",
+									"default": "var(--text-light)",
+									"skip-if-empty": true,
+									"force-preview": true
+								},
+								{
+									"id": "bg-dark-heading",
+									"title": "Heading Color",
+									"type": "text",
+									"default": "var(--text-light)",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"cssVariable": "color",
+									"target": ":is(.bg--dark, [class*=texture--]) :is(h1, h2, h3, h4, h5, h6)"
+								},
+								{
+									"id": "bg-dark-link-hover-container",
+									"type": "hover-container",
+									"content": [
+										{
+											"id": "bg-dark-link",
+											"title": "Link Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"cssVariable": "color",
+											"target": ":is(.bg--dark, [class*=texture--]) :is(a):not([class*='btn--'])"
+										},
+										{
+											"id": "bg-dark-link-hover",
+											"title": "Link Color (Hover)",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"cssVariable": "color",
+											"target": ":is(.bg--dark, [class*=texture--]) :is(a):not([class*='btn--']):hover"
+										}
+									]
+								},
+								{
+									"id": "bg-dark-button",
+									"title": "Button Style",
+									"type": "text",
+									"default": "primary",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Expects the name of a button style (primary, secondary, etc.). You can attach '.btn--outline' to style name for outline variations",
+									"output": "quotes"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "textures-overlays",
+			"title": "Textures & Overlays",
+			"type": "accordion-container",
+			"tooltip": "",
+			"description": "",
+			"displayWhen": [
+				"option-textures",
+				"on"
+			],
+			"content": [
+				{
+					"id": "texture-tabs",
+					"title": "Texture Tabs",
+					"type": "tabs-container",
+					"style": "full-width",
+					"content": [
+						{
+							"id": "texture-1-tab",
+							"title": "1",
+							"content": [
+								{
+									"id": "texture-1-main-section",
+									"title": "Background Texture",
+									"type": "section-container",
+									"default": "on",
+									"content": [
+										{
+											"id": "texture-1-name",
+											"title": "Name",
+											"type": "text",
+											"default": "1",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"tooltip": "Optional: Name your texture. This will also create a custom utility class .texture--[name]."
+										},
+										{
+											"id": "texture-1-bg-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--body-bg-color)",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"tooltip": "Background color will only display if your asset has transparency or if your asset fails to load (fallback)."
+										},
+										{
+											"id": "texture-1-asset",
+											"title": "Texture Asset",
+											"type": "textarea",
+											"default": "",
+											"placeholder": "url(link-to-image.webp)",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"cssVariable": "none",
+											"output": "quotes",
+											"tooltip": "The asset of your texture can be a url(), gradient, or CSS pattern. Input accepts any valid background-image value."
+										},
+										{
+											"id": "texture-1-asset-is-url",
+											"title": "Asset is URL",
+											"type": "toggle",
+											"default": "on",
+											"style": "",
+											"tooltip": "If your asset is a url, turn this on."
+										},
+										{
+											"id": "texture-1-overlay",
+											"title": "Texture Overlay",
+											"type": "textarea",
+											"default": "",
+											"placeholder": "linear-gradient(var(--white-trans-30), var(--white-trans-30))",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"tooltip": "Create an overlay on top of your texture using linear-gradient technique."
+										},
+										{
+											"id": "texture-1-size",
+											"title": "Texture Size",
+											"type": "text",
+											"default": "200px",
+											"skip-if-empty": true,
+											"force-preview": true
+										},
+										{
+											"id": "texture-1-position",
+											"title": "Texture Position",
+											"type": "text",
+											"default": "center center",
+											"skip-if-empty": true,
+											"force-preview": true
+										},
+										{
+											"id": "texture-1-attachment",
+											"title": "Attachment",
+											"type": "select",
+											"default": "scroll",
+											"options": [
+												"scroll",
+												"fixed",
+												"local",
+												"inherit"
+											],
+											"skip-if-empty": true,
+											"force-preview": true
+										},
+										{
+											"id": "texture-1-repeat",
+											"title": "Repeat",
+											"type": "text",
+											"default": "repeat",
+											"skip-if-empty": true,
+											"force-preview": true
+										},
+										{
+											"id": "texture-1-color-relationship",
+											"title": "Color Relationship",
+											"type": "select",
+											"default": "none",
+											"options": [
+												"ultra-light",
+												"light",
+												"ultra-dark",
+												"dark",
+												"none"
+											],
+											"tooltip": "Automatically control foreground color using Automatic Color Relationships. Choose the style that describes your texture."
+										}
+									]
+								},
+								{
+									"id": "texture-1-overlay-section",
+									"title": "Overlay Options",
+									"type": "section-container",
+									"default": "on",
+									"content": [
+										{
+											"id": "texture-1-overlay-option",
+											"title": "Enable Overlay Class",
+											"type": "toggle",
+											"default": "off",
+											"style": "",
+											"tooltip": "Adds an .overlay-- class to make this texture work as an overlay."
+										},
+										{
+											"id": "texture-1-overlay-overlay",
+											"title": "Additional Overlay Layer",
+											"type": "textarea",
+											"default": "",
+											"placeholder": "linear-gradient(var(--white-trans-30), var(--white-trans-30))",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"tooltip": "Create an overlay on top of your texture using linear-gradient technique.",
+											"displayWhen": [
+												"texture-1-overlay-option",
+												"on"
+											]
+										},
+										{
+											"id": "texture-1-blend-mode",
+											"title": "Blend Mode",
+											"type": "select",
+											"default": "normal",
+											"options": [
+											  "normal",
+											  "multiply",
+											  "screen",
+											  "overlay",
+											  "darken",
+											  "lighten",
+											  "color-dodge",
+											  "color-burn",
+											  "hard-light",
+											  "soft-light",
+											  "difference",
+											  "exclusion",
+											  "hue",
+											  "saturation",
+											  "color",
+											  "luminosity",
+											  "inherit"
+											],
+											"tooltip": "Set a mix-blend-mode for this texture (only applies to overlay mode).",
+											"displayWhen": [
+												"texture-1-overlay-option",
+												"on"
+											]
+										},
+										{
+											"id": "texture-1-overlay-opacity",
+											"title": "Overlay Opacity",
+											"type": "text",
+											"default": ".8",
+											"placeholder": ".8",
+											"tooltip": "Control the transparency of your overlay.",
+											"displayWhen": [
+												"texture-1-overlay-option",
+												"on"
+											]
+										}
+									]
+								},
+								{
+									"id": "texture-1-animation-section",
+									"title": "Animation Options",
+									"type": "section-container",
+									"default": "on",
+									"content": [
+										{
+											"id": "texture-1-animate-texture",
+											"title": "Animate Texture",
+											"type": "toggle",
+											"default": "off",
+											"style": "",
+											"tooltip": "Do you want to animate the background instances of this texture?"
+										},
+										{
+											"id": "texture-1-animate-overlay",
+											"title": "Animate Overlay",
+											"type": "toggle",
+											"default": "off",
+											"style": "",
+											"tooltip": "Do you want to animate the overlay instances of this texture?",
+											"displayWhen": [
+												"texture-1-overlay-option",
+												"on"
+											]
+										},
+										{
+											"id": "texture-1-animation",
+											"title": "Animation",
+											"type": "textarea",
+											"default": "",
+											"placeholder": "animationName 1s infinite",
+											"skip-if-empty": true,
+											"force-preview": true,
+											"tooltip": "Any valid CSS animation property. This will animate the texture as long as you've defined your animation keyframes in custom CSS.",
+											"displayWhen": [
+												"texture-1-animate-texture",
+												"on"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "texture-2-tab",
+							"title": "2",
+							"content": [
+							  {
+								"id": "texture-2-main-section",
+								"title": "Background Texture",
+								"type": "section-container",
+								"default": "on",
+								"content": [
+								  {
+									"id": "texture-2-name",
+									"title": "Name",
+									"type": "text",
+									"default": "2",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Optional: Name your texture. This will also create a custom utility class .texture--[name]."
+								  },
+								  {
+									"id": "texture-2-bg-color",
+									"title": "Background Color",
+									"type": "text",
+									"default": "var(--body-bg-color)",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Background color will only display if your asset has transparency or if your asset fails to load (fallback)."
+								  },
+								  {
+									"id": "texture-2-asset",
+									"title": "Texture Asset",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "url(link-to-image.webp)",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"cssVariable": "none",
+									"output": "quotes",
+									"tooltip": "The asset of your texture can be a url(), gradient, or CSS pattern. Input accepts any valid background-image value."
+								  },
+								  {
+									"id": "texture-2-asset-is-url",
+									"title": "Asset is URL",
+									"type": "toggle",
+									"default": "on",
+									"style": "",
+									"tooltip": "If your asset is a url, turn this on."
+								  },
+								  {
+									"id": "texture-2-overlay",
+									"title": "Texture Overlay",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "linear-gradient(var(--white-trans-30), var(--white-trans-30))",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Create an overlay on top of your texture using linear-gradient technique."
+								  },
+								  {
+									"id": "texture-2-size",
+									"title": "Texture Size",
+									"type": "text",
+									"default": "200px",
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-2-position",
+									"title": "Texture Position",
+									"type": "text",
+									"default": "center center",
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-2-attachment",
+									"title": "Attachment",
+									"type": "select",
+									"default": "scroll",
+									"options": [
+									  "scroll",
+									  "fixed",
+									  "local",
+									  "inherit"
+									],
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-2-repeat",
+									"title": "Repeat",
+									"type": "text",
+									"default": "repeat",
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-2-color-relationship",
+									"title": "Color Relationship",
+									"type": "select",
+									"default": "none",
+									"options": [
+									  "ultra-light",
+									  "light",
+									  "ultra-dark",
+									  "dark",
+									  "none"
+									],
+									"tooltip": "Automatically control foreground color using Automatic Color Relationships. Choose the style that describes your texture."
+								  }
+								]
+							  },
+							  {
+								"id": "texture-2-overlay-section",
+								"title": "Overlay Options",
+								"type": "section-container",
+								"default": "on",
+								"content": [
+								  {
+									"id": "texture-2-overlay-option",
+									"title": "Enable Overlay Class",
+									"type": "toggle",
+									"default": "off",
+									"style": "",
+									"tooltip": "Adds an .overlay-- class to make this texture work as an overlay."
+								  },
+								  {
+									"id": "texture-2-overlay-overlay",
+									"title": "Additional Overlay Layer",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "linear-gradient(var(--white-trans-30), var(--white-trans-30))",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Create an overlay on top of your texture using linear-gradient technique.",
+									"displayWhen": [
+									  "texture-2-overlay-option",
+									  "on"
+									]
+								  },
+								  {
+									"id": "texture-2-blend-mode",
+									"title": "Blend Mode",
+									"type": "select",
+									"default": "normal",
+									"options": [
+									  "normal",
+									  "multiply",
+									  "screen",
+									  "overlay",
+									  "darken",
+									  "lighten",
+									  "color-dodge",
+									  "color-burn",
+									  "hard-light",
+									  "soft-light",
+									  "difference",
+									  "exclusion",
+									  "hue",
+									  "saturation",
+									  "color",
+									  "luminosity",
+									  "inherit"
+									],
+									"tooltip": "Set a mix-blend-mode for this texture (only applies to overlay mode).",
+									"displayWhen": [
+									  "texture-2-overlay-option",
+									  "on"
+									]
+								  },
+								  {
+									"id": "texture-2-overlay-opacity",
+									"title": "Overlay Opacity",
+									"type": "text",
+									"default": ".8",
+									"placeholder": ".8",
+									"tooltip": "Control the transparency of your overlay.",
+									"displayWhen": [
+									  "texture-2-overlay-option",
+									  "on"
+									]
+								  }
+								]
+							  },
+							  {
+								"id": "texture-2-animation-section",
+								"title": "Animation Options",
+								"type": "section-container",
+								"default": "on",
+								"content": [
+								  {
+									"id": "texture-2-animate-texture",
+									"title": "Animate Texture",
+									"type": "toggle",
+									"default": "off",
+									"style": "",
+									"tooltip": "Do you want to animate the background instances of this texture?"
+								  },
+								  {
+									"id": "texture-2-animate-overlay",
+									"title": "Animate Overlay",
+									"type": "toggle",
+									"default": "off",
+									"style": "",
+									"tooltip": "Do you want to animate the overlay instances of this texture?"
+								  },
+								  {
+									"id": "texture-2-animation",
+									"title": "Animation",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "animationName 1s infinite",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Any valid CSS animation property. This will animate the texture as long as you've defined your animation keyframes in custom CSS."
+								  }
+								]
+							  }
+							]
+						},
+						{
+						"id": "texture-3-tab",
+						"title": "3",
+						"content": [
+							{
+							"id": "texture-3-main-section",
+							"title": "Background Texture",
+							"type": "section-container",
+							"default": "on",
+							"content": [
+								{
+								"id": "texture-3-name",
+								"title": "Name",
+								"type": "text",
+								"default": "3",
+								"skip-if-empty": true,
+								"force-preview": true,
+								"tooltip": "Optional: Name your texture. This will also create a custom utility class .texture--[name]."
+								},
+								{
+								"id": "texture-3-bg-color",
+								"title": "Background Color",
+								"type": "text",
+								"default": "var(--body-bg-color)",
+								"skip-if-empty": true,
+								"force-preview": true,
+								"tooltip": "Background color will only display if your asset has transparency or if your asset fails to load (fallback)."
+								},
+								{
+								"id": "texture-3-asset",
+								"title": "Texture Asset",
+								"type": "textarea",
+								"default": "",
+								"placeholder": "url(link-to-image.webp)",
+								"skip-if-empty": true,
+								"force-preview": true,
+								"cssVariable": "none",
+								"output": "quotes",
+								"tooltip": "The asset of your texture can be a url(), gradient, or CSS pattern. Input accepts any valid background-image value."
+								},
+								{
+								"id": "texture-3-asset-is-url",
+								"title": "Asset is URL",
+								"type": "toggle",
+								"default": "on",
+								"style": "",
+								"tooltip": "If your asset is a url, turn this on."
+								},
+								{
+								"id": "texture-3-overlay",
+								"title": "Texture Overlay",
+								"type": "textarea",
+								"default": "",
+								"placeholder": "linear-gradient(var(--white-trans-30), var(--white-trans-30))",
+								"skip-if-empty": true,
+								"force-preview": true,
+								"tooltip": "Create an overlay on top of your texture using linear-gradient technique."
+								},
+								{
+								"id": "texture-3-size",
+								"title": "Texture Size",
+								"type": "text",
+								"default": "200px",
+								"skip-if-empty": true,
+								"force-preview": true
+								},
+								{
+								"id": "texture-3-position",
+								"title": "Texture Position",
+								"type": "text",
+								"default": "center center",
+								"skip-if-empty": true,
+								"force-preview": true
+								},
+								{
+								"id": "texture-3-attachment",
+								"title": "Attachment",
+								"type": "select",
+								"default": "scroll",
+								"options": [
+									"scroll",
+									"fixed",
+									"local",
+									"inherit"
+								],
+								"skip-if-empty": true,
+								"force-preview": true
+								},
+								{
+								"id": "texture-3-repeat",
+								"title": "Repeat",
+								"type": "text",
+								"default": "repeat",
+								"skip-if-empty": true,
+								"force-preview": true
+								},
+								{
+								"id": "texture-3-color-relationship",
+								"title": "Color Relationship",
+								"type": "select",
+								"default": "none",
+								"options": [
+									"ultra-light",
+									"light",
+									"ultra-dark",
+									"dark",
+									"none"
+								],
+								"tooltip": "Automatically control foreground color using Automatic Color Relationships. Choose the style that describes your texture."
+								}
+							]
+							},
+							{
+							"id": "texture-3-overlay-section",
+							"title": "Overlay Options",
+							"type": "section-container",
+							"default": "on",
+							"content": [
+								{
+								"id": "texture-3-overlay-option",
+								"title": "Enable Overlay Class",
+								"type": "toggle",
+								"default": "off",
+								"style": "",
+								"tooltip": "Adds an .overlay-- class to make this texture work as an overlay."
+								},
+								{
+								"id": "texture-3-overlay-overlay",
+								"title": "Additional Overlay Layer",
+								"type": "textarea",
+								"default": "",
+								"placeholder": "linear-gradient(var(--white-trans-30), var(--white-trans-30))",
+								"skip-if-empty": true,
+								"force-preview": true,
+								"tooltip": "Create an overlay on top of your texture using linear-gradient technique.",
+								"displayWhen": [
+									"texture-3-overlay-option",
+									"on"
+								]
+								},
+								{
+								"id": "texture-3-blend-mode",
+								"title": "Blend Mode",
+								"type": "select",
+								"default": "normal",
+								"options": [
+									"normal",
+									"multiply",
+									"screen",
+									"overlay",
+									"darken",
+									"lighten",
+									"color-dodge",
+									"color-burn",
+									"hard-light",
+									"soft-light",
+									"difference",
+									"exclusion",
+									"hue",
+									"saturation",
+									"color",
+									"luminosity",
+									"inherit"
+								],
+								"tooltip": "Set a mix-blend-mode for this texture (only applies to overlay mode).",
+								"displayWhen": [
+									"texture-3-overlay-option",
+									"on"
+								]
+								},
+								{
+								"id": "texture-3-overlay-opacity",
+								"title": "Overlay Opacity",
+								"type": "text",
+								"default": ".8",
+								"placeholder": ".8",
+								"tooltip": "Control the transparency of your overlay.",
+								"displayWhen": [
+									"texture-3-overlay-option",
+									"on"
+								]
+								}
+							]
+							},
+							{
+							"id": "texture-3-animation-section",
+							"title": "Animation Options",
+							"type": "section-container",
+							"default": "on",
+							"content": [
+								{
+								"id": "texture-3-animate-texture",
+								"title": "Animate Texture",
+								"type": "toggle",
+								"default": "off",
+								"style": "",
+								"tooltip": "Do you want to animate the background instances of this texture?"
+								},
+								{
+								"id": "texture-3-animate-overlay",
+								"title": "Animate Overlay",
+								"type": "toggle",
+								"default": "off",
+								"style": "",
+								"tooltip": "Do you want to animate the overlay instances of this texture?"
+								},
+								{
+								"id": "texture-3-animation",
+								"title": "Animation",
+								"type": "textarea",
+								"default": "",
+								"placeholder": "animationName 1s infinite",
+								"skip-if-empty": true,
+								"force-preview": true,
+								"tooltip": "Any valid CSS animation property. This will animate the texture as long as you've defined your animation keyframes in custom CSS."
+								}
+							]
+							}
+						]
+						},
+						{
+							"id": "texture-4-tab",
+							"title": "4",
+							"content": [
+							  {
+								"id": "texture-4-main-section",
+								"title": "Background Texture",
+								"type": "section-container",
+								"default": "on",
+								"content": [
+								  {
+									"id": "texture-4-name",
+									"title": "Name",
+									"type": "text",
+									"default": "4",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Optional: Name your texture. This will also create a custom utility class .texture--[name]."
+								  },
+								  {
+									"id": "texture-4-bg-color",
+									"title": "Background Color",
+									"type": "text",
+									"default": "var(--body-bg-color)",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Background color will only display if your asset has transparency or if your asset fails to load (fallback)."
+								  },
+								  {
+									"id": "texture-4-asset",
+									"title": "Texture Asset",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "url(link-to-image.webp)",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"cssVariable": "none",
+									"output": "quotes",
+									"tooltip": "The asset of your texture can be a url(), gradient, or CSS pattern. Input accepts any valid background-image value."
+								  },
+								  {
+									"id": "texture-4-asset-is-url",
+									"title": "Asset is URL",
+									"type": "toggle",
+									"default": "on",
+									"style": "",
+									"tooltip": "If your asset is a url, turn this on."
+								  },
+								  {
+									"id": "texture-4-overlay",
+									"title": "Texture Overlay",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "linear-gradient(var(--white-trans-30), var(--white-trans-30))",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Create an overlay on top of your texture using linear-gradient technique."
+								  },
+								  {
+									"id": "texture-4-size",
+									"title": "Texture Size",
+									"type": "text",
+									"default": "200px",
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-4-position",
+									"title": "Texture Position",
+									"type": "text",
+									"default": "center center",
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-4-attachment",
+									"title": "Attachment",
+									"type": "select",
+									"default": "scroll",
+									"options": [
+									  "scroll",
+									  "fixed",
+									  "local",
+									  "inherit"
+									],
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-4-repeat",
+									"title": "Repeat",
+									"type": "text",
+									"default": "repeat",
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-4-color-relationship",
+									"title": "Color Relationship",
+									"type": "select",
+									"default": "none",
+									"options": [
+									  "ultra-light",
+									  "light",
+									  "ultra-dark",
+									  "dark",
+									  "none"
+									],
+									"tooltip": "Automatically control foreground color using Automatic Color Relationships. Choose the style that describes your texture."
+								  }
+								]
+							  },
+							  {
+								"id": "texture-4-overlay-section",
+								"title": "Overlay Options",
+								"type": "section-container",
+								"default": "on",
+								"content": [
+								  {
+									"id": "texture-4-overlay-option",
+									"title": "Enable Overlay Class",
+									"type": "toggle",
+									"default": "off",
+									"style": "",
+									"tooltip": "Adds an .overlay-- class to make this texture work as an overlay."
+								  },
+								  {
+									"id": "texture-4-overlay-overlay",
+									"title": "Additional Overlay Layer",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "linear-gradient(var(--white-trans-30), var(--white-trans-30))",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Create an overlay on top of your texture using linear-gradient technique.",
+									"displayWhen": [
+									  "texture-4-overlay-option",
+									  "on"
+									]
+								  },
+								  {
+									"id": "texture-4-blend-mode",
+									"title": "Blend Mode",
+									"type": "select",
+									"default": "normal",
+									"options": [
+									  "normal",
+									  "multiply",
+									  "screen",
+									  "overlay",
+									  "darken",
+									  "lighten",
+									  "color-dodge",
+									  "color-burn",
+									  "hard-light",
+									  "soft-light",
+									  "difference",
+									  "exclusion",
+									  "hue",
+									  "saturation",
+									  "color",
+									  "luminosity",
+									  "inherit"
+									],
+									"tooltip": "Set a mix-blend-mode for this texture (only applies to overlay mode).",
+									"displayWhen": [
+									  "texture-4-overlay-option",
+									  "on"
+									]
+								  },
+								  {
+									"id": "texture-4-overlay-opacity",
+									"title": "Overlay Opacity",
+									"type": "text",
+									"default": ".8",
+									"placeholder": ".8",
+									"tooltip": "Control the transparency of your overlay.",
+									"displayWhen": [
+									  "texture-4-overlay-option",
+									  "on"
+									]
+								  }
+								]
+							  },
+							  {
+								"id": "texture-4-animation-section",
+								"title": "Animation Options",
+								"type": "section-container",
+								"default": "on",
+								"content": [
+								  {
+									"id": "texture-4-animate-texture",
+									"title": "Animate Texture",
+									"type": "toggle",
+									"default": "off",
+									"style": "",
+									"tooltip": "Do you want to animate the background instances of this texture?"
+								  },
+								  {
+									"id": "texture-4-animate-overlay",
+									"title": "Animate Overlay",
+									"type": "toggle",
+									"default": "off",
+									"style": "",
+									"tooltip": "Do you want to animate the overlay instances of this texture?"
+								  },
+								  {
+									"id": "texture-4-animation",
+									"title": "Animation",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "animationName 1s infinite",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Any valid CSS animation property. This will animate the texture as long as you've defined your animation keyframes in custom CSS."
+								  }
+								]
+							  }
+							]
+						},
+						{
+							"id": "texture-5-tab",
+							"title": "5",
+							"content": [
+							  {
+								"id": "texture-5-main-section",
+								"title": "Background Texture",
+								"type": "section-container",
+								"default": "on",
+								"content": [
+								  {
+									"id": "texture-5-name",
+									"title": "Name",
+									"type": "text",
+									"default": "5",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Optional: Name your texture. This will also create a custom utility class .texture--[name]."
+								  },
+								  {
+									"id": "texture-5-bg-color",
+									"title": "Background Color",
+									"type": "text",
+									"default": "var(--body-bg-color)",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Background color will only display if your asset has transparency or if your asset fails to load (fallback)."
+								  },
+								  {
+									"id": "texture-5-asset",
+									"title": "Texture Asset",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "url(link-to-image.webp)",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"cssVariable": "none",
+									"output": "quotes",
+									"tooltip": "The asset of your texture can be a url(), gradient, or CSS pattern. Input accepts any valid background-image value."
+								  },
+								  {
+									"id": "texture-5-asset-is-url",
+									"title": "Asset is URL",
+									"type": "toggle",
+									"default": "on",
+									"style": "",
+									"tooltip": "If your asset is a url, turn this on."
+								  },
+								  {
+									"id": "texture-5-overlay",
+									"title": "Texture Overlay",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "linear-gradient(var(--white-trans-30), var(--white-trans-30))",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Create an overlay on top of your texture using linear-gradient technique."
+								  },
+								  {
+									"id": "texture-5-size",
+									"title": "Texture Size",
+									"type": "text",
+									"default": "200px",
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-5-position",
+									"title": "Texture Position",
+									"type": "text",
+									"default": "center center",
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-5-attachment",
+									"title": "Attachment",
+									"type": "select",
+									"default": "scroll",
+									"options": [
+									  "scroll",
+									  "fixed",
+									  "local",
+									  "inherit"
+									],
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-5-repeat",
+									"title": "Repeat",
+									"type": "text",
+									"default": "repeat",
+									"skip-if-empty": true,
+									"force-preview": true
+								  },
+								  {
+									"id": "texture-5-color-relationship",
+									"title": "Color Relationship",
+									"type": "select",
+									"default": "none",
+									"options": [
+									  "ultra-light",
+									  "light",
+									  "ultra-dark",
+									  "dark",
+									  "none"
+									],
+									"tooltip": "Automatically control foreground color using Automatic Color Relationships. Choose the style that describes your texture."
+								  }
+								]
+							  },
+							  {
+								"id": "texture-5-overlay-section",
+								"title": "Overlay Options",
+								"type": "section-container",
+								"default": "on",
+								"content": [
+								  {
+									"id": "texture-5-overlay-option",
+									"title": "Enable Overlay Class",
+									"type": "toggle",
+									"default": "off",
+									"style": "",
+									"tooltip": "Adds an .overlay-- class to make this texture work as an overlay."
+								  },
+								  {
+									"id": "texture-5-overlay-overlay",
+									"title": "Additional Overlay Layer",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "linear-gradient(var(--white-trans-30), var(--white-trans-30))",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Create an overlay on top of your texture using linear-gradient technique.",
+									"displayWhen": [
+									  "texture-5-overlay-option",
+									  "on"
+									]
+								  },
+								  {
+									"id": "texture-5-blend-mode",
+									"title": "Blend Mode",
+									"type": "select",
+									"default": "normal",
+									"options": [
+									  "normal",
+									  "multiply",
+									  "screen",
+									  "overlay",
+									  "darken",
+									  "lighten",
+									  "color-dodge",
+									  "color-burn",
+									  "hard-light",
+									  "soft-light",
+									  "difference",
+									  "exclusion",
+									  "hue",
+									  "saturation",
+									  "color",
+									  "luminosity",
+									  "inherit"
+									],
+									"tooltip": "Set a mix-blend-mode for this texture (only applies to overlay mode).",
+									"displayWhen": [
+									  "texture-5-overlay-option",
+									  "on"
+									]
+								  },
+								  {
+									"id": "texture-5-overlay-opacity",
+									"title": "Overlay Opacity",
+									"type": "text",
+									"default": ".8",
+									"placeholder": ".8",
+									"tooltip": "Control the transparency of your overlay.",
+									"displayWhen": [
+									  "texture-5-overlay-option",
+									  "on"
+									]
+								  }
+								]
+							  },
+							  {
+								"id": "texture-5-animation-section",
+								"title": "Animation Options",
+								"type": "section-container",
+								"default": "on",
+								"content": [
+								  {
+									"id": "texture-5-animate-texture",
+									"title": "Animate Texture",
+									"type": "toggle",
+									"default": "off",
+									"style": "",
+									"tooltip": "Do you want to animate the background instances of this texture?"
+								  },
+								  {
+									"id": "texture-5-animate-overlay",
+									"title": "Animate Overlay",
+									"type": "toggle",
+									"default": "off",
+									"style": "",
+									"tooltip": "Do you want to animate the overlay instances of this texture?"
+								  },
+								  {
+									"id": "texture-5-animation",
+									"title": "Animation",
+									"type": "textarea",
+									"default": "",
+									"placeholder": "animationName 1s infinite",
+									"skip-if-empty": true,
+									"force-preview": true,
+									"tooltip": "Any valid CSS animation property. This will animate the texture as long as you've defined your animation keyframes in custom CSS."
+								  }
+								]
+							  }
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "contextual-color-options",
+			"title": "Options",
+			"type": "accordion-container",
+			"tooltip": "",
+			"description": "",
+			"content": [
+				{
+					"id": "option-relate-bg-text",
+					"title": "Automatic Color Relationships",
+					"type": "toggle",
+					"style": "",
+					"default": "on",
+					"tooltip": "Automatically relate background and foreground color.",
+					"documentation": "https://automaticcss.com/docs/automatic-color-relationships/"
+				},
+				{
+					"id": "option-textures",
+					"title": "Textures & Overlays",
+					"type": "toggle",
+					"default": "off",
+					"style": "",
+					"tooltip": "Enable texture utilities & functionality."
+				}
+			]
+		}
+	]
+}

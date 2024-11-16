@@ -1,0 +1,15 @@
+// MAX WIDTH
+@mixin breakpoint($extension) {
+    @media (max-width: map-get($breakpoints, $extension)) {
+      @content;
+    }
+}
+  
+// MIN WIDTH
+@mixin breakpoint-up($extension) {
+    $extension-value: map-get($breakpoints, $extension);
+    $new-extension-value: $extension-value + 1px;
+    @media (min-width: $new-extension-value) {
+        @content;
+    }
+}

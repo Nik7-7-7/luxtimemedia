@@ -1,0 +1,192 @@
+// tertiary Options
+$option-tertiary-clr: on !default;
+$option-tertiary-main-trans: on !default;
+$option-tertiary-light-trans: on !default;
+$option-tertiary-dark-trans: on !default;
+$option-tertiary-ultra-dark-trans: on !default;
+
+// tertiary Vars
+$tertiary-hex: #e56c70 !default;
+$tertiary-r: 229 !default;
+$tertiary-g: 108 !default;
+$tertiary-b: 112 !default;
+$tertiary-h: 358 !default;
+$tertiary-s: 70% !default;
+$tertiary-l: 66% !default;
+$tertiary-hover-h: 358 !default;
+$tertiary-hover-s: 70% !default;
+$tertiary-hover-l: 1.15 !default;
+$tertiary-ultra-light-h: 358 !default;
+$tertiary-ultra-light-s: 70% !default;
+$tertiary-ultra-light-l: 95% !default;
+$tertiary-light-h: 358 !default;
+$tertiary-light-s: 70% !default;
+$tertiary-light-l: 85% !default;
+$tertiary-medium-h: 358 !default;
+$tertiary-medium-s: 70% !default;
+$tertiary-medium-l: 50% !default;
+$tertiary-dark-h: 358 !default;
+$tertiary-dark-s: 70% !default;
+$tertiary-dark-l: 25% !default;
+$tertiary-ultra-dark-h: 358 !default;
+$tertiary-ultra-dark-s: 70% !default;
+$tertiary-ultra-dark-l: 10% !default;
+// Added in 3.0
+$tertiary-semi-light-h: 358 !default;
+$tertiary-semi-light-s: 70% !default;
+$tertiary-semi-light-l: 60% !default;
+$tertiary-semi-dark-h: 358 !default;
+$tertiary-semi-dark-s: 70% !default;
+$tertiary-semi-dark-l: 40% !default;
+
+
+// Tertiary Color Map
+$color-tertiary:(); // Initialize Map
+@if $option-tertiary-clr == on {
+  $color-tertiary: (
+    "main": (
+      "tertiary": $tertiary-hex,
+      "tertiary-hover": hsl($tertiary-hover-h, $tertiary-hover-s, $tertiary-hover-l),
+      "tertiary-ultra-light": hsl($tertiary-ultra-light-h, $tertiary-ultra-light-s, $tertiary-ultra-light-l),
+      "tertiary-light": hsl($tertiary-light-h, $tertiary-light-s, $tertiary-light-l),
+      "tertiary-semi-light": hsl($tertiary-semi-light-h, $tertiary-semi-light-s, $tertiary-semi-light-l),
+      "tertiary-semi-dark": hsl($tertiary-semi-dark-h, $tertiary-semi-dark-s, $tertiary-semi-dark-l),
+      "tertiary-dark": hsl($tertiary-dark-h, $tertiary-dark-s, $tertiary-dark-l),
+      "tertiary-ultra-dark": hsl($tertiary-ultra-dark-h, $tertiary-ultra-dark-s, $tertiary-ultra-dark-l),
+    ),
+    "trans": (
+      "tertiary-trans-10": rgba($tertiary-hex, .1),
+      "tertiary-trans-20": rgba($tertiary-hex, .2),
+      "tertiary-trans-30": rgba($tertiary-hex, .3),
+      "tertiary-trans-40": rgba($tertiary-hex, .4),
+      "tertiary-trans-50": rgba($tertiary-hex, .5),
+      "tertiary-trans-60": rgba($tertiary-hex, .6),
+      "tertiary-trans-70": rgba($tertiary-hex, .7),
+      "tertiary-trans-80": rgba($tertiary-hex, .8),
+      "tertiary-trans-90": rgba($tertiary-hex, .9),
+    ),
+    "light-trans": (
+      "tertiary-light-trans-10": hsl($tertiary-light-h, $tertiary-light-s, $tertiary-light-l, .1),
+      "tertiary-light-trans-20": hsl($tertiary-light-h, $tertiary-light-s, $tertiary-light-l, .2),
+      "tertiary-light-trans-30": hsl($tertiary-light-h, $tertiary-light-s, $tertiary-light-l, .3),
+      "tertiary-light-trans-40": hsl($tertiary-light-h, $tertiary-light-s, $tertiary-light-l, .4),
+      "tertiary-light-trans-50": hsl($tertiary-light-h, $tertiary-light-s, $tertiary-light-l, .5),
+      "tertiary-light-trans-60": hsl($tertiary-light-h, $tertiary-light-s, $tertiary-light-l, .6),
+      "tertiary-light-trans-70": hsl($tertiary-light-h, $tertiary-light-s, $tertiary-light-l, .7),
+      "tertiary-light-trans-80": hsl($tertiary-light-h, $tertiary-light-s, $tertiary-light-l, .8),
+      "tertiary-light-trans-90": hsl($tertiary-light-h, $tertiary-light-s, $tertiary-light-l, .9),
+    ),
+    "dark-trans": (
+      "tertiary-dark-trans-10": hsl($tertiary-dark-h, $tertiary-dark-s, $tertiary-dark-l, .1),
+      "tertiary-dark-trans-20": hsl($tertiary-dark-h, $tertiary-dark-s, $tertiary-dark-l, .2),
+      "tertiary-dark-trans-30": hsl($tertiary-dark-h, $tertiary-dark-s, $tertiary-dark-l, .3),
+      "tertiary-dark-trans-40": hsl($tertiary-dark-h, $tertiary-dark-s, $tertiary-dark-l, .4),
+      "tertiary-dark-trans-50": hsl($tertiary-dark-h, $tertiary-dark-s, $tertiary-dark-l, .5),
+      "tertiary-dark-trans-60": hsl($tertiary-dark-h, $tertiary-dark-s, $tertiary-dark-l, .6),
+      "tertiary-dark-trans-70": hsl($tertiary-dark-h, $tertiary-dark-s, $tertiary-dark-l, .7),
+      "tertiary-dark-trans-80": hsl($tertiary-dark-h, $tertiary-dark-s, $tertiary-dark-l, .8),
+      "tertiary-dark-trans-90": hsl($tertiary-dark-h, $tertiary-dark-s, $tertiary-dark-l, .9),
+    ),
+    "ultra-dark-trans": (
+      "tertiary-ultra-dark-trans-10": hsl($tertiary-ultra-dark-h, $tertiary-ultra-dark-s, $tertiary-ultra-dark-l, .1),
+      "tertiary-ultra-dark-trans-20": hsl($tertiary-ultra-dark-h, $tertiary-ultra-dark-s, $tertiary-ultra-dark-l, .2),
+      "tertiary-ultra-dark-trans-30": hsl($tertiary-ultra-dark-h, $tertiary-ultra-dark-s, $tertiary-ultra-dark-l, .3),
+      "tertiary-ultra-dark-trans-40": hsl($tertiary-ultra-dark-h, $tertiary-ultra-dark-s, $tertiary-ultra-dark-l, .4),
+      "tertiary-ultra-dark-trans-50": hsl($tertiary-ultra-dark-h, $tertiary-ultra-dark-s, $tertiary-ultra-dark-l, .5),
+      "tertiary-ultra-dark-trans-60": hsl($tertiary-ultra-dark-h, $tertiary-ultra-dark-s, $tertiary-ultra-dark-l, .6),
+      "tertiary-ultra-dark-trans-70": hsl($tertiary-ultra-dark-h, $tertiary-ultra-dark-s, $tertiary-ultra-dark-l, .7),
+      "tertiary-ultra-dark-trans-80": hsl($tertiary-ultra-dark-h, $tertiary-ultra-dark-s, $tertiary-ultra-dark-l, .8),
+      "tertiary-ultra-dark-trans-90": hsl($tertiary-ultra-dark-h, $tertiary-ultra-dark-s, $tertiary-ultra-dark-l, .9),
+    ),
+    "partials": (
+      "tertiary-hex": $tertiary-hex,
+        "tertiary-hsl": $tertiary-h $tertiary-s $tertiary-l,
+        "tertiary-rgb": $tertiary-r $tertiary-g $tertiary-b,
+        "tertiary-r": $tertiary-r,
+        "tertiary-g": $tertiary-g,
+        "tertiary-b": $tertiary-b,
+        "tertiary-h": $tertiary-h,
+        "tertiary-s": $tertiary-s,
+        "tertiary-l": $tertiary-l,
+        "tertiary-hover-h": $tertiary-hover-h,
+        "tertiary-hover-s": $tertiary-hover-s,
+        "tertiary-hover-l": $tertiary-hover-l,
+        "tertiary-ultra-light-h": $tertiary-ultra-light-h,
+        "tertiary-ultra-light-s": $tertiary-ultra-light-s,
+        "tertiary-ultra-light-l": $tertiary-ultra-light-l,
+        "tertiary-light-h": $tertiary-light-h,
+        "tertiary-light-s": $tertiary-light-s,
+        "tertiary-light-l": $tertiary-light-l,
+        "tertiary-semi-light-h": $tertiary-semi-light-h,
+        "tertiary-semi-light-s": $tertiary-semi-light-s,
+        "tertiary-semi-light-l": $tertiary-semi-light-l,
+        "tertiary-semi-dark-h": $tertiary-semi-dark-h,
+        "tertiary-semi-dark-s": $tertiary-semi-dark-s,
+        "tertiary-semi-dark-l": $tertiary-semi-dark-l,
+        "tertiary-dark-h": $tertiary-dark-h,
+        "tertiary-dark-s": $tertiary-dark-s,
+        "tertiary-dark-l": $tertiary-dark-l,
+        "tertiary-ultra-dark-h": $tertiary-ultra-dark-h,
+        "tertiary-ultra-dark-s": $tertiary-ultra-dark-s,
+        "tertiary-ultra-dark-l": $tertiary-ultra-dark-l,
+    ),
+  );
+
+  // Transparency options
+  @if $option-tertiary-main-trans == off {
+    $color-tertiary: map-remove($color-tertiary, "trans");
+  }
+  @if $option-tertiary-light-trans == off {
+    $color-tertiary: map-remove($color-tertiary, "light-trans");
+  }
+  @if $option-tertiary-dark-trans == off {
+    $color-tertiary: map-remove($color-tertiary, "dark-trans");
+  }
+  @if $option-tertiary-ultra-dark-trans == off {
+    $color-tertiary: map-remove($color-tertiary, "ultra-dark-trans");
+  }
+
+  // Transparency options
+  @if $option-tertiary-main-trans == off {
+    $color-tertiary: map-remove($color-tertiary, "trans");
+  }
+  @if $option-tertiary-light-trans == off {
+    $color-tertiary: map-remove($color-tertiary, "light-trans");
+  }
+  @if $option-tertiary-dark-trans == off {
+    $color-tertiary: map-remove($color-tertiary, "dark-trans");
+  }
+  @if $option-tertiary-ultra-dark-trans == off {
+    $color-tertiary: map-remove($color-tertiary, "ultra-dark-trans");
+  }
+
+}
+
+
+// Handle Deprecated Options
+@if $option-tertiary-clr == on {
+  // Add complimentary color back if enabled
+  @if $option-comp-colors == on {
+    $color-tertiary: map-merge($color-tertiary, (
+      "main": map-merge(map-get($color-tertiary, "main"), (
+        "tertiary-comp": hsl($tertiary-h + 180, $tertiary-s, $tertiary-l)
+      )),
+      "partials": map-merge(map-get($color-tertiary, "partials"), (
+        "tertiary-comp-h": $tertiary-h + 180
+      ))
+    ));
+  }
+  // Add medium back if enabled
+  @if $option-medium-shade == on {
+    $color-tertiary: map-merge($color-tertiary, (
+      "main": map-merge(map-get($color-tertiary, "main"), (
+        "tertiary-medium": hsl($tertiary-medium-h, $tertiary-medium-s, $tertiary-medium-l)
+      )),
+      "partials": map-merge(map-get($color-tertiary, "partials"), (
+        "tertiary-medium-h": $tertiary-medium-h,
+        "tertiary-medium-s": $tertiary-medium-s,
+        "tertiary-medium-l": $tertiary-medium-l
+      ))
+    ));
+  }
+}

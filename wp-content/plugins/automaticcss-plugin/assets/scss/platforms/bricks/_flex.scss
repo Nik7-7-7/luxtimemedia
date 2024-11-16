@@ -1,0 +1,104 @@
+// Main Flex
+@if $option-flex == on {
+  @each $direction, $value in $flexDirections {
+    .flex--#{$direction}:not(.brxe-container),
+    .brxe-container.flex--#{$direction} {
+      display: flex;
+      flex-direction: #{$value};
+    }
+  }
+
+  // Flex Breakpoints
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) {
+      @each $direction, $directionValue in $flexDirections {
+        .flex--#{$direction}-#{$breakpoint}:not(.brxe-container),
+        .brxe-container.flex--#{$direction}-#{$breakpoint} {
+          display: flex;
+          flex-direction: #{$directionValue};
+        }
+      }
+    }
+  }
+
+  // Deprecated in 2.4
+
+  // @include breakpoint(xl) {
+  //   @each $direction, $value in $flexDirections {
+  //     .flex--#{$direction}-xl:not(.brxe-container),
+  //     .brxe-container.flex--#{$direction}-xl {
+  //       display: flex;
+  //       flex-direction: #{$value};
+  //     }
+  //   }
+  // }
+
+  // @include breakpoint(l) {
+  //   @each $direction, $value in $flexDirections {
+  //     .flex--#{$direction}-l:not(.brxe-container),
+  //     .brxe-container.flex--#{$direction}-l {
+  //       display: flex;
+  //       flex-direction: #{$value};
+  //     }
+  //   }
+  // }
+
+  // @include breakpoint(m) {
+  //   @each $direction, $value in $flexDirections {
+  //     .flex--#{$direction}-m:not(.brxe-container),
+  //     .brxe-container.flex--#{$direction}-m {
+  //       display: flex;
+  //       flex-direction: #{$value};
+  //     }
+  //   }
+  // }
+
+  // @include breakpoint(s) {
+  //   @each $direction, $value in $flexDirections {
+  //     .flex--#{$direction}-s:not(.brxe-container),
+  //     .brxe-container.flex--#{$direction}-s {
+  //       display: flex;
+  //       flex-direction: #{$value};
+  //     }
+  //   }
+  // }
+
+  // Flex Alignments
+
+  @each $alignmentType, $directionSet in $flexAlignments {
+    @each $direction, $value in $directionSet {
+      @if $alignmentType != self {
+        .#{$alignmentType}--#{$direction}:not(.brxe-container),
+        .brxe-container.#{$alignmentType}--#{$direction} {
+          display: flex;
+          #{$alignmentType}: $value;
+        }
+      } @else if $alignmentType == self {
+        .#{$alignmentType}--#{$direction}:not(.brxe-container),
+        .brxe-container.#{$alignmentType}--#{$direction} {
+          align-self: $value;
+        }
+      }
+    }
+  }
+
+  .flex--wrap,
+  .flex--wrap.brxe-container {
+    flex-wrap: wrap;
+  }
+
+  .stretch:not(.brxe-container),
+  .brxe-container.stretch {
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: stretch;
+    justify-items: stretch;
+  }
+
+  .flex--grow:not(.brxe-container) > *,
+  .brxe-container.flex--grow > * {
+    flex-grow: 1;
+  }
+
+}

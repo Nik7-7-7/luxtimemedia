@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mailster-workflow/triggers",
+  "title": "Triggers",
+  "category": "mailster-workflow-steps",
+  "description": "Define how this workflow gets triggered.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "reusable": false,
+    "multiple": false,
+    "className": false,
+    "customClassName": false,
+    "inserter": false,
+    "renaming": false,
+    "lock": false
+  },
+  "attributes": {
+    "lock": {
+      "type": "object",
+      "default": {
+        "remove": true,
+        "move": true
+      }
+    }
+  },
+  "textdomain": "mailster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -20,7 +20,7 @@ class SSA_Elementor {
 	 *
 	 * @var string The plugin version.
 	 */
-	const VERSION = '1.6.7.65';
+	const VERSION = '3.6.7.10';
 
 	/**
 	 * Minimum Elementor Version
@@ -29,7 +29,7 @@ class SSA_Elementor {
 	 *
 	 * @var string Minimum Elementor version required to run the plugin.
 	 */
-	const MINIMUM_ELEMENTOR_VERSION = '1.6.7.65';
+	const MINIMUM_ELEMENTOR_VERSION = '3.6.7.10';
 
 	/**
 	 * Minimum PHP Version
@@ -38,7 +38,7 @@ class SSA_Elementor {
 	 *
 	 * @var string Minimum PHP version required to run the plugin.
 	 */
-	const MINIMUM_PHP_VERSION = '1.6.7.65';
+	const MINIMUM_PHP_VERSION = '3.6.7.10';
 
 	/**
 	 * Instance

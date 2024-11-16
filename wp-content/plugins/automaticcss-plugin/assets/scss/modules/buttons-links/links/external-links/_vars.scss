@@ -1,0 +1,16 @@
+// Option
+$option-indicate-external-links: off !default;
+
+// Styles
+$external-link-indicator-not: null !default;
+$external-link-indicator: \2197 !default;
+$external-link-indicator-color: currentColor !default;
+$external-link-indicator-color-hover: currentColor !default;
+$external-link-indicator-weight: inherit !default;
+$external-link-indicator-size: 1em !default;
+$external-link-indicator-gap: 0.25em !default;
+$external-link-indicator-line-height: 1 !default;
+$external-link-indicator-offset: 0 !default;
+$external-link-indicator-alignment: center !default;
+$external-link-indicator-position: end !default;
+$external-link-indicator-accessibility-text: "Link to external site" !default;

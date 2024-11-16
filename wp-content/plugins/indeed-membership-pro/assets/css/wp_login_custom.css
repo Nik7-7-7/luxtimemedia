@@ -1,0 +1,157 @@
+/*!
+ *  Customize the WP Login page
+ */
+body, body.login, html{
+	font-family: Poppins-Regular, sans-serif;
+	background-color: transparent;
+}
+html{
+	background-image: url(../images/login_bg.jpg);
+	background-color: #e1e7ee;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+body.login{
+	padding-top:5%;
+	padding-bottom:50px;
+	height: auto;
+}
+body.login div#login{
+    background-color: #fff;
+    padding: 0 30px 5px;
+    margin: 0 auto;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+	border: 1px solid transparent;
+	box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 9px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+	width: 300px;
+}
+body.login div#login h1{
+	    margin: 15px 0;
+		margin-bottom:5px;
+}
+body.login div#login h1 a{
+	background: url(../images/login_logo.png) top center no-repeat;
+	background-size: 100%;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    width: 100%;
+    height: 100px;
+	margin-bottom:5px;
+}
+#login_error, body.login div#login .message{
+	margin-top: 10px;
+}
+body.login div#login form, body.login div#login form#registerform{
+	 box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    padding: 0;
+    border: none;
+	margin-top:10px;
+}
+body.login div#login form#lostpasswordform{
+}
+body.login div#login form p{
+	margin-top:0px;
+}
+body.login div#login form p label{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+    padding-left: 7px;
+
+}
+body.login div#login form input[type=password], body.login div#login form input[type=text], body.login div#login form input[type=email], body.login div#login form select, body.login div#login form textarea{
+	height:50px;
+    padding: 15px!important;
+	border:none;
+	border-bottom: 2px solid #d9d9d9;
+	background: #fff;
+	box-shadow: none;
+	font-family: Poppins-Regular;    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+	    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+body.login div#login form input[type=password]:focus, body.login div#login form input[type=text]:focus, body.login div#login form input[type=email]:focus, body.login div#login form select:focus, body.login div#login form textarea:focus{
+	transition: border-bottom-color 0.5s ease;
+	border-bottom-color:#000;
+	border-color: #26bbea;
+    background-color: #fff;
+    box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 9px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+}
+body.login div#login form input[type=password]:hover, body.login div#login form input[type=text]:hover, body.login div#login form input[type=email]:hover, body.login div#login form select:hover, body.login div#login form textarea:hover{
+	transition: border-bottom-color 0.5s ease;
+	border-bottom-color:#000;
+	border-color: #26bbea;
+}
+body.login div#login form input#user_email, body.login div#login form input#user_login{
+}
+body.login div#login form p.forgetmenot{
+	margin:25px 0;
+}
+body.login div#login form p.forgetmenot label{
+	color:#444;
+}
+body.login div#login form p.submit{
+}
+body.login div#login form input[type=submit]{
+	width: 100%;
+    font-family: Helvetica, sans-serif, 'Trebuchet MS';
+    border: 2px solid #2bb7e3;
+    color: #2bb7e3;
+    text-transform: uppercase;
+    background-color: transparent;
+    box-shadow: none !important;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+    padding: 10px 30px 10px;
+    line-height: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    min-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+	text-shadow:none;
+}
+body.login div#login form input[type=submit]:hover{
+    background-color: #2bb7e3;
+    color: #fff;
+	}
+body.login div#login p#backtoblog a, body.login div#login p#nav a{
+	color: #2bb7e3;
+}
+body.login div#login p#backtoblog, body.login div#login p#nav{
+	    padding: 10px 0 0;
+		text-align:center;
+}

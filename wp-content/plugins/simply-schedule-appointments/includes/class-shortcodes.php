@@ -192,7 +192,7 @@ class SSA_Shortcodes {
 		}
 
 		$developer_settings = ssa()->developer_settings->get();
-		if( empty( $developer_settings['old_booking_app'] ) ){
+		if( ! empty( $developer_settings['beta_booking_app'] ) ){
 			return $this->plugin->dir( 'booking-app-new/iframe-inner.php' );}
 		else {
 			return $this->plugin->dir( 'booking-app/iframe-inner.php' );}
@@ -231,7 +231,7 @@ class SSA_Shortcodes {
 		global $ssa_current_appointment_id;
 		$ssa_current_appointment_id = $appointment_id;
 		$developer_settings = ssa()->developer_settings->get();
-        if( empty( $developer_settings['old_booking_app'] ) ){
+        if( ! empty( $developer_settings['beta_booking_app'] ) ){
             return $this->plugin->dir( 'booking-app-new/page-appointment-edit.php' );
         }else{
             return $this->plugin->dir( 'booking-app/page-appointment-edit.php' );
@@ -251,14 +251,7 @@ class SSA_Shortcodes {
 		if ( ! empty ( $edit_appointment_page_id ) && get_queried_object_id() == $edit_appointment_page_id ) {
 			$post = get_post($edit_appointment_page_id);
 			if ($post && has_shortcode( $post->post_content, 'ssa_confirmation' )) {
-
-				/**
-				 * Allow hijacking the page if the admin is editing as customer from within SSA admin app
-				 * @see admin-app/src/components/Appointment/Appointment.vue
-				 */
-				if ( empty( $_GET['redirect_from'] ) || $_GET['redirect_from'] !== 'ssa_admin' ) {
-					return $template;
-				}
+				return $template;
 			}
 		} else if ( !is_front_page() && ! is_home() ) {
 			return $template;
@@ -273,16 +266,12 @@ class SSA_Shortcodes {
 		if ( ! $this->plugin->appointment_model->verify_id_token(  $appointment_id, $provided_hash ) ) {
 			die( 'An error occurred, please check the URL' ); // phpcs:ignore
 		}
-		if ( isset( $_GET['admin'] ) && current_user_can( 'ssa_manage_site_settings' ) ) {
-			wp_redirect( ssa()->appointment_model->get_admin_edit_url( $appointment_id ), 302 );
-			exit;
-		}
 
 		add_filter( 'show_admin_bar', '__return_false' );
 		global $ssa_current_appointment_id;
 		$ssa_current_appointment_id = $appointment_id;
 		$developer_settings = ssa()->developer_settings->get();
-        if( empty( $developer_settings['old_booking_app'] ) ){
+        if( ! empty( $developer_settings['beta_booking_app'] ) ){
             return $this->plugin->dir( 'booking-app-new/page-appointment-edit.php' );
         }else{
             return $this->plugin->dir( 'booking-app/page-appointment-edit.php' );
@@ -475,8 +464,6 @@ class SSA_Shortcodes {
 	public function ssa_booking( $atts, $is_embedded_page = false ) {
 		$atts = shortcode_atts( $this->get_ssa_booking_arg_defaults(), $atts, 'ssa_booking' );
 		$atts = apply_filters( 'ssa_booking_shortcode_atts', $atts );
-		// escape JS
-		$atts = array_map( 'esc_attr', $atts );
 		$paypal_payment = isset($_GET['paypal_payment']) ? esc_attr($_GET['paypal_payment']): '';
 		$stripe_payment = isset($_GET['stripe_payment']) ? esc_attr($_GET['stripe_payment']): '';
 		
@@ -716,8 +703,6 @@ class SSA_Shortcodes {
 				'start_date_min'             => ssa_datetime()->sub( new DateInterval( 'PT1H' ) )->format( 'Y-m-d H:i:s' ),
 				'details_link_displayed'     => true,
 				'details_link_label'         => __( 'View Details', 'simply-schedule-appointments' ),
-				'all_appointments_link_label'         => __( 'View all upcoming appointments', 'simply-schedule-appointments' ),
-				'web_meeting_link_label'         => __( 'Open Web Meeting', 'simply-schedule-appointments' ),
 
 				'web_meeting_url'            => true,
 				'appointment_type_displayed' => false,
@@ -775,7 +760,6 @@ class SSA_Shortcodes {
 				'orderby'                    => 'start_date',
 				'order'                      => 'ASC',
 				'customer_id'                => get_current_user_id(),
-				'customer_information'       => wp_get_current_user()->user_email,
 
 				'no_results_message'         => __( 'No upcoming appointments', 'simply-schedule-appointments' ),
 				'logged_out_message'         => '',
@@ -941,8 +925,8 @@ class SSA_Shortcodes {
 		$developer_settings      = ssa()->developer_settings->get();
 		$include_new_booking_app = false;
 
-		// unless old_booking_app feature is enabled, we include the new booking app by default.
-		if ( empty( $developer_settings['old_booking_app'] ) ) {
+		// if beta_booking_app feature is enabled, we need to include the new booking app.
+		if ( ! empty( $developer_settings['beta_booking_app'] ) ) {
 			$include_new_booking_app = true;
 		}
 
@@ -961,7 +945,7 @@ class SSA_Shortcodes {
 			$include_new_booking_app = true;
 		}
 
-		// Include new booking app instead of the old one UNLESS the old_booking_app feature is enabled.
+		// Include new booking app instead of the old one IF the beta_booking_app feature is enabled.
 		if ( $include_new_booking_app ) {
 			include $this->plugin->dir( 'booking-app-new/iframe-inner.php' );
 		} else {

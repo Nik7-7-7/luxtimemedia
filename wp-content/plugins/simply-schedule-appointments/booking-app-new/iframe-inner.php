@@ -89,13 +89,8 @@ if( ! empty( $_GET['label'] ) ) {
 }
 
 if ( ! empty( $_GET['types'] ) ) {
-  $params_types = esc_attr( $_GET['types'] );
-} else if ( ! empty( $params['types'] ) ) {
-  $params_types = $params['types'];
-}
-
-if ( ! empty( $params_types ) ) {
-  $restricted_types = explode( ',', $params_types );
+  $restricted_types = esc_attr( $_GET['types'] );
+  $restricted_types = explode( ',', $restricted_types );
   $ssa_appointment_types = array_filter( $ssa_appointment_types, function( $appointment_type ) use ( $restricted_types ) {
     if ( empty( $appointment_type['id'] ) || empty( $appointment_type['slug'] ) ) {
       return false;
@@ -113,9 +108,6 @@ if ( ! empty( $params_types ) ) {
   });
   $ssa_appointment_types = array_values( $ssa_appointment_types );
 }
-
-$ssa_appointment_types = apply_filters( 'ssa_booking_appointment_types', $ssa_appointment_types );
-
 
 // Setup booking URL parameters for global variable
 $ssa_booking_url_settings = array(
@@ -222,20 +214,8 @@ function ssa_get_language_attributes( $doctype = 'html' ) {
       $padding_atts = $ssa->styles->get_style_atts_from_string( $ssa_styles['padding'] );
 
       // Attach Google stylesheet if necessary
-      $system_fonts = array(
-        'Arial' => 'Arial, Helvetica Neue, Helvetica, sans-serif',
-        'Arial Black' => 'Arial Black, Arial Bold, Gadget, sans-serif',
-        'Courier New' => 'Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace',
-        'Georgia' => 'Georgia, Times, Times New Roman, serif',
-        'Helvetica' => 'Helvetica Neue, Helvetica, Arial, sans-serif',
-        'Tahoma' => 'Tahoma, Verdana, Segoe, sans-serif',
-        'Times New Roman' => 'TimesNewRoman, Times New Roman, Times, Baskerville, Georgia,serif',
-        'Trebuchet MS' => 'Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif',
-        'Verdana' => 'Verdana, Geneva, sans-serif',
-        'Roboto' => 'Roboto'
-      );
-
-      $is_system_font = in_array(trim($ssa_styles['font']), $system_fonts);
+      $system_fonts = array('Arial', 'Arial Black', 'Courier New', 'Georgia', 'Helvetica', 'Roboto', 'Tahoma', 'Times New Roman', 'Trebuchet MS', 'Verdana');
+      $is_system_font = in_array($ssa_styles['font'], $system_fonts);
 
       if ( !$is_system_font ) : ?>
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -357,8 +337,6 @@ function ssa_get_language_attributes( $doctype = 'html' ) {
       <?php if (( $iframe_bg_contrast_ratio < 10 && $iframe_bg_transparency >= 0.8 ) || ( $ssa_styles['contrast'] && $iframe_bg_transparency < 0.8 ) ) : ?>
         html body,
         html body.md-theme-default {
-          --mdc-theme-text-primary-on-background: white;
-          --mdc-theme-text-secondary-on-light: rgba(255,255,255,0.54);
           color: white;
         }
         html .time-listing-icon {

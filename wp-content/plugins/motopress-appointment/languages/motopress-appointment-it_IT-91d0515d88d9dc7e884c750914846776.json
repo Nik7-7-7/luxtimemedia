@@ -1,0 +1,597 @@
+{
+    "translation-revision-date": "2022-07-07 14:03",
+    "generator": "WP-CLI\/2.10.0",
+    "source": "assets\/js\/gutenberg-blocks.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "it_IT",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Settings": [
+                "Impostazioni"
+            ],
+            "Price": [
+                "Prezzo"
+            ],
+            "Services": [
+                "Servizi"
+            ],
+            "Service": [
+                "Servizio"
+            ],
+            "Employees": [
+                "Dipendenti"
+            ],
+            "Employee": [
+                "Dipendente"
+            ],
+            "Clients": [
+                "Clienti"
+            ],
+            "Location": [
+                "Localit\u00e0"
+            ],
+            "\u2014 Select \u2014": [
+                "\u2014 Selezionare \u2014"
+            ],
+            "Appointment Form": [
+                "Modulo per gli appuntamenti"
+            ],
+            "\u2014 Unselected \u2014": [
+                "\u2014 Deselezionato \u2014"
+            ],
+            "Form Title": [
+                "Titolo del modulo"
+            ],
+            "Show Category?": [
+                "Mostrare categoria?"
+            ],
+            "Show the service category field in the form.": [
+                "Mostra il campo della categoria servizio nel modulo."
+            ],
+            "Show Location?": [
+                "Mostrare la posizione?"
+            ],
+            "Show the location field in the form.": [
+                "Mostra il campo della posizione nel modulo."
+            ],
+            "Show Employee?": [
+                "Mostrare il dipendente?"
+            ],
+            "Show the employee field in the form.": [
+                "Mostra il campo del dipendente nel modulo."
+            ],
+            "Category Field Label": [
+                "Etichetta del campo della categoria"
+            ],
+            "Service Category": [
+                "Categoria servizio"
+            ],
+            "Custom label for the service category field.": [
+                "Etichetta personalizzata per il campo della categoria servizio."
+            ],
+            "Service Field Label": [
+                "Etichetta del campo del servizio"
+            ],
+            "Custom label for the service field.": [
+                "Etichetta personalizzata per il campo del servizio."
+            ],
+            "Location Field Label": [
+                "Etichetta del campo della posizione"
+            ],
+            "Custom label for the location field.": [
+                "Etichetta personalizzata per il campo della posizione."
+            ],
+            "Employee Field Label": [
+                "Etichetta del campo del dipendente"
+            ],
+            "Custom label for the employee field.": [
+                "Etichetta personalizzata per il campo del dipendente."
+            ],
+            "Unselected Service": [
+                "Deseleziona il servizio"
+            ],
+            "Custom label for the unselected service field.": [
+                "Etichetta personalizzata per il campo del servizio deselezionato."
+            ],
+            "Unselected Option": [
+                "Opzione deselezionata"
+            ],
+            "\u2014 Any \u2014": [
+                "\u2014 Qualsiasi \u2014"
+            ],
+            "Comma-separated slugs or IDs of tags that will be shown.": [
+                "Slug di attributi separati da virgola o ID dei tag che appariranno."
+            ],
+            "Slug of the selected service category.": [
+                "Slug della categoria del servizio selezionata."
+            ],
+            "ID of the selected service.": [
+                "ID del servizio selezionato."
+            ],
+            "ID of the selected location.": [
+                "ID della posizione selezionata."
+            ],
+            "ID of the selected employee.": [
+                "ID del dipendente selezionato."
+            ],
+            "Timepicker Columns Count": [
+                "Conteggio delle colonne del selettore temporale"
+            ],
+            "Show End Time?": [
+                "Mostrare la data di fine?"
+            ],
+            "Show the time when the appointment ends.": [
+                "Mostra l'orario al termine dell'appuntamento."
+            ],
+            "Employee Additional Information": [
+                "Informazioni aggiuntive sul dipendente"
+            ],
+            "ID": [
+                "ID"
+            ],
+            "Post ID of an employee to display content from. Note: this parameter automatically uses the current post ID when a shortcode is inside the employee's post and is required otherwise.": [
+                "ID del post di un dipendente da cui visualizzare il contenuto. Nota: questo parametro utilizza automaticamente l'ID del post corrente quando uno shortcode \u00e8 all'interno del post del dipendente ed \u00e8 richiesto altrimenti."
+            ],
+            "Employee Contact Information": [
+                "Informazioni di contatto del dipendente"
+            ],
+            "Employee Content": [
+                "Contenuto del Dipendente"
+            ],
+            "Employee Image": [
+                "Immagine del Dipendente"
+            ],
+            "Employee Schedule": [
+                "Programmi per turni di lavoro"
+            ],
+            "Employee Services List": [
+                "Elenco servizi dei dipendenti"
+            ],
+            "Employees List": [
+                "Elenco dipendenti"
+            ],
+            "Show featured image.": [
+                "Mostra immagine in evidenza."
+            ],
+            "Show post title.": [
+                "Mostra titolo del post."
+            ],
+            "Show post excerpt.": [
+                "Mostra un estratto del post."
+            ],
+            "Show contact information.": [
+                "Mostra informazioni di contatto."
+            ],
+            "Show social networks.": [
+                "Mostra Reti Sociali."
+            ],
+            "Show additional information.": [
+                "Mostra informazioni aggiuntive."
+            ],
+            "Comma-separated slugs or IDs of employees that will be shown.": [
+                "Chiavi o identificatori separate da virgole o ID dei dipendenti che verranno visualizzati."
+            ],
+            "Locations": [
+                "Posizioni"
+            ],
+            "Comma-separated slugs or IDs of locations.": [
+                "Chiavi o identificatori separate da virgole o ID delle posizioni."
+            ],
+            "Posts Per Page": [
+                "Post per pagina"
+            ],
+            "Columns Count": [
+                "Conteggio colonne"
+            ],
+            "The number of columns in the grid.": [
+                "Il numero di colonne della griglia."
+            ],
+            "Order By": [
+                "Ordina per"
+            ],
+            "No order": [
+                "Nessun ordine"
+            ],
+            "Post ID": [
+                "ID articolo"
+            ],
+            "Post author": [
+                "Autore"
+            ],
+            "Post title": [
+                "Titolo del post"
+            ],
+            "Post name (post slug)": [
+                "Nome del post ( slug del post)"
+            ],
+            "Post date": [
+                "Data del post"
+            ],
+            "Last modified date": [
+                "Data dell'ultima modifica"
+            ],
+            "Random order": [
+                "Ordine casuale"
+            ],
+            "Relevance": [
+                "Pertinenza"
+            ],
+            "Page order": [
+                "Ordine pagine"
+            ],
+            "Page order and post title": [
+                "Ordine della pagina e titolo del post"
+            ],
+            "Order": [
+                "Ordine"
+            ],
+            "DESC": [
+                "DESC"
+            ],
+            "ASC": [
+                "ASC"
+            ],
+            "Employee Social Networks": [
+                "Reti sociali dei dipendenti"
+            ],
+            "Employee Title": [
+                "Titolo del dipendente"
+            ],
+            "Locations List": [
+                "Elenco delle posizioni"
+            ],
+            "Categories": [
+                "Categorie"
+            ],
+            "Comma-separated slugs or IDs of categories that will be shown.": [
+                "Chiavi o identificatori separate da virgole o ID delle categorie che verranno visualizzate."
+            ],
+            "Service Categories": [
+                "Categorie di servizi"
+            ],
+            "Show Services Count?": [
+                "Mostrare il conteggio dei servizi?"
+            ],
+            "Show Description?": [
+                "Mostrare la descrizione?"
+            ],
+            "Parent": [
+                "Superiore"
+            ],
+            "Parent term slug or ID to retrieve direct-child terms from.": [
+                "Slug o ID del termine superiore da cui recuperare i termini diretti di categoria inferiore."
+            ],
+            "Exclude Categories": [
+                "Escludi Categorie"
+            ],
+            "Comma-separated slugs or IDs of categories that will not be shown.": [
+                "Chiavi o identificatori separate da virgole o ID delle categorie che non verranno visualizzate."
+            ],
+            "Hide Empty": [
+                "Nascondi vuoti"
+            ],
+            "Depth": [
+                "Profondit\u00e0"
+            ],
+            "Display depth of child categories.": [
+                "Visualizza tutte le categorie inferiori."
+            ],
+            "Number": [
+                "Numero"
+            ],
+            "Maximum number of categories to show.": [
+                "Numero massimo di categorie da visualizzare."
+            ],
+            "Term name": [
+                "Nome del termine"
+            ],
+            "Term slug": [
+                "Slug del termine"
+            ],
+            "Term ID": [
+                "ID termine"
+            ],
+            "Parent ID": [
+                "ID superiore"
+            ],
+            "Number of associated objects": [
+                "Numero di oggetti associati"
+            ],
+            "Keep the order of \"IDs\" parameter": [
+                "Mantieni l'ordine del parametro \"ID\""
+            ],
+            "Term order": [
+                "Ordine del termine"
+            ],
+            "Services List": [
+                "Elenco dei servizi"
+            ],
+            "Show service price.": [
+                "Mostra il prezzo dei servizi."
+            ],
+            "Show service duration.": [
+                "Mostra la durata del servizio."
+            ],
+            "Show service capacity.": [
+                "Mostra la capacit\u00e0 dei servizio."
+            ],
+            "Show service employees.": [
+                "Mostra i dipendenti del servizio."
+            ],
+            "Comma-separated slugs or IDs of services that will be shown.": [
+                "Chiavi o identificatori separate da virgole o ID dei servizi che verranno visualizzati."
+            ],
+            "Comma-separated slugs or IDs of employees that perform these services.": [
+                "Chiavi o identificatori separate da virgole o ID dei dipendenti che eseguiranno questi servizi."
+            ],
+            "Tags": [
+                "Tag"
+            ],
+            "Custom label for the unselected service category, location and employee fields.": [
+                "Etichetta personalizzata per la categoria, la posizione e il dipendente del servizio deselezionato."
+            ],
+            "Hide terms not assigned to any posts.": [
+                "Nascondi i termini non ancora assegnati ad alcun post."
+            ],
+            "Remove": [
+                "Rimuovere"
+            ],
+            "Zero price\u0004Free": [
+                "Liberamente"
+            ],
+            "Bancontact": [
+                "Bancontact"
+            ],
+            "iDEAL": [
+                "iDEAL"
+            ],
+            "Giropay": [
+                "Giropay"
+            ],
+            "SEPA Direct Debit": [
+                "Addebito diretto SEPA"
+            ],
+            "SOFORT": [
+                "SOFORT"
+            ],
+            "The number of columns in the timepicker.": [
+                "Il numero di colonne del selettore temporale."
+            ],
+            "Making a reservation...": [
+                "Prenotazione in corso..."
+            ],
+            "Sun": [
+                "Dom"
+            ],
+            "Mon": [
+                "Lun"
+            ],
+            "Tue": [
+                "Mar"
+            ],
+            "Wed": [
+                "Mer"
+            ],
+            "Thu": [
+                "Gio"
+            ],
+            "Fri": [
+                "Ven"
+            ],
+            "Sat": [
+                "Sab"
+            ],
+            "Sunday": [
+                "Domenica"
+            ],
+            "Monday": [
+                "Luned\u00ec"
+            ],
+            "Tuesday": [
+                "Marted\u00ec"
+            ],
+            "Wednesday": [
+                "Mercoled\u00ec"
+            ],
+            "Thursday": [
+                "Gioved\u00ec"
+            ],
+            "Friday": [
+                "Venerd\u00ec"
+            ],
+            "Saturday": [
+                "Sabato"
+            ],
+            "Jan": [
+                "Gen"
+            ],
+            "Feb": [
+                "Feb"
+            ],
+            "Mar": [
+                "Mar"
+            ],
+            "Apr": [
+                "Apr"
+            ],
+            "Month (short)\u0004May": [
+                "Mag"
+            ],
+            "Jun": [
+                "Giu"
+            ],
+            "Jul": [
+                "Lug"
+            ],
+            "Aug": [
+                "Ago"
+            ],
+            "Sep": [
+                "Sett"
+            ],
+            "Oct": [
+                "Ott"
+            ],
+            "Nov": [
+                "Nov"
+            ],
+            "Dec": [
+                "Dic"
+            ],
+            "January": [
+                "Gennaio"
+            ],
+            "February": [
+                "Febbraio"
+            ],
+            "March": [
+                "Marzo"
+            ],
+            "April": [
+                "Aprile"
+            ],
+            "Month\u0004May": [
+                "Maggio"
+            ],
+            "June": [
+                "Giugno"
+            ],
+            "July": [
+                "Luglio"
+            ],
+            "August": [
+                "Agosto"
+            ],
+            "September": [
+                "Settembre"
+            ],
+            "October": [
+                "Ottobre"
+            ],
+            "November": [
+                "Novembre"
+            ],
+            "December": [
+                "Dicembre"
+            ],
+            "Total": [
+                "Totale"
+            ],
+            "Card": [
+                "Carta"
+            ],
+            "By providing your IBAN and confirming this payment, you authorise (A) %s and Stripe, our payment service provider, to send instructions to your bank to debit your account and (B) your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.": [
+                ""
+            ],
+            "Credit or debit card": [
+                "Carta di credito o di debito"
+            ],
+            "Select iDEAL Bank": [
+                "Seleziona iDEAL Bank"
+            ],
+            "IBAN": [
+                "IBAN"
+            ],
+            "You will be redirected to a secure page to complete the payment.": [
+                "Sarai reindirizzato ad una pagina sicura per completare il pagamento."
+            ],
+            "Sorry, there are no services, employees or locations to book.": [
+                "Siamo spiacenti, non ci sono servizi, dipendenti o luoghi da prenotare."
+            ],
+            "Sorry, but we were unable to allocate time slots for the date you selected.": [
+                "Siamo spiacenti, ma non siamo stati in grado di assegnare le fasce orarie per la data selezionata."
+            ],
+            "Coupon code is empty.": [
+                ""
+            ],
+            "Coupon code applied successfully.": [
+                ""
+            ],
+            "Sorry, your booking is not eligible for this coupon.": [
+                ""
+            ],
+            "appointment": [
+                "appuntamento"
+            ],
+            "Show Service?": [
+                ""
+            ],
+            "Show the service field in the form.": [
+                ""
+            ],
+            "Left to pay": [
+                ""
+            ],
+            "Phone number is invalid.": [
+                ""
+            ],
+            "or": [
+                ""
+            ],
+            "To enable this option, you need to check the '%s' box.": [
+                ""
+            ],
+            "To enable booking for the specific service only, select the service below first, then uncheck the 'Service' box here.": [
+                ""
+            ],
+            "Subtotal": [
+                ""
+            ],
+            "Coupon: %s": [
+                ""
+            ],
+            "Deposit": [
+                ""
+            ],
+            "Paying now": [
+                ""
+            ],
+            "Form Width": [
+                ""
+            ],
+            "Example: 100%": [
+                ""
+            ],
+            "Primary Text Color": [
+                ""
+            ],
+            "Primary Background Color": [
+                ""
+            ],
+            "Secondary Text Color": [
+                ""
+            ],
+            "Secondary Background Color": [
+                ""
+            ],
+            "Buttons Padding": [
+                ""
+            ],
+            "Example: 5px 10px": [
+                ""
+            ],
+            "Show 'Add to Your Calendar?' section.": [
+                ""
+            ],
+            "Allow customers to add an appointment to their own Google, Apple, Outlook, or Yahoo calendar.": [
+                ""
+            ],
+            "These options only affect what you see on the front end.": [
+                ""
+            ],
+            "Colors": [
+                ""
+            ],
+            "Payment methods": [
+                ""
+            ],
+            "All day": [
+                ""
+            ]
+        }
+    }
+}

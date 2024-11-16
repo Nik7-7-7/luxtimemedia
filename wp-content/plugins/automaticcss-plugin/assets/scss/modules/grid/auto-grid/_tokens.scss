@@ -1,0 +1,5 @@
+:root {
+    @each $grid, $col-count in $auto-grids {
+        --grid-auto-#{$col-count}: repeat(auto-fit, minmax(min(100%, max(calc((var(--content-width) - ((#{$col-count} - 1) * var(--grid-gap))) / #{$col-count}) * #{$auto-grid-aggressiveness}, (100% - (#{$col-count} - 1) * var(--grid-gap)) / #{$col-count})), 1fr));
+    }
+}

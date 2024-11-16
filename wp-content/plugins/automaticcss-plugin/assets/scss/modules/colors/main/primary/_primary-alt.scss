@@ -1,0 +1,148 @@
+// primary Options
+$option-primary-clr-alt: off !default;
+
+// primary Alt Vars
+$primary-alt-hex: #e56c70 !default;
+$primary-r-alt: 229 !default;
+$primary-g-alt: 108 !default;
+$primary-b-alt: 112 !default;
+$primary-h-alt: 358 !default;
+$primary-s-alt: 70% !default;
+$primary-l-alt: 66% !default;
+$primary-hover-h-alt: 358 !default;
+$primary-hover-s-alt: 70% !default;
+$primary-hover-l-alt: 1.15 !default;
+$primary-ultra-light-h-alt: 358 !default;
+$primary-ultra-light-s-alt: 70% !default;
+$primary-ultra-light-l-alt: 95% !default;
+$primary-light-h-alt: 358 !default;
+$primary-light-s-alt: 70% !default;
+$primary-light-l-alt: 85% !default;
+$primary-medium-h-alt: 358 !default;
+$primary-medium-s-alt: 70% !default;
+$primary-medium-l-alt: 50% !default;
+$primary-dark-h-alt: 358 !default;
+$primary-dark-s-alt: 70% !default;
+$primary-dark-l-alt: 25% !default;
+$primary-ultra-dark-h-alt: 358 !default;
+$primary-ultra-dark-s-alt: 70% !default;
+$primary-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$primary-semi-light-h-alt: 358 !default;
+$primary-semi-light-s-alt: 70% !default;
+$primary-semi-light-l-alt: 60% !default;
+$primary-semi-dark-h-alt: 358 !default;
+$primary-semi-dark-s-alt: 70% !default;
+$primary-semi-dark-l-alt: 40% !default;
+
+// Primary Alt Color Map
+$color-primary-alt:(); // Initialize Map
+@if $option-primary-clr-alt == on and $option-primary-clr == on {
+  $color-primary-alt: (
+    "main": (
+      "primary": $primary-alt-hex,
+      "primary-hover": hsl($primary-hover-h-alt, $primary-hover-s-alt, $primary-hover-l-alt),
+      "primary-ultra-light": hsl($primary-ultra-light-h-alt, $primary-ultra-light-s-alt, $primary-ultra-light-l-alt),
+      "primary-light": hsl($primary-light-h-alt, $primary-light-s-alt, $primary-light-l-alt),
+      "primary-semi-light": hsl($primary-semi-light-h-alt, $primary-semi-light-s-alt, $primary-semi-light-l-alt),
+      "primary-semi-dark": hsl($primary-semi-dark-h-alt, $primary-semi-dark-s-alt, $primary-semi-dark-l-alt),
+      "primary-dark": hsl($primary-dark-h-alt, $primary-dark-s-alt, $primary-dark-l-alt),
+      "primary-ultra-dark": hsl($primary-ultra-dark-h-alt, $primary-ultra-dark-s-alt, $primary-ultra-dark-l-alt),
+      "primary-comp": hsl($primary-h-alt + 180, $primary-s-alt, $primary-l-alt),
+    ),
+    "trans": (
+      "primary-trans-10": rgba($primary-alt-hex, .1),
+      "primary-trans-20": rgba($primary-alt-hex, .2),
+      "primary-trans-30": rgba($primary-alt-hex, .3),
+      "primary-trans-40": rgba($primary-alt-hex, .4),
+      "primary-trans-50": rgba($primary-alt-hex, .5),
+      "primary-trans-60": rgba($primary-alt-hex, .6),
+      "primary-trans-70": rgba($primary-alt-hex, .7),
+      "primary-trans-80": rgba($primary-alt-hex, .8),
+      "primary-trans-90": rgba($primary-alt-hex, .9),
+    ),
+    "light-trans": (
+      "primary-light-trans-10": hsl($primary-light-h-alt, $primary-light-s-alt, $primary-light-l-alt, .1),
+      "primary-light-trans-20": hsl($primary-light-h-alt, $primary-light-s-alt, $primary-light-l-alt, .2),
+      "primary-light-trans-30": hsl($primary-light-h-alt, $primary-light-s-alt, $primary-light-l-alt, .3),
+      "primary-light-trans-40": hsl($primary-light-h-alt, $primary-light-s-alt, $primary-light-l-alt, .4),
+      "primary-light-trans-50": hsl($primary-light-h-alt, $primary-light-s-alt, $primary-light-l-alt, .5),
+      "primary-light-trans-60": hsl($primary-light-h-alt, $primary-light-s-alt, $primary-light-l-alt, .6),
+      "primary-light-trans-70": hsl($primary-light-h-alt, $primary-light-s-alt, $primary-light-l-alt, .7),
+      "primary-light-trans-80": hsl($primary-light-h-alt, $primary-light-s-alt, $primary-light-l-alt, .8),
+      "primary-light-trans-90": hsl($primary-light-h-alt, $primary-light-s-alt, $primary-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "primary-dark-trans-10": hsl($primary-dark-h-alt, $primary-dark-s-alt, $primary-dark-l-alt, .1),
+      "primary-dark-trans-20": hsl($primary-dark-h-alt, $primary-dark-s-alt, $primary-dark-l-alt, .2),
+      "primary-dark-trans-30": hsl($primary-dark-h-alt, $primary-dark-s-alt, $primary-dark-l-alt, .3),
+      "primary-dark-trans-40": hsl($primary-dark-h-alt, $primary-dark-s-alt, $primary-dark-l-alt, .4),
+      "primary-dark-trans-50": hsl($primary-dark-h-alt, $primary-dark-s-alt, $primary-dark-l-alt, .5),
+      "primary-dark-trans-60": hsl($primary-dark-h-alt, $primary-dark-s-alt, $primary-dark-l-alt, .6),
+      "primary-dark-trans-70": hsl($primary-dark-h-alt, $primary-dark-s-alt, $primary-dark-l-alt, .7),
+      "primary-dark-trans-80": hsl($primary-dark-h-alt, $primary-dark-s-alt, $primary-dark-l-alt, .8),
+      "primary-dark-trans-90": hsl($primary-dark-h-alt, $primary-dark-s-alt, $primary-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "primary-ultra-dark-trans-10": hsl($primary-ultra-dark-h-alt, $primary-ultra-dark-s-alt, $primary-ultra-dark-l-alt, .1),
+      "primary-ultra-dark-trans-20": hsl($primary-ultra-dark-h-alt, $primary-ultra-dark-s-alt, $primary-ultra-dark-l-alt, .2),
+      "primary-ultra-dark-trans-30": hsl($primary-ultra-dark-h-alt, $primary-ultra-dark-s-alt, $primary-ultra-dark-l-alt, .3),
+      "primary-ultra-dark-trans-40": hsl($primary-ultra-dark-h-alt, $primary-ultra-dark-s-alt, $primary-ultra-dark-l-alt, .4),
+      "primary-ultra-dark-trans-50": hsl($primary-ultra-dark-h-alt, $primary-ultra-dark-s-alt, $primary-ultra-dark-l-alt, .5),
+      "primary-ultra-dark-trans-60": hsl($primary-ultra-dark-h-alt, $primary-ultra-dark-s-alt, $primary-ultra-dark-l-alt, .6),
+      "primary-ultra-dark-trans-70": hsl($primary-ultra-dark-h-alt, $primary-ultra-dark-s-alt, $primary-ultra-dark-l-alt, .7),
+      "primary-ultra-dark-trans-80": hsl($primary-ultra-dark-h-alt, $primary-ultra-dark-s-alt, $primary-ultra-dark-l-alt, .8),
+      "primary-ultra-dark-trans-90": hsl($primary-ultra-dark-h-alt, $primary-ultra-dark-s-alt, $primary-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "primary-hex": $primary-alt-hex,
+        "primary-hsl": $primary-h $primary-s $primary-l-alt,
+        "primary-rgb": $primary-r $primary-g $primary-b-alt,
+        "primary-r": $primary-r-alt,
+        "primary-g": $primary-g-alt,
+        "primary-b": $primary-b-alt,
+        "primary-h": $primary-h-alt,
+        "primary-s": $primary-s-alt,
+        "primary-l": $primary-l-alt,
+        "primary-hover-h": $primary-hover-h-alt,
+        "primary-hover-s": $primary-hover-s-alt,
+        "primary-hover-l": $primary-hover-l-alt,
+        "primary-ultra-light-h": $primary-ultra-light-h-alt,
+        "primary-ultra-light-s": $primary-ultra-light-s-alt,
+        "primary-ultra-light-l": $primary-ultra-light-l-alt,
+        "primary-light-h": $primary-light-h-alt,
+        "primary-light-s": $primary-light-s-alt,
+        "primary-light-l": $primary-light-l-alt,
+        "primary-semi-light-h": $primary-semi-light-h-alt,
+        "primary-semi-light-s": $primary-semi-light-s-alt,
+        "primary-semi-light-l": $primary-semi-light-l-alt,
+        "primary-semi-dark-h": $primary-semi-dark-h-alt,
+        "primary-semi-dark-s": $primary-semi-dark-s-alt,
+        "primary-semi-dark-l": $primary-semi-dark-l-alt,
+        "primary-dark-h": $primary-dark-h-alt,
+        "primary-dark-s": $primary-dark-s-alt,
+        "primary-dark-l": $primary-dark-l-alt,
+        "primary-ultra-dark-h": $primary-ultra-dark-h-alt,
+        "primary-ultra-dark-s": $primary-ultra-dark-s-alt,
+        "primary-ultra-dark-l": $primary-ultra-dark-l-alt,
+        "primary-comp-h": $primary-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-primary-clr-alt == on and $option-primary-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-primary-alt: map-merge($color-primary-alt, (
+      "main": map-merge(map-get($color-primary-alt, "main"), (
+        "primary-medium": hsl($primary-medium-h-alt, $primary-medium-s-alt, $primary-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-primary-alt, "partials"), (
+        "primary-medium-h": $primary-medium-h-alt,
+        "primary-medium-s": $primary-medium-s-alt,
+        "primary-medium-l": $primary-medium-l-alt
+      ))
+    ));
+  }
+}

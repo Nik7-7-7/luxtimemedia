@@ -1,0 +1,29 @@
+// This function checks for texture relationships
+// and appends the texture selectors to a dynamic selector string.
+// Use the function like this: $selector_string: '.bg--#{$color}' + get_texture_selectors($color);
+// Change .bg--#{$color} to the desired base selector.
+// Then output $selector_string as the final selector.
+@function get_texture_selectors($color) {
+	@if $option-textures == on {
+	  $selector_string: '';
+	  $i: 1;
+	  @each $texture, $props in $textures {
+		@if map-get($props, 'relationship') == $color {
+		  $custom-name: map-get($props, 'name');
+		  $selector_string: $selector_string + ', .texture-#{$i}, .texture-#{$custom-name}';
+
+		  // Check if overlay option is on for this item
+		  $overlay-option: map-get($props, 'overlay-option');
+		  @if $overlay-option == "on" {
+			// Add numbered overlay class only if overlay option is on
+			$selector_string: $selector_string + ', .overlay-#{$i}, .overlay-#{$custom-name}';
+		  }
+
+		  $i: $i + 1;
+		}
+	  }
+	  @return $selector_string;
+	}
+  }
+
+

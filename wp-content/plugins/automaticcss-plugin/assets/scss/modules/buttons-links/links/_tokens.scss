@@ -1,0 +1,7 @@
+:root {
+  @each $link-style, $value in $link-default-styles {
+		@if $value != null {
+			--#{$link-style}: #{$value};
+		}
+	}
+}

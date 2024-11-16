@@ -1,0 +1,32 @@
+// Add container gap between all elements in sections.
+@if $option-container-gap == on {
+    @include auto-contextual-spacing(section, var(--container-gap), center);
+  }
+  
+  // Add content gap inside all direct divs in sections.
+  @if $option-content-gap == on {
+    @include auto-contextual-spacing("section > div", var(--content-gap), flex-start);
+  }
+  
+  // Add content gap inside blocks
+  @if $option-content-gap == on {
+
+    // Bricks
+    @if $option-bricks == on {
+        @include auto-contextual-block-spacing(":where(.brxe-block)", var(--content-gap));
+        @include auto-contextual-block-spacing(":where(.brxe-div)", var(--content-gap));
+    }
+  
+    // Breakdance
+    @if $option-breakdance == on {
+        @include auto-contextual-block-spacing(".breakdance :where(.bde-div)", var(--content-gap));
+    }
+}
+  
+  // Add grid gap to all grid classes automatically.
+  @if $option-grid-gap == on {
+    section > div:where([class*="grid--"]),
+    :where([class*="grid--"]) {
+        gap: var(--grid-gap);
+    }
+  }

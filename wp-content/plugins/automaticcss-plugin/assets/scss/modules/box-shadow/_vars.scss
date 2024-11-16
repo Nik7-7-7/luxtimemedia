@@ -1,0 +1,19 @@
+$box-shadow-1-name: m !default;
+$box-shadow-2-name: l !default;
+$box-shadow-3-name: xl !default;
+
+$box-shadow-1-value: 0 4px 4px -10px hsla($neutral-h, $neutral-s, $neutral-l, 0.04),
+  0 13px 13px -10px hsla($neutral-h, $neutral-s, $neutral-l, 0.06),
+  0 40px 60px -10px hsla($neutral-h, $neutral-s, $neutral-l, 0.08) !default;
+
+$box-shadow-2-value: 0 2.7px 3.6px -5px hsla($neutral-h, $neutral-s, $neutral-l, 0.04),
+  0 7.5px 10px -5px hsla($neutral-h, $neutral-s, $neutral-l, 0.06),
+  0 18px 24.1px -5px hsla($neutral-h, $neutral-s, $neutral-l, 0.08),
+  0 60px 80px -5px hsla($neutral-h, $neutral-s, $neutral-l, 0.1) !default;
+
+$box-shadow-3-value: 2.8px 2.8px 2.2px hsla($neutral-h, $neutral-s, $neutral-l, 0.02),
+  0 6.7px 5.3px -5px hsla($neutral-h, $neutral-s, $neutral-l, 0.04),
+  0 12.5px 10px -5px hsla($neutral-h, $neutral-s, $neutral-l, 0.06),
+  0 22.3px 17.9px -5px hsla($neutral-h, $neutral-s, $neutral-l, 0.08),
+  0 41.8px 33.4px -5px hsla($neutral-h, $neutral-s, $neutral-l, 0.1),
+  0 80px 80px -5px hsla($neutral-h, $neutral-s, $neutral-l, 0.105) !default;

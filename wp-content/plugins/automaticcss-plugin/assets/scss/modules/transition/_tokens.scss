@@ -1,0 +1,16 @@
+@import "vars";
+
+:root {
+    @if $transition-duration != null {
+        --transition-duration: #{$transition-duration};
+    }
+    @if $transition-timing != null {
+        --transition-timing: #{$transition-timing};
+    }
+    @if $transition-delay != null {
+        --transition-delay: #{$transition-delay};
+    }
+    @if $transition-global != null {
+        --transition: #{$transition-global};
+    }
+}

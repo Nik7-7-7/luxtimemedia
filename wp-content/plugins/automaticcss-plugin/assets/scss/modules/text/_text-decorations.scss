@@ -1,0 +1,8 @@
+@if $option-basic-text-classes == on {
+  @each $decoration, $value in $textDecorations {
+    .text--#{$decoration} {
+      -webkit-text-decoration: $value;
+      text-decoration: $value;
+    }
+  }
+}

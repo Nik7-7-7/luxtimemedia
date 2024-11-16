@@ -1,0 +1,7 @@
+// Visual indicator for hidden accessible text
+.builder-element.hidden-accessible {
+    @include hidden-accessible-badge;
+  }
+
+// Clickable Parent
+@include load-clickable-parent(".breakdance.canvas");

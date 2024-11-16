@@ -1,0 +1,269 @@
+// Lightness Defaults
+$default-hover: 85%;
+$default-ultra-light: 97%;
+$default-light: 85%;
+$default-semi-light: 60%;
+$default-semi-dark: 40%;
+$default-dark: 25%;
+$default-ultra-dark: 5%;
+
+// Import Deprecated
+@import "deprecated/comp-colors";
+@import "deprecated/medium-shade";
+@import "deprecated/shade/shade-main";
+@import "deprecated/shade/shade-alt";
+@import "deprecated/action/action-main";
+@import "deprecated/action/action-alt";
+
+// Import Main Colors
+@import "main/primary/primary-main";
+@import "main/primary/primary-alt";
+@import "main/secondary/secondary-main";
+@import "main/secondary/secondary-alt";
+@import "main/tertiary/tertiary-main";
+@import "main/tertiary/tertiary-alt";
+@import "main/accent/accent-main";
+@import "main/accent/accent-alt";
+@import "main/base/base-main";
+@import "main/base/base-alt";
+@import "main/neutral/neutral-main";
+@import "main/neutral/neutral-alt";
+@import "main/bw/bw-main";
+@import "main/bw/bw-alt";
+
+// Import Status Colors
+@import "status/danger/danger-main";
+@import "status/danger/danger-alt";
+@import "status/warning/warning-main";
+@import "status/warning/warning-alt";
+@import "status/info/info-main";
+@import "status/info/info-alt";
+@import "status/success/success-main";
+@import "status/success/success-alt";
+
+
+///// Generate Main Colors List
+$color-maps: $color-action, $color-primary, $color-secondary, $color-tertiary, $color-accent, $color-base, $color-shade, $color-neutral, $color-bw;
+$alt-color-maps: $color-action-alt, $color-primary-alt, $color-secondary-alt, $color-tertiary-alt, $color-accent-alt, $color-base-alt, $color-shade-alt, $color-neutral-alt, $color-bw-alt; 
+
+///// Generate Status Colors List
+$status-color-maps: $color-danger, $color-warning, $color-info, $color-success;
+$alt-status-color-maps: $color-danger-alt, $color-warning-alt, $color-info-alt, $color-success-alt;
+
+//// Generate a core colors map (main colors & shades, no transparencies or partials)
+//// For generating utilities that don't need partials or transparencies
+
+// Main
+
+$core-colors:(); // Initialize map
+@each $map in $color-maps {
+  @if map-has-key($map, "main") { // Check to see if it has the main key
+    $core-colors: map-merge($core-colors, map-get($map, "main")); // Get the main colors
+  }
+}
+
+$alt-core-colors:(); // Initialize map
+@each $map in $alt-color-maps {
+  @if map-has-key($map, "main") { // Check to see if it has the main key
+    $alt-core-colors: map-merge($alt-core-colors, map-get($map, "main")); // Get the main colors
+  }
+}
+
+// Status
+
+$core-status-colors:(); // Initialize map
+@each $map in $status-color-maps {
+  @if map-has-key($map, "main") { // Check to see if it has the main key
+    $core-status-colors: map-merge($core-status-colors, map-get($map, "main")); // Get the main colors
+  }
+}
+
+$alt-core-status-colors:(); // Initialize map
+@each $map in $alt-status-color-maps {
+  @if map-has-key($map, "main") { // Check to see if it has the main key
+    $alt-core-status-colors: map-merge($alt-core-status-colors, map-get($map, "main")); // Get the main colors
+  }
+}
+
+//// Create a map with partials only
+// Main
+$color-partials:(); // Initialize map
+@each $map in $color-maps {
+  @if map-has-key($map, "partials") { // Check to see if it has the partials key
+    $color-partials: map-merge($color-partials, map-get($map, "partials")); // Remove the "partials" group
+  }
+}
+$alt-color-partials:(); // Initialize map
+@each $map in $alt-color-maps {
+  @if map-has-key($map, "partials") { // Check to see if it has the partials key
+    $alt-color-partials: map-merge($alt-color-partials, map-get($map, "partials")); // Remove the "partials" group
+  }
+}
+// Status
+$status-color-partials:(); // Initialize map
+@each $map in $status-color-maps {
+  @if map-has-key($map, "partials") { // Check to see if it has the partials key
+    $status-color-partials: map-merge($status-color-partials, map-get($map, "partials")); // Remove the "partials" group
+  }
+}
+$alt-status-color-partials:(); // Initialize map
+@each $map in $alt-status-color-maps {
+  @if map-has-key($map, "partials") { // Check to see if it has the partials key
+    $alt-status-color-partials: map-merge($alt-status-color-partials, map-get($map, "partials")); // Remove the "partials" group
+  }
+}
+
+//// Create a map with everything except partials
+//// Needed for easily excluding partials from certain places
+
+$all-colors:(); // Initialize map
+@each $map in $color-maps {
+  @if map-has-key($map, "main") { // Check to see if it has the "main" key
+    $all-colors: map-merge($all-colors, map-get($map, "main")); // Get the main colors
+  }
+  @if map-has-key($map, "trans") { // Check to see if it has the "trans" key
+    $all-colors: map-merge($all-colors, map-get($map, "trans")); // Get the trans colors
+  }
+  @if map-has-key($map, "light-trans") { // Check to see if it has the "light-trans" key
+    $all-colors: map-merge($all-colors, map-get($map, "light-trans")); // Get the light trans colors
+  }
+  @if map-has-key($map, "dark-trans") { // Check to see if it has the "dark-trans" key
+    $all-colors: map-merge($all-colors, map-get($map, "dark-trans")); // Get the dark trans colors
+  }
+  @if map-has-key($map, "ultra-dark-trans") { // Check to see if it has the "ultra-dark-trans" key
+    $all-colors: map-merge($all-colors, map-get($map, "ultra-dark-trans")); // Get the ultra-dark trans colors
+  }
+}
+$alt-all-colors:(); // Initialize map
+@each $map in $alt-color-maps {
+  @if map-has-key($map, "main") { // Check to see if it has the "main" key
+    $alt-all-colors: map-merge($alt-all-colors, map-get($map, "main")); // Get the main colors
+  }
+  @if map-has-key($map, "trans") { // Check to see if it has the "trans" key
+    $alt-all-colors: map-merge($alt-all-colors, map-get($map, "trans")); // Get the trans colors
+  }
+  @if map-has-key($map, "light-trans") { // Check to see if it has the "light-trans" key
+    $alt-all-colors: map-merge($alt-all-colors, map-get($map, "light-trans")); // Get the light trans colors
+  }
+  @if map-has-key($map, "dark-trans") { // Check to see if it has the "dark-trans" key
+    $alt-all-colors: map-merge($alt-all-colors, map-get($map, "dark-trans")); // Get the dark trans colors
+  }
+  @if map-has-key($map, "ultra-dark-trans") { // Check to see if it has the "ultra-dark-trans" key
+    $alt-all-colors: map-merge($alt-all-colors, map-get($map, "ultra-dark-trans")); // Get the ultra-dark trans colors
+  }
+}
+
+$all-status-colors:(); // Initialize map
+@each $map in $status-color-maps {
+  @if map-has-key($map, "main") { // Check to see if it has the "main" key
+    $all-status-colors: map-merge($all-status-colors, map-get($map, "main")); // Get the main colors
+  }
+  @if map-has-key($map, "trans") { // Check to see if it has the "trans" key
+    $all-status-colors: map-merge($all-status-colors, map-get($map, "trans")); // Get the trans colors
+  }
+  @if map-has-key($map, "light-trans") { // Check to see if it has the "light-trans" key
+    $all-status-colors: map-merge($all-status-colors, map-get($map, "light-trans")); // Get the light trans colors
+  }
+  @if map-has-key($map, "dark-trans") { // Check to see if it has the "dark-trans" key
+    $all-status-colors: map-merge($all-status-colors, map-get($map, "dark-trans")); // Get the dark trans colors
+  }
+  @if map-has-key($map, "ultra-dark-trans") { // Check to see if it has the "ultra-dark-trans" key
+    $all-status-colors: map-merge($all-status-colors, map-get($map, "ultra-dark-trans")); // Get the ultra-dark trans colors
+  }
+}
+$alt-all-status-colors:(); // Initialize map
+@each $map in $alt-status-color-maps {
+  @if map-has-key($map, "main") { // Check to see if it has the "main" key
+    $alt-all-status-colors: map-merge($alt-all-status-colors, map-get($map, "main")); // Get the main colors
+  }
+  @if map-has-key($map, "trans") { // Check to see if it has the "trans" key
+    $alt-all-status-colors: map-merge($alt-all-status-colors, map-get($map, "trans")); // Get the trans colors
+  }
+  @if map-has-key($map, "light-trans") { // Check to see if it has the "light-trans" key
+    $alt-all-status-colors: map-merge($alt-all-status-colors, map-get($map, "light-trans")); // Get the light trans colors
+  }
+  @if map-has-key($map, "dark-trans") { // Check to see if it has the "dark-trans" key
+    $alt-all-status-colors: map-merge($alt-all-status-colors, map-get($map, "dark-trans")); // Get the dark trans colors
+  }
+  @if map-has-key($map, "ultra-dark-trans") { // Check to see if it has the "ultra-dark-trans" key
+    $alt-all-status-colors: map-merge($alt-all-status-colors, map-get($map, "ultra-dark-trans")); // Get the ultra-dark trans colors
+  }
+}
+
+/// Generate Trans Colors Map
+/// Needed for gnerating transparency utilities
+$trans-colors:(); // Initialize map
+@each $map in $color-maps {
+  @if map-has-key($map, "trans") { // Check to see if it has the "trans" key
+    $trans-colors: map-merge($trans-colors, map-get($map, "trans")); // Get the trans colors
+  }
+  @if map-has-key($map, "light-trans") { // Check to see if it has the "light-trans" key
+    $trans-colors: map-merge($trans-colors, map-get($map, "light-trans")); // Get the light trans colors
+  }
+  @if map-has-key($map, "dark-trans") { // Check to see if it has the "dark-trans" key
+    $trans-colors: map-merge($trans-colors, map-get($map, "dark-trans")); // Get the dark trans colors
+  }
+  @if map-has-key($map, "ultra-dark-trans") { // Check to see if it has the "ultra-dark-trans" key
+    $trans-colors: map-merge($trans-colors, map-get($map, "ultra-dark-trans")); // Get the ultra-dark trans colors
+  }
+}
+$alt-trans-colors:(); // Initialize map
+@each $map in $alt-color-maps {
+  @if map-has-key($map, "trans") { // Check to see if it has the "trans" key
+    $alt-trans-colors: map-merge($alt-trans-colors, map-get($map, "trans")); // Get the trans colors
+  }
+  @if map-has-key($map, "light-trans") { // Check to see if it has the "light-trans" key
+    $alt-trans-colors: map-merge($alt-trans-colors, map-get($map, "light-trans")); // Get the light trans colors
+  }
+  @if map-has-key($map, "dark-trans") { // Check to see if it has the "dark-trans" key
+    $alt-trans-colors: map-merge($alt-trans-colors, map-get($map, "dark-trans")); // Get the dark trans colors
+  }
+  @if map-has-key($map, "ultra-dark-trans") { // Check to see if it has the "ultra-dark-trans" key
+    $alt-trans-colors: map-merge($alt-trans-colors, map-get($map, "ultra-dark-trans")); // Get the ultra-dark trans colors
+  }
+}
+
+$trans-status-colors:(); // Initialize map
+@each $map in $status-color-maps {
+  @if map-has-key($map, "trans") { // Check to see if it has the "trans" key
+    $trans-status-colors: map-merge($trans-status-colors, map-get($map, "trans")); // Get the trans colors
+  }
+  @if map-has-key($map, "light-trans") { // Check to see if it has the "light-trans" key
+    $trans-status-colors: map-merge($trans-status-colors, map-get($map, "light-trans")); // Get the light trans colors
+  }
+  @if map-has-key($map, "dark-trans") { // Check to see if it has the "dark-trans" key
+    $trans-status-colors: map-merge($trans-status-colors, map-get($map, "dark-trans")); // Get the dark trans colors
+  }
+  @if map-has-key($map, "ultra-dark-trans") { // Check to see if it has the "ultra-dark-trans" key
+    $trans-status-colors: map-merge($trans-status-colors, map-get($map, "ultra-dark-trans")); // Get the ultra-dark trans colors
+  }
+}
+$alt-trans-status-colors:(); // Initialize map
+@each $map in $alt-status-color-maps {
+  @if map-has-key($map, "trans") { // Check to see if it has the "trans" key
+    $alt-trans-status-colors: map-merge($alt-trans-status-colors, map-get($map, "trans")); // Get the trans colors
+  }
+  @if map-has-key($map, "light-trans") { // Check to see if it has the "light-trans" key
+    $alt-trans-status-colors: map-merge($alt-trans-status-colors, map-get($map, "light-trans")); // Get the light trans colors
+  }
+  @if map-has-key($map, "dark-trans") { // Check to see if it has the "dark-trans" key
+    $alt-trans-status-colors: map-merge($alt-trans-status-colors, map-get($map, "dark-trans")); // Get the dark trans colors
+  }
+  @if map-has-key($map, "ultra-dark-trans") { // Check to see if it has the "ultra-dark-trans" key
+    $alt-trans-status-colors: map-merge($alt-trans-status-colors, map-get($map, "ultra-dark-trans")); // Get the ultra-dark trans colors
+  }
+}
+
+
+// // Color Loops
+
+// @mixin loop-colors($colors...) {
+//   $total-colors: length($colors);
+  
+//   @for $i from 1 through $total-colors {
+//     $color: nth($colors, $i);
+//     &:nth-child(#{$total-colors}n + #{$i}) {
+//       @content($color);
+//     }
+//   }
+// }

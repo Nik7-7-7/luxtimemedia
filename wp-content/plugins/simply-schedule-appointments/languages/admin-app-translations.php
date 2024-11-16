@@ -197,16 +197,6 @@
   'promo' => 
   array (
     'dismissNotice' => __( 'Dismiss this notice', 'simply-schedule-appointments' ),
-    'newBookingAppNotice' => 
-    array (
-      'notice' => __( 'New Booking App Is Now Enabled! Please Double-Check Your Calendars & Opt-Out If You Need Time To Test Or Transition.', 'simply-schedule-appointments' ),
-      'message' => __( 'You\'ve temporarily opted-out of the new booking app. Please note that this extension is only for 30-days, make sure to review and make updates to transition soon.', 'simply-schedule-appointments' ),
-      'actions' => 
-      array (
-        'optOut' => __( 'Temporary Opt-Out', 'simply-schedule-appointments' ),
-        'optIn' => __( 'Keep Changes', 'simply-schedule-appointments' ),
-      ),
-    ),
     'proHeading' => __( 'Now available!', 'simply-schedule-appointments' ),
     'businessText' => __( 'Growing team? Need to book rooms or equipment? No problem, upgrade to our Business edition to take advantage of powerful scheduling features:', 'simply-schedule-appointments' ),
     'businessTextBullets' => 
@@ -295,28 +285,6 @@
       ),
       'moreDetails' => __( 'If you need more details, please %1$s read our guide, %2$s complete with screen shots of each step. Or %3$s contact support %4$s for more assistance.', 'simply-schedule-appointments' ),
     ),
-    'bookingFlowsPromo' => 
-    array (
-      'available' => 
-      array (
-        'title' => __( 'Check Out Booking Flows!', 'simply-schedule-appointments' ),
-        'text1' => __( 'The highly anticipated Booking Flows feature is now available. Check it out and spice up your booking forms!', 'simply-schedule-appointments' ),
-        'textCta' => __( 'Learn More', 'simply-schedule-appointments' ),
-      ),
-      'unavailable' => 
-      array (
-        'title' => __( 'Introducing: Booking Flows!', 'simply-schedule-appointments' ),
-        'text1' => __( 'Upgrade to either the Professional or Business Edition now to unlock the power of our new Booking Flows feature.', 'simply-schedule-appointments' ),
-        'textCta' => __( 'Unlock pro features', 'simply-schedule-appointments' ),
-      ),
-      'text2' => __( 'The Booking Flows feature allows each Appointment Type to set the sequence of Views for the booking form. New flows include:', 'simply-schedule-appointments' ),
-      'bookingFlowsPromoTextBullets' => 
-      array (
-        'time' => __( 'Express Flow displays the time and date selection on the same page within the booking form.', 'simply-schedule-appointments' ),
-        'availability' => __( 'First Available Flow suggests the next available time slot during the booking process.', 'simply-schedule-appointments' ),
-        'customization' => __( 'Bunches of customizations and combinations!', 'simply-schedule-appointments' ),
-      ),
-    ),
     'zoomUpgrade' => 
     array (
       'title' => __( 'Schedule Zoom meetings with Simply Schedule Appointments', 'simply-schedule-appointments' ),
@@ -339,13 +307,6 @@
         'paymentOptions' => __( 'Robust payment options including varying prices, coupons, and running totals', 'simply-schedule-appointments' ),
         'gravityPerks' => __( 'Gravity Perks compatibility including Limit Submissions, Populate Anything, and Preview Submissions', 'simply-schedule-appointments' ),
       ),
-    ),
-    'NewBookingAppPromo' => 
-    array (
-      'title' => __( 'New Booking App Enabled!', 'simply-schedule-appointments' ),
-      'text1' => __( 'The new booking app is a complete revamp of our front-end app framework. It comes jam-packed with awesome new features and improvements for every edition!', 'simply-schedule-appointments' ),
-      'text2' => __( 'Visit our new booking app guide to read about all the great additions this will bring to your booking form experience.', 'simply-schedule-appointments' ),
-      'textCta' => __( 'Learn More About New Booking App', 'simply-schedule-appointments' ),
     ),
     'paymentsUpsell' => 
     array (
@@ -539,12 +500,11 @@
       array (
         'label' => __( 'Connect to Google Calendar with SSA Quick Connect', 'simply-schedule-appointments' ),
         'help' => __( 'Connect your Google Calendar without creating your own Google Cloud Platform project. Requires an active plugin license.', 'simply-schedule-appointments' ),
-        'warning' => __( 'This is only available when SSA is not connected to Google Calendar. After toggling this setting, you will need to reconnect your main Google Calendar, and the team member calendars.', 'simply-schedule-appointments' ),
       ),
-      'old_booking_app' => 
+      'beta_booking_app' => 
       array (
-        'label' => __( 'Use the old booking app', 'simply-schedule-appointments' ),
-        'help' => __( 'The old booking app will be deprecated soon, offers slower performance, and lacks new features like Booking Flows, Resources, and the ability to select Team Members. Kindly make sure you report any issues you encounter with the new booking app.', 'simply-schedule-appointments' ),
+        'label' => __( 'Try the new booking app', 'simply-schedule-appointments' ),
+        'help' => __( 'Improves performance and adds new features including Booking Flows, Resources, and the ability to select Team Members.', 'simply-schedule-appointments' ),
       ),
       'display_appointment_revisions' => 
       array (
@@ -645,12 +605,6 @@
       'import_error_status_notice' => __( 'Oops! Something went wrong while importing your data. The server responded with the following errors:', 'simply-schedule-appointments' ),
       'import_success_redirect' => __( 'Click here if the page is not automatically refreshed.', 'simply-schedule-appointments' ),
       'restore_backup' => __( 'Restore previous backup', 'simply-schedule-appointments' ),
-    ),
-    'embed_booking' => 
-    array (
-      'embed_headline' => __( 'Embed the booking form in any website', 'simply-schedule-appointments' ),
-      'embed_copy' => __( 'Copy the code below and paste it into any page to embed the booking form.', 'simply-schedule-appointments' ),
-      'copied' => __( 'Embed code copied to your clipboard.', 'simply-schedule-appointments' ),
     ),
     'google_calendar' => 
     array (
@@ -846,7 +800,6 @@
         'webhookCopied' => __( 'The webhook has been copied to your clipboard', 'simply-schedule-appointments' ),
         'webhookSecret' => __( 'Webhook Signing Secret', 'simply-schedule-appointments' ),
         'webhookSecretHelpPrefix' => __( 'Get your signing secret from', 'simply-schedule-appointments' ),
-        'paymentMethods' => __( 'Payment Methods', 'simply-schedule-appointments' ),
         'testMode' => __( 'Enable test mode', 'simply-schedule-appointments' ),
         'testModeHelp' => __( 'Place the payment gateway in test mode using test API keys.', 'simply-schedule-appointments' ),
         'testPublishableKey' => __( 'Test publishable key', 'simply-schedule-appointments' ),
@@ -880,7 +833,6 @@
         'email' => __( 'Email', 'simply-schedule-appointments' ),
         'sms' => __( 'SMS', 'simply-schedule-appointments' ),
         'sentTo' => __( 'Send to', 'simply-schedule-appointments' ),
-        'anchorText' => __( 'Select predefined email option', 'simply-schedule-appointments' ),
         'smsTo' => __( 'Send to', 'simply-schedule-appointments' ),
         'cc' => __( 'Cc', 'simply-schedule-appointments' ),
         'bcc' => __( 'Bcc', 'simply-schedule-appointments' ),
@@ -924,8 +876,7 @@
         'Appointment.AppointmentType.title' => __( 'The title of the selected appointment type', 'simply-schedule-appointments' ),
         'Appointment.web_meeting_url' => __( 'The URL of the virtual meeting for the appointment', 'simply-schedule-appointments' ),
         'Appointment.web_meeting_password' => __( 'The password required to access the virtual meeting', 'simply-schedule-appointments' ),
-        'Appointment.customer_information_summary' => __( 'Summary of the customer information fields for the appointment type, in customer\'s locale when available', 'simply-schedule-appointments' ),
-        'Appointment.customer_information_summary_admin_locale' => __( 'Summary of the customer information fields for the appointment type, in the admin\'s locale', 'simply-schedule-appointments' ),
+        'Appointment.customer_information_summary' => __( 'Summary of the customer information fields for the appointment type', 'simply-schedule-appointments' ),
         'Appointment.customer_information.Name' => __( 'The customer\'s name', 'simply-schedule-appointments' ),
         'Appointment.date_timezone' => __( 'The admin timezone set in general settings', 'simply-schedule-appointments' ),
         'Appointment.customer_timezone' => __( 'The timezone to display for the customer', 'simply-schedule-appointments' ),
@@ -948,10 +899,6 @@
         'canceled_by_name' => __( 'The name of the user who canceled the appointment', 'simply-schedule-appointments' ),
         'rescheduling_note' => __( 'An optional note added when rescheduling the appointment', 'simply-schedule-appointments' ),
         'rescheduled_by_name' => __( 'The name of the user who rescheduled the appointment', 'simply-schedule-appointments' ),
-        'Appointment.customer_prev_start_date' => __( 'The previous start date of an appointment that has been rescheduled, in the customer\'s timezone', 'simply-schedule-appointments' ),
-        'Appointment.customer_prev_start_dates' => __( 'List of previous start dates of an appointment that has been rescheduled, in the customer\'s timezone', 'simply-schedule-appointments' ),
-        'Appointment.business_prev_start_date' => __( 'The previous start date of an appointment that has been rescheduled, in the business timezone', 'simply-schedule-appointments' ),
-        'Appointment.business_prev_start_dates' => __( 'List of previous start dates of an appointment that has been rescheduled, in the business timezone', 'simply-schedule-appointments' ),
         'TEC.venue.name' => __( 'The name of the venue in the Events Calendar', 'simply-schedule-appointments' ),
         'TEC.venue.address' => __( 'The address of the venue in the Events Calendar', 'simply-schedule-appointments' ),
         'TEC.venue.city' => __( 'The city of the venue in the Events Calendar', 'simply-schedule-appointments' ),
@@ -1420,7 +1367,6 @@
     'identifiable' => __( 'Unique: ', 'simply-schedule-appointments' ),
     'identifiableDesc' => __( 'Each resource is distinctive and it matters which specific resource from this group is assigned to the booking.', 'simply-schedule-appointments' ),
     'quantity' => __( 'Quantity', 'simply-schedule-appointments' ),
-    'items' => __( 'Items', 'simply-schedule-appointments' ),
     'quantityError' => __( 'Identical resources must have quantity', 'simply-schedule-appointments' ),
     'oneItem' => __( 'One item', 'simply-schedule-appointments' ),
   ),
@@ -1428,7 +1374,6 @@
   array (
     'title' => __( 'Name', 'simply-schedule-appointments' ),
     'titleError' => __( 'Appointment types must have names', 'simply-schedule-appointments' ),
-    'titleRegexValidatorError' => __( 'Appointment types title is not valid', 'simply-schedule-appointments' ),
     'empty' => __( 'There are no appointment types.', 'simply-schedule-appointments' ),
     'shortcodeCopied' => __( 'Shortcode copied to clipboard', 'simply-schedule-appointments' ),
     'bulkEditExplanation' => __( 'Changes will be applied to the following appointment types: ', 'simply-schedule-appointments' ),
@@ -1733,10 +1678,6 @@
             'private' => __( 'Private Meeting: Host required to admit each meeting attendee', 'simply-schedule-appointments' ),
             'open' => __( 'Open Meeting: anyone with the link can immediately join', 'simply-schedule-appointments' ),
           ),
-          'notice' => 
-          array (
-            'openMeeting' => __( 'Ensure "Authentication" is enabled in your Zoom settings and disable "Waiting Room" and "Passcode" for this option to work correctly.', 'simply-schedule-appointments' ),
-          ),
         ),
         'custom' => 
         array (
@@ -1890,7 +1831,6 @@
     'viewAll' => __( 'View all appointments', 'simply-schedule-appointments' ),
     'status' => __( 'Status', 'simply-schedule-appointments' ),
     'sms' => __( 'SMS reminders', 'simply-schedule-appointments' ),
-    'reschedulingHistory' => __( 'Rescheduling History', 'simply-schedule-appointments' ),
     'created' => __( 'Created', 'simply-schedule-appointments' ),
     'author' => __( 'Booked by', 'simply-schedule-appointments' ),
     'customer' => __( 'Customer', 'simply-schedule-appointments' ),
@@ -1972,7 +1912,7 @@
       'export' => __( 'Export', 'simply-schedule-appointments' ),
       'exportTip' => __( 'Export visible appointments', 'simply-schedule-appointments' ),
       'subscribe' => __( 'Subscribe to calendar', 'simply-schedule-appointments' ),
-      'timeLabel' => __( 'Appointment Range', 'simply-schedule-appointments' ),
+      'timeLabel' => __( 'Display upcoming or past appointments', 'simply-schedule-appointments' ),
       'typesAndLabels' => __( 'Appointment Types & Labels', 'simply-schedule-appointments' ),
       'selectAllTypes' => __( 'Select all appointment types with label', 'simply-schedule-appointments' ),
       'parentsLabel' => __( 'All types', 'simply-schedule-appointments' ),
@@ -2248,9 +2188,6 @@
       'staff_capacity_changed' => __( 'Staff Capacity Changed', 'simply-schedule-appointments' ),
       'has_max_capacity_changed' => __( 'Maximum Capacity Changed', 'simply-schedule-appointments' ),
       'reminder_sent' => __( 'Notification Sent', 'simply-schedule-appointments' ),
-      'booking_end_date_changed' => __( 'Booking End Date', 'simply-schedule-appointments' ),
-      'booking_start_date_changed' => __( 'Booking start Date', 'simply-schedule-appointments' ),
-      'mailchimp_changed' => __( 'Mailchimp', 'simply-schedule-appointments' ),
       'reminder_not_sent' => __( 'Notification Not Sent', 'simply-schedule-appointments' ),
     ),
   ),

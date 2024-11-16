@@ -1,0 +1,481 @@
+{
+	"$schema": "screen.schema.json",
+	"id": "layout",
+	"title": "Layout",
+	"type": "screen-container",
+	"description": "Layout settings.",
+	"content": [
+		{
+			"id": "dimensions-accordion",
+			"title": "Website Dimensions",
+			"type": "accordion-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "dimensions-input",
+					"type": "double-input",
+					"label": {
+						"primary": "Content Width",
+						"secondary": "Mobile/Desktop"
+					},
+					"tooltip": "Set the max-width of the website's content.",
+					"documentation": "https://automaticcss.com/docs/content-width/",
+					"content": [
+						{
+							"id": "vp-min",
+							"title": "Minimum Width",
+							"type": "px",
+							"default": 360,
+							"percentage-convert": true,
+							"calc": {
+								"type": "content-width",
+								"setting": "min"
+							}
+						},
+						{
+							"id": "vp-max",
+							"title": "Content Width",
+							"type": "px",
+							"default": 1366,
+							"percentage-convert": true,
+							"cssVariable": "--content-width",
+							"calc": {
+								"type": "content-width",
+								"setting": "max"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "breakpoints",
+			"title": "Breakpoints",
+			"type": "accordion-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "breakpoint-xxl",
+					"title": "XXL",
+					"type": "px",
+					"default": 1440,
+					"skip-unit-conversion": true,
+					"appendunit": "px",
+					"displayWhen": [
+						"option-breakpoint-xxl",
+						"on"
+					]
+				},
+				{
+					"id": "breakpoint-xl",
+					"title": "XL",
+					"type": "px",
+					"default": 1366,
+					"skip-unit-conversion": true,
+					"appendunit": "px"
+				},
+				{
+					"id": "breakpoint-l",
+					"title": "L",
+					"type": "px",
+					"default": 992,
+					"skip-unit-conversion": true,
+					"appendunit": "px"
+				},
+				{
+					"id": "breakpoint-m",
+					"title": "M",
+					"type": "px",
+					"default": 768,
+					"skip-unit-conversion": true,
+					"appendunit": "px"
+				},
+				{
+					"id": "breakpoint-s",
+					"title": "S",
+					"type": "px",
+					"default": 480,
+					"skip-unit-conversion": true,
+					"appendunit": "px"
+				},
+				{
+					"id": "breakpoint-xs",
+					"title": "XS",
+					"type": "px",
+					"default": 360,
+					"skip-unit-conversion": true,
+					"appendunit": "px",
+					"displayWhen": [
+						"option-breakpoint-xs",
+						"on"
+					]
+				},
+				{
+					"id": "option-breakpoint-xxl",
+					"title": "XXL Breakpoint",
+					"type": "toggle",
+					"default": "off",
+					"displayWhenControler": true
+				},
+				{
+					"id": "option-breakpoint-xs",
+					"title": "XS Breakpoint",
+					"type": "toggle",
+					"default": "off",
+					"displayWhenControler": true
+				}
+			]
+		},
+		{
+			"id": "header-styling",
+			"title": "Header",
+			"type": "accordion-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "header-height",
+					"title": "Header Height",
+					"type": "px",
+					"percentage-convert": true,
+					"default": 0,
+					"appendunit": "rem",
+					"tooltip": "The current height of your header on desktop devices.",
+					"documentation": "https://automaticcss.com/docs/header-height/"
+				},
+				{
+					"id": "header-height-xxl",
+					"title": "Header Height (XXL)",
+					"type": "px",
+					"percentage-convert": true,
+					"default": 0,
+					"appendunit": "rem",
+					"displayWhen": [
+						"option-breakpoint-xxl",
+						"on"
+					]
+				},
+				{
+					"id": "header-height-xl",
+					"title": "Header Height (XL)",
+					"type": "px",
+					"percentage-convert": true,
+					"default": 0,
+					"appendunit": "rem"
+				},
+				{
+					"id": "header-height-l",
+					"title": "Header Height (L)",
+					"type": "px",
+					"percentage-convert": true,
+					"default": 0,
+					"appendunit": "rem"
+				},
+				{
+					"id": "header-height-m",
+					"title": "Header Height (M)",
+					"type": "px",
+					"percentage-convert": true,
+					"default": 0,
+					"appendunit": "rem"
+				},
+				{
+					"id": "header-height-s",
+					"title": "Header Height (S)",
+					"type": "px",
+					"percentage-convert": true,
+					"default": 0,
+					"appendunit": "rem"
+				},
+				{
+					"id": "header-height-xs",
+					"title": "Header Height (XS)",
+					"type": "px",
+					"percentage-convert": true,
+					"default": 0,
+					"appendunit": "rem",
+					"displayWhen": [
+						"option-breakpoint-xs",
+						"on"
+					]
+				},
+				{
+					"id": "option-offset-page-content",
+					"title": "Offset Content Automatically",
+					"type": "toggle",
+					"default": "off",
+					"tooltip": "Fixes spacing issues with sticky and overlay headers. Will not work if a header height isn't set.",
+					"documentation": "https://automaticcss.com/docs/header-height/#offset-content",
+					"cssClasses": [
+						"acss-offset-content"
+					],
+					"target": [
+						"main"
+					]
+				},
+				{
+					"id": "option-use-header-height-for-scroll-offset",
+					"title": "Offset Scroll Margin Automatically",
+					"type": "toggle",
+					"default": "on",
+					"tooltip": "Use header height for scroll margins (scroll to hash).",
+					"documentation": "https://automaticcss.com/docs/scroll-offsets/"
+				},
+				{
+					"id": "offset-content-header-exclusion",
+					"title": "Exclude Headers",
+					"type": "textarea",
+					"style": "small",
+					"placeholder": "\"[data-sticky-header='0']\"",
+					"default": "\"[data-sticky-header='0']\"",
+					"tooltip": "Turn off the offset when these headers are present on the page.",
+					"documentation": "https://automaticcss.com/docs/header-height/",
+					"validation": {
+						"required": true
+					},
+					"displayWhen": [
+						"option-offset-page-content",
+						"on"
+					]
+				},
+				{
+					"id": "offset-content-page-exclusions",
+					"title": "Exclude Pages",
+					"type": "textarea",
+					"style": "small",
+					"placeholder": "\".page-id-2\", \".post-type-services\"",
+					"default": "\".content-offset--off\"",
+					"tooltip": "Turn off the offset on the following pages.",
+					"documentation": "https://automaticcss.com/docs/header-height/",
+					"validation": {
+						"required": false
+					},
+					"displayWhen": [
+						"option-offset-page-content",
+						"on"
+					]
+				}
+			]
+		},
+		{
+			"id": "content-grid",
+			"title": "Content Grid",
+			"type": "accordion-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "option-content-grid",
+					"title": "Content Grid",
+					"type": "toggle",
+					"default": "on",
+					"tooltip": "Enable Content Grid utilities.",
+					"documentation": "https://automaticcss.com/docs/content-grid/"
+				},
+				{
+					"id": "option-content-grid-sections",
+					"title": "Default Sections to Content Grid",
+					"type": "toggle",
+					"default": "off",
+					"displayWhen": [
+						"option-content-grid",
+						"on"
+					],
+					"tooltip": "Replace default section structure with content grid."
+				},
+				{
+					"id": "content-feature",
+					"title": "Feature Width",
+					"type": "text",
+					"default": "50px",
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-content-grid",
+						"on"
+					],
+					"cssVariable": "--feature-width",
+					"target": ".content-grid",
+					"tooltip": "Sets the width of the 'feature' zone."
+				},
+				{
+					"id": "content-feature-max",
+					"title": "Feature Max Width",
+					"type": "text",
+					"default": "100px",
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-content-grid",
+						"on"
+					],
+					"cssVariable": "--feature-max-width",
+					"target": ".content-grid",
+					"tooltip": "Sets the width of the 'feature-max' zone (value is added to the 'feature' zone value)."
+				},
+				{
+					"id": "content-grid-exclusions",
+					"title": "Exclude Sections",
+					"type": "textarea",
+					"default": "\".content-grid--off\", \".pswp__scroll-wrap\"",
+					"placeholder": "\".content-grid--off\", \".pswp__scroll-wrap\"",
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-content-grid-sections",
+						"on"
+					],
+					"tooltip": "Exclude sections from defaulting to content grid."
+				}
+			]
+		},
+		{
+			"id": "auto-grid",
+			"title": "Auto Grid",
+			"type": "accordion-container",
+			"content": [
+				{
+					"id": "auto-grid-aggressiveness",
+					"title": "Aggressiveness",
+					"type": "text",
+					"default": ".7",
+					"validation": {
+						"required": true
+					},
+					"tooltip": "How soon should items stack (0 to 1 in decimal). Higher values stack items sooner.",
+					"documentation": "https://automaticcss.com/docs/auto-grid/"
+				},
+				{
+					"id": "auto-staggered-grid-breakpoint",
+					"title": "Ratio Breakpoint",
+					"type": "select",
+					"default": "l",
+					"options": [
+						"xxl",
+						"xl",
+						"l",
+						"m",
+						"s",
+						"xs"
+					],
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-auto-grid",
+						"on"
+					],
+					"tooltip": "What breakpoint should auto-ratio grids (2-3, 3-2, etc.) stack at?"
+				}
+			]
+		},
+		{
+			"id": "boxed-layout",
+			"title": "Boxed Layout",
+			"type": "accordion-container",
+			"content": [
+				{
+					"id": "option-boxed-layout",
+					"title": "Boxed Layout",
+					"type": "toggle",
+					"default": "off",
+					"cssClasses": [
+						"boxed-layout"
+					],
+					"target": [
+						"body"
+					],
+					"tooltip": "Enable boxed layout style for the website.",
+					"documentation": "https://automaticcss.com/docs/boxed-layout/"
+				},
+				{
+					"id": "device-bg-color",
+					"title": "Device Background",
+					"type": "text",
+					"default": "--white",
+					"displayWhen": [
+						"option-boxed-layout",
+						"on"
+					],
+					"skip-if-empty": true,
+					"tooltip": "Sets HTML background color."
+				},
+				{
+					"id": "body-max-width",
+					"title": "Body Width",
+					"type": "text",
+					"default": "1920px",
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-boxed-layout",
+						"on"
+					]
+				},
+				{
+					"id": "body-margin-top",
+					"title": "Top Margin",
+					"type": "text",
+					"default": "0",
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-boxed-layout",
+						"on"
+					],
+					"tooltip": "Adds spacing above your boxed layout."
+				},
+				{
+					"id": "body-border-style",
+					"title": "Border Style",
+					"type": "text",
+					"default": "none",
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-boxed-layout",
+						"on"
+					],
+					"tooltip": "Supports multi-axis values (top right bottom left)."
+				},
+				{
+					"id": "body-border-width",
+					"title": "Border Width",
+					"type": "text",
+					"default": "0",
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-boxed-layout",
+						"on"
+					],
+					"tooltip": "Supports multi-axis values (top right bottom left)."
+				},
+				{
+					"id": "body-border-color",
+					"title": "Border Color",
+					"type": "text",
+					"default": "transparent",
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-boxed-layout",
+						"on"
+					],
+					"tooltip": "Supports multi-axis values (top right bottom left)."
+				},
+				{
+					"id": "body-border-radius",
+					"title": "Border Radius",
+					"type": "text",
+					"default": "0",
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-boxed-layout",
+						"on"
+					],
+					"tooltip": "Supports multi-axis values (top right bottom left)."
+				},
+				{
+					"id": "body-box-shadow",
+					"title": "Body Shadow",
+					"type": "textarea",
+					"default": "0 0 80px 0 var(--neutral-trans-20)",
+					"skip-if-empty": true,
+					"displayWhen": [
+						"option-boxed-layout",
+						"on"
+					]
+				}
+			]
+		}
+	]
+}

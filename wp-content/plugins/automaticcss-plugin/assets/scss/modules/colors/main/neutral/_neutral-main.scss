@@ -1,0 +1,177 @@
+// neutral Options
+$option-neutral-clr: on !default;
+$option-neutral-main-trans: on !default;
+$option-neutral-light-trans: on !default;
+$option-neutral-dark-trans: on !default;
+$option-neutral-ultra-dark-trans: on !default;
+
+// neutral Vars
+$neutral-hex: #e56c70 !default;
+$neutral-r: 229 !default;
+$neutral-g: 108 !default;
+$neutral-b: 112 !default;
+$neutral-h: 358 !default;
+$neutral-s: 70% !default;
+$neutral-l: 66% !default;
+$neutral-hover-h: 358 !default;
+$neutral-hover-s: 70% !default;
+$neutral-hover-l: 1.15 !default;
+$neutral-ultra-light-h: 358 !default;
+$neutral-ultra-light-s: 70% !default;
+$neutral-ultra-light-l: 95% !default;
+$neutral-light-h: 358 !default;
+$neutral-light-s: 70% !default;
+$neutral-light-l: 85% !default;
+$neutral-medium-h: 358 !default;
+$neutral-medium-s: 70% !default;
+$neutral-medium-l: 50% !default;
+$neutral-dark-h: 358 !default;
+$neutral-dark-s: 70% !default;
+$neutral-dark-l: 25% !default;
+$neutral-ultra-dark-h: 358 !default;
+$neutral-ultra-dark-s: 70% !default;
+$neutral-ultra-dark-l: 10% !default;
+// Added in 3.0
+$neutral-semi-light-h: 358 !default;
+$neutral-semi-light-s: 70% !default;
+$neutral-semi-light-l: 60% !default;
+$neutral-semi-dark-h: 358 !default;
+$neutral-semi-dark-s: 70% !default;
+$neutral-semi-dark-l: 40% !default;
+
+
+// Neutral Color Map
+$color-neutral:(); // Initialize Map
+@if $option-neutral-clr == on {
+  $color-neutral: (
+    "main": (
+      "neutral": $neutral-hex,
+      "neutral-hover": hsl($neutral-hover-h, $neutral-hover-s, $neutral-hover-l),
+      "neutral-ultra-light": hsl($neutral-ultra-light-h, $neutral-ultra-light-s, $neutral-ultra-light-l),
+      "neutral-light": hsl($neutral-light-h, $neutral-light-s, $neutral-light-l),
+      "neutral-semi-light": hsl($neutral-semi-light-h, $neutral-semi-light-s, $neutral-semi-light-l),
+      "neutral-semi-dark": hsl($neutral-semi-dark-h, $neutral-semi-dark-s, $neutral-semi-dark-l),
+      "neutral-dark": hsl($neutral-dark-h, $neutral-dark-s, $neutral-dark-l),
+      "neutral-ultra-dark": hsl($neutral-ultra-dark-h, $neutral-ultra-dark-s, $neutral-ultra-dark-l),
+    ),
+    "trans": (
+      "neutral-trans-10": rgba($neutral-hex, .1),
+      "neutral-trans-20": rgba($neutral-hex, .2),
+      "neutral-trans-30": rgba($neutral-hex, .3),
+      "neutral-trans-40": rgba($neutral-hex, .4),
+      "neutral-trans-50": rgba($neutral-hex, .5),
+      "neutral-trans-60": rgba($neutral-hex, .6),
+      "neutral-trans-70": rgba($neutral-hex, .7),
+      "neutral-trans-80": rgba($neutral-hex, .8),
+      "neutral-trans-90": rgba($neutral-hex, .9),
+    ),
+    "light-trans": (
+      "neutral-light-trans-10": hsl($neutral-light-h, $neutral-light-s, $neutral-light-l, .1),
+      "neutral-light-trans-20": hsl($neutral-light-h, $neutral-light-s, $neutral-light-l, .2),
+      "neutral-light-trans-30": hsl($neutral-light-h, $neutral-light-s, $neutral-light-l, .3),
+      "neutral-light-trans-40": hsl($neutral-light-h, $neutral-light-s, $neutral-light-l, .4),
+      "neutral-light-trans-50": hsl($neutral-light-h, $neutral-light-s, $neutral-light-l, .5),
+      "neutral-light-trans-60": hsl($neutral-light-h, $neutral-light-s, $neutral-light-l, .6),
+      "neutral-light-trans-70": hsl($neutral-light-h, $neutral-light-s, $neutral-light-l, .7),
+      "neutral-light-trans-80": hsl($neutral-light-h, $neutral-light-s, $neutral-light-l, .8),
+      "neutral-light-trans-90": hsl($neutral-light-h, $neutral-light-s, $neutral-light-l, .9),
+    ),
+    "dark-trans": (
+      "neutral-dark-trans-10": hsl($neutral-dark-h, $neutral-dark-s, $neutral-dark-l, .1),
+      "neutral-dark-trans-20": hsl($neutral-dark-h, $neutral-dark-s, $neutral-dark-l, .2),
+      "neutral-dark-trans-30": hsl($neutral-dark-h, $neutral-dark-s, $neutral-dark-l, .3),
+      "neutral-dark-trans-40": hsl($neutral-dark-h, $neutral-dark-s, $neutral-dark-l, .4),
+      "neutral-dark-trans-50": hsl($neutral-dark-h, $neutral-dark-s, $neutral-dark-l, .5),
+      "neutral-dark-trans-60": hsl($neutral-dark-h, $neutral-dark-s, $neutral-dark-l, .6),
+      "neutral-dark-trans-70": hsl($neutral-dark-h, $neutral-dark-s, $neutral-dark-l, .7),
+      "neutral-dark-trans-80": hsl($neutral-dark-h, $neutral-dark-s, $neutral-dark-l, .8),
+      "neutral-dark-trans-90": hsl($neutral-dark-h, $neutral-dark-s, $neutral-dark-l, .9),
+    ),
+    "ultra-dark-trans": (
+      "neutral-ultra-dark-trans-10": hsl($neutral-ultra-dark-h, $neutral-ultra-dark-s, $neutral-ultra-dark-l, .1),
+      "neutral-ultra-dark-trans-20": hsl($neutral-ultra-dark-h, $neutral-ultra-dark-s, $neutral-ultra-dark-l, .2),
+      "neutral-ultra-dark-trans-30": hsl($neutral-ultra-dark-h, $neutral-ultra-dark-s, $neutral-ultra-dark-l, .3),
+      "neutral-ultra-dark-trans-40": hsl($neutral-ultra-dark-h, $neutral-ultra-dark-s, $neutral-ultra-dark-l, .4),
+      "neutral-ultra-dark-trans-50": hsl($neutral-ultra-dark-h, $neutral-ultra-dark-s, $neutral-ultra-dark-l, .5),
+      "neutral-ultra-dark-trans-60": hsl($neutral-ultra-dark-h, $neutral-ultra-dark-s, $neutral-ultra-dark-l, .6),
+      "neutral-ultra-dark-trans-70": hsl($neutral-ultra-dark-h, $neutral-ultra-dark-s, $neutral-ultra-dark-l, .7),
+      "neutral-ultra-dark-trans-80": hsl($neutral-ultra-dark-h, $neutral-ultra-dark-s, $neutral-ultra-dark-l, .8),
+      "neutral-ultra-dark-trans-90": hsl($neutral-ultra-dark-h, $neutral-ultra-dark-s, $neutral-ultra-dark-l, .9),
+    ),
+    "partials": (
+      "neutral-hex": $neutral-hex,
+        "neutral-hsl": $neutral-h $neutral-s $neutral-l,
+        "neutral-rgb": $neutral-r $neutral-g $neutral-b,
+        "neutral-r": $neutral-r,
+        "neutral-g": $neutral-g,
+        "neutral-b": $neutral-b,
+        "neutral-h": $neutral-h,
+        "neutral-s": $neutral-s,
+        "neutral-l": $neutral-l,
+        "neutral-hover-h": $neutral-hover-h,
+        "neutral-hover-s": $neutral-hover-s,
+        "neutral-hover-l": $neutral-hover-l,
+        "neutral-ultra-light-h": $neutral-ultra-light-h,
+        "neutral-ultra-light-s": $neutral-ultra-light-s,
+        "neutral-ultra-light-l": $neutral-ultra-light-l,
+        "neutral-light-h": $neutral-light-h,
+        "neutral-light-s": $neutral-light-s,
+        "neutral-light-l": $neutral-light-l,
+        "neutral-semi-light-h": $neutral-semi-light-h,
+        "neutral-semi-light-s": $neutral-semi-light-s,
+        "neutral-semi-light-l": $neutral-semi-light-l,
+        "neutral-semi-dark-h": $neutral-semi-dark-h,
+        "neutral-semi-dark-s": $neutral-semi-dark-s,
+        "neutral-semi-dark-l": $neutral-semi-dark-l,
+        "neutral-dark-h": $neutral-dark-h,
+        "neutral-dark-s": $neutral-dark-s,
+        "neutral-dark-l": $neutral-dark-l,
+        "neutral-ultra-dark-h": $neutral-ultra-dark-h,
+        "neutral-ultra-dark-s": $neutral-ultra-dark-s,
+        "neutral-ultra-dark-l": $neutral-ultra-dark-l,
+    ),
+  );
+
+  // Transparency options
+  @if $option-neutral-main-trans == off {
+    $color-neutral: map-remove($color-neutral, "trans");
+  }
+  @if $option-neutral-light-trans == off {
+    $color-neutral: map-remove($color-neutral, "light-trans");
+  }
+  @if $option-neutral-dark-trans == off {
+    $color-neutral: map-remove($color-neutral, "dark-trans");
+  }
+  @if $option-neutral-ultra-dark-trans == off {
+    $color-neutral: map-remove($color-neutral, "ultra-dark-trans");
+  }
+
+}
+
+// Handle Deprecated Options
+@if $option-neutral-clr == on {
+  // Add complimentary color back if enabled
+  @if $option-comp-colors == on {
+    $color-neutral: map-merge($color-neutral, (
+      "main": map-merge(map-get($color-neutral, "main"), (
+        "neutral-comp": hsl($neutral-h + 180, $neutral-s, $neutral-l)
+      )),
+      "partials": map-merge(map-get($color-neutral, "partials"), (
+        "neutral-comp-h": $neutral-h + 180
+      ))
+    ));
+  }
+  // Add medium back if enabled
+  @if $option-medium-shade == on {
+    $color-neutral: map-merge($color-neutral, (
+      "main": map-merge(map-get($color-neutral, "main"), (
+        "neutral-medium": hsl($neutral-medium-h, $neutral-medium-s, $neutral-medium-l)
+      )),
+      "partials": map-merge(map-get($color-neutral, "partials"), (
+        "neutral-medium-h": $neutral-medium-h,
+        "neutral-medium-s": $neutral-medium-s,
+        "neutral-medium-l": $neutral-medium-l
+      ))
+    ));
+  }
+}

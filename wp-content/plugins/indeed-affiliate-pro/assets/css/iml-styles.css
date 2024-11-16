@@ -1,0 +1,416 @@
+/*!
+ *  PopOver style from WP Dashboard
+ *  Dedicated for popover feature
+ */
+.tooltip {
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 9;
+ display: none;
+ z-index: 999;
+}
+
+.tooltip div {
+ font-family:Arial;
+ background: #000;
+ color: #fff;
+ font-size: 12px;
+ max-width: 340px;
+ text-align: left;
+ user-select: none;
+ -moz-user-select: none;
+ -webkit-user-select: none;
+ user-select: none;
+ -ms-user-select: none;
+ cursor: default;
+}
+
+.tooltip div {
+ padding: 10px 15px;
+}
+
+.tooltip div:after {
+ content: '';
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ border: 5px solid transparent;
+ z-index: 11;
+}
+
+.tooltip.top div:after { left: 50%; bottom: -11px; margin-left: -5px;}
+.tooltip.bottom div:after { left: 50%; top: -11px; margin-left: -5px;}
+.tooltip.left div:after { bottom: 50%; right: -11px; margin-bottom: -5px;}
+.tooltip.right div:after { bottom: 50%; left: -11px; margin-bottom: -5px;}
+.tooltip.top-right div:after { left: 90%; bottom: -11px; margin-left: -5px;}
+.tooltip.top-left div:after { left: 10%; bottom: -11px; margin-left: -5px;}
+.tooltip.bottom-right div:after { left: 90%; top: -11px; margin-left: -5px;}
+.tooltip.bottom-left div:after { left: 10%; top: -11px; margin-left: -5px;}
+.tooltip.left-top div:after { bottom: 65%; right: -11px; margin-bottom: -5px; }
+.tooltip.left-bottom div:after { bottom: 35%; right: -11px; margin-bottom: -5px;}
+.tooltip.right-top div:after { bottom: 65%; left: -11px; margin-bottom: -5px;}
+.tooltip.right-bottom div:after { bottom: 35%; left: -11px; margin-bottom: -5px;}
+
+.tooltip.white div                   {background: #FFFFFF;color:#808E95;}
+.tooltip.white.top div:after         {border-top-color: #FFFFFF;}
+.tooltip.white.top-right div:after   {border-top-color: #FFFFFF;}
+.tooltip.white.top-left div:after    {border-top-color: #FFFFFF;}
+.tooltip.white.bottom div:after      {border-bottom-color: #FFFFFF;}
+.tooltip.white.bottom-right div:after{border-bottom-color: #FFFFFF;}
+.tooltip.white.bottom-left div:after {border-bottom-color: #FFFFFF;}
+.tooltip.white.left div:after        {border-left-color: #FFFFFF;}
+.tooltip.white.left-top div:after    {border-left-color: #FFFFFF;}
+.tooltip.white.left-bottom div:after {border-left-color: #FFFFFF;}
+.tooltip.white.right div:after       {border-right-color: #FFFFFF;}
+.tooltip.white.right-top div:after   {border-right-color: #FFFFFF;}
+.tooltip.white.right-bottom div:after{border-right-color: #FFFFFF;}
+
+.tooltip.black div                   {background: rgba(0, 0, 0, 0.8);}
+.tooltip.black.top div:after         {border-top-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.top-right div:after   {border-top-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.top-left div:after    {border-top-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.bottom div:after      {border-bottom-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.bottom-right div:after{border-bottom-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.bottom-left div:after {border-bottom-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.left div:after        {border-left-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.left-top div:after    {border-left-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.left-bottom div:after {border-left-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.right div:after       {border-right-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.right-top div:after   {border-right-color: rgba(0, 0, 0, 0.8);}
+.tooltip.black.right-bottom div:after{border-right-color: rgba(0, 0, 0, 0.8);}
+
+.tooltip.error div                   {background: #f56969;}
+.tooltip.error.top div:after         {border-top-color: #f56969;}
+.tooltip.error.top-right div:after   {border-top-color: #f56969;}
+.tooltip.error.top-left div:after    {border-top-color: #f56969;}
+.tooltip.error.bottom div:after      {border-bottom-color: #f56969;}
+.tooltip.error.bottom-right div:after{border-bottom-color: #f56969;}
+.tooltip.error.bottom-left div:after {border-bottom-color: #f56969;}
+.tooltip.error.left div:after        {border-left-color: #f56969;}
+.tooltip.error.left-top div:after    {border-left-color: #f56969;}
+.tooltip.error.left-bottom div:after {border-left-color: #f56969;}
+.tooltip.error.right div:after       {border-right-color: #f56969;}
+.tooltip.error.right-top div:after   {border-right-color: #f56969;}
+.tooltip.error.right-bottom div:after{border-right-color: #f56969;}
+
+.tooltip.success div                   {background: #94C775;}
+.tooltip.success.top div:after         {border-top-color: #94C775;}
+.tooltip.success.top-right div:after   {border-top-color: #94C775;}
+.tooltip.success.top-left div:after    {border-top-color: #94C775;}
+.tooltip.success.bottom div:after      {border-bottom-color: #94C775;}
+.tooltip.success.bottom-right div:after{border-bottom-color: #94C775;}
+.tooltip.success.bottom-left div:after {border-bottom-color: #94C775;}
+.tooltip.success.left div:after        {border-left-color: #94C775;}
+.tooltip.success.left-top div:after    {border-left-color: #94C775;}
+.tooltip.success.left-bottom div:after {border-left-color: #94C775;}
+.tooltip.success.right div:after       {border-right-color: #94C775;}
+.tooltip.success.right-top div:after   {border-right-color: #94C775;}
+.tooltip.success.right-bottom div:after{border-right-color: #94C775;}
+
+.tooltip.smoke div                   {background: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.top div:after         {border-top-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.top-right div:after   {border-top-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.top-left div:after    {border-top-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.bottom div:after      {border-bottom-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.bottom-right div:after{border-bottom-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.bottom-left div:after {border-bottom-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.left div:after        {border-left-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.left-top div:after    {border-left-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.left-bottom div:after {border-left-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.right div:after       {border-right-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.right-top div:after   {border-right-color: rgba(90, 103, 121, 0.95);}
+.tooltip.smoke.right-bottom div:after{border-right-color: rgba(90, 103, 121, 0.95);}
+
+
+.popover {
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 9;
+ display: none;
+ z-index: 999;
+}
+
+.popover_title{
+border-radius: 3px 3px 0px 0px;
+padding: 5px 15px;
+}
+
+.popover_content{
+border-radius: 0 0 3px 3px;
+padding: 5px 15px;
+}
+
+.popover_content_s{
+border-radius: 3px;
+padding: 5px 15px;
+}
+
+.popover div:after {
+ content: '';
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ border: 5px solid transparent;
+ z-index: 11;
+}
+
+.popover.top div:after { left: 50%; bottom: -11px; margin-left: -5px; }
+.popover.bottom div:after { left: 50%; top: -11px; margin-left: -5px; }
+.popover.left div:after { bottom: 50%; right: -11px; margin-bottom: -5px; }
+.popover.right div:after { bottom: 50%; left: -11px; margin-bottom: -5px; }
+.popover.top-right div:after { left: 90%; bottom: -11px; margin-left: -5px;}
+.popover.top-left div:after { left: 10%; bottom: -11px; margin-left: -5px;}
+.popover.bottom-right div:after { left: 90%; top: -11px; margin-left: -5px;}
+.popover.bottom-left div:after { left: 10%; top: -11px; margin-left: -5px;}
+.popover.left-top div:after { bottom: 75%; right: -11px; margin-bottom: -5px; }
+.popover.left-bottom div:after { bottom: 25%; right: -11px; margin-bottom: -5px;}
+.popover.right-top div:after { bottom: 75%; left: -11px; margin-bottom: -5px;}
+.popover.right-bottom div:after { bottom: 25%; left: -11px; margin-bottom: -5px;}
+
+.popover.smoke div.popover_title     {background: #515D6D;border-bottom: 1px solid #515D6D;}
+.popover.smoke div.popover_content   {background: rgba(90, 103, 121, 0.95);}
+.popover.smoke div.popover_content_s {background: rgba(90, 103, 121, 0.95);}
+.popover.smoke.top div:after         {border-top-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.top-right div:after   {border-top-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.top-left div:after    {border-top-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.bottom div:after      {border-bottom-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.bottom-right div:after{border-bottom-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.bottom-left div:after {border-bottom-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.left div:after        {border-left-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.left-top div:after    {border-left-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.left-bottom div:after {border-left-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.right div:after       {border-right-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.right-top div:after   {border-right-color: rgba(90, 103, 121, 0.95);}
+.popover.smoke.right-bottom div:after{border-right-color: rgba(90, 103, 121, 0.95);}
+
+.popover.error div.popover_title     {background: #DC5E5E;border-bottom: 1px solid #DC5E5E;}
+.popover.error div.popover_content   {background: #f56969;}
+.popover.error div.popover_content_s {background: #f56969;}
+.popover.error.top div:after         {border-top-color: #f56969;}
+.popover.error.top-right div:after   {border-top-color: #f56969;}
+.popover.error.top-left div:after    {border-top-color: #f56969;}
+.popover.error.bottom div:after      {border-bottom-color: #f56969;}
+.popover.error.bottom-right div:after{border-bottom-color: #f56969;}
+.popover.error.bottom-left div:after {border-bottom-color: #f56969;}
+.popover.error.left div:after        {border-left-color: #f56969;}
+.popover.error.left-top div:after    {border-left-color: #f56969;}
+.popover.error.left-bottom div:after {border-left-color: #f56969;}
+.popover.error.right div:after       {border-right-color: #f56969;}
+.popover.error.right-top div:after   {border-right-color: #f56969;}
+.popover.error.right-bottom div:after{border-right-color: #f56969;}
+
+.popover.success div.popover_title     {background: #85B369;border-bottom: 1px solid #85B369;}
+.popover.success div.popover_content   {background: #94C775;}
+.popover.success div.popover_content_s {background: #94C775;}
+.popover.success.top div:after         {border-top-color: #94C775;}
+.popover.success.top-right div:after   {border-top-color: #94C775;}
+.popover.success.top-left div:after    {border-top-color: #94C775;}
+.popover.success.bottom div:after      {border-bottom-color: #94C775;}
+.popover.success.bottom-right div:after{border-bottom-color: #94C775;}
+.popover.success.bottom-left div:after {border-bottom-color: #94C775;}
+.popover.success.left div:after        {border-left-color: #94C775;}
+.popover.success.left-top div:after    {border-left-color: #94C775;}
+.popover.success.left-bottom div:after {border-left-color: #94C775;}
+.popover.success.right div:after       {border-right-color: #94C775;}
+.popover.success.right-top div:after   {border-right-color: #94C775;}
+.popover.success.right-bottom div:after{border-right-color: #94C775;}
+
+
+.popover.black div.popover_title     {background: rgba(0, 0, 0, 0.8);border-bottom: 1px solid rgba(0, 0, 0, 0.8);}
+.popover.black div.popover_content   {background-color: rgba(20, 20, 20,0.8);}
+.popover.black div.popover_content_s   {background-color: rgba(20, 20, 20,0.8);}
+.popover.black.top div:after         {border-top-color: rgba(20, 20, 20,0.8);}
+.popover.black.top-right div:after   {border-top-color: rgba(20, 20, 20, 0.8);}
+.popover.black.top-left div:after    {border-top-color: rgba(20, 20, 20,0.8);}
+.popover.black.bottom div:after      {border-bottom-color: rgba(20, 20, 20, 0.8);}
+.popover.black.bottom-right div:after{border-bottom-color: rgba(20, 20, 20, 0.8);}
+.popover.black.bottom-left div:after {border-bottom-color: rgba(20, 20, 20, 0.8);}
+.popover.black.left div:after        {border-left-color: rgba(20, 20, 20, 0.8);}
+.popover.black.left-top div:after    {border-left-color: rgba(20, 20, 20, 0.8);}
+.popover.black.left-bottom div:after {border-left-color: rgba(20, 20, 20,0.8);}
+.popover.black.right div:after       {border-right-color: rgba(20, 20, 20, 0.8);}
+.popover.black.right-top div:after   {border-right-color: rgba(20, 20, 20, 0.8);}
+.popover.black.right-bottom div:after{border-right-color: rgba(20, 20, 20, 0.8);}
+
+.popover.white div.popover_title     {background: #E6E6E6;border-bottom: 1px solid #E6E6E6;color:#808E95;}
+.popover.white div.popover_content   {background-color: #FFFFFF;color:#808E95;}
+.popover.white div.popover_content_s   {background-color: #FFFFFF;}
+.popover.white.top div:after         {border-top-color: #FFFFFF;}
+.popover.white.top-right div:after   {border-top-color: #FFFFFF;}
+.popover.white.top-left div:after    {border-top-color: #FFFFFF;}
+.popover.white.bottom div:after      {border-bottom-color: #FFFFFF;}
+.popover.white.bottom-right div:after{border-bottom-color: #FFFFFF;}
+.popover.white.bottom-left div:after {border-bottom-color: #FFFFFF;}
+.popover.white.left div:after        {border-left-color: #FFFFFF;}
+.popover.white.left-top div:after    {border-left-color: #FFFFFF;}
+.popover.white.left-bottom div:after {border-left-color: #FFFFFF;}
+.popover.white.right div:after       {border-right-color: #FFFFFF;}
+.popover.white.right-top div:after   {border-right-color: #FFFFFF;}
+.popover.white.right-bottom div:after{border-right-color: #FFFFFF;}
+
+#background{
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    z-index: 1000;
+    left: 0;
+    display: none;
+}
+
+.modal{
+    font-family: 'HelveticaNeueCyr-Roman', sans-serif ;
+	color:#000;
+    font-size: 13px;
+    position: absolute;
+    border-radius: 5px;
+    background: #fff;
+    display: none;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    z-index: 3000;
+    cursor: default;
+}
+
+.modal_title{
+    font-size: 15px;
+    border-bottom: 1px solid #E2E5E9;
+    padding:20px 0;
+    margin: 10px 30px;
+}
+.modal_content{
+    padding: 10px 30px 0 30px;
+}
+.modal .close{
+    position: absolute;
+    top: -50px;
+    right: -50px;
+	color:#fff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+	font-size:40px;
+    display: block;
+    z-index: 5555;
+    cursor: pointer;
+}
+.uap-links-section{
+	color:#808E95;
+	border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.13);     overflow: hidden;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.2);
+	background-color:#fff !important;
+	max-width:100%;
+	width:600px;
+	font-family: 'Open Sans', sans-serif;
+	position:fixed;
+}
+.uap-links-section .popover_title{
+	background-color:#eaeded;
+	font-weight:700;
+	color:#444;
+	font-size:15px;
+}
+.uap-links-section .popover_content{
+	padding-bottom:30px;
+	font-size:13px;
+}
+.uap-links-section .uap-special-label{
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight:600;
+}
+.uap-links-section .uap-ap-field{
+	padding-top:20px;
+}
+.uap-links-section .uap-ap-label{
+	color:#111;
+	font-weight:700;
+}
+.uap-account-affiliatelinks-tab2 .uap-ap-label{
+	font-size:15px;
+}
+.uap-account-affiliatelinks-tab2 textarea{
+	font-size:16px;
+	color:#000;
+}
+
+.uap-banners-section{
+	color:#808E95;
+	border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.13);     overflow: hidden;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.2);
+	background-color:#fff !important;
+	max-width:100%;
+	width:600px;
+	font-family: 'Open Sans', sans-serif;
+	position:fixed;
+}
+.uap-banners-section .popover_title{
+	background-color:#eaeded;
+	font-weight:700;
+	color:#444;
+	font-size:15px;
+}
+.uap-banners-section .popover_content{
+	padding-bottom:30px;
+	font-size:13px;
+}
+.uap-menu-section{
+	color:#808E95;
+	border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.13);     overflow: hidden;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.2);
+	background-color:#fff !important;
+	max-width:100%;
+	width:200px;
+	font-family: 'Open Sans', sans-serif;
+	position:fixed;
+	z-index: 999999;
+	font-size:13px;
+}
+.uap-menu-section .popover_content{
+	padding-bottom:30px;
+}
+.uap-menu-section .popover_title {
+    background-color: #eaeded;
+    font-weight: 700;
+    color: #444;
+    font-size: 15px;
+}
+.uap-menu-section ul{
+	line-height: 1;
+    overflow: auto;
+	list-style: none;
+    margin: 0;
+	padding:0;
+	padding-bottom:10px;
+}
+.uap-menu-section li{
+	list-style: none;
+	padding: 5px 1px 5px 0;
+	color:#41c3f7;
+	border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 5px;
+}
+.uap-info-bar-banner-size{
+	padding: 15px 0;
+}
+.uap-info-bar-banner-size .uap-ap-label{
+	color:#111;
+	font-weight:700;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight:600;
+}
+
+.popover_title_content{
+    display: inline-block;
+}
+.popover-close-bttn{
+    display: inline-block;
+    position: absolute;
+    right: 11px;
+    cursor: pointer;
+}

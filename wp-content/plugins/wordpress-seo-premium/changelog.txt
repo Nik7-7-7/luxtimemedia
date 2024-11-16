@@ -1,0 +1,6 @@
+*** Yoast SEO premium Changelog ***
+
+
+2024-11-05 - version 23.8
+* update -  Bumps the minimum required version of Yoast SEO to 23.8.
+

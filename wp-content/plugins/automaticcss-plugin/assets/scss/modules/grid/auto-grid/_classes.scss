@@ -1,0 +1,42 @@
+@if $option-auto-grid == on {
+    // Control all auto grids
+    // Remember to exclude one-off utilities like "grid--auto-rows"
+    [class*="grid--auto"]:where(:not([class*="rows"])) {
+        @include auto-grid;
+    }
+
+    // Support for auto grid with auto-grid-rows requires
+    // listing every auto-grid class specifically
+
+    $auto-grid-classes: null; // Initialize empty list
+    @each $grid, $col-count in $auto-grids {
+        $auto-grid-classes: append($auto-grid-classes, ".grid--#{$grid} ", comma);
+    }
+
+    :is(#{$auto-grid-classes}):where(.grid--auto-rows) {
+        @include auto-grid;
+    }
+    
+    // Generate Auto Grid Classes
+    @each $grid, $col-count in $auto-grids {
+        .grid--#{$grid} {
+            --column-count: #{$col-count};
+        }
+    }
+    
+    // Generate Staggered Auto Grids
+    @each $grid, $col-count in $auto-staggered-grids {
+        .grid--#{$grid} {
+            grid-template-columns: #{$col-count};
+        }
+    }
+    // Stack auto grids at breakpoint
+    @include breakpoint(#{$auto-staggered-grid-breakpoint}) {
+        @each $grid, $col-count in $auto-staggered-grids {
+            .grid--#{$grid} {
+                grid-template-columns: var(--grid-template-columns);
+                --column-count: 1;
+            }
+        }
+    }
+}

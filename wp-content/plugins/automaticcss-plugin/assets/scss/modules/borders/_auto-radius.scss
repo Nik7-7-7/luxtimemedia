@@ -1,0 +1,15 @@
+@if $option-auto-radius == on {
+    #{$auto-radius-selectors} {
+        border-radius: var(--radius);
+    }
+}
+
+// Live preview support
+.acss-auto-radius {
+
+    @if $auto-radius-selectors != null {
+        & #{$auto-radius-selectors} {
+            border-radius: var(--radius);
+        }
+    }
+}

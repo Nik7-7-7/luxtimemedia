@@ -75,7 +75,7 @@ $date_format           = SSA_Utils::localize_default_date_strings( 'F j, Y g:i a
 							<?php
 							// link meeting details to the admin ssa panel.
 							if ( ! empty( $upcoming_appointment['web_meeting_url'] ) && filter_var( $atts['web_meeting_url'], FILTER_VALIDATE_BOOLEAN ) ) {
-								echo ' <a target="_blank" href="' . $upcoming_appointment['web_meeting_url'] . '"> ' . $atts['web_meeting_link_label'] . ' </a>';
+								echo ' <a target="_blank" href="' . $upcoming_appointment['web_meeting_url'] . '">' . ' Open Web Meeting ' . '</a>';
 							}
 
 							if ( ! empty( $atts['details_link_displayed'] ) ) {
@@ -89,7 +89,7 @@ $date_format           = SSA_Utils::localize_default_date_strings( 'F j, Y g:i a
 				<?php endforeach; ?>
 				<?php 
 					if ( ! empty( $upcoming_appointments ) ) {
-							echo '<a href=' . ssa()->wp_admin->url( '/ssa/appointments' ) . '><li class="ssa-upcoming-appointment"><div class="md-list-text-container">'.$atts['all_appointments_link_label']. '</div></li></a>'; 
+							echo '<a href=' . ssa()->wp_admin->url( '/ssa/appointments' ) . '><li class="ssa-upcoming-appointment"><div class="md-list-text-container">View all upcoming appointments</div></li></a>';
 					}
 				?>
 		<?php endif; ?>

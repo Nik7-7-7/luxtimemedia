@@ -326,7 +326,6 @@ abstract class ActionScheduler_Abstract_ListTable extends WP_List_Table {
 			array(
 				'page',
 				'status',
-				'tab',
 			)
 		);
 	}
@@ -455,7 +454,7 @@ abstract class ActionScheduler_Abstract_ListTable extends WP_List_Table {
 	/**
 	 * Prepares the data to feed WP_Table_List.
 	 *
-	 * This has the core for selecting, sorting and filtering data. To keep the code simple
+	 * This has the core for selecting, sorting and filting data. To keep the code simple
 	 * its logic is split among many methods (get_items_query_*).
 	 *
 	 * Beside populating the items this function will also count all the records that matches
@@ -544,7 +543,7 @@ abstract class ActionScheduler_Abstract_ListTable extends WP_List_Table {
 
 	/**
 	 * Set the data for displaying. It will attempt to unserialize (There is a chance that some columns
-	 * are serialized). This can be override in child classes for further data transformation.
+	 * are serialized). This can be override in child classes for futher data transformation.
 	 *
 	 * @param array $items Items array.
 	 */
@@ -645,7 +644,7 @@ abstract class ActionScheduler_Abstract_ListTable extends WP_List_Table {
 	}
 
 	/**
-	 * Default column formatting, it will escape everything for security.
+	 * Default column formatting, it will escape everythig for security.
 	 *
 	 * @param array  $item The item array.
 	 * @param string $column_name Column name to display.

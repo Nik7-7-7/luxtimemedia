@@ -1,0 +1,5596 @@
+# Copyright (C) 2024 Brainstorm Force
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Schema Pro 2.7.23\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-schema-pro\n"
+"POT-Creation-Date: 2024-10-10 05:59:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:216
+#. translators: %s product name
+msgid ""
+"Want to help make <strong>%1s</strong> even more awesome? Allow us to "
+"collect non-sensitive diagnostic data and usage information. "
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:219
+msgid "This will be applicable for all sites from the network."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:243
+#. translators: %s usage doc link
+msgid " Know More."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:253
+msgid "Yes! Allow it"
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:264
+msgid "No Thanks"
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:370
+msgid "Usage Tracking"
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:414
+#. translators: %s Product title
+msgid "Allow %s products to track non-sensitive usage tracking data."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:417
+msgid " This will be applicable for all sites from the network."
+msgstr ""
+
+#: admin/bsf-analytics/class-bsf-analytics.php:422
+msgid "Learn More."
+msgstr ""
+
+#: classes/class-brainstorm-update-aiosrs-pro.php:73
+#. translators: %s: search term
+msgid ""
+"Please <a href= %1$s class=\"bsf-core-license-form-btn\" "
+"plugin-slug=\"wp-schema-pro\"> activate </a>your copy of the<i> %2$s </i>to "
+"get update notifications, access to support features & other resources!"
+msgstr ""
+
+#: classes/class-brainstorm-update-aiosrs-pro.php:170
+msgid "Get the license >>"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:291
+msgid "Schema Regenerated Successfully"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:559
+msgid "Top-Level (top)"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:560
+msgid "Top-Level (middle)"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:561
+msgid "Top-Level (bottom)"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:584
+msgid "View Schema Pro settings"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:584
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Schema Pro"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:690
+#: classes/class-bsf-aiosrs-pro-schema.php:4950
+msgid "Schemas"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:739
+msgid "Website Information"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:754
+#: template/wpsp-advanced-settings.php:33
+msgid "Plugin Settings"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:769
+msgid "White Label"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:783
+msgid "Breadcrumbs"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:850
+msgid "Settings saved successfully."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:1013
+msgid "Activate"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-admin.php:1014
+msgid "Deactivate"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-custom-fields-markup.php:120
+msgid "(0 Reviews)"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-custom-fields-markup.php:255
+#: classes/class-bsf-aiosrs-pro-schema.php:1128
+msgid "Applicant Location"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-custom-fields-markup.php:259
+#: classes/class-bsf-aiosrs-pro-schema.php:1132
+msgid ""
+"The geographic location(s) in which employees may be located to be eligible "
+"for the Remote job."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-custom-fields-markup.php:814
+msgid "Reset"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-custom-fields-markup.php:830
+#: classes/class-bsf-aiosrs-pro-markup.php:153
+#: classes/class-bsf-aiosrs-pro-markup.php:300
+#. translators: 1: number of reviews
+msgid "(%1s Review)"
+msgid_plural "(%1s Reviews)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-bsf-aiosrs-pro-custom-fields-markup.php:867
+#: classes/class-bsf-aiosrs-pro-schema.php:3975
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:322 template/settings.php:93
+#: template/wpsp-advanced-settings.php:127
+msgid "Select Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-custom-fields-markup.php:882
+msgid "Add your snippet here..."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-custom-fields-markup.php:935
+msgid "By clicking on this, it will allow you to fill advanced data."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-markup.php:132
+msgid "1 Review"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-markup.php:211
+msgid "Thanks!"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-template.php:676
+msgid "Home"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-template.php:678
+#: classes/class-bsf-aiosrs-pro-schema-template.php:679
+msgid "Archives for "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-template.php:680
+msgid "You searched for "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:32
+msgid "Choose Schema Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:37
+msgid "Set Target Pages"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:42
+msgid "Ready!"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:120
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:140
+msgid "Schema Setup"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:150
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:182
+msgid "Exit Setup Wizard"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:196
+msgid "Select the Schema Type:"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:217
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:357
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:389
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:486
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:606
+msgid "Next"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:315
+#: classes/class-bsf-aiosrs-pro-schema.php:3549
+#. translators: 1 schema title
+msgid "Enable On"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:316
+msgid "Add target pages where this Schema should appear."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:323
+#: classes/class-bsf-aiosrs-pro-schema.php:3557
+msgid "Display Rules"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:327
+#: classes/class-bsf-aiosrs-pro-schema.php:3561
+msgid "Add “AND” Rule"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:336
+#: classes/class-bsf-aiosrs-pro-schema.php:3570
+msgid "Exclude From"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:337
+msgid "This Schema will not appear at these pages."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:344
+#: classes/class-bsf-aiosrs-pro-schema.php:3578
+msgid "Exclude On"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:347
+#: classes/class-bsf-aiosrs-pro-schema.php:3581
+msgid "Add “OR” Rule"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:447
+msgid "Your Schema is Ready!"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:462
+#. translators: 1 schema title
+msgid "Here’s what to do next:"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:463
+msgid ""
+"Step 1: Complete the setup and proceed to fill the required properties of "
+"this schema."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:464
+msgid "Step 2: Add necessary Schema information on individual pages and posts."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:465
+msgid "Step 3: Test if Schema is integrated correctly."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema-wizard.php:471
+msgid "Complete Setup"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:194
+msgid "Fixed Option"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:198
+msgid "Fixed Options"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:202
+msgid "Fixed Number"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:206
+msgid "Fixed Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:210
+msgid "Fixed Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:214
+msgid "Fixed Date & Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:218
+msgid "Fixed Rating"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:239
+msgid "Accept User Rating"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:254
+msgid "Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:255
+msgid "Target Location"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:256
+#: classes/lib/class-bsf-custom-post-list-table.php:133
+msgid "Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:280
+msgid "Enable On: "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:288
+msgid "Exclude From: "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:412
+msgid "Article"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:417
+msgid "Article Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:421
+msgid "Article (General)"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:422
+msgid "Advertiser Content Article"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:423
+msgid "Blog Posting"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:424
+msgid "News Article"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:425
+msgid "Report"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:426
+msgid "Satirical Article"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:427
+msgid "Scholarly Article"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:428
+msgid "Tech Article"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:432
+#: classes/class-bsf-aiosrs-pro-schema.php:502
+#: classes/class-bsf-aiosrs-pro-schema.php:1795
+#: classes/class-bsf-aiosrs-pro-schema.php:3143
+msgid "Author Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:437
+#: classes/class-bsf-aiosrs-pro-schema.php:3146
+msgid "Author URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:442
+#: classes/class-bsf-aiosrs-pro-schema.php:680
+msgid "Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:447
+msgid "Short Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:452
+#: classes/class-bsf-aiosrs-pro-schema.php:508
+#: classes/class-bsf-aiosrs-pro-schema.php:1265
+#: classes/class-bsf-aiosrs-pro-schema.php:1530
+msgid "URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:457
+msgid "Headline"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:462
+msgid "Published Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:467
+msgid "Modified Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:472
+#: classes/class-bsf-aiosrs-pro-schema.php:1425
+#: classes/class-bsf-aiosrs-pro-schema.php:2127
+msgid "Publisher Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:477
+#: classes/class-bsf-aiosrs-pro-schema.php:2132
+msgid "Publisher Logo"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:486
+#: classes/class-bsf-aiosrs-pro-schema.php:1374
+msgid "Book"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:491
+msgid "Title Of The Book"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:497
+msgid "Image Of The Book"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:514
+msgid "Book Edition Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:519
+msgid "ISBN"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:523
+#: classes/class-bsf-aiosrs-pro-schema.php:2452
+msgid ""
+"The International Standard Book Number (ISBN) is a unique numeric "
+"commercial book identifier. ISBN having 10 or 13 digit number."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:526
+msgid "Book Format"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:531
+msgid ""
+"The format of the book using one or more of the [ EBook, Hardcover, "
+"Paperback, AudioBook ] values"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:535
+msgid "Book Edition"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:541
+msgid "Platform URL Template"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:545
+msgid ""
+"Provide the link in which platform works. For example desktop web browsers "
+"link"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:548
+msgid " Work Platforms"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:553
+msgid ""
+"The platform(s) on which the link works For example Works on desktop web "
+"browsers, Works on mobile web browsers."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:556
+msgid "Offer Price"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:566
+msgid "Offer Price Currency"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:573
+msgid "Offer Eligible Country"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:579
+msgid "Offer Availability Status"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:587
+#: classes/class-bsf-aiosrs-pro-schema.php:805
+#: classes/class-bsf-aiosrs-pro-schema.php:1525
+msgid "A Reference Link"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:590
+#: classes/class-bsf-aiosrs-pro-schema.php:808
+#: classes/class-bsf-aiosrs-pro-schema.php:1527
+#: classes/class-bsf-aiosrs-pro-schema.php:2464
+#: classes/class-bsf-aiosrs-pro-schema.php:3054
+msgid ""
+"A reference page that unambiguously indicates the item's identity; for "
+"example, the URL of the item's Wikipedia page, Freebase page, or official "
+"website."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:597
+#: classes/class-bsf-aiosrs-pro-schema.php:1375
+msgid "Course"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:602
+msgid "Course Title"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:608
+#: classes/class-bsf-aiosrs-pro-schema.php:2275
+msgid "Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:611
+msgid "A description of the course. Display limit of 60 characters."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:615
+msgid "Course Code"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:618
+msgid ""
+"The identifier for the Course used by the course provider (e.g. CS101 or "
+"6.001)."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:621
+msgid "Course Provider"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:624
+msgid ""
+"The organization that publishes the source content of the course. For "
+"example, UC Berkeley."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:627
+#: classes/class-bsf-aiosrs-pro-schema.php:1382
+msgid "Offers"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:629
+msgid "The pricing and availability of the course."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:633
+#: classes/class-bsf-aiosrs-pro-schema.php:2505
+msgid "Offer Category"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:639
+msgid "Price Currency"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:645
+#: classes/class-bsf-aiosrs-pro-schema.php:767
+#: classes/class-bsf-aiosrs-pro-schema.php:978
+#: classes/class-bsf-aiosrs-pro-schema.php:2060
+#: classes/class-bsf-aiosrs-pro-schema.php:2511
+msgid "Price"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:655
+#: classes/class-bsf-aiosrs-pro-schema.php:840
+#: classes/class-bsf-aiosrs-pro-schema.php:2487
+msgid "Course Instance"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:658
+msgid ""
+"An offering of the course at a specific time and place or through specific "
+"media or mode of study or to a specific section of students."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:661
+#: classes/class-bsf-aiosrs-pro-schema.php:2493
+msgid "Instance Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:667
+#: classes/class-bsf-aiosrs-pro-schema.php:2499
+msgid "Instance Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:673
+msgid "Course Mode"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:685
+msgid "Course Status"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:690
+msgid "The status of the Course Instance."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:694
+#: classes/class-bsf-aiosrs-pro-schema.php:895
+msgid "Start Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:700
+#: classes/class-bsf-aiosrs-pro-schema.php:901
+msgid "End Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:705
+msgid "Repeat Count"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:715
+msgid "Repeat Frequency"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:721
+#: classes/class-bsf-aiosrs-pro-schema.php:2527
+msgid "Course Workload"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:727
+msgid "Course Previous Start Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:733
+msgid "Online Course URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:739
+msgid "Course Organizer Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:743
+msgid "The person or organization that is hosting the Course."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:747
+msgid "Course Organizer URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:753
+#: classes/class-bsf-aiosrs-pro-schema.php:927
+msgid "Location Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:757
+msgid "The venue of the course."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:760
+msgid "Location Address"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:776
+#: classes/class-bsf-aiosrs-pro-schema.php:987
+#: classes/class-bsf-aiosrs-pro-schema.php:1628
+#: classes/class-bsf-aiosrs-pro-schema.php:1676
+#: classes/class-bsf-aiosrs-pro-schema.php:1688
+#: classes/class-bsf-aiosrs-pro-schema.php:1711
+#: classes/class-bsf-aiosrs-pro-schema.php:2070
+#: classes/class-bsf-aiosrs-pro-schema.php:2533
+msgid "Currency"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:782
+#: classes/class-bsf-aiosrs-pro-schema.php:993
+msgid "Valid From"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:787
+msgid "Offer URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:792
+#: classes/class-bsf-aiosrs-pro-schema.php:971
+msgid "Availability"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:798
+#: classes/class-bsf-aiosrs-pro-schema.php:1003
+msgid "Performer"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:811
+#: classes/class-bsf-aiosrs-pro-schema.php:1348
+#: classes/class-bsf-aiosrs-pro-schema.php:1748
+#: classes/class-bsf-aiosrs-pro-schema.php:1934
+#: classes/class-bsf-aiosrs-pro-schema.php:2081
+msgid "Rating"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:816
+#: classes/class-bsf-aiosrs-pro-schema.php:1353
+#: classes/class-bsf-aiosrs-pro-schema.php:1754
+#: classes/class-bsf-aiosrs-pro-schema.php:1939
+#: classes/class-bsf-aiosrs-pro-schema.php:2087
+msgid "Review Count"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:819
+#: classes/class-bsf-aiosrs-pro-schema.php:1356
+#: classes/class-bsf-aiosrs-pro-schema.php:1757
+#: classes/class-bsf-aiosrs-pro-schema.php:1942
+#: classes/class-bsf-aiosrs-pro-schema.php:2091
+#: classes/class-bsf-aiosrs-pro-schema.php:2848
+#: classes/class-bsf-aiosrs-pro-schema.php:2980
+#: classes/class-bsf-aiosrs-pro-schema.php:3015
+msgid "The count of total number of reviews. e.g. \"11\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:827
+#: classes/class-bsf-aiosrs-pro-schema.php:1376
+msgid "Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:832
+msgid "Event Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:836
+msgid "Event (General)"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:837
+msgid "Business Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:838
+msgid "Childrens Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:839
+msgid "Comedy Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:841
+msgid "Dance Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:842
+msgid "Delivery Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:843
+msgid "Education Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:844
+msgid "EventSeries"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:845
+msgid "Exhibition Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:846
+msgid "Festival"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:847
+msgid "Food Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:848
+msgid "Literary Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:849
+msgid "Music Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:850
+msgid "Publication Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:851
+msgid "Sale Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:852
+msgid "Screening Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:853
+msgid "Social Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:854
+msgid "Sports Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:855
+msgid "Theater Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:856
+msgid "Visual Arts Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:861
+msgid " Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:867
+msgid " Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:872
+msgid " Image/Logo"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:877
+#: classes/class-bsf-aiosrs-pro-schema.php:2554
+#: classes/class-bsf-aiosrs-pro-schema.php:2596
+msgid " Status"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:882
+#: classes/class-bsf-aiosrs-pro-schema.php:2559
+#: classes/class-bsf-aiosrs-pro-schema.php:2601
+msgid ""
+"The status of the event. If you don't use this field, Google understands "
+"the eventStatus to be EventScheduled. "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:886
+#: classes/class-bsf-aiosrs-pro-schema.php:2563
+#: classes/class-bsf-aiosrs-pro-schema.php:2605
+msgid " Attendance Mode"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:891
+#: classes/class-bsf-aiosrs-pro-schema.php:2568
+#: classes/class-bsf-aiosrs-pro-schema.php:2610
+msgid ""
+"The location of the event. There are different requirements depending on if "
+"the event is happening online or at a physical location."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:906
+msgid "Timezone"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:914
+#: classes/class-bsf-aiosrs-pro-schema.php:2583
+msgid "Previous Start Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:920
+#: classes/class-bsf-aiosrs-pro-schema.php:2589
+msgid "Online Event URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:931
+msgid ""
+"The detailed name of the place or venue where the event is being held. This "
+"property is only recommended for events that take place at a physical "
+"location."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:934
+#: classes/class-bsf-aiosrs-pro-schema.php:1137
+#: classes/class-bsf-aiosrs-pro-schema.php:1270
+#: classes/class-bsf-aiosrs-pro-schema.php:1495
+#: classes/class-bsf-aiosrs-pro-schema.php:2018
+msgid "Street Address"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:941
+#: classes/class-bsf-aiosrs-pro-schema.php:1143
+#: classes/class-bsf-aiosrs-pro-schema.php:1276
+#: classes/class-bsf-aiosrs-pro-schema.php:1501
+#: classes/class-bsf-aiosrs-pro-schema.php:1997
+msgid "Locality"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:948
+#: classes/class-bsf-aiosrs-pro-schema.php:1149
+#: classes/class-bsf-aiosrs-pro-schema.php:1282
+#: classes/class-bsf-aiosrs-pro-schema.php:1507
+#: classes/class-bsf-aiosrs-pro-schema.php:2013
+msgid "Postal Code"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:955
+#: classes/class-bsf-aiosrs-pro-schema.php:1155
+#: classes/class-bsf-aiosrs-pro-schema.php:1288
+#: classes/class-bsf-aiosrs-pro-schema.php:1513
+#: classes/class-bsf-aiosrs-pro-schema.php:2002
+msgid "Region"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:962
+#: classes/class-bsf-aiosrs-pro-schema.php:1161
+#: classes/class-bsf-aiosrs-pro-schema.php:1294
+#: classes/class-bsf-aiosrs-pro-schema.php:1519
+#: classes/class-bsf-aiosrs-pro-schema.php:2007
+msgid "Country"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:975
+msgid ""
+"The availability of this event, for example In stock, Out of stock, "
+"Pre-order, etc."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:998
+msgid "Online Ticket URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1008
+#: classes/class-bsf-aiosrs-pro-schema.php:2697
+msgid "Organizer Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1013
+#: classes/class-bsf-aiosrs-pro-schema.php:2702
+msgid "The person or organization that is hosting the event."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1017
+#: classes/class-bsf-aiosrs-pro-schema.php:2706
+msgid "Organizer URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1028
+msgid "Job Posting"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1033
+#: classes/class-bsf-aiosrs-pro-schema.php:1479
+msgid "Job Title"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1039
+msgid "Hiring Organization"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1045
+msgid "Hiring Organization URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1049
+msgid ""
+"A referenced URL of the organization page to identity information. E.g. The "
+"URL of the Organization Wikipedia page, Wikidata entry, or official website."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1052
+msgid "Hiring Organization Logo"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1057
+msgid "Industry"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1062
+msgid "Employment Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1068
+msgid "Job Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1074
+msgid "Date Posted"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1080
+msgid "Valid Through"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1085
+msgid "Education"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1088
+msgid "Educational background needed for the position or Occupation."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1091
+msgid "Job Experience"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1096
+msgid "Qualifications"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1099
+msgid ""
+"Specific qualifications required for this role or Occupation.For example A "
+"diploma, academic degree, certification."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1102
+msgid "Responsibilities"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1107
+msgid "Skills"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1112
+msgid "Work Hours"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1117
+msgid "Job Location Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1121
+msgid ""
+"Use value \"TELECOMMUTE\" for jobs in which the employee may or must work "
+"remotely 100% of the time."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1124
+msgid "Remote Location"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1168
+msgid "Base Salary"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1173
+msgid "Min Salary"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1178
+msgid "Max Salary"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1183
+msgid "Salary In Currency"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1189
+msgid "Salary Per Unit"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1193
+msgid ""
+"A string or text indicating the unit of salary measurement. For example "
+"MONTH, YEAR."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1200
+msgid "Local Business"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1205
+msgid "Business Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1211
+msgid "Local Business Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1215
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:60
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:276 template/settings.php:16
+#: template/settings.php:33
+msgid "General"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1216
+msgid "Animal Shelter"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1217
+msgid "Automotive"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1218
+msgid "Child Care"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1219
+msgid "Dentist"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1220
+msgid "Dry Cleaning Or Laundry"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1221
+msgid "Emergency Service"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1222
+msgid "Employment Agency"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1223
+msgid "Entertainment"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1224
+msgid "Financial Service"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1225
+msgid "Food Establishment"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1226
+msgid "Government Office"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1227
+msgid "Health And Beauty"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1228
+msgid "Home And Construction"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1229
+msgid "Internet Cafe"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1230
+msgid "Legal Service"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1231
+msgid "Library"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1232
+msgid "Locksmith"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1233
+msgid "Lodging"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1234
+msgid "Medical Business"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1235
+msgid "Radio Station"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1236
+msgid "Real Estate Agent"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1237
+msgid "Recycling Center"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1238
+msgid "Self Storage"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1239
+msgid "Shopping Center"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1240
+msgid "Sports Activity Location"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1241
+msgid "Store"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1242
+msgid "Television Station"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1243
+msgid "Tourist Information Center"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1244
+msgid "Travel Agency"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1248
+msgid "Business Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1254
+#: classes/class-bsf-aiosrs-pro-schema.php:1469
+#: classes/class-bsf-aiosrs-pro-schema.php:2023
+msgid "Telephone"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1259
+#: classes/class-bsf-aiosrs-pro-schema.php:2028
+msgid "Price Range"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1262
+msgid ""
+"The relative price range of a business, commonly specified by either a "
+"numerical range (for example, \"$10-15\") or a normalized number of "
+"currency signs (for example, \"$$$\")"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1302
+msgid "Hours Specification"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1306
+msgid "Day Of Week"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1311
+msgid "Here, you can select multiple days. e.g. \"11\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1314
+msgid "Opens"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1320
+msgid "Closes"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1328
+msgid " Latitude"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1335
+msgid "The latitude of the business location. . e.g. \"37.293058\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1338
+msgid "Longitude"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1345
+msgid "The longitude of the business location. e.g. \"-121.988331\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1363
+#: classes/class-bsf-aiosrs-pro-schema.php:1717
+msgid "Review"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1368
+msgid "Review Item Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1372
+msgid "Select Item Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1373
+#: classes/class-bsf-aiosrs-pro-schema.php:1542
+msgid "Product"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1377
+msgid "Local business"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1378
+#: classes/class-bsf-aiosrs-pro-schema.php:1764
+msgid "Recipe"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1379
+#: classes/class-bsf-aiosrs-pro-schema.php:2037
+msgid "Software Application"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1380
+msgid "Movie"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1381
+#: classes/class-bsf-aiosrs-pro-schema.php:1416
+#: classes/class-bsf-aiosrs-pro-schema.php:1726
+#: classes/class-bsf-aiosrs-pro-schema.php:1791
+#: classes/class-bsf-aiosrs-pro-schema.php:2408
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:287 template/settings.php:58
+msgid "Organization"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1386
+#: classes/class-bsf-aiosrs-pro-schema.php:1741
+msgid "Review Body"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1392
+msgid "Review Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1398
+msgid "Review Rating"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1404
+msgid "Rating Value"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1408
+msgid ""
+"A numerical quality rating for the item, either a number, fraction, or "
+"percentage (for example, 4, 60%, or 6 / 10)."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1411
+#: classes/class-bsf-aiosrs-pro-schema.php:1721
+msgid "Reviewer Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1415
+#: classes/class-bsf-aiosrs-pro-schema.php:1434
+#: classes/class-bsf-aiosrs-pro-schema.php:1725
+#: classes/class-bsf-aiosrs-pro-schema.php:1790
+#: classes/class-bsf-aiosrs-pro-schema.php:2407
+msgid "Person"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1420
+#: classes/class-bsf-aiosrs-pro-schema.php:1730
+msgid "Reviewer Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1440
+msgid "Person Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1446
+msgid "Gender"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1452
+msgid "DOB"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1457
+msgid "Member Of"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1460
+msgid ""
+"An Organization (or ProgramMembership) to which this Person or Organization "
+"belongs."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1463
+msgid "Person Email"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1474
+msgid "Photograph"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1484
+msgid "Homepage URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1489
+msgid "Nationality"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1547
+#: classes/class-bsf-aiosrs-pro-schema.php:2774
+msgid "Product Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1553
+msgid "Product Brand"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1558
+msgid "Product Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1564
+msgid "Product URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1569
+#: classes/class-bsf-aiosrs-pro-schema.php:2796
+msgid "Product Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1574
+#: classes/class-bsf-aiosrs-pro-schema.php:2802
+msgid "Product SKU"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1577
+msgid ""
+"The Stock Keeping Unit (SKU) is a unique numerical identifying number that "
+"refers to a specific stock item in a retailer's inventory or product "
+"catalog."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1580
+#: classes/class-bsf-aiosrs-pro-schema.php:2808
+msgid "Product MPN"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1583
+#: classes/class-bsf-aiosrs-pro-schema.php:2811
+msgid ""
+"The Manufacturer Part Number (MPN) of the product, or the product to which "
+"the offer refers. e.g. \"925872\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1586
+#: classes/class-bsf-aiosrs-pro-schema.php:2814
+msgid "Product Availability"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1592
+msgid "Merchant Return Policy"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1596
+msgid "Applicable Country"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1601
+msgid "Return Policy Category"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1607
+msgid "Merchant Return Days"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1612
+msgid "Return Fees"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1618
+msgid "Return Method"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1623
+msgid "Return Shipping Fees Amount"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1636
+msgid "Shipping Details"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1640
+msgid "Shipping Destination"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1646
+msgid "Min Handling Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1651
+msgid "Unit Code"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1656
+msgid "Max Handling Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1661
+msgid "Min Transit Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1666
+msgid "Max Transit Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1671
+msgid "Shipping Rate"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1682
+msgid "Shipping Cost"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1696
+msgid "Price Valid Until"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1699
+msgid ""
+"The date after which the price will no longer be available. e.g. "
+"\"31/12/2021 09:00 AM\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1702
+#: classes/class-bsf-aiosrs-pro-schema.php:2825
+msgid "Product Price"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1736
+#: classes/class-bsf-aiosrs-pro-schema.php:2840
+msgid "Product Rating"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1751
+msgid ""
+"To maintain accurate product information, kindly provide at least one "
+"rating."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1769
+#: classes/class-bsf-aiosrs-pro-schema.php:2855
+msgid "Recipe Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1775
+#: classes/class-bsf-aiosrs-pro-schema.php:2861
+msgid "Recipe Photo"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1781
+#: classes/class-bsf-aiosrs-pro-schema.php:2867
+msgid "Recipe Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1786
+msgid "Author Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1800
+msgid "Preparation Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1805
+msgid "Cook Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1810
+msgid "Keywords"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1813
+#: classes/class-bsf-aiosrs-pro-schema.php:2890
+msgid "e.g. \"winter apple pie\", \"nutmeg crust\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1816
+#: classes/class-bsf-aiosrs-pro-schema.php:2893
+msgid "Recipe Category"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1819
+#: classes/class-bsf-aiosrs-pro-schema.php:2896
+msgid "e.g. \"dinner\", \"entree\", or \"dessert\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1822
+#: classes/class-bsf-aiosrs-pro-schema.php:2899
+msgid "Recipe Cuisine"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1825
+#: classes/class-bsf-aiosrs-pro-schema.php:2902
+msgid "e.g. \"French\", \"Indian\", or \"American\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1828
+#: classes/class-bsf-aiosrs-pro-schema.php:2905
+msgid "Recipe Calories"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1831
+#: classes/class-bsf-aiosrs-pro-schema.php:2908
+msgid "The number of calories in the recipe."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1834
+#: classes/class-bsf-aiosrs-pro-schema.php:2911
+msgid "Recipe Ingredients"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1837
+#: classes/class-bsf-aiosrs-pro-schema.php:2914
+msgid "Ingredient used in the recipe. Separate multiple ingredients with comma(,)."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1840
+msgid "Recipe Yield"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1846
+msgid "Recipe Instructions"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1850
+msgid "Instructions Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1856
+msgid "Instructions Step"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1861
+msgid "Instructions URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1867
+msgid "Instructions Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1876
+msgid "Recipe Video"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1881
+msgid "Video Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1887
+#: classes/class-bsf-aiosrs-pro-schema.php:2109
+msgid "Video Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1893
+#: classes/class-bsf-aiosrs-pro-schema.php:2205
+msgid "Thumbnail URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1899
+#: classes/class-bsf-aiosrs-pro-schema.php:2137
+#: classes/class-bsf-aiosrs-pro-schema.php:2381
+msgid "Content URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1905
+#: classes/class-bsf-aiosrs-pro-schema.php:2142
+msgid "Embed URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1910
+msgid "Duration"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1915
+msgid "Upload Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1921
+msgid "Expires On"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1926
+msgid "Interaction Count"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1929
+#: classes/class-bsf-aiosrs-pro-schema.php:2160
+msgid "The number of times the video has been watched."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1949
+msgid "Service"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1954
+msgid "Service Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1960
+msgid "Service Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1964
+msgid ""
+"The type of service being offered, e.g. Broadcast Service, Cable Or "
+"Satellite Service, etc."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1967
+msgid "Service Area"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1970
+msgid "The geographic area where a service or offered item is provided."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1973
+msgid "Service Provider Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1979
+msgid "Service Provider Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1983
+msgid "The service provider or service operator Image ."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1986
+msgid "Service Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1991
+msgid "Service Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:1994
+msgid "Here,you can add specific service image."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2042
+msgid "Application Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2048
+msgid "Application Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2054
+msgid "Operating System"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2057
+#: classes/class-bsf-aiosrs-pro-schema.php:2996
+msgid ""
+"Software for the operating system, for example, \"Windows 7\", \"OSX "
+"10.6\", \"Android 1.6\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2076
+msgid "Application Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2098
+msgid "Video Object"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2103
+msgid "Video Title"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2115
+msgid "Video Thumbnail"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2121
+msgid "Video Upload Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2147
+msgid "Video Duration"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2152
+msgid "Video Expires On"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2157
+msgid "Video Interaction Count"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2163
+msgid "Clips"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2168
+msgid "Clip Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2173
+msgid "Clip Start Offset"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2176
+msgid ""
+"The start time of the clip expressed as the number of seconds from the "
+"beginning of the work."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2179
+msgid "Clip End Offset"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2182
+msgid ""
+"The end time of the clip expressed as the number of seconds from the "
+"beginning of the work."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2185
+msgid "Clip URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2188
+#: classes/class-bsf-aiosrs-pro-schema.php:2202
+msgid "A URL that points to the start time of the clip."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2193
+msgid "Seek To Action Start Offset"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2196
+msgid "The number of seconds to skip to."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2199
+msgid "Seek To Action target URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2211
+msgid "Regions Allowed"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2216
+msgid "Is Live Broadcast"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2221
+msgid "Live Broadcast Start Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2226
+msgid "Live Broadcast End Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2236
+msgid "FAQ"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2242
+msgid "Question-Answer"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2246
+msgid "Question"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2252
+msgid "Answer"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2264
+msgid "How-to"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2269
+#: classes/class-bsf-aiosrs-pro-schema.php:2291
+#: classes/class-bsf-aiosrs-pro-schema.php:2304
+msgid "Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2280
+msgid "Total Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2283
+msgid ""
+"The total time required to perform instructions or a direction (including "
+"time to prepare the supplies)."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2286
+msgid "Materials"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2288
+msgid ""
+"The supply property lists the item(s) “consumed when performing "
+"instructions or a direction.”"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2299
+msgid "Tools"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2301
+msgid ""
+"The tool property lists the item(s) used (but not consumed) when performing "
+"instructions or a direction."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2312
+#: wpsp-blocks/classes/class-bsf-sp-config.php:227
+msgid "Steps"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2315
+msgid "Google needs at least two steps."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2318
+msgid "Step Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2324
+msgid "Step Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2330
+msgid "Step URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2336
+msgid "Step Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2349
+#: classes/class-bsf-aiosrs-pro-schema.php:2354
+msgid "Custom Markup"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2357
+msgid ""
+"Be sure to add custom schema markup in JSON-LD format.\n"
+"\t\t\t\t\t\t\t\tAs the custom schema markup in JSON-LD format, make sure to "
+"add it in script tag.\n"
+"\t\t\t\t\t\t\t\tValidate schema markup with the Structured Data Testing "
+"Tool or Rich Results Test before adding to the website."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2370
+#: classes/class-bsf-aiosrs-pro-schema.php:2376
+msgid "Image License"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2378
+msgid ""
+"Include the license property for your image to be eligible to be shown with "
+"the Licensable badge"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2387
+msgid "License"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2393
+msgid "Acquire License Page"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2398
+msgid "Credit Text"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2403
+msgid "Creator Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2412
+msgid "Creator"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2417
+msgid "Copy Right Notice"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2435
+msgid "Book Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2441
+msgid "Book Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2448
+msgid "Book ISBN"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2455
+msgid "Book Author Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2461
+msgid "Same As"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2471
+msgid "Course Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2477
+msgid "Course Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2482
+msgid "Course Organization Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2519
+msgid "Course Attendance Mode"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2524
+msgid ""
+"The location of the Course Instance. There are different requirements "
+"depending on if the Course is happening online or at a physical location."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2543
+msgid "Event Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2549
+msgid "Event Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2572
+msgid "Event Start Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2578
+msgid "Event End Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2614
+msgid "Event Location Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2620
+msgid "Event Street Address"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2627
+msgid "Event Locality"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2634
+msgid "Event Postal Code"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2641
+msgid "Event Region"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2648
+msgid "Event Country"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2656
+msgid "Event Offer Availability"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2662
+msgid "Event Offer Price"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2671
+msgid "Event Currency"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2677
+msgid "Event Offer Valid From"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2682
+msgid "Event Ticket Link"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2687
+msgid "Event Performer"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2692
+msgid "Event Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2718
+msgid "Local Business Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2724
+msgid "Local Business Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2730
+msgid "Local Business Telephone"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2735
+msgid "Local Business Street Address"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2741
+msgid "Local Business Locality"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2747
+msgid "Local Business Postal Code"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2753
+msgid "Local Business Region"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2759
+msgid "Local Business Country"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2765
+msgid "Local Business Price Range"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2780
+msgid "Product Brand Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2785
+msgid " Product Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2791
+msgid " Product URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2805
+msgid ""
+"The Stock Keeping Unit (SKU), a merchant-specific identifier for a product "
+"or service, or the product e.g. \"0446310786\""
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2820
+msgid "Product Price Valid Until"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2834
+msgid "Product Currency"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2845
+msgid "Product Review Count"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2872
+msgid "Recipe Author Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2877
+msgid "Recipe Preparation Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2882
+msgid "Recipe Cook Time"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2887
+msgid "Recipe Keywords"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2917
+msgid "Recipe Instructions Step"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2920
+msgid ""
+"Recipe Instructions Steps used in the recipe. Separate multiple "
+"Instructions Steps with comma(,)."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2923
+msgid "Recipe Video Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2929
+msgid "Recipe Video Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2935
+msgid "Recipe Video Thumbnail Url"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2941
+msgid "Recipe Video Content URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2946
+msgid "Recipe Video Embed URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2951
+msgid "Recipe Video  Duration"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2956
+msgid "Recipe Video Upload Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2962
+msgid "Recipe Video Expires On"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2967
+msgid "Recipe Video Interaction Count"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2972
+msgid "Recipe Video Rating"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2977
+msgid "Recipe Video Review Count"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2987
+msgid "Software Application Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2993
+msgid "Software Application Operating System"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:2999
+msgid "Software Application Category"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3005
+msgid "Software Application Rating"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3011
+msgid "Software Application Review Count"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3018
+msgid "Software Application Price"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3028
+msgid "Software Application Currency"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3038
+msgid "Movie Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3044
+msgid "Movie Description"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3050
+msgid "Movie SameAs"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3057
+msgid "Movie Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3063
+msgid "Movie Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3068
+msgid "Movie Director Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3077
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:340 template/settings.php:111
+msgid "Organization Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3083
+msgid "Organization Street Address"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3088
+msgid "Organization Locality"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3093
+msgid "Organization Postal Code"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3098
+msgid "Organization Region"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3103
+msgid "Organization Country"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3129
+#: classes/class-bsf-aiosrs-pro-schema.php:3167
+msgid "Site Meta"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3131
+msgid "Site Title"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3132
+msgid "Tagline"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3133
+msgid "Site URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3137
+#: classes/class-bsf-aiosrs-pro-schema.php:3173
+msgid "Post Meta (Basic Fields)"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3139
+#: classes/lib/class-bsf-custom-post-list-table.php:132
+msgid "Title"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3140
+msgid "Content"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3141
+msgid "Excerpt"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3142
+msgid "Permalink"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3144
+msgid "Author First Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3145
+msgid "Author Last Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3147
+msgid "Publish Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3148
+msgid "Last Modify Date"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3152
+#: classes/class-bsf-aiosrs-pro-schema.php:3180
+msgid "Add Custom Info"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3154
+msgid "Fixed Text"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3155
+#: classes/class-bsf-aiosrs-pro-schema.php:3184
+msgid "New Custom Field"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3159
+#: classes/class-bsf-aiosrs-pro-schema.php:3188
+msgid "All Other Custom Fields"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3161
+#: classes/class-bsf-aiosrs-pro-schema.php:3190
+msgid "Select Other Custom Fields Here"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3169
+msgid "Logo"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3175
+msgid "Featured Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3176
+msgid "Author Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3182
+msgid "Fixed Image"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3183
+msgid "Image URL"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3256
+#: classes/class-bsf-aiosrs-pro-schema.php:3263
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3331
+msgid "Schema Settings"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3427
+#. translators: %s post title.
+msgid "Schema requires mapping of %s meta fields."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3430
+#. translators: %s post title.
+msgid "Schema requires mapping of %s meta field."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3516
+msgid "Schema Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3518
+msgid "Select schema type."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3542
+msgid "Set Target Location"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3543
+msgid "Select location where this schema should be integrated."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3550
+msgid "Add target locations where this Schema should appear."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3571
+msgid "This Schema will not appear at these locations."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3592
+msgid "All Schema Fields"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3593
+msgid ""
+"Below are the fields/properties that Google Requires you to fill so that "
+"the schema will work properly."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3608
+msgid "Guidelines"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3615
+#. translators: %s Schema type
+msgid "Read Guidelines for %s Schema"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:3865
+#: template/breadcrumb-settings.php:81
+msgid "None"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4104
+msgid "Discontinued"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4105
+msgid "In Stock"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4106
+msgid "In Store Only"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4107
+msgid "Limited Availability"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4108
+msgid "Online Only"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4109
+msgid "Out Of Stock"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4110
+msgid "Pre Order"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4111
+msgid "Pre Sale"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4112
+msgid "Sold Out"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4113
+msgid "Back Order"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4123
+msgid "EBook"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4124
+msgid "Hardcover"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4125
+msgid "Paperback"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4126
+msgid "AudioBook"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4134
+#: classes/class-bsf-aiosrs-pro-schema.php:4154
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:582
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:598
+#: template/breadcrumb-settings.php:66 template/settings.php:388
+#: template/settings.php:501 template/settings.php:518
+#: template/wpsp-advanced-settings.php:60
+#: template/wpsp-advanced-settings.php:153
+#: template/wpsp-advanced-settings.php:177
+#: template/wpsp-advanced-settings.php:200
+msgid "Yes"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4135
+#: classes/class-bsf-aiosrs-pro-schema.php:4155
+#: template/wpsp-advanced-settings.php:61
+msgid "No"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4143
+msgid "Free"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4144
+msgid "Partially Free"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4145
+msgid "Subscription"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4146
+msgid "Paid"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4163
+msgid "Finite Return Window"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4164
+msgid "Not Permitted"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4165
+msgid "Unlimited Window"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4173
+msgid "Free Return"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4174
+msgid "Customer Responsibility"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4175
+msgid "Return Shipping Fees"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4183
+msgid "Return at Kiosk"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4184
+msgid "Return by Mail"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4185
+msgid "Return in Store"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4193
+#: classes/lib/class-bsf-custom-post-list-table.php:377
+msgid "Scheduled"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4194
+msgid "Rescheduled"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4195
+msgid "Postponed"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4196
+msgid "Moved Online"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4197
+msgid "Cancelled"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4205
+msgid "Online"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4206
+#: classes/class-bsf-aiosrs-pro-schema.php:4216
+msgid "Physical Location"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4207
+#: classes/class-bsf-aiosrs-pro-schema.php:4218
+msgid "Mix Of Online & Physical Locations"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4217
+msgid "Online Event"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4233
+msgid "DesktopWebPlatform"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4234
+msgid "MobileWebPlatform"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4235
+msgid "AndroidPlatform"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4236
+msgid "IOSPlatform"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4244
+msgid "Monday"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4245
+msgid "Tuesday"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4246
+msgid "Wednesday"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4247
+msgid "Thursday"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4248
+msgid "Friday"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4249
+msgid "Saturday"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4250
+msgid "Sunday"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4258
+msgid "Afghanistan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4259
+msgid "Åland Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4260
+msgid "Albania"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4261
+msgid "Algeria"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4262
+msgid "American Samoa"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4263
+msgid "Andorra"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4264
+msgid "Angola"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4265
+msgid "Anguilla"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4266
+msgid "Antarctica"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4267
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4268
+msgid "Argentina"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4269
+msgid "Armenia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4270
+msgid "Aruba"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4271
+msgid "Australia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4272
+msgid "Austria"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4273
+msgid "Azerbaijan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4274
+msgid "Bahrain"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4275
+msgid "Bahamas"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4276
+msgid "Bangladesh"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4277
+msgid "Barbados"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4278
+msgid "Belarus"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4279
+msgid "Belgium"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4280
+msgid "Belize"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4281
+msgid "Benin"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4282
+msgid "Bermuda"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4283
+msgid "Bhutan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4284
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4285
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4286
+msgid "Botswana"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4287
+msgid "Bouvet Island"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4288
+msgid "Brazil"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4289
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4290
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4291
+msgid "Bulgaria"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4292
+msgid "Burkina Faso"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4293
+msgid "Burundi"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4294
+msgid "Cambodia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4295
+msgid "Cameroon"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4296
+msgid "Canada"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4297
+msgid "Cape Verde"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4298
+msgid "Cayman Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4299
+msgid "Central African Republic"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4300
+msgid "Chad"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4301
+msgid "Chile"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4302
+msgid "China"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4303
+msgid "Christmas Island"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4304
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4305
+msgid "Colombia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4306
+msgid "Comoros"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4307
+msgid "Congo"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4308
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4309
+msgid "Cook Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4310
+msgid "Costa Rica"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4311
+msgid "Ivory Coast"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4312
+msgid "Croatia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4313
+msgid "Cuba"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4314
+msgid "Curaçao"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4315
+msgid "Cyprus"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4316
+msgid "Czech Republic"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4317
+msgid "Denmark"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4318
+msgid "Djibouti"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4319
+msgid "Dominica"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4320
+msgid "Dominican Republic"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4321
+msgid "Ecuador"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4322
+msgid "Egypt"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4323
+msgid "El Salvador"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4324
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4325
+msgid "Eritrea"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4326
+msgid "Estonia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4327
+msgid "Ethiopia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4328
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4329
+msgid "Faroe Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4330
+msgid "Federated States of Micronesia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4331
+msgid "Fiji"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4332
+msgid "Finland"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4333
+msgid "France"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4334
+msgid "French Guiana"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4335
+msgid "French Polynesia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4336
+msgid "French Southern Territories"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4337
+msgid "Gabon"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4338
+msgid "Gambia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4339
+msgid "Georgia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4340
+msgid "Germany"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4341
+msgid "Ghana"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4342
+msgid "Gibraltar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4343
+msgid "Greece"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4344
+msgid "Greenland"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4345
+msgid "Grenada"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4346
+msgid "Guadeloupe"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4347
+msgid "Guam"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4348
+msgid "Guatemala"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4349
+msgid "Guernsey"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4350
+msgid "Guinea"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4351
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4352
+msgid "Guyana"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4353
+msgid "Haiti"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4354
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4355
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4356
+msgid "Honduras"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4357
+msgid "Hong Kong"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4358
+msgid "Hungary"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4359
+msgid "Iceland"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4360
+msgid "India"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4361
+msgid "Indonesia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4362
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4363
+msgid "Iraq"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4364
+msgid "Ireland"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4365
+msgid "Isle of Man"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4366
+msgid "Israel"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4367
+msgid "Italy"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4368
+msgid "Jamaica"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4369
+msgid "Japan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4370
+msgid "Jersey"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4371
+msgid "Jordan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4372
+msgid "Kazakhstan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4373
+msgid "Kenya"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4374
+msgid "Kiribati"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4375
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4376
+msgid "Korea, Republic of"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4377
+msgid "Kuwait"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4378
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4379
+msgid "Laos"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4380
+msgid "Latvia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4381
+msgid "Lebanon"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4382
+msgid "Lesotho"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4383
+msgid "Liberia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4384
+msgid "Libya"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4385
+msgid "Liechtenstein"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4386
+msgid "Lithuania"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4387
+msgid "Luxembourg"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4388
+msgid "Macao"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4389
+msgid "Madagascar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4390
+msgid "Malawi"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4391
+msgid "Malaysia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4392
+msgid "Maldives"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4393
+msgid "Mali"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4394
+msgid "Malta"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4395
+msgid "Marshall Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4396
+msgid "Martinique"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4397
+msgid "Mauritania"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4398
+msgid "Mauritius"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4399
+msgid "Mayotte"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4400
+msgid "Mexico"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4401
+msgid "Monaco"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4402
+msgid "Mongolia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4403
+msgid "Montenegro"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4404
+msgid "Montserrat"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4405
+msgid "Morocco"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4406
+msgid "Mozambique"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4407
+msgid "Myanmar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4408
+msgid "Namibia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4409
+msgid "Nauru"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4410
+msgid "Nepal"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4411
+msgid "Netherlands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4412
+msgid "New Caledonia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4413
+msgid "New Zealand"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4414
+msgid "Nicaragua"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4415
+msgid "Niger"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4416
+msgid "Nigeria"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4417
+msgid "Niue"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4418
+msgid "Norfolk Island"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4419
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4420
+msgid "Norway"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4421
+msgid "Oman"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4422
+msgid "Pakistan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4423
+msgid "Palau"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4424
+msgid "Palestine, State of"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4425
+msgid "Panama"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4426
+msgid "Papua New Guinea"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4427
+msgid "Paraguay"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4428
+msgid "Peru"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4429
+msgid "Philippines"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4430
+msgid "Pitcairn"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4431
+msgid "Plurinational State of Bolivia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4432
+msgid "Poland"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4433
+msgid "Portugal"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4434
+msgid "Puerto Rico"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4435
+msgid "Qatar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4436
+msgid "Réunion"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4437
+msgid "Republic of Macedonia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4438
+msgid "Republic of Moldova"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4439
+msgid "Romania"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4440
+msgid "Russian Federation"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4441
+msgid "Rwanda"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4442
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4443
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4444
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4445
+msgid "Saint Lucia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4446
+msgid "Saint Martin (French part"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4447
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4448
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4449
+msgid "Samoa"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4450
+msgid "San Marino"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4451
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4452
+msgid "Saudi Arabia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4453
+msgid "Senegal"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4454
+msgid "Serbia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4455
+msgid "Seychelles"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4456
+msgid "Sierra Leone"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4457
+msgid "Singapore"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4458
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4459
+msgid "Slovakia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4460
+msgid "Slovenia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4461
+msgid "Solomon Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4462
+msgid "Somalia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4463
+msgid "South Africa"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4464
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4465
+msgid "South Sudan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4466
+msgid "Spain"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4467
+msgid "Sri Lanka"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4468
+msgid "Sudan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4469
+msgid "Suriname"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4470
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4471
+msgid "Swaziland"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4472
+msgid "Sweden"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4473
+msgid "Switzerland"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4474
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4475
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4476
+msgid "Tajikistan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4477
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4478
+msgid "Thailand"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4479
+msgid "Timor-Leste"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4480
+msgid "Togo"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4481
+msgid "Tokelau"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4482
+msgid "Tonga"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4483
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4484
+msgid "Tunisia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4485
+msgid "Turkey"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4486
+msgid "Turkmenistan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4487
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4488
+msgid "Tuvalu"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4489
+msgid "Uganda"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4490
+msgid "Ukraine"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4491
+msgid "United Arab Emirates"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4492
+msgid "United Kingdom"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4493
+msgid "United States"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4494
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4495
+msgid "Uruguay"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4496
+msgid "Uzbekistan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4497
+msgid "Vanuatu"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4498
+msgid "Venezuela, Bolivarian Republic of"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4499
+msgid "Viet Nam"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4500
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4501
+msgid "Virgin Islands, U.S"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4502
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4503
+msgid "Western Sahara"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4504
+msgid "Yemen"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4505
+msgid "Zambia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4506
+msgid "Zimbabwe"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4514
+msgid "FULL TIME"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4515
+msgid "PART TIME"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4516
+msgid "CONTRACTOR"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4517
+msgid "TEMPORARY"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4518
+msgid "INTERN"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4519
+msgid "VOLUNTEER"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4520
+msgid "PER DIEM"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4521
+msgid "OTHER"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4529
+msgid "Afghan Afghani"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4530
+msgid "Albanian Lek"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4531
+msgid "Algerian Dinar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4532
+msgid "Angolan Kwanza"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4533
+msgid "Argentine Peso"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4534
+msgid "Armenian Dram"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4535
+msgid "Aruban Florin"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4536
+msgid "Australian Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4537
+msgid "Azerbaijani Manat"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4538
+msgid "Bahamian Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4539
+msgid "Bahraini Dinar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4540
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4541
+msgid "Barbadian Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4542
+msgid "Belarusian Ruble"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4543
+msgid "Belgian Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4544
+msgid "Belize Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4545
+msgid "Bermudan Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4546
+msgid "Bhutanese Ngultrum"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4547
+msgid "Bitcoin"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4548
+msgid "Bolivian Boliviano"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4549
+msgid "Bosnia-Herzegovina Convertible Mark"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4550
+msgid "Botswanan Pula"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4551
+msgid "Brazilian Real"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4552
+msgid "British Pound"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4553
+msgid "Brunei Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4554
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4555
+msgid "Burundian Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4556
+msgid "Cambodian Riel"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4557
+msgid "Canadian Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4558
+msgid "Cape Verdean Escudo"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4559
+msgid "Cayman Islands Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4560
+msgid "Central African CFA Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4561
+msgid "CFP Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4562
+msgid "Chilean Peso"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4563
+msgid "Chinese Yuan"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4564
+msgid "Colombian Peso"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4565
+msgid "Comorian Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4566
+msgid "Congolese Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4567
+msgid "Costa Rican Colón"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4568
+msgid "Croatian Kuna"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4569
+msgid "Cuban Convertible Peso"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4570
+msgid "Czech Koruna"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4571
+msgid "Danish Krone"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4572
+msgid "Djiboutian Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4573
+msgid "Dominican Peso"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4574
+msgid "East Caribbean Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4575
+msgid "Egyptian Pound"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4576
+msgid "Eritrean Nakfa"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4577
+msgid "Estonian Kroon"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4578
+msgid "Ethiopian Birr"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4579
+msgid "Euro"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4580
+msgid "Falkland Islands Pound"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4581
+msgid "Fijian Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4582
+msgid "Gambian Dalasi"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4583
+msgid "Georgian Lari"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4584
+msgid "German Mark"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4585
+msgid "Ghanaian Cedi"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4586
+msgid "Gibraltar Pound"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4587
+msgid "Greek Drachma"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4588
+msgid "Guatemalan Quetzal"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4589
+msgid "Guinean Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4590
+msgid "Guyanaese Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4591
+msgid "Haitian Gourde"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4592
+msgid "Honduran Lempira"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4593
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4594
+msgid "Hungarian Forint"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4595
+msgid "Icelandic Króna"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4596
+msgid "Indian Rupee"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4597
+msgid "Indonesian Rupiah"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4598
+msgid "Iranian Rial"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4599
+msgid "Iraqi Dinar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4600
+msgid "Israeli New Shekel"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4601
+msgid "Italian Lira"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4602
+msgid "Jamaican Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4603
+msgid "Japanese Yen"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4604
+msgid "Jordanian Dinar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4605
+msgid "Kazakhstani Tenge"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4606
+msgid "Kenyan Shilling"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4607
+msgid "Kuwaiti Dinar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4608
+msgid "Kyrgystani Som"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4609
+msgid "Laotian Kip"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4610
+msgid "Latvian Lats"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4611
+msgid "Lebanese Pound"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4612
+msgid "Lesotho Loti"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4613
+msgid "Liberian Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4614
+msgid "Libyan Dinar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4615
+msgid "Lithuanian Litas"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4616
+msgid "Macanese Pataca"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4617
+msgid "Macedonian Denar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4618
+msgid "Malagasy Ariary"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4619
+msgid "Malawian Kwacha"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4620
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4621
+msgid "Maldivian Rufiyaa"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4622
+msgid "Mauritanian Ouguiya"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4623
+msgid "Mauritian Rupee"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4624
+msgid "Mexican Peso"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4625
+msgid "Moldovan Leu"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4626
+msgid "Mongolian Tugrik"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4627
+msgid "Moroccan Dirham"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4628
+msgid "Mozambican Metical"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4629
+msgid "Myanmar Kyat"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4630
+msgid "Namibian Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4631
+msgid "Nepalese Rupee"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4632
+msgid "Netherlands Antillean Guilder"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4633
+msgid "New Taiwan Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4634
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4635
+msgid "Nicaraguan Córdoba"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4636
+msgid "Nigerian Naira"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4637
+msgid "North Korean Won"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4638
+msgid "Norwegian Krone"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4639
+msgid "Omani Rial"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4640
+msgid "Pakistani Rupee"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4641
+msgid "Panamanian Balboa"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4642
+msgid "Papua New Guinean Kina"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4643
+msgid "Paraguayan Guarani"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4644
+msgid "Peruvian Sol"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4645
+msgid "Philippine Peso"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4646
+msgid "Polish Zloty"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4647
+msgid "Qatari Rial"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4648
+msgid "Romanian Leu"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4649
+msgid "Russian Ruble"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4650
+msgid "Rwandan Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4651
+msgid "Salvadoran Colón"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4652
+msgid "Samoan Tala"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4653
+msgid "Saudi Riyal"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4654
+msgid "Serbian Dinar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4655
+msgid "Seychellois Rupee"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4656
+msgid "Sierra Leonean Leone"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4657
+msgid "Singapore Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4658
+msgid "Slovak Koruna"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4659
+msgid "Solomon Islands Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4660
+msgid "Somali Shilling"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4661
+msgid "South African Rand"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4662
+msgid "South Korean Won"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4663
+msgid "Special Drawing Rights"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4664
+msgid "Sri Lankan Rupee"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4665
+msgid "St. Helena Pound"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4666
+msgid "Sudanese Pound"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4667
+msgid "Surinamese Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4668
+msgid "Swazi Lilangeni"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4669
+msgid "Swedish Krona"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4670
+msgid "Swiss Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4671
+msgid "Syrian Pound"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4672
+msgid "São Tomé & Príncipe Dobra"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4673
+msgid "Tajikistani Somoni"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4674
+msgid "Tanzanian Shilling"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4675
+msgid "Thai Baht"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4676
+msgid "Tongan Pa'anga"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4677
+msgid "Trinidad & Tobago Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4678
+msgid "Tunisian Dinar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4679
+msgid "Turkish Lira"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4680
+msgid "Turkmenistani Manat"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4681
+msgid "Ugandan Shilling"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4682
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4683
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4684
+msgid "Uruguayan Peso"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4685
+msgid "US Dollar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4686
+msgid "Uzbekistani Som"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4687
+msgid "Vanuatu Vatu"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4688
+msgid "Venezuelan Bolívar"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4689
+msgid "Vietnamese Dong"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4690
+msgid "West African CFA Franc"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4691
+msgid "Yemeni Rial"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4692
+msgid "Zambian Kwacha"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4700
+#: classes/class-bsf-aiosrs-pro-schema.php:4720
+msgid "Business App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4701
+msgid "Game App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4702
+msgid "Multimedia App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4703
+msgid "Mobile App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4704
+msgid "Web App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4705
+msgid "Social Networking App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4706
+msgid "Travel App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4707
+msgid "Shopping App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4708
+msgid "Sports App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4709
+msgid "Lifestyle App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4710
+msgid "Design App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4711
+msgid "Developer App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4712
+msgid "Driver App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4713
+msgid "Educational App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4714
+msgid "Health App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4715
+msgid "Finance App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4716
+msgid "Security App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4717
+msgid "Browser App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4718
+msgid "Communication App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4719
+msgid "Desktop Enhancement App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4721
+msgid "Home App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4722
+msgid "Utilities App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4723
+msgid "Reference App"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4789
+msgid "-- None --"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4934
+#: classes/class-bsf-aiosrs-pro-schema.php:4972
+msgid "All Schemas"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4971
+msgid "Search Schema"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4973
+msgid "Edit Schema"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4974
+msgid "View Schema"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4975
+#: classes/class-bsf-aiosrs-pro-schema.php:4977
+msgid "Add New"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4976
+msgid "Update Schema"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4978
+msgid "New Schema Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:5011
+#: classes/class-bsf-aiosrs-pro-schema.php:5017
+#. translators: %s: singular custom post type name
+msgid "%s updated."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:5013
+#. translators: %s: singular custom post type name
+msgid "Custom %s updated."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:5015
+#. translators: %s: singular custom post type name
+msgid "Custom %s deleted."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:5019
+#. translators: %1$s: singular custom post type name ,%2$s: date and time of
+#. the revision
+msgid "%1$s restored to revision from %2$s"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:5021
+#. translators: %s: singular custom post type name
+msgid "%s published."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:5023
+#. translators: %s: singular custom post type name
+msgid "%s saved."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:5025
+#. translators: %s: singular custom post type name
+msgid "%s submitted."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:5027
+#. translators: %s: singular custom post type name
+msgid "%s scheduled for."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:5029
+#. translators: %s: singular custom post type name
+msgid "%s draft updated."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:56
+msgid "Welcome"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:65
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:417 template/settings.php:17
+#: template/settings.php:171 template/wpsp-advanced-settings.php:190
+msgid "Social Profiles"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:70
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:514 template/settings.php:19
+msgid "Other Schemas"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:75
+msgid "Done"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:238
+#. translators: %s: search term
+msgid "Welcome to %s setup wizard !"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:240
+#. translators: %s: search term
+msgid ""
+"%s adds Google-recommended schema markups across your site and specific "
+"pages. This improves your SEO and allows search engines to display rich "
+"snippets for your website."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:247
+msgid "Welcome To Schema Pro Setup Wizard!"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:249
+msgid ""
+"Schema Pro adds Google-recommended schema markups across your site and "
+"specific pages. This improves your SEO and allows search engines to display "
+"rich snippets for your website."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:255
+msgid ""
+"This wizard is the first step to making Google understand your site better. "
+"Just fill in the required basic information. It’s easy!"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:263
+msgid "Start"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:277 template/settings.php:44
+msgid ""
+"To help Google understand what your website is about, select the most "
+"suitable type for your website below, and fill in the required basic "
+"information."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:281
+msgid "This Website Represents "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:284
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:528
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:545
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:563 template/settings.php:55
+#: template/settings.php:294 template/settings.php:440
+#: template/settings.php:482
+msgid "--None--"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:285 template/settings.php:56
+msgid "Personal Website"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:286 template/settings.php:57
+msgid "Business Website"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:288 template/settings.php:59
+msgid "Personal Blog"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:289 template/settings.php:60
+msgid "Community Blog/News Website "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:290 template/settings.php:61
+msgid "Webshop"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:303 template/settings.php:74
+msgid "Website Logo"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:306 template/settings.php:77
+msgid "Add Custom Logo"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:329 template/settings.php:100
+msgid "Recommended minimum logo size 112 x 112 pixels."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:330 template/settings.php:101
+msgid "The image must be in .jpg, .png, .gif, .svg, or .webp format."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:334 template/settings.php:105
+msgid "Website Owner Name"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:348 template/settings.php:118
+msgid "Organization Type"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:375 template/settings.php:141
+msgid ""
+"Select the type that best describes your website. If you can't find one "
+"that applies exactly, use the generic \"General/Other\" type. Further "
+"create Local Business schema for \"General/Other\" type."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:377 template/settings.php:143
+msgid ""
+"Select the type that best describes your website. If you can't find one "
+"that applies exactly, use the generic \"General/Other\" type. Further "
+"create Local Business schema for \"General/Other\" type. "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:390
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:487
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:607
+msgid "Previous"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:418 template/settings.php:182
+msgid ""
+"Please enter all your possible social media profiles. These links can "
+"appear in the knowledge panel of the search results for your website."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:422 template/settings.php:189
+msgid "Facebook"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:426 template/settings.php:193
+msgid "Instagram"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:430 template/settings.php:197
+msgid "YouTube"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:434 template/settings.php:201
+msgid "Twitter"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:438 template/settings.php:205
+msgid "Pinterest"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:442 template/settings.php:209
+msgid "LinkedIn"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:446 template/settings.php:213
+msgid "SoundCloud"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:450 template/settings.php:217
+msgid "Tumblr"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:454 template/settings.php:221
+msgid "Wikipedia"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:458 template/settings.php:225
+msgid "MySpace"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:462 template/settings.php:229
+msgid "Google+"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:471
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:480 template/settings.php:238
+#: template/settings.php:250 template/settings.php:305
+msgid "Other"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:515 template/settings.php:425
+msgid ""
+"Fill in additional information about your website to make sure that search "
+"engines fully understand what it’s about. This will help improve your SEO "
+"further."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:520 template/settings.php:432
+msgid "Select About Page"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:522 template/settings.php:434
+msgid ""
+"Select your about page from the dropdown list. This will add AboutPage "
+"schema on the selected page."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:537 template/settings.php:453
+msgid "Select Contact Page"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:539 template/settings.php:455
+msgid ""
+"Select your contact page from the dropdown list. This will add ContactPage "
+"schema on the selected page."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:554 template/settings.php:473
+msgid "Select Menu for SiteLinks Schema"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:568
+msgid ""
+"This helps Google understand the most important pages on your website and "
+"can generate Rich Snippets."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:573 template/settings.php:492
+msgid "Enable SiteLinks Search Box"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:584
+msgid ""
+"If enabled, Google can display a search box on your search website’s search "
+"results."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:589
+#: template/breadcrumb-settings.php:57 template/settings.php:508
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:600 template/settings.php:510
+msgid ""
+"If enabled, Google can add breadcrumbs to your website’s and pages search "
+"results."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:639
+msgid "Well done!"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:644
+msgid ""
+"You've successfully added schema to your website! You’re on your way to get "
+"rich snippets for your pages."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:647
+msgid ""
+"The information you provided is globally applied to the website. You can "
+"always go back, change, and add more to this later from your dashboard."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:650
+msgid ""
+"From the dashboard, you can also explore other advanced features like "
+"breadcrumbs and white label services."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:653
+msgid "Wondering what’s next?"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:654
+msgid ""
+" The next step would be to create and set schema markups for your "
+"individual pages."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:657
+msgid "Give it a try now!"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-setup-wizard.php:663
+msgid "Create First Schema"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro.php:59
+msgid ""
+"Please be advised that the HowTo schema is now deprecated according to the "
+"latest Google guidelines "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro.php:59
+msgid "Take a look here."
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro.php:78
+#. translators: %s: search term
+msgid "Configure %s step by step. "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro.php:79
+msgid "Start Setup Wizard &raquo;"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro.php:81
+msgid "Not sure where to start with Schema Pro? Check out our initial "
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro.php:81
+msgid "setup wizard first &raquo;"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:67
+#. translators: %s: post type label
+msgid "No %s found"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:150
+#: classes/lib/class-bsf-custom-post-list-table.php:267
+msgid "Restore"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:151
+#: classes/lib/class-bsf-custom-post-list-table.php:284
+msgid "Delete Permanently"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:155
+#: classes/lib/class-bsf-custom-post-list-table.php:160
+msgid "Move to Trash"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:159
+msgid "Draft"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:255
+#. translators: %s: post title
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:256
+msgid "Edit"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:266
+#. translators: %s: post title
+msgid "Restore &#8220;%s&#8221; from the Trash"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:274
+#. translators: %s: post title
+msgid "Move &#8220;%s&#8221; to the Trash"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:283
+#. translators: %s: post title
+msgid "Delete &#8220;%s&#8221; permanently"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:297
+#. translators: %s: post title
+msgid "Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:298
+msgid "Preview"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:306
+#. translators: %s: post title
+msgid "View &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:307
+msgid "View"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:353
+#: classes/lib/class-bsf-custom-post-list-table.php:354
+msgid "Unpublished"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:357
+msgid "Y/m/d g:i:s a"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:365
+#. translators: 1: time
+msgid "%s ago"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:367
+msgid "Y/m/d"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:372
+msgid "Published"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:375
+msgid "Missed schedule"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:380
+msgid "Last Modified"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:583
+#. translators: %s: search keywords
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:601
+#. translators: %s: Post Label
+msgid "Search %s"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:129
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:173
+msgid "Basic"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:131
+msgid "All Singulars"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:132
+msgid "Front Page"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:156
+msgid "Specific Target"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:158
+msgid "Specific Pages / Posts / Archives etc."
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:175
+msgid "All"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:176
+msgid "Logged In"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:177
+msgid "Logged Out"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:182
+msgid "Advanced"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:461
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:901
+msgid "Add Rule"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:477
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:582
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:917
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:949
+msgid "Select Target Rule"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:528
+#. translators: %s post label
+msgid "All %s"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:533
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:541
+#. translators: %s post label
+#. translators: %s taxonomy label
+msgid "All %s Archive"
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:1399
+#. translators: %s post title.
+msgid "The same display setting does already exist in %1$s %2$s."
+msgstr ""
+
+#: classes/lib/target-rule/class-bsf-target-rule-fields.php:1459
+msgid "Select"
+msgstr ""
+
+#: lib/astra-notices/class-astra-notices.php:119
+msgid "WordPress Nonce not validated."
+msgstr ""
+
+#: template/branding-settings.php:31
+msgid "Configure White Label"
+msgstr ""
+
+#: template/branding-settings.php:36
+msgid ""
+"White Label lets you change the identity (name, description, etc.) of this "
+"plugin on the WordPress Dashboard. You can rename the plugin and present it "
+"as your own. This is mostly used by agencies and developers who are "
+"building websites for clients. "
+msgstr ""
+
+#: template/branding-settings.php:47
+msgid "Plugin Name"
+msgstr ""
+
+#: template/branding-settings.php:51
+msgid "Plugin Short Name"
+msgstr ""
+
+#: template/branding-settings.php:55
+msgid "Plugin Description"
+msgstr ""
+
+#: template/branding-settings.php:59
+msgid "Author / Agency Name"
+msgstr ""
+
+#: template/branding-settings.php:63
+msgid "Author / Agency URL"
+msgstr ""
+
+#: template/branding-settings.php:68 template/branding-settings.php:78
+msgid "Hide White Label Settings"
+msgstr ""
+
+#: template/branding-settings.php:70
+msgid ""
+"Checking this box will enable the White Label features of this plugin and "
+"will remove the white label settings."
+msgstr ""
+
+#: template/branding-settings.php:71
+msgid ""
+"If you want to access it in the future, you would have to deactivate and "
+"reactivate the plugin."
+msgstr ""
+
+#: template/branding-settings.php:84 template/breadcrumb-settings.php:127
+#: template/settings.php:154 template/settings.php:258
+#: template/settings.php:398 template/settings.php:525
+#: template/wpsp-advanced-settings.php:209
+msgid "Save Changes"
+msgstr ""
+
+#: template/branding-settings.php:89
+msgid "Note:"
+msgstr ""
+
+#: template/branding-settings.php:89
+msgid "Whitelabel settings are applied to all the sites in the Network."
+msgstr ""
+
+#: template/branding-settings.php:99 template/breadcrumb-settings.php:146
+#: template/settings.php:551 template/wpsp-advanced-settings.php:228
+msgid "Setup Wizard"
+msgstr ""
+
+#: template/branding-settings.php:111 template/breadcrumb-settings.php:153
+#: template/settings.php:558 template/wpsp-advanced-settings.php:235
+#. translators: %s: search term
+msgid "Need help configure %s step by step?"
+msgstr ""
+
+#: template/branding-settings.php:119 template/breadcrumb-settings.php:161
+#: template/settings.php:566 template/wpsp-advanced-settings.php:243
+msgid "Not sure where to start? Check out our video on "
+msgstr ""
+
+#: template/branding-settings.php:126 template/breadcrumb-settings.php:168
+#: template/settings.php:574 template/wpsp-advanced-settings.php:249
+msgid "Start Setup Wizard"
+msgstr ""
+
+#: template/branding-settings.php:133 template/breadcrumb-settings.php:175
+#: template/settings.php:582 template/wpsp-advanced-settings.php:256
+msgid "Regenerate Schema"
+msgstr ""
+
+#: template/branding-settings.php:137 template/breadcrumb-settings.php:185
+#: template/settings.php:589 template/wpsp-advanced-settings.php:261
+#: template/wpsp-advanced-settings.php:263
+msgid ""
+"Having issues with your schema? Try regenerating the code on all your "
+"posts/pages. "
+msgstr ""
+
+#: template/branding-settings.php:144 template/breadcrumb-settings.php:193
+#: template/settings.php:597 template/wpsp-advanced-settings.php:271
+msgid "Schema Regenerated Successfully."
+msgstr ""
+
+#: template/branding-settings.php:152 template/breadcrumb-settings.php:201
+#: template/settings.php:605 template/wpsp-advanced-settings.php:279
+msgid "Regenerate Now"
+msgstr ""
+
+#: template/branding-settings.php:160 template/breadcrumb-settings.php:210
+#: template/settings.php:614 template/wpsp-advanced-settings.php:288
+msgid "Knowledge Base"
+msgstr ""
+
+#: template/branding-settings.php:164 template/breadcrumb-settings.php:214
+#: template/settings.php:618 template/wpsp-advanced-settings.php:292
+msgid "Not sure how something works? Take a peek at the knowledge base and learn."
+msgstr ""
+
+#: template/branding-settings.php:167 template/breadcrumb-settings.php:217
+#: template/settings.php:621 template/wpsp-advanced-settings.php:295
+msgid "Visit Knowledge Base"
+msgstr ""
+
+#: template/branding-settings.php:176 template/breadcrumb-settings.php:227
+#: template/settings.php:631 template/wpsp-advanced-settings.php:305
+msgid "Rollback Version"
+msgstr ""
+
+#: template/breadcrumb-settings.php:22
+msgid "Configure Breadcrumbs"
+msgstr ""
+
+#: template/breadcrumb-settings.php:29
+msgid ""
+"Breadcrumb schema helps Google to understand the page's position in the "
+"site hierarchy."
+msgstr ""
+
+#: template/breadcrumb-settings.php:34
+msgid ""
+"Breadcrumb schema helps Google to understand the page's position in the "
+"site hierarchy. "
+msgstr ""
+
+#: template/breadcrumb-settings.php:68 template/settings.php:520
+msgid ""
+"If enabled, Google can add breadcrumbs to your website’s and pages search "
+"results. "
+msgstr ""
+
+#: template/breadcrumb-settings.php:109
+msgid ""
+"Select this option to add an extra middle level in a breadcrumb trail. For "
+"example  - Domain name > Selected Option > Post Name."
+msgstr ""
+
+#: template/breadcrumb-settings.php:180 template/settings.php:587
+msgid ""
+"Having issues with your schema? Try regenerating the code on all your "
+"posts/pages."
+msgstr ""
+
+#: template/license-form.php:15
+msgid "Close"
+msgstr ""
+
+#: template/license-form.php:23
+msgid "Activate License"
+msgstr ""
+
+#: template/license-form.php:24
+msgid "Deactivate License"
+msgstr ""
+
+#: template/license-form.php:26
+msgid "Your license is not active!"
+msgstr ""
+
+#: template/license-form.php:27
+msgid "Your license is activated!"
+msgstr ""
+
+#: template/settings.php:18 template/settings.php:275
+msgid "Contact Information"
+msgstr ""
+
+#: template/settings.php:36 template/settings.php:174 template/settings.php:278
+#: template/settings.php:417
+msgid ""
+"Looks like you have Yoast SEO plugin installed. So we've gone ahead and "
+"disabled some features which comes with Yoast SEO as well."
+msgstr ""
+
+#: template/settings.php:37 template/settings.php:175 template/settings.php:279
+#: template/settings.php:418
+msgid "If you would still like to enable then,"
+msgstr ""
+
+#: template/settings.php:51
+msgid "This Website Represents"
+msgstr ""
+
+#: template/settings.php:286
+msgid ""
+"The information provided here will tell search engines about your website's "
+"contact details. This can improve your appearance in rich snippets and can "
+"be displayed in the Knowledge Panel on some searches. "
+msgstr ""
+
+#: template/settings.php:292
+msgid "Select Contact Type"
+msgstr ""
+
+#: template/settings.php:295
+msgid "Customer Support"
+msgstr ""
+
+#: template/settings.php:296
+msgid "Technical Support"
+msgstr ""
+
+#: template/settings.php:297
+msgid "Billing Support"
+msgstr ""
+
+#: template/settings.php:298
+msgid "Bill payment"
+msgstr ""
+
+#: template/settings.php:299
+msgid "Sales"
+msgstr ""
+
+#: template/settings.php:300
+msgid "Reservations"
+msgstr ""
+
+#: template/settings.php:301
+msgid "Credit Card Support"
+msgstr ""
+
+#: template/settings.php:302
+msgid "Emergency"
+msgstr ""
+
+#: template/settings.php:303
+msgid "Baggage Tracking"
+msgstr ""
+
+#: template/settings.php:304
+msgid "Roadside Assistance"
+msgstr ""
+
+#: template/settings.php:311
+msgid "Other Contact Type "
+msgstr ""
+
+#: template/settings.php:316
+msgid "Contact Page URL"
+msgstr ""
+
+#: template/settings.php:341
+msgid "Contact Number"
+msgstr ""
+
+#: template/settings.php:344
+msgid ""
+"Enter the international version of your contact phone number starting with "
+"the “+” sign and country code, e.g., +1 for the US and Canada. Example: "
+"+1-800-555-1212. Search your country code here"
+msgstr ""
+
+#: template/settings.php:348
+msgid "Area Served"
+msgstr ""
+
+#: template/settings.php:350
+msgid ""
+"\tThe geographic area where a service or offered item is provided. "
+"Supersedes serviceArea. Examples US,ES FR"
+msgstr ""
+
+#: template/settings.php:357
+msgid "Available Language"
+msgstr ""
+
+#: template/settings.php:359
+msgid ""
+"Details about the language spoken. Languages may be specified by their "
+"common English name. If omitted, the language defaults to English."
+msgstr ""
+
+#: template/settings.php:366
+msgid "Contact Option"
+msgstr ""
+
+#: template/settings.php:368
+msgid ""
+"An option available on this contact point (e.g. a toll-free number or "
+"support for hearing-impaired callers). Hearing Impaired Supported:- Uses "
+"devices to support users with hearing impairments."
+msgstr ""
+
+#: template/settings.php:373
+msgid "Hearing Impaired Supported"
+msgstr ""
+
+#: template/settings.php:375
+msgid "Toll Free"
+msgstr ""
+
+#: template/settings.php:379
+msgid "Enable ContactPoint on schema type?"
+msgstr ""
+
+#: template/settings.php:381
+msgid ""
+"If enabled, It will add ContactPoint on Local Business and Person schema "
+"type."
+msgstr ""
+
+#: template/settings.php:414
+msgid "Other Schema"
+msgstr ""
+
+#: template/settings.php:487
+msgid ""
+"This helps Google understand the most important pages on your website and "
+"can generate Rich Snippets. "
+msgstr ""
+
+#: template/settings.php:503
+msgid "If enabled, Google can display a search box with your Search results. "
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:39
+msgid "Configure your Schema Pro plugin’s advanced options."
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:46
+msgid "Enable “Test Schema” Link in Toolbar"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:49
+#: template/wpsp-advanced-settings.php:51
+msgid ""
+"This allows you to test schema on page/post directly from the toolbar with "
+"a click. Enable the option to display the “Test Schema” link in the toolbar."
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:52
+#: template/wpsp-advanced-settings.php:83
+#: template/wpsp-advanced-settings.php:98
+#: template/wpsp-advanced-settings.php:145
+#: template/wpsp-advanced-settings.php:169
+msgid "Learn more."
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:70
+#. translators: %s: search term
+msgid "Display %s Menu Under"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:75
+msgid "Display Schema Pro Menu Under"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:80
+#: template/wpsp-advanced-settings.php:82
+msgid ""
+"Decide where you wish to see the Schema Pro menu on your WordPress "
+"dashboard."
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:92
+msgid "Add Schema Code In"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:95
+#: template/wpsp-advanced-settings.php:97
+msgid "Select where you wish to add the schema code."
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:105
+msgid "Head"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:106
+msgid "Footer"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:112
+msgid "Add Default Image"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:114
+msgid "Specify a default image to be a fallback for missing Featured Images."
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:139
+msgid "Skip Rendering Invalid Schema"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:142
+#: template/wpsp-advanced-settings.php:144
+msgid ""
+"If schema on posts/pages have empty required(*) fields, it may render "
+"invalid schema. Enable this option to skip rendering these ‘invalid’ schema."
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:163
+msgid "Delete Data on Uninstall?"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:166
+#: template/wpsp-advanced-settings.php:168
+msgid ""
+"Check this box if you would like Schema to completely remove all of its "
+"data when uninstalling via Plugins > Deactivate > Delete."
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:184
+msgid "Disable Duplicate Features that Yoast SEO Offers?"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:186
+msgid ""
+"When disabled, Schema Pro does not output duplicate markup that Yoast SEO "
+"Offers."
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:187
+msgid "These are the features that will be disabled:"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:189
+msgid "Organization/Person"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:191
+msgid "Breadcrumb"
+msgstr ""
+
+#: template/wpsp-advanced-settings.php:192
+msgid "Sitelink Search Box"
+msgstr ""
+
+#: wp-schema-pro.php:130
+#. translators: %s: PHP version
+msgid "Schema Pro blocks requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr ""
+
+#: wp-schema-pro.php:147
+#. translators: %s: WordPress version
+msgid ""
+"Schema Pro blocks requires WordPress version %s+. Because you are using an "
+"earlier version, the plugin is currently NOT RUNNING."
+msgstr ""
+
+#: wpsp-blocks/classes/class-bsf-sp-config.php:46
+msgid "FAQ - Schema Pro"
+msgstr ""
+
+#: wpsp-blocks/classes/class-bsf-sp-config.php:47
+msgid "This block helps you add a FAQ section with inbuilt schema support."
+msgstr ""
+
+#: wpsp-blocks/classes/class-bsf-sp-config.php:140
+msgid "FAQ - Schema Pro Child"
+msgstr ""
+
+#: wpsp-blocks/classes/class-bsf-sp-config.php:141
+msgid "This block helps you add single FAQ."
+msgstr ""
+
+#: wpsp-blocks/classes/class-bsf-sp-config.php:154
+msgid "How-to - Schema Pro"
+msgstr ""
+
+#: wpsp-blocks/classes/class-bsf-sp-config.php:155
+msgid ""
+"This block allows you to design attractive How-to pages or articles with "
+"automatically adding How-to Schema to your page."
+msgstr ""
+
+#: wpsp-blocks/classes/class-bsf-sp-config.php:228
+msgid ""
+"This steps box allows you to place an image along with a heading and "
+"description within a single block."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpschema.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Schema Pro is the go-to plugin to adding Schema Markup on your website with "
+"ease. Enables you to display rich snippets on search engines and improve "
+"your overall page SEO."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Brainstorm Force"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.brainstormforce.com"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-custom-fields-markup.php:119
+msgctxt "rating out of"
+msgid "0/5"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-custom-fields-markup.php:821
+#: classes/class-bsf-aiosrs-pro-markup.php:129
+#: classes/class-bsf-aiosrs-pro-markup.php:148
+#: classes/class-bsf-aiosrs-pro-markup.php:291
+#. translators: 1: rating
+msgctxt "rating out of"
+msgid "%s/5"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4969
+msgctxt "aiosrs-schemas general name"
+msgid "Schemas"
+msgstr ""
+
+#: classes/class-bsf-aiosrs-pro-schema.php:4970
+msgctxt "aiosrs-schemas singular name"
+msgid "Schema"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:275
+msgctxt "verb"
+msgid "Trash"
+msgstr ""
+
+#: classes/lib/class-bsf-custom-post-list-table.php:529
+#. translators: %s: count
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""

@@ -1,0 +1,148 @@
+// neutral Options
+$option-neutral-clr-alt: off !default;
+
+// neutral Alt Vars
+$neutral-alt-hex: #e56c70 !default;
+$neutral-r-alt: 229 !default;
+$neutral-g-alt: 108 !default;
+$neutral-b-alt: 112 !default;
+$neutral-h-alt: 358 !default;
+$neutral-s-alt: 70% !default;
+$neutral-l-alt: 66% !default;
+$neutral-hover-h-alt: 358 !default;
+$neutral-hover-s-alt: 70% !default;
+$neutral-hover-l-alt: 1.15 !default;
+$neutral-ultra-light-h-alt: 358 !default;
+$neutral-ultra-light-s-alt: 70% !default;
+$neutral-ultra-light-l-alt: 95% !default;
+$neutral-light-h-alt: 358 !default;
+$neutral-light-s-alt: 70% !default;
+$neutral-light-l-alt: 85% !default;
+$neutral-medium-h-alt: 358 !default;
+$neutral-medium-s-alt: 70% !default;
+$neutral-medium-l-alt: 50% !default;
+$neutral-dark-h-alt: 358 !default;
+$neutral-dark-s-alt: 70% !default;
+$neutral-dark-l-alt: 25% !default;
+$neutral-ultra-dark-h-alt: 358 !default;
+$neutral-ultra-dark-s-alt: 70% !default;
+$neutral-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$neutral-semi-light-h-alt: 358 !default;
+$neutral-semi-light-s-alt: 70% !default;
+$neutral-semi-light-l-alt: 60% !default;
+$neutral-semi-dark-h-alt: 358 !default;
+$neutral-semi-dark-s-alt: 70% !default;
+$neutral-semi-dark-l-alt: 40% !default;
+
+// Neutral Alt Color Map
+$color-neutral-alt:(); // Initialize Map
+@if $option-neutral-clr-alt == on and $option-neutral-clr == on {
+  $color-neutral-alt: (
+    "main": (
+      "neutral": $neutral-alt-hex,
+      "neutral-hover": hsl($neutral-hover-h-alt, $neutral-hover-s-alt, $neutral-hover-l-alt),
+      "neutral-ultra-light": hsl($neutral-ultra-light-h-alt, $neutral-ultra-light-s-alt, $neutral-ultra-light-l-alt),
+      "neutral-light": hsl($neutral-light-h-alt, $neutral-light-s-alt, $neutral-light-l-alt),
+      "neutral-semi-light": hsl($neutral-semi-light-h-alt, $neutral-semi-light-s-alt, $neutral-semi-light-l-alt),
+      "neutral-semi-dark": hsl($neutral-semi-dark-h-alt, $neutral-semi-dark-s-alt, $neutral-semi-dark-l-alt),
+      "neutral-dark": hsl($neutral-dark-h-alt, $neutral-dark-s-alt, $neutral-dark-l-alt),
+      "neutral-ultra-dark": hsl($neutral-ultra-dark-h-alt, $neutral-ultra-dark-s-alt, $neutral-ultra-dark-l-alt),
+      "neutral-comp": hsl($neutral-h-alt + 180, $neutral-s-alt, $neutral-l-alt),
+    ),
+    "trans": (
+      "neutral-trans-10": rgba($neutral-alt-hex, .1),
+      "neutral-trans-20": rgba($neutral-alt-hex, .2),
+      "neutral-trans-30": rgba($neutral-alt-hex, .3),
+      "neutral-trans-40": rgba($neutral-alt-hex, .4),
+      "neutral-trans-50": rgba($neutral-alt-hex, .5),
+      "neutral-trans-60": rgba($neutral-alt-hex, .6),
+      "neutral-trans-70": rgba($neutral-alt-hex, .7),
+      "neutral-trans-80": rgba($neutral-alt-hex, .8),
+      "neutral-trans-90": rgba($neutral-alt-hex, .9),
+    ),
+    "light-trans": (
+      "neutral-light-trans-10": hsl($neutral-light-h-alt, $neutral-light-s-alt, $neutral-light-l-alt, .1),
+      "neutral-light-trans-20": hsl($neutral-light-h-alt, $neutral-light-s-alt, $neutral-light-l-alt, .2),
+      "neutral-light-trans-30": hsl($neutral-light-h-alt, $neutral-light-s-alt, $neutral-light-l-alt, .3),
+      "neutral-light-trans-40": hsl($neutral-light-h-alt, $neutral-light-s-alt, $neutral-light-l-alt, .4),
+      "neutral-light-trans-50": hsl($neutral-light-h-alt, $neutral-light-s-alt, $neutral-light-l-alt, .5),
+      "neutral-light-trans-60": hsl($neutral-light-h-alt, $neutral-light-s-alt, $neutral-light-l-alt, .6),
+      "neutral-light-trans-70": hsl($neutral-light-h-alt, $neutral-light-s-alt, $neutral-light-l-alt, .7),
+      "neutral-light-trans-80": hsl($neutral-light-h-alt, $neutral-light-s-alt, $neutral-light-l-alt, .8),
+      "neutral-light-trans-90": hsl($neutral-light-h-alt, $neutral-light-s-alt, $neutral-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "neutral-dark-trans-10": hsl($neutral-dark-h-alt, $neutral-dark-s-alt, $neutral-dark-l-alt, .1),
+      "neutral-dark-trans-20": hsl($neutral-dark-h-alt, $neutral-dark-s-alt, $neutral-dark-l-alt, .2),
+      "neutral-dark-trans-30": hsl($neutral-dark-h-alt, $neutral-dark-s-alt, $neutral-dark-l-alt, .3),
+      "neutral-dark-trans-40": hsl($neutral-dark-h-alt, $neutral-dark-s-alt, $neutral-dark-l-alt, .4),
+      "neutral-dark-trans-50": hsl($neutral-dark-h-alt, $neutral-dark-s-alt, $neutral-dark-l-alt, .5),
+      "neutral-dark-trans-60": hsl($neutral-dark-h-alt, $neutral-dark-s-alt, $neutral-dark-l-alt, .6),
+      "neutral-dark-trans-70": hsl($neutral-dark-h-alt, $neutral-dark-s-alt, $neutral-dark-l-alt, .7),
+      "neutral-dark-trans-80": hsl($neutral-dark-h-alt, $neutral-dark-s-alt, $neutral-dark-l-alt, .8),
+      "neutral-dark-trans-90": hsl($neutral-dark-h-alt, $neutral-dark-s-alt, $neutral-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "neutral-ultra-dark-trans-10": hsl($neutral-ultra-dark-h-alt, $neutral-ultra-dark-s-alt, $neutral-ultra-dark-l-alt, .1),
+      "neutral-ultra-dark-trans-20": hsl($neutral-ultra-dark-h-alt, $neutral-ultra-dark-s-alt, $neutral-ultra-dark-l-alt, .2),
+      "neutral-ultra-dark-trans-30": hsl($neutral-ultra-dark-h-alt, $neutral-ultra-dark-s-alt, $neutral-ultra-dark-l-alt, .3),
+      "neutral-ultra-dark-trans-40": hsl($neutral-ultra-dark-h-alt, $neutral-ultra-dark-s-alt, $neutral-ultra-dark-l-alt, .4),
+      "neutral-ultra-dark-trans-50": hsl($neutral-ultra-dark-h-alt, $neutral-ultra-dark-s-alt, $neutral-ultra-dark-l-alt, .5),
+      "neutral-ultra-dark-trans-60": hsl($neutral-ultra-dark-h-alt, $neutral-ultra-dark-s-alt, $neutral-ultra-dark-l-alt, .6),
+      "neutral-ultra-dark-trans-70": hsl($neutral-ultra-dark-h-alt, $neutral-ultra-dark-s-alt, $neutral-ultra-dark-l-alt, .7),
+      "neutral-ultra-dark-trans-80": hsl($neutral-ultra-dark-h-alt, $neutral-ultra-dark-s-alt, $neutral-ultra-dark-l-alt, .8),
+      "neutral-ultra-dark-trans-90": hsl($neutral-ultra-dark-h-alt, $neutral-ultra-dark-s-alt, $neutral-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "neutral-hex": $neutral-alt-hex,
+        "neutral-hsl": $neutral-h $neutral-s $neutral-l-alt,
+        "neutral-rgb": $neutral-r $neutral-g $neutral-b-alt,
+        "neutral-r": $neutral-r-alt,
+        "neutral-g": $neutral-g-alt,
+        "neutral-b": $neutral-b-alt,
+        "neutral-h": $neutral-h-alt,
+        "neutral-s": $neutral-s-alt,
+        "neutral-l": $neutral-l-alt,
+        "neutral-hover-h": $neutral-hover-h-alt,
+        "neutral-hover-s": $neutral-hover-s-alt,
+        "neutral-hover-l": $neutral-hover-l-alt,
+        "neutral-ultra-light-h": $neutral-ultra-light-h-alt,
+        "neutral-ultra-light-s": $neutral-ultra-light-s-alt,
+        "neutral-ultra-light-l": $neutral-ultra-light-l-alt,
+        "neutral-light-h": $neutral-light-h-alt,
+        "neutral-light-s": $neutral-light-s-alt,
+        "neutral-light-l": $neutral-light-l-alt,
+        "neutral-semi-light-h": $neutral-semi-light-h-alt,
+        "neutral-semi-light-s": $neutral-semi-light-s-alt,
+        "neutral-semi-light-l": $neutral-semi-light-l-alt,
+        "neutral-semi-dark-h": $neutral-semi-dark-h-alt,
+        "neutral-semi-dark-s": $neutral-semi-dark-s-alt,
+        "neutral-semi-dark-l": $neutral-semi-dark-l-alt,
+        "neutral-dark-h": $neutral-dark-h-alt,
+        "neutral-dark-s": $neutral-dark-s-alt,
+        "neutral-dark-l": $neutral-dark-l-alt,
+        "neutral-ultra-dark-h": $neutral-ultra-dark-h-alt,
+        "neutral-ultra-dark-s": $neutral-ultra-dark-s-alt,
+        "neutral-ultra-dark-l": $neutral-ultra-dark-l-alt,
+        "neutral-comp-h": $neutral-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-neutral-clr-alt == on and $option-neutral-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-neutral-alt: map-merge($color-neutral-alt, (
+      "main": map-merge(map-get($color-neutral-alt, "main"), (
+        "neutral-medium": hsl($neutral-medium-h-alt, $neutral-medium-s-alt, $neutral-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-neutral-alt, "partials"), (
+        "neutral-medium-h": $neutral-medium-h-alt,
+        "neutral-medium-s": $neutral-medium-s-alt,
+        "neutral-medium-l": $neutral-medium-l-alt
+      ))
+    ));
+  }
+}

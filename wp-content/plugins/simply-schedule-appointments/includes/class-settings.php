@@ -28,8 +28,6 @@ class SSA_Settings {
 	protected $schema;
 
 	protected $settings;
-	
-	protected $computed_schema = array();
 
 	/**
 	 * Constructor
@@ -127,19 +125,12 @@ class SSA_Settings {
 				continue;
 			}
 			
-			if ( 'global' === $module_slug ) {
-				$module_settings_slug = 'settings_global';
-			} else {
-				$module_settings_slug = $module_slug.'_settings';
-			}
-			
-			if('license' === $module_slug && defined('SSA_LICENSE_KEY') && !empty(SSA_LICENSE_KEY)){
-				$settings['license']['license'] = "redacted-writeonly-secret";
-				$settings['license']['license_filtered'] = "redacted-writeonly-secret";
-				$settings['license']['license_renewal_link'] = "redacted-writeonly-secret";
-			}
-			
 			foreach ($module_settings as $field_slug => $module_setting_value) {
+				if ( 'global' === $module_slug ) {
+					$module_settings_slug = 'settings_global';
+				} else {
+					$module_settings_slug = $module_slug.'_settings';
+				}
 				$module_schema = $this->plugin->$module_settings_slug->get_schema();
 				$computed_schema = $this->plugin->$module_settings_slug->get_computed_schema();
 
@@ -275,16 +266,16 @@ class SSA_Settings {
 
 		$new_settings = $this->cleanup_writeonly_secret_values( $section_key, $new_settings );
 
+		$validation = $this->plugin->{$section_key.'_settings'}->validate( $new_settings );
+		if ( is_wp_error( $validation ) ) {
+			// we have an error with the inputs
+			return $validation;
+		}
+		
 		$settings = $this->get();
 		$old_settings = $settings;
 		if ( empty( $settings[$section_key] ) ) {
 			return false;
-		}
-		
-		$validation = $this->plugin->{$section_key.'_settings'}->validate( $new_settings, $old_settings[$section_key] );
-		if ( is_wp_error( $validation ) ) {
-			// we have an error with the inputs
-			return $validation;
 		}
 		
 		$settings[$section_key] = shortcode_atts( $settings[$section_key], $new_settings );
@@ -368,7 +359,6 @@ abstract class SSA_Settings_Schema {
 	protected $computed_schema = array();
 	protected $slug;
 	protected $parent_slug;
-	protected $defaults;
 
 	abstract function get_schema();
 	public function get_computed_schema() {
@@ -450,7 +440,7 @@ abstract class SSA_Settings_Schema {
 		return $this->plugin->settings->update_section( $this->slug, $new_settings );
 	}
 
-	public function validate( $new_settings, $old_settings ) {
+	public function validate( $new_settings ) {
 		if ( empty( $new_settings ) ) {
 			return;
 		}

@@ -1,0 +1,56 @@
+@if $option-corner-ribbons == on {
+
+    :has(> .ribbon) {
+        position: relative;
+        overflow: hidden;
+     }
+     
+     .ribbon {
+         
+         --ribbon-width: 30rem;
+         --ribbon-offset: -2rem;
+         --ribbon-padding: .5em 1em;
+         --ribbon-background-color: var(--action);
+         --ribbon-text-color: var(--white);
+         --ribbon-text-size: var(--text-s);
+         --ribbon-shadow: 0 5px 10px var(--neutral-trans-10);
+         --ribbon-transform: translateY(-100%) rotate(90deg) translateX(70.71067811865476%) rotate(-45deg);
+         --ribbon-transform-origin: bottom right;
+         
+         position: absolute;
+         display: block;
+         padding: var(--ribbon-padding);
+         background-color: var(--ribbon-background-color);
+         box-shadow: var(--ribbon-shadow);
+         text-align: center;
+         font-size: var(--ribbon-text-size);
+         color: var(--ribbon-text-color);
+         inline-size: var(--ribbon-width);
+         
+         &--top-right,
+         &[data-ribbon-position="top-right"] {
+             inset-block-start:  var(--ribbon-offset);
+             inset-inline-end:  var(--ribbon-offset);
+             transform: var(--ribbon-transform);
+             transform-origin: var(--ribbon-transform-origin);
+         }
+         
+         &--top-left,
+         &[data-ribbon-position="top-left"] {
+             --ribbon-transform: translateY(-100%) rotate(90deg) translateX(70.71067811865476%) rotate(-135deg);
+             --ribbon-transform-origin: bottom left;
+             inset-block-start: var(--ribbon-offset);
+             inset-inline-start: var(--ribbon-offset);
+             transform: var(--ribbon-transform);
+             transform-origin: var(--ribbon-transform-origin);
+         }
+         
+     }
+    
+    @if $option-bricks == on {
+        span.ribbon {
+            inline-size: var(--ribbon-width) !important; // Override Bricks span width of auto
+        }
+    }
+
+}

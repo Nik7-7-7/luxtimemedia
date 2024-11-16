@@ -1,0 +1,281 @@
+{
+	"$schema": "screen.schema.json",
+	"id": "palette",
+	"title": "Color Palette",
+	"type": "screen-container",
+	"content": [
+		{
+			"id": "color-main-pallette",
+			"title": "Main Colors",
+			"type": "section-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "action-clone",
+					"title": "Action",
+					"type": "clone",
+					"target": "action",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#32a2c1"
+						},
+						{
+							"name": "alt",
+							"default": "#32a2c1"
+						}
+					]
+				},
+				{
+					"id": "primary",
+					"title": "Primary",
+					"type": "color",
+					"globals": "color",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#32a2c1"
+						},
+						{
+							"name": "alt",
+							"default": "#32a2c1"
+						}
+					]
+				},
+				{
+					"id": "secondary",
+					"title": "Secondary",
+					"type": "color",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#1c1930"
+						},
+						{
+							"name": "alt",
+							"default": "#1c1930"
+						}
+					]
+				},
+				{
+					"id": "tertiary",
+					"title": "Tertiary",
+					"type": "color",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#867A5B"
+						},
+						{
+							"name": "alt",
+							"default": "#3D3829"
+						}
+					]
+				},
+				{
+					"id": "accent",
+					"title": "Accent",
+					"type": "color",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#bcc8a2"
+						},
+						{
+							"name": "alt",
+							"default": "#bcc8a2"
+						}
+					]
+				},
+				{
+					"id": "base",
+					"title": "Base",
+					"type": "color",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#0a2434"
+						},
+						{
+							"name": "alt",
+							"default": "#0a2434"
+						}
+					]
+				},
+				{
+					"id": "neutral",
+					"title": "Neutral",
+					"type": "color",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#000000"
+						},
+						{
+							"name": "alt",
+							"default": "#ffffff"
+						}
+					]
+				},
+				{
+					"id": "shade-clone",
+					"title": "Shade",
+					"type": "clone",
+					"target": "shade",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#000000"
+						},
+						{
+							"name": "alt",
+							"default": "#ffffff"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "color-status-palette",
+			"title": "Semantic Colors",
+			"type": "section-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "success",
+					"title": "Success",
+					"type": "color",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#29A745"
+						},
+						{
+							"name": "alt",
+							"default": "#29A745"
+						}
+					]
+				},
+				{
+					"id": "warning",
+					"title": "Warning",
+					"type": "color",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#FFC10A"
+						},
+						{
+							"name": "alt",
+							"default": "#FFC10A"
+						}
+					]
+				},
+				{
+					"id": "info",
+					"title": "Info",
+					"type": "color",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#18A2B8"
+						},
+						{
+							"name": "alt",
+							"default": "#18A2B8"
+						}
+					]
+				},
+				{
+					"id": "danger",
+					"title": "Danger",
+					"type": "color",
+					"colors": [
+						{
+							"name": "default",
+							"default": "#DC3545"
+						},
+						{
+							"name": "alt",
+							"default": "#DC3545"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "color-scheme",
+			"title": "Color Scheme",
+			"type": "section-container",
+			"default": "on",
+			"tooltip": "",
+			"description": "What color scheme are you designing the site in?",
+			"content": [
+				{
+					"id": "color-scheme-current",
+					"title": "Current Design",
+					"type": "accordion-container",
+					"default": "on",
+					"tooltip": "",
+					"description": "What color scheme are you designing the site in?",
+					"content": [
+						{
+							"id": "website-color-scheme",
+							"title": "Website Scheme",
+							"type": "select",
+							"default": "light",
+							"options": [
+								"light",
+								"dark"
+							],
+							"tooltip": "Is your main scheme primarily light or dark?",
+							"documentation": "https://automaticcss.com/docs/color-scheme-dark-mode/"
+						}
+					]
+				},
+				{
+					"id": "option-prefers-color-scheme",
+					"title": "Auto Color Scheme",
+					"type": "toggle",
+					"style": "primary",
+					"default": "off",
+					"tooltip": "Do you want to respect the user's operating system preferences for color scheme?"
+				},
+				{
+					"id": "color-scheme-protection",
+					"title": "Scheme Protections",
+					"type": "accordion-container",
+					"default": "on",
+					"tooltip": "",
+					"description": "What color scheme are you designing the site in?",
+					"content": [
+						{
+							"id": "option-lock-color-scheme-selectors",
+							"title": "Lock Specific Selectors",
+							"type": "toggle",
+							"style": "",
+							"default": "off",
+							"tooltip": "Programmatically lock specific elements to the main color scheme."
+						},
+						{
+							"id": "colorscheme-locked-selectors",
+							"title": "Lock Selectors to Main Scheme",
+							"type": "textarea",
+							"default": "",
+							"skip-if-empty": true,
+							"tooltip": "Comma separated list of targets. Wrap each target in quotes.",
+							"placeholder": "\"header\", \".hero\"",
+							"displayWhen": [
+								"option-lock-color-scheme-selectors",
+								"on"
+							],
+							"validation": {
+								"required": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

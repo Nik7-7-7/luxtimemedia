@@ -1,0 +1,104 @@
+*   Trying 104.18.35.82:443...
+* TCP_NODELAY set
+* Connected to blogs.mercola.com (104.18.35.82) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=California; L=San Francisco; O=Cloudflare, Inc.; CN=mercola.com
+*  start date: May  9 00:00:00 2022 GMT
+*  expire date: May  9 23:59:59 2023 GMT
+*  subjectAltName: host "blogs.mercola.com" matched cert's "*.mercola.com"
+*  issuer: C=US; O=Cloudflare, Inc.; CN=Cloudflare Inc ECC CA-3
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7f88ec936400)
+> GET /sites/vitalvotes/archive/2023/02/15/drugreleasing-microchip-for-humans-passes-first-test.aspx HTTP/2
+Host: blogs.mercola.com
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+accept: */*
+referer: http://www.bing.com/
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 256)!
+< HTTP/2 200 
+< date: Thu, 16 Feb 2023 13:35:04 GMT
+< content-type: text/html; charset=utf-8
+< cache-control: no-cache
+< vary: Accept-Encoding
+< communityserver: N/A
+* Added cookie ASP.NET_SessionId="zqjbclcmwyanv5vtbf4zgxkd" for domain blogs.mercola.com, path /, expire 0
+< set-cookie: ASP.NET_SessionId=zqjbclcmwyanv5vtbf4zgxkd; path=/; secure; HttpOnly; SameSite=Lax
+< x-pingback: N/A
+< x-aspnet-version: N/A
+< x-powered-by: N/A
+< content-security-policy: default-src https: http: data: 'unsafe-inline' 'unsafe-eval'
+< x-content-type-options: nosniff
+< x-xss-protection: 1; mode=block
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=31536000; includeSubDomains
+< cf-cache-status: DYNAMIC
+* Added cookie __cf_bm="bEiv8sl9aeqBAabVHD5GtKsP2TNptDjSUgKTu4EsvZc-1676554504-0-AS6Mze9XSLhqL2b6VGl/pEe3h0kUK8HF7RkT80Fng/BdVL530Zd+QRQAwboDO/jwpVaSqfj+pPDCyzvsL0m2lKq/0TEj36Pm85kwXist4iLe" for domain mercola.com, path /, expire 1676556304
+< set-cookie: __cf_bm=bEiv8sl9aeqBAabVHD5GtKsP2TNptDjSUgKTu4EsvZc-1676554504-0-AS6Mze9XSLhqL2b6VGl/pEe3h0kUK8HF7RkT80Fng/BdVL530Zd+QRQAwboDO/jwpVaSqfj+pPDCyzvsL0m2lKq/0TEj36Pm85kwXist4iLe; path=/; expires=Thu, 16-Feb-23 14:05:04 GMT; domain=.mercola.com; HttpOnly; Secure; SameSite=None
+< server: cloudflare
+< cf-ray: 79a6aa0e7cba11b6-MRS
+< 
+* Connection #0 to host blogs.mercola.com left intact
+*   Trying 104.18.35.82:443...
+* TCP_NODELAY set
+* Connected to media.mercola.com (104.18.35.82) port 443 (#1)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=US; ST=California; L=San Francisco; O=Cloudflare, Inc.; CN=mercola.com
+*  start date: May  9 00:00:00 2022 GMT
+*  expire date: May  9 23:59:59 2023 GMT
+*  subjectAltName: host "media.mercola.com" matched cert's "*.mercola.com"
+*  issuer: C=US; O=Cloudflare, Inc.; CN=Cloudflare Inc ECC CA-3
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7f88ec936400)
+> GET /ImageServer/Public/2022/July/confused-woman-fb.jpg HTTP/2
+Host: media.mercola.com
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+accept: */*
+referer: http://media.mercola.com
+cookie: __cf_bm=bEiv8sl9aeqBAabVHD5GtKsP2TNptDjSUgKTu4EsvZc-1676554504-0-AS6Mze9XSLhqL2b6VGl/pEe3h0kUK8HF7RkT80Fng/BdVL530Zd+QRQAwboDO/jwpVaSqfj+pPDCyzvsL0m2lKq/0TEj36Pm85kwXist4iLe
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 256)!
+< HTTP/2 200 
+< date: Thu, 16 Feb 2023 13:35:05 GMT
+< content-type: image/jpeg
+< content-length: 48830
+< cache-control: public, max-age=604800
+< cf-bgj: imgq:100,h2pri
+< cf-polished: origSize=53047, status=webp_bigger
+< etag: "6430afd5309bd81:0"
+< last-modified: Tue, 19 Jul 2022 05:31:45 GMT
+< strict-transport-security: max-age=31536000; includeSubDomains
+< x-aspnet-version: N/A
+< x-aspnetmvc-version: N/A
+< x-powered-by: N/A
+< x-robots-tag: googlebot: noindex
+< cf-cache-status: HIT
+< age: 23661
+< expires: Thu, 23 Feb 2023 13:35:05 GMT
+< accept-ranges: bytes
+< server: cloudflare
+< cf-ray: 79a6aa18cc4a1047-MRS
+< 
+* Connection #1 to host media.mercola.com left intact

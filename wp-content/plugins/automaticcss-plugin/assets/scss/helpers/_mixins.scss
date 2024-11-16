@@ -1,0 +1,266 @@
+@import "../modules/flex-grid/flex-grid-mixins";
+@import "../modules/grid/grid-mixins";
+@import "../modules/gap/gap-mixins";
+@import "../modules/buttons-links/button-mixins";
+@import "../modules/accessibility/accessibility-mixins";
+@import "../modules/text/text-mixins";
+@import "../modules/aspect-ratio/aspect-ratio-mixins";
+@import "../modules/breakpoints/mixins";
+@import "../modules/grid/auto-grid/mixins";
+
+// Padding
+@mixin fluid-padding($pure, $min, $max) {
+  padding: #{$pure};
+  padding: fluidCalc($min, $max);
+  padding: fluidClamp($min, $max);
+}
+
+@mixin map-get-padding($extension) {
+  padding: map-get(map-get($spacing, pure), space-#{$extension}-pure);
+  padding: map-get(map-get($spacing, calc), space-#{$extension}-calc);
+  padding: map-get(map-get($spacing, clamp), space-#{$extension}-clamp);
+}
+
+@mixin fluid-section-padding($pure, $min, $max) {
+  padding: #{$pure} append-rem($section-padding-x-pure);
+  padding: fluidCalc($min, $max)
+    fluidCalc($section-padding-x-min, $section-padding-x-max);
+  padding: fluidClamp($min, $max)
+    fluidClamp($section-padding-x-min, $section-padding-x-max);
+}
+
+@mixin map-get-section-spacing($extension) {
+  padding: map-get(
+      map-get($sectionSpacing, pure),
+      section-space-#{$extension}-pure
+    )
+    append-rem($section-padding-x-pure);
+  padding: map-get(
+      map-get($sectionSpacing, calc),
+      section-space-#{$extension}-calc
+    )
+    fluidCalc($section-padding-x-min, $section-padding-x-max);
+  padding: map-get(
+      map-get($sectionSpacing, clamp),
+      section-space-#{$extension}-clamp
+    )
+    fluidClamp($section-padding-x-min, $section-padding-x-max);
+}
+
+@mixin map-get-header-padding($extension) {
+  padding: map-get(map-get($spacing, pure), space-#{$extension}-pure) 0;
+  padding: map-get(map-get($spacing, calc), space-#{$extension}-calc) 0;
+  padding: map-get(map-get($spacing, clamp), space-#{$extension}-clamp) 0;
+}
+
+
+// Owl Spacing
+@mixin map-get-owl($extension) {
+  margin-block-start: map-get(map-get($spacing, pure), space-#{$extension}-pure);
+  margin-block-start: map-get(map-get($spacing, calc), space-#{$extension}-calc);
+  margin-block-start: map-get(map-get($spacing, clamp), space-#{$extension}-clamp);
+}
+
+// Gap
+@mixin map-get-gap($extension) {
+  gap: map-get(map-get($spacing, pure), space-#{$extension}-pure);
+  gap: map-get(map-get($spacing, calc), space-#{$extension}-calc);
+  gap: map-get(map-get($spacing, clamp), space-#{$extension}-clamp);
+}
+
+// Columns Gap
+@mixin map-get-col-gap($extension) {
+  -moz-column-gap: map-get(map-get($spacing, pure), space-#{$extension}-pure);
+  column-gap: map-get(map-get($spacing, pure), space-#{$extension}-pure);
+  -moz-column-gap: map-get(map-get($spacing, calc), space-#{$extension}-calc);
+  column-gap: map-get(map-get($spacing, calc), space-#{$extension}-calc);
+  -moz-column-gap: map-get(map-get($spacing, clamp), space-#{$extension}-clamp);
+  column-gap: map-get(map-get($spacing, clamp), space-#{$extension}-clamp);
+}
+
+// Platform & Feature Options
+
+@mixin if-all-builders-off {
+  // If all builders are off, show content
+  // Never add native Gutenberg to this list -- non-native builders only.
+  @if
+    $option-bricks == off and
+    $option-oxygen == off and
+    $option-cwicly == off and
+    $option-generate-press == off and
+    $option-generate-blocks == off and
+    $option-breakdance == off {
+      @content;
+  }
+}
+
+@mixin if-builders-off {
+  @if $option-bricks == off and $option-oxygen == off {
+    @content;
+  }
+}
+
+@mixin if-woocommerce-on {
+  @if $option-woocommerce == on {
+    @content;
+  }
+}
+
+@mixin if-smooth-scrolling-on {
+  @if $option-smooth-scrolling == on {
+    @content;
+  }
+}
+
+@mixin if-wsform-on {
+  @if $option-wsform == on {
+    @content;
+  }
+}
+
+@mixin if-bricks-on {
+  @if $option-bricks == on {
+    @content;
+  }
+}
+
+@mixin if-bricks-off {
+  @if $option-bricks == off {
+    @content;
+  }
+}
+
+@mixin if-oxygen-off {
+  @if $option-oxygen == off {
+    @content;
+  }
+}
+
+// Generate code at all breakpoints
+
+@mixin at-each-breakpoint {
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) {
+      @content;
+    }
+  }
+}
+
+// Overlays
+
+@mixin overlay($overlay-bg: var(--black-trans-60), $overlay-opacity: null, $overlay-bg-image: null) {
+  position: relative;
+  isolation: isolate;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    // Need to check if there's a background image declared or not so we can
+    // create a valid background string
+
+    @if not $overlay-bg-image {
+      background: var(--overlay-bg, $overlay-bg);
+    } @else {
+      background: var(--overlay-bg, $overlay-bg), var(--overlay-bg-image, $overlay-bg-image);
+    }
+
+    opacity: var(--overlay-opacity, $overlay-opacity);
+  }
+
+}
+
+// Clickable Parent for Builders (Internal)
+
+@mixin load-clickable-parent($target) {
+    .clickable-parent:not(a) {
+      position: static;
+
+      a {
+        position: static;
+      }
+
+      > a::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        cursor: pointer !important;
+        display: flex;
+        z-index: 1;
+      }
+    }
+
+    button.clickable-parent,
+    a.clickable-parent {
+      position: static !important;
+
+      &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        cursor: pointer !important;
+        display: flex;
+        z-index: 1;
+      }
+    }
+    // Remove effect from page builder target
+    #{$target} a.clickable-parent::after,
+    #{$target} .clickable-parent > a::after {
+      content: '';
+      position: relative;
+    }
+  }
+
+// Clickable Parent (for Users)
+
+@mixin clickable-parent {
+  position: static;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      cursor: pointer !important;
+      display: flex;
+      z-index: 1;
+    }
+}
+
+///// Grid
+
+@mixin grid($columns, $rows, $gap) {
+  display: grid;
+  grid-template-columns: $columns;
+  grid-template-rows: $rows;
+  gap: $gap;
+}
+
+// @mixin auto-grid() {
+//   display: grid;
+//   grid-template-columns: null;
+//   grid-template-rows: null;
+//   gap: null;
+// }
+
+//// Animations
+
+@mixin delay-children($child-count: 1, $delay: 100ms) {
+  @for $i from 1 through $child-count {
+      &:nth-child(#{$i}) {
+          animation-delay: calc(#{$delay} * #{$i});
+      }
+  }
+}
+
+@mixin loop-trans-colors() {
+  @each $map in $color-maps {
+    @each $colorSet, $colorName in $map {
+      @each $color, $value in $colorName {
+        $current-color: $color;
+        @content;
+      }
+    }
+  }
+}

@@ -60,8 +60,6 @@ final class DeprecationCollector
             if (\E_USER_DEPRECATED === $type) {
                 $deprecations[] = $msg;
             }
-
-            return false;
         });
 
         foreach ($iterator as $name => $contents) {

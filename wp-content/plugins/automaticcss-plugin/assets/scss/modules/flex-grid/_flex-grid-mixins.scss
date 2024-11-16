@@ -1,0 +1,93 @@
+@import "flex-grid-maps";
+
+// Flex-grid mixins
+@mixin flex-grid {
+    --gap: var(--grid-gap);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    justify-content: center;
+}
+
+@mixin flex-grid--1 {
+    --gap: var(--grid-gap);
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+
+    > * {
+        width: 100%;
+        max-width: 100%;
+        flex-basis: auto;
+    }
+}
+
+// Mixins for Loading Flex Grids
+///// Flex Grid
+
+@mixin load-flex-grid--has-nested($selector, $child) {
+    // This internal mixin loads all flex-grid classes for platforms that use inaccessible nested wrappers.
+  
+    // First, check to see if flex-grid is turned on
+    @if $option-flex-grids == on {
+  
+        .flex-grid--1:not(#{$selector}),
+        #{$selector}.flex-grid--1 > #{$child} {
+            @include flex-grid--1;
+        }
+  
+        @each $col-count in $flex-grids {
+            $gap-count: $col-count - 1;
+  
+            .flex-grid--#{$col-count}:not(#{$selector}),
+            #{$selector}.flex-grid--#{$col-count} > #{$child} {
+                @include flex-grid;
+  
+                @each $extension,
+                $value in $sizeExtensions {
+                    &.gap--#{$extension} {
+                        --gap: var(--space-#{$extension});
+                    }
+                }
+  
+                > * {
+                    width: 100%;
+                    max-width: calc((100% - (var(--gap) * #{$gap-count})) / #{$col-count});
+                }
+            }
+  
+            @each $breakpoint,
+            $value in $breakpoints {
+                @include breakpoint($breakpoint) {
+  
+                    .flex-grid--#{$breakpoint}-1:not(#{$selector}),
+                    #{$selector}.flex-grid--#{$breakpoint}-1 > #{$child} {
+                        @include flex-grid--1;
+                    }
+  
+                    @each $col-count in $flex-grids {
+                        $gap-count: $col-count - 1;
+  
+                        .flex-grid--#{$breakpoint}-#{$col-count}:not(#{$selector}),
+                        #{$selector}.flex-grid--#{$breakpoint}-#{$col-count} > #{$child} {
+                            @include flex-grid;
+  
+                            @each $extension,
+                            $value in $sizeExtensions {
+                                &.gap--#{$breakpoint}-#{$extension} {
+                                    --gap: var(--space-#{$extension});
+                                }
+                            }
+  
+                            > * {
+                                width: 100%;
+                                max-width: calc((100% - (var(--gap) * #{$gap-count})) / #{$col-count});
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } // End option check
+  } // End Mixin

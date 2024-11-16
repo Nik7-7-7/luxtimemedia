@@ -1,0 +1,21 @@
+@import "vars";
+@if $option-padding == on and $option-deprecated-padding == on {
+    @each $size, $extension in $sizeExtensions {
+      .pad--#{$extension} {
+        padding: var(--space-#{$extension});
+      }
+    }
+
+    // Header Padding
+  
+    @each $size, $extension in $sizeExtensions {
+      .pad-header--#{$extension} {
+        padding: var(--space-#{$extension}) var(--section-padding-x);
+      }
+    }
+  
+    .pad--none:not(.ct-section) {
+      padding: 0 !important;
+    }
+  }
+  

@@ -1,0 +1,123 @@
+// Mixin to load gap classes
+@mixin load-gap {
+    @if $option-gaps == on {
+        // Load gap classes
+        @each $size, $extension in $sizeExtensions {
+            .gap--#{$extension}.gap--#{$extension} {
+                gap: var(--space-#{$extension});
+                --row-gap: var(--space-#{$extension});
+                --col-gap: var(--space-#{$extension});
+                --grid-gap: var(--space-#{$extension});
+            }
+        }
+        // Load breakpoint gap classes
+        @each $breakpoint, $value in $breakpoints {
+            @include breakpoint($breakpoint) {
+                @each $size, $extension in $sizeExtensions {
+                    .gap--#{$breakpoint}-#{$extension}.gap--#{$breakpoint}-#{$extension} {
+                        gap: var(--space-#{$extension});
+                        --row-gap: var(--space-#{$extension});
+                        --col-gap: var(--space-#{$extension});
+                        --grid-gap: var(--space-#{$extension});
+                    }
+                }
+            }
+        }
+        // Load col-gap classes
+        @each $size, $extension in $sizeExtensions {
+            .col-gap--#{$extension}.col-gap--#{$extension} {
+                column-gap: var(--space-#{$extension});
+                --col-gap: var(--space-#{$extension});
+            }
+        }
+        // Load col-gap breakpoint classes
+        @each $breakpoint, $value in $breakpoints {
+            @include breakpoint($breakpoint) {
+                @each $size, $extension in $sizeExtensions {
+                    .col-gap--#{$breakpoint}-#{$extension}.col-gap--#{$breakpoint}-#{$extension} {
+                        column-gap: var(--space-#{$extension});
+                        --col-gap: var(--space-#{$extension});
+                    }
+                }
+            }
+        }
+        // Load row-gap classes
+        @each $size, $extension in $sizeExtensions {
+            .row-gap--#{$extension}.row-gap--#{$extension} {
+                row-gap: var(--space-#{$extension});
+                --row-gap: var(--space-#{$extension});
+            }
+        }
+        // Load row-gap breakpoint classes
+        @each $breakpoint, $value in $breakpoints {
+            @include breakpoint($breakpoint) {
+                @each $size, $extension in $sizeExtensions {
+                    .row-gap--#{$breakpoint}-#{$extension}.row-gap--#{$breakpoint}-#{$extension} {
+                        row-gap: var(--space-#{$extension});
+                        --row-gap: var(--space-#{$extension});
+                    }
+                }
+            }
+        }
+    } // End option check
+} // End Mixin
+
+// Mixin to load gap classes when platform uses nested wrappers.
+@mixin load-gap--has-nested($selector, $child) {
+    // Load gap classes
+    @if $option-gaps == on {
+        @each $size, $extension in $sizeExtensions {
+            .gap--#{$extension}:not(#{$selector}),
+            #{$selector}.gap--#{$extension} > #{$child} {
+                gap: var(--space-#{$extension});
+                --row-gap: var(--space-#{$extension});
+                --col-gap: var(--space-#{$extension});
+                --grid-gap: var(--space-#{$extension});
+            }
+        }
+        // Load breakpoint gap classes
+        @each $breakpoint, $value in $breakpoints {
+            @include breakpoint($breakpoint) {
+                @each $size, $extension in $sizeExtensions {
+                    .gap--#{$breakpoint}-#{$extension}:not(#{$selector}),
+                    #{$selector}.gap--#{$breakpoint}-#{$extension} > #{$child} {
+                        gap: var(--space-#{$extension});
+                        --row-gap: var(--space-#{$extension});
+                        --col-gap: var(--space-#{$extension});
+                        --grid-gap: var(--space-#{$extension});
+                    }
+                }
+            }
+        }
+        // Make contextual gaps compatible with nested wrappers
+        .grid-gap:not(#{$selector}),
+        #{$selector}.grid-gap > #{$child} {
+            gap: var(--grid-gap);
+        }
+        .container-gap:not(#{$selector}),
+        #{$selector}.container-gap > #{$child} {
+            gap: var(--container-gap);
+        }
+        .content-gap:not(#{$selector}),
+        #{$selector}.content-gap > #{$child} {
+            gap: var(--content-gap);
+        }
+    } // End option check
+} // End mixin
+
+// Mixins for Auto Gap Spacing
+
+@mixin auto-contextual-spacing($selector:null, $gap:null, $alignment:null) {
+    #{$selector}:where(:not(.bricks-shape-divider)) {
+        display: flex;
+        flex-direction: column;
+        align-items: #{$alignment};
+        gap: #{$gap};
+    }
+}
+
+@mixin auto-contextual-block-spacing($selector:null, $gap:null) {
+    :where(#{$selector}) {
+        gap: #{$gap};
+    }
+}

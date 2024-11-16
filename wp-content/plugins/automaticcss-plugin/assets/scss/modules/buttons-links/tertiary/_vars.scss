@@ -1,0 +1,130 @@
+// Tertiary Defaults
+$option-tertiary-btn: on !default;
+$option-tertiary-btn-shades: on !default;
+$option-tertiary-btn-outline: on !default;
+
+///// Main
+$btn-tertiary-bg: var(--tertiary) !default;
+$btn-tertiary-hover: var(--tertiary-hover) !default;
+$btn-tertiary-text: var(--tertiary-ultra-light) !default;
+$btn-tertiary-hover-text: var(--tertiary-ultra-light) !default;
+$btn-tertiary-border-color: var(--tertiary) !default;
+$btn-tertiary-hover-border-color: var(--tertiary-hover) !default;
+$btn-tertiary-focus-color: var(--tertiary-light) !default;
+///// Dark
+$btn-tertiary-dark-bg: var(--tertiary-dark) !default;
+$btn-tertiary-dark-hover: var(--tertiary-ultra-dark) !default;
+$btn-tertiary-dark-text: var(--tertiary-ultra-light) !default;
+$btn-tertiary-dark-hover-text: var(--tertiary-ultra-light) !default;
+$btn-tertiary-dark-border-color: var(--tertiary-dark) !default;
+$btn-tertiary-dark-hover-border-color: var(--tertiary-ultra-dark) !default;
+$btn-tertiary-dark-focus-color: var(--tertiary-semi-dark) !default;
+///// Light
+$btn-tertiary-light-bg: var(--tertiary-ultra-light) !default;
+$btn-tertiary-light-hover: var(--tertiary-light) !default;
+$btn-tertiary-light-text: var(--tertiary) !default;
+$btn-tertiary-light-hover-text: var(--tertiary-ultra-dark) !default;
+$btn-tertiary-light-border-color: var(--tertiary-ultra-light) !default;
+$btn-tertiary-light-hover-border-color: var(--tertiary-light) !default;
+$btn-tertiary-light-focus-color: var(--tertiary-light) !default;
+///// Outline
+$btn-tertiary-outline-background: transparent !default;
+$btn-tertiary-outline-background-hover: var(--tertiary-hover) !default;
+$tertiary-outline-btn-text: var(--tertiary) !default;
+$tertiary-outline-hover-text: var(--tertiary-ultra-light) !default;
+$btn-tertiary-outline-border-color: var(--tertiary) !default;
+$btn-tertiary-outline-border-hover: var(--tertiary-hover) !default;
+$btn-tertiary-outline-focus-color: var(--tertiary-semi-light) !default;
+///// Outline Dark
+$btn-tertiary-outline-dark-background: transparent !default;
+$btn-tertiary-outline-dark-background-hover: var(--tertiary-dark) !default;
+$tertiary-outline-dark-btn-text: var(--tertiary-dark) !default;
+$tertiary-outline-dark-hover-text: var(--tertiary-ultra-light) !default;
+$btn-tertiary-outline-dark-border-color: var(--tertiary-dark) !default;
+$btn-tertiary-outline-dark-border-hover: var(--tertiary-dark) !default;
+$btn-tertiary-outline-dark-focus-color: var(--tertiary-semi-dark) !default;
+///// Outline Light
+$btn-tertiary-outline-light-background: transparent !default;
+$btn-tertiary-outline-light-background-hover: var(--tertiary-ultra-light) !default;
+$tertiary-outline-light-btn-text: var(--tertiary-ultra-light) !default;
+$tertiary-outline-light-hover-text: var(--tertiary-dark) !default;
+$btn-tertiary-outline-light-border-color: var(--tertiary-ultra-light) !default;
+$btn-tertiary-outline-light-border-hover: var(--tertiary-ultra-light) !default;
+$btn-tertiary-outline-light-focus-color: var(--tertiary-light) !default;
+
+$btn-tertiary: (); // Initialize Map
+@if $option-tertiary-btn == on {
+
+    $btn-tertiary: (
+        "tertiary": (
+            btn-background: $btn-tertiary-bg,
+            btn-background-hover: $btn-tertiary-hover,
+            btn-text-color: $btn-tertiary-text,
+            btn-text-color-hover: $btn-tertiary-hover-text,
+            btn-border-color: $btn-tertiary-border-color,
+            btn-border-color-hover: $btn-tertiary-hover-border-color,
+            focus-color: $btn-tertiary-focus-color,
+        ),
+        "tertiary-dark": (
+            btn-background: $btn-tertiary-dark-bg,
+            btn-background-hover: $btn-tertiary-dark-hover,
+            btn-text-color: $btn-tertiary-dark-text,
+            btn-text-color-hover: $btn-tertiary-dark-hover-text,
+            btn-border-color: $btn-tertiary-dark-border-color,
+            btn-border-color-hover: $btn-tertiary-dark-hover-border-color,
+            focus-color: $btn-tertiary-dark-focus-color,
+        ),
+        "tertiary-light": (
+            btn-background: $btn-tertiary-light-bg,
+            btn-background-hover: $btn-tertiary-light-hover,
+            btn-text-color: $btn-tertiary-light-text,
+            btn-text-color-hover: $btn-tertiary-light-hover-text,
+            btn-border-color: $btn-tertiary-light-border-color,
+            btn-border-color-hover: $btn-tertiary-light-hover-border-color,
+            focus-color: $btn-tertiary-light-focus-color,
+        ),
+        "tertiary.btn--outline": (
+            btn-background: $btn-tertiary-outline-background,
+            btn-background-hover: $btn-tertiary-outline-background-hover,
+            btn-text-color: $tertiary-outline-btn-text,
+            btn-text-color-hover: $tertiary-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-tertiary-outline-border-color,
+            btn-border-color-hover: $btn-tertiary-outline-border-hover,
+            focus-color: $btn-tertiary-focus-color,
+        ),
+        "tertiary-dark.btn--outline": (
+            btn-background: $btn-tertiary-outline-dark-background,
+            btn-background-hover: $btn-tertiary-outline-dark-background-hover,
+            btn-text-color: $tertiary-outline-dark-btn-text,
+            btn-text-color-hover: $tertiary-outline-dark-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-tertiary-outline-dark-border-color,
+            btn-border-color-hover: $btn-tertiary-outline-dark-border-hover,
+            focus-color: $btn-tertiary-focus-color,
+        ),
+        "tertiary-light.btn--outline": (
+            btn-background: $btn-tertiary-outline-light-background,
+            btn-background-hover: $btn-tertiary-outline-light-background-hover,
+            btn-text-color: $tertiary-outline-light-btn-text,
+            btn-text-color-hover: $tertiary-outline-light-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-tertiary-outline-light-border-color,
+            btn-border-color-hover: $btn-tertiary-outline-light-border-hover,
+            focus-color: $btn-tertiary-focus-color,
+        ),
+    );
+
+    @if $option-tertiary-btn-outline == off {
+        $btn-tertiary: map-remove($btn-tertiary, "tertiary.btn--outline");
+        $btn-tertiary: map-remove($btn-tertiary, "tertiary-dark.btn--outline");
+        $btn-tertiary: map-remove($btn-tertiary, "tertiary-light.btn--outline");
+    }
+    @if $option-tertiary-btn-shades == off {
+        $btn-tertiary: map-remove($btn-tertiary, "tertiary-dark");
+        $btn-tertiary: map-remove($btn-tertiary, "tertiary-light");
+        $btn-tertiary: map-remove($btn-tertiary, "tertiary-dark.btn--outline");
+        $btn-tertiary: map-remove($btn-tertiary, "tertiary-light.btn--outline-light");
+    }
+
+}

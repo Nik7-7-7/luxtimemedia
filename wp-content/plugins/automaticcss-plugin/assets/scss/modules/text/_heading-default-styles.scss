@@ -1,0 +1,151 @@
+// Global Heading Defaults
+$heading-font-family: null !default;
+$heading-color: null !default;
+$base-heading-lh: 1.2 !default;
+$heading-max-width: null !default;
+$heading-weight: 700 !default;
+$heading-letter-spacing: null !default;
+$heading-font-style: null !default;
+$heading-text-transform: null !default;
+$heading-text-wrap: pretty !default;
+
+// Default Font Family
+$h1-font-family: null !default;
+$h2-font-family: null !default;
+$h3-font-family: null !default;
+$h4-font-family: null !default;
+$h5-font-family: null !default;
+$h6-font-family: null !default;
+
+// Default Line Height
+$h1-line-height: null !default;
+$h2-line-height: null !default;
+$h3-line-height: null !default;
+$h4-line-height: $base-heading-lh; // Not user configurable
+$h5-line-height: null !default;
+$h6-line-height: null !default;
+
+// Default Line Length
+$h1-max-width: null !default;
+$h2-max-width: null !default;
+$h3-max-width: null !default;
+$h4-max-width: null !default;
+$h5-max-width: null !default;
+$h6-max-width: null !default;
+
+// Default Font Weight
+$h1-font-weight: null !default;
+$h2-font-weight: null !default;
+$h3-font-weight: null !default;
+$h4-font-weight: null !default;
+$h5-font-weight: null !default;
+$h6-font-weight: null !default;
+
+// Default Letter Spacing
+$h1-letter-spacing: null !default;
+$h2-letter-spacing: null !default;
+$h3-letter-spacing: null !default;
+$h4-letter-spacing: null !default;
+$h5-letter-spacing: null !default;
+$h6-letter-spacing: null !default;
+
+// Default Font Style
+$h1-font-style: null !default;
+$h2-font-style: null !default;
+$h3-font-style: null !default;
+$h4-font-style: null !default;
+$h5-font-style: null !default;
+$h6-font-style: null !default;
+
+// Default Color
+$h1-color: null !default;
+$h2-color: null !default;
+$h3-color: null !default;
+$h4-color: null !default;
+$h5-color: null !default;
+$h6-color: null !default;
+
+// Default Text-transform
+$h1-text-transform: null !default;
+$h2-text-transform: null !default;
+$h3-text-transform: null !default;
+$h4-text-transform: null !default;
+$h5-text-transform: null !default;
+$h6-text-transform: null !default;
+
+// Default Heading Styles (All Headings)
+$headingDefaultStyles: (
+    font-family: $heading-font-family,
+    color: $heading-color,
+    line-height: $base-heading-lh,
+    font-weight: $heading-weight,
+    letter-spacing: $heading-letter-spacing,
+    max-width: $heading-max-width,
+    font-style: $heading-font-style,
+    text-transform: $heading-text-transform,
+    text-wrap: $heading-text-wrap,
+);
+
+// Individual Global Heading Styles
+$headingGlobalStyles: (
+    h1: (
+		font-family: $h1-font-family,
+        font-weight: $h1-font-weight,
+        letter-spacing: $h1-letter-spacing,
+        line-height: $h1-line-height,
+        max-width: $heading-max-width,
+        font-style: $h1-font-style,
+        color: $h1-color,
+        text-transform: $h1-text-transform,
+    ),
+    h2: (
+		font-family: $h2-font-family,
+        font-weight: $h2-font-weight,
+        letter-spacing: $h2-letter-spacing,
+        line-height: $h2-line-height,
+        max-width: $h2-max-width,
+        font-style: $h2-font-style,
+        color: $h2-color,
+        text-transform: $h2-text-transform,
+    ),
+    h3: (
+		font-family: $h3-font-family,
+        font-weight: $h3-font-weight,
+        letter-spacing: $h3-letter-spacing,
+        line-height: $h3-line-height,
+        max-width: $h3-max-width,
+        font-style: $h3-font-style,
+        color: $h3-color,
+        text-transform: $h3-text-transform,
+    ),
+    h4: (
+		font-family: $h4-font-family,
+        font-weight: $h4-font-weight,
+        letter-spacing: $h4-letter-spacing,
+        line-height: $base-heading-lh,
+        max-width: $h4-max-width,
+        font-style: $h4-font-style,
+        color: $h4-color,
+        text-transform: $h4-text-transform,
+    ),
+    h5: (
+		font-family: $h5-font-family,
+        font-weight: $h5-font-weight,
+        letter-spacing: $h5-letter-spacing,
+        line-height: $h5-line-height,
+        max-width: $h5-max-width,
+        font-style: $h5-font-style,
+        color: $h5-color,
+        text-transform: $h5-text-transform,
+    ),
+    h6: (
+		font-family: $h6-font-family,
+        font-weight: $h6-font-weight,
+        letter-spacing: $h6-letter-spacing,
+        line-height: $h6-line-height,
+        max-width: $h6-max-width,
+        font-style: $h6-font-style,
+        color: $h6-color,
+        text-transform: $h6-text-transform,
+    ),
+);

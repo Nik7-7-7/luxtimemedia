@@ -75,10 +75,10 @@ abstract class SSA_Db_Model extends TD_DB_Model {
 
 			if( is_array( $args['id'] ) ) {
 				$ids = implode( ',', array_map('intval', $args['id'] ) );
-				$where .= " AND `".$this->primary_key."` IN( $ids ) ";
+				$where .= " AND `".$this->primary_key."` IN( {$ids} ) ";
 			} else {
 				$ids = intval( $args['id'] );
-				$where .= $wpdb->prepare( " AND `".$this->primary_key."` = %d ", $ids );
+				$where .= " AND `".$this->primary_key."` = {$ids} ";
 			}
 
 
@@ -90,10 +90,10 @@ abstract class SSA_Db_Model extends TD_DB_Model {
 
 				if( is_array( $args['user_id'] ) ) {
 					$user_ids = implode( ',', array_map('intval', $args['user_id'] ) );
-					$where .=  " AND `user_id` IN( $user_ids ) ";
+					$where .= " AND `user_id` IN( {$user_ids} ) ";
 				} else {
 					$user_ids = intval( $args['user_id'] );
-					$where .=  $wpdb->prepare( " AND `user_id` = %d", $user_ids );
+					$where .= " AND `user_id` = {$user_ids} ";
 				}
 
 
@@ -110,10 +110,10 @@ abstract class SSA_Db_Model extends TD_DB_Model {
 			if( ! empty( $args['author_id'] ) ) {
 				if( is_array( $args['author_id'] ) ) {
 					$author_ids = implode( ',', array_map('intval', $args['author_id'] ) );
-					$where .= $wpdb->prepare( " AND `%i` IN( SELECT ID FROM $wpdb->posts WHERE post_author IN ( $author_ids ) ) ", $this->post_id_field );
+					$where .= " AND `".$this->post_id_field."` IN( SELECT ID FROM $wpdb->posts WHERE post_author IN ( {$author_ids} ) ) ";
 				} else {
 					$author_ids = intval( $args['author_id'] );
-					$where .= $wpdb->prepare( " AND `%i` IN( SELECT ID FROM $wpdb->posts WHERE post_author = $author_ids ) ", $this->post_id_field);
+					$where .= " AND `".$this->post_id_field."` IN( SELECT ID FROM $wpdb->posts WHERE post_author = {$author_ids} ) ";
 				}
 				
 			}
@@ -122,9 +122,9 @@ abstract class SSA_Db_Model extends TD_DB_Model {
 			if( ! empty( $args[$this->post_id_field] ) ) {
 				if ( is_array( $args[$this->post_id_field] ) ) {
 					$post_ids = implode( ',', array_map('intval', $args[$this->post_id_field] ) );
-					$where .= $wpdb->prepare( " AND `%i` IN( $post_ids ) ", $this->post_id_field );
+					$where .= " AND `".$this->post_id_field."` IN( {$post_ids} ) ";
 				} else {
-					$where .= $wpdb->prepare( " AND `%i` = %d ", $this->post_id_field, $args[$this->post_id_field] );
+					$where .= $wpdb->prepare( " AND `".$this->post_id_field."` = '" . '%d' . "' ", $args[$this->post_id_field] );
 				}
 			}
 		}

@@ -1,0 +1,142 @@
+#aikit-repurposer-topic {
+    min-height: 100px;
+}
+.form-check-input:checked {
+    background: none !important;
+}
+
+.wp-core-ui select {
+    max-width: none !important;
+}
+
+form#aikit-repurposer-form {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    background-color: #eff4fb;
+}
+
+#aikit-repurposer-extracted-text {
+    min-height: 350px;
+}
+
+.aikit-repurposer-extracted-text-container {
+    display: none;
+}
+
+.aikit-repurposer-tabs li a.active {
+    background-color: #eff4fb !important;
+    border-bottom-color: transparent !important;
+}
+
+#aikit-repurposer-jobs, .aikit-repurposer-view {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    background-color: #eff4fb;
+}
+
+.aikit-repurposer-action {
+    padding: 10px 5px;
+}
+
+
+#aikit-auto-writer-generate img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: -4px;
+    filter: invert(100%);
+}
+
+label.aikit-auto-writer {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.aikit-dont-close-page {
+    display: none;
+    font-size: 12px;
+}
+
+.aikit-auto-writer-prompt-description {
+    font-size: 12px;
+}
+
+.aikit-auto-writer-placeholder-descriptions{
+    font-size: 13px !important;
+}
+
+.aikit-badge, .aikit-badge-active {
+    background-color: #0d6efdd9;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.aikit-badge-danger {
+    background-color: #dc8935;
+}
+
+.aikit-badge-success {
+    background-color: #28a745;
+}
+
+.aikit-badge-inactive {
+    background-color: #ccc;
+    color: #424242;
+}
+
+
+.nav-tabs li {
+    margin-bottom: -1px !important;
+
+}
+
+h1 {
+    font-size: 23px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.aikit-repurposer-form-check-input {
+    margin-top: 5px !important;
+}
+
+.aikit-repurposer-how-to {
+    position: relative;
+    display: inline;
+    font-size: 11px;
+    top: -12px;
+}
+
+.aikit-repurposer-how-to-content {
+    display: none;
+}
+
+.aikit-repurposer-jobs-pagination a {
+    margin: 0 5px;
+}
+
+.aikit-top-hidden-note {
+    display: none;
+}
+
+.aikit-top-hidden-toggle {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-weight: bold;
+}

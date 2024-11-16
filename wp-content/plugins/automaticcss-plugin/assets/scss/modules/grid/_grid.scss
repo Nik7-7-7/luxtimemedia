@@ -1,0 +1,224 @@
+@import "grid-mixins";
+@import "variable-grid";
+@import "content-grid";
+
+// CHANGES HERE MUST BE MADE IN CERTAIN PLATFORMS AS WELL!
+
+@if $option-grid == on {
+  @if $option-oxygen == off and $option-breakdance == off {
+    // Grid Columns
+    @each $grid-type, $col-set in $grids {
+      @each $col-count, $value in $col-set {
+        .grid--#{$col-count} {
+          display: grid !important;
+          grid-template-columns: #{$value};
+          inline-size: 100%;
+
+          @if $col-count == "1" {
+            > * {
+              grid-column: 1 !important;
+            }
+          }
+
+        }
+      }
+    }
+    // Grid Rows
+    @each $grid, $count in $gridColumns {
+      .grid-rows--#{$count} {
+        grid-template-rows: repeat(#{$count}, minmax(0, 1fr));
+      }
+    }
+    // Grid Breakpoints
+    @each $breakpoint, $value in $breakpoints {
+      @include breakpoint($breakpoint) {
+        @each $grid-type, $col-set in $grids {
+          @each $col-count, $colValue in $col-set {
+            @if $grid-type == standard {
+              .grid--#{$breakpoint}-#{$col-count} {
+                grid-template-columns: #{$colValue};
+
+                @if $col-count == "1" {
+                  > * {
+                    grid-column: 1 !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+        @each $grid, $count in $gridColumns {
+          .grid-rows--#{$breakpoint}-#{$count} {
+            grid-template-rows: repeat(#{$count}, minmax(0, 1fr));
+          }
+        }
+      }
+    }
+
+    // AUTO STAGGERED GRID MOBILE FIX
+    // MOVED IN 3.0.5 - 2021-09-07 - DELETE IN 3.1
+    // @include breakpoint(l) {
+    //   .grid--auto-1-2 {
+    //     display: grid !important;
+    //     grid-template-columns: repeat(
+    //       auto-fit,
+    //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+    //     );
+    //   }
+    //   .grid--auto-1-3 {
+    //     display: grid !important;
+    //     grid-template-columns: repeat(
+    //       auto-fit,
+    //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+    //     );
+    //   }
+    //   .grid--auto-3-2 {
+    //     display: grid !important;
+    //     grid-template-columns: repeat(
+    //       auto-fit,
+    //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+    //     );
+    //   }
+    //   .grid--auto-2-3 {
+    //     display: grid !important;
+    //     grid-template-columns: repeat(
+    //       auto-fit,
+    //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+    //     );
+    //   }
+    //   .grid--auto-2-1 {
+    //     display: grid !important;
+    //     grid-template-columns: repeat(
+    //       auto-fit,
+    //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+    //     );
+    //   }
+    //   .grid--auto-3-1 {
+    //     display: grid !important;
+    //     grid-template-columns: repeat(
+    //       auto-fit,
+    //       minmax(min(#{$auto-break-3}, 100vw - #{$auto-grid-math}), 1fr)
+    //     );
+    //   }
+    // }
+  }
+
+  // Alternating Grids
+
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint-up($breakpoint) {
+      .grid--alternate-#{$breakpoint} {
+        > .grid--2:nth-of-type(even) {
+          > *:last-child {
+            order: -1;
+          }
+        }
+      }
+      @each $grid, $value in $gridsReversed {
+        .grid--alternate-#{$breakpoint} {
+          > .grid--#{$grid}:nth-of-type(even) {
+            grid-template-columns: #{$value};
+            > *:last-child {
+              order: -1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // SPANS AND STARTS
+
+  @each $column, $value in $gridColumns {
+    .row-span--#{$column} {
+      grid-row-end: span #{$value};
+    }
+    .col-span--#{$column} {
+      grid-column-end: span #{$value};
+    }
+    .row-start--#{$column} {
+      grid-row-start: #{$value};
+    }
+    .row-end--#{$column} {
+      grid-row-end: #{$value};
+    }
+    .col-start--#{$column} {
+      grid-column-start: #{$value};
+    }
+    .col-end--#{$column} {
+      grid-column-end: #{$value};
+    }
+  }
+
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) { // Added in 2.4
+      @each $column, $colValue in $gridColumns {
+        .row-span--#{$breakpoint}-#{$column} {
+          grid-row: span #{$colValue};
+        }
+        .col-span--#{$breakpoint}-#{$column} {
+          grid-column: span #{$colValue};
+        }
+        .row-start--#{$breakpoint}-#{$column} {
+          grid-row-start: #{$colValue};
+        }
+        .row-end--#{$breakpoint}-#{$column} {
+          grid-row-end: #{$colValue};
+        }
+        .col-start--#{$breakpoint}-#{$column} {
+          grid-column-start: #{$colValue};
+        }
+        .col-end--#{$breakpoint}-#{$column} {
+          grid-column-end: #{$colValue};
+        }
+      }
+    }
+  }
+
+  // Span All
+
+  .col-span--all {
+    grid-column: 1 / -1;
+  }
+
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) { // Added in 2.4
+      .col-span--#{$breakpoint}-all {
+        grid-column: 1 / -1;
+      }
+    }
+  }
+
+  // Order
+
+  .order--first {
+    order: -1;
+  }
+  .order--last {
+    order: 999;
+  }
+  .col-end--last {
+    grid-column-end: -1;
+  }
+
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) { // Added in 2.4
+      .order--first-#{$breakpoint} {
+        order: -1;
+      }
+      .order--last-#{$breakpoint} {
+        order: 999;
+      }
+      .col-end--#{$breakpoint}-last {
+        grid-column-end: -1;
+      }
+    }
+  }
+
+  // Equal height children across all rows
+
+  .grid--auto-rows.grid--auto-rows {
+    grid-auto-rows: minmax(-webkit-min-content, 1fr);
+    grid-auto-rows: minmax(min-content, 1fr);
+  }
+}

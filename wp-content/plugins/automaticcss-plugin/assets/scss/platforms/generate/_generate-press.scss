@@ -1,0 +1,43 @@
+@if $option-generate-press == on {
+
+    @include load-default-body;
+    @include load-default-text;
+    @include load-default-links;
+
+/* Styles for GeneratePress Theme */
+    #masthead {
+        padding-block: var(--space-m);
+        padding-inline: var(--section-padding-x);
+    
+        .inside-header {
+            padding: 0;
+        }
+    }
+    
+    .footer-widgets {
+    
+        padding-block: var(--space-m);
+        padding-inline: var(--section-padding-x);
+    
+        .footer-widgets-container {
+            padding: 0;
+        }
+    
+    }
+    
+    main > footer {
+    
+        padding-block: var(--space-s);
+        padding-inline: var(--section-padding-x);
+    
+        .inside-site-info {
+            padding: 0;
+        }
+    
+    }
+
+    .edit-post-visual-editor__post-title-wrapper {
+        margin-bottom: var(--content-gap) !important;
+    }
+
+} // End Generate Press Check

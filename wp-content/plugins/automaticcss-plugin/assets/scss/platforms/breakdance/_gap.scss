@@ -1,0 +1,10 @@
+// Load grid classes
+@include load-gap--has-nested(section, ".section-container");
+
+// Automatic Content Gap
+
+@if $option-content-gap == on {
+    :where(.section-container) {
+        row-gap: var(--content-gap);
+    }
+}   

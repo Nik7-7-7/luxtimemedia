@@ -167,6 +167,7 @@ class SSA_Support_Status_Api extends WP_REST_Controller {
 			'callback'            => array( $this, 'check_user_login_status' ),
 			'permission_callback' => '__return_true',
 		) );
+
 	}
 
 	public function check_user_login_status( $request ) {
@@ -378,8 +379,7 @@ class SSA_Support_Status_Api extends WP_REST_Controller {
 		if ( isset( $params['settings'] ) && 'true' === $params['settings'] ) {
 			$payload['settings'] = $this->plugin->settings->get();
 			foreach ( $payload['settings']['notifications']['notifications'] as &$notification ) {
-				$subject = empty( $notification['subject'] ) ? null : $notification['subject'];
-				$notification['subject'] = wp_strip_all_tags( $subject );
+				$notification['subject'] = wp_strip_all_tags( $notification['subject'] );
 				$notification['message'] = str_ireplace(
 					array(
 						'&quot;',

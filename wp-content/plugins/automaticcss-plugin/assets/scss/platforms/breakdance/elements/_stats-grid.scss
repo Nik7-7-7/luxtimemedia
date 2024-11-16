@@ -1,0 +1,8 @@
+// Not working yet.
+// Specificity issues.
+
+@if $option-grid-gap == on {
+    .breakdance .bde-stats-grid {
+        --space-between-items: var(--grid-gap);
+    }
+}

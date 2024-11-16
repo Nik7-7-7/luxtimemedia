@@ -1,0 +1,192 @@
+// secondary Options
+$option-secondary-clr: on !default;
+$option-secondary-main-trans: on !default;
+$option-secondary-light-trans: on !default;
+$option-secondary-dark-trans: on !default;
+$option-secondary-ultra-dark-trans: on !default;
+
+// secondary Vars
+$secondary-hex: #e56c70 !default;
+$secondary-r: 229 !default;
+$secondary-g: 108 !default;
+$secondary-b: 112 !default;
+$secondary-h: 358 !default;
+$secondary-s: 70% !default;
+$secondary-l: 66% !default;
+$secondary-hover-h: 358 !default;
+$secondary-hover-s: 70% !default;
+$secondary-hover-l: 1.15 !default;
+$secondary-ultra-light-h: 358 !default;
+$secondary-ultra-light-s: 70% !default;
+$secondary-ultra-light-l: 95% !default;
+$secondary-light-h: 358 !default;
+$secondary-light-s: 70% !default;
+$secondary-light-l: 85% !default;
+$secondary-medium-h: 358 !default;
+$secondary-medium-s: 70% !default;
+$secondary-medium-l: 50% !default;
+$secondary-dark-h: 358 !default;
+$secondary-dark-s: 70% !default;
+$secondary-dark-l: 25% !default;
+$secondary-ultra-dark-h: 358 !default;
+$secondary-ultra-dark-s: 70% !default;
+$secondary-ultra-dark-l: 10% !default;
+// Added in 3.0
+$secondary-semi-light-h: 358 !default;
+$secondary-semi-light-s: 70% !default;
+$secondary-semi-light-l: 60% !default;
+$secondary-semi-dark-h: 358 !default;
+$secondary-semi-dark-s: 70% !default;
+$secondary-semi-dark-l: 40% !default;
+
+
+// Secondary Color Map
+$color-secondary:(); // Initialize Map
+@if $option-secondary-clr == on {
+  $color-secondary: (
+    "main": (
+      "secondary": $secondary-hex,
+      "secondary-hover": hsl($secondary-hover-h, $secondary-hover-s, $secondary-hover-l),
+      "secondary-ultra-light": hsl($secondary-ultra-light-h, $secondary-ultra-light-s, $secondary-ultra-light-l),
+      "secondary-light": hsl($secondary-light-h, $secondary-light-s, $secondary-light-l),
+      "secondary-semi-light": hsl($secondary-semi-light-h, $secondary-semi-light-s, $secondary-semi-light-l),
+      "secondary-semi-dark": hsl($secondary-semi-dark-h, $secondary-semi-dark-s, $secondary-semi-dark-l),
+      "secondary-dark": hsl($secondary-dark-h, $secondary-dark-s, $secondary-dark-l),
+      "secondary-ultra-dark": hsl($secondary-ultra-dark-h, $secondary-ultra-dark-s, $secondary-ultra-dark-l),
+    ),
+    "trans": (
+      "secondary-trans-10": rgba($secondary-hex, .1),
+      "secondary-trans-20": rgba($secondary-hex, .2),
+      "secondary-trans-30": rgba($secondary-hex, .3),
+      "secondary-trans-40": rgba($secondary-hex, .4),
+      "secondary-trans-50": rgba($secondary-hex, .5),
+      "secondary-trans-60": rgba($secondary-hex, .6),
+      "secondary-trans-70": rgba($secondary-hex, .7),
+      "secondary-trans-80": rgba($secondary-hex, .8),
+      "secondary-trans-90": rgba($secondary-hex, .9),
+    ),
+    "light-trans": (
+      "secondary-light-trans-10": hsl($secondary-light-h, $secondary-light-s, $secondary-light-l, .1),
+      "secondary-light-trans-20": hsl($secondary-light-h, $secondary-light-s, $secondary-light-l, .2),
+      "secondary-light-trans-30": hsl($secondary-light-h, $secondary-light-s, $secondary-light-l, .3),
+      "secondary-light-trans-40": hsl($secondary-light-h, $secondary-light-s, $secondary-light-l, .4),
+      "secondary-light-trans-50": hsl($secondary-light-h, $secondary-light-s, $secondary-light-l, .5),
+      "secondary-light-trans-60": hsl($secondary-light-h, $secondary-light-s, $secondary-light-l, .6),
+      "secondary-light-trans-70": hsl($secondary-light-h, $secondary-light-s, $secondary-light-l, .7),
+      "secondary-light-trans-80": hsl($secondary-light-h, $secondary-light-s, $secondary-light-l, .8),
+      "secondary-light-trans-90": hsl($secondary-light-h, $secondary-light-s, $secondary-light-l, .9),
+    ),
+    "dark-trans": (
+      "secondary-dark-trans-10": hsl($secondary-dark-h, $secondary-dark-s, $secondary-dark-l, .1),
+      "secondary-dark-trans-20": hsl($secondary-dark-h, $secondary-dark-s, $secondary-dark-l, .2),
+      "secondary-dark-trans-30": hsl($secondary-dark-h, $secondary-dark-s, $secondary-dark-l, .3),
+      "secondary-dark-trans-40": hsl($secondary-dark-h, $secondary-dark-s, $secondary-dark-l, .4),
+      "secondary-dark-trans-50": hsl($secondary-dark-h, $secondary-dark-s, $secondary-dark-l, .5),
+      "secondary-dark-trans-60": hsl($secondary-dark-h, $secondary-dark-s, $secondary-dark-l, .6),
+      "secondary-dark-trans-70": hsl($secondary-dark-h, $secondary-dark-s, $secondary-dark-l, .7),
+      "secondary-dark-trans-80": hsl($secondary-dark-h, $secondary-dark-s, $secondary-dark-l, .8),
+      "secondary-dark-trans-90": hsl($secondary-dark-h, $secondary-dark-s, $secondary-dark-l, .9),
+    ),
+    "ultra-dark-trans": (
+      "secondary-ultra-dark-trans-10": hsl($secondary-ultra-dark-h, $secondary-ultra-dark-s, $secondary-ultra-dark-l, .1),
+      "secondary-ultra-dark-trans-20": hsl($secondary-ultra-dark-h, $secondary-ultra-dark-s, $secondary-ultra-dark-l, .2),
+      "secondary-ultra-dark-trans-30": hsl($secondary-ultra-dark-h, $secondary-ultra-dark-s, $secondary-ultra-dark-l, .3),
+      "secondary-ultra-dark-trans-40": hsl($secondary-ultra-dark-h, $secondary-ultra-dark-s, $secondary-ultra-dark-l, .4),
+      "secondary-ultra-dark-trans-50": hsl($secondary-ultra-dark-h, $secondary-ultra-dark-s, $secondary-ultra-dark-l, .5),
+      "secondary-ultra-dark-trans-60": hsl($secondary-ultra-dark-h, $secondary-ultra-dark-s, $secondary-ultra-dark-l, .6),
+      "secondary-ultra-dark-trans-70": hsl($secondary-ultra-dark-h, $secondary-ultra-dark-s, $secondary-ultra-dark-l, .7),
+      "secondary-ultra-dark-trans-80": hsl($secondary-ultra-dark-h, $secondary-ultra-dark-s, $secondary-ultra-dark-l, .8),
+      "secondary-ultra-dark-trans-90": hsl($secondary-ultra-dark-h, $secondary-ultra-dark-s, $secondary-ultra-dark-l, .9),
+    ),
+    "partials": (
+      "secondary-hex": $secondary-hex,
+        "secondary-hsl": $secondary-h $secondary-s $secondary-l,
+        "secondary-rgb": $secondary-r $secondary-g $secondary-b,
+        "secondary-r": $secondary-r,
+        "secondary-g": $secondary-g,
+        "secondary-b": $secondary-b,
+        "secondary-h": $secondary-h,
+        "secondary-s": $secondary-s,
+        "secondary-l": $secondary-l,
+        "secondary-hover-h": $secondary-hover-h,
+        "secondary-hover-s": $secondary-hover-s,
+        "secondary-hover-l": $secondary-hover-l,
+        "secondary-ultra-light-h": $secondary-ultra-light-h,
+        "secondary-ultra-light-s": $secondary-ultra-light-s,
+        "secondary-ultra-light-l": $secondary-ultra-light-l,
+        "secondary-light-h": $secondary-light-h,
+        "secondary-light-s": $secondary-light-s,
+        "secondary-light-l": $secondary-light-l,
+        "secondary-semi-light-h": $secondary-semi-light-h,
+        "secondary-semi-light-s": $secondary-semi-light-s,
+        "secondary-semi-light-l": $secondary-semi-light-l,
+        "secondary-semi-dark-h": $secondary-semi-dark-h,
+        "secondary-semi-dark-s": $secondary-semi-dark-s,
+        "secondary-semi-dark-l": $secondary-semi-dark-l,
+        "secondary-dark-h": $secondary-dark-h,
+        "secondary-dark-s": $secondary-dark-s,
+        "secondary-dark-l": $secondary-dark-l,
+        "secondary-ultra-dark-h": $secondary-ultra-dark-h,
+        "secondary-ultra-dark-s": $secondary-ultra-dark-s,
+        "secondary-ultra-dark-l": $secondary-ultra-dark-l,
+    ),
+  );
+
+  // Transparency options
+  @if $option-secondary-main-trans == off {
+    $color-secondary: map-remove($color-secondary, "trans");
+  }
+  @if $option-secondary-light-trans == off {
+    $color-secondary: map-remove($color-secondary, "light-trans");
+  }
+  @if $option-secondary-dark-trans == off {
+    $color-secondary: map-remove($color-secondary, "dark-trans");
+  }
+  @if $option-secondary-ultra-dark-trans == off {
+    $color-secondary: map-remove($color-secondary, "ultra-dark-trans");
+  }
+
+  // Transparency options
+  @if $option-secondary-main-trans == off {
+    $color-secondary: map-remove($color-secondary, "trans");
+  }
+  @if $option-secondary-light-trans == off {
+    $color-secondary: map-remove($color-secondary, "light-trans");
+  }
+  @if $option-secondary-dark-trans == off {
+    $color-secondary: map-remove($color-secondary, "dark-trans");
+  }
+  @if $option-secondary-ultra-dark-trans == off {
+    $color-secondary: map-remove($color-secondary, "ultra-dark-trans");
+  }
+
+}
+
+
+// Handle Deprecated Options
+@if $option-secondary-clr == on {
+  // Add complimentary color back if enabled
+  @if $option-comp-colors == on {
+    $color-secondary: map-merge($color-secondary, (
+      "main": map-merge(map-get($color-secondary, "main"), (
+        "secondary-comp": hsl($secondary-h + 180, $secondary-s, $secondary-l)
+      )),
+      "partials": map-merge(map-get($color-secondary, "partials"), (
+        "secondary-comp-h": $secondary-h + 180
+      ))
+    ));
+  }
+  // Add medium back if enabled
+  @if $option-medium-shade == on {
+    $color-secondary: map-merge($color-secondary, (
+      "main": map-merge(map-get($color-secondary, "main"), (
+        "secondary-medium": hsl($secondary-medium-h, $secondary-medium-s, $secondary-medium-l)
+      )),
+      "partials": map-merge(map-get($color-secondary, "partials"), (
+        "secondary-medium-h": $secondary-medium-h,
+        "secondary-medium-s": $secondary-medium-s,
+        "secondary-medium-l": $secondary-medium-l
+      ))
+    ));
+  }
+}

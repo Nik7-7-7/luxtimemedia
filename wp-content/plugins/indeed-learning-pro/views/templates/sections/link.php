@@ -1,0 +1,1 @@
+<a href="<?php echo esc_url($data['url']);?>" class="<?php echo esc_attr($data['class']);?>" id="<?php echo esc_attr($data['id']);?>" <?php echo esc_attr($data['target']);?> ><?php echo esc_html($data['label']);?></a>

@@ -1,0 +1,130 @@
+// Success Defaults
+$option-success-btn: on !default;
+$option-success-btn-shades: on !default;
+$option-success-btn-outline: on !default;
+
+///// Main
+$btn-success-bg: var(--success) !default;
+$btn-success-hover: var(--success-hover) !default;
+$btn-success-text: var(--success-ultra-light) !default;
+$btn-success-hover-text: var(--success-ultra-light) !default;
+$btn-success-border-color: var(--success) !default;
+$btn-success-hover-border-color: var(--success-hover) !default;
+$btn-success-focus-color: var(--success-light) !default;
+///// Dark
+$btn-success-dark-bg: var(--success-dark) !default;
+$btn-success-dark-hover: var(--success-ultra-dark) !default;
+$btn-success-dark-text: var(--success-ultra-light) !default;
+$btn-success-dark-hover-text: var(--success-ultra-light) !default;
+$btn-success-dark-border-color: var(--success-dark) !default;
+$btn-success-dark-hover-border-color: var(--success-ultra-dark) !default;
+$btn-success-dark-focus-color: var(--success-semi-dark) !default;
+///// Light
+$btn-success-light-bg: var(--success-ultra-light) !default;
+$btn-success-light-hover: var(--success-light) !default;
+$btn-success-light-text: var(--success) !default;
+$btn-success-light-hover-text: var(--success-ultra-dark) !default;
+$btn-success-light-border-color: var(--success-ultra-light) !default;
+$btn-success-light-hover-border-color: var(--success-light) !default;
+$btn-success-light-focus-color: var(--success-light) !default;
+///// Outline
+$btn-success-outline-background: transparent !default;
+$btn-success-outline-background-hover: var(--success-hover) !default;
+$success-outline-btn-text: var(--success) !default;
+$success-outline-hover-text: var(--success-ultra-light) !default;
+$btn-success-outline-border-color: var(--success) !default;
+$btn-success-outline-border-hover: var(--success-hover) !default;
+$btn-success-outline-focus-color: var(--success-semi-light) !default;
+///// Outline Dark
+$btn-success-outline-dark-background: transparent !default;
+$btn-success-outline-dark-background-hover: var(--success-dark) !default;
+$success-outline-dark-btn-text: var(--success-dark) !default;
+$success-outline-dark-hover-text: var(--success-ultra-light) !default;
+$btn-success-outline-dark-border-color: var(--success-dark) !default;
+$btn-success-outline-dark-border-hover: var(--success-dark) !default;
+$btn-success-outline-dark-focus-color: var(--success-semi-dark) !default;
+///// Outline Light
+$btn-success-outline-light-background: transparent !default;
+$btn-success-outline-light-background-hover: var(--success-ultra-light) !default;
+$success-outline-light-btn-text: var(--success-ultra-light) !default;
+$success-outline-light-hover-text: var(--success-dark) !default;
+$btn-success-outline-light-border-color: var(--success-ultra-light) !default;
+$btn-success-outline-light-border-hover: var(--success-ultra-light) !default;
+$btn-success-outline-light-focus-color: var(--success-light) !default;
+
+$btn-success: (); // Initialize Map
+@if $option-success-btn == on {
+
+    $btn-success: (
+        "success": (
+            btn-background: $btn-success-bg,
+            btn-background-hover: $btn-success-hover,
+            btn-text-color: $btn-success-text,
+            btn-text-color-hover: $btn-success-hover-text,
+            btn-border-color: $btn-success-border-color,
+            btn-border-color-hover: $btn-success-hover-border-color,
+            focus-color: $btn-success-focus-color,
+        ),
+        "success-dark": (
+            btn-background: $btn-success-dark-bg,
+            btn-background-hover: $btn-success-dark-hover,
+            btn-text-color: $btn-success-dark-text,
+            btn-text-color-hover: $btn-success-dark-hover-text,
+            btn-border-color: $btn-success-dark-border-color,
+            btn-border-color-hover: $btn-success-dark-hover-border-color,
+            focus-color: $btn-success-dark-focus-color,
+        ),
+        "success-light": (
+            btn-background: $btn-success-light-bg,
+            btn-background-hover: $btn-success-light-hover,
+            btn-text-color: $btn-success-light-text,
+            btn-text-color-hover: $btn-success-light-hover-text,
+            btn-border-color: $btn-success-light-border-color,
+            btn-border-color-hover: $btn-success-light-hover-border-color,
+            focus-color: $btn-success-light-focus-color,
+        ),
+        "success.btn--outline": (
+            btn-background: $btn-success-outline-background,
+            btn-background-hover: $btn-success-outline-background-hover,
+            btn-text-color: $success-outline-btn-text,
+            btn-text-color-hover: $success-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-success-outline-border-color,
+            btn-border-color-hover: $btn-success-outline-border-hover,
+            focus-color: $btn-success-focus-color,
+        ),
+        "success-dark.btn--outline": (
+            btn-background: $btn-success-outline-dark-background,
+            btn-background-hover: $btn-success-outline-dark-background-hover,
+            btn-text-color: $success-outline-dark-btn-text,
+            btn-text-color-hover: $success-outline-dark-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-success-outline-dark-border-color,
+            btn-border-color-hover: $btn-success-outline-dark-border-hover,
+            focus-color: $btn-success-focus-color,
+        ),
+        "success-light.btn--outline": (
+            btn-background: $btn-success-outline-light-background,
+            btn-background-hover: $btn-success-outline-light-background-hover,
+            btn-text-color: $success-outline-light-btn-text,
+            btn-text-color-hover: $success-outline-light-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-success-outline-light-border-color,
+            btn-border-color-hover: $btn-success-outline-light-border-hover,
+            focus-color: $btn-success-focus-color,
+        ),
+    );
+
+    @if $option-success-btn-outline == off {
+        $btn-success: map-remove($btn-success, "success.btn--outline");
+        $btn-success: map-remove($btn-success, "success-dark.btn--outline");
+        $btn-success: map-remove($btn-success, "success-light.btn--outline");
+    }
+    @if $option-success-btn-shades == off {
+        $btn-success: map-remove($btn-success, "success-dark");
+        $btn-success: map-remove($btn-success, "success-light");
+        $btn-success: map-remove($btn-success, "success-dark.btn--outline");
+        $btn-success: map-remove($btn-success, "success-light.btn--outline-light");
+    }
+
+}

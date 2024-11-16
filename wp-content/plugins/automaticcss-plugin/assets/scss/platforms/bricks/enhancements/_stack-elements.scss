@@ -1,0 +1,27 @@
+$option-bricks-stack-elements: off !default;
+
+@if $option-bricks-stack-elements == on {
+    #bricks-panel-elements .sortable-wrapper {
+        grid-template-columns: minmax(0, 1fr);
+    
+        .bricks-add-element {
+            display: grid !important;
+            grid-template-columns: auto minmax(0, 1fr);
+            align-items: center;
+            justify-content: center;
+            padding-inline: 10px;
+            padding-block: 5px;
+            text-align: left;
+    
+            .element-label {
+                box-shadow: none;
+            }
+            .element-icon {
+                line-height: 1;
+            }       
+            .bricks-panel-actions-icon.layout-inserter {
+                inset: auto 0 0 auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+@mixin load-aspect-ratio--has-nested($target) {
+    @each $ratio, $value in $aspect-ratios {
+        .aspect--#{$ratio} #{$target} {
+            aspect-ratio: #{$value};
+        }
+        // Support for images
+        .aspect--#{$ratio} img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        }
+        // Support for iframes
+        // Requires builder specific overrides
+        .aspect--#{$ratio} iframe {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: #{$value};
+        }
+    }
+    
+    // Generate Breakpoint Classes
+    // Changes here need to be made for each builder as well
+    
+    @each $extension, $value in $breakpoints {
+        @include breakpoint($extension) {
+        @each $ratio, $value in $aspect-ratios {
+            .aspect--#{$extension}-#{$ratio} #{$target} {
+            aspect-ratio: #{$value};
+            }
+    
+            img.aspect--#{$extension}-#{$ratio} #{$target} {
+            -o-object-fit: cover;
+            object-fit: cover;
+            }
+    
+            .aspect--#{$extension}-#{$ratio} iframe {
+            width: 100%;
+            height: 100%;
+            aspect-ratio: #{$value};
+            }
+        }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+// White Defaults
+$option-white-btn: on !default;
+$option-white-btn-outline: on !default;
+
+///// Main
+$btn-white-bg: var(--white) !default;
+$btn-white-hover: var(--white-hover) !default;
+$btn-white-text: var(--white-ultra-light) !default;
+$btn-white-hover-text: var(--white-ultra-light) !default;
+$btn-white-border-color: var(--white) !default;
+$btn-white-hover-border-color: var(--white-hover) !default;
+$btn-white-focus-color: var(--white-light) !default;
+///// Outline
+$btn-white-outline-background: transparent !default;
+$btn-white-outline-background-hover: var(--white-hover) !default;
+$white-outline-btn-text: var(--white) !default;
+$white-outline-hover-text: var(--white-ultra-light) !default;
+$btn-white-outline-border-color: var(--white) !default;
+$btn-white-outline-border-hover: var(--white-hover) !default;
+$btn-white-outline-focus-color: var(--white-semi-light) !default;
+
+$btn-white: (); // Initialize Map
+@if $option-white-btn == on {
+
+    $btn-white: (
+        "white": (
+            btn-background: $btn-white-bg,
+            btn-background-hover: $btn-white-hover,
+            btn-text-color: $btn-white-text,
+            btn-text-color-hover: $btn-white-hover-text,
+            btn-border-color: $btn-white-border-color,
+            btn-border-color-hover: $btn-white-hover-border-color,
+            focus-color: $btn-white-focus-color,
+        ),
+        "white.btn--outline": (
+            btn-background: $btn-white-outline-background,
+            btn-background-hover: $btn-white-outline-background-hover,
+            btn-text-color: $white-outline-btn-text,
+            btn-text-color-hover: $white-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-white-outline-border-color,
+            btn-border-color-hover: $btn-white-outline-border-hover,
+            focus-color: $btn-white-focus-color,
+        ),
+    );
+
+    @if $option-white-btn-outline == off {
+        $btn-white: map-remove($btn-white, "white.btn--outline");
+    }
+
+}

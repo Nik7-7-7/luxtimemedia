@@ -1,0 +1,30 @@
+// Options
+$option-link-classes-use-decoration-color: off !default;
+$link-use-global-transition-option: on !default;
+$option-link-default-not: off !default;
+
+// Link Style Defaults
+$link-color: var(--primary) !default;
+$link-color-hover: var(--primary-hover) !default;
+$link-transition: var(--transition) !default;
+$link-decoration: null !default;
+$link-decoration-hover: null !default;
+$link-default-not: null !default;
+$link-underline-offset: auto !default;
+$link-weight: 400 !default;
+$link-decoration-color: null !default;
+$link-decoration-color-hover: null !default;
+$link-decoration-thickness: null !default;
+
+$link-default-styles: (
+	link-color: $link-color,
+	link-color-hover: $link-color-hover,
+	link-transition: $link-transition,
+	link-decoration: $link-decoration,
+	link-decoration-hover: $link-decoration-hover,
+	link-underline-offset: $link-underline-offset,
+	link-weight: $link-weight,
+	link-decoration-color: $link-decoration-color,
+	link-decoration-color-hover: $link-decoration-color-hover,
+	link-decoration-thickness: $link-decoration-thickness,
+);

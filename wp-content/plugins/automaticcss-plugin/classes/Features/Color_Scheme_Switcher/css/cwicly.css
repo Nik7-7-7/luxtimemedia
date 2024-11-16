@@ -1,0 +1,17 @@
+.frames-builder-color-toggle-wrapper {
+	/* padding: 8px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	border-radius: 4px;
+    padding: 5px;
+    transition-duration: .2s;
+}
+
+.frames-builder-color-toggle-wrapper:hover {
+	background-color: var(--cc-comp_sc-hover-bg);
+}
+
+.tippy-box[data-theme~='frames'] {
+	font-size: 10px;
+  }

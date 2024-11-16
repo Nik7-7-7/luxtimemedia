@@ -1,0 +1,94 @@
+.form-check-input:checked {
+    background: none !important;
+}
+
+.wp-core-ui select {
+    max-width: none !important;
+}
+
+input[type=color] {
+    max-width: 60px !important;
+    margin: 0px 20px;
+}
+
+h4 {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+
+input[type="radio"] {
+    margin-top: 5px;
+}
+
+small {
+    font-size: 12px;
+    color: #6c757d;
+    margin-left: 1px;
+}
+
+#aikit-chatbot-context {
+    min-height: 250px;
+    resize: vertical;
+}
+
+#aikit-chatbot-embeddings-answer-formulation-prompt {
+    min-height: 250px;
+    resize: vertical;
+}
+
+.aikit-info-link {
+    position: relative;
+    display: inline;
+    font-size: 11px;
+    top: -12px;
+    text-decoration: none;
+}
+
+input[type="color"] {
+    float: right;
+}
+
+.aikit-reset-colors {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-tabs li {
+    margin-bottom: -1px !important;
+}
+
+li a.active {
+    background-color: #eff4fb !important;
+    border-bottom-color: transparent !important;
+}
+
+.aikit-pagination a {
+    margin: 5px;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+}
+
+
+.aikit-pagination-current {
+    font-weight: 700;
+}
+
+.aikit-settings-content {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    background-color: #eff4fb;
+    position: relative;
+    min-height: 600px;
+}
+
+.aikit-chatbot-conversation-message-text {
+    margin: 7px 0;
+}
+
+.aikit-history-back {
+    cursor: pointer;
+    font-size: 13px;
+}

@@ -1,0 +1,106 @@
+// Focus Style
+
+// Focus style mixin used within framework
+@mixin default-focus-style($type: $focus-style) {
+    @if $type == outline {
+      outline-style: solid;
+      outline-color: var(--focus-color);
+      outline-width: var(--focus-width);
+      outline-offset: var(--focus-offset);
+    }
+    @if $type == shadow {
+      box-shadow: 0 0 0 var(--focus-width) var(--focus-color);
+      outline: none;
+    }
+  }
+  
+// Focus style mixin for users
+@mixin focus-parent($style: shadow) {
+  &:focus-within {
+    @if $style == "shadow" {
+      box-shadow: 0 0 0 var(--focus-width) var(--focus-color);
+    }
+    @if $style == "outline" {
+      outline: var(--focus-width) solid var(--focus-color);
+      outline-offset: var(--focus-offset);
+    }
+  }
+  & :focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+  
+@mixin focus-styles {
+  :focus {
+    outline: none;
+    box-shadow: none;
+  }
+  :focus-visible {
+    @include default-focus-style;
+  }
+
+  @supports not selector(:focus-visible) {
+    :focus {
+      @include default-focus-style;
+    }
+  }
+
+  // Custom Focus Colors
+  // Requires Builder Overrides
+
+  @each $color, $value in $core-colors {
+    *:focus {
+      &.focus--#{$color} {
+        --focus-color: var(--#{$color});
+      }
+    }
+    .focus--#{$color} *:focus,
+    .focus--#{$color}:focus-within {
+      --focus-color: var(--#{$color});
+    }
+  }
+}
+
+@mixin hidden-accessible-badge {
+  position: relative !important;
+  inline-size: 2ch !important;
+  block-size: 2ch !important;
+  margin: 0;
+  line-height: 1;
+  visibility: hidden;
+
+  &::before {
+      content: "A";
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: absolute;
+      background: #111;
+      color: #f5f5f5;
+      font-size: max(60%, 13px);
+      padding: 0.5em;
+      inset-block-start: 0;
+      inset-inline-start: 0;
+      inline-size: 20px;
+      block-size: 20px;
+      visibility: visible;
+      border-radius: 50%;
+  }
+}
+
+// Skip Link
+@mixin skip-link {
+  position: absolute;
+  inset-block-start: 1rem;
+  inset-inline-start: 1rem;
+  transform: translateY(-250%);
+  --btn-min-width: fit-content;
+  @include btn("primary");
+
+  &:focus {
+    transform: translateY(0);
+  }
+}

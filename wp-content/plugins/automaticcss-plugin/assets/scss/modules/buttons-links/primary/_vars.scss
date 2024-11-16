@@ -1,0 +1,187 @@
+// Primary Defaults
+$option-primary-btn: on !default;
+$option-primary-btn-shades: on !default;
+$option-primary-btn-outline: on !default;
+
+///// Main
+$btn-primary-bg: var(--primary) !default;
+$btn-primary-hover: var(--primary-hover) !default;
+$btn-primary-text: var(--primary-ultra-light) !default;
+$btn-primary-hover-text: var(--primary-ultra-light) !default;
+$btn-primary-border-color: var(--primary) !default;
+$btn-primary-hover-border-color: var(--primary-hover) !default;
+$btn-primary-focus-color: var(--primary-light) !default;
+///// Dark
+$btn-primary-dark-bg: var(--primary-dark) !default;
+$btn-primary-dark-hover: var(--primary-ultra-dark) !default;
+$btn-primary-dark-text: var(--primary-ultra-light) !default;
+$btn-primary-dark-hover-text: var(--primary-ultra-light) !default;
+$btn-primary-dark-border-color: var(--primary-dark) !default;
+$btn-primary-dark-hover-border-color: var(--primary-ultra-dark) !default;
+$btn-primary-dark-focus-color: var(--primary-semi-dark) !default;
+///// Light
+$btn-primary-light-bg: var(--primary-ultra-light) !default;
+$btn-primary-light-hover: var(--primary-light) !default;
+$btn-primary-light-text: var(--primary) !default;
+$btn-primary-light-hover-text: var(--primary-ultra-dark) !default;
+$btn-primary-light-border-color: var(--primary-ultra-light) !default;
+$btn-primary-light-hover-border-color: var(--primary-light) !default;
+$btn-primary-light-focus-color: var(--primary-light) !default;
+///// Outline
+$btn-primary-outline-background: transparent !default;
+$btn-primary-outline-background-hover: var(--primary-hover) !default;
+$primary-outline-btn-text: var(--primary) !default;
+$primary-outline-hover-text: var(--primary-ultra-light) !default;
+$btn-primary-outline-border-color: var(--primary) !default;
+$btn-primary-outline-border-hover: var(--primary-hover) !default;
+$btn-primary-outline-focus-color: var(--primary-semi-light) !default;
+///// Outline Dark
+$btn-primary-outline-dark-background: transparent !default;
+$btn-primary-outline-dark-background-hover: var(--primary-dark) !default;
+$primary-outline-dark-btn-text: var(--primary-dark) !default;
+$primary-outline-dark-hover-text: var(--primary-ultra-light) !default;
+$btn-primary-outline-dark-border-color: var(--primary-dark) !default;
+$btn-primary-outline-dark-border-hover: var(--primary-dark) !default;
+$btn-primary-outline-dark-focus-color: var(--primary-semi-dark) !default;
+///// Outline Light
+$btn-primary-outline-light-background: transparent !default;
+$btn-primary-outline-light-background-hover: var(--primary-ultra-light) !default;
+$primary-outline-light-btn-text: var(--primary-ultra-light) !default;
+$primary-outline-light-hover-text: var(--primary-dark) !default;
+$btn-primary-outline-light-border-color: var(--primary-ultra-light) !default;
+$btn-primary-outline-light-border-hover: var(--primary-ultra-light) !default;
+$btn-primary-outline-light-focus-color: var(--primary-light) !default;
+
+$btn-primary: (); // Initialize Map
+@if $option-primary-btn == on {
+
+    $btn-primary: (
+        "primary": (
+            btn-background: $btn-primary-bg,
+            btn-background-hover: $btn-primary-hover,
+            btn-text-color: $btn-primary-text,
+            btn-text-color-hover: $btn-primary-hover-text,
+            btn-border-color: $btn-primary-border-color,
+            btn-border-color-hover: $btn-primary-hover-border-color,
+            focus-color: $btn-primary-focus-color,
+        ),
+        "primary-dark": (
+            btn-background: $btn-primary-dark-bg,
+            btn-background-hover: $btn-primary-dark-hover,
+            btn-text-color: $btn-primary-dark-text,
+            btn-text-color-hover: $btn-primary-dark-hover-text,
+            btn-border-color: $btn-primary-dark-border-color,
+            btn-border-color-hover: $btn-primary-dark-hover-border-color,
+            focus-color: $btn-primary-dark-focus-color,
+        ),
+        "primary-light": (
+            btn-background: $btn-primary-light-bg,
+            btn-background-hover: $btn-primary-light-hover,
+            btn-text-color: $btn-primary-light-text,
+            btn-text-color-hover: $btn-primary-light-hover-text,
+            btn-border-color: $btn-primary-light-border-color,
+            btn-border-color-hover: $btn-primary-light-hover-border-color,
+            focus-color: $btn-primary-light-focus-color,
+        ),
+        "primary.btn--outline": (
+            btn-background: $btn-primary-outline-background,
+            btn-background-hover: $btn-primary-outline-background-hover,
+            btn-text-color: $primary-outline-btn-text,
+            btn-text-color-hover: $primary-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-primary-outline-border-color,
+            btn-border-color-hover: $btn-primary-outline-border-hover,
+            focus-color: $btn-primary-focus-color,
+        ),
+        "primary-dark.btn--outline": (
+            btn-background: $btn-primary-outline-dark-background,
+            btn-background-hover: $btn-primary-outline-dark-background-hover,
+            btn-text-color: $primary-outline-dark-btn-text,
+            btn-text-color-hover: $primary-outline-dark-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-primary-outline-dark-border-color,
+            btn-border-color-hover: $btn-primary-outline-dark-border-hover,
+            focus-color: $btn-primary-focus-color,
+        ),
+        "primary-light.btn--outline": (
+            btn-background: $btn-primary-outline-light-background,
+            btn-background-hover: $btn-primary-outline-light-background-hover,
+            btn-text-color: $primary-outline-light-btn-text,
+            btn-text-color-hover: $primary-outline-light-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-primary-outline-light-border-color,
+            btn-border-color-hover: $btn-primary-outline-light-border-hover,
+            focus-color: $btn-primary-focus-color,
+        ),
+    );
+
+
+    // $btn-primary: (
+    //     "primary": ( // Key for utility names
+    //         "main": (
+    //             btn-background: $btn-primary-bg,
+    //             btn-background-hover: $btn-primary-hover,
+    //             btn-text-color: $btn-primary-text,
+    //             btn-text-color-hover: $btn-primary-hover-text,
+    //             btn-border-color: $btn-primary-border-color,
+    //             btn-border-color-hover: $btn-primary-hover-border-color,
+    //             focus-color: $btn-primary-focus-color,
+    //         ),
+    //         "dark": (
+    //             btn-dark-background: $btn-primary-dark-bg,
+    //             btn-dark-background-hover: $btn-primary-dark-hover,
+    //             btn-dark-text-color: $btn-primary-dark-text,
+    //             btn-dark-text-color-hover: $btn-primary-dark-hover-text,
+    //             btn-dark-border-color: $btn-primary-dark-border-color,
+    //             btn-dark-border-color-hover: $btn-primary-dark-hover-border-color,
+    //             btn-dark-focus-color: $btn-primary-dark-focus-color,
+    //         ),
+    //         "light": (
+    //             btn-light-background: $btn-primary-light-bg,
+    //             btn-light-background-hover: $btn-primary-light-hover,
+    //             btn-light-text-color: $btn-primary-light-text,
+    //             btn-light-text-color-hover: $btn-primary-light-hover-text,
+    //             btn-light-border-color: $btn-primary-light-border-color,
+    //             btn-light-border-color-hover: $btn-primary-light-hover-border-color,
+    //             btn-light-focus-color: $btn-primary-light-focus-color,
+    //         ),
+    //         "outline": (
+    //             btn-outline-background: $btn-primary-outline-background,
+    //             btn-outline-background-hover: $btn-primary-outline-background-hover,
+    //             btn-outline-border-color: $btn-primary-outline-border-color,
+    //             btn-outline-border-hover: $btn-primary-outline-border-hover,
+    //             btn-outline-text-color: $primary-outline-btn-text,
+    //             btn-outline-text-color-hover: $primary-outline-hover-text,
+    //         ),
+    //         "outline-dark": (
+    //             btn-outline-dark-background: $btn-primary-outline-dark-background,
+    //             btn-outline-dark-background-hover: $btn-primary-outline-dark-background-hover,
+    //             btn-outline-dark-border-color: $btn-primary-outline-dark-border-color,
+    //             btn-outline-dark-border-hover: $btn-primary-outline-dark-border-hover,
+    //             btn-outline-dark-text-color: $primary-outline-dark-btn-text,
+    //             btn-outline-dark-text-color-hover: $primary-outline-dark-hover-text,
+    //         ),
+    //         "outline-light": (
+    //             btn-outline-light-background: $btn-primary-outline-light-background,
+    //             btn-outline-light-background-hover: $btn-primary-outline-light-background-hover,
+    //             btn-outline-light-border-color: $btn-primary-outline-light-border-color,
+    //             btn-outline-light-border-hover: $btn-primary-outline-light-border-hover,
+    //             btn-outline-light-text-color: $primary-outline-light-btn-text,
+    //             btn-outline-light-text-color-hover: $primary-outline-light-hover-text,
+    //         ),
+    //     )
+    // );
+
+    @if $option-primary-btn-outline == off {
+        $btn-primary: map-remove($btn-primary, "primary.btn--outline");
+        $btn-primary: map-remove($btn-primary, "primary-dark.btn--outline");
+        $btn-primary: map-remove($btn-primary, "primary-light.btn--outline");
+    }
+    @if $option-primary-btn-shades == off {
+        $btn-primary: map-remove($btn-primary, "primary-dark");
+        $btn-primary: map-remove($btn-primary, "primary-light");
+        $btn-primary: map-remove($btn-primary, "primary-dark.btn--outline");
+        $btn-primary: map-remove($btn-primary, "primary-light.btn--outline-light");
+    }
+
+}

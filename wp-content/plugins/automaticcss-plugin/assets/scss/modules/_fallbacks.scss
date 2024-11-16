@@ -1,0 +1,94 @@
+// TEXT VARIABLE FALLBACKS
+
+@supports (font-size: calc(1vw + 2vw)) {
+  :root {
+    @each $textType, $textSet in $text-fallbacks {
+      @if $textType == calc {
+        @each $textSize, $value in $textSet {
+          --#{$textSize}: #{$value};
+        }
+      }
+    }
+    @each $headingType, $headingSet in $heading-fallbacks {
+      @if $headingType == calc {
+        @each $headingSize, $value in $headingSet {
+          --#{$headingSize}: #{$value};
+        }
+      }
+    }
+  }
+  @include breakpoint-up(xl) {
+    :root {
+      @each $textType, $textSet in $text-fallbacks {
+        @if $textType == calc-max {
+          @each $textSize, $value in $textSet {
+            --#{$textSize}: #{$value};
+          }
+        }
+      }
+      @each $headingType, $headingSet in $heading-fallbacks {
+        @if $headingType == calc-max {
+          @each $headingSize, $value in $headingSet {
+            --#{$headingSize}: #{$value};
+          }
+        }
+      }
+    }
+  }
+}
+
+@supports (font-size: clamp(1vw, 2vw, 3vw)) {
+  :root {
+    @each $textType, $textSet in $text-fallbacks {
+      @if $textType == clamp {
+        @each $textSize, $value in $textSet {
+          --#{$textSize}: #{$value};
+        }
+      }
+    }
+    @each $headingType, $headingSet in $heading-fallbacks {
+      @if $headingType == clamp {
+        @each $headingSize, $value in $headingSet {
+          --#{$headingSize}: #{$value};
+        }
+      }
+    }
+  }
+}
+
+// SPACING VARIABLE FALLBACKS
+
+@supports (padding: calc(1vw + 2vw)) {
+  :root {
+    @each $spacingType, $spacingSet in $spacing-fallbacks {
+      @if $spacingType == calc {
+        @each $spacingSize, $value in $spacingSet {
+          --#{$spacingSize}: #{$value};
+        }
+      }
+    }
+  }
+  @include breakpoint-up(xl) {
+    :root {
+      @each $spacingType, $spacingSet in $spacing-fallbacks {
+        @if $spacingType == calc-max {
+          @each $spacingSize, $value in $spacingSet {
+            --#{$spacingSize}: #{$value};
+          }
+        }
+      }
+    }
+  }
+}
+
+@supports (padding: clamp(1vw, 2vw, 3vw)) {
+  :root {
+    @each $spacingType, $spacingSet in $spacing-fallbacks {
+      @if $spacingType == clamp {
+        @each $spacingSize, $value in $spacingSet {
+          --#{$spacingSize}: #{$value};
+        }
+      }
+    }
+  }
+}

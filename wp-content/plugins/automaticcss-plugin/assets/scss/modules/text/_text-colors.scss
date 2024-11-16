@@ -1,0 +1,19 @@
+// Text Classes
+@if $option-text-color == on {
+    @each $color-name, $color-value in $core-colors {
+      .text--#{$color-name}.text--#{$color-name},
+      .text--#{$color-name}.text--#{$color-name} :where(:is(h1,h2,h3,h4,h5,h6)) {
+          color: var(--#{$color-name});
+      }
+    }
+}
+
+// Text Classes for Status Colors
+@if $option-status-color-classes == on {
+  @each $color-name, $color-value in $core-status-colors {
+    .text--#{$color-name}.text--#{$color-name},
+    .text--#{$color-name}.text--#{$color-name} :where(:is(h1,h2,h3,h4,h5,h6)) {
+        color: var(--#{$color-name});
+    }
+  }
+}

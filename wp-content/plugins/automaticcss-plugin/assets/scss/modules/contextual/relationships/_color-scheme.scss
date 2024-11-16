@@ -1,0 +1,91 @@
+// Add support for color scheme so contextual utility values are re-mapped to correct scheme.
+// All new relationship utilities must be accounted for here.
+@if $option-relate-bg-text == on {
+    #{$color-scheme-main-selectors} {
+        --bg-ultra-light-text: #{$bg-ultra-light-text};
+        --bg-light-text: #{$bg-light-text};
+        --bg-dark-text: #{$bg-dark-text};
+		--bg-ultra-dark-text: #{$bg-ultra-dark-text};
+		// Generate Contextual Heading Relationship Tokens if Values are Set
+		@each $color, $value in $contextual-heading-relationships {
+			@if $value != null {
+				--bg-#{$color}-heading: #{$value};
+			}
+		}
+		// Generate Contextual Link Relationship Tokens if Values are Set
+		@each $color, $value in $contextual-link-relationships {
+			@if nth($value, 1) != null {
+				--bg-#{$color}-link: #{nth($value, 1)};
+			}
+			@if nth($value, 2) != null {
+				--bg-#{$color}-link-hover: #{nth($value, 2)};
+			}
+		}
+		// Add support for textures if texture is mapped to color relationships.
+		@if $option-textures == on {
+			@each $texture, $props in $textures {
+				// Get the options so we can check their value
+				$relationship: map-get($props, "relationship");
+				$overlay-option: map-get($props, "overlay-option");
+				// Check to see if there's a declared relationship
+				@if $relationship != null {
+					// Loop through the main texture props that we need to declare
+					@each $prop, $value in $props {
+						// Declare the main texture props
+						@if $value != null and $prop == "background-color" or $prop == "overlay" {
+							--#{$texture}-#{$prop}: #{$value};
+						}
+						// Check to see if the overlay option is on and declare the overlay props
+						@if $overlay-option == on and $prop == "overlay-overlay" {
+							--#{$texture}-#{$prop}: #{$value};
+						}
+					}
+				}
+			}
+		}
+    }
+    .color-scheme--alt {
+        --bg-ultra-light-text: #{$bg-ultra-light-text};
+        --bg-light-text: #{$bg-light-text};
+        --bg-dark-text: #{$bg-dark-text};
+		--bg-ultra-dark-text: #{$bg-ultra-dark-text};
+		// Generate Contextual Heading Relationship Tokens if Values are Set
+		@each $color, $value in $contextual-heading-relationships {
+			@if $value != null {
+				--bg-#{$color}-heading: #{$value};
+			}
+		}
+        --bg-ultra-dark-text: #{$bg-ultra-dark-text};
+		// Generate Contextual Link Relationship Tokens if Values are Set
+		@each $color, $value in $contextual-link-relationships {
+			@if nth($value, 1) != null {
+				--bg-#{$color}-link: #{nth($value, 1)};
+			}
+			@if nth($value, 2) != null {
+				--bg-#{$color}-link-hover: #{nth($value, 2)};
+			}
+		}
+		// Add support for textures if texture is mapped to color relationships.
+		@if $option-textures == on {
+			@each $texture, $props in $textures {
+				// Get the options so we can check their value
+				$relationship: map-get($props, "relationship");
+				$overlay-option: map-get($props, "overlay-option");
+				// Check to see if there's a declared relationship
+				@if $relationship != null {
+					// Loop through the main texture props that we need to declare
+					@each $prop, $value in $props {
+						// Declare the main texture props
+						@if $value != null and $prop == "background-color" or $prop == "overlay" {
+							--#{$texture}-#{$prop}: #{$value};
+						}
+						// Check to see if the overlay option is on and declare the overlay props
+						@if $overlay-option == on and $prop == "overlay-overlay" {
+							--#{$texture}-#{$prop}: #{$value};
+						}
+					}
+				}
+			}
+		}
+    }
+}

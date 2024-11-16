@@ -1,0 +1,130 @@
+// Neutral Defaults
+$option-neutral-btn: on !default;
+$option-neutral-btn-shades: on !default;
+$option-neutral-btn-outline: on !default;
+
+///// Main
+$btn-neutral-bg: var(--neutral) !default;
+$btn-neutral-hover: var(--neutral-hover) !default;
+$btn-neutral-text: var(--neutral-ultra-light) !default;
+$btn-neutral-hover-text: var(--neutral-ultra-light) !default;
+$btn-neutral-border-color: var(--neutral) !default;
+$btn-neutral-hover-border-color: var(--neutral-hover) !default;
+$btn-neutral-focus-color: var(--neutral-light) !default;
+///// Dark
+$btn-neutral-dark-bg: var(--neutral-dark) !default;
+$btn-neutral-dark-hover: var(--neutral-ultra-dark) !default;
+$btn-neutral-dark-text: var(--neutral-ultra-light) !default;
+$btn-neutral-dark-hover-text: var(--neutral-ultra-light) !default;
+$btn-neutral-dark-border-color: var(--neutral-dark) !default;
+$btn-neutral-dark-hover-border-color: var(--neutral-ultra-dark) !default;
+$btn-neutral-dark-focus-color: var(--neutral-semi-dark) !default;
+///// Light
+$btn-neutral-light-bg: var(--neutral-ultra-light) !default;
+$btn-neutral-light-hover: var(--neutral-light) !default;
+$btn-neutral-light-text: var(--neutral) !default;
+$btn-neutral-light-hover-text: var(--neutral-ultra-dark) !default;
+$btn-neutral-light-border-color: var(--neutral-ultra-light) !default;
+$btn-neutral-light-hover-border-color: var(--neutral-light) !default;
+$btn-neutral-light-focus-color: var(--neutral-light) !default;
+///// Outline
+$btn-neutral-outline-background: transparent !default;
+$btn-neutral-outline-background-hover: var(--neutral-hover) !default;
+$neutral-outline-btn-text: var(--neutral) !default;
+$neutral-outline-hover-text: var(--neutral-ultra-light) !default;
+$btn-neutral-outline-border-color: var(--neutral) !default;
+$btn-neutral-outline-border-hover: var(--neutral-hover) !default;
+$btn-neutral-outline-focus-color: var(--neutral-semi-light) !default;
+///// Outline Dark
+$btn-neutral-outline-dark-background: transparent !default;
+$btn-neutral-outline-dark-background-hover: var(--neutral-dark) !default;
+$neutral-outline-dark-btn-text: var(--neutral-dark) !default;
+$neutral-outline-dark-hover-text: var(--neutral-ultra-light) !default;
+$btn-neutral-outline-dark-border-color: var(--neutral-dark) !default;
+$btn-neutral-outline-dark-border-hover: var(--neutral-dark) !default;
+$btn-neutral-outline-dark-focus-color: var(--neutral-semi-dark) !default;
+///// Outline Light
+$btn-neutral-outline-light-background: transparent !default;
+$btn-neutral-outline-light-background-hover: var(--neutral-ultra-light) !default;
+$neutral-outline-light-btn-text: var(--neutral-ultra-light) !default;
+$neutral-outline-light-hover-text: var(--neutral-dark) !default;
+$btn-neutral-outline-light-border-color: var(--neutral-ultra-light) !default;
+$btn-neutral-outline-light-border-hover: var(--neutral-ultra-light) !default;
+$btn-neutral-outline-light-focus-color: var(--neutral-light) !default;
+
+$btn-neutral: (); // Initialize Map
+@if $option-neutral-btn == on {
+
+    $btn-neutral: (
+        "neutral": (
+            btn-background: $btn-neutral-bg,
+            btn-background-hover: $btn-neutral-hover,
+            btn-text-color: $btn-neutral-text,
+            btn-text-color-hover: $btn-neutral-hover-text,
+            btn-border-color: $btn-neutral-border-color,
+            btn-border-color-hover: $btn-neutral-hover-border-color,
+            focus-color: $btn-neutral-focus-color,
+        ),
+        "neutral-dark": (
+            btn-background: $btn-neutral-dark-bg,
+            btn-background-hover: $btn-neutral-dark-hover,
+            btn-text-color: $btn-neutral-dark-text,
+            btn-text-color-hover: $btn-neutral-dark-hover-text,
+            btn-border-color: $btn-neutral-dark-border-color,
+            btn-border-color-hover: $btn-neutral-dark-hover-border-color,
+            focus-color: $btn-neutral-dark-focus-color,
+        ),
+        "neutral-light": (
+            btn-background: $btn-neutral-light-bg,
+            btn-background-hover: $btn-neutral-light-hover,
+            btn-text-color: $btn-neutral-light-text,
+            btn-text-color-hover: $btn-neutral-light-hover-text,
+            btn-border-color: $btn-neutral-light-border-color,
+            btn-border-color-hover: $btn-neutral-light-hover-border-color,
+            focus-color: $btn-neutral-light-focus-color,
+        ),
+        "neutral.btn--outline": (
+            btn-background: $btn-neutral-outline-background,
+            btn-background-hover: $btn-neutral-outline-background-hover,
+            btn-text-color: $neutral-outline-btn-text,
+            btn-text-color-hover: $neutral-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-neutral-outline-border-color,
+            btn-border-color-hover: $btn-neutral-outline-border-hover,
+            focus-color: $btn-neutral-outline-focus-color,
+        ),
+        "neutral-dark.btn--outline": (
+            btn-background: $btn-neutral-outline-dark-background,
+            btn-background-hover: $btn-neutral-outline-dark-background-hover,
+            btn-text-color: $neutral-outline-dark-btn-text,
+            btn-text-color-hover: $neutral-outline-dark-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-neutral-outline-dark-border-color,
+            btn-border-color-hover: $btn-neutral-outline-dark-border-hover,
+            focus-color: $btn-neutral-outline-dark-focus-color,
+        ),
+        "neutral-light.btn--outline": (
+            btn-background: $btn-neutral-outline-light-background,
+            btn-background-hover: $btn-neutral-outline-light-background-hover,
+            btn-text-color: $neutral-outline-light-btn-text,
+            btn-text-color-hover: $neutral-outline-light-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-neutral-outline-light-border-color,
+            btn-border-color-hover: $btn-neutral-outline-light-border-hover,
+            focus-color: $btn-neutral-outline-light-focus-color,
+        ),
+    );
+
+    @if $option-neutral-btn-outline == off {
+        $btn-neutral: map-remove($btn-neutral, "neutral.btn--outline");
+        $btn-neutral: map-remove($btn-neutral, "neutral-dark.btn--outline");
+        $btn-neutral: map-remove($btn-neutral, "neutral-light.btn--outline");
+    }
+    @if $option-neutral-btn-shades == off {
+        $btn-neutral: map-remove($btn-neutral, "neutral-dark");
+        $btn-neutral: map-remove($btn-neutral, "neutral-light");
+        $btn-neutral: map-remove($btn-neutral, "neutral-dark.btn--outline");
+        $btn-neutral: map-remove($btn-neutral, "neutral-light.btn--outline-light");
+    }
+
+}

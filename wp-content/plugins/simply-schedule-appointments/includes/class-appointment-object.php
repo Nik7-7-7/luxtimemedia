@@ -901,7 +901,7 @@ class SSA_Appointment_Object {
 			$output[] = [
 				'id'			=> $staff[$i]->id,
 				'wp_user_id'	=> $staff[$i]->user_id,
-				'name'			=> $staff[$i]->name ? $staff[$i]->name : $staff[$i]->get_name(),
+				'name'			=> $staff[$i]->name,
 				'display_name'	=> $staff[$i]->get_name(),
 				'email'			=> $staff[$i]->get_email(),
 			];

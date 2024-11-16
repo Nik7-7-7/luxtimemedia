@@ -1,0 +1,28 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://automaticcss.com/schemas/1.0.0/ui.json",
+	"title": "Dashboard UI",
+	"description": "The UI for the dashboard",
+	"type": "object",
+	"properties": {
+		"screens": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"uniqueItems": true,
+			"minItems": 1
+		},
+		"id": {
+			"type": "string"
+		},
+		"globals": {
+			"type": "object"
+		}
+	},
+	"required": [
+		"screens",
+		"id",
+		"globals"
+	]
+}

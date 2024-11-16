@@ -1,0 +1,40 @@
+@import "options";
+@import "vars";
+@import "mixins";
+
+// Smart Spacing
+@if $option-smart-spacing == on {
+
+    @if $option-use-gutenberg-for-page-building == on {
+        // Normalize smart spacing everywhere, including block editor
+        body {
+            @include smart-spacing-normalize;
+        }
+    } @else {
+        // Exclude both versions of block editor
+        body:where(:not(.block-editor-writing-flow, .editor-styles-wrapper)) {
+            @include smart-spacing-normalize;
+        }
+    }
+}
+
+.smart-spacing-normalize {
+    @include smart-spacing-normalize;
+}
+.smart-spacing-preview,
+.smart-spacing.smart-spacing {
+    @include smart-spacing;
+}
+@if $smart-spacing-selectors != null {
+    :is(#{$smart-spacing-selectors}) {
+        @include smart-spacing;
+    }
+}
+
+.smart-spacing--off.smart-spacing--off {
+	@include smart-spacing-normalize;
+}
+
+@import "bricks";
+@import "oxygen";
+@import "woo";

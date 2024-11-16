@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mailster/homepage",
+  "title": "Mailster Homepage",
+  "keywords": [
+    "form",
+    "newsletter",
+    "mailster",
+    "subscribe",
+    "signup",
+    "optin",
+    "opt-in",
+    "opt in",
+    "email",
+    "mail"
+  ],
+  "category": "widgets",
+  "supports": {
+    "multiple": false,
+    "html": false,
+    "anchor": false,
+    "align": true,
+    "className": false,
+    "customClassName": false,
+    "reusable": false
+  },
+  "attributes": {
+    "id": {
+      "type": "integer"
+    },
+    "submission": {
+      "type": "integer"
+    },
+    "profile": {
+      "type": "integer"
+    },
+    "unsubscribe": {
+      "type": "integer"
+    },
+    "profile_button": {
+      "type": "string"
+    },
+    "unsubscribe_button": {
+      "type": "string"
+    },
+    "showAll": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "providesContext": {
+    "mailster-homepage-context/align": "align",
+    "mailster-homepage-context/submission": "submission",
+    "mailster-homepage-context/profile": "profile",
+    "mailster-homepage-context/unsubscribe": "unsubscribe",
+    "mailster-homepage-context/showAll": "showAll"
+  },
+  "textdomain": "mailster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

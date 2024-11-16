@@ -1,0 +1,24 @@
+@mixin style-external-links() {
+    @if $external-link-indicator-position == "start" {
+        --external-link-indicator-order: -1;
+    }
+    @if $external-link-indicator-position == "end" {
+        --external-link-indicator-order: 0;
+    }
+    display: inline-flex;
+    align-items: center;
+    gap: var(--external-link-indicator-gap);
+    &::after {
+        content: "#{$external-link-indicator}" / "#{$external-link-indicator-accessibility-text}";
+        font-size: var(--external-link-indicator-size);
+        font-weight: var(--external-link-indicator-weight);
+        line-height: 1;
+        translate: var(--external-link-indicator-offset);
+        color: var(--external-link-indicator-color);
+        align-self: var(--external-link-indicator-alignment);
+        order: var(--external-link-indicator-order);
+    }
+    &:hover::after {
+        color: var(--external-link-indicator-color-hover);
+    }
+}

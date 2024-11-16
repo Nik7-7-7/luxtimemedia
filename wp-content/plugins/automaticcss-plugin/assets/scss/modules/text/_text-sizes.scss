@@ -1,0 +1,27 @@
+@if $option-basic-text-classes == on {
+  // Global styles
+  :is(.text--xxl, .text--xl, .text--l, .text--m, .text--s, .text--xs),
+  :is(.text--xxl, .text--xl, .text--l, .text--m, .text--s, .text--xs) > :is(p, ol li, ul li) {
+    @each $prop, $value in $textDefaultStyles {
+      // Color must be excluded from text size classes.
+      @if $value != null and $prop != "color" {
+        #{$prop}: var(--text-#{$prop});
+      }
+    }
+  }
+
+  // Individual styles
+  @each $size, $style-list in $textGlobalStyles {
+    .text--#{$size} {
+      &,
+      & > :is(p, ol li, ul li) {
+        font-size: var(--text-#{$size});
+        @each $prop, $value in $style-list {
+          @if $value != null {
+            #{$prop}: var(--text-#{$size}-#{$prop});
+        }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+@import "form-vars";
+
+:root {
+	--f-label-size: #{$f-label-size};
+  --f-label-font-weight: #{$f-label-font-weight};
+  --f-label-line-height: #{$f-label-line-height};
+  --f-label-padding-x: #{$f-label-padding-x};
+  --f-label-padding-y: #{$f-label-padding-y};
+  --f-label-margin-bottom: #{$f-label-margin-bottom};
+  --f-label-text-transform: #{$f-label-text-transform};
+  --f-label-inside-position-left: #{$f-label-inside-position-left};
+  --f-label-inside-position-top: #{$f-label-inside-position-top};
+  --f-label-inside-scale: #{$f-label-inside-scale};
+
+  --f-legend-text-weight: #{$f-legend-text-weight};
+  --f-legend-size: #{$f-legend-size};
+  --f-legend-margin-bottom: #{$f-legend-margin-bottom};
+  --f-legend-border: #{$f-legend-border};
+  --f-legend-line-height: #{$f-legend-line-height};
+
+  --f-help-text-weight: #{$f-help-text-weight};
+  --f-help-size: #{$f-help-size};
+  --f-help-line-height: #{$f-help-line-height};
+  --f-help-margin-block: #{$f-help-margin-block};
+
+  --f-field-margin-bottom: #{$f-field-margin-bottom};
+  --f-fieldset-margin-bottom: #{$f-fieldset-margin-bottom};
+  --f-grid-gutter: #{$f-grid-gutter};
+
+  --f-input-border-style: #{$f-input-border-style};
+  --f-input-border-top-size: #{$f-input-border-top-size};
+  --f-input-border-right-size: #{$f-input-border-right-size};
+  --f-input-border-bottom-size: #{$f-input-border-bottom-size};
+  --f-input-border-left-size: #{$f-input-border-left-size};
+  --f-input-border-radius: #{$f-input-border-radius};
+  --f-input-size: #{$f-input-size};
+  --f-input-font-weight: #{$f-input-font-weight};
+  --f-input-line-height: #{$f-input-line-height};
+  --f-input-height: #{$f-input-height}rem;
+  --f-input-padding-x: #{$f-input-padding-x};
+  --f-input-padding-y: #{$f-input-padding-y};
+
+  --f-btn-border-style: #{$f-btn-border-style};
+  --f-btn-border-width: #{$f-btn-border-width};
+  --f-btn-border-radius: #{$f-btn-border-radius};
+  --f-btn-text-size: #{$f-btn-text-size};
+  --f-btn-font-weight: #{$f-btn-font-weight};
+  --f-btn-line-height: #{$f-btn-line-height};
+  --f-btn-padding-y: #{$f-btn-padding-y};
+  --f-btn-padding-x: #{$f-btn-padding-x};
+  --f-btn-margin-top: #{$f-btn-margin-top};
+  --f-btn-text-decoration: #{$f-btn-text-decoration};
+  --f-btn-text-transform: #{$f-btn-text-transform};
+
+  --f-option-label-font-weight: #{$f-option-label-font-weight};
+  --f-option-label-size: #{$f-option-label-size};
+  --f-option-label-spacing: #{$f-option-label-spacing};
+
+  --f-progress-height: #{$f-progress-height};
+  --f-progress-bar-radius: #{$f-progress-bar-radius};
+
+  --f-tab-border-size: #{$f-tab-border-size};
+  --f-tab-border-style: #{$f-tab-border-style};
+  --f-tab-border-radius: #{$f-tab-border-radius};
+  --f-tab-text-size: #{$f-tab-text-size};
+  --f-tab-text-weight: #{$f-tab-text-weight};
+  --f-tab-text-line-height: #{$f-tab-text-line-height};
+  --f-tab-text-align: #{$f-tab-text-align};
+  --f-tab-text-transform: #{$f-tab-text-transform};
+  --f-tab-text-decoration: #{$f-tab-text-decoration};
+  --f-tab-padding-y: #{$f-tab-padding-y};
+  --f-tab-padding-x: #{$f-tab-padding-x};
+  --f-tab-margin-x: #{$f-tab-margin-x};
+  --f-tab-width: #{$f-tab-width};
+  --f-tab-active-border-bottom-size: #{$f-tab-active-border-bottom-size};
+  --f-tab-active-text-weight: #{$f-tab-active-text-weight};
+  --f-tab-active-border-size: #{$f-tab-active-border-size};
+  --f-tab-active-border-style: #{$f-tab-active-border-style};
+  --f-tab-group-padding-y: #{$f-tab-group-padding-y};
+  --f-tab-group-padding-x: #{$f-tab-group-padding-x};
+  --f-tab-group-border-bottom-size: #{$f-tab-group-border-bottom-size};
+  --f-tab-group-border-bottom-style: #{$f-tab-group-border-bottom-style};
+  --f-tab-group-margin-bottom: #{$f-tab-group-margin-bottom};
+}

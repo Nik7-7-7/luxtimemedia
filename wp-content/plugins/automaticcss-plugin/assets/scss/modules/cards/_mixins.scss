@@ -1,0 +1,42 @@
+@mixin card() {
+	// Main Styles
+	display: var(--card-display, flex);
+	flex-direction: var(--card-flex-direction, column);
+	background-color: var(--card-background-color, var(--white));
+	padding: var(--card-padding, var(--space-m));
+	border-width: var(--card-border-width, var(--border-size));
+	border-style: var(--card-border-style, var(--border-style));
+	border-color: var(--card-border-color, var(--border-color-dark));
+	border-radius: var(--card-border-radius, var(--radius));
+	gap: var(--card-gap, var(--content-gap));
+	color: var(--card-text-color, var(--text-dark));
+	line-height: var(--card-line-height, inherit);
+
+	// Avatar Styles
+	& img[class*="__avatar"], [class*="__avatar"] img {
+		border-radius: var(--card-avatar-radius, 50vw);
+		width: var(--card-avatar-size, 48px);
+		height: var(--card-avatar-size, 48px);
+		align-self: center;
+		aspect-ratio: 1;
+		object-fit: cover;
+		img {
+			object-fit: cover;
+		}
+		overflow: hidden;
+	}
+
+	// Text Styles
+	:where(h1,h2,h3,h4,h5,h6) {
+		font-size: var(--card-heading-size, var(--h3));
+		color: var(--card-heading-color, var(--text-dark));
+	}
+	:where(p) {
+		font-size: var(--card-paragraph-size, var(--text-s));
+	}
+
+	// Button Adjustments
+	:where([class*="btn--"]) {
+		--btn-font-size: var(--card-button-font-size, var(--text-s));
+	}
+}

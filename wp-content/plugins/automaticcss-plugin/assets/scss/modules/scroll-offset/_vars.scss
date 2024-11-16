@@ -1,0 +1,45 @@
+@import "options";
+
+// Scroll Margin
+$scroll-margin-xxl: 0 !default;
+$scroll-margin: 0 !default; // Base
+$scroll-margin-xl: 0 !default;
+$scroll-margin-l: 0 !default;
+$scroll-margin-m: 0 !default;
+$scroll-margin-s: 0 !default;
+$scroll-margin-xs: 0 !default;
+
+$offset-xxl: $scroll-margin-xxl;
+$offset: $scroll-margin;
+$offset-xl: $scroll-margin-xl;
+$offset-l: $scroll-margin-l;
+$offset-m: $scroll-margin-m;
+$offset-s: $scroll-margin-s;
+$offset-xs: $scroll-margin-s;
+
+// If header height is used for scroll offset,
+// then combine the header height with the scroll margin
+// and overwrite the offset variables with the new value.
+@if $option-use-header-height-for-scroll-offset == on {
+    $offset-xxl: $scroll-margin-xxl + $header-height-xxl;
+    $offset: $scroll-margin + $header-height;
+    $offset-xl: $scroll-margin-xl + $header-height-xl;
+    $offset-l: $scroll-margin-l + $header-height-l;
+    $offset-m: $scroll-margin-m + $header-height-m;
+    $offset-s: $scroll-margin-s + $header-height-s;
+    $offset-xs: $scroll-margin-s + $header-height-xs;
+}
+
+$offsets: (
+    xl: $offset-xl,
+    l: $offset-l,
+    m: $offset-m,
+    s: $offset-s,
+);
+
+@if $breakpoint-xxl == on {
+    $offsets: map-merge($offsets, (xxl: $offset-xxl));
+}
+@if $breakpoint-xs == on {
+    $offsets: map-merge($offsets, (xs: $offset-xs));
+}

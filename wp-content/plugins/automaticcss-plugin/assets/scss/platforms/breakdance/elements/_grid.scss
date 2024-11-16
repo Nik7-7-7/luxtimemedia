@@ -1,0 +1,6 @@
+@if $option-grid-gap == on {
+    .breakdance :where(.bde-grid) {
+        --bde-grid-gap: var(--grid-gap);
+        --bde-column-gap: var(--grid-gap);
+    }
+}

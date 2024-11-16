@@ -1,0 +1,59 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mailster-workflow/conditions",
+  "title": "Condition",
+  "category": "mailster-workflow-steps",
+  "keywords": [
+    "container",
+    "wrapper",
+    "row",
+    "section"
+  ],
+  "parent": [
+    "core/post-content",
+    "mailster-workflow/condition-yes",
+    "mailster-workflow/condition-no"
+  ],
+  "description": "Define a condition and branch of your path.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "className": false,
+    "customClassName": false
+  },
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "disabled": {
+      "type": "boolean"
+    },
+    "weight": {
+      "type": "float",
+      "default": 0.5
+    },
+    "comment": {
+      "type": "string"
+    },
+    "emails": {
+      "type": "array"
+    },
+    "conditions": {
+      "type": "string"
+    },
+    "render": {
+      "type": "boolean"
+    },
+    "plain": {
+      "type": "boolean"
+    }
+  },
+  "providesContext": {
+    "mailster-workflow/weight": "weight"
+  },
+  "textdomain": "mailster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

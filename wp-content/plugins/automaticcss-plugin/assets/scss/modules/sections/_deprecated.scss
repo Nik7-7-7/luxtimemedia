@@ -1,0 +1,28 @@
+// Section padding is builder-specific based on how they
+// handle classes and HTML structure natively.
+@if $option-section-padding == on and $option-deprecated-padding == on {
+    @each $size, $extension in $sizeExtensions {
+      .pad-section--#{$extension} {
+        padding-block: var(--section-space-#{$extension});
+        padding-inline: var(--section-padding-x);
+      }
+    }
+  
+    .pad-section--none {
+      padding: 0 var(--section-padding-x);
+    }
+  
+    @each $breakpoint, $value in $breakpoints {
+      @include breakpoint($breakpoint) {
+        @each $size, $extension in $sizeExtensions {
+          .pad-section--#{$breakpoint}-#{$extension} {
+            padding-block: var(--section-space-#{$extension});
+            padding-inline: var(--section-padding-x);
+          }
+        }
+        .pad-section--#{$breakpoint}-none {
+          padding-inline: 0 var(--section-padding-x);
+        }
+      }
+    }
+  }

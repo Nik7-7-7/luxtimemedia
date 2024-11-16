@@ -1,0 +1,149 @@
+// warning Options
+$option-warning-clr-alt: off !default;
+
+// warning Alt Vars
+$warning-alt-hex: #e56c70 !default;
+$warning-r-alt: 229 !default;
+$warning-g-alt: 108 !default;
+$warning-b-alt: 112 !default;
+$warning-h-alt: 358 !default;
+$warning-s-alt: 70% !default;
+$warning-l-alt: 66% !default;
+$warning-hover-h-alt: 358 !default;
+$warning-hover-s-alt: 70% !default;
+$warning-hover-l-alt: 1.15 !default;
+$warning-ultra-light-h-alt: 358 !default;
+$warning-ultra-light-s-alt: 70% !default;
+$warning-ultra-light-l-alt: 95% !default;
+$warning-light-h-alt: 358 !default;
+$warning-light-s-alt: 70% !default;
+$warning-light-l-alt: 85% !default;
+$warning-medium-h-alt: 358 !default;
+$warning-medium-s-alt: 70% !default;
+$warning-medium-l-alt: 50% !default;
+$warning-dark-h-alt: 358 !default;
+$warning-dark-s-alt: 70% !default;
+$warning-dark-l-alt: 25% !default;
+$warning-ultra-dark-h-alt: 358 !default;
+$warning-ultra-dark-s-alt: 70% !default;
+$warning-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$warning-semi-light-h-alt: 358 !default;
+$warning-semi-light-s-alt: 70% !default;
+$warning-semi-light-l-alt: 60% !default;
+$warning-semi-dark-h-alt: 358 !default;
+$warning-semi-dark-s-alt: 70% !default;
+$warning-semi-dark-l-alt: 40% !default;
+
+
+// Warning Alt Color Map
+$color-warning-alt:(); // Initialize Map
+@if $option-warning-clr-alt == on and $option-warning-clr == on {
+  $color-warning-alt: (
+    "main": (
+      "warning": $warning-alt-hex,
+      "warning-hover": hsl($warning-hover-h-alt, $warning-hover-s-alt, $warning-hover-l-alt),
+      "warning-ultra-light": hsl($warning-ultra-light-h-alt, $warning-ultra-light-s-alt, $warning-ultra-light-l-alt),
+      "warning-light": hsl($warning-light-h-alt, $warning-light-s-alt, $warning-light-l-alt),
+      "warning-semi-light": hsl($warning-semi-light-h-alt, $warning-semi-light-s-alt, $warning-semi-light-l-alt),
+      "warning-semi-dark": hsl($warning-semi-dark-h-alt, $warning-semi-dark-s-alt, $warning-semi-dark-l-alt),
+      "warning-dark": hsl($warning-dark-h-alt, $warning-dark-s-alt, $warning-dark-l-alt),
+      "warning-ultra-dark": hsl($warning-ultra-dark-h-alt, $warning-ultra-dark-s-alt, $warning-ultra-dark-l-alt),
+      "warning-comp": hsl($warning-h-alt + 180, $warning-s-alt, $warning-l-alt),
+    ),
+    "trans": (
+      "warning-trans-10": rgba($warning-alt-hex, .1),
+      "warning-trans-20": rgba($warning-alt-hex, .2),
+      "warning-trans-30": rgba($warning-alt-hex, .3),
+      "warning-trans-40": rgba($warning-alt-hex, .4),
+      "warning-trans-50": rgba($warning-alt-hex, .5),
+      "warning-trans-60": rgba($warning-alt-hex, .6),
+      "warning-trans-70": rgba($warning-alt-hex, .7),
+      "warning-trans-80": rgba($warning-alt-hex, .8),
+      "warning-trans-90": rgba($warning-alt-hex, .9),
+    ),
+    "light-trans": (
+      "warning-light-trans-10": hsl($warning-light-h-alt, $warning-light-s-alt, $warning-light-l-alt, .1),
+      "warning-light-trans-20": hsl($warning-light-h-alt, $warning-light-s-alt, $warning-light-l-alt, .2),
+      "warning-light-trans-30": hsl($warning-light-h-alt, $warning-light-s-alt, $warning-light-l-alt, .3),
+      "warning-light-trans-40": hsl($warning-light-h-alt, $warning-light-s-alt, $warning-light-l-alt, .4),
+      "warning-light-trans-50": hsl($warning-light-h-alt, $warning-light-s-alt, $warning-light-l-alt, .5),
+      "warning-light-trans-60": hsl($warning-light-h-alt, $warning-light-s-alt, $warning-light-l-alt, .6),
+      "warning-light-trans-70": hsl($warning-light-h-alt, $warning-light-s-alt, $warning-light-l-alt, .7),
+      "warning-light-trans-80": hsl($warning-light-h-alt, $warning-light-s-alt, $warning-light-l-alt, .8),
+      "warning-light-trans-90": hsl($warning-light-h-alt, $warning-light-s-alt, $warning-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "warning-dark-trans-10": hsl($warning-dark-h-alt, $warning-dark-s-alt, $warning-dark-l-alt, .1),
+      "warning-dark-trans-20": hsl($warning-dark-h-alt, $warning-dark-s-alt, $warning-dark-l-alt, .2),
+      "warning-dark-trans-30": hsl($warning-dark-h-alt, $warning-dark-s-alt, $warning-dark-l-alt, .3),
+      "warning-dark-trans-40": hsl($warning-dark-h-alt, $warning-dark-s-alt, $warning-dark-l-alt, .4),
+      "warning-dark-trans-50": hsl($warning-dark-h-alt, $warning-dark-s-alt, $warning-dark-l-alt, .5),
+      "warning-dark-trans-60": hsl($warning-dark-h-alt, $warning-dark-s-alt, $warning-dark-l-alt, .6),
+      "warning-dark-trans-70": hsl($warning-dark-h-alt, $warning-dark-s-alt, $warning-dark-l-alt, .7),
+      "warning-dark-trans-80": hsl($warning-dark-h-alt, $warning-dark-s-alt, $warning-dark-l-alt, .8),
+      "warning-dark-trans-90": hsl($warning-dark-h-alt, $warning-dark-s-alt, $warning-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "warning-ultra-dark-trans-10": hsl($warning-ultra-dark-h-alt, $warning-ultra-dark-s-alt, $warning-ultra-dark-l-alt, .1),
+      "warning-ultra-dark-trans-20": hsl($warning-ultra-dark-h-alt, $warning-ultra-dark-s-alt, $warning-ultra-dark-l-alt, .2),
+      "warning-ultra-dark-trans-30": hsl($warning-ultra-dark-h-alt, $warning-ultra-dark-s-alt, $warning-ultra-dark-l-alt, .3),
+      "warning-ultra-dark-trans-40": hsl($warning-ultra-dark-h-alt, $warning-ultra-dark-s-alt, $warning-ultra-dark-l-alt, .4),
+      "warning-ultra-dark-trans-50": hsl($warning-ultra-dark-h-alt, $warning-ultra-dark-s-alt, $warning-ultra-dark-l-alt, .5),
+      "warning-ultra-dark-trans-60": hsl($warning-ultra-dark-h-alt, $warning-ultra-dark-s-alt, $warning-ultra-dark-l-alt, .6),
+      "warning-ultra-dark-trans-70": hsl($warning-ultra-dark-h-alt, $warning-ultra-dark-s-alt, $warning-ultra-dark-l-alt, .7),
+      "warning-ultra-dark-trans-80": hsl($warning-ultra-dark-h-alt, $warning-ultra-dark-s-alt, $warning-ultra-dark-l-alt, .8),
+      "warning-ultra-dark-trans-90": hsl($warning-ultra-dark-h-alt, $warning-ultra-dark-s-alt, $warning-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "warning-hex": $warning-alt-hex,
+        "warning-hsl": $warning-h $warning-s $warning-l-alt,
+        "warning-rgb": $warning-r $warning-g $warning-b-alt,
+        "warning-r": $warning-r-alt,
+        "warning-g": $warning-g-alt,
+        "warning-b": $warning-b-alt,
+        "warning-h": $warning-h-alt,
+        "warning-s": $warning-s-alt,
+        "warning-l": $warning-l-alt,
+        "warning-hover-h": $warning-hover-h-alt,
+        "warning-hover-s": $warning-hover-s-alt,
+        "warning-hover-l": $warning-hover-l-alt,
+        "warning-ultra-light-h": $warning-ultra-light-h-alt,
+        "warning-ultra-light-s": $warning-ultra-light-s-alt,
+        "warning-ultra-light-l": $warning-ultra-light-l-alt,
+        "warning-light-h": $warning-light-h-alt,
+        "warning-light-s": $warning-light-s-alt,
+        "warning-light-l": $warning-light-l-alt,
+        "warning-semi-light-h": $warning-semi-light-h-alt,
+        "warning-semi-light-s": $warning-semi-light-s-alt,
+        "warning-semi-light-l": $warning-semi-light-l-alt,
+        "warning-semi-dark-h": $warning-semi-dark-h-alt,
+        "warning-semi-dark-s": $warning-semi-dark-s-alt,
+        "warning-semi-dark-l": $warning-semi-dark-l-alt,
+        "warning-dark-h": $warning-dark-h-alt,
+        "warning-dark-s": $warning-dark-s-alt,
+        "warning-dark-l": $warning-dark-l-alt,
+        "warning-ultra-dark-h": $warning-ultra-dark-h-alt,
+        "warning-ultra-dark-s": $warning-ultra-dark-s-alt,
+        "warning-ultra-dark-l": $warning-ultra-dark-l-alt,
+        "warning-comp-h": $warning-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-warning-clr-alt == on and $option-warning-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-warning-alt: map-merge($color-warning-alt, (
+      "main": map-merge(map-get($color-warning-alt, "main"), (
+        "warning-medium": hsl($warning-medium-h-alt, $warning-medium-s-alt, $warning-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-warning-alt, "partials"), (
+        "warning-medium-h": $warning-medium-h-alt,
+        "warning-medium-s": $warning-medium-s-alt,
+        "warning-medium-l": $warning-medium-l-alt
+      ))
+    ));
+  }
+}

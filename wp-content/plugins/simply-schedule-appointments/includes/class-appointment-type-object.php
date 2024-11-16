@@ -18,7 +18,6 @@ class SSA_Appointment_Type_Object {
 	protected $data = null;
 
 	protected $status;
-	protected $timezone;
 
 	/**
 	 * Parent plugin class.
@@ -734,7 +733,6 @@ class SSA_Appointment_Type_Object {
 				}
 
 				$current_hour = 0;
-				$current_minute = 0;
 				$current_datetime = $today_tz;
 
 				foreach ( $availability[$day_of_week] as $time_window_key => $time_window ) {
@@ -744,10 +742,7 @@ class SSA_Appointment_Type_Object {
 					$time_end_pieces = explode( ':', $time_window['time_end'] );
 					$block_end = $current_datetime->setTime( (int)$time_end_pieces[0], (int)$time_end_pieces[1] );
 
-					if ( 
-						$current_hour < $time_start_pieces[0] ||
-						($current_hour === ( int ) $time_start_pieces[0] && $current_minute < ( int ) $time_start_pieces[1])
-					) {				
+					if ( $current_hour < $time_start_pieces[0] ) {					
 						$blocks[] = SSA_Availability_Block_Factory::available_for_period(
 							new Period(
 								$current_datetime->setTimezone( new DateTimezone( 'UTC' ) ),

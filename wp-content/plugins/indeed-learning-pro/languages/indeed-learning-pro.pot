@@ -1,0 +1,6614 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Indeed Ultimate Learning Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-11 08:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.2; wp-5.3.2"
+
+#: views/admin/payment_settings.php:36
+msgid " (custom currency)"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:114
+#: views/templates/single-course-visitor.php:135
+#: views/templates/single-course-visitor.php:160
+#: views/templates/single-course-visitor.php:166
+#: views/templates/course_curriculum_slider.php:61
+#: views/templates/course_curriculum_slider.php:79
+#: views/templates/course_curriculum_slider.php:98
+#: views/templates/course_curriculum_slider.php:105
+#: views/templates/course/curriculum.php:28
+#: views/templates/course/curriculum.php:61
+#: views/templates/course/curriculum.php:86
+#: views/templates/course/curriculum.php:92
+msgid " (Not available yet)"
+msgstr ""
+
+#: views/templates/instructor_dashboard/courses_special_settings.php:5
+#: views/templates/instructor_dashboard/quizes_special_settings.php:5
+#: views/templates/instructor_dashboard/lessons_special_settings.php:3
+msgid " - Special Settings"
+msgstr ""
+
+#: views/admin/students_view_activity.php:4
+msgid " Activity"
+msgstr ""
+
+#: classes/admin/listing_table/ListCourses.class.php:165
+msgid " Add new"
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:50
+msgid " and choose receive all events"
+msgstr ""
+
+#: views/admin/pushover.php:54
+msgid " and create a new App."
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:44
+msgid " and login with username and password."
+msgstr ""
+
+#: views/admin/pushover.php:53
+msgid " and login with your credentials or sign up for a new account."
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:54
+msgid ""
+" and make sure that \"Completed orders\" is checked. Additional triggers may "
+"be used depending on the situation."
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:44
+msgid " and turn ON."
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:2509
+msgid ""
+" are disabled on your Website environment. Avatar feature may not work "
+"properly. Please contract your Hosting provider."
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:282
+msgid " characters are available!"
+msgstr ""
+
+#: views/admin/courses_grid.php:70 views/admin/student_leaderboard.php:131
+msgid " Columns"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:53
+msgid ""
+" In \"Trigger list\" section enable Order Created. However, additional "
+"triggers may be used depending on the situation."
+msgstr ""
+
+#: classes/admin/listing_table/ListQuizes.class.php:58
+#: classes/admin/listing_table/ListCourses.class.php:165
+#: views/templates/instructor_dashboard/manage-quizes.php:61
+msgid " items"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:103
+#: views/templates/course_curriculum_slider.php:44
+#: classes/admin/listing_table/ListCourses.class.php:83
+#: views/templates/instructor_dashboard/manage-courses.php:69
+#: views/templates/course/curriculum.php:16
+msgid " Lessons"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:44
+#: views/templates/single-course.php:73
+#: views/templates/single-course-coming-soon.php:39
+msgid " Lessons "
+msgstr ""
+
+#: views/templates/single-quiz.php:19
+msgid " minute(s)"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuizes.class.php:65
+#: views/templates/instructor_dashboard/manage-quizes.php:83
+msgid " minutes"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:43
+#: views/templates/single-course.php:72
+#: views/templates/single-course-coming-soon.php:38
+msgid " Modules "
+msgstr ""
+
+#: views/admin/send_email_popup.php:30
+msgid " Notification"
+msgstr ""
+
+#: classes/public/UlpPrintQuestion.class.php:306
+msgid " of "
+msgstr ""
+
+#: views/templates/instructor_dashboard/overview.php:13
+#: views/templates/instructor_dashboard/overview.php:28
+#: views/templates/instructor_dashboard/overview.php:60
+msgid " on "
+msgstr ""
+
+#: views/admin/watch_list.php:24
+msgid " parameter is required in order to generate the button."
+msgstr ""
+
+#: views/grid/themes/students/theme_1/index.php:12
+#: views/grid/themes/students/theme_2/index.php:15
+msgid " Points"
+msgstr ""
+
+#: classes/Entity/UlpQuiz.class.php:108
+#: classes/public/UlpPublicQuiz.class.php:192
+#: classes/public/UlpPublicQuiz.class.php:248
+#: views/templates/single-course-visitor.php:82
+#: views/templates/single-course.php:90
+#: views/templates/single-course-coming-soon.php:117
+#: views/templates/single-question.php:16 views/admin/student_badges.php:168
+#: classes/admin/listing_table/ListQuizes.class.php:72
+#: classes/admin/listing_table/ListCourses.class.php:158
+#: classes/admin/listing_table/ListLessons.class.php:79
+#: views/templates/instructor_dashboard/manage-courses.php:113
+#: views/templates/instructor_dashboard/manage-lessons.php:73
+#: views/templates/instructor_dashboard/manage-quizes.php:91
+msgid " points"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:133
+#: views/templates/course_curriculum_slider.php:77
+#: views/templates/course/curriculum.php:59
+msgid " Preview"
+msgstr ""
+
+#: views/templates/single-quiz.php:27
+msgid " Questions"
+msgstr ""
+
+#: classes/admin/listing_table/ListCourses.class.php:170
+msgid " questions"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:103
+#: views/templates/course_curriculum_slider.php:44
+#: views/templates/course/curriculum.php:16
+msgid " Quizes"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:44
+#: views/templates/single-course.php:73
+#: views/templates/single-course-coming-soon.php:39
+msgid " Quizes "
+msgstr ""
+
+#: classes/admin/listing_table/ListCourses.class.php:92
+#: views/templates/instructor_dashboard/manage-courses.php:73
+msgid " Quizzes"
+msgstr ""
+
+#: classes/admin/listing_table/ListCourses.class.php:170
+msgid " Respond"
+msgstr ""
+
+#: classes/admin/listing_table/ListCourses.class.php:150
+msgid " reviews"
+msgstr ""
+
+#: views/templates/instructor_dashboard/overview.php:11
+#: views/templates/instructor_dashboard/overview.php:58
+msgid " says "
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:14
+#: views/admin/post_panel-ulp_quiz.php:15
+#: views/admin/post_panel-ulp_certificate.php:12
+#: views/admin/post_panel-ulp_lesson.php:14
+msgid " Special Settings"
+msgstr ""
+
+#: views/admin/meta_boxes/course_review_rating.php:4
+msgid " stars"
+msgstr ""
+
+#: views/admin/magic_feat.php:3
+msgid ""
+" system with extra features and functionality. Check additional available "
+msgstr ""
+
+#: views/templates/instructor_dashboard/overview.php:26
+msgid " to "
+msgstr ""
+
+#: views/templates/single-quiz.php:57
+msgid " to pass the Quiz"
+msgstr ""
+
+#: views/templates/single-course.php:41
+msgid " You have not passed the Course!"
+msgstr ""
+
+#: views/templates/single-course.php:39
+msgid " You have Passed the Course!"
+msgstr ""
+
+#: views/templates/single-course.php:28
+msgid " you must complete the course until "
+msgstr ""
+
+#: views/templates/comments-qanda.php:37 views/templates/comments-qanda.php:74
+#: views/templates/comments-announcements.php:38
+#: views/templates/comments-announcements.php:76
+msgid "&larr; Previous"
+msgstr ""
+
+#: views/admin/general_options_notifications.php:16
+msgid "'From' E-mail Address:"
+msgstr ""
+
+#: views/admin/general_options_notifications.php:21
+msgid "'From' name:"
+msgstr ""
+
+#: views/admin/student_account_custom_tabs.php:74
+msgid "(optional)"
+msgstr ""
+
+#: views/admin/notifications.php:5
+msgid "...create your notification Templates!"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:50
+msgid "1. Go to"
+msgstr ""
+
+#: views/admin/pushover.php:53 views/admin/payment_services_stripe.php:44
+msgid "1. Go to "
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:42
+msgid "1. Log in to"
+msgstr ""
+
+#: views/admin/general_settings.php:46
+msgid ""
+"1. Reward points: % is based on how many points a student has from the sum "
+"total of points from that course."
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:46
+msgid ""
+"2. After that click on \"Dashboard\", and then select \"Your account\" - "
+"\"Account settings\"."
+msgstr ""
+
+#: views/admin/pushover.php:54
+msgid "2. After that go to "
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:51
+msgid ""
+"2. After you login go to \"Dashboard\" section and then click on "
+"\"Integration\". Here you will find, \"Merchant Code\", \"API Private Key\" "
+"and \"Secret Word\"."
+msgstr ""
+
+#: views/admin/general_settings.php:48
+msgid ""
+"2. Completed lessons and quizzes: % is based on how many lessons / quizzes "
+"the student has completed out of the sum total from that course."
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:43
+msgid ""
+"2. Go to user Account Settings and go to Notifications from Business Profile."
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:554
+#: classes/Payment_Services/Ulp_Payment_Services_Details.class.php:21
+msgid "2Checkout"
+msgstr ""
+
+#: views/admin/2checkout_magic_feat.php:6
+#: views/admin/payment_services_2checkout.php:6
+msgid "2Checkout Payment Integration"
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:48
+msgid ""
+"3. A popup will appear and you must go to API Keys, here you will find the "
+"\"Secret Key\" and\t\"Publishable Key\"."
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:52
+msgid ""
+"3. In Instant Notification System (INS) section make sure that Enable INS is "
+"checked. "
+msgstr ""
+
+#: views/admin/pushover.php:55
+msgid "3. Set the type of App to 'Application'."
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:44
+msgid "3. Update Instant payment notifications with the same url:"
+msgstr ""
+
+#: views/admin/pushover.php:56
+msgid "4. Copy and paste API Token/Key."
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:53
+msgid "4. Go to \"INS settings\" tab and add endpoint "
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:50
+msgid "4. Set your Web Hook URL to: "
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:54
+msgid "5. In \"IPN settings\" add your IPN URL with "
+msgstr ""
+
+#: views/admin/curriculum_slider.php:12
+msgid "A new box will slideIn from the left side on Lessons, Quizzes pages."
+msgstr ""
+
+#. Description of the plugin
+msgid "A Premium WordPress plugin ready to manage a full e-learning platform."
+msgstr ""
+
+#: views/admin/help.php:87
+msgid "A valid purchase code Activate the Full Version of"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1039 views/admin/about_the_instructor.php:7
+#: views/templates/instructors/single_instructor_box.php:2
+msgid "About the Instructor"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1865
+msgid "Access"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:421
+#: views/templates/instructor_dashboard/courses_special_settings.php:206
+msgid "Access item"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:423
+#: views/templates/instructor_dashboard/courses_special_settings.php:215
+msgid "Access item(lesson or quiz) only if the previous is completed"
+msgstr ""
+
+#: views/admin/student_account_custom_tabs.php:27
+msgid "Account custom Tabs"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1032
+msgid "Account custom tabs"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:2170 views/admin/showcases_account_page.php:5
+#: views/admin/showcases.php:12
+msgid "Account Page"
+msgstr ""
+
+#: views/admin/student_badges.php:104
+msgid "Achievement"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:64
+msgid "Achievements"
+msgstr ""
+
+#: views/admin/students_view_activity.php:13
+#: views/admin/students_view_activity.php:21 views/admin/notifications.php:20
+#: views/admin/notifications.php:32
+msgid "Action"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:20
+msgid "Action:"
+msgstr ""
+
+#: views/admin/2checkout_magic_feat.php:18
+msgid "Activate 2Checkout Payment Integration"
+msgstr ""
+
+#: views/admin/about_the_instructor.php:13
+msgid "Activate About the Instructor"
+msgstr ""
+
+#: views/admin/student_account_custom_tabs.php:33
+msgid "Activate account custom Tabs"
+msgstr ""
+
+#: views/admin/course_difficulty.php:9
+msgid "Activate Course Difficulty"
+msgstr ""
+
+#: views/admin/course_time_period.php:11
+msgid "Activate Course Estimation Time"
+msgstr ""
+
+#: views/admin/course_reviews.php:10
+msgid "Activate Course reviews"
+msgstr ""
+
+#: views/admin/certificates_magic_feat.php:12
+msgid "Activate Courses Certificates"
+msgstr ""
+
+#: views/templates/instructor_dashboard/lesson_drip_content.php:13
+msgid "Activate Drip workflow"
+msgstr ""
+
+#: views/admin/gradebook.php:11
+msgid "Activate Grade Book"
+msgstr ""
+
+#: views/admin/lesson_drip_content_settings.php:12
+msgid "Activate Lesson drip content"
+msgstr ""
+
+#: views/admin/help.php:42
+msgid "Activate License"
+msgstr ""
+
+#: views/admin/multiple_instructors.php:12
+msgid "Activate Multiple instructors"
+msgstr ""
+
+#: views/admin/mycred.php:11
+msgid "Activate MyCred Integration"
+msgstr ""
+
+#: views/admin/notifications.php:4
+msgid "Activate New Notification"
+msgstr ""
+
+#: views/admin/paypal_magic_feat.php:11
+msgid "Activate PayPal Payment Integration"
+msgstr ""
+
+#: views/admin/pushover.php:11
+msgid "Activate Pushover notifications"
+msgstr ""
+
+#: views/admin/courses_grid.php:214
+msgid "Activate Slider showcase"
+msgstr ""
+
+#: views/admin/stripe_magic_feat.php:11
+msgid "Activate Stripe Payment Integration"
+msgstr ""
+
+#: views/admin/student_badges.php:20
+msgid "Activate Student Badges"
+msgstr ""
+
+#: views/admin/notes.php:11
+msgid "Activate Student Notes"
+msgstr ""
+
+#: views/templates/instructor_dashboard/courses_special_settings.php:211
+msgid "Activate the Option"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:297
+msgid "Activate the Tab:"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:425
+#: views/templates/instructor_dashboard/courses_special_settings.php:216
+msgid ""
+"Activate this option if you want to force the user to finish the prior "
+"lesson or quiz before moving on to the next one. "
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:32
+#: views/templates/instructor_dashboard/courses_special_settings.php:15
+msgid "Activate this option to highlight your course in the Public Section."
+msgstr ""
+
+#: views/admin/post_panel-ulp_lesson.php:23
+#: views/templates/instructor_dashboard/lessons_special_settings.php:8
+msgid ""
+"Activate this option to make this lesson available for everyone so that they "
+"can get an idea of how the course is like."
+msgstr ""
+
+#: views/admin/help.php:19
+msgid "Activate Ultimate Learning Pro"
+msgstr ""
+
+#: views/admin/watch_list.php:11
+msgid "Activate Wish list"
+msgstr ""
+
+#: views/templates/instructor_dashboard/lessons_special_settings.php:14
+msgid "Activate/Deactivate"
+msgstr ""
+
+#: views/admin/announcements.php:11
+msgid "Activate/Hold Announcements"
+msgstr ""
+
+#: views/admin/payment_services_bt.php:11
+msgid "Activate/Hold Bank Transfer Payment Integration"
+msgstr ""
+
+#: views/admin/bbpress.php:9
+msgid "Activate/Hold bbPress Integration"
+msgstr ""
+
+#: views/admin/buddypress.php:11
+msgid "Activate/Hold BuddyPress Integration"
+msgstr ""
+
+#: views/admin/coming_soon.php:11
+msgid "Activate/Hold Coming soon Course"
+msgstr ""
+
+#: views/admin/curriculum_slider.php:11
+msgid "Activate/Hold Curriculum Slider"
+msgstr ""
+
+#: views/admin/edd_payment.php:9
+msgid "Activate/Hold Easy Download Digital Payment Integration"
+msgstr ""
+
+#: views/admin/frontendcourse.php:11
+msgid "Activate/Hold Front-End Course Creation"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:19
+msgid "Activate/Hold Invoices"
+msgstr ""
+
+#: views/admin/more_courses_by.php:11
+msgid "Activate/Hold More Courses Box"
+msgstr ""
+
+#: views/admin/qanda_magic_feat.php:11
+msgid "Activate/Hold Q&A (Questions&Answers)"
+msgstr ""
+
+#: views/admin/students_also_bought.php:11
+msgid "Activate/Hold students also Bought Box"
+msgstr ""
+
+#: views/admin/ump_payment.php:9
+msgid "Activate/Hold UMP Payment Integration"
+msgstr ""
+
+#: views/admin/woocommerce_payment.php:9
+msgid "Activate/Hold WooCommerce Payment Integration"
+msgstr ""
+
+#: views/admin/students.php:136
+msgid "Activity"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:999
+msgid "Add a new tab in your BuddyPress Public Profile"
+msgstr ""
+
+#: views/admin/post_panel-ulp_question.php:40
+#: views/templates/instructor_dashboard/questions_special_settings.php:39
+msgid "Add a text which better explains the question."
+msgstr ""
+
+#: views/templates/instructor_dashboard/listing_comments.php:6
+msgid "Add comment"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:262
+#: views/admin/meta_boxes/questions_answer.php:449
+msgid "Add Matched data"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_courses.php:142
+#: views/admin/meta_boxes/courses_modules.php:5
+msgid "Add Module"
+msgstr ""
+
+#: views/templates/instructor_dashboard/manage-announcements.php:5
+msgid "Add New"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:23
+#: classes/post_types/AnnouncementsUlp.php:24
+#: views/admin/ulp_announcement.php:4
+#: views/templates/instructor_dashboard/overview.php:52
+msgid "Add new Announcement"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:45
+#: classes/post_types/AnnouncementsUlp.php:46
+msgid "Add new announcement category"
+msgstr ""
+
+#: views/admin/student_badges.php:68
+msgid "Add new Badge"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:19
+#: classes/post_types/CertificatesUlp.class.php:20
+#: views/admin/certificates.php:3
+msgid "Add new Certificate"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:40
+#: classes/post_types/CertificatesUlp.class.php:41
+msgid "Add new certificate category"
+msgstr ""
+
+#: views/templates/instructor_dashboard/listing_comments.php:10
+msgid "Add new comment"
+msgstr ""
+
+#: views/templates/instructor_dashboard/manage-courses.php:5
+msgid "Add New Course"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:32
+#: classes/post_types/CoursesUlp.class.php:33 views/admin/courses.php:3
+msgid "Add new Course"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:54
+#: classes/post_types/CoursesUlp.class.php:55
+msgid "Add new course category"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:26
+#: classes/post_types/CourseReviewsUlp.class.php:27
+#: views/admin/course_reviews.php:47
+msgid "Add new Course Review"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:48
+#: classes/post_types/CourseReviewsUlp.class.php:49
+msgid "Add new Course Review category"
+msgstr ""
+
+#: classes/traits/RegisterCourseTags.php:24
+#: classes/traits/RegisterCourseTags.php:25
+msgid "Add new course tag"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1005
+msgid "Add new currencies (with custom symbols) alongside the predefined list"
+msgstr ""
+
+#: views/admin/custom_currencies.php:9
+msgid "Add new currencies beside the predefined list based on custom Symbols"
+msgstr ""
+
+#: views/admin/custom_currencies.php:5
+msgid "Add new Currency"
+msgstr ""
+
+#: views/admin/course_difficulty.php:26
+msgid "Add new Difficulty"
+msgstr ""
+
+#: views/admin/course_difficulty.php:40
+msgid "Add new Dificulty"
+msgstr ""
+
+#: views/admin/magic_feat.php:31
+msgid "Add new Extensions"
+msgstr ""
+
+#: classes/post_types/InstructorsUlp.php:19
+#: classes/post_types/InstructorsUlp.php:20
+msgid "Add new Instructor"
+msgstr ""
+
+#: views/templates/instructor_dashboard/manage-lessons.php:5
+msgid "Add New Lesson"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:19
+#: classes/post_types/LessonsUlp.class.php:20 views/admin/lessons.php:3
+msgid "Add new Lesson"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:40
+#: classes/post_types/LessonsUlp.class.php:41
+msgid "Add new lesson category"
+msgstr ""
+
+#: views/admin/student_account_custom_tabs.php:52
+msgid "Add new Menu Item"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:104
+#: views/templates/instructor_dashboard/questions_answer.php:133
+#: views/templates/instructor_dashboard/questions_answer.php:214
+#: views/templates/instructor_dashboard/questions_answer.php:247
+#: views/templates/instructor_dashboard/questions_answer.php:278
+#: views/admin/meta_boxes/questions_answer.php:176
+#: views/admin/meta_boxes/questions_answer.php:240
+#: views/admin/meta_boxes/questions_answer.php:398
+#: views/admin/meta_boxes/questions_answer.php:433
+#: views/admin/meta_boxes/questions_answer.php:465
+msgid "Add new Option"
+msgstr ""
+
+#: classes/post_types/OrderUlp.class.php:25
+#: classes/post_types/OrderUlp.class.php:26 views/admin/orders.php:3
+msgid "Add new Order"
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:22 classes/post_types/QandaUlp.php:23
+#: views/admin/ulp_qanda.php:3
+msgid "Add new Q&A"
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:44 classes/post_types/QandaUlp.php:45
+msgid "Add new Q&A category"
+msgstr ""
+
+#: views/templates/instructor_dashboard/manage-questions.php:5
+#: views/templates/instructor_dashboard/manage-qanda.php:5
+msgid "Add New Question"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:23
+#: classes/post_types/QuestionsUlp.class.php:24 views/admin/questions.php:3
+msgid "Add new Question"
+msgstr ""
+
+#: views/templates/course/qanda_form.php:2
+msgid "Add new question"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:44
+#: classes/post_types/QuestionsUlp.class.php:45
+msgid "Add new question category"
+msgstr ""
+
+#: views/templates/instructor_dashboard/manage-quizes.php:6
+msgid "Add New Quiz"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:23
+#: classes/post_types/QuizesUlp.class.php:24 views/admin/quizes.php:3
+msgid "Add new Quiz"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:44
+#: classes/post_types/QuizesUlp.class.php:45
+msgid "Add new quiz category"
+msgstr ""
+
+#: views/templates/write_course_review.php:12
+msgid "Add new Review"
+msgstr ""
+
+#: views/admin/meta_boxes/courses_students.php:11
+#: views/admin/meta_boxes/courses_students.php:15
+msgid "Add New Student"
+msgstr ""
+
+#: views/admin/students.php:9
+msgid "Add new Student"
+msgstr ""
+
+#: views/admin/courses_tags.php:7
+msgid "Add new Tag"
+msgstr ""
+
+#: views/admin/instructors.php:19
+msgid "Add new User Instructor"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:189
+#: views/admin/meta_boxes/questions_answer.php:364
+msgid "Add new Value"
+msgstr ""
+
+#: views/templates/write_course_review.php:30
+msgid "Add Review"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_announcements.php:8
+msgid "Add/Edit Announcement"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_courses.php:35
+msgid "Add/Edit Course"
+msgstr ""
+
+#: views/admin/courses_tags_add_edit.php:6
+msgid "Add/Edit Course tag"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_lessons.php:27
+msgid "Add/Edit Lesson"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:14
+msgid "Add/Edit Notification"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_qanda.php:9
+#: views/templates/instructor_dashboard/add_edit_questions.php:22
+msgid "Add/Edit Question"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_quizes.php:25
+msgid "Add/Edit Quiz"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:8
+msgid "Add/Edit student badge"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:507
+#: views/templates/instructor_dashboard/courses_special_settings.php:250
+msgid ""
+"Additional attribute for Courses which will inform stundents how will take "
+"to complete the course"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:64
+#: views/templates/single-course-coming-soon.php:99
+#: views/admin/student_badges_add_edit.php:160
+msgid "Additional Details"
+msgstr ""
+
+#: views/admin/courses_grid.php:75 views/admin/student_leaderboard.php:143
+msgid "Additional display options"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:148
+msgid "Additional Invoice Details"
+msgstr ""
+
+#: views/admin/general_options_notifications.php:13
+msgid "Additional Notifications options"
+msgstr ""
+
+#: views/admin/courses_grid.php:316
+msgid "Additional Options"
+msgstr ""
+
+#: views/admin/payment_settings.php:20
+msgid "Additional Payment options"
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:51
+#: views/admin/post_panel-ulp_course.php:345
+#: views/admin/post_panel-ulp_quiz.php:143
+#: views/admin/post_panel-ulp_lesson.php:72
+#: views/templates/instructor_dashboard/courses_special_settings.php:166
+#: views/templates/instructor_dashboard/quizes_special_settings.php:101
+#: views/templates/instructor_dashboard/lessons_special_settings.php:53
+msgid "Additional Settings"
+msgstr ""
+
+#: views/admin/general_settings.php:22
+msgid "Additional settings related to coursers."
+msgstr ""
+
+#: views/admin/showcases_account_page.php:532
+msgid "Additional Settings:"
+msgstr ""
+
+#: views/admin/general_options_notifications.php:26
+msgid "Admin E-mail Address:"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:24
+msgid "Admin Notifications"
+msgstr ""
+
+#: views/admin/qanda_magic_feat.php:37
+msgid ""
+"Admin or Instructor can manage and Comment to questions from  Q&A section"
+msgstr ""
+
+#: views/admin/announcements.php:36
+msgid ""
+"Admin or Instructor can manage comments and submit new announcements from "
+"Announcement section"
+msgstr ""
+
+#: views/admin/pushover.php:35
+msgid "Admin Personal User Token"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1860 views/admin/admin_workflow.php:5
+msgid "Admin Workflow"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:183 views/admin/access.php:10
+#: views/admin/notifications.php:72
+msgid "Administrator"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:21
+#: views/templates/instructor_dashboard/quizes_special_settings.php:10
+msgid "After a set amount of minutes, the quiz will end."
+msgstr ""
+
+#: views/admin/general_settings.php:90
+msgid ""
+"After a user purchases a course, he is automatically enrolled in that course."
+msgstr ""
+
+#: views/templates/instructor_dashboard/lesson_drip_content.php:26
+#: views/admin/meta_boxes/lesson_drip_content.php:28
+msgid "After Enroll X time"
+msgstr ""
+
+#: views/templates/instructor_dashboard/lesson_drip_content.php:36
+#: views/admin/meta_boxes/lesson_drip_content.php:36
+msgid "After Enroll:"
+msgstr ""
+
+#: views/admin/courses_grid.php:79 views/admin/student_leaderboard.php:151
+msgid "Align the Items Centered"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1710
+msgid "All"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:27
+msgid "All Announcements"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:23
+msgid "All Certificates"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:30
+msgid "All Course Reviews"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:36
+msgid "All Courses"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:69
+msgid "All courses"
+msgstr ""
+
+#: classes/post_types/InstructorsUlp.php:23
+msgid "All Instructors"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:23
+msgid "All Lessons"
+msgstr ""
+
+#: classes/post_types/OrderUlp.class.php:29
+msgid "All Orders"
+msgstr ""
+
+#: views/admin/import_export.php:31
+msgid "All plugin custom post types (courses, lessons, quizzes, etc)"
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:26
+msgid "All Q&A"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:27
+msgid "All Questions"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:27
+msgid "All Quizes"
+msgstr ""
+
+#: views/admin/shortcodes.php:2
+msgid "All Shortcodes"
+msgstr ""
+
+#: views/admin/page-meta_box.php:23
+msgid "All the required pages are properly set, to change them click"
+msgstr ""
+
+#: views/templates/course/enroll.php:10
+msgid "Already Enrolled"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1583 views/templates/list_orders.php:9
+#: views/templates/invoice.php:75 views/admin/meta_boxes/order_metas.php:22
+msgid "Amount"
+msgstr ""
+
+#: views/admin/about_the_instructor.php:23
+msgid ""
+"An additional box can be displayed to show more details about the main "
+"Instructor of the current course"
+msgstr ""
+
+#: views/admin/more_courses_by.php:23
+msgid ""
+"An additional box can be displayed to show other courses managed and "
+"submitted by current main Instructor. You can place this box into course "
+"template page."
+msgstr ""
+
+#: views/admin/students_also_bought.php:26
+msgid ""
+"An additional box can be displayed to show what students from current course "
+"have bought also. That will encoruge other students to enroll on more "
+"courses."
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1603
+msgid "An error has occurred, please try again!"
+msgstr ""
+
+#: classes/MainPublicUlp.class.php:71
+msgid "An error have occued, please try again later!"
+msgstr ""
+
+#: views/admin/courses_grid.php:259
+msgid "Animation Slide In"
+msgstr ""
+
+#: views/admin/courses_grid.php:287
+msgid "Animation Slide Out"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:22
+#: views/admin/public_workflow.php:68
+msgid "Announcement"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:38
+msgid "Announcement Category"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_announcements.php:41
+msgid "Announcement Content"
+msgstr ""
+
+#: classes/admin/listing_table/Announcements.php:38
+#: views/templates/instructor_dashboard/add_edit_announcements.php:17
+#: views/templates/instructor_dashboard/manage-announcements.php:12
+msgid "Announcement Title"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1074
+#: classes/post_types/AnnouncementsUlp.php:21
+#: classes/post_types/AnnouncementsUlp.php:33 views/admin/announcements.php:5
+#: classes/admin/listing_table/ListCourses.class.php:33
+#: views/templates/instructor_dashboard/manage-courses.php:20
+#: views/templates/instructor_dashboard/manage-announcements.php:2
+msgid "Announcements"
+msgstr ""
+
+#: classes/public/SingleCourseMenu.php:12
+msgid "announcements"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:37
+#: classes/post_types/AnnouncementsUlp.php:40
+#: classes/post_types/AnnouncementsUlp.php:47
+msgid "Announcements Categories"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:185
+msgid "Announcements constants"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:44
+msgid "Announcements Notifications"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:273
+#: views/admin/meta_boxes/questions_answer.php:460
+msgid "Answer"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:111
+#: views/templates/instructor_dashboard/quizes_special_settings.php:82
+msgid "Answer Order"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:51
+msgid "Answer Settings"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:58
+#: views/templates/instructor_dashboard/questions_answer.php:136
+#: views/admin/meta_boxes/questions_answer.php:94
+#: views/admin/meta_boxes/questions_answer.php:248
+msgid "answer:"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:107
+#: views/admin/meta_boxes/questions_answer.php:184
+msgid "answers:"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:28
+msgid "API Password:"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:33
+msgid "API Private Key:"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:23
+msgid "API Username:"
+msgstr ""
+
+#: views/admin/pushover.php:29
+msgid "App Token"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1054
+msgid "Append custom tags for your courses."
+msgstr ""
+
+#: views/templates/instructor_dashboard/miniatures-single_comment.php:15
+msgid "Approved"
+msgstr ""
+
+#: classes/MainPublicUlp.class.php:73
+msgid "Are you sure you want to delete this post"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:453
+msgid "Are you sure you want to delete this post?"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:447
+msgid "Are you sure you want to remove this badge from user?"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:448
+msgid "Are you sure you want to remove this Certificate from user?"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:451
+msgid "Are you sure you want to remove this instructor from course "
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:446
+msgid "Are you sure you want to remove this user from course "
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:449
+msgid "Are you sure?"
+msgstr ""
+
+#: views/admin/shortcodes.php:9
+msgid "Arguments available"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:169
+#: views/templates/instructor_dashboard/courses_special_settings.php:76
+msgid "As an example, if it is set at 70%"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:305
+#: views/templates/instructor_dashboard/courses_special_settings.php:146
+msgid "Ascending "
+msgstr ""
+
+#: views/templates/course/miniatures-single_qanda.php:16
+msgid "asked on"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:165
+#: views/admin/post_panel-ulp_quiz.php:34
+#: views/admin/post_panel-ulp_lesson.php:38
+#: views/templates/instructor_dashboard/courses_special_settings.php:74
+#: views/templates/instructor_dashboard/quizes_special_settings.php:24
+#: views/templates/instructor_dashboard/lessons_special_settings.php:23
+msgid "Assessments"
+msgstr ""
+
+#: views/admin/certificates_magic_feat.php:64
+msgid "Assign Certificate"
+msgstr ""
+
+#: views/admin/custom_select_author_for_course.php:2
+#: classes/admin/listing_table/QandA.php:42
+#: classes/admin/listing_table/ListQuestions.class.php:29
+#: classes/admin/listing_table/ListQuizes.class.php:31
+#: classes/admin/listing_table/Announcements.php:41
+#: classes/admin/listing_table/ListCourses.class.php:38
+#: classes/admin/listing_table/ListCertificates.class.php:41
+#: classes/admin/listing_table/ListLessons.class.php:29
+#: views/admin/meta_boxes/courses_abovelinks.php:9
+msgid "Author"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:189
+msgid "Author: Student ask a new Question"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:191
+msgid "Author: Student comment on Question"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:185
+msgid "Author: User commentted on Announcement"
+msgstr ""
+
+#: views/admin/courses_grid.php:340
+msgid "Auto Height"
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:62
+#: views/templates/instructor_dashboard/add_edit_lessons.php:133
+msgid "Autocomplete lesson when video is ended"
+msgstr ""
+
+#: views/admin/courses_grid.php:328
+msgid "AutoPlay"
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:52
+#: views/templates/instructor_dashboard/add_edit_lessons.php:127
+msgid "Autoplay"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:83
+msgid "Available only for: "
+msgstr ""
+
+#: views/templates/reviews_awesome_box.php:6
+#: views/templates/instructors/single_instructor_box.php:26
+#: views/templates/instructors/single-instructor.php:28
+msgid "Average Rating"
+msgstr ""
+
+#: views/templates/single-lesson-video.php:43
+#: views/templates/single-quiz.php:79
+#: views/templates/single-announcement.php:29
+#: views/templates/single-qanda.php:29 views/templates/single-lesson.php:55
+msgid "Back to"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:88
+msgid "Background/Banner Image"
+msgstr ""
+
+#: views/admin/student_badges.php:96
+msgid "Badge Image"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:20
+msgid "Badge Info"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:32
+msgid "Badge Photo"
+msgstr ""
+
+#: views/admin/messages.php:107 views/admin/students.php:50
+#: views/admin/students.php:66
+msgid "Badges"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:545
+msgid "Bank Transfer"
+msgstr ""
+
+#: classes/Payment_Services/Ulp_Payment_Services_Details.class.php:18
+msgid "Bank transfer"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:182
+msgid "Bank Transfer Payment Details"
+msgstr ""
+
+#: views/admin/payment_services_bt.php:5
+msgid "Bank Transfer Payment Integration"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:24
+#: views/templates/student_profile/profile.php:11
+msgid "Basic Information"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:307
+msgid "Basic informations"
+msgstr ""
+
+#: views/admin/bbpress.php:5
+msgid "bbPress Integration"
+msgstr ""
+
+#: views/admin/default_pages.php:52
+msgid "Become Instructor"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:690 classes/Db/DbUlp.class.php:1578
+#: classes/Db/DbUlp.class.php:2599 views/admin/popup-shortcodes.php:13
+#: views/admin/messages.php:55
+msgid "Become instructor"
+msgstr ""
+
+#: views/admin/messages.php:65
+msgid "Become instructor - button label"
+msgstr ""
+
+#: views/admin/messages.php:72
+msgid "Become instructor - error - already registered"
+msgstr ""
+
+#: views/admin/messages.php:58
+msgid "Become instructor - error - user not logged"
+msgstr ""
+
+#: views/admin/messages.php:79
+msgid "Become instructor - pending"
+msgstr ""
+
+#: classes/Ulp_Demo_Content.class.php:628
+msgid "Best Seller"
+msgstr ""
+
+#: views/admin/pushover.php:76
+msgid "Bike"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:184
+msgid "Bill to"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:53
+msgid "Biography"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:244
+msgid "Blue New Theme"
+msgstr ""
+
+#: views/admin/curriculum_slider.php:28
+msgid "Box Label"
+msgstr ""
+
+#: views/admin/buddypress.php:5
+msgid "BuddyPress Integration"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:998
+msgid "BuddyPress integration"
+msgstr ""
+
+#: views/admin/buddypress.php:28
+msgid "BuddyPress Menu settings"
+msgstr ""
+
+#: views/admin/pushover.php:77
+msgid "Bugle"
+msgstr ""
+
+#: classes/admin/listing_table/QandA.php:203
+#: classes/admin/listing_table/ListCourseReviews.class.php:198
+#: classes/admin/listing_table/Announcements.php:203
+msgid "Bulk publish"
+msgstr ""
+
+#: views/admin/courses_grid.php:320
+msgid "Bullets"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:42
+msgid "Button for become instructor"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:92
+msgid "Button for buy course"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:87
+msgid "Button for watch list items"
+msgstr ""
+
+#: views/admin/messages.php:125
+msgid "Buy course button"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1592
+msgid "Buy this course!"
+msgstr ""
+
+#: views/admin/multiple_instructors.php:23
+msgid ""
+"By activating this feature you can add multiple instructors to a course."
+msgstr ""
+
+#: views/admin/lesson_drip_content_settings.php:21
+msgid ""
+"By activating this feature you can decide when a lesson become available."
+msgstr ""
+
+#: views/admin/edd_payment.php:19
+msgid ""
+"By activating this option you have the possibility to link a course to a EDD "
+"item."
+msgstr ""
+
+#: views/admin/ump_payment.php:19
+msgid ""
+"By activating this option you have the possibility to link a course to a "
+"Ultimate Membership Pro level. "
+msgstr ""
+
+#: views/admin/woocommerce_payment.php:19
+msgid ""
+"By activating this option you have the possibility to link a course to a "
+"WooCommerce product."
+msgstr ""
+
+#: views/admin/edd_payment.php:20
+msgid ""
+"By doing this, your users can use the payment methods integrated in EDD."
+msgstr ""
+
+#: views/admin/ump_payment.php:20
+msgid ""
+"By doing this, your users can use the payment methods integrated in UMP."
+msgstr ""
+
+#: views/admin/woocommerce_payment.php:20
+msgid ""
+"By doing this, your users can use the payment methods integrated in "
+"WooCommerce."
+msgstr ""
+
+#: views/admin/admin_workflow.php:26
+msgid "Can entry instructors access special settings?"
+msgstr ""
+
+#: views/admin/notification-email-send-test.php:18
+#: views/templates/instructor_dashboard/listing_comments.php:14
+#: views/templates/course/qanda_form.php:19
+msgid "Cancel"
+msgstr ""
+
+#: views/templates/stripe_payment_form.php:11
+msgid "Card expire Month:"
+msgstr ""
+
+#: views/templates/stripe_payment_form.php:15
+msgid "Card expire Year:"
+msgstr ""
+
+#: views/templates/stripe_payment_form.php:7
+msgid "Card number:"
+msgstr ""
+
+#: views/admin/pushover.php:78
+msgid "Cash Register"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_courses.php:102
+#: views/templates/instructor_dashboard/add_edit_qanda.php:56
+#: views/templates/instructor_dashboard/add_edit_questions.php:56
+#: views/templates/instructor_dashboard/add_edit_lessons.php:91
+#: views/templates/instructor_dashboard/add_edit_quizes.php:69
+msgid "Categories"
+msgstr ""
+
+#: classes/post_types/OrderUlp.class.php:38
+#: classes/post_types/OrderUlp.class.php:41
+#: classes/post_types/OrderUlp.class.php:48
+msgid "Categories Orders"
+msgstr ""
+
+#: views/admin/courses_grid.php:158
+msgid "Category"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:39
+#: views/templates/list_courses.php:40 views/templates/single-course.php:68
+#: views/templates/single-course-coming-soon.php:34
+#: views/templates/watch_list-the_list.php:43
+#: views/templates/student_profile/my_courses.php:44
+msgid "Category "
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:18
+msgid "Certificate"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:32
+#: classes/post_types/CertificatesUlp.class.php:35
+#: classes/post_types/CertificatesUlp.class.php:42
+msgid "Certificate Categories"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:641
+msgid "Certificate categories"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:33
+msgid "Certificate Category"
+msgstr ""
+
+#: views/templates/list_certificates.php:52
+msgid "Certificate Title"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:57 classes/MainAdminUlp.class.php:2179
+#: classes/post_types/CertificatesUlp.class.php:17
+#: classes/post_types/CertificatesUlp.class.php:29
+#: views/admin/certificates_magic_feat.php:5 views/admin/certificates.php:1
+#: classes/admin/listing_table/ListCourses.class.php:31
+msgid "Certificates"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:157
+#: views/templates/student_profile/profile.php:64
+msgid "Change Avatar"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:106
+#: views/templates/student_profile/profile.php:52
+msgid "Change Password"
+msgstr ""
+
+#: views/admin/public_workflow.php:48
+msgid ""
+"Change this values only if you know what you're doing. Do not use custom "
+"post type slugs!"
+msgstr ""
+
+#: views/admin/notifications.php:6
+msgid "Check Mail Server"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:8
+msgid "Check Public Profile"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:2601 views/admin/default_pages.php:89
+#: views/admin/popup-shortcodes.php:15 views/admin/messages.php:84
+msgid "Checkout"
+msgstr ""
+
+#: views/admin/messages.php:87
+msgid "Checkout - amount label"
+msgstr ""
+
+#: views/admin/messages.php:101
+msgid "Checkout - error - user is not logged in"
+msgstr ""
+
+#: views/admin/messages.php:94
+msgid "Checkout - payment type"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:102
+msgid "Checkout for direct payment"
+msgstr ""
+
+#: views/admin/post_panel-ulp_certificate.php:20
+msgid ""
+"Choose for which course the cerificate will be assigned once the student "
+"completes the course"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:229
+#: views/admin/meta_boxes/questions_answer.php:414
+msgid "Choose Image - multiple choice"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:58
+#: views/templates/instructor_dashboard/manage-questions.php:66
+#: views/templates/instructor_dashboard/questions_answer.php:37
+#: views/admin/meta_boxes/questions_answer.php:52
+msgid "Choose image - multiple choice"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:198
+#: views/admin/meta_boxes/questions_answer.php:381
+msgid "Choose Image - single choice"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:57
+#: views/templates/instructor_dashboard/manage-questions.php:65
+#: views/templates/instructor_dashboard/questions_answer.php:36
+#: views/admin/meta_boxes/questions_answer.php:51
+msgid "Choose image - single choice"
+msgstr ""
+
+#: views/admin/meta_box_multiple_instructors.php:5
+msgid "Choose multiple intructors for current course"
+msgstr ""
+
+#: views/admin/courses_grid.php:30 views/admin/student_leaderboard.php:45
+msgid "Choose one of the available templates provided by the system"
+msgstr ""
+
+#: views/admin/courses_grid.php:46 views/admin/student_leaderboard.php:81
+#: views/admin/courses_tags_add_edit.php:23
+msgid "Choose one of the predefined colors"
+msgstr ""
+
+#: views/admin/pushover.php:79
+msgid "Classical"
+msgstr ""
+
+#: classes/admin/listing_table/ListCourses.class.php:199
+msgid "Clone"
+msgstr ""
+
+#: classes/admin/listing_table/ListOrders.class.php:35
+msgid "Code"
+msgstr ""
+
+#: views/admin/payment_settings.php:162 views/admin/custom_currencies.php:12
+msgid "Code:"
+msgstr ""
+
+#: views/admin/courses_grid.php:45 views/admin/student_leaderboard.php:79
+msgid "Color Scheme"
+msgstr ""
+
+#: views/admin/courses_tags_add_edit.php:22
+msgid "Color:"
+msgstr ""
+
+#: views/admin/courses_grid.php:64 views/admin/student_leaderboard.php:119
+msgid "Column Layout"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:558
+#: views/templates/instructor_dashboard/courses_special_settings.php:283
+msgid "Coming Soon"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1067
+msgid "Coming Soon Course"
+msgstr ""
+
+#: views/admin/coming_soon.php:5
+msgid "Coming soon Course"
+msgstr ""
+
+#: views/templates/comments-qanda.php:95
+#: views/templates/comments-announcements.php:97
+msgid "Comment"
+msgstr ""
+
+#: views/templates/comments-qanda.php:36 views/templates/comments-qanda.php:73
+#: views/templates/comments-announcements.php:37
+#: views/templates/comments-announcements.php:75
+msgid "Comment navigation"
+msgstr ""
+
+#: views/templates/single-announcement.php:21
+#: classes/admin/listing_table/QandA.php:41
+#: classes/admin/listing_table/Announcements.php:40
+#: views/templates/instructor_dashboard/manage-qanda.php:14
+#: views/templates/instructor_dashboard/listing_comments.php:2
+#: views/templates/instructor_dashboard/manage-announcements.php:14
+#: views/templates/course/miniatures-single_announcement.php:16
+msgid "Comments"
+msgstr ""
+
+#: classes/admin/listing_table/QandA.php:88
+#: classes/admin/listing_table/Announcements.php:87
+#: views/templates/instructor_dashboard/manage-qanda.php:48
+#: views/templates/instructor_dashboard/manage-announcements.php:48
+msgid "comments"
+msgstr ""
+
+#: views/templates/comments-qanda.php:82
+#: views/templates/comments-announcements.php:84
+msgid "Comments are closed."
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:163
+msgid "Company Field"
+msgstr ""
+
+#: views/templates/lesson/complete_button.php:29
+msgid "Complete Lesson"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3481
+msgid "Complete lesson"
+msgstr ""
+
+#: html_functions.php:14 views/templates/single-question.php:56
+msgid "Complete Question"
+msgstr ""
+
+#: utilities.php:465 classes/MainAdminUlp.class.php:526
+#: classes/MainAdminUlp.class.php:529 classes/MainAdminUlp.class.php:532
+#: classes/MainAdminUlp.class.php:535 classes/Entity/UlpStudent.class.php:59
+#: classes/post_types/OrderUlp.class.php:82
+#: classes/admin/listing_table/ListOrders.class.php:111
+#: views/admin/meta_boxes/order_metas.php:74
+msgid "Completed"
+msgstr ""
+
+#: classes/Ulp_My_Cred.class.php:89
+msgid "Completed Course "
+msgstr ""
+
+#: views/templates/lesson/complete_button.php:31
+msgid "Completed Lesson"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3466
+msgid "Completed lesson"
+msgstr ""
+
+#: views/admin/general_settings.php:30
+msgid "Completed lessons and quizzes"
+msgstr ""
+
+#: views/templates/write_course_review.php:4
+msgid "Completed!"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:100
+#: views/templates/student_profile/profile.php:45
+msgid "Confirmation password"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:275
+#: classes/public/InstructorDashboard.php:278
+#: classes/public/Ulp_Student_Profile.class.php:77
+#: classes/public/Ulp_Student_Profile.class.php:79
+msgid "Confirmation password incorrect!"
+msgstr ""
+
+#: views/admin/help.php:103
+msgid "Contact Support"
+msgstr ""
+
+#: views/templates/notes_form_popup.php:16
+msgid "Content"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:230
+msgid "Content Section:"
+msgstr ""
+
+#: views/templates/single-question.php:54
+#: views/templates/instructor_dashboard/questions_answer.php:55
+#: views/templates/instructor_dashboard/questions_answer.php:134
+#: views/templates/instructor_dashboard/questions_answer.php:147
+#: views/templates/instructor_dashboard/questions_answer.php:215
+#: views/admin/meta_boxes/questions_answer.php:90
+#: views/admin/meta_boxes/questions_answer.php:244
+#: views/admin/meta_boxes/questions_answer.php:272
+#: views/admin/meta_boxes/questions_answer.php:399
+msgid "Correct Answer"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:105
+#: views/templates/instructor_dashboard/questions_answer.php:248
+#: views/admin/meta_boxes/questions_answer.php:180
+#: views/admin/meta_boxes/questions_answer.php:434
+msgid "Correct Answers"
+msgstr ""
+
+#: views/admin/pushover.php:80
+msgid "Cosmic"
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:52
+#: classes/post_types/CoursesUlp.class.php:31
+#: classes/post_types/AnnouncementsUlp.php:53
+#: classes/post_types/CourseReviewsUlp.class.php:63
+#: views/templates/list_orders.php:8 views/templates/gradebook.php:6
+#: views/templates/checkout.php:19 views/admin/certificates_magic_feat.php:46
+#: views/admin/notifications.php:22 views/admin/notifications.php:34
+#: classes/admin/listing_table/ListOrders.class.php:37
+#: classes/admin/listing_table/ListQuizes.class.php:26
+#: classes/admin/listing_table/ListLessons.class.php:26
+#: views/templates/instructor_dashboard/manage-lessons.php:14
+#: views/templates/instructor_dashboard/manage-quizes.php:14
+#: views/admin/meta_boxes/order_metas.php:52
+msgid "Course"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_qanda.php:74
+#: views/templates/instructor_dashboard/add_edit_announcements.php:51
+msgid "Course assignation"
+msgstr ""
+
+#: views/admin/frontendcourse.php:12
+msgid ""
+"Course Authors can create their courses from the front-end of your website"
+msgstr ""
+
+#: views/admin/general_settings.php:66
+msgid "Course auto-enroll"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:516
+msgid "Course categories"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:47
+msgid "Course Category"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:963
+msgid "Course Certificates"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:698
+msgid "Course Checkout"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1958 views/templates/single-course-visitor.php:97
+#: views/templates/instructor_dashboard/add_edit_courses.php:139
+#: views/templates/course/curriculum.php:10
+msgid "Course Curriculum"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_courses.php:72
+msgid "Course Description"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1018
+msgid "Course Difficulty"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:465
+#: views/admin/course_difficulty.php:5
+#: views/templates/instructor_dashboard/courses_special_settings.php:228
+msgid "Course difficulty"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1025 views/admin/course_time_period.php:5
+#: views/admin/post_panel-ulp_course.php:505
+#: views/templates/instructor_dashboard/courses_special_settings.php:249
+msgid "Course Estimation Time"
+msgstr ""
+
+#: views/templates/instructor_dashboard/manage-courses.php:14
+msgid "Course Image"
+msgstr ""
+
+#: views/templates/single-course.php:122
+msgid "Course Instructors "
+msgstr ""
+
+#: classes/public/SingleCourseMenu.php:14
+msgid "Course Notes"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3479
+msgid "Course passed"
+msgstr ""
+
+#: views/admin/general_settings.php:24
+msgid "Course progress"
+msgstr ""
+
+#: views/admin/general_settings.php:44
+msgid ""
+"Course progress is displayed as a percentage. This is based on one of two "
+"options:"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:56
+msgid "Course Rating"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:25
+msgid "Course Review"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:40
+#: classes/post_types/CourseReviewsUlp.class.php:50
+msgid "Course Review Categories"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:41
+msgid "Course Review Category"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:935
+#: classes/post_types/CourseReviewsUlp.class.php:24
+#: classes/post_types/CourseReviewsUlp.class.php:36
+#: views/templates/course_review_list.php:3
+msgid "Course Reviews"
+msgstr ""
+
+#: views/admin/course_reviews.php:7
+msgid "Course reviews"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:43
+msgid "Course Reviews Categories"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:62
+#: views/admin/meta_boxes/courses_abovelinks.php:7
+msgid "Course Sections"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1920
+msgid "Course slug cannot be named 'ulp_course'! Please choose another name!"
+msgstr ""
+
+#: classes/traits/RegisterCourseTags.php:17
+msgid "Course Tag"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_courses.php:83
+msgid "Course Tags"
+msgstr ""
+
+#: views/admin/courses_grid.php:156
+msgid "Course Thumbnail"
+msgstr ""
+
+#: views/admin/courses_grid.php:155
+#: views/templates/instructor_dashboard/add_edit_courses.php:44
+msgid "Course Title"
+msgstr ""
+
+#: views/admin/courses_grid.php:113
+msgid "Course title"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1026
+msgid "Course will have a recommended Estimation Time"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:65
+msgid "Course:"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:52 classes/MainAdminUlp.class.php:294
+#: classes/MainAdminUlp.class.php:2174
+#: classes/post_types/CoursesUlp.class.php:30
+#: classes/post_types/CoursesUlp.class.php:42
+#: classes/public/InstructorDashboard.php:139
+#: views/templates/list_certificates.php:54 views/admin/messages.php:115
+#: views/admin/public_workflow.php:52 views/admin/instructors.php:90
+#: views/admin/instructors.php:111 views/admin/courses.php:1
+#: views/admin/students.php:46 views/admin/students.php:62
+#: classes/admin/listing_table/ListCertificates.class.php:40
+#: views/templates/instructors/single_instructor_box.php:16
+#: views/templates/instructors/single-instructor.php:52
+msgid "Courses"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:46
+#: classes/post_types/CoursesUlp.class.php:49
+#: classes/post_types/CoursesUlp.class.php:56
+#: views/templates/archive-course.php:4
+msgid "Courses Categories"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:2172
+msgid "Courses Grid"
+msgstr ""
+
+#: views/admin/showcases.php:29
+msgid "Courses grid"
+msgstr ""
+
+#: views/admin/multiple_instructors.php:25
+msgid "Courses List"
+msgstr ""
+
+#: views/admin/showcases.php:30
+msgid "Courses list based on different criterias"
+msgstr ""
+
+#: views/admin/public_workflow.php:29
+msgid "Courses List Thumbnail"
+msgstr ""
+
+#: views/admin/general_settings.php:20
+msgid "Courses Settings"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1053 classes/traits/RegisterCourseTags.php:16
+#: classes/traits/RegisterCourseTags.php:19
+#: classes/traits/RegisterCourseTags.php:26 views/admin/courses_tags.php:2
+msgid "Courses Tags"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:68
+#: views/templates/instructor_dashboard/courses_special_settings.php:28
+msgid ""
+"Create a list of courses required to be finished before the user can access "
+"this course. A list of course ids separated by commas."
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1033
+msgid "Create and reorder account page menu items"
+msgstr ""
+
+#: views/admin/courses_grid.php:112
+msgid "Create date"
+msgstr ""
+
+#: views/templates/instructor_dashboard/header.php:31
+msgid "Create New Course"
+msgstr ""
+
+#: views/admin/pushover.php:26
+msgid "Credentials settings"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:70
+msgid "Credit Card:"
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:106
+msgid "Credit Card: 4242424242424242"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:2479
+msgid ""
+"Crons are disabled on your WordPress Website. Some functionality and "
+"processes may not work properly."
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:2484
+msgid ""
+"cURL is not working or is disabled on your Website environment. Please "
+"contact your Hosting provider."
+msgstr ""
+
+#: views/admin/payment_settings.php:58
+msgid "Currency position"
+msgstr ""
+
+#: classes/public/SingleCourseMenu.php:11
+#: classes/admin/listing_table/ListCourses.class.php:28
+#: views/templates/instructor_dashboard/manage-courses.php:19
+msgid "Curriculum"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1092 views/admin/curriculum_slider.php:5
+msgid "Curriculum Slider"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1093
+msgid "Curriculum slider"
+msgstr ""
+
+#: views/admin/curriculum_slider.php:42 views/admin/magic_feat_invoices.php:298
+msgid "Custom CSS"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:544
+msgid "Custom CSS:"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1004
+msgid "Custom currencies"
+msgstr ""
+
+#: views/admin/custom_currencies.php:8
+msgid "Custom Currency"
+msgstr ""
+
+#: views/admin/payment_settings.php:51
+msgid "Custom Currency Symbol"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:169
+msgid "Custom Fields constants"
+msgstr ""
+
+#: views/admin/meta_boxes/order_metas.php:33
+msgid "Customer Details"
+msgstr ""
+
+#: views/templates/stripe_payment_form.php:19
+msgid "CVC:"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:246
+msgid "Dark Theme"
+msgstr ""
+
+#: views/admin/dashboard.php:3
+msgid "Dashboard Overall"
+msgstr ""
+
+#: views/templates/list_orders.php:10 views/admin/post_panel-ulp_course.php:277
+#: views/admin/students_view_activity.php:15
+#: views/admin/students_view_activity.php:23
+#: classes/admin/listing_table/QandA.php:44
+#: classes/admin/listing_table/ListOrders.class.php:40
+#: classes/admin/listing_table/ListQuestions.class.php:30
+#: classes/admin/listing_table/ListCourseReviews.class.php:44
+#: classes/admin/listing_table/ListQuizes.class.php:32
+#: classes/admin/listing_table/Announcements.php:43
+#: classes/admin/listing_table/ListCourses.class.php:39
+#: classes/admin/listing_table/ListCertificates.class.php:42
+#: classes/admin/listing_table/ListLessons.class.php:30
+#: views/templates/instructor_dashboard/courses_special_settings.php:132
+#: views/templates/instructor_dashboard/manage-lessons.php:17
+#: views/templates/instructor_dashboard/manage-questions.php:16
+#: views/templates/instructor_dashboard/manage-qanda.php:16
+#: views/templates/instructor_dashboard/manage-quizes.php:19
+#: views/templates/instructor_dashboard/manage-announcements.php:16
+msgid "Date"
+msgstr ""
+
+#: views/templates/list_certificates.php:56
+msgid "date"
+msgstr ""
+
+#: views/templates/invoice.php:49
+msgid "Date:"
+msgstr ""
+
+#: utilities.php:113 views/admin/post_panel-ulp_course.php:371
+#: views/templates/instructor_dashboard/courses_special_settings.php:180
+msgid "Days"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:943
+msgid "Decide when a lesson becomes available"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:66
+msgid "Decides when the badge will be assigned to your students"
+msgstr ""
+
+#: views/admin/payment_settings.php:104
+msgid "Decimals Separator"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:273
+#: views/admin/post_panel-ulp_quiz.php:150
+#: views/templates/instructor_dashboard/courses_special_settings.php:130
+#: views/templates/instructor_dashboard/quizes_special_settings.php:107
+msgid "Default"
+msgstr ""
+
+#: views/admin/page-meta_box.php:20
+msgid "Default "
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1862 views/admin/default_pages.php:6
+msgid "Default Pages"
+msgstr ""
+
+#: html_functions.php:32
+msgid "Default Payment:"
+msgstr ""
+
+#: views/admin/redirects.php:15
+msgid "Default redirect"
+msgstr ""
+
+#: views/admin/redirects.php:12
+msgid "Default Redirects"
+msgstr ""
+
+#: views/admin/pushover.php:71
+msgid "Default Sound for mobile notification"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1019
+msgid "Define types of course difficulty"
+msgstr ""
+
+#: classes/Abstracts/Indeed_List_Table.class.php:97
+#: views/admin/student_badges.php:132 views/admin/courses_tags.php:20
+#: views/admin/student_account_custom_tabs.php:107
+#: views/admin/student_account_custom_tabs.php:116
+#: views/admin/notifications.php:49 classes/admin/listing_table/QandA.php:119
+#: classes/admin/listing_table/ListOrders.class.php:135
+#: classes/admin/listing_table/ListQuestions.class.php:99
+#: classes/admin/listing_table/ListCourseReviews.class.php:114
+#: classes/admin/listing_table/ListQuizes.class.php:120
+#: classes/admin/listing_table/Announcements.php:118
+#: classes/admin/listing_table/ListCourses.class.php:197
+#: classes/admin/listing_table/ListCertificates.class.php:95
+#: classes/admin/listing_table/ListLessons.class.php:185
+#: views/templates/instructor_dashboard/manage-courses.php:58
+#: views/templates/instructor_dashboard/manage-lessons.php:39
+#: views/templates/instructor_dashboard/manage-questions.php:40
+#: views/templates/instructor_dashboard/manage-qanda.php:35
+#: views/templates/instructor_dashboard/manage-quizes.php:41
+#: views/templates/instructor_dashboard/manage-announcements.php:35
+#: views/templates/instructor_dashboard/miniatures-single_comment.php:9
+msgid "Delete"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:307
+#: views/templates/instructor_dashboard/courses_special_settings.php:147
+msgid "Descending"
+msgstr ""
+
+#: views/templates/course/qanda_form.php:16
+msgid ""
+"Describe what you are trying to achieve and where you are getting stuck."
+msgstr ""
+
+#: views/templates/invoice.php:73 views/admin/student_badges.php:100
+#: views/admin/payment_services_paypal.php:61
+#: views/admin/payment_services_stripe.php:86
+#: views/admin/payment_services_2checkout.php:65
+#: views/admin/payment_services_2checkout.php:105
+#: views/admin/students_view_activity.php:14
+#: views/admin/students_view_activity.php:22
+#: views/admin/payment_services_bt.php:63 views/admin/hooks.php:13
+#: views/admin/hooks.php:37
+msgid "Description"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:162
+#: views/admin/courses_tags_add_edit.php:44
+msgid "Description:"
+msgstr ""
+
+#: views/admin/instructors.php:93 views/admin/instructors.php:114
+#: views/admin/students.php:53 views/admin/students.php:69
+msgid "Details"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:167
+#: views/templates/instructor_dashboard/courses_special_settings.php:75
+msgid ""
+"Determine how the user can pass the course, and the minimal value required. "
+"The field Passing Value is a percentage value."
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:35
+#: views/templates/instructor_dashboard/quizes_special_settings.php:25
+msgid ""
+"Determine if the grade will be percentage or point based. Here you can also "
+"establish the passing grade for the quiz and the number of reward points "
+"given to the user after passing the quiz"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:225
+msgid ""
+"Determine the minimum grade required to pass a quiz. This option affects all "
+"the quizzes.\n"
+"\n"
+"Example: If a course has 5 quizzes, a user must pass each quiz with at least "
+"the minimum grade."
+msgstr ""
+
+#: views/templates/instructor_dashboard/courses_special_settings.php:108
+msgid ""
+"Determine the minimum grade required to pass a quiz. This option affects all "
+"the quizzes.\n"
+"Example: If a course has 5 quizzes, a user must pass each quiz with at least "
+"the minimum grade."
+msgstr ""
+
+#: views/templates/single-course-visitor.php:68
+#: views/templates/single-course.php:77
+#: views/templates/single-course-coming-soon.php:103
+msgid "Difficulty "
+msgstr ""
+
+#: views/admin/instructors.php:178 views/admin/students.php:138
+msgid "Direct Email"
+msgstr ""
+
+#: views/admin/more_courses_by.php:12
+msgid "Display a list of courses submitted by current main Instructor"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1061
+msgid "Display a list of courses submitted by current main Instructor."
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:77
+msgid "Display all badges"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:62
+msgid "Display Course Review From"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:57
+msgid "Display Course Reviews"
+msgstr ""
+
+#: views/admin/students_also_bought.php:12
+msgid "Display courses that has been bought by the current enrolled Students."
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1047
+msgid "Display courses that has been bought by the current Students."
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:72
+msgid "Display form Notes"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:47
+msgid "Display Gradebook"
+msgstr ""
+
+#: views/admin/post_panel-ulp_lesson.php:52
+#: views/templates/instructor_dashboard/lessons_special_settings.php:36
+msgid "Display Options"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:261
+#: views/admin/payment_services_paypal.php:55
+#: views/admin/payment_services_stripe.php:74
+#: views/admin/payment_services_2checkout.php:98
+#: views/admin/post_panel-ulp_quiz.php:76
+#: views/admin/payment_services_bt.php:57
+#: views/templates/instructor_dashboard/courses_special_settings.php:124
+#: views/templates/instructor_dashboard/quizes_special_settings.php:63
+msgid "Display options"
+msgstr ""
+
+#: views/admin/courses_grid.php:151 views/admin/student_leaderboard.php:264
+msgid "Displayed Fields"
+msgstr ""
+
+#: views/admin/help.php:133
+msgid "Documentation"
+msgstr ""
+
+#: views/templates/form_fields.php:70
+msgid "Double click to remove"
+msgstr ""
+
+#: views/admin/footer.php:15
+msgid "Download"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_courses.php:63
+#: views/templates/instructor_dashboard/add_edit_qanda.php:33
+#: views/templates/instructor_dashboard/add_edit_announcements.php:32
+#: views/templates/instructor_dashboard/add_edit_questions.php:36
+#: views/templates/instructor_dashboard/add_edit_lessons.php:51
+#: views/templates/instructor_dashboard/add_edit_quizes.php:49
+msgid "Draft"
+msgstr ""
+
+#: views/admin/meta_boxes/lessons_abovelinks.php:8
+msgid "Drip Content"
+msgstr ""
+
+#: classes/Abstracts/Indeed_List_Table.class.php:99
+#: classes/admin/listing_table/QandA.php:121
+#: classes/admin/listing_table/ListQuestions.class.php:100
+#: classes/admin/listing_table/ListCourseReviews.class.php:116
+#: classes/admin/listing_table/ListQuizes.class.php:121
+#: classes/admin/listing_table/Announcements.php:120
+#: classes/admin/listing_table/ListCertificates.class.php:97
+#: classes/admin/listing_table/ListLessons.class.php:187
+msgid "Duplicate"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:349
+#: views/admin/post_panel-ulp_course.php:353
+#: views/admin/post_panel-ulp_course.php:511
+#: views/admin/post_panel-ulp_lesson.php:74
+#: views/admin/post_panel-ulp_lesson.php:76
+#: classes/admin/listing_table/ListQuizes.class.php:29
+#: classes/admin/listing_table/ListLessons.class.php:27
+#: views/templates/instructor_dashboard/courses_special_settings.php:167
+#: views/templates/instructor_dashboard/courses_special_settings.php:170
+#: views/templates/instructor_dashboard/courses_special_settings.php:253
+#: views/templates/instructor_dashboard/manage-lessons.php:15
+#: views/templates/instructor_dashboard/manage-quizes.php:17
+#: views/templates/instructor_dashboard/lessons_special_settings.php:54
+#: views/templates/instructor_dashboard/lessons_special_settings.php:56
+msgid "Duration"
+msgstr ""
+
+#: views/admin/notification-email-send-test.php:14
+msgid ""
+"Dynamic {constants} will not be replaced with real data inside Test Email."
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:29
+#: views/templates/student_profile/profile.php:13
+msgid "E-mail"
+msgstr ""
+
+#: views/admin/student_leaderboard.php:220
+#: views/admin/student_leaderboard.php:278
+msgid "E-mail Address"
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:18 views/admin/instructors.php:86
+#: views/admin/instructors.php:107 views/admin/students.php:44
+#: views/admin/students.php:60
+msgid "E-mail address"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:445
+msgid "E-mail works!"
+msgstr ""
+
+#: views/admin/edd_payment.php:5
+msgid "EDD Payment Integration"
+msgstr ""
+
+#: views/admin/edd_payment.php:41
+msgid "EDD Product"
+msgstr ""
+
+#: classes/traits/RegisterCourseTags.php:22
+#: classes/Abstracts/Indeed_List_Table.class.php:95
+#: classes/post_types/QandaUlp.php:42
+#: classes/post_types/QuestionsUlp.class.php:42
+#: classes/post_types/CoursesUlp.class.php:52
+#: classes/post_types/CertificatesUlp.class.php:38
+#: classes/post_types/AnnouncementsUlp.php:43
+#: classes/post_types/CourseReviewsUlp.class.php:46
+#: classes/post_types/QuizesUlp.class.php:42
+#: classes/post_types/LessonsUlp.class.php:38
+#: views/admin/student_badges.php:130 views/admin/courses_tags.php:19
+#: views/admin/instructors.php:150 views/admin/students.php:85
+#: views/admin/notifications.php:47 classes/admin/listing_table/QandA.php:118
+#: classes/admin/listing_table/ListOrders.class.php:134
+#: classes/admin/listing_table/ListQuestions.class.php:97
+#: classes/admin/listing_table/ListCourseReviews.class.php:112
+#: classes/admin/listing_table/ListQuizes.class.php:118
+#: classes/admin/listing_table/Announcements.php:117
+#: classes/admin/listing_table/ListCourses.class.php:195
+#: classes/admin/listing_table/ListCertificates.class.php:93
+#: classes/admin/listing_table/ListLessons.class.php:183
+#: views/templates/instructor_dashboard/manage-courses.php:56
+#: views/templates/instructor_dashboard/manage-lessons.php:37
+#: views/templates/instructor_dashboard/manage-questions.php:38
+#: views/templates/instructor_dashboard/manage-qanda.php:34
+#: views/templates/instructor_dashboard/manage-quizes.php:39
+#: views/templates/instructor_dashboard/manage-announcements.php:34
+msgid "Edit"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:25
+msgid "Edit Announcement"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:21
+msgid "Edit Certificate"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:34
+msgid "Edit Course"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:28
+msgid "Edit Course Review"
+msgstr ""
+
+#: classes/post_types/InstructorsUlp.php:21
+msgid "Edit Instructor"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:21
+msgid "Edit Lesson"
+msgstr ""
+
+#: classes/post_types/OrderUlp.class.php:27
+msgid "Edit Order"
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:24
+msgid "Edit Q&A"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:25
+msgid "Edit Question"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:25
+msgid "Edit Quiz"
+msgstr ""
+
+#: views/templates/comments-qanda.php:89
+#: views/templates/comments-announcements.php:91
+#: views/templates/comments-announcements.php:91
+msgid "Email"
+msgstr ""
+
+#: views/templates/instructor_dashboard/listing_students.php:10
+msgid "Email Address"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_lessons.php:117
+msgid "Enable"
+msgstr ""
+
+#: views/admin/general_settings.php:99
+msgid "Enable Gutenberg editor on custom post types"
+msgstr ""
+
+#: views/admin/watch_list.php:22
+msgid ""
+"Enable this feature to allow your students to save a course to their "
+"personal wish list. "
+msgstr ""
+
+#: views/admin/mycred.php:21
+msgid ""
+"Enable this feature to integrate MyCred. You can give your students MyCred "
+"Points for certain events."
+msgstr ""
+
+#: views/templates/instructor_dashboard/lessons_special_settings.php:43
+msgid "Enable this Link"
+msgstr ""
+
+#: views/templates/instructor_dashboard/courses_special_settings.php:289
+msgid ""
+"Enable this workflow and Course content will be replaced with a custom "
+"message"
+msgstr ""
+
+#: views/admin/certificates_magic_feat.php:23
+msgid "Enabling this feature will let you add certificates for courses."
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:578
+#: views/templates/instructor_dashboard/courses_special_settings.php:309
+msgid "End time"
+msgstr ""
+
+#: views/templates/course/enroll.php:4 views/templates/course/enroll.php:6
+msgid "Enroll"
+msgstr ""
+
+#: classes/Ulp_My_Cred.class.php:88
+msgid "Enroll Course "
+msgstr ""
+
+#: views/admin/messages.php:20
+msgid "Enroll error - maximum number of students"
+msgstr ""
+
+#: views/admin/messages.php:34
+msgid "Enroll error - prerequest courses"
+msgstr ""
+
+#: views/admin/messages.php:41
+msgid "Enroll error - prerequest points"
+msgstr ""
+
+#: views/admin/messages.php:48
+msgid "Enroll error - retake limit"
+msgstr ""
+
+#: views/admin/messages.php:13
+msgid "Enroll error - user is not logged"
+msgstr ""
+
+#: views/admin/messages.php:27
+msgid "Enroll error - you already enrolled"
+msgstr ""
+
+#: views/admin/messages.php:10
+msgid "Enroll process"
+msgstr ""
+
+#: views/admin/meta_boxes/edit_courses-list_students_table.php:6
+msgid "Enroll Time"
+msgstr ""
+
+#: classes/admin/listing_table/ListCourses.class.php:103
+msgid "Enrolled "
+msgstr ""
+
+#: views/admin/add_edit_wp_user_enrolled_courses.php:2
+msgid "Enrolled Courses"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3467
+msgid "Enrolled in course"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:76
+msgid "Enrolled Students"
+msgstr ""
+
+#: views/admin/students_view_activity.php:12
+#: views/admin/students_view_activity.php:20
+msgid "Entity"
+msgstr ""
+
+#: views/admin/courses_grid.php:98 views/admin/student_leaderboard.php:188
+msgid "Entity management"
+msgstr ""
+
+#: views/admin/courses_grid.php:178 views/admin/student_leaderboard.php:322
+msgid "Entries Per Page"
+msgstr ""
+
+#: classes/MainPublicUlp.class.php:70 classes/MainAdminUlp.class.php:443
+#: views/templates/write_course_review.php:6
+msgid "Error"
+msgstr ""
+
+#: views/admin/announcements.php:12
+msgid ""
+"Especially for promoting your courses and update students about new content "
+"or features."
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:55
+#: views/templates/instructor_dashboard/manage-questions.php:63
+#: views/templates/instructor_dashboard/questions_answer.php:34
+#: views/admin/meta_boxes/questions_answer.php:47
+msgid "Essay"
+msgstr ""
+
+#: views/admin/default_pages.php:13
+msgid "Establish the official system pages for specific sections. "
+msgstr ""
+
+#: views/admin/redirects.php:13
+msgid "Establish the official system redirects after specific stages. "
+msgstr ""
+
+#: views/templates/single-course-visitor.php:74
+#: views/templates/single-course.php:83
+#: views/templates/single-course-coming-soon.php:109
+msgid "Estimated Time "
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:105
+msgid "Example:"
+msgstr ""
+
+#: views/admin/certificates_magic_feat.php:24
+msgid ""
+"Example: If your students finish “Course A”, they are awarded a certificate."
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:427
+#: views/templates/instructor_dashboard/courses_special_settings.php:217
+msgid ""
+"Example: Lesson A is the first one, in order to go to the next lesson, the "
+"user must first finish A."
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:75
+#: views/admin/meta_boxes/questions_answer.php:118
+msgid "Examples:"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:74
+msgid "Expire Time:"
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:107
+msgid "Expire Time: 1222"
+msgstr ""
+
+#: classes/Entity/UlpStudent.class.php:61
+msgid "Expired"
+msgstr ""
+
+#: views/templates/list_courses.php:55
+#: views/templates/student_profile/my_courses.php:50
+msgid "Expires on: "
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:89
+#: views/templates/instructor_dashboard/quizes_special_settings.php:70
+msgid "Explanation Message"
+msgstr ""
+
+#: views/templates/single-question.php:21
+msgid "Explanation: "
+msgstr ""
+
+#: views/admin/import_export.php:2 views/admin/import_export.php:43
+msgid "Export"
+msgstr ""
+
+#: views/admin/magic_feat.php:2
+msgid "Extend your "
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:59 classes/MainAdminUlp.class.php:2184
+#: views/admin/magic_feat.php:3
+msgid "Extensions"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:130
+msgid "Extra Elements"
+msgstr ""
+
+#: classes/post_types/OrderUlp.class.php:89
+#: classes/admin/listing_table/ListOrders.class.php:114
+#: views/admin/meta_boxes/order_metas.php:75
+msgid "Fail"
+msgstr ""
+
+#: utilities.php:462
+msgid "Faild"
+msgstr ""
+
+#: views/templates/gradebook.php:21
+msgid "Failed"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:172
+#: views/templates/course_curriculum_slider.php:111
+#: views/templates/course/curriculum.php:98
+msgid "Failed "
+msgstr ""
+
+#: views/admin/pushover.php:81
+msgid "Falling"
+msgstr ""
+
+#: classes/public/UlpPrintQuestion.class.php:139
+#: views/templates/instructor_dashboard/questions_answer.php:149
+#: views/admin/meta_boxes/questions_answer.php:276
+msgid "False"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_courses.php:120
+#: views/templates/instructor_dashboard/add_edit_questions.php:74
+#: views/templates/instructor_dashboard/add_edit_lessons.php:71
+#: views/templates/instructor_dashboard/add_edit_quizes.php:86
+msgid "Feature image"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:30
+#: classes/admin/listing_table/ListCourses.class.php:186
+#: views/templates/instructor_dashboard/courses_special_settings.php:9
+msgid "Featured Course"
+msgstr ""
+
+#: views/admin/import_export.php:56 views/admin/hooks.php:14
+#: views/admin/hooks.php:38
+msgid "File"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:51
+#: views/templates/instructor_dashboard/manage-questions.php:59
+msgid "Fill In"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:30
+#: views/admin/meta_boxes/questions_answer.php:40
+msgid "Fill in blank"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:185
+#: views/templates/instructor_dashboard/courses_special_settings.php:87
+msgid "Final Quiz"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:175
+#: views/templates/instructor_dashboard/courses_special_settings.php:79
+msgid "Final Quiz: the grade of the final quiz must be at least 70%;"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:94
+#: views/templates/course/finish_button.php:4
+msgid "Finish Course"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:52
+msgid "Finish course button"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:94
+#: views/templates/quiz/submit_button.php:2
+msgid "Finish Quiz"
+msgstr ""
+
+#: views/admin/student_badges.php:156
+msgid "Finish the Course with "
+msgstr ""
+
+#: views/admin/student_badges.php:162
+msgid "Finish the Quiz with "
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3468
+msgid "Finished course"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3469
+msgid "Finished quiz"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:33
+#: views/templates/student_profile/profile.php:17
+msgid "First Name"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:2508
+msgid "Following functions: "
+msgstr ""
+
+#: views/admin/showcases_account_page.php:486
+msgid "Footer Content:"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:274
+msgid "Footer Invoice Info"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:474
+msgid "Footer Section:"
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:103
+#: views/admin/payment_services_2checkout.php:59
+msgid "For Test/Sandbox mode use the next credentials available:"
+msgstr ""
+
+#: views/admin/help.php:87
+msgid "for WordPress installation on"
+msgstr ""
+
+#: classes/grid/Ulp_Grid_Courses.class.php:89
+#: classes/Entity/UlpCourse.class.php:294
+#: views/admin/post_panel-ulp_course.php:114
+#: classes/admin/listing_table/ListCourses.class.php:111
+#: views/templates/instructor_dashboard/manage-courses.php:122
+#: views/templates/instructor_dashboard/courses_special_settings.php:48
+msgid "Free"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:50
+#: views/templates/instructor_dashboard/manage-questions.php:58
+#: views/templates/instructor_dashboard/questions_answer.php:29
+#: views/admin/meta_boxes/questions_answer.php:38
+msgid "Free choice"
+msgstr ""
+
+#: views/admin/send_email_popup.php:13
+msgid "From"
+msgstr ""
+
+#: views/admin/add_edit_wp_user_manage_certificates.php:10
+msgid "from"
+msgstr ""
+
+#: views/admin/payment_services_bt.php:27
+msgid "Front-end Bank Transfer details"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1086 views/admin/frontendcourse.php:5
+msgid "Front-End Course Creation"
+msgstr ""
+
+#: views/admin/showcases.php:5
+msgid "Front-End Showcases"
+msgstr ""
+
+#: views/admin/default_pages.php:12
+msgid "FrontEnd Pages"
+msgstr ""
+
+#: views/admin/instructors.php:88 views/admin/instructors.php:109
+#: views/admin/students.php:45 views/admin/students.php:61
+msgid "Full name"
+msgstr ""
+
+#: views/templates/stripe_payment_form.php:3
+msgid "Full name on card:"
+msgstr ""
+
+#: views/admin/student_leaderboard.php:272
+msgid "Full Student Name"
+msgstr ""
+
+#: views/admin/pushover.php:82
+msgid "Gamelan"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:63 classes/MainAdminUlp.class.php:2186
+msgid "General Options"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1859
+msgid "General Settings"
+msgstr ""
+
+#: views/admin/general_settings.php:8
+msgid "General settings"
+msgstr ""
+
+#: views/admin/certificates_magic_feat.php:39
+msgid "Give Certificate to User"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:964
+msgid "Give certificates to students."
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:28
+msgid "Go to Account Settings -> Seller Tools"
+msgstr ""
+
+#: views/admin/notifications.php:21 views/admin/notifications.php:33
+msgid "Goes to"
+msgstr ""
+
+#: views/templates/gradebook.php:8
+msgid "Grade"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:37
+#: views/templates/instructor_dashboard/quizes_special_settings.php:26
+msgid "Grade based on"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:970 views/admin/gradebook.php:5
+msgid "Grade Book"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuizes.class.php:28
+msgid "Grade condition"
+msgstr ""
+
+#: views/admin/students.php:115
+msgid "Grade: "
+msgstr ""
+
+#: views/templates/instructor_dashboard/manage-quizes.php:16
+msgid "Greade condition"
+msgstr ""
+
+#: views/admin/public_workflow.php:24 views/admin/public_workflow.php:36
+msgid "Height"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:80 classes/MainAdminUlp.class.php:348
+#: classes/Db/DbUlp.class.php:1997 views/admin/help.php:15
+msgid "Help"
+msgstr ""
+
+#: views/admin/magic_feat.php:4 views/admin/page-meta_box.php:23
+msgid "here"
+msgstr ""
+
+#: views/admin/send_email_popup.php:37
+msgid "Hi "
+msgstr ""
+
+#: classes/Ulp_Demo_Content.class.php:634
+msgid "Highest Rated"
+msgstr ""
+
+#: views/templates/single-question.php:36
+msgid "Hint"
+msgstr ""
+
+#: views/admin/post_panel-ulp_question.php:27
+#: views/admin/post_panel-ulp_quiz.php:78
+#: views/templates/instructor_dashboard/questions_special_settings.php:26
+#: views/templates/instructor_dashboard/quizes_special_settings.php:64
+msgid "Hint Message"
+msgstr ""
+
+#: views/templates/single-question.php:25
+msgid "Hint: "
+msgstr ""
+
+#: utilities.php:112 views/admin/post_panel-ulp_course.php:369
+#: views/templates/instructor_dashboard/courses_special_settings.php:179
+msgid "Hours"
+msgstr ""
+
+#: views/admin/announcements.php:28 views/admin/gradebook.php:21
+#: views/admin/course_time_period.php:20 views/admin/notes.php:22
+#: views/admin/about_the_instructor.php:22 views/admin/frontendcourse.php:29
+#: views/admin/certificates_magic_feat.php:22 views/admin/coming_soon.php:28
+#: views/admin/qanda_magic_feat.php:28 views/admin/watch_list.php:21
+#: views/admin/more_courses_by.php:22
+msgid "How it works"
+msgstr ""
+
+#: views/admin/courses_grid.php:99
+msgid "How many courses and how will be listed"
+msgstr ""
+
+#: views/admin/student_leaderboard.php:190
+msgid "How many stundents and how will be listed"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:163
+#: views/templates/instructor_dashboard/quizes_special_settings.php:118
+msgid "How many times a student can try to proceed the quiz"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:409
+#: views/templates/instructor_dashboard/courses_special_settings.php:199
+msgid "How many times a user can enroll to this course."
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:25
+msgid "How to setup"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wpindeed.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.wpindeed.com/"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:364
+#: views/admin/student_account_custom_tabs.php:76
+#: views/admin/student_account_custom_tabs.php:105
+#: views/admin/student_account_custom_tabs.php:114
+msgid "Icon"
+msgstr ""
+
+#: views/admin/student_badges.php:94
+msgid "ID"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:208
+#: views/templates/instructor_dashboard/questions_answer.php:241
+#: views/admin/meta_boxes/questions_answer.php:391
+#: views/admin/meta_boxes/questions_answer.php:427
+msgid "ID:"
+msgstr ""
+
+#: views/admin/courses_grid.php:215
+msgid ""
+"If the “Slider Showcase” is used, then the “Pagination Showcase” is disabled."
+msgstr ""
+
+#: views/admin/gradebook.php:22
+msgid ""
+"If you enable this feature, your students will have permission to see their "
+"grades."
+msgstr ""
+
+#: views/admin/public_workflow.php:15
+msgid "Images Size"
+msgstr ""
+
+#: views/admin/import_export.php:53 views/admin/import_export.php:61
+msgid "Import"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:79 classes/MainAdminUlp.class.php:347
+msgid "Import/Export"
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:38
+#: views/admin/payment_services_2checkout.php:48
+msgid "Important: set your 'Webhook' to: "
+msgstr ""
+
+#: views/admin/edd_payment.php:21
+msgid ""
+"In EDD when creating or editing an item, you will find a new section for "
+"Ultimate Learning Pro where you can link your course to the current item."
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1577
+msgid "In order to become Instructor, you must be logged."
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1585 classes/public/ShortcodesUlp.class.php:732
+msgid "In order to complete this purchase you must be logged in."
+msgstr ""
+
+#: views/admin/help.php:109
+msgid ""
+"In order to contact Indeed support team you need to create a ticket "
+"providing all the necessary details via our support system:"
+msgstr ""
+
+#: classes/AjaxUlp.class.php:495
+msgid "In order to enroll for this course, you must be logged in!"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:52
+#: views/templates/instructor_dashboard/quizes_special_settings.php:41
+msgid ""
+"In order to give grade based on points, you must set a number of points for "
+"each of quiz questions."
+msgstr ""
+
+#: classes/AjaxUlp.class.php:527
+msgid "In order to retake for this course, you must be logged in!"
+msgstr ""
+
+#: classes/Entity/UlpStudent.class.php:56
+msgid "In progress"
+msgstr ""
+
+#: views/templates/single-course.php:28
+msgid "In Progress "
+msgstr ""
+
+#: views/admin/ump_payment.php:21
+msgid ""
+"In UMP -> Levels Tab when creating or editing a level, you will find a new "
+"section for Ultimate Learning Pro where you can link your course to the "
+"current item."
+msgstr ""
+
+#: views/admin/woocommerce_payment.php:21
+msgid ""
+"In WooCommerce when creating or editing a product, you will find a new "
+"section for Ultimate Learning Pro where you can link your course to the "
+"current product."
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:76
+msgid ""
+"In WordPress are you able to install additional <strong>{themes|plugins}"
+"</strong>"
+msgstr ""
+
+#: views/admin/meta_boxes/questions_answer.php:119
+msgid "In WordPress are you able to install additional {themes|plugins}"
+msgstr ""
+
+#: views/admin/pushover.php:83
+msgid "Incoming"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:526
+msgid "Incompleted"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:48
+msgid "Indeed Learning Pro - Drip Content"
+msgstr ""
+
+#. Name of the plugin
+msgid "Indeed Ultimate Learning Pro"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:145
+#: views/templates/instructor_dashboard/courses_special_settings.php:64
+msgid "Initial Price"
+msgstr ""
+
+#: views/admin/custom_currencies.php:14
+msgid "Insert a valid Currency Code, ex: "
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:5
+msgid ""
+"Instead of standard content a Video from Youtube or Videmo may play for an "
+"interactivity approach"
+msgstr ""
+
+#: classes/post_types/InstructorsUlp.php:29
+msgid "Instructor"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:171
+msgid "Instructor create a course"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:702 classes/Db/DbUlp.class.php:2602
+#: views/admin/default_pages.php:107
+msgid "Instructor Dashboard"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:172
+msgid "Instructor edit a course"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:48
+msgid "Instructor Informations"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:185
+msgid "Instructor Pending"
+msgstr ""
+
+#: views/admin/edit_wp_user-become_instructor.php:2
+msgid "Instructor settings"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:194
+msgid "Instructor: Student enrolls into a course"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:195
+msgid "Instructor: Your course has been published"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:51 classes/MainAdminUlp.class.php:2182
+#: classes/post_types/InstructorsUlp.php:17
+#: classes/post_types/InstructorsUlp.php:18 views/admin/import_export.php:15
+#: views/admin/instructors.php:4
+#: classes/admin/listing_table/ListCourses.class.php:35
+msgid "Instructors"
+msgstr ""
+
+#: views/admin/frontendcourse.php:32
+msgid ""
+"Instructors/Authors can manage and Add new Courses with all features that "
+"are currently available on ULP Dashboard. Items such Lessons, Quizzes and "
+"Questions or Announcements can be managed also."
+msgstr ""
+
+#: views/admin/pushover.php:84
+msgid "Intermission"
+msgstr ""
+
+#: classes/Ulp_Invoices.php:67
+#: classes/admin/listing_table/ListOrders.class.php:45
+msgid "Invoice"
+msgstr ""
+
+#: views/templates/invoice.php:37
+msgid "Invoice code:"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:115
+msgid "Invoice Logo"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:130
+msgid "Invoice main Title"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:79
+msgid "Invoice Template"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:991 views/templates/list_orders.php:12
+#: views/admin/magic_feat_invoices.php:7
+msgid "Invoices"
+msgstr ""
+
+#: views/admin/courses_grid.php:221
+msgid "Items per Slide:"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:179
+msgid "Junior Instructor"
+msgstr ""
+
+#: classes/AjaxUlp.class.php:591
+msgid "Just a simple message to test if Your E-mail Server is working"
+msgstr ""
+
+#: views/admin/admin_workflow.php:39
+msgid "Keep data after delete plugin"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:162
+#: views/admin/meta_boxes/questions_answer.php:304
+msgid "Keywords"
+msgstr ""
+
+#: views/admin/curriculum_slider.php:31 views/admin/courses_tags.php:18
+#: views/admin/payment_services_paypal.php:57
+#: views/admin/student_account_custom_tabs.php:104
+#: views/admin/student_account_custom_tabs.php:113
+#: views/admin/payment_services_stripe.php:78
+#: views/admin/payment_services_2checkout.php:100
+#: views/admin/payment_services_bt.php:59 views/admin/buddypress.php:31
+msgid "Label"
+msgstr ""
+
+#: views/admin/course_difficulty.php:35
+#: views/admin/student_account_custom_tabs.php:66
+#: views/admin/courses_tags_add_edit.php:18
+msgid "Label:"
+msgstr ""
+
+#: views/admin/dashboard.php:66
+msgid "Last 5 enrolled students"
+msgstr ""
+
+#: views/admin/dashboard.php:83
+msgid "Last 5 orders"
+msgstr ""
+
+#: views/templates/instructor_dashboard/overview.php:21
+msgid "Last 5 Students Enrolled"
+msgstr ""
+
+#: views/templates/instructor_dashboard/overview.php:5
+msgid "Last 5 Students Questions & Comments"
+msgstr ""
+
+#: views/templates/instructor_dashboard/overview.php:50
+msgid "Last Comments on your Announcements"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:37
+#: views/templates/student_profile/profile.php:21
+msgid "Last Name"
+msgstr ""
+
+#: views/templates/instructor_dashboard/manage-courses.php:62
+#: views/templates/instructor_dashboard/miniatures-overview_single_course.php:20
+#: views/templates/course/more_courses_by-single_course.php:20
+#: views/templates/course/miniatures-single_course.php:14
+msgid "Last update: "
+msgstr ""
+
+#: views/admin/courses_grid.php:344
+msgid "Lazy Load"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:2168
+msgid "Learning Pages"
+msgstr ""
+
+#: views/admin/payment_settings.php:64
+msgid "Left"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:18
+msgid "Lesson"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:32
+#: classes/post_types/LessonsUlp.class.php:35
+#: classes/post_types/LessonsUlp.class.php:42
+msgid "Lesson Categories"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:672
+msgid "Lesson categories"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:33
+msgid "Lesson Category"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_lessons.php:60
+msgid "Lesson Content"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:942
+#: views/templates/instructor_dashboard/lesson_drip_content.php:6
+#: views/admin/meta_boxes/lesson_drip_content.php:5
+msgid "Lesson Drip Content"
+msgstr ""
+
+#: views/admin/lesson_drip_content_settings.php:6
+msgid "Lesson drip content"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_lessons.php:36
+msgid "Lesson Title"
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:63
+msgid "Lesson will be automatically Completed when Video completes"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:53 classes/MainAdminUlp.class.php:295
+#: classes/MainAdminUlp.class.php:2175
+#: classes/post_types/LessonsUlp.class.php:17
+#: classes/post_types/LessonsUlp.class.php:29
+#: classes/public/InstructorDashboard.php:145 views/admin/lessons.php:1
+#: views/admin/post_panel-ulp_course.php:185 views/admin/public_workflow.php:60
+#: views/templates/instructor_dashboard/courses_special_settings.php:87
+#: views/templates/instructor_dashboard/manage-lessons.php:2
+msgid "Lessons"
+msgstr ""
+
+#: views/admin/lesson_drip_content_settings.php:23
+msgid "Lessons List"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:171
+msgid "Lessons: the user must complete 70% of the courses lessons to pass;"
+msgstr ""
+
+#: views/templates/instructor_dashboard/courses_special_settings.php:77
+msgid "Lessons: the user must complete 70% of the course’s lessons to pass;"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:936
+msgid "Let students write a review about your courses"
+msgstr ""
+
+#: views/admin/course_reviews.php:11
+msgid "Let students write a review about your courses."
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:372
+msgid "licence section"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:248
+msgid "Light Theme"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:393
+#: views/templates/instructor_dashboard/courses_special_settings.php:190
+msgid "Limitted enrolls"
+msgstr ""
+
+#: views/admin/student_account_custom_tabs.php:106
+#: views/admin/student_account_custom_tabs.php:115
+msgid "Link"
+msgstr ""
+
+#: views/admin/ump_html_into_levels.php:15
+msgid "Link this level to a Ultimate Learning Pro Course"
+msgstr ""
+
+#: views/admin/edd_select_course.php:3
+#: views/admin/woocommerce_select_course.php:2
+msgid "Link this product to a Ultimate Learning Pro Course"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:27
+msgid "Link to enroll a course"
+msgstr ""
+
+#: views/admin/student_account_custom_tabs.php:71
+msgid "Link:"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:69
+#: classes/post_types/QuizesUlp.class.php:58
+#: classes/post_types/LessonsUlp.class.php:56
+#: views/admin/post_panel-ulp_lesson.php:54
+#: views/templates/instructor_dashboard/lessons_special_settings.php:37
+msgid "Links"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:107
+msgid "List all certificates"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:22
+msgid "List all courses"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:82
+msgid "List all watch list items"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:147
+msgid "List announcements"
+msgstr ""
+
+#: views/admin/messages.php:110
+msgid "List Badges title"
+msgstr ""
+
+#: views/admin/default_pages.php:15
+msgid "List Courses"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:682 classes/Db/DbUlp.class.php:2597
+#: views/admin/popup-shortcodes.php:11 views/admin/courses_grid.php:10
+msgid "List courses"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:117
+msgid "List courses in grid"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:167
+msgid "List curriculum for course"
+msgstr ""
+
+#: views/admin/messages.php:130
+msgid "List notes"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:97
+msgid "List orders"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:152
+msgid "List Q&A"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:112
+msgid "List students in grid"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:137
+msgid "List tags for course"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:67
+msgid "List the notes"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:694
+msgid "List wish list"
+msgstr ""
+
+#: classes/Ulp_My_Cred.class.php:116 classes/Ulp_My_Cred.class.php:135
+msgid "Log Template"
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:27
+msgid "Login to "
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:29
+msgid "Look after Instant payment notifications and update it with "
+msgstr ""
+
+#: views/admin/pushover.php:85
+msgid "Magic"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:20
+msgid "Main 2Checkout settings"
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:15
+msgid "Main PayPal settings"
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:18
+msgid "Main Stripe settings"
+msgstr ""
+
+#: views/admin/edit_wp_user-become_instructor.php:10
+msgid "Make This User Instructor"
+msgstr ""
+
+#: views/admin/public_workflow.php:16
+msgid "Manage how Images on frontend will be displayed."
+msgstr ""
+
+#: views/admin/add_edit_wp_user_edit_points.php:5
+msgid "Manually adjust the User Points"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:59
+#: views/templates/instructor_dashboard/manage-questions.php:67
+#: views/templates/instructor_dashboard/questions_answer.php:38
+#: views/admin/meta_boxes/questions_answer.php:53
+msgid "Matching"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:165
+#: views/templates/instructor_dashboard/quizes_special_settings.php:120
+msgid "Max"
+msgstr ""
+
+#: views/admin/curriculum_slider.php:29
+msgid "Max 20 characters are allowed"
+msgstr ""
+
+#: views/admin/students_also_bought.php:35
+msgid "Max Limit"
+msgstr ""
+
+#: views/admin/pushover.php:86
+msgid "Mechanical"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:333
+msgid "Menu Label"
+msgstr ""
+
+#: views/admin/buddypress.php:36
+msgid "Menu position"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:268
+msgid "Menu Tabs:"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:38
+msgid "Merchant Code:"
+msgstr ""
+
+#: views/templates/write_course_review.php:18
+msgid "Message"
+msgstr ""
+
+#: views/admin/send_email_popup.php:36
+#: views/admin/notifications_add_edit.php:97
+msgid "Message:"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1867 views/admin/messages.php:6
+msgid "Messages"
+msgstr ""
+
+#: views/admin/students_also_bought.php:43
+msgid "Minimum"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:219
+#: views/templates/instructor_dashboard/courses_special_settings.php:104
+msgid "Minimum grade for each Quiz:"
+msgstr ""
+
+#: utilities.php:111 views/admin/post_panel-ulp_course.php:367
+#: views/templates/instructor_dashboard/courses_special_settings.php:178
+msgid "Minutes"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:25
+#: views/templates/instructor_dashboard/quizes_special_settings.php:15
+msgid "minutes"
+msgstr ""
+
+#: views/admin/notifications.php:24 views/admin/notifications.php:36
+msgid "Mobile Notification"
+msgstr ""
+
+#: views/templates/list_courses.php:22
+#: views/templates/watch_list-the_list.php:25
+#: views/templates/student_profile/my_courses.php:26
+msgid "Modules"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:263
+#: views/templates/instructor_dashboard/courses_special_settings.php:125
+msgid "Modules items"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:325
+#: views/templates/instructor_dashboard/courses_special_settings.php:157
+msgid "Modules per page "
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1060 views/admin/more_courses_by.php:5
+msgid "More Courses Box"
+msgstr ""
+
+#: views/templates/course/more_courses_by.php:8
+msgid "More Courses by "
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:142
+msgid "More courses by instructor"
+msgstr ""
+
+#: views/templates/course/more_courses_by.php:6
+msgid "More Courses by this instructor"
+msgstr ""
+
+#: views/templates/form_fields.php:63 views/templates/form_fields.php:69
+msgid "Move the box on the right position"
+msgstr ""
+
+#: classes/admin/listing_table/QandA.php:202
+#: classes/admin/listing_table/ListCourseReviews.class.php:197
+#: classes/admin/listing_table/Announcements.php:202
+msgid "Move to Trash"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:53
+#: views/templates/instructor_dashboard/manage-questions.php:61
+#: views/templates/instructor_dashboard/questions_answer.php:32
+#: views/admin/meta_boxes/questions_answer.php:43
+msgid "Multi Choice"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:112
+#: views/templates/instructor_dashboard/quizes_special_settings.php:85
+msgid "Multi choice answers appear in a random order every time"
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:65
+#: views/admin/payment_services_stripe.php:94
+#: views/admin/payment_services_2checkout.php:110
+#: views/admin/payment_services_bt.php:67
+msgid "Multi-Payment order"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:88
+#: views/admin/meta_boxes/questions_answer.php:138
+msgid "Multiple Choices"
+msgstr ""
+
+#: views/admin/meta_box_multiple_instructors.php:4
+msgid "Multiple Instructors"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:928 views/admin/multiple_instructors.php:6
+msgid "Multiple instructors"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:984 views/admin/mycred.php:5
+msgid "MyCred"
+msgstr ""
+
+#: views/templates/comments-qanda.php:88
+#: views/templates/comments-announcements.php:90
+#: views/templates/comments-announcements.php:90 views/admin/hooks.php:11
+#: views/admin/hooks.php:35
+#: views/templates/instructor_dashboard/listing_students.php:8
+msgid "Name"
+msgstr ""
+
+#: views/admin/custom_currencies.php:18
+msgid "Name:"
+msgstr ""
+
+#: views/admin/courses_grid.php:324
+msgid "Nav Button"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:15
+#: views/templates/single-course.php:14
+#: views/templates/single-course-coming-soon.php:14
+msgid "NEW"
+msgstr ""
+
+#: classes/Ulp_Demo_Content.class.php:622
+msgid "New"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:26
+msgid "New Announcement"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:22
+msgid "New Certificate"
+msgstr ""
+
+#: views/admin/announcements.php:32 views/admin/qanda_magic_feat.php:32
+msgid "New column and dedicated section on Courses table"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:35
+msgid "New Course"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:29
+msgid "New Course Review"
+msgstr ""
+
+#: classes/post_types/InstructorsUlp.php:22
+msgid "New Instructor"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:22
+msgid "New Lesson"
+msgstr ""
+
+#: views/admin/help.php:87
+msgid "new Licence"
+msgstr ""
+
+#: views/admin/announcements.php:35
+msgid ""
+"New Notification available for Admin/Instructor when a student comment on "
+"posted announcement"
+msgstr ""
+
+#: views/admin/qanda_magic_feat.php:34
+msgid ""
+"New Notification available for Admin/Instructor when a student submit a "
+"question"
+msgstr ""
+
+#: views/admin/announcements.php:34
+msgid ""
+"New Notification available for Students triggered when a new announcement is "
+"submitted"
+msgstr ""
+
+#: views/admin/qanda_magic_feat.php:35
+msgid ""
+"New Notification available for Students when Author/Instructor reply on his "
+"question."
+msgstr ""
+
+#: classes/post_types/OrderUlp.class.php:28
+msgid "New Order"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:2240
+msgid "New Orders"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:94
+#: views/templates/student_profile/profile.php:39
+msgid "New password"
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:25
+msgid "New Q&A"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:26
+msgid "New Question"
+msgstr ""
+
+#: views/templates/instructor_dashboard/header.php:13
+msgid "new Questions"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:26
+msgid "New Quiz"
+msgstr ""
+
+#: views/admin/admin_workflow.php:12
+msgid "New studends and New Orders."
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:2232
+msgid "New Students"
+msgstr ""
+
+#: views/templates/instructor_dashboard/header.php:17
+msgid "new Students"
+msgstr ""
+
+#: views/admin/frontendcourse.php:33
+msgid ""
+"New submitted Courses will be stored in Pending to be approved by the Admin "
+"first."
+msgstr ""
+
+#: views/admin/announcements.php:33
+msgid "New Tab on Course page for enrolled students"
+msgstr ""
+
+#: views/admin/qanda_magic_feat.php:33
+msgid "New Tab on Course page for enrolled students: Q&A"
+msgstr ""
+
+#: views/templates/lesson/navigation.php:19
+#: views/templates/quiz/navigation.php:10
+msgid "Next"
+msgstr ""
+
+#: views/templates/comments-qanda.php:38 views/templates/comments-qanda.php:75
+#: views/templates/comments-announcements.php:39
+#: views/templates/comments-announcements.php:77
+msgid "Next &rarr;"
+msgstr ""
+
+#: html_functions.php:4 views/templates/single-question.php:57
+msgid "Next Question"
+msgstr ""
+
+#: views/admin/students_view_activity.php:7
+msgid "No Activity yet!"
+msgstr ""
+
+#: views/templates/list_announcements.php:12
+msgid "No Announcements for you yet."
+msgstr ""
+
+#: classes/Payment_Services/Ulp_Stripe.class.php:39
+msgid "No card cvc provided"
+msgstr ""
+
+#: classes/Payment_Services/Ulp_Stripe.class.php:33
+msgid "No card expire month provided"
+msgstr ""
+
+#: classes/Payment_Services/Ulp_Stripe.class.php:36
+msgid "No card expire year provided"
+msgstr ""
+
+#: classes/Payment_Services/Ulp_Stripe.class.php:30
+msgid "No card number provided"
+msgstr ""
+
+#: views/templates/instructor_dashboard/listing_comments.php:24
+msgid "No comments yet!"
+msgstr ""
+
+#: views/admin/instructors.php:197
+msgid "No instructors yet!"
+msgstr ""
+
+#: views/admin/student_badges.php:203
+msgid "No items yet!"
+msgstr ""
+
+#: classes/Payment_Services/Ulp_Stripe.class.php:27
+msgid "No name provided"
+msgstr ""
+
+#: views/admin/messages.php:133
+msgid "No notes available"
+msgstr ""
+
+#: views/admin/notifications.php:110
+msgid "No Notification Available!"
+msgstr ""
+
+#: views/admin/dashboard.php:94
+msgid "No orders yet!"
+msgstr ""
+
+#: views/templates/list_qanda.php:11
+msgid "No questions available. Be the first one who post the first question."
+msgstr ""
+
+#: views/templates/reviews_awesome_box.php:10
+msgid "No ratings"
+msgstr ""
+
+#: classes/AjaxUlp.class.php:1529
+msgid "No results"
+msgstr ""
+
+#: views/templates/course_review_list.php:23
+msgid "No Reviews avaialable for this course"
+msgstr ""
+
+#: classes/admin/listing_table/ListCourses.class.php:105
+#: views/templates/instructor_dashboard/manage-courses.php:105
+msgid "No students yet"
+msgstr ""
+
+#: views/admin/dashboard.php:77 views/admin/students.php:147
+msgid "No students yet!"
+msgstr ""
+
+#: views/admin/edd_select_course.php:7 views/admin/ump_html_into_levels.php:7
+#: views/admin/woocommerce_select_course.php:6
+msgid "None"
+msgstr ""
+
+#: views/admin/dashboard.php:56
+msgid "Not enough data available."
+msgstr ""
+
+#: views/admin/messages.php:118
+msgid "Not enrolled"
+msgstr ""
+
+#: classes/admin/listing_table/ListLessons.class.php:72
+#: views/templates/instructor_dashboard/manage-lessons.php:65
+msgid "Not set"
+msgstr ""
+
+#: views/templates/notes_form_popup.php:12
+msgid "Note Title"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1994
+msgid "Notes"
+msgstr ""
+
+#: views/admin/notes.php:5
+msgid "Notes Integration"
+msgstr ""
+
+#: views/admin/general_options_notifications.php:6
+msgid "Notification settings"
+msgstr ""
+
+#: views/admin/pushover.php:69
+msgid "Notification Sound"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:62 classes/MainAdminUlp.class.php:1866
+#: classes/MainAdminUlp.class.php:2183
+#: classes/public/InstructorDashboard.php:311 views/admin/notifications.php:3
+#: views/templates/instructor_dashboard/settings.php:163
+msgid "Notifications"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:66
+msgid "Number"
+msgstr ""
+
+#: views/admin/payment_settings.php:114
+msgid "Number of Decimals"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:88
+#: views/templates/student_profile/profile.php:33
+msgid "Old password"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:270
+#: classes/public/Ulp_Student_Profile.class.php:72
+msgid "Old password incorrect!"
+msgstr ""
+
+#: views/templates/instructor_dashboard/lesson_drip_content.php:26
+#: views/admin/meta_boxes/lesson_drip_content.php:28
+msgid "On specific date"
+msgstr ""
+
+#: views/templates/instructor_dashboard/lesson_drip_content.php:56
+#: views/admin/meta_boxes/lesson_drip_content.php:55
+msgid "On Specific Date:"
+msgstr ""
+
+#: views/admin/course_time_period.php:21
+msgid ""
+"Once is enabled a new attribute for courses will be available and an "
+"estimated time can be provided "
+msgstr ""
+
+#: views/admin/announcements.php:30 views/admin/qanda_magic_feat.php:30
+msgid "Once is enabled you will find:"
+msgstr ""
+
+#: views/admin/courses_tags.php:10
+msgid ""
+"Once Tags are created and avaialable you can assign them to your courses "
+"from \"Courses Tags\" box when you editing a course."
+msgstr ""
+
+#: views/admin/frontendcourse.php:31
+msgid ""
+"Once this module is eanabled a dedicated section on Instructor Account Page "
+"will be available and access on WP Dashboard restricted."
+msgstr ""
+
+#: views/admin/coming_soon.php:30
+msgid ""
+"Once this module is eanabled you will find an additional box into Special "
+"Settings section of each Course."
+msgstr ""
+
+#: views/admin/multiple_instructors.php:24
+msgid "Once you Add/Edit a course check the \"Author\" meta box."
+msgstr ""
+
+#: views/admin/lesson_drip_content_settings.php:22
+msgid "Once you Add/Edit a lesson check \"Drip Content\" meta box."
+msgstr ""
+
+#: views/admin/help.php:87
+msgid "ONE"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:52
+#: views/templates/instructor_dashboard/manage-questions.php:60
+#: views/templates/instructor_dashboard/questions_answer.php:31
+#: views/admin/meta_boxes/questions_answer.php:41
+msgid "One Choice"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:282
+msgid "Only Plain Text and up to "
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:17
+msgid ""
+"Only Youtube and Vimeo sources are supported. Provide the full video URL."
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:62
+#: views/templates/instructor_dashboard/quizes_special_settings.php:51
+msgid "Optional. Student can receive points if he completes the current Quiz"
+msgstr ""
+
+#: views/admin/notifications.php:26 views/admin/notifications.php:38
+msgid "Options"
+msgstr ""
+
+#: classes/post_types/OrderUlp.class.php:24
+msgid "Order"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:267
+#: views/templates/instructor_dashboard/courses_special_settings.php:127
+msgid "Order by"
+msgstr ""
+
+#: classes/post_types/OrderUlp.class.php:53
+msgid "Order Details"
+msgstr ""
+
+#: classes/admin/listing_table/ListOrders.class.php:34
+msgid "Order ID"
+msgstr ""
+
+#: views/admin/courses_grid.php:106 views/admin/student_leaderboard.php:202
+msgid "Order Items"
+msgstr ""
+
+#: views/admin/payment_settings.php:158
+msgid "Order Prefix Code"
+msgstr ""
+
+#: views/admin/meta_boxes/order_metas.php:69
+msgid "Order status"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:299
+#: views/templates/instructor_dashboard/courses_special_settings.php:143
+msgid "Order type"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:61 classes/Db/DbUlp.class.php:1995
+#: classes/post_types/OrderUlp.class.php:23
+#: classes/post_types/OrderUlp.class.php:35 views/admin/orders.php:1
+msgid "Orders"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:54
+msgid "Other Notifications"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1990 classes/public/SingleCourseMenu.php:10
+#: classes/public/InstructorDashboard.php:133
+#: views/templates/instructor_dashboard/overview.php:1
+msgid "Overview"
+msgstr ""
+
+#: views/admin/page-meta_box.php:9
+msgid "Page"
+msgstr ""
+
+#: views/admin/page-meta_box.php:20
+msgid "Page Not Set!"
+msgstr ""
+
+#: views/admin/courses_grid.php:176 views/admin/student_leaderboard.php:318
+msgid "Pagination Settings"
+msgstr ""
+
+#: views/admin/courses_grid.php:233
+msgid "Pagination Speed:"
+msgstr ""
+
+#: views/admin/courses_grid.php:243
+msgid "Pagination Theme 1"
+msgstr ""
+
+#: views/admin/courses_grid.php:244
+msgid "Pagination Theme 2"
+msgstr ""
+
+#: views/admin/courses_grid.php:245
+msgid "Pagination Theme 3"
+msgstr ""
+
+#: views/admin/courses_grid.php:239
+msgid "Pagination Theme:"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:114
+#: views/templates/instructor_dashboard/courses_special_settings.php:48
+msgid "Paid"
+msgstr ""
+
+#: views/templates/gradebook.php:9 views/templates/gradebook.php:19
+msgid "Passed"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:170
+#: views/templates/course_curriculum_slider.php:109
+#: views/templates/course/curriculum.php:96
+msgid "Passed "
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:56
+#: views/templates/instructor_dashboard/quizes_special_settings.php:45
+msgid "Passing Grade"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:201
+#: views/templates/instructor_dashboard/courses_special_settings.php:94
+msgid "Passing Value "
+msgstr ""
+
+#: views/templates/checkout.php:45
+msgid "Pay Order"
+msgstr ""
+
+#: views/admin/messages.php:155
+msgid "Payment completed"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1602
+msgid "Payment completed!"
+msgstr ""
+
+#: views/admin/messages.php:161
+msgid "Payment fail"
+msgstr ""
+
+#: views/admin/dashboard.php:89
+msgid "Payment on "
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:108
+#: views/templates/instructor_dashboard/courses_special_settings.php:45
+msgid "Payment request"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:56
+msgid "Payment services"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1584
+msgid "Payment type"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1864
+msgid "Payments"
+msgstr ""
+
+#: views/admin/payment_services.php:3
+msgid "Payments Services"
+msgstr ""
+
+#: views/admin/payment_settings.php:6
+msgid "Payments Settings"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:548
+#: classes/Payment_Services/Ulp_Payment_Services_Details.class.php:19
+msgid "PayPal"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:906 views/admin/payment_services_paypal.php:9
+#: views/admin/paypal_magic_feat.php:5
+msgid "PayPal Payment Integration"
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:39
+msgid ""
+"PayPal sandbox mode can be used to testing purpose. A Sandbox merchant "
+"account and additional Sandbox buyer account is required."
+msgstr ""
+
+#: utilities.php:468 classes/post_types/OrderUlp.class.php:75
+#: classes/admin/listing_table/QandA.php:127
+#: classes/admin/listing_table/ListOrders.class.php:117
+#: classes/admin/listing_table/ListCourseReviews.class.php:122
+#: classes/admin/listing_table/Announcements.php:126
+#: views/templates/instructor_dashboard/add_edit_courses.php:62
+#: views/templates/instructor_dashboard/add_edit_qanda.php:32
+#: views/templates/instructor_dashboard/add_edit_announcements.php:31
+#: views/templates/instructor_dashboard/add_edit_questions.php:35
+#: views/templates/instructor_dashboard/miniatures-single_comment.php:17
+#: views/templates/instructor_dashboard/add_edit_lessons.php:50
+#: views/templates/instructor_dashboard/add_edit_quizes.php:48
+#: views/admin/meta_boxes/order_metas.php:73
+msgid "Pending"
+msgstr ""
+
+#: classes/admin/listing_table/QandA.php:89
+#: classes/admin/listing_table/Announcements.php:88
+#: views/templates/instructor_dashboard/manage-qanda.php:49
+#: views/templates/instructor_dashboard/manage-announcements.php:49
+msgid "pending"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:42
+#: views/templates/instructor_dashboard/quizes_special_settings.php:31
+msgid "Percentage"
+msgstr ""
+
+#: views/admin/student_leaderboard.php:274
+msgid "Photo Avatar"
+msgstr ""
+
+#: views/admin/help.php:122
+msgid "PHP Classes Descriptions"
+msgstr ""
+
+#: views/admin/courses_grid.php:373 views/admin/student_leaderboard.php:403
+msgid "PHP Code:"
+msgstr ""
+
+#: views/admin/pushover.php:87
+msgid "Piano Bar"
+msgstr ""
+
+#: views/templates/instructor_dashboard/lesson_drip_content.php:60
+#: views/admin/meta_boxes/lesson_drip_content.php:58
+msgid "Pick the desired date when the Page will be available"
+msgstr ""
+
+#: views/admin/courses_grid.php:348
+msgid "Play in Loop"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:282
+#: classes/public/Ulp_Student_Profile.class.php:83
+msgid "Please Complete all required fields!"
+msgstr ""
+
+#: classes/AjaxUlp.class.php:1503
+msgid "Please complete question title and description!"
+msgstr ""
+
+#: classes/MainPublicUlp.class.php:72
+msgid "Please select a payment type!"
+msgstr ""
+
+#: views/admin/help.php:87
+msgid ""
+"plugin and provides access on support system. A purchase code can only be "
+"used for "
+msgstr ""
+
+#: classes/Ulp_My_Cred.class.php:108 classes/Ulp_My_Cred.class.php:127
+#: views/admin/post_panel-ulp_question.php:17
+#: views/admin/post_panel-ulp_course.php:279
+#: views/admin/post_panel-ulp_quiz.php:43 views/admin/students.php:126
+#: classes/admin/listing_table/ListQuestions.class.php:28
+#: views/templates/instructor_dashboard/manage-courses.php:23
+#: views/templates/instructor_dashboard/courses_special_settings.php:133
+#: views/templates/instructor_dashboard/manage-questions.php:15
+#: views/templates/instructor_dashboard/questions_special_settings.php:16
+#: views/templates/instructor_dashboard/quizes_special_settings.php:32
+#: views/templates/student_profile/header.php:52
+msgid "Points"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:146
+#: views/templates/single-course-visitor.php:178
+#: views/templates/course_curriculum_slider.php:84
+#: views/templates/course_curriculum_slider.php:116
+#: classes/admin/listing_table/ListQuizes.class.php:100
+#: views/templates/instructor_dashboard/manage-quizes.php:75
+#: views/templates/course/curriculum.php:72
+#: views/templates/course/curriculum.php:103
+msgid "points"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:65
+#: views/templates/instructor_dashboard/quizes_special_settings.php:54
+msgid "points "
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:239
+#: views/templates/instructor_dashboard/courses_special_settings.php:115
+msgid "Points: "
+msgstr ""
+
+#: views/admin/courses_grid.php:182 views/admin/student_leaderboard.php:330
+msgid "Position"
+msgstr ""
+
+#: views/templates/comments-announcements.php:103
+msgid "Post Comment"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_courses.php:47
+msgid "Post ID: "
+msgstr ""
+
+#: views/templates/course/qanda_form.php:20
+msgid "Post Question"
+msgstr ""
+
+#: views/templates/comments-qanda.php:101
+msgid "Post Reply"
+msgstr ""
+
+#: views/templates/single-announcement.php:20
+#: views/templates/single-qanda.php:20
+#: views/templates/course/miniatures-single_announcement.php:8
+msgid "posted"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:66
+#: views/templates/instructor_dashboard/courses_special_settings.php:27
+msgid "Pre-request Courses"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:80
+#: views/templates/instructor_dashboard/courses_special_settings.php:33
+msgid "Pre-request rewarded points"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:60
+#: views/templates/instructor_dashboard/courses_special_settings.php:25
+msgid "Prerequisites"
+msgstr ""
+
+#: views/admin/courses_grid.php:381 views/admin/magic_feat_invoices.php:343
+#: views/admin/student_leaderboard.php:419
+#: classes/admin/listing_table/ListLessons.class.php:178
+msgid "Preview"
+msgstr ""
+
+#: views/admin/post_panel-ulp_lesson.php:22
+#: views/templates/instructor_dashboard/lessons_special_settings.php:7
+msgid "Preview lesson"
+msgstr ""
+
+#: views/templates/lesson/navigation.php:7
+#: views/templates/quiz/navigation.php:4
+msgid "Previous"
+msgstr ""
+
+#: html_functions.php:9
+msgid "Previous Question"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:122
+#: views/templates/instructor_dashboard/quizes_special_settings.php:88
+msgid "Previous Question button"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:132 views/admin/courses_grid.php:157
+#: classes/admin/listing_table/ListOrders.class.php:38
+#: classes/admin/listing_table/ListCourses.class.php:30
+#: views/templates/instructor_dashboard/manage-courses.php:24
+#: views/templates/instructor_dashboard/courses_special_settings.php:57
+msgid "Price"
+msgstr ""
+
+#: views/templates/certificate.php:19
+msgid "Print Certificate"
+msgstr ""
+
+#: views/templates/invoice.php:15
+msgid "Print Invoice"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:308
+#: views/templates/instructor_dashboard/add_edit_courses.php:57
+#: views/templates/instructor_dashboard/add_edit_qanda.php:27
+#: views/templates/instructor_dashboard/add_edit_announcements.php:26
+#: views/templates/instructor_dashboard/add_edit_questions.php:30
+#: views/templates/instructor_dashboard/add_edit_lessons.php:45
+#: views/templates/instructor_dashboard/add_edit_quizes.php:43
+msgid "Privacy"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1991
+msgid "Profile"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:310
+msgid "Profile Photo"
+msgstr ""
+
+#: views/admin/meta_boxes/edit_courses-list_students_table.php:7
+msgid "Progress"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1040
+msgid "Provide a shortcode that display current instructor details."
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:172
+msgid "Public dashboard for instructor"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:51
+msgid "Public description"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:67
+msgid "Public Details to show up"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1861 views/admin/public_workflow.php:9
+msgid "Public Workflow"
+msgstr ""
+
+#: classes/admin/listing_table/QandA.php:125
+#: classes/admin/listing_table/ListCourseReviews.class.php:120
+#: classes/admin/listing_table/Announcements.php:124
+#: views/templates/instructor_dashboard/add_edit_courses.php:60
+#: views/templates/instructor_dashboard/add_edit_qanda.php:30
+#: views/templates/instructor_dashboard/add_edit_announcements.php:29
+#: views/templates/instructor_dashboard/add_edit_questions.php:33
+#: views/templates/instructor_dashboard/add_edit_lessons.php:48
+#: views/templates/instructor_dashboard/add_edit_quizes.php:46
+msgid "Publish"
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:23
+msgid "Publishable Key:"
+msgstr ""
+
+#: views/admin/help.php:31
+msgid "Purchase Code"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:278
+msgid "Pushover Message:"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:252
+msgid "Pushover Notification"
+msgstr ""
+
+#: views/admin/pushover.php:5
+msgid "Pushover Notifications"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1080 classes/post_types/QandaUlp.php:20
+#: classes/post_types/QandaUlp.php:21 classes/post_types/QandaUlp.php:32
+#: classes/public/SingleCourseMenu.php:13 views/admin/public_workflow.php:72
+#: classes/admin/listing_table/ListCourses.class.php:34
+#: views/templates/instructor_dashboard/manage-courses.php:21
+#: views/templates/instructor_dashboard/manage-qanda.php:2
+msgid "Q&A"
+msgstr ""
+
+#: views/admin/qanda_magic_feat.php:5
+msgid "Q&A (Questions&Answers) Section"
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:36 classes/post_types/QandaUlp.php:39
+#: classes/post_types/QandaUlp.php:46
+msgid "Q&A Categories"
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:37
+msgid "Q&A Category"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:201
+msgid "Q&A constants"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:157
+msgid "Q&A Form"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:49
+msgid "Q&A Notifications"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:162
+msgid "Q&A Search bar"
+msgstr ""
+
+#: classes/admin/listing_table/QandA.php:39
+msgid "Q&A Title"
+msgstr ""
+
+#: views/admin/public_workflow.php:47
+msgid "Query variables"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:22
+#: classes/admin/listing_table/ListQuestions.class.php:25
+#: views/templates/instructor_dashboard/questions_answer.php:271
+#: views/admin/meta_boxes/questions_answer.php:458
+msgid "Question"
+msgstr ""
+
+#: classes/public/UlpPrintQuestion.class.php:306
+msgid "Question "
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_questions.php:92
+msgid "Question Answer"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:36
+#: classes/post_types/QuestionsUlp.class.php:39
+#: classes/post_types/QuestionsUlp.class.php:46
+msgid "Question Categories"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:738
+msgid "Question categories"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:37
+msgid "Question Category"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_qanda.php:43
+msgid "Question Content"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_questions.php:45
+msgid "Question Description"
+msgstr ""
+
+#: views/admin/post_panel-ulp_question.php:39
+#: views/templates/instructor_dashboard/questions_special_settings.php:38
+msgid "Question Explanation"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:100
+#: views/templates/instructor_dashboard/quizes_special_settings.php:76
+msgid "Question Order"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_qanda.php:18
+#: views/templates/instructor_dashboard/manage-qanda.php:12
+msgid "Question Title"
+msgstr ""
+
+#: views/templates/course/qanda_form.php:13
+msgid "Question title"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:55 classes/MainAdminUlp.class.php:297
+#: classes/MainAdminUlp.class.php:2177
+#: classes/post_types/QuestionsUlp.class.php:21
+#: classes/post_types/QuestionsUlp.class.php:33
+#: classes/public/InstructorDashboard.php:157 views/admin/questions.php:1
+#: views/admin/public_workflow.php:64
+#: classes/admin/listing_table/ListQuizes.class.php:27
+#: views/templates/instructor_dashboard/manage-questions.php:2
+#: views/templates/instructor_dashboard/manage-quizes.php:15
+msgid "Questions"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:26
+#: views/templates/instructor_dashboard/manage-questions.php:13
+msgid "Quiz"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:173
+#: views/templates/instructor_dashboard/courses_special_settings.php:78
+msgid ""
+"Quiz average: the average value of all the quiz grades must be at least 70%;"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:36
+#: classes/post_types/QuizesUlp.class.php:39
+#: classes/post_types/QuizesUlp.class.php:46
+msgid "Quiz Categories"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:705
+msgid "Quiz categories"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:37
+msgid "Quiz Category"
+msgstr ""
+
+#: views/templates/instructor_dashboard/add_edit_quizes.php:58
+msgid "Quiz Description"
+msgstr ""
+
+#: views/admin/messages.php:141
+msgid "Quiz not completed"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3480
+msgid "Quiz passed"
+msgstr ""
+
+#: views/admin/post_panel-ulp_question.php:14
+#: views/templates/instructor_dashboard/questions_special_settings.php:12
+msgid "Quiz Points"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:51
+#: views/templates/instructor_dashboard/add_edit_quizes.php:101
+#: views/admin/meta_boxes/quiz_abovelinks.php:7
+msgid "Quiz Questions"
+msgstr ""
+
+#: views/admin/messages.php:147
+msgid "Quiz result"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:20
+#: views/templates/instructor_dashboard/quizes_special_settings.php:9
+msgid "Quiz Timeout"
+msgstr ""
+
+#: views/templates/gradebook.php:7
+#: views/templates/instructor_dashboard/add_edit_quizes.php:34
+msgid "Quiz Title"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:145
+#: views/templates/instructor_dashboard/quizes_special_settings.php:102
+msgid "Quiz Workflow"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:21
+#: classes/post_types/QuizesUlp.class.php:22
+#: classes/post_types/QuizesUlp.class.php:33 views/admin/messages.php:138
+#: views/admin/public_workflow.php:56
+msgid "Quizes"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:54 classes/MainAdminUlp.class.php:296
+#: classes/MainAdminUlp.class.php:2176
+#: classes/public/InstructorDashboard.php:151 views/admin/quizes.php:1
+#: views/templates/instructor_dashboard/manage-quizes.php:3
+msgid "Quizzes"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:185
+#: views/templates/instructor_dashboard/courses_special_settings.php:87
+msgid "Quizzes average"
+msgstr ""
+
+#: views/admin/student_leaderboard.php:222
+msgid "Random"
+msgstr ""
+
+#: classes/admin/listing_table/ListCourseReviews.class.php:41
+msgid "Rating"
+msgstr ""
+
+#: views/templates/instructor_dashboard/miniatures-overview_single_course.php:25
+#: views/templates/course/more_courses_by-single_course.php:25
+msgid "Rating "
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:407
+#: views/templates/instructor_dashboard/courses_special_settings.php:198
+msgid "Re-take course"
+msgstr ""
+
+#: views/admin/student_badges.php:174
+msgid "Reason: "
+msgstr ""
+
+#: views/admin/student_badges.php:168
+msgid "Received "
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3473
+msgid "Received badge"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3472
+msgid "Received certificate."
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3471
+msgid "Received points"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1863 views/admin/redirects.php:6
+msgid "Redirects"
+msgstr ""
+
+#: views/admin/student_leaderboard.php:216
+msgid "Register Date"
+msgstr ""
+
+#: views/admin/dashboard.php:72
+msgid "Register on "
+msgstr ""
+
+#: views/admin/showcases_account_page.php:64
+#: views/admin/showcases_account_page.php:406
+msgid "Regular constants"
+msgstr ""
+
+#: views/templates/instructor_dashboard/lesson_drip_content.php:7
+#: views/admin/meta_boxes/lesson_drip_content.php:18
+msgid ""
+"Release content at regular intervals, by creating a release schedule for "
+"your content."
+msgstr ""
+
+#: views/templates/single-course-visitor.php:86
+#: views/templates/single-course-coming-soon.php:121
+#: views/templates/instructor_dashboard/lesson_drip_content.php:22
+#: views/admin/meta_boxes/lesson_drip_content.php:23
+msgid "Release Time"
+msgstr ""
+
+#: views/templates/list_notes.php:10
+#: views/admin/add_edit_wp_user_manage_certificates.php:15
+#: views/admin/instructors.php:152
+#: views/admin/add_edit_wp_user_manage_badges.php:25
+#: views/admin/add_edit_wp_user_enrolled_courses.php:11
+#: views/templates/instructor_dashboard/settings.php:136
+#: views/templates/instructor_dashboard/settings.php:138
+#: views/templates/student_profile/upload_image.php:29
+#: views/admin/meta_boxes/edit_courses-list_students_table.php:8
+msgid "Remove"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:114
+msgid "Remove Background Image"
+msgstr ""
+
+#: views/admin/edit_wp_user-become_instructor.php:7
+msgid "Remove from Instructors list"
+msgstr ""
+
+#: views/admin/course_add_new_module.php:21
+msgid "Remove Section"
+msgstr ""
+
+#: views/admin/student_account_custom_tabs.php:97
+msgid "ReOrder Menu Items"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:413
+#: views/templates/instructor_dashboard/courses_special_settings.php:202
+msgid "Repeat"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:88
+#: views/admin/student_badges_add_edit.php:108
+msgid "Request"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:70
+#: views/admin/meta_boxes/questions_answer.php:113
+msgid "Required Answer"
+msgstr ""
+
+#: views/templates/single-quiz.php:55
+msgid "Requires "
+msgstr ""
+
+#: views/templates/student_profile/profile.php:31
+msgid "Reset Password"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:309
+msgid "Reset password"
+msgstr ""
+
+#: views/admin/students.php:137
+msgid "Reset Points"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:84
+msgid "Reset Your Password"
+msgstr ""
+
+#: views/templates/single-qanda.php:21
+#: views/templates/course/miniatures-single_qanda.php:19
+msgid "Responses"
+msgstr ""
+
+#: views/admin/courses_grid.php:336
+msgid "Responsive"
+msgstr ""
+
+#: views/admin/course_reviews.php:20
+msgid "Restrict student to write only one review per course"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:179
+#: views/templates/instructor_dashboard/courses_special_settings.php:84
+msgid "Result based on"
+msgstr ""
+
+#: views/templates/single-quiz.php:32
+msgid "Retake  "
+msgstr ""
+
+#: views/templates/course/retake_button.php:4
+msgid "Retake Course"
+msgstr ""
+
+#: views/templates/quiz/retake_button.php:2
+msgid "ReTake Quiz"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:162
+#: views/templates/instructor_dashboard/quizes_special_settings.php:117
+msgid "Retake Quiz"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:37
+msgid "Return student reward points"
+msgstr ""
+
+#: views/templates/write_course_review.php:14
+#: classes/admin/listing_table/ListCourseReviews.class.php:39
+msgid "Review Title"
+msgstr ""
+
+#: classes/admin/listing_table/ListCourses.class.php:36
+#: views/templates/instructors/single_instructor_box.php:31
+#: views/templates/instructors/single-instructor.php:36
+#: views/admin/meta_boxes/courses_abovelinks.php:11
+msgid "Reviews"
+msgstr ""
+
+#: views/admin/help.php:40
+msgid "Revoke License"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:81
+#: views/templates/single-course.php:89
+#: views/templates/single-course-coming-soon.php:116
+#: views/admin/general_settings.php:30
+#: views/admin/add_edit_wp_user_edit_points.php:2
+#: views/admin/post_panel-ulp_quiz.php:61
+#: views/templates/instructor_dashboard/quizes_special_settings.php:50
+msgid "Reward Points"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:114
+msgid "Reward points"
+msgstr ""
+
+#: views/templates/single-quiz.php:45
+msgid "Reward Points  "
+msgstr ""
+
+#: views/admin/post_panel-ulp_lesson.php:41
+#: views/templates/instructor_dashboard/lessons_special_settings.php:26
+msgid "Reward Points: "
+msgstr ""
+
+#: views/admin/student_leaderboard.php:214
+#: views/admin/student_leaderboard.php:276 views/admin/students.php:48
+#: views/admin/students.php:64
+msgid "Rewarded Points"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuizes.class.php:30
+#: classes/admin/listing_table/ListCourses.class.php:37
+#: classes/admin/listing_table/ListLessons.class.php:28
+#: views/templates/instructor_dashboard/manage-lessons.php:16
+#: views/templates/instructor_dashboard/manage-quizes.php:18
+msgid "Rewards"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:233
+#: views/templates/instructor_dashboard/courses_special_settings.php:111
+msgid "Rewards: "
+msgstr ""
+
+#: views/admin/payment_settings.php:64
+msgid "Right"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:217
+#: views/admin/meta_boxes/questions_answer.php:401
+msgid "Right Answer:"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:250
+#: views/admin/meta_boxes/questions_answer.php:436
+msgid "Right Answers:"
+msgstr ""
+
+#: views/admin/access.php:6
+msgid "Roles allowed to enter into WordPress Admin Dashboard:"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1338
+msgid "Rounded Big Image Theme"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:70
+msgid "Rule Type"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:130
+msgid "Rule Value"
+msgstr ""
+
+#: views/templates/list_courses.php:9 views/templates/watch_list-the_list.php:9
+#: views/templates/student_profile/my_courses.php:12
+msgid "Sale"
+msgstr ""
+
+#: views/admin/payment_services_paypal.php:31
+#: views/admin/payment_services_2checkout.php:12
+msgid "SandBox Mode"
+msgstr ""
+
+#: views/admin/announcements.php:48 views/admin/showcases_account_page.php:212
+#: views/admin/showcases_account_page.php:456
+#: views/admin/showcases_account_page.php:514
+#: views/admin/showcases_account_page.php:552
+#: views/admin/general_options_notifications.php:39
+#: views/admin/woocommerce_payment.php:29
+#: views/admin/post_panel-ulp_question.php:51 views/admin/bbpress.php:19
+#: views/admin/pushover.php:60 views/admin/pushover.php:102
+#: views/admin/student_badges.php:40 views/admin/curriculum_slider.php:54
+#: views/admin/payment_settings.php:188 views/admin/default_pages.php:133
+#: views/admin/gradebook.php:27 views/admin/course_time_period.php:25
+#: views/admin/notes.php:28 views/admin/about_the_instructor.php:27
+#: views/admin/frontendcourse.php:44 views/admin/post_panel-ulp_course.php:611
+#: views/admin/admin_workflow.php:57 views/admin/ump_payment.php:28
+#: views/admin/2checkout_magic_feat.php:48
+#: views/admin/student_badges_add_edit.php:186
+#: views/admin/lesson_drip_content_settings.php:29
+#: views/admin/stripe_magic_feat.php:26 views/admin/course_difficulty.php:19
+#: views/admin/edd_payment.php:29 views/admin/certificates_magic_feat.php:29
+#: views/admin/custom_currencies.php:23 views/admin/mycred.php:25
+#: views/admin/payment_services_paypal.php:73
+#: views/admin/general_settings.php:114
+#: views/admin/student_account_custom_tabs.php:43
+#: views/admin/student_account_custom_tabs.php:86
+#: views/admin/student_account_custom_tabs.php:154
+#: views/admin/payment_services_stripe.php:119 views/admin/coming_soon.php:43
+#: views/admin/messages.php:168 views/admin/public_workflow.php:92
+#: views/admin/qanda_magic_feat.php:49 views/admin/magic_feat_invoices.php:316
+#: views/admin/access.php:50 views/admin/students_also_bought.php:55
+#: views/admin/payment_services_2checkout.php:118
+#: views/admin/post_panel-ulp_quiz.php:181
+#: views/admin/post_panel-ulp_certificate.php:39
+#: views/admin/notifications_add_edit.php:228
+#: views/admin/notifications_add_edit.php:290 views/admin/redirects.php:79
+#: views/admin/post_panel-ulp_lesson.php:100
+#: views/admin/payment_services_bt.php:75 views/admin/paypal_magic_feat.php:26
+#: views/admin/watch_list.php:30 views/admin/buddypress.php:48
+#: views/admin/multiple_instructors.php:35
+#: views/admin/courses_tags_add_edit.php:48 views/admin/more_courses_by.php:35
+#: views/templates/instructor_dashboard/settings.php:77
+#: views/templates/instructor_dashboard/settings.php:183
+#: views/templates/instructor_dashboard/add_edit_courses.php:153
+#: views/templates/instructor_dashboard/add_edit_qanda.php:97
+#: views/templates/instructor_dashboard/add_edit_announcements.php:75
+#: views/templates/instructor_dashboard/courses_special_settings.php:330
+#: views/templates/instructor_dashboard/add_edit_questions.php:102
+#: views/templates/instructor_dashboard/questions_special_settings.php:50
+#: views/templates/instructor_dashboard/quizes_special_settings.php:130
+#: views/templates/instructor_dashboard/add_edit_lessons.php:145
+#: views/templates/instructor_dashboard/lessons_special_settings.php:75
+#: views/templates/instructor_dashboard/add_edit_quizes.php:111
+#: views/admin/meta_boxes/order_metas.php:89
+msgid "Save Changes"
+msgstr ""
+
+#: views/templates/watch_list_bttn.php:12
+msgid "Save to Wishlist"
+msgstr ""
+
+#: views/templates/notes_form_popup.php:20
+msgid "Save your Note"
+msgstr ""
+
+#: classes/Abstracts/Indeed_List_Table.class.php:208
+#: views/admin/instructors.php:55 views/admin/students.php:28
+msgid "Search"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:29
+msgid "Search Announcement"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:39
+msgid "Search Announcement Category"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:25
+msgid "Search Certificate"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:34
+msgid "Search Certificate Category"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:38
+msgid "Search Course"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:48
+msgid "Search Course Category"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:32
+msgid "Search Course Review"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:42
+msgid "Search Course Review Category"
+msgstr ""
+
+#: classes/traits/RegisterCourseTags.php:18
+msgid "Search Course Tag"
+msgstr ""
+
+#: views/templates/course/qanda_search_bar.php:5
+msgid "Search for a Question"
+msgstr ""
+
+#: classes/post_types/InstructorsUlp.php:25
+msgid "Search Instructor"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:25
+msgid "Search Lesson"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:34
+msgid "Search Lesson Category"
+msgstr ""
+
+#: classes/post_types/OrderUlp.class.php:31
+msgid "Search Order"
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:28
+msgid "Search Q&A"
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:38
+msgid "Search Q&A Category"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:29
+msgid "Search Question"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:38
+msgid "Search Question Category"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:29
+msgid "Search Quiz"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:38
+msgid "Search Quiz Category"
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:31
+msgid "Secret Key:"
+msgstr ""
+
+#: views/admin/payment_services_2checkout.php:43
+msgid "Secret word:"
+msgstr ""
+
+#: views/admin/course_add_new_module.php:10
+msgid "Section name..."
+msgstr ""
+
+#: views/admin/courses_grid.php:136
+msgid "Select by category"
+msgstr ""
+
+#: views/admin/meta_boxes/qanda_select_course.php:2
+#: views/admin/meta_boxes/review_select_course.php:2
+#: views/admin/meta_boxes/announcement_select_course.php:2
+msgid "Select course"
+msgstr ""
+
+#: views/admin/courses_grid.php:31 views/admin/student_leaderboard.php:47
+msgid "Select Template"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:33
+#: views/admin/showcases_account_page.php:238
+msgid "Select Template:"
+msgstr ""
+
+#: views/admin/notification-email-send-test.php:4
+msgid "Send a Test Email"
+msgstr ""
+
+#: views/admin/send_email_popup.php:44
+msgid "Send Email"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:258
+msgid "Send Pushover Notification"
+msgstr ""
+
+#: views/admin/notifications.php:99
+msgid "Send Test Email"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:181
+msgid "Senior Instructor"
+msgstr ""
+
+#: views/admin/notification-email-send-test.php:10
+msgid "Sent a test to"
+msgstr ""
+
+#: views/admin/notification-email-send-test.php:17
+msgid "Sent Test"
+msgstr ""
+
+#: views/admin/payment_settings.php:90
+msgid "Separators"
+msgstr ""
+
+#: views/admin/post_panel-ulp_question.php:15
+#: views/templates/instructor_dashboard/questions_special_settings.php:13
+msgid ""
+"Set how many points to complete the Quiz a user receives for answering this "
+"question."
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:235
+#: views/templates/instructor_dashboard/courses_special_settings.php:112
+msgid "Set how many reward points a user receives for completing this course."
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:929
+msgid "Set multiple instructors for a course"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:82
+#: views/templates/instructor_dashboard/courses_special_settings.php:34
+msgid ""
+"Set the minimal value of reward points required by a user, in order to "
+"access this course."
+msgstr ""
+
+#: views/admin/page-meta_box.php:2
+msgid "Set the Page as:"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:163
+#: views/admin/2checkout_magic_feat.php:40 views/admin/stripe_magic_feat.php:22
+#: views/admin/import_export.php:23 views/admin/paypal_magic_feat.php:22
+#: views/templates/instructor_dashboard/settings.php:1
+msgid "Settings"
+msgstr ""
+
+#: classes/Abstracts/CustomPostTypeUlp.class.php:223
+msgid "Settings will be available after you save the post."
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:16
+msgid "Setup Video"
+msgstr ""
+
+#: views/admin/course_add_new_module.php:19
+msgid "Shift Section"
+msgstr ""
+
+#: views/admin/shortcodes.php:7
+msgid "Shortcode"
+msgstr ""
+
+#: views/admin/courses_grid.php:369 views/admin/student_leaderboard.php:395
+msgid "ShortCode :"
+msgstr ""
+
+#: views/admin/courses_grid.php:15 views/admin/student_leaderboard.php:15
+msgid "ShortCode Generator"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:60 classes/MainAdminUlp.class.php:2185
+msgid "Shortcodes"
+msgstr ""
+
+#: views/admin/post_panel-ulp_lesson.php:55
+#: views/templates/instructor_dashboard/lessons_special_settings.php:38
+msgid "Show 'back to course' link: "
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:58
+msgid "Show avatar"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:134
+msgid "Show Avatar Image"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:59
+msgid "Show average rating"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:62
+msgid "Show biography"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:582
+msgid "Show countdown"
+msgstr ""
+
+#: views/templates/instructor_dashboard/courses_special_settings.php:317
+msgid "Show Countdown on Course page"
+msgstr ""
+
+#: views/admin/public_workflow.php:78
+msgid "Show course curriculum as tab"
+msgstr ""
+
+#: views/admin/admin_workflow.php:11
+msgid "Show dashboard notifications"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:90
+#: views/templates/instructor_dashboard/quizes_special_settings.php:73
+msgid "Show explanation message for each question"
+msgstr ""
+
+#: views/admin/courses_grid.php:85 views/admin/student_leaderboard.php:162
+msgid "Show Fields Label"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:79
+#: views/templates/instructor_dashboard/quizes_special_settings.php:67
+msgid "Show hint message for each question"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:127
+msgid "Show instructor details"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:61
+msgid "Show instructor name"
+msgstr ""
+
+#: views/templates/list_qanda.php:18 views/templates/list_announcements.php:19
+#: views/templates/course_review_list.php:19
+#: views/templates/instructor_dashboard/listing_comments.php:31
+msgid "Show More"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:63
+msgid "Show number of courses"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:60
+msgid "Show number of reviews"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:64
+msgid "Show number of students"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:49
+msgid "Show only for 'Completed' Payment"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:123
+#: views/templates/instructor_dashboard/quizes_special_settings.php:91
+msgid "Show previous question button (available only in default workflow)"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:101
+#: views/templates/instructor_dashboard/quizes_special_settings.php:79
+msgid "Show questions randomly every time"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:122
+msgid "Show reviews rating average inside an awesome box"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:156
+msgid "Show Reward Points"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:178
+msgid "Show Student Badges"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:58 classes/MainAdminUlp.class.php:2169
+msgid "Showcases"
+msgstr ""
+
+#: views/grid/themes/students/theme_1/index.php:23
+#: views/grid/themes/students/theme_2/index.php:26
+msgid "Since: "
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:119
+#: views/admin/meta_boxes/questions_answer.php:210
+msgid "Single Choices"
+msgstr ""
+
+#: views/admin/public_workflow.php:17
+msgid "Single Course Thumbnail"
+msgstr ""
+
+#: views/admin/pushover.php:88
+msgid "Siren"
+msgstr ""
+
+#: views/admin/courses_grid.php:227
+msgid "Slider Timeout:"
+msgstr ""
+
+#: views/admin/courses_grid.php:210
+msgid "SlideShow display"
+msgstr ""
+
+#: views/admin/courses_tags.php:17
+#: views/admin/student_account_custom_tabs.php:103
+#: views/admin/student_account_custom_tabs.php:112
+msgid "Slug"
+msgstr ""
+
+#: views/admin/courses_tags_add_edit.php:16
+msgid ""
+"slug must be unique and based only on lowercase characters and not "
+"additional symbols"
+msgstr ""
+
+#: views/admin/course_difficulty.php:30
+#: views/admin/student_account_custom_tabs.php:61
+#: views/admin/courses_tags_add_edit.php:13
+msgid "Slug:"
+msgstr ""
+
+#: views/admin/notifications.php:9
+msgid "Something is not working properly. Please try again."
+msgstr ""
+
+#: classes/AjaxUlp.class.php:499 classes/AjaxUlp.class.php:511
+#: classes/AjaxUlp.class.php:531 classes/AjaxUlp.class.php:539
+msgid "Something went wrong, please try again later!"
+msgstr ""
+
+#: classes/AjaxUlp.class.php:1491
+msgid "Something went wrong, please try again!"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:56
+#: views/templates/instructor_dashboard/manage-questions.php:64
+#: views/templates/instructor_dashboard/questions_answer.php:35
+#: views/templates/instructor_dashboard/questions_answer.php:174
+#: views/admin/meta_boxes/questions_answer.php:49
+#: views/admin/meta_boxes/questions_answer.php:332
+msgid "Sorting answers"
+msgstr ""
+
+#: classes/admin/listing_table/ListOrders.class.php:39
+#: views/admin/meta_boxes/order_metas.php:18
+msgid "Source"
+msgstr ""
+
+#: views/admin/pushover.php:89
+msgid "Space Alarm"
+msgstr ""
+
+#: classes/Abstracts/Indeed_List_Table.class.php:96
+#: classes/Abstracts/CustomPostTypeUlp.class.php:213
+#: views/admin/post_panel-ulp_question.php:6
+#: classes/admin/listing_table/ListQuestions.class.php:98
+#: classes/admin/listing_table/ListCourseReviews.class.php:113
+#: classes/admin/listing_table/ListQuizes.class.php:119
+#: classes/admin/listing_table/ListCourses.class.php:196
+#: classes/admin/listing_table/ListCertificates.class.php:94
+#: classes/admin/listing_table/ListLessons.class.php:184
+#: views/templates/instructor_dashboard/questions_special_settings.php:5
+#: views/admin/meta_boxes/lessons_abovelinks.php:6
+#: views/admin/meta_boxes/quiz_abovelinks.php:6
+#: views/admin/meta_boxes/courses_abovelinks.php:6
+msgid "Special Settings"
+msgstr ""
+
+#: views/admin/admin_workflow.php:25
+#: views/templates/instructor_dashboard/manage-courses.php:57
+#: views/templates/instructor_dashboard/manage-lessons.php:38
+#: views/templates/instructor_dashboard/manage-questions.php:39
+#: views/templates/instructor_dashboard/manage-quizes.php:40
+msgid "Special settings"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1337
+msgid "Square Top Image Theme"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:202
+msgid "Standard Fields constants"
+msgstr ""
+
+#: views/templates/quiz/start_button.php:3
+#: views/templates/quiz/start_button.php:9
+msgid "Start Quiz"
+msgstr ""
+
+#: views/templates/single-course.php:27
+msgid "starting with "
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:76
+msgid "Static"
+msgstr ""
+
+#: views/templates/list_orders.php:14 classes/admin/listing_table/QandA.php:43
+#: classes/admin/listing_table/ListOrders.class.php:41
+#: classes/admin/listing_table/ListCourseReviews.class.php:43
+#: classes/admin/listing_table/Announcements.php:42
+#: views/templates/instructor_dashboard/manage-qanda.php:15
+#: views/templates/instructor_dashboard/manage-announcements.php:15
+msgid "Status"
+msgstr ""
+
+#: views/admin/courses_grid.php:332
+msgid "Stop On Hover"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:551
+#: classes/Payment_Services/Ulp_Payment_Services_Details.class.php:20
+msgid "Stripe"
+msgstr ""
+
+#: views/admin/messages.php:152
+msgid "Stripe payment"
+msgstr ""
+
+#: views/admin/stripe_magic_feat.php:5
+#: views/admin/payment_services_stripe.php:6
+msgid "Stripe Payment Integration"
+msgstr ""
+
+#: views/admin/certificates_magic_feat.php:59 views/admin/notifications.php:74
+#: classes/admin/listing_table/ListOrders.class.php:36
+#: classes/admin/listing_table/ListCourseReviews.class.php:42
+#: views/admin/meta_boxes/edit_courses-list_students_table.php:5
+msgid "Student"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:132
+msgid "Student also bought magic feature"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:169
+msgid "Student ask question"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:956
+msgid "Student Badges"
+msgstr ""
+
+#: views/admin/student_badges.php:3
+msgid "Student badges"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:978
+msgid "Student can save courses in a special place to enroll later"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:170
+msgid "Student comment on announcement"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:171
+msgid "Student enroll on course"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:2171 views/admin/showcases.php:19
+#: views/admin/student_leaderboard.php:5
+msgid "Student Leaderboard"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:949
+msgid "Student Notes"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:34
+msgid "Student Notifications"
+msgstr ""
+
+#: views/admin/default_pages.php:33
+msgid "Student Profile"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:686 classes/Db/DbUlp.class.php:2598
+#: views/admin/popup-shortcodes.php:12
+msgid "Student profile"
+msgstr ""
+
+#: classes/public/ShortcodesUlp.class.php:32
+msgid "Student profile page"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:168
+msgid "Student reply on question"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:190
+msgid "Student: Instructor reply to student Question"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:186
+msgid "Student: New Announcement submitted"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:50 views/admin/post_panel-ulp_course.php:399
+#: views/admin/import_export.php:7 views/admin/students.php:3
+#: classes/admin/listing_table/ListCourses.class.php:29
+#: views/templates/instructor_dashboard/manage-courses.php:22
+#: views/templates/instructor_dashboard/courses_special_settings.php:194
+#: views/templates/instructors/single_instructor_box.php:21
+#: views/admin/meta_boxes/courses_abovelinks.php:8
+msgid "Students"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:35
+#: views/templates/single-course-visitor.php:36
+#: views/templates/list_courses.php:36 views/templates/list_courses.php:37
+#: views/templates/single-course.php:64 views/templates/single-course.php:65
+#: views/templates/watch_list-the_list.php:39
+#: views/templates/watch_list-the_list.php:40
+#: views/templates/instructor_dashboard/manage-courses.php:103
+#: views/templates/instructor_dashboard/miniatures-overview_single_course.php:30
+#: views/templates/instructor_dashboard/miniatures-overview_single_course.php:31
+#: views/templates/course/more_courses_by-single_course.php:30
+#: views/templates/course/more_courses_by-single_course.php:31
+#: views/templates/course/miniatures-single_course.php:22
+#: views/templates/student_profile/my_courses.php:40
+#: views/templates/student_profile/my_courses.php:41
+msgid "Students "
+msgstr ""
+
+#: views/admin/students_also_bought.php:5
+#: views/templates/course/students_also_bought.php:3
+msgid "Students also Bought"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1046
+msgid "Students also Bought Box"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:985
+msgid "Students can earn MyCred points"
+msgstr ""
+
+#: views/admin/qanda_magic_feat.php:36
+msgid ""
+"Students can Search for questions or submit a new one from Course page under "
+"Q&A tab"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:971
+msgid "Students can see their grades"
+msgstr ""
+
+#: views/admin/qanda_magic_feat.php:12
+msgid ""
+"Students can submit new questions to Author/Instructor for each course or "
+"search for previous questions"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:950
+msgid "Students can take notes"
+msgstr ""
+
+#: views/templates/instructor_dashboard/listing_students.php:2
+msgid "Students for "
+msgstr ""
+
+#: views/admin/courses_grid.php:29 views/admin/student_leaderboard.php:43
+msgid "Style options"
+msgstr ""
+
+#: views/admin/send_email_popup.php:29 views/admin/notifications.php:19
+#: views/admin/notifications.php:31
+msgid "Subject"
+msgstr ""
+
+#: views/admin/notifications_add_edit.php:89
+msgid "Subject:"
+msgstr ""
+
+#: views/templates/instructor_dashboard/listing_comments.php:13
+msgid "Submit"
+msgstr ""
+
+#: views/admin/help.php:112
+msgid "Submit Ticket"
+msgstr ""
+
+#: views/admin/payment_settings.php:24
+msgid "System Currency"
+msgstr ""
+
+#: views/templates/notes_form_popup.php:5
+msgid "Take a Note"
+msgstr ""
+
+#: views/templates/notes_trigger.php:3
+msgid "Take a note!"
+msgstr ""
+
+#: views/admin/edd_select_course.php:5 views/admin/ump_html_into_levels.php:5
+#: views/admin/woocommerce_select_course.php:4
+#: views/admin/post_panel-ulp_certificate.php:19
+#: views/templates/instructor_dashboard/manage-qanda.php:13
+#: views/templates/instructor_dashboard/manage-announcements.php:13
+msgid "Target Course"
+msgstr ""
+
+#: classes/admin/listing_table/QandA.php:40
+#: classes/admin/listing_table/ListCourseReviews.class.php:40
+#: classes/admin/listing_table/Announcements.php:39
+msgid "Target course"
+msgstr ""
+
+#: views/templates/single-course-visitor.php:31
+#: views/templates/list_courses.php:32 views/templates/single-course.php:60
+#: views/templates/single-course-coming-soon.php:30
+#: views/templates/watch_list-the_list.php:35
+#: views/templates/student_profile/my_courses.php:36
+msgid "Teacher "
+msgstr ""
+
+#: views/admin/courses_grid.php:35 views/admin/student_leaderboard.php:55
+#: views/admin/student_leaderboard.php:57
+msgid "Template"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:85
+msgid "Template 1"
+msgstr ""
+
+#: views/admin/magic_feat_invoices.php:85
+msgid "Template 2"
+msgstr ""
+
+#: views/admin/showcases.php:12
+msgid "Templates, ShowUp fields, ShowUp Tabs, Predefined Overview"
+msgstr ""
+
+#: views/admin/payment_services_stripe.php:102
+msgid "Test Credentials"
+msgstr ""
+
+#: classes/AjaxUlp.class.php:590
+msgid "Testing Your E-mail Server"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:77
+msgid ""
+"The <strong>{bear|wolf}</strong> is bigger than a <strong>{rabbit}</strong>"
+msgstr ""
+
+#: views/admin/showcases.php:20
+msgid "The best Students on the wall"
+msgstr ""
+
+#: views/admin/coming_soon.php:12
+msgid ""
+"The best way to promote your next coming courses and convinge Students to "
+"set them into their WhishList"
+msgstr ""
+
+#: views/admin/students_also_bought.php:47
+msgid ""
+"The Box will not show up if there are not enought Courses to be displayed."
+msgstr ""
+
+#: views/admin/coming_soon.php:31
+msgid ""
+"The Coming Soon brief description will replace the Course content with an "
+"additional Count Down listed if is desirable."
+msgstr ""
+
+#: classes/admin/listing_table/ListOrders.class.php:80
+msgid "The course no longer exists. (ID="
+msgstr ""
+
+#: views/admin/showcases_account_page.php:90
+msgid "The cover or background image, based on what theme you have chosen."
+msgstr ""
+
+#: views/admin/courses_grid.php:107
+msgid ""
+"The List of courses can be ordered by specific criterias and different "
+"direction."
+msgstr ""
+
+#: views/admin/student_leaderboard.php:204
+msgid ""
+"The List of students can be ordered by specific criterias and different "
+"direction."
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:395
+#: views/templates/instructor_dashboard/courses_special_settings.php:191
+msgid "The maximum number of students that can join this course."
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:571
+#: views/templates/instructor_dashboard/courses_special_settings.php:302
+msgid "The message"
+msgstr ""
+
+#: views/admin/post_panel-ulp_lesson.php:39
+#: views/templates/instructor_dashboard/lessons_special_settings.php:24
+msgid "The number of reward points a user earns by completing this lesson."
+msgstr ""
+
+#: views/admin/meta_boxes/questions_answer.php:120
+msgid "The {bear|wolf} is bigger than a {rabbit}"
+msgstr ""
+
+#: views/admin/courses_grid.php:192 views/admin/student_leaderboard.php:350
+msgid "Theme"
+msgstr ""
+
+#: views/admin/2checkout_magic_feat.php:38
+msgid "This feature integrates the direct payment through 2Checkout."
+msgstr ""
+
+#: views/admin/paypal_magic_feat.php:21
+msgid "This feature integrates the direct payment through PayPal."
+msgstr ""
+
+#: views/admin/stripe_magic_feat.php:21
+msgid "This feature integrates the direct payment through Stripe."
+msgstr ""
+
+#: views/admin/buddypress.php:12
+msgid "This feature will add a new tab in your BuddyPress Public Profile."
+msgstr ""
+
+#: classes/public/Ulp_Student_Profile.class.php:152
+msgid ""
+"This is a Trial Version of Ultimate Learning Pro plugin. Please add your "
+"purchase code into Licence section to enable the Full Ultimate Learning Pro "
+"Version."
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:372
+msgid ""
+"This is a Trial Version of Ultimate Learning Pro plugin. Please add your "
+"purchase code into Licence section to enable the Full Ultimate Learning Pro "
+"Version. Check your "
+msgstr ""
+
+#: views/admin/payment_settings.php:94
+msgid "Thousands Separator"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:76
+msgid "Tier"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:23
+#: views/templates/instructor_dashboard/quizes_special_settings.php:13
+msgid "Time"
+msgstr ""
+
+#: views/templates/single-quiz.php:15
+msgid "Time "
+msgstr ""
+
+#: views/admin/showcases_account_page.php:355 views/admin/student_badges.php:98
+#: views/admin/post_panel-ulp_course.php:275
+#: views/admin/student_badges_add_edit.php:26
+#: classes/admin/listing_table/ListQuizes.class.php:25
+#: classes/admin/listing_table/ListCourses.class.php:27
+#: classes/admin/listing_table/ListCertificates.class.php:39
+#: classes/admin/listing_table/ListLessons.class.php:25
+#: views/templates/instructor_dashboard/manage-courses.php:18
+#: views/templates/instructor_dashboard/courses_special_settings.php:131
+#: views/templates/instructor_dashboard/manage-lessons.php:13
+#: views/templates/instructor_dashboard/manage-questions.php:12
+#: views/templates/instructor_dashboard/manage-quizes.php:13
+msgid "Title"
+msgstr ""
+
+#: views/admin/send_email_popup.php:21
+msgid "To"
+msgstr ""
+
+#: views/admin/gradebook.php:23
+msgid "To display the gradebook use this shortcode "
+msgstr ""
+
+#: views/admin/watch_list.php:23
+msgid ""
+"To generate a new button which students can use to save courses, use this "
+"shortcode: "
+msgstr ""
+
+#: views/admin/notes.php:23
+msgid ""
+"To generate a new form which students can use to take notes, use this "
+"shortcode [ulp_notes_form]."
+msgstr ""
+
+#: views/admin/more_courses_by.php:24
+msgid ""
+"To show up this additional section use the [ulp-more-courses-by "
+"instructor_id=\" \" course_id=\" \" limit=\" \"] shortcode into your course "
+"template. More details about this shortcode and required or available "
+"attributes can be found into Shortcodes section."
+msgstr ""
+
+#: views/admin/about_the_instructor.php:24
+msgid ""
+"To show up this additional section use the [ulp_about_the_instructor "
+"instructor_id={your desired instructor}] shortcode into your course template."
+" More details about this shortcode and required or available attributes can "
+"be found into Shortcodes section."
+msgstr ""
+
+#: classes/MainPublicUlp.class.php:76 classes/MainAdminUlp.class.php:452
+#: views/admin/course_add_new_module.php:17
+msgid "Toggle Section"
+msgstr ""
+
+#: views/admin/dashboard.php:42
+msgid "Top course"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:25
+msgid "Top Section:"
+msgstr ""
+
+#: views/templates/invoice.php:157
+msgid "Total Amount:"
+msgstr ""
+
+#: views/admin/courses_grid.php:102
+msgid "Total Courses"
+msgstr ""
+
+#: views/templates/invoice.php:105
+msgid "Total Discount:"
+msgstr ""
+
+#: views/admin/dashboard.php:32
+msgid "Total Earnings"
+msgstr ""
+
+#: views/admin/dashboard.php:22
+msgid "Total Instructors"
+msgstr ""
+
+#: views/templates/list_courses.php:46
+msgid "Total lessons: "
+msgstr ""
+
+#: views/templates/list_courses.php:47
+msgid "Total quizzes: "
+msgstr ""
+
+#: views/admin/dashboard.php:12 views/admin/student_leaderboard.php:196
+#: views/templates/instructors/single-instructor.php:59
+msgid "Total Students"
+msgstr ""
+
+#: views/admin/dashboard.php:52
+msgid "Total Students per Course"
+msgstr ""
+
+#: views/templates/invoice.php:119
+msgid "Total Taxes:"
+msgstr ""
+
+#: views/templates/invoice.php:43
+msgid "Transaction ID:"
+msgstr ""
+
+#: classes/Ulp_Demo_Content.class.php:640
+msgid "Trending"
+msgstr ""
+
+#: classes/public/UlpPrintQuestion.class.php:139
+#: views/templates/instructor_dashboard/questions_answer.php:152
+#: views/admin/meta_boxes/questions_answer.php:282
+msgid "True"
+msgstr ""
+
+#: classes/admin/listing_table/ListQuestions.class.php:54
+#: views/templates/instructor_dashboard/manage-questions.php:62
+#: views/templates/instructor_dashboard/questions_answer.php:33
+#: views/admin/meta_boxes/questions_answer.php:45
+msgid "True or False"
+msgstr ""
+
+#: views/admin/pushover.php:90
+msgid "Tug Boat"
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:3
+msgid "Turn the Lesson into a Video one"
+msgstr ""
+
+#: views/admin/student_badges.php:102 views/admin/hooks.php:12
+#: views/admin/hooks.php:36
+#: classes/admin/listing_table/ListQuestions.class.php:27
+#: views/templates/instructor_dashboard/manage-questions.php:14
+msgid "Type"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:24
+#: views/admin/meta_boxes/questions_answer.php:28
+msgid "Type of Question"
+msgstr ""
+
+#: views/templates/instructor_dashboard/lesson_drip_content.php:24
+#: views/admin/meta_boxes/lesson_drip_content.php:26
+msgid "Type:"
+msgstr ""
+
+#: classes/services/Elementor/Elementor_Ulp_Become_Instructor_Widget.php:17
+msgid "ULP - Become Instructor"
+msgstr ""
+
+#: classes/services/Elementor/Elementor_Ulp_Checkout_Widget.php:17
+msgid "ULP - Checkout"
+msgstr ""
+
+#: classes/services/Elementor/Elementor_Ulp_List_Courses_Widget.php:17
+msgid "ULP - List Courses"
+msgstr ""
+
+#: classes/services/Elementor/Elementor_Ulp_List_Watchlist_Widget.php:17
+msgid "ULP - List Watch List"
+msgstr ""
+
+#: classes/services/Elementor/Elementor_Ulp_Student_Profile_Widget.php:17
+msgid "ULP - Student Profile"
+msgstr ""
+
+#: classes/Ulp_WooCommerce_Payment.class.php:12
+#: classes/Ulp_My_Cred_Hooks.class.php:16
+#: classes/Ulp_My_Cred_Hooks.class.php:17
+#: classes/Ulp_Buddypress_Endpoint.class.php:31
+#: classes/Abstracts/CustomPostTypeUlp.class.php:79
+#: views/admin/magic_feat.php:2 views/admin/ump_html_into_levels.php:2
+msgid "Ultimate Learning Pro"
+msgstr ""
+
+#: classes/admin/Ulp_Multiple_Instructors.class.php:16
+msgid "Ultimate Learning Pro - Additional Instructors"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:47
+msgid "Ultimate Learning Pro - Constants"
+msgstr ""
+
+#: views/admin/hooks.php:5
+msgid "Ultimate Learning Pro - Filters & Hooks"
+msgstr ""
+
+#: classes/admin/VideoLesson.php:15
+msgid "Ultimate Learning Pro - Video Lesson"
+msgstr ""
+
+#: views/admin/woocommerce_payment.php:40 views/admin/ump_payment.php:39
+#: views/admin/edd_payment.php:40
+msgid "Ultimate Learning Pro Course"
+msgstr ""
+
+#: views/admin/ump_payment.php:40
+msgid "UMP Level"
+msgstr ""
+
+#: views/admin/ump_payment.php:5
+msgid "UMP Payment Integration"
+msgstr ""
+
+#: views/admin/meta_boxes/order_metas.php:7
+msgid "Unique identificator"
+msgstr ""
+
+#: views/admin/admin_workflow.php:38
+msgid "Unistall settings"
+msgstr ""
+
+#: utilities.php:471 classes/admin/listing_table/QandA.php:97
+#: classes/admin/listing_table/ListCourseReviews.class.php:89
+#: classes/admin/listing_table/Announcements.php:96
+msgid "Unknown"
+msgstr ""
+
+#: classes/admin/listing_table/ListOrders.class.php:91
+msgid "Unknown student"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1766
+msgid "Unknown user"
+msgstr ""
+
+#: views/admin/redirects.php:50
+msgid "Unregistered user try to buy redirect"
+msgstr ""
+
+#: classes/traits/RegisterCourseTags.php:23 classes/post_types/QandaUlp.php:43
+#: classes/post_types/QuestionsUlp.class.php:43
+#: classes/post_types/CoursesUlp.class.php:53
+#: classes/post_types/CertificatesUlp.class.php:39
+#: classes/post_types/AnnouncementsUlp.php:44
+#: classes/post_types/CourseReviewsUlp.class.php:47
+#: classes/post_types/QuizesUlp.class.php:43
+#: classes/post_types/LessonsUlp.class.php:39
+msgid "Update"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:41
+#: views/templates/student_profile/profile.php:25
+msgid "Update Info"
+msgstr ""
+
+#: views/admin/student_badges_add_edit.php:36
+#: views/templates/instructor_dashboard/settings.php:140
+#: views/templates/instructor_dashboard/settings.php:144
+#: views/templates/instructor_dashboard/settings.php:149
+msgid "Upload"
+msgstr ""
+
+#: views/admin/pushover.php:42
+msgid "URL"
+msgstr ""
+
+#: views/admin/pushover.php:48
+msgid "URL title"
+msgstr ""
+
+#: views/admin/custom_currencies.php:14
+msgid "USD, EUR, CAD."
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:77
+msgid "Use the following constants to built your Certificate Template:"
+msgstr ""
+
+#: views/admin/notes.php:12
+msgid ""
+"Use this magic feature to give your students the option to take notes during "
+"courses."
+msgstr ""
+
+#: views/admin/notes.php:24
+msgid ""
+"Use this shortcode [ulp_list_notes] to display all the notes that a student "
+"has taken."
+msgstr ""
+
+#: views/admin/watch_list.php:25
+msgid ""
+"Use this shortcode [ulp_list_watch_list] to display all the stored wishlist "
+"items "
+msgstr ""
+
+#: views/admin/students_also_bought.php:27
+msgid ""
+"Use this shortcode in order to display the items: [ulp_students_also_bought "
+"course_id=\"\"]. More about this shortcode can be found into Shortcodes "
+"section."
+msgstr ""
+
+#: views/admin/pushover.php:38
+msgid "Use this to get 'Admin Notifications' on Your own device."
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:177
+#: views/admin/meta_boxes/order_metas.php:41
+msgid "User"
+msgstr ""
+
+#: views/templates/student_profile/profile.php:60
+msgid "User Avatar"
+msgstr ""
+
+#: views/admin/add_edit_wp_user_manage_badges.php:3
+msgid "User Badges"
+msgstr ""
+
+#: views/admin/post_panel-ulp_quiz.php:151
+#: views/templates/instructor_dashboard/quizes_special_settings.php:108
+msgid "User can see correct/wrong message after each question"
+msgstr ""
+
+#: views/admin/add_edit_wp_user_manage_certificates.php:2
+msgid "User Cerificates"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:165
+#: classes/Db/DbNotificationsUlp.class.php:177
+msgid "User completes a course"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:166
+#: classes/Db/DbNotificationsUlp.class.php:178
+msgid "User completes a lesson"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:170
+#: classes/Db/DbNotificationsUlp.class.php:181
+msgid "User completes a quiz"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:164
+#: classes/Db/DbNotificationsUlp.class.php:176
+msgid "User enrolls into a course"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:169
+#: classes/Db/DbNotificationsUlp.class.php:180
+msgid "User fails a quiz"
+msgstr ""
+
+#: views/admin/instructors.php:82 views/admin/instructors.php:103
+#: views/admin/students.php:42 views/admin/students.php:58
+msgid "User ID"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:168
+#: classes/Db/DbNotificationsUlp.class.php:179
+msgid "User passes a quiz"
+msgstr ""
+
+#: views/admin/redirects.php:33
+msgid "User profile redirect"
+msgstr ""
+
+#: views/admin/student_leaderboard.php:280
+msgid "User register date"
+msgstr ""
+
+#: views/admin/instructors.php:92 views/admin/instructors.php:113
+#: views/admin/students.php:52 views/admin/students.php:68
+msgid "User registered date"
+msgstr ""
+
+#: classes/Db/DbNotificationsUlp.class.php:163
+msgid "User wants to be Instructor"
+msgstr ""
+
+#: views/admin/student_leaderboard.php:218
+msgid "UserName"
+msgstr ""
+
+#: views/admin/instructors.php:84 views/admin/instructors.php:105
+#: views/admin/students.php:43 views/admin/students.php:59
+#: views/templates/instructor_dashboard/listing_students.php:9
+msgid "Username"
+msgstr ""
+
+#: views/admin/post_panel-ulp_course.php:62
+#: views/templates/instructor_dashboard/courses_special_settings.php:26
+msgid ""
+"Users can access this course if they have certain courses already completed, "
+"or a certain number of reward points."
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:907
+msgid "Users can pay courses with PayPal"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:1012
+msgid "Users receive notifications on mobile via Pushover"
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:42
+msgid "Video Height"
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:21
+#: views/templates/instructor_dashboard/add_edit_lessons.php:123
+msgid "Video URL"
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:32
+msgid "Video Width"
+msgstr ""
+
+#: views/admin/video_lesson_settings.php:53
+msgid "Video will auto-start once the lessons is loaded."
+msgstr ""
+
+#: classes/Abstracts/Indeed_List_Table.class.php:98
+#: classes/admin/listing_table/QandA.php:120
+#: classes/admin/listing_table/ListCourseReviews.class.php:115
+#: classes/admin/listing_table/Announcements.php:119
+#: classes/admin/listing_table/ListCourses.class.php:198
+#: classes/admin/listing_table/ListCertificates.class.php:96
+#: classes/admin/listing_table/ListLessons.class.php:186
+#: views/templates/instructor_dashboard/manage-courses.php:59
+#: views/templates/instructor_dashboard/manage-lessons.php:40
+#: views/templates/instructor_dashboard/manage-questions.php:41
+#: views/templates/instructor_dashboard/manage-quizes.php:42
+msgid "View"
+msgstr ""
+
+#: classes/post_types/AnnouncementsUlp.php:28
+msgid "View Announcement"
+msgstr ""
+
+#: classes/post_types/CertificatesUlp.class.php:24
+msgid "View Certificate"
+msgstr ""
+
+#: classes/post_types/CoursesUlp.class.php:37
+#: views/admin/meta_boxes/courses_abovelinks.php:13
+msgid "View Course"
+msgstr ""
+
+#: classes/post_types/CourseReviewsUlp.class.php:31
+msgid "View Course Review"
+msgstr ""
+
+#: classes/post_types/InstructorsUlp.php:24
+msgid "View Instructor"
+msgstr ""
+
+#: classes/post_types/LessonsUlp.class.php:24
+msgid "View Lesson"
+msgstr ""
+
+#: classes/post_types/OrderUlp.class.php:30
+msgid "View Order"
+msgstr ""
+
+#: views/admin/default_pages.php:29 views/admin/default_pages.php:47
+#: views/admin/default_pages.php:65 views/admin/default_pages.php:85
+#: views/admin/default_pages.php:103 views/admin/default_pages.php:120
+#: views/admin/redirects.php:28 views/admin/redirects.php:46
+#: views/admin/redirects.php:63
+msgid "View Page: "
+msgstr ""
+
+#: classes/post_types/QandaUlp.php:27
+msgid "View Q&A"
+msgstr ""
+
+#: classes/post_types/QuestionsUlp.class.php:28
+msgid "View Question"
+msgstr ""
+
+#: classes/post_types/QuizesUlp.class.php:28
+msgid "View Quiz"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3465
+msgid "Viewed lesson"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:3470
+msgid "Was graded on quiz"
+msgstr ""
+
+#: views/templates/comments-qanda.php:90
+#: views/templates/comments-announcements.php:92
+#: views/templates/comments-announcements.php:92
+msgid "Website"
+msgstr ""
+
+#: utilities.php:114 views/admin/post_panel-ulp_course.php:373
+#: views/templates/instructor_dashboard/courses_special_settings.php:181
+msgid "Weeks"
+msgstr ""
+
+#: views/admin/showcases_account_page.php:55
+msgid "Welcome Message:"
+msgstr ""
+
+#: views/admin/shortcodes.php:8
+msgid "What it does"
+msgstr ""
+
+#: views/admin/coming_soon.php:32
+msgid "When the time expire Course content will become public automatically."
+msgstr ""
+
+#: views/admin/help.php:88
+msgid "Where can I find my Purchase Code?"
+msgstr ""
+
+#: views/admin/public_workflow.php:19 views/admin/public_workflow.php:31
+msgid "Width"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:977 views/admin/default_pages.php:71
+#: views/admin/watch_list.php:5
+msgid "Wish List"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:2600 views/admin/popup-shortcodes.php:14
+msgid "Wish list"
+msgstr ""
+
+#: views/admin/student_badges.php:176
+msgid "With: "
+msgstr ""
+
+#: views/admin/woocommerce_payment.php:5
+msgid "WooCommerce Payment Integration"
+msgstr ""
+
+#: views/admin/woocommerce_payment.php:41
+msgid "WooCommerce Product"
+msgstr ""
+
+#: views/admin/help.php:87
+msgid ""
+"WordPress site at a time. If you previosly activated your purchase code on "
+"another website, then you have to get a"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPIndeed Development"
+msgstr ""
+
+#: views/admin/post_panel-ulp_question.php:28
+#: views/templates/instructor_dashboard/questions_special_settings.php:27
+msgid "Write a message to help your users answer this question."
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:110
+#: views/admin/meta_boxes/questions_answer.php:190
+msgid "write correct values between comma ',' ."
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:220
+#: views/admin/meta_boxes/questions_answer.php:404
+msgid "Write the ID of the right image"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:253
+#: views/admin/meta_boxes/questions_answer.php:439
+msgid "Write the IDs of the right images separated by comma ',' ."
+msgstr ""
+
+#: views/templates/single-question.php:55
+msgid "Wrong Answer"
+msgstr ""
+
+#: classes/MainPublicUlp.class.php:74 classes/MainAdminUlp.class.php:450
+msgid "Yes, delete it!"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1579
+msgid "You are already registered as Instructor."
+msgstr ""
+
+#: views/templates/single-course.php:27
+msgid "You are Enrolled "
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1591
+msgid "You are not Enrolled on this course"
+msgstr ""
+
+#: views/templates/lesson/complete_button.php:26
+msgid "you can complete the lesson only after the time ends"
+msgstr ""
+
+#: views/admin/buddypress.php:29
+msgid ""
+"You can decide the menu position, this tab will give you access to Ultimate "
+"Learning Pro Student Profile."
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:68
+msgid ""
+"You can decide what data will be displayed on your public Instructor page."
+msgstr ""
+
+#: views/admin/2checkout_magic_feat.php:40 views/admin/stripe_magic_feat.php:22
+#: views/admin/paypal_magic_feat.php:22
+msgid "You can find the settings in the following section:"
+msgstr ""
+
+#: views/admin/certificates_magic_feat.php:45
+msgid "You can manually assign a certificate to Students from this section"
+msgstr ""
+
+#: views/templates/instructor_dashboard/questions_answer.php:74
+#: views/admin/meta_boxes/questions_answer.php:117
+msgid ""
+"You can provide more required answers. Set the right answer between {}. If "
+"more possible rights exist split them by |"
+msgstr ""
+
+#: classes/MainPublicUlp.class.php:75
+msgid "You cannot delete this post!"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1570
+msgid ""
+"You cannot enroll on this course because the maximum number of students has "
+"been reached."
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1569
+msgid "You cannot enroll on this course because you are not logged in."
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1573
+msgid ""
+"You cannot enroll on this course because you don't have the minimal number "
+"of reward points."
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1571
+msgid ""
+"You cannot enroll on this course because you don't have the pre-request "
+"courses."
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1595
+msgid "You din't save any Note yet!"
+msgstr ""
+
+#: classes/public/InstructorDashboard.php:806
+#: classes/public/InstructorDashboard.php:835
+#: classes/public/InstructorDashboard.php:861
+#: classes/public/InstructorDashboard.php:888
+#: classes/public/InstructorDashboard.php:916
+#: classes/public/InstructorDashboard.php:959
+#: classes/public/InstructorDashboard.php:998
+#: classes/public/InstructorDashboard.php:1022
+#: classes/public/InstructorDashboard.php:1045
+#: classes/public/InstructorDashboard.php:1068
+msgid "You don't have the permissions to edit this post!"
+msgstr ""
+
+#: views/templates/quiz/result.php:7
+msgid "You have failed the Quiz with "
+msgstr ""
+
+#: views/admin/help.php:54
+msgid "You have just revoke your License for Ultimate Learning Pro plugin."
+msgstr ""
+
+#: views/templates/watch_list-the_list.php:53
+msgid "You have no Course saved in your Wish List"
+msgstr ""
+
+#: views/templates/student_profile/my_courses.php:61
+msgid "You have no enrolled Courses yet!"
+msgstr ""
+
+#: views/templates/list_orders.php:3
+msgid "You have no Orders yet!"
+msgstr ""
+
+#: views/templates/list_certificates.php:6
+msgid "You have not received any Certificate yet!"
+msgstr ""
+
+#: views/templates/gradebook.php:28
+msgid "You have not received any Grades yet!"
+msgstr ""
+
+#: views/templates/quiz/result.php:5
+msgid "You have passed the Quiz with "
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1574
+msgid "You have reach the retake course limit!"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1598
+msgid "You haven't completed this quiz yet!"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1572
+msgid "You're already enrolled on this course"
+msgstr ""
+
+#: classes/AjaxUlp.class.php:508 classes/AjaxUlp.class.php:560
+msgid "You're now Enrolled on this course!"
+msgstr ""
+
+#: views/templates/single-course.php:155
+msgid "Your Course Notes"
+msgstr ""
+
+#: views/templates/instructor_dashboard/manage-courses.php:2
+msgid "Your Courses"
+msgstr ""
+
+#: views/templates/instructor_dashboard/overview.php:37
+msgid "Your last Courses"
+msgstr ""
+
+#: views/admin/help.php:57
+msgid "Your License for Ultimate Learning Pro is currently Active."
+msgstr ""
+
+#: views/templates/checkout.php:15
+msgid "Your Order"
+msgstr ""
+
+#: views/templates/instructor_dashboard/settings.php:113
+msgid "Your Profile Image"
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1580
+msgid "Your request to become instructor is pending."
+msgstr ""
+
+#: classes/Db/DbUlp.class.php:1599
+msgid "Your result on this quiz is:"
+msgstr ""
+
+#: classes/MainAdminUlp.class.php:957
+msgid "Your students can earn badges by accomplishing certain conditions"
+msgstr ""

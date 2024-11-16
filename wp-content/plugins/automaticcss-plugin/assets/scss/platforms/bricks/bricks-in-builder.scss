@@ -1,0 +1,8 @@
+@import "enhancements/template-gallery";
+@import "enhancements/pro-mode";
+@import "enhancements/stack-elements";
+@import "enhancements/replace-with-frames";
+
+[data-balloon="transparent"].color-button {
+	border: 1px dashed black;
+}

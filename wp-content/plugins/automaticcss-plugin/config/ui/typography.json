@@ -1,0 +1,2323 @@
+{
+	"id": "typography",
+	"title": "Typography",
+	"type": "screen-container",
+	"description": "Typography settings.",
+	"iconPaths": [
+		"M2.35 6.7V5.35H5.725V15.25H4.375C4.00094 15.25 3.7 15.5509 3.7 15.925C3.7 16.2991 4.00094 16.6 4.375 16.6H8.425C8.79906 16.6 9.1 16.2991 9.1 15.925C9.1 15.5509 8.79906 15.25 8.425 15.25H7.075V5.35H10.45V6.7C10.45 7.07406 10.7509 7.375 11.125 7.375C11.4991 7.375 11.8 7.07406 11.8 6.7V5.125C11.8 4.50344 11.2966 4 10.675 4H2.125C1.50344 4 1 4.50344 1 5.125V6.7C1 7.07406 1.30094 7.375 1.675 7.375C2.04906 7.375 2.35 7.07406 2.35 6.7ZM11.125 11.425V10.75H13.825V15.25H12.925C12.5509 15.25 12.25 15.5509 12.25 15.925C12.25 16.2991 12.5509 16.6 12.925 16.6H16.075C16.4491 16.6 16.75 16.2991 16.75 15.925C16.75 15.5509 16.4491 15.25 16.075 15.25H15.175V10.75H17.65V11.425C17.65 11.7991 17.9509 12.1 18.325 12.1C18.6991 12.1 19 11.7991 19 11.425V10.525C19 9.90344 18.4966 9.4 17.875 9.4H10.9C10.2784 9.4 9.775 9.90344 9.775 10.525V11.425C9.775 11.7991 10.0759 12.1 10.45 12.1C10.8241 12.1 11.125 11.7991 11.125 11.425Z"
+	],
+	"content": [
+		{
+			"id": "typography-main-tabs",
+			"title": "Typography Tabs",
+			"type": "tabs-container",
+			"style": "inline",
+			"content": [
+				{
+					"id": "headings-settings",
+					"title": "Headings",
+					"content": [
+						{
+							"id": "root-font-size",
+							"title": "Root Font Size",
+							"type": "percent",
+							"default": 100,
+							"tooltip": "The root font size for the document. Typically 62.5% or 100%.",
+							"documentation": "https://automaticcss.com/docs/fluid-text/"
+						},
+						{
+							"id": "heading-base-size-group",
+							"type": "double-input",
+							"label": {
+								"primary": "Base Heading Size",
+								"secondary": "Mobile/Desktop"
+							},
+							"tooltip": "The size of your H4 heading. All other heading sizes are calculated from this value.",
+							"documentation": "https://automaticcss.com/docs/fluid-headings/",
+							"content": [
+								{
+									"id": "base-heading-mob",
+									"title": "Base Size Mobile",
+									"type": "px",
+									"default": 18,
+									"percentage-convert": true,
+									"unit": "px",
+									"calc": {
+										"type": "list",
+										"key": "headings",
+										"setting": "min"
+									}
+								},
+								{
+									"id": "base-heading-desk",
+									"title": "Base Size Desktop",
+									"type": "px",
+									"default": 20,
+									"percentage-convert": true,
+									"unit": "px",
+									"calc": {
+										"type": "list",
+										"key": "headings",
+										"setting": "max"
+									}
+								}
+							]
+						},
+						{
+							"id": "heading-ratio-group",
+							"type": "double-input",
+							"label": {
+								"primary": "Type Scale",
+								"secondary": "Mobile/Desktop"
+							},
+							"tooltip": "The degree of difference between heading sizes (up/down keys cycle through music scales).",
+							"documentation": "https://automaticcss.com/docs/fluid-headings/",
+							"content": [
+								{
+									"id": "mob-heading-scale",
+									"title": "Mobile Ratio",
+									"type": "number",
+									"musicScale": true,
+									"default": 1.2,
+									"calc": {
+										"type": "list",
+										"key": "headings",
+										"setting": "min-scale"
+									}
+								},
+								{
+									"id": "heading-scale",
+									"title": "Desktop Ratio",
+									"type": "number",
+									"musicScale": true,
+									"default": 1.333,
+									"calc": {
+										"type": "list",
+										"key": "headings",
+										"setting": "max-scale"
+									}
+								}
+							]
+						},
+						{
+							"id": "typography-manual-tabs",
+							"title": "Typography Sizing Tabs",
+							"type": "tabs-container",
+							"style": "inline",
+							"content": [
+								{
+									"id": "all-heading-settings",
+									"title": "All",
+									"content": [
+										{
+											"id": "heading-font-family",
+											"title": "Font Family",
+											"type": "text",
+											"default": "",
+											"tooltip": "Outfit, sans-serif",
+											"skip-if-empty": true,
+											"tooltip": "Set your heading font-family output.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"target": "h1, h2, h3, h4, h5, h6",
+											"cssVariable": "font-family",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "heading-color",
+											"title": "Heading Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "color",
+											"target": "h1, h2, h3, h4, h5, h6",
+											"validation": {
+												"required": false
+											},
+											"tooltip": "The default color of your headings.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										},
+										{
+											"id": "base-heading-lh",
+											"title": "Line Height",
+											"type": "text",
+											"default": "calc(4px + 2ex)",
+											"cssVariable": "line-height",
+											"target": "h1, h2, h3, h4, h5, h6",
+											"tooltip": "The space between heading lines.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										},
+										{
+											"id": "heading-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "font-weight",
+											"target": "h1, h2, h3, h4, h5, h6",
+											"skip-if-empty": true,
+											"tooltip": "The weight (boldness) of your headings.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "heading-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "letter-spacing",
+											"target": "h1, h2, h3, h4, h5, h6",
+											"validation": {
+												"required": false
+											},
+											"tooltip": "The space between characters in your headings.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										},
+										{
+											"id": "heading-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": "h1, h2, h3, h4, h5, h6",
+											"environment": {
+												"exclude": "bricks"
+											},
+											"tooltip": "The width at which line breaks will occur in your headings.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "heading-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-style",
+											"target": "h1, h2, h3, h4, h5, h6",
+											"tooltip": "The font style of your headings (italic, oblique, etc.).",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "heading-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "text-transform",
+											"target": "h1,h2,h3,h4,h5,h6",
+											"skip-if-empty": true,
+											"tooltip": "The case of your headings (uppercase, lowercase, etc.).",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "heading-text-wrap",
+											"title": "Text Wrap",
+											"type": "select",
+											"options": [
+												"wrap",
+												"pretty",
+												"balance",
+												"inherit"
+											],
+											"default": "pretty",
+											"skip-if-empty": true,
+											"cssVariable": "text-wrap",
+											"target": "h1,h2,h3,h4,h5,h6",
+											"tooltip": "The wrapping behavior of your headings ('wrap' = normal)",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										}
+									]
+								},
+								{
+									"id": "h1-settings",
+									"title": "H1",
+									"content": [
+										{
+											"id": "h1-font-family",
+											"title": "Font Family",
+											"type": "text",
+											"default": "",
+											"tooltip": "Outfit, sans-serif",
+											"skip-if-empty": true,
+											"tooltip": "Set your h1 font-family output.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"target": "h1, .h--1, .h1",
+											"cssVariable": "font-family",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h1-color",
+											"title": "Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "color",
+											"target": "h1, .h--1, .h1",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h1-line-height",
+											"title": "Line Height",
+											"type": "text",
+											"default": "",
+											"cssVariable": "line-height",
+											"target": "h1, .h--1, .h1",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h1-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "font-weight",
+											"target": "h1, .h--1, .h1",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h1-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"cssVariable": "letter-spacing",
+											"target": "h1, .h--1, .h1",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h1-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": "h1, .h--1, .h1",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h1-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "text-transform",
+											"target": "h1, .h--1, .h1",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h1-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"cssVariable": "font-style",
+											"target": "h1, .h--1, .h1",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h1-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "h1-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "h1",
+														"setting": "min",
+														"fallback": "base-heading-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "h1-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "h1",
+														"setting": "max",
+														"fallback": "base-heading-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "h2-settings",
+									"title": "H2",
+									"content": [
+										{
+											"id": "h2-font-family",
+											"title": "Font Family",
+											"type": "text",
+											"default": "",
+											"tooltip": "Outfit, sans-serif",
+											"skip-if-empty": true,
+											"tooltip": "Set your h2 font-family output.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"cssVariable": "font-family",
+											"target": "h2, .h--2, .h2",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h2-color",
+											"title": "Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "color",
+											"target": "h2, .h--2, .h2",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h2-line-height",
+											"title": "Line Height",
+											"type": "text",
+											"default": "",
+											"cssVariable": "line-height",
+											"target": "h2, .h--2, .h2",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h2-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "font-weight",
+											"target": "h2, .h--2, .h2",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h2-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"cssVariable": "letter-spacing",
+											"target": "h2, .h--2, .h2",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h2-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": "h2, .h--2, .h2",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h2-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "text-transform",
+											"target": "h2, .h--2, .h2",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h2-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"cssVariable": "font-style",
+											"target": "h2, .h--2, .h2",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h2-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "h2-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "h2",
+														"setting": "min",
+														"fallback": "base-heading-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "h2-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "h2",
+														"setting": "max",
+														"fallback": "base-heading-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "h3-settings",
+									"title": "H3",
+									"content": [
+										{
+											"id": "h3-font-family",
+											"title": "Font Family",
+											"type": "text",
+											"default": "",
+											"tooltip": "Outfit, sans-serif",
+											"skip-if-empty": true,
+											"tooltip": "Set your h3 font-family output.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"target": "h3, .h--3, .h3",
+											"cssVariable": "font-family",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h3-color",
+											"title": "Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "color",
+											"target": "h3, .h--3, .h3",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h3-line-height",
+											"title": "Line Height",
+											"type": "text",
+											"default": "",
+											"cssVariable": "line-height",
+											"target": "h3, .h--3, .h3",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h3-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "font-weight",
+											"target": "h3, .h--3, .h3",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h3-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"cssVariable": "letter-spacing",
+											"target": "h3, .h--3, .h3",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h3-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": "h3, .h--3, .h3",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h3-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "text-transform",
+											"target": "h3, .h--3, .h3",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h3-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"cssVariable": "font-style",
+											"target": "h3, .h--3, .h3",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h3-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "h3-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "h3",
+														"setting": "min",
+														"fallback": "base-heading-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "h3-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "h3",
+														"setting": "max",
+														"fallback": "base-heading-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "h4-settings",
+									"title": "H4",
+									"content": [
+										{
+											"id": "h4-font-family",
+											"title": "Font Family",
+											"type": "text",
+											"default": "",
+											"tooltip": "Outfit, sans-serif",
+											"skip-if-empty": true,
+											"tooltip": "Set your h4 font-family output.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"target": "h4, .h--4, .h4",
+											"cssVariable": "font-family",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h4-color",
+											"title": "Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "color",
+											"target": "h4, .h--4, .h4",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"type": "clone",
+											"target": "base-heading-lh"
+										},
+										{
+											"id": "h4-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "font-weight",
+											"target": "h4, .h--4, .h4",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h4-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"cssVariable": "letter-spacing",
+											"target": "h4, .h--4, .h4",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h4-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": "h4, .h--4, .h4",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h4-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "text-transform",
+											"target": "h4, .h--4, .h4",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h4-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"cssVariable": "font-style",
+											"target": "h4, .h--4, .h4",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h4-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "h4-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "h4",
+														"setting": "min",
+														"fallback": "base-heading-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "h4-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "h4",
+														"setting": "max",
+														"fallback": "base-heading-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "h5-settings",
+									"title": "H5",
+									"content": [
+										{
+											"id": "h5-font-family",
+											"title": "Font Family",
+											"type": "text",
+											"default": "",
+											"tooltip": "Outfit, sans-serif",
+											"skip-if-empty": true,
+											"tooltip": "Set your h5 font-family output.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"target": "h5, .h--5, .h5",
+											"cssVariable": "font-family",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h5-color",
+											"title": "Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "color",
+											"target": "h5, .h--5, .h5",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h5-line-height",
+											"title": "Line Height",
+											"type": "text",
+											"default": "",
+											"cssVariable": "line-height",
+											"target": "h5, .h--5, .h5",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h5-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "font-weight",
+											"target": "h5, .h--5, .h5",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h5-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"cssVariable": "letter-spacing",
+											"target": "h5, .h--5, .h5",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h5-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": "h5, .h--5, .h5",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h5-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "text-transform",
+											"target": "h5, .h--5, .h5",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h5-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"cssVariable": "font-style",
+											"target": "h5, .h--5, .h5",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h5-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "h5-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "13",
+													"calc": {
+														"key": "h5",
+														"setting": "min",
+														"fallback": "base-heading-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "h5-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "h5",
+														"setting": "max",
+														"fallback": "base-heading-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "h6-settings",
+									"title": "H6",
+									"content": [
+										{
+											"id": "h6-font-family",
+											"title": "Font Family",
+											"type": "text",
+											"default": "",
+											"tooltip": "Outfit, sans-serif",
+											"skip-if-empty": true,
+											"tooltip": "Set your h6 font-family output.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"target": "h6, .h--6, .h6",
+											"cssVariable": "font-family",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h6-color",
+											"title": "Color",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "color",
+											"target": "h6, .h--6, .h6",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h6-line-height",
+											"title": "Line Height",
+											"type": "text",
+											"default": "",
+											"cssVariable": "line-height",
+											"target": "h6, .h--6, .h6",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h6-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "font-weight",
+											"target": "h6, .h--6, .h6",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h6-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"cssVariable": "letter-spacing",
+											"target": "h6, .h--6, .h6",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h6-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": "h6, .h--6, .h6",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h6-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"cssVariable": "text-transform",
+											"target": "h6, .h--6, .h6",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h6-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"cssVariable": "font-style",
+											"target": "h6, .h--6, .h6",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "h6-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "h6-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "12",
+													"calc": {
+														"key": "h6",
+														"setting": "min",
+														"fallback": "base-heading-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "h6-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "h6",
+														"setting": "max",
+														"fallback": "base-heading-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "text-settings",
+					"title": "Text",
+					"content": [
+						{
+							"id": "text-base-size-group",
+							"type": "double-input",
+							"label": {
+								"primary": "Base Text Size",
+								"secondary": "Mobile/Desktop"
+							},
+							"tooltip": "The size of your 'M' & default text. All other text sizes are calculated from this value.",
+							"documentation": "https://automaticcss.com/docs/fluid-text/",
+							"content": [
+								{
+									"id": "base-text-mob",
+									"title": "Base Size Mobile",
+									"type": "px",
+									"default": 16,
+									"percentage-convert": true,
+									"unit": "px",
+									"calc": {
+										"type": "list",
+										"key": "text",
+										"setting": "min"
+									}
+								},
+								{
+									"id": "base-text-desk",
+									"title": "Base Size Desktop",
+									"type": "px",
+									"default": 18,
+									"percentage-convert": true,
+									"unit": "px",
+									"calc": {
+										"type": "list",
+										"key": "text",
+										"setting": "max"
+									}
+								}
+							]
+						},
+						{
+							"id": "text-ratio-group",
+							"type": "double-input",
+							"label": {
+								"primary": "Type Scale",
+								"secondary": "Mobile/Desktop"
+							},
+							"tooltip": "The degree of difference between text sizes (up/down keys cycle through music scales).",
+							"documentation": "https://automaticcss.com/docs/fluid-text/",
+							"content": [
+								{
+									"id": "mob-text-scale",
+									"title": "Mobile Ratio",
+									"type": "number",
+									"musicScale": true,
+									"default": 1.2,
+									"calc": {
+										"type": "list",
+										"key": "text",
+										"setting": "min-scale"
+									}
+								},
+								{
+									"id": "text-scale",
+									"title": "Desktop Ratio",
+									"type": "number",
+									"musicScale": true,
+									"default": 1.333,
+									"calc": {
+										"type": "list",
+										"key": "text",
+										"setting": "max-scale"
+									}
+								}
+							]
+						},
+						{
+							"id": "typography-manual-tabs",
+							"title": "Typography Sizing Tabs",
+							"type": "tabs-container",
+							"style": "inline",
+							"content": [
+								{
+									"id": "all-text-settings",
+									"title": "All",
+									"content": [
+										{
+											"id": "text-font-family",
+											"title": "Font Family",
+											"type": "text",
+											"default": "",
+											"tooltip": "Outfit, sans-serif",
+											"cssVariable": "font-family",
+											"target": "body :is(p, li, blockquote)",
+											"skip-if-empty": true,
+											"tooltip": "Set your heading font-family output.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "body-color",
+											"title": "Default Text Color",
+											"type": "text",
+											"default": "var(--text-dark)",
+											"skip-if-empty": true,
+											"tooltip": "The default color of your text.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										},
+										{
+											"id": "base-text-lh",
+											"title": "Default Line Height",
+											"type": "text",
+											"default": "calc(6px + 2ex)",
+											"validation": {
+												"required": true
+											},
+											"cssVariable": "line-height",
+											"target": ":is(body, p, li, blockquote, .text--m)",
+											"tooltip": "The space between lines of text.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										},
+										{
+											"id": "text-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": "body :is(p, li)",
+											"validation": {
+												"required": false
+											},
+											"tooltip": "The weight (boldness) of your text.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										},
+										{
+											"id": "text-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "letter-spacing",
+											"target": "body :is(p, li)",
+											"validation": {
+												"required": false
+											},
+											"tooltip": "The space between characters in your text.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										},
+										{
+											"id": "text-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": ":is(body p, body li)",
+											"validation": {
+												"required": false
+											},
+											"tooltip": "The width at which line breaks will occur in your paragraphs.",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										},
+										{
+											"id": "text-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-style",
+											"target": "body :is(p, li)",
+											"validation": {
+												"required": false
+											},
+											"tooltip": "The font style of your text (italic, oblique, etc.).",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										},
+										{
+											"id": "text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "text-transform",
+											"target": "body :is(p, li)",
+											"validation": {
+												"required": false
+											},
+											"tooltip": "The case of your text (uppercase, lowercase, etc.).",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										},
+										{
+											"id": "text-wrap",
+											"title": "Text Wrap",
+											"type": "select",
+											"options": [
+												"wrap",
+												"pretty",
+												"balance",
+												"inherit"
+											],
+											"default": "pretty",
+											"skip-if-empty": true,
+											"cssVariable": "text-wrap",
+											"target": "body :is(p, li, blockquote)",
+											"tooltip": "The wrapping behavior of your text ('wrap' = normal)",
+											"documentation": "https://automaticcss.com/docs/default-typography-styling/"
+										}
+									]
+								},
+								{
+									"id": "text-xxl-settings",
+									"title": "XXL",
+									"content": [
+										{
+											"id": "text-xxl-line-height",
+											"title": "Line Height",
+											"type": "text",
+											"default": "",
+											"cssVariable": "line-height",
+											"target": ".text--xxl",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xxl-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--xxl",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xxl-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "letter-spacing",
+											"target": ".text--xxl",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xxl-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": ".text--xxl",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xxl-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--xxl",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xxl-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xxl-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "text-xxl-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "text-xxl",
+														"setting": "min",
+														"fallback": "base-text-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "text-xxl-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "text-xxl",
+														"setting": "max",
+														"fallback": "base-text-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "text-xl-settings",
+									"title": "XL",
+									"content": [
+										{
+											"id": "text-xl-line-height",
+											"title": "Line Height",
+											"type": "text",
+											"default": "",
+											"cssVariable": "line-height",
+											"target": ".text--xl",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xl-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--xl",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xl-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "letter-spacing",
+											"target": ".text--xl",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xl-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": ".text--xl",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xl-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--xl",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xl-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xl-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "text-xl-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "text-xl",
+														"setting": "min",
+														"fallback": "base-text-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "text-xl-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "text-xl",
+														"setting": "max",
+														"fallback": "base-text-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "text-l-settings",
+									"title": "L",
+									"content": [
+										{
+											"id": "text-l-line-height",
+											"title": "Line Height",
+											"type": "text",
+											"default": "",
+											"cssVariable": "line-height",
+											"target": ".text--l",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-l-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--l",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-l-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "letter-spacing",
+											"target": ".text--l",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-l-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": ".text--l",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-l-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--l",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-l-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-l-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "text-l-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "text-l",
+														"setting": "min",
+														"fallback": "base-text-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "text-l-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "text-l",
+														"setting": "max",
+														"fallback": "base-text-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "text-m-settings",
+									"title": "M",
+									"content": [
+										{
+											"type": "clone",
+											"target": "base-text-lh"
+										},
+										{
+											"id": "text-m-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--m",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-m-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "letter-spacing",
+											"target": ".text--m",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-m-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": ".text--m",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-m-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--m",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-m-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-m-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "text-m-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "text-m",
+														"setting": "min",
+														"fallback": "base-text-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "text-m-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "text-m",
+														"setting": "max",
+														"fallback": "base-text-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "text-s-settings",
+									"title": "S",
+									"content": [
+										{
+											"id": "text-s-line-height",
+											"title": "Line Height",
+											"type": "text",
+											"default": "",
+											"cssVariable": "line-height",
+											"target": ".text--s",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-s-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--s",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-s-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "letter-spacing",
+											"target": ".text--s",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-s-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": ".text--s",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-s-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--s",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-s-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-s-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "text-s-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "13",
+													"calc": {
+														"key": "text-s",
+														"setting": "min",
+														"fallback": "base-text-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												},
+												{
+													"id": "text-s-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "text-s",
+														"setting": "max",
+														"fallback": "base-text-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "text-xs-settings",
+									"title": "XS",
+									"content": [
+										{
+											"id": "text-xs-line-height",
+											"title": "Line Height",
+											"type": "text",
+											"default": "",
+											"cssVariable": "line-height",
+											"target": ".text--xs",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xs-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--xs",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xs-letter-spacing",
+											"title": "Letter Spacing",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "letter-spacing",
+											"target": ".text--xs",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xs-max-width",
+											"title": "Max-Width",
+											"type": "text",
+											"default": "100%",
+											"skip-if-empty": true,
+											"cssVariable": "max-width",
+											"target": ".text--xs",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xs-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"options": [
+												"",
+												"none",
+												"capitalize",
+												"uppercase",
+												"lowercase",
+												"inherit"
+											],
+											"default": "",
+											"skip-if-empty": true,
+											"cssVariable": "font-weight",
+											"target": ".text--xs",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xs-font-style",
+											"title": "Font Style",
+											"type": "text",
+											"default": "",
+											"skip-if-empty": true,
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "text-xs-override",
+											"type": "double-input",
+											"label": {
+												"primary": "Font Size Override",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "text-xs-min",
+													"title": "Override Size (Mobile)",
+													"type": "px",
+													"default": "12",
+													"calc": {
+														"key": "text-xs",
+														"setting": "min",
+														"fallback": "base-text-desk"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true
+												},
+												{
+													"id": "text-xs-max",
+													"title": "Override Size (Desktop)",
+													"type": "px",
+													"default": "",
+													"calc": {
+														"key": "text-xs",
+														"setting": "max",
+														"fallback": "base-text-mob"
+													},
+													"skip-if-empty": true,
+													"percentage-convert": true,
+													"validation": {
+														"required": false
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

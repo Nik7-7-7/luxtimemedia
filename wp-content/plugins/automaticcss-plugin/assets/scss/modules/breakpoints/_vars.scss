@@ -1,0 +1,26 @@
+$vp-min: 36 !default;
+$vp-max: 128 !default;
+$content-width: $vp-max * 1rem;
+$breakpoint-xs: 360px !default;
+$breakpoint-s: 480px !default;
+$breakpoint-m: 768px !default;
+$breakpoint-l: 992px !default;
+$breakpoint-xl: 1280px !default;
+$breakpoint-xxl: 1440px !default;
+
+$breakpoints: (
+  xxl: $breakpoint-xxl,
+  xl: $breakpoint-xl,
+  l: $breakpoint-l,
+  m: $breakpoint-m,
+  s: $breakpoint-s,
+  xs: $breakpoint-xs,
+);
+
+@if $option-breakpoint-xxl == off {
+  $breakpoints: map-remove($breakpoints, xxl);
+}
+
+@if $option-breakpoint-xs == off {
+  $breakpoints: map-remove($breakpoints, xs);
+}

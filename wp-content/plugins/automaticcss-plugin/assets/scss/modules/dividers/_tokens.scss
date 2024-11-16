@@ -1,0 +1,13 @@
+@import "vars";
+
+:root {
+    --divider-size: #{$divider-size};
+    --divider-style: #{$divider-style};
+    --divider-inline-size: #{$divider-inline-size};
+    --divider-gap: #{$divider-gap};
+    --divider-color-dark: #{$divider-color-dark};
+    --divider-color-light: #{$divider-color-light};
+    --divider: #{$divider-main};
+    --divider-light: #{$divider-light};
+    --divider-dark: #{$divider-dark};
+}

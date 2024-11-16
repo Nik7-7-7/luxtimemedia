@@ -1,0 +1,40 @@
+// Selection color
+@if $selection-bg != null {
+    ::selection {
+      background: var(--selection-bg-color, $selection-bg); /* WebKit/Blink Browsers */
+    }
+    ::-moz-selection {
+      background: var(--selection-bg-color, $selection-bg); /* Gecko Browsers */
+    }
+  }
+  @if $selection-text != null {
+    ::selection {
+      color: var(--selection-text-color, $selection-text); /* WebKit/Blink Browsers */
+    }
+    ::-moz-selection {
+      color: var(--selection-text-color, $selection-text); /* Gecko Browsers */
+    }
+  }
+  .selection--alt {
+    @if $selection-bg-alt != null {
+      &::selection,
+      ::selection {
+        background: var(--selection-bg-color-alt, $selection-bg-alt); /* WebKit/Blink Browsers */
+      }
+      &::selection,
+      ::-moz-selection {
+        background: var(--selection-bg-color-alt, $selection-bg-alt); /* Gecko Browsers */
+      }
+    }
+  
+    @if $selection-text-alt != null {
+      &::selection,
+      ::selection {
+        color: var(--selection-text-color-alt, $selection-text-alt); /* WebKit/Blink Browsers */
+      }
+      &::selection,
+      ::-moz-selection {
+        color: var(--selection-text-color-alt, $selection-text-alt); /* Gecko Browsers */
+      }
+    }
+  }

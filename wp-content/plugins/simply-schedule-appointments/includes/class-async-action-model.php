@@ -54,27 +54,7 @@ class SSA_Async_Action_Model extends TD_Async_Action_Model {
 		add_action( 'init', array( $this, 'schedule_async_action_cleanup' ) );
 		add_action( 'ssa/async_actions/cleanup', array( $this, 'cleanup_async_actions' ) );
 	}
-	
-	/**
-	 * Filter the where conditions for the query
-	 *
-	 * @param string $where
-	 * @param array $args
-	 * @return string
-	 */
-	public function filter_where_conditions( $where, $args ) {
-		global $wpdb;
-		
-		if ( ! empty( $args['object_id'] ) ) {
-			$where .= $wpdb->prepare( ' AND object_id=%d', sanitize_text_field( $args['object_id'] ) );
-		}
-		
-		if ( ! empty( $args['object_type'] ) ) {
-			$where .= $wpdb->prepare( ' AND object_type=%s', sanitize_text_field( $args['object_type'] ) );
-		}
-		
-		return $where;
-	}
+
 	/**
 	 * Scheduling the cleanup of completed async actions
 	 *

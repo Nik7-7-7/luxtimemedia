@@ -1,0 +1,75 @@
+// Maps
+
+$markers: (
+  plus: "+",
+  x: "✕",
+  x-heavy: "✖",
+  x-fancy: "✘",
+  em: "—",
+  triangle: "▶",
+  info: "ℹ",
+  arrow: "➞",
+  arrow-heavy: "➜",
+  arrow-dotted: "⇢",
+  arrow-hollow: "⇨",
+  arrow-shadow: "➩",
+  circle: "○",
+  circle-filled: "◉",
+  circle-x: "⊗",
+  circle-plus: "⊕",
+  circle-minus: "⊝",
+  circle-no: "⊘",
+  circle-star: "✪",
+  star: "★",
+  star-outline: "☆",
+  square: "■",
+  square-outline: "◻",
+  diamond: "◆",
+  diamond-outline: "◇",
+  bullseye: "◎",
+  hand: "☛",
+  hand-outline: "☞",
+  heart: "♥",
+  flag: "⚑",
+  flag-outline: "⚐",
+  pencil: "✎",
+  check: "✓",
+);
+
+// Marker Colors
+@if $option-marker-colors == on {
+  @each $color-name, $color-value in $core-colors {
+      .marker--#{$color-name} {
+        li::marker {
+          color: var(--#{$color-name});
+        }
+      }
+    }
+  }
+
+// Marker Styles (FUTURE)
+
+// @each $style, $value in $markers {
+//     .marker--#{$style} {
+//         li {
+//                 padding-left: .5em;
+//             }
+//         li::marker {
+//             content: "#{$value}";
+//         }
+//     }
+// }
+
+// Lists
+
+ul.list--none,
+ol.list--none,
+.list--none > ul,
+.list--none > ol {
+  list-style: none;
+  padding-inline-start: 0;
+  list-style-type: none;
+  -webkit-margin-before: 0em;
+  margin-block-start: 0em;
+  margin-block-end: 0;
+}

@@ -1,0 +1,144 @@
+{
+	"schemas": [
+		{
+			"name": "Corporate Classic",
+			"colors": {
+				"bg-color": "#FFFFFF",
+				"color-font": "#353535",
+				"color-links": "#007BFF",
+				"block-bg-color": "#F7F7F7",
+				"block-color-font": "#353535",
+				"footer-color-font": "#353535",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#0056B3",
+				"button-bg-hover-color": "#0069D9"
+			}
+		},
+		{
+			"name": "Modern Professional",
+			"colors": {
+				"bg-color": "#F4F4F4",
+				"color-font": "#404040",
+				"color-links": "#E63946",
+				"block-bg-color": "#FFFFFF",
+				"block-color-font": "#404040",
+				"footer-color-font": "#404040",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#E63946",
+				"button-bg-hover-color": "#F44336"
+			}
+		},
+		{
+			"name": "Sleek Silver",
+			"colors": {
+				"bg-color": "#FAFAFA",
+				"color-font": "#4B4B4B",
+				"color-links": "#7D879C",
+				"block-bg-color": "#FFFFFF",
+				"block-color-font": "#4B4B4B",
+				"footer-color-font": "#4B4B4B",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#6C757D",
+				"button-bg-hover-color": "#5A6268"
+			}
+		},
+		{
+			"name": "Eco Green",
+			"colors": {
+				"bg-color": "#F0F4EF",
+				"color-font": "#3E4E50",
+				"color-links": "#4CAF50",
+				"block-bg-color": "#FFFFFF",
+				"block-color-font": "#3E4E50",
+				"footer-color-font": "#3E4E50",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#43A047",
+				"button-bg-hover-color": "#388E3C"
+			}
+		},
+		{
+			"name": "Bold Blue",
+			"colors": {
+				"bg-color": "#E3F2FD",
+				"color-font": "#2C3E50",
+				"color-links": "#2196F3",
+				"block-bg-color": "#FFFFFF",
+				"block-color-font": "#2C3E50",
+				"footer-color-font": "#2C3E50",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#1E88E5",
+				"button-bg-hover-color": "#1976D2"
+			}
+		},
+		{
+			"name": "Bright Day",
+			"colors": {
+				"bg-color": "#F0F8FF",
+				"color-font": "#333333",
+				"color-links": "#FF6347",
+				"block-bg-color": "#FFFFFF",
+				"block-color-font": "#333333",
+				"footer-color-font": "#333333",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#FFA07A",
+				"button-bg-hover-color": "#FF7F50"
+			}
+		},
+		{
+			"name": "Lush Garden",
+			"colors": {
+				"bg-color": "#F0FFF0",
+				"color-font": "#2F4F4F",
+				"color-links": "#20B2AA",
+				"block-bg-color": "#FFFFFF",
+				"block-color-font": "#2F4F4F",
+				"footer-color-font": "#2F4F4F",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#32CD32",
+				"button-bg-hover-color": "#228B22"
+			}
+		},
+		{
+			"name": "Sunset Bliss",
+			"colors": {
+				"bg-color": "#FFF0F5",
+				"color-font": "#8B4513",
+				"color-links": "#DB7093",
+				"block-bg-color": "#FFFFFF",
+				"block-color-font": "#8B4513",
+				"footer-color-font": "#8B4513",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#FF69B4",
+				"button-bg-hover-color": "#FF1493"
+			}
+		},
+		{
+			"name": "Tropical Escape",
+			"colors": {
+				"bg-color": "#E0FFFF",
+				"color-font": "#008B8B",
+				"color-links": "#00CED1",
+				"block-bg-color": "#FFFFFF",
+				"block-color-font": "#008B8B",
+				"footer-color-font": "#008B8B",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#20B2AA",
+				"button-bg-hover-color": "#5F9EA0"
+			}
+		},
+		{
+			"name": "Electric Sunset",
+			"colors": {
+				"bg-color": "#FAEBD7",
+				"color-font": "#A52A2A",
+				"color-links": "#FF4500",
+				"block-bg-color": "#FFFFFF",
+				"block-color-font": "#A52A2A",
+				"footer-color-font": "#A52A2A",
+				"button-color-font": "#FFFFFF",
+				"button-bg-color": "#FF8C00",
+				"button-bg-hover-color": "#FFA500"
+			}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+// Generate full buttons output.
+// Gutenberg support requires us to load button styling within
+// the Gutenberg overrides stylesheet.
+
+@if $option-buttons == on 
+and $option-bricks == off 
+and $option-oxygen == off
+and $option-gutenberg-load-styling-backend == off 
+and $option-generate-blocks == off
+and $option-breakdance == off {
+  @include load-buttons;
+}

@@ -1,0 +1,74 @@
+/*!
+ *  Ultimate Learning Pro Main BackEnd Style RTL format
+ *
+ */
+.ui-multiselect li a.action{
+	left:5px;
+	right:auto;
+}
+.ui-multiselect li .moduleicon-ulp{
+	padding-left:5px;
+	padding-right:0px;
+}
+.ui-multiselect li .fa-sort-ulp{
+	left:20px;
+	right:auto;
+}
+.ulp-course-module-list .ui-multiselect ul.selected li, .ulp-quiz-questions-select .ui-multiselect ul.selected li{
+	border-right: 5px solid #1c9ab1 !important;
+	border-left: none !important;
+	padding-right:17px;
+	padding-left:0px;
+}
+.ui-multiselect .ui-state-default{
+	padding-left: 0px;
+	padding-right: 20px;
+}
+.ui-multiselect ul.available li{
+    padding-left: 0px;
+	padding-right:10px;
+}
+.ulp-course-module-order:before, .ulp-course-module-order{
+	right:0px;
+	left:auto;
+}
+ .ulp-course-module-order{
+	right:0px;
+	left:auto;
+	padding-right: 17px;
+	padding-left: 0px;
+}
+.ulp-course-module-title {
+    border-right: 5px solid #1089b4;
+	border-left:none;
+    padding: 3px 20px 0 100px;
+    left:0px;
+    right: 50px;
+}
+.ulp-course-module-options{
+	left:0px;
+	right:auto;
+}
+.ulp-course-module-list .ui-multiselect ul.selected li:before, .ulp-quiz-questions-select .ui-multiselect ul.selected li:before{
+	left:auto;
+	right:0px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: right;
+}
+.ulp-test-crdl {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 25%;
+}
+.ulp-test-crdl tr:nth-child(even) {
+  background-color: #e3e3e3;
+}
+.ulp-test-crdl th {
+  text-align: left;
+  padding: 8px;
+}
+.ulp-test-crdl td {
+  text-align: left;
+  padding: 8px;
+}

@@ -1,0 +1,53 @@
+@if $option-flex == on {
+@each $direction, $value in $flexDirections {
+    .flex--#{$direction}.flex--#{$direction} {
+      display: flex;
+      flex-direction: #{$value};
+    }
+  }
+
+  // Flex Breakpoints
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) {
+      @each $direction, $directionValue in $flexDirections {
+        .flex--#{$direction}-#{$breakpoint}.flex--#{$direction}-#{$breakpoint} {
+          display: flex;
+          flex-direction: #{$directionValue};
+        }
+      }
+    }
+  }
+
+  // GERNERATE ALIGNMENTS
+
+  @each $alignmentType, $directionSet in $flexAlignments {
+    @each $direction, $value in $directionSet {
+      @if $alignmentType != self {
+        .#{$alignmentType}--#{$direction}.#{$alignmentType}--#{$direction} {
+          display: flex;
+          #{$alignmentType}: $value;
+        }
+      } @else if $alignmentType == self {
+        .#{$alignmentType}--#{$direction}.#{$alignmentType}--#{$direction} {
+          align-self: $value;
+        }
+      }
+    }
+  }
+
+  .stretch.stretch {
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: stretch;
+    justify-items: stretch;
+  }
+
+  .flex--wrap.flex--wrap {
+    flex-wrap: wrap;
+  }
+
+  .flex--grow > * {
+    flex-grow: 1;
+  }
+}

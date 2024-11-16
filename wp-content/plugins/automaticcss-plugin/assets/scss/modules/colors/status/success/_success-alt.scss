@@ -1,0 +1,148 @@
+// success Options
+$option-success-clr-alt: off !default;
+
+// success Alt Vars
+$success-alt-hex: #e56c70 !default;
+$success-r-alt: 229 !default;
+$success-g-alt: 108 !default;
+$success-b-alt: 112 !default;
+$success-h-alt: 358 !default;
+$success-s-alt: 70% !default;
+$success-l-alt: 66% !default;
+$success-hover-h-alt: 358 !default;
+$success-hover-s-alt: 70% !default;
+$success-hover-l-alt: 1.15 !default;
+$success-ultra-light-h-alt: 358 !default;
+$success-ultra-light-s-alt: 70% !default;
+$success-ultra-light-l-alt: 95% !default;
+$success-light-h-alt: 358 !default;
+$success-light-s-alt: 70% !default;
+$success-light-l-alt: 85% !default;
+$success-medium-h-alt: 358 !default;
+$success-medium-s-alt: 70% !default;
+$success-medium-l-alt: 50% !default;
+$success-dark-h-alt: 358 !default;
+$success-dark-s-alt: 70% !default;
+$success-dark-l-alt: 25% !default;
+$success-ultra-dark-h-alt: 358 !default;
+$success-ultra-dark-s-alt: 70% !default;
+$success-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$success-semi-light-h-alt: 358 !default;
+$success-semi-light-s-alt: 70% !default;
+$success-semi-light-l-alt: 60% !default;
+$success-semi-dark-h-alt: 358 !default;
+$success-semi-dark-s-alt: 70% !default;
+$success-semi-dark-l-alt: 40% !default;
+
+// Success Alt Color Map
+$color-success-alt:(); // Initialize Map
+@if $option-success-clr-alt == on and $option-success-clr == on {
+  $color-success-alt: (
+    "main": (
+      "success": $success-alt-hex,
+      "success-hover": hsl($success-hover-h-alt, $success-hover-s-alt, $success-hover-l-alt),
+      "success-ultra-light": hsl($success-ultra-light-h-alt, $success-ultra-light-s-alt, $success-ultra-light-l-alt),
+      "success-light": hsl($success-light-h-alt, $success-light-s-alt, $success-light-l-alt),
+      "success-semi-light": hsl($success-semi-light-h-alt, $success-semi-light-s-alt, $success-semi-light-l-alt),
+      "success-semi-dark": hsl($success-semi-dark-h-alt, $success-semi-dark-s-alt, $success-semi-dark-l-alt),
+      "success-dark": hsl($success-dark-h-alt, $success-dark-s-alt, $success-dark-l-alt),
+      "success-ultra-dark": hsl($success-ultra-dark-h-alt, $success-ultra-dark-s-alt, $success-ultra-dark-l-alt),
+      "success-comp": hsl($success-h-alt + 180, $success-s-alt, $success-l-alt),
+    ),
+    "trans": (
+      "success-trans-10": rgba($success-alt-hex, .1),
+      "success-trans-20": rgba($success-alt-hex, .2),
+      "success-trans-30": rgba($success-alt-hex, .3),
+      "success-trans-40": rgba($success-alt-hex, .4),
+      "success-trans-50": rgba($success-alt-hex, .5),
+      "success-trans-60": rgba($success-alt-hex, .6),
+      "success-trans-70": rgba($success-alt-hex, .7),
+      "success-trans-80": rgba($success-alt-hex, .8),
+      "success-trans-90": rgba($success-alt-hex, .9),
+    ),
+    "light-trans": (
+      "success-light-trans-10": hsl($success-light-h-alt, $success-light-s-alt, $success-light-l-alt, .1),
+      "success-light-trans-20": hsl($success-light-h-alt, $success-light-s-alt, $success-light-l-alt, .2),
+      "success-light-trans-30": hsl($success-light-h-alt, $success-light-s-alt, $success-light-l-alt, .3),
+      "success-light-trans-40": hsl($success-light-h-alt, $success-light-s-alt, $success-light-l-alt, .4),
+      "success-light-trans-50": hsl($success-light-h-alt, $success-light-s-alt, $success-light-l-alt, .5),
+      "success-light-trans-60": hsl($success-light-h-alt, $success-light-s-alt, $success-light-l-alt, .6),
+      "success-light-trans-70": hsl($success-light-h-alt, $success-light-s-alt, $success-light-l-alt, .7),
+      "success-light-trans-80": hsl($success-light-h-alt, $success-light-s-alt, $success-light-l-alt, .8),
+      "success-light-trans-90": hsl($success-light-h-alt, $success-light-s-alt, $success-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "success-dark-trans-10": hsl($success-dark-h-alt, $success-dark-s-alt, $success-dark-l-alt, .1),
+      "success-dark-trans-20": hsl($success-dark-h-alt, $success-dark-s-alt, $success-dark-l-alt, .2),
+      "success-dark-trans-30": hsl($success-dark-h-alt, $success-dark-s-alt, $success-dark-l-alt, .3),
+      "success-dark-trans-40": hsl($success-dark-h-alt, $success-dark-s-alt, $success-dark-l-alt, .4),
+      "success-dark-trans-50": hsl($success-dark-h-alt, $success-dark-s-alt, $success-dark-l-alt, .5),
+      "success-dark-trans-60": hsl($success-dark-h-alt, $success-dark-s-alt, $success-dark-l-alt, .6),
+      "success-dark-trans-70": hsl($success-dark-h-alt, $success-dark-s-alt, $success-dark-l-alt, .7),
+      "success-dark-trans-80": hsl($success-dark-h-alt, $success-dark-s-alt, $success-dark-l-alt, .8),
+      "success-dark-trans-90": hsl($success-dark-h-alt, $success-dark-s-alt, $success-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "success-ultra-dark-trans-10": hsl($success-ultra-dark-h-alt, $success-ultra-dark-s-alt, $success-ultra-dark-l-alt, .1),
+      "success-ultra-dark-trans-20": hsl($success-ultra-dark-h-alt, $success-ultra-dark-s-alt, $success-ultra-dark-l-alt, .2),
+      "success-ultra-dark-trans-30": hsl($success-ultra-dark-h-alt, $success-ultra-dark-s-alt, $success-ultra-dark-l-alt, .3),
+      "success-ultra-dark-trans-40": hsl($success-ultra-dark-h-alt, $success-ultra-dark-s-alt, $success-ultra-dark-l-alt, .4),
+      "success-ultra-dark-trans-50": hsl($success-ultra-dark-h-alt, $success-ultra-dark-s-alt, $success-ultra-dark-l-alt, .5),
+      "success-ultra-dark-trans-60": hsl($success-ultra-dark-h-alt, $success-ultra-dark-s-alt, $success-ultra-dark-l-alt, .6),
+      "success-ultra-dark-trans-70": hsl($success-ultra-dark-h-alt, $success-ultra-dark-s-alt, $success-ultra-dark-l-alt, .7),
+      "success-ultra-dark-trans-80": hsl($success-ultra-dark-h-alt, $success-ultra-dark-s-alt, $success-ultra-dark-l-alt, .8),
+      "success-ultra-dark-trans-90": hsl($success-ultra-dark-h-alt, $success-ultra-dark-s-alt, $success-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "success-hex": $success-alt-hex,
+        "success-hsl": $success-h $success-s $success-l-alt,
+        "success-rgb": $success-r $success-g $success-b-alt,
+        "success-r": $success-r-alt,
+        "success-g": $success-g-alt,
+        "success-b": $success-b-alt,
+        "success-h": $success-h-alt,
+        "success-s": $success-s-alt,
+        "success-l": $success-l-alt,
+        "success-hover-h": $success-hover-h-alt,
+        "success-hover-s": $success-hover-s-alt,
+        "success-hover-l": $success-hover-l-alt,
+        "success-ultra-light-h": $success-ultra-light-h-alt,
+        "success-ultra-light-s": $success-ultra-light-s-alt,
+        "success-ultra-light-l": $success-ultra-light-l-alt,
+        "success-light-h": $success-light-h-alt,
+        "success-light-s": $success-light-s-alt,
+        "success-light-l": $success-light-l-alt,
+        "success-semi-light-h": $success-semi-light-h-alt,
+        "success-semi-light-s": $success-semi-light-s-alt,
+        "success-semi-light-l": $success-semi-light-l-alt,
+        "success-semi-dark-h": $success-semi-dark-h-alt,
+        "success-semi-dark-s": $success-semi-dark-s-alt,
+        "success-semi-dark-l": $success-semi-dark-l-alt,
+        "success-dark-h": $success-dark-h-alt,
+        "success-dark-s": $success-dark-s-alt,
+        "success-dark-l": $success-dark-l-alt,
+        "success-ultra-dark-h": $success-ultra-dark-h-alt,
+        "success-ultra-dark-s": $success-ultra-dark-s-alt,
+        "success-ultra-dark-l": $success-ultra-dark-l-alt,
+        "success-comp-h": $success-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-success-clr-alt == on and $option-success-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-success-alt: map-merge($color-success-alt, (
+      "main": map-merge(map-get($color-success-alt, "main"), (
+        "success-medium": hsl($success-medium-h-alt, $success-medium-s-alt, $success-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-success-alt, "partials"), (
+        "success-medium-h": $success-medium-h-alt,
+        "success-medium-s": $success-medium-s-alt,
+        "success-medium-l": $success-medium-l-alt
+      ))
+    ));
+  }
+}

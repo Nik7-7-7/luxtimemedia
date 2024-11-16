@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "license_key": "",
+  "license_status": "",
+  "license_expires": "",
+
+  "additional_ids_enabled": true,
+  "dynamic_params_enabled": true,
+
+  "enable_hide_this_tag_by_tags": true,
+  "enable_hide_this_tag_by_url": true,
+
+  "custom_thank_you_page_enabled": true,
+  "woo_custom_thank_you_page_global_enabled": false,
+  "woo_custom_thank_you_page_global_url": "",
+  "woo_custom_thank_you_page_global_cart": "hidden",
+  "edd_custom_thank_you_page_global_enabled": false,
+  "edd_custom_thank_you_page_global_url": "",
+  "edd_custom_thank_you_page_global_cart": "hidden",
+
+  "remove_pixel_enabled": true,
+  "amp_enabled": true,
+  "fb_ext_pixel_id": "",
+  "ga_ext_pixel_id": "",
+  "ads_ext_pixel_id": ""
+}

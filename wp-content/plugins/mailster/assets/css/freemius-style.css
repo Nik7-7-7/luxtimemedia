@@ -1,0 +1,22 @@
+.toplevel_page_mailster #fs_connect {
+	margin-top: 70px;
+}
+.toplevel_page_mailster #fs_connect .fs-box-container {
+	background-color: #fff;
+	border: 1px solid #c3c4c4;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+	padding-top: 27px;
+}
+.toplevel_page_mailster #fs_connect .fs-header .fs-plugin-icon {
+	border: 1px solid #c3c4c4;
+	top: -43px;
+	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+}
+.toplevel_page_mailster #fs_connect .fs-license-key-container {
+	width: auto;
+}
+.toplevel_page_mailster #fs_connect .fs-license-key-container input {
+	font-family: monospace;
+	font-weight: bold;
+}

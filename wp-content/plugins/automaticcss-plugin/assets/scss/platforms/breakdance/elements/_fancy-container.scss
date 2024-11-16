@@ -1,0 +1,5 @@
+@if $option-content-gap == on {
+    .breakdance :where(.bde-fancy-container) {
+        row-gap: var(--content-gap);
+    }
+}

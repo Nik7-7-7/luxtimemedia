@@ -1,0 +1,18 @@
+// Hide text for everyone except for screen readers
+// HAS CORRESPONDING FEATURE STYLING IN BUILDERS!
+
+@if $option-accessibility-classes == on {
+
+  .hidden-accessible {
+    position: absolute !important;
+    inline-size: 1px !important;
+    block-size: 1px !important;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap; /* added line */
+    border: 0;
+  }
+
+} // End options check

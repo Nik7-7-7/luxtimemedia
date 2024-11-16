@@ -1,0 +1,6 @@
+@mixin line-clamp($line-count) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $line-count;
+}

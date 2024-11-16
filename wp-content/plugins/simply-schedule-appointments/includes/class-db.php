@@ -24,7 +24,9 @@ abstract class SSA_Db {
 			} else {
 				$ids = intval( $args['id'] );
 			}
-			$where .= " AND `".$this->primary_key."` IN( $ids ) ";
+
+			$where .= " AND `".$this->primary_key."` IN( {$ids} ) ";
+
 		}
 
 		if ( !empty( $this->schema['user_id'] ) ) {		
@@ -37,7 +39,7 @@ abstract class SSA_Db {
 					$user_ids = intval( $args['user_id'] );
 				}
 
-				$where .= " AND `user_id` IN( $user_ids ) ";
+				$where .= " AND `user_id` IN( {$user_ids} ) ";
 
 			}
 		}
@@ -51,7 +53,8 @@ abstract class SSA_Db {
 				} else {
 					$author_ids = intval( $args['author_id'] );
 				}
-				$where .= $wpdb->prepare( " AND `%i` IN( SELECT ID FROM $wpdb->posts WHERE post_author IN ( $author_ids ) ) ", $this->post_id_field );
+				
+				$where .= " AND `".$this->post_id_field."` IN( SELECT ID FROM $wpdb->posts WHERE post_author IN ( {$author_ids} ) ) ";
 			}
 
 			// rows for specific projectslug
@@ -62,16 +65,16 @@ abstract class SSA_Db {
 					$projectslugs = $args['projectslug'];
 				}
 				
-				$where .= $wpdb->prepare( " AND `%i` IN( SELECT ID FROM $wpdb->posts WHERE post_name = $projectslugs ) ", $this->post_id_field );
+				$where .= $wpdb->prepare( " AND `".$this->post_id_field."` IN( SELECT ID FROM $wpdb->posts WHERE post_name = %s ) ", $args['projectslug'] );
 			}
 
 			// specific rows by name
 			if( ! empty( $args[$this->post_id_field] ) ) {
 				if ( is_array( $args[$this->post_id_field] ) ) {
 					$post_ids = implode( ',', array_map('intval', $args[$this->post_id_field] ) );
-					$where .=  $wpdb->prepare( " AND `%i` IN( $post_ids ) ", $this->post_id_field );
+					$where .= " AND `".$this->post_id_field."` IN( {$post_ids} ) ";
 				} else {
-					$where .= $wpdb->prepare( " AND `%i` = %d ", $this->post_id_field, $args[$this->post_id_field] );
+					$where .= $wpdb->prepare( " AND `".$this->post_id_field."` = '" . '%d' . "' ", $args[$this->post_id_field] );
 				}
 			}
 		}

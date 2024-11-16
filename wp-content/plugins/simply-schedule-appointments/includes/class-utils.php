@@ -474,11 +474,12 @@ function ssa_debug_log( $var, $debug_level = 1, $label = '', $file = 'debug' ) {
 	if ( defined( 'SSA_DEBUG_LOG' ) && empty( SSA_DEBUG_LOG ) ) {
 		return;
 	}
-	
-	$ssa_debug_level = get_option( 'ssa_debug_level', 10 );
-	if ( $debug_level < $ssa_debug_level ) {
-		// We want to log really fatal errors (level 10) so the support team can see them when logging in after the fact
-		return;
+	$developer_settings = ssa()->developer_settings->get();
+	if( empty( $developer_settings['ssa_debug_mode'] ) ) {
+		if ( $debug_level < 10 ) {
+			// We want to log really fatal errors (level 10) so the support team can see them when logging in after the fact
+			return;
+		}
 	}
 	
 	$path = ssa()->support_status->get_log_file_path( $file );
@@ -935,7 +936,7 @@ function ssa_get_stack_trace() {
 
 function ssa_is_new_booking_app() {
 	$developer_settings = ssa()->developer_settings->get();
-	return ! empty( $developer_settings ) && empty( $developer_settings['old_booking_app'] );
+	return ! empty( $developer_settings ) && ! empty( $developer_settings['beta_booking_app'] );
 }
 
 function ssa_should_render_booking_flow() {

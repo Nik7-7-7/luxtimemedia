@@ -293,45 +293,42 @@ class SSA_Availability_External_Model extends SSA_Db_Model {
 	);
 
 	public function filter_where_conditions( $where, $args ) {
-		global $wpdb;
 		if ( !empty( $args['calendar_id_hash_IN'] ) ) {
 			if ( is_array( $args['calendar_id_hash_IN'] ) ) {
-				// prepare the array items one by one
-				$calendar_id_hashes = array_map( 'intval', $args['calendar_id_hash_IN'] );
-				$calendar_id_hash_csv = implode( ',', $calendar_id_hashes );
+				$calendar_id_hash_csv = implode( ',', $args['calendar_id_hash_IN'] );
 			} else {
-				$calendar_id_hash_csv = intval( $args['calendar_id_hash_IN'] );
+				$calendar_id_hash_csv = $args['calendar_id_hash_IN'];
 			}
 
-			$where .= ' AND calendar_id_hash IN ( ' . $calendar_id_hash_csv . ' )';
+			$where .= ' AND calendar_id_hash IN ('.sanitize_text_field( $calendar_id_hash_csv ).')';
 		}
 
 		if ( !empty( $args['staff_id'] ) ) {
-			$where .= $wpdb->prepare( ' AND staff_id=%d', sanitize_text_field( $args['staff_id'] ) );
+			$where .= ' AND staff_id='.sanitize_text_field( $args['staff_id'] );
 		}
 		
 		if ( !empty( $args['calendar_id_hash'] ) ) {
-			$where .= $wpdb->prepare( ' AND calendar_id_hash=%d', sanitize_text_field( $args['calendar_id_hash'] ) );
+			$where .= ' AND calendar_id_hash='.sanitize_text_field( $args['calendar_id_hash'] );
 		}
 		
 		if ( isset( $args['is_available'] ) ) {
-			$where .= $wpdb->prepare( ' AND is_available=%d', sanitize_text_field( $args['is_available'] ) );
+			$where .= ' AND is_available="'.sanitize_text_field( $args['is_available'] ).'"';
 		}
 
 		if ( isset( $args['type'] ) ) {
-			$where .= $wpdb->prepare( ' AND type=%s', sanitize_text_field( $args['type'] ) );
+			$where .= ' AND type="'.sanitize_text_field( $args['type'] ).'"';
 		}
 
 		if ( isset( $args['subtype'] ) ) {
-			$where .= $wpdb->prepare( ' AND subtype=%s', sanitize_text_field( $args['subtype'] ) );
+			$where .= ' AND subtype="'.sanitize_text_field( $args['subtype'] ).'"';
 		}
 
 		if ( isset( $args['service'] ) ) {
-			$where .= $wpdb->prepare( ' AND service=%s', sanitize_text_field( $args['service'] ) );
+			$where .= ' AND service="'.sanitize_text_field( $args['service'] ).'"';
 		}
 
 		if ( isset( $args['cache_key'] ) ) {
-			$where .= $wpdb->prepare( ' AND cache_key=%d', sanitize_text_field( $args['cache_key'] ) );
+			$where .= ' AND cache_key="'.sanitize_text_field( $args['cache_key'] ).'"';
 		}
 
 		if ( isset( $args['intersects_period'] ) ) {

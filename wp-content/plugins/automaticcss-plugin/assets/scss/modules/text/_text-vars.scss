@@ -1,0 +1,72 @@
+@import "text-default-styles";
+@import "heading-default-styles";
+
+// Bases
+
+$root-font-size: 62.5% !default;
+
+// Fluid Text
+$base-text-desk: 1.8 !default;
+$base-text-mob: 1.6 !default;
+$text-scale: 1.333 !default;
+$mob-text-scale: 1.2 !default;
+
+$text-xs-stop: 1.1 !default;
+$text-s-stop: 1.2 !default;
+
+// Fluid Headings
+$base-heading-desk: $base-text-desk !default;
+$base-heading-mob: $base-text-mob !default;
+$heading-scale: $text-scale !default;
+$mob-heading-scale: $mob-text-scale !default;
+
+$h6-stop: $text-xs-stop !default;
+$h5-stop: $text-s-stop !default;
+
+// Multiplier
+
+$text-multiplier: 1.5 !default; // Controls the .text--larger class
+$text-multiplier-min: 1.1 !default; // Adds mobile control for .text--larger class
+
+// DEFAULT
+
+$body-bg-color: var(--white) !default;
+
+// PURE FALLBACKS
+
+$text-xs-pure: 1.26rem !default;
+$text-s-pure: 1.42rem !default;
+$text-m-pure: 1.8rem !default;
+$text-l-pure: 2.025rem !default;
+$text-xl-pure: 2.28rem !default;
+$text-xxl-pure: 2.565rem !default;
+
+// TEXT SIZES
+
+$text-m-max: $base-text-desk !default;
+$text-m-min: $base-text-mob !default;
+$text-xs-max: $base-text-desk / pow($text-scale, 2) !default;
+$text-xs-min: $base-text-mob / pow($mob-text-scale, 2) !default;
+$text-s-max: $base-text-desk / $text-scale !default;
+$text-s-min: $base-text-mob / $mob-text-scale !default;
+$text-l-max: $base-text-desk * pow($text-scale, 1) !default;
+$text-l-min: $base-text-mob * pow($mob-text-scale, 1) !default;
+$text-xl-max: $base-text-desk * pow($text-scale, 2) !default;
+$text-xl-min: $base-text-mob * pow($mob-text-scale, 2) !default;
+$text-xxl-max: $base-text-desk * pow($text-scale, 3) !default;
+$text-xxl-min: $base-text-mob * pow($mob-text-scale, 3) !default;
+
+// HEADING SIZES
+
+$h4-max: $base-heading-desk !default;
+$h4-min: $base-heading-mob !default;
+$h6-max: $base-heading-desk / pow($heading-scale, 2) !default;
+$h6-min: $base-heading-mob / pow($mob-heading-scale, 2) !default;
+$h5-max: $base-heading-desk / $heading-scale !default;
+$h5-min: $base-heading-mob / $mob-heading-scale !default;
+$h3-max: $base-heading-desk * pow($heading-scale, 1) !default;
+$h3-min: $base-heading-mob * pow($mob-heading-scale, 1) !default;
+$h2-max: $base-heading-desk * pow($heading-scale, 2) !default;
+$h2-min: $base-heading-mob * pow($mob-heading-scale, 2) !default;
+$h1-max: $base-heading-desk * pow($heading-scale, 3) !default;
+$h1-min: $base-heading-mob * pow($mob-heading-scale, 3) !default;

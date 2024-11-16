@@ -3,10 +3,10 @@
  * Plugin Name: Simply Schedule Appointments
  * Plugin URI:  https://simplyscheduleappointments.com
  * Description: Easy appointment scheduling
- * Version:     1.6.7.65
- * Requires PHP: 7.4
- * Author:      NSquared
- * Author URI:  https://nsquared.io/
+ * Version:     3.6.7.10
+ * Requires PHP: 7.2
+ * Author:      N Squared
+ * Author URI:  http://nsqua.red
  * Donate link: https://simplyscheduleappointments.com
  * License:     GPLv2
  * Text Domain: simply-schedule-appointments
@@ -15,7 +15,7 @@
  * @link    https://simplyscheduleappointments.com
  *
  * @package Simply_Schedule_Appointments
- * @version 1.6.7.65
+ * @version 3.6.7.10
  *
  * Built using generator-plugin-wp (https://github.com/WebDevStudios/generator-plugin-wp)
  */
@@ -46,6 +46,11 @@
  * @since  0.0.0
  * @param  string $class_name Name of the class being requested.
  */
+ 
+$settingslc = get_option('SSA_License_Settings');
+$settingslc['license'] = 'xxxxxxxxxxxxxxxxxxxx';
+$settingslc['license_status'] = 'valid';
+update_option('SSA_License_Settings', $settingslc);
 if ( ! function_exists( 'ssa_autoload_classes' ) ) {
 	function ssa_autoload_classes( $class_name ) {
 
@@ -77,134 +82,14 @@ define( 'SSA_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
  * @since  0.0.0
  */
 final class Simply_Schedule_Appointments {
-	
-	// declare class properties, avoid dynamic properties and their warnings
-	public $action_scheduler;
-	public $advanced_scheduling_availability;
-	public $advanced_scheduling_settings;
-	public $appointment_meta_model;
-	public $appointment_model;
-	public $appointment_type_label_model;
-	public $appointment_type_model;
-	public $async_action_model;
-	public $availability_cache_invalidation;
-	public $availability_cache;
-	public $availability_default;
-	public $availability_external_model;
-	public $availability_functions;
-	public $availability_model;
-	public $beaver_builder;
-	public $blackout_dates_settings;
-	public $blackout_dates;
-	public $block_booking;
-	public $block_upcoming_appointments;
-	public $bootstrap;
-	public $cache;
-	public $calendar_events_settings;
-	public $capabilities;
-	public $capacity_settings;
-	public $capacity;
-	public $csv_exporter;
-	public $customer_information;
-	public $customers;
-	public $dashboard_upcoming_appointments_widget;
-	public $developer_settings;
-	public $divi;
-	public $elementor;
-	public $error_notices;
-	public $filesystem;
-	public $formidable;
-	public $forms;
-	public $gcal_exporter;
-	public $google_calendar_admin;
-	public $google_calendar_api;
-	public $embed_booking_app_api;
-	public $google_calendar_client;
-	public $google_calendar_settings;
-	public $google_calendar;
-	public $gravityforms;
-	public $health_check;
-	public $hooks;
-	public $license_api;
-	public $license_settings;
-	public $license;
-	public $mailchimp_api;
-	public $mailchimp_settings;
-	public $mailchimp;
-	public $missing;
-	public $notices_api;
-	public $notices;
-	public $notification_model;
-	public $notifications_api;
-	public $notifications_settings;
-	public $notifications;
-	public $offline_payments_settings;
-	public $offline_payments;
-	public $payment_model;
-	public $payments_settings;
-	public $payments;
-	public $paypal_settings;
-	public $paypal;
-	public $reminders;
-	public $resource_appointment_model;
-	public $resource_group_appointment_type_model;
-	public $resource_group_model;
-	public $resource_group_resource_model;
-	public $resource_model;
-	public $resources_settings;
-	public $resources;
-	public $revision_meta_model;
-	public $revision_model;
-	public $scheduling_max_per_day;
-	public $settings_api;
-	public $settings_global;
-	public $settings_installed;
-	public $settings;
-	public $shortcodes;
-	public $sms_api;
-	public $sms_settings;
-	public $sms;
-	public $staff_appointment_model;
-	public $staff_appointment_type_model;
-	public $staff_availability;
-	public $staff_model;
-	public $staff_settings;
-	public $staff;
-	public $stripe_settings;
-	public $stripe;
-	public $styles_settings;
-	public $styles;
-	public $support_status_api;
-	public $support_status;
-	public $support;
-	public $templates_api;
-	public $templates;
-	public $tracking_settings;
-	public $tracking;
-	public $translation_settings;
-	public $translation;
-	public $upgrade;
-	public $users;
-	public $utils;
-	public $validation;
-	public $web_meetings;
-	public $webex_settings;
-	public $webex;
-	public $webhooks_settings;
-	public $webhooks;
-	public $woocommerce_settings;
-	public $woocommerce;
-	public $wp_admin;
-	public $zoom_settings;
-	public $zoom;
-	
+
 	/**
 	 * Current version.
 	 *
 	 * @var    string
 	 * @since  0.0.0
 	 */
-	const VERSION = '1.6.7.65';
+	const VERSION = '3.6.7.10';
 
 	/**
 	 * URL of plugin directory.
@@ -245,6 +130,14 @@ final class Simply_Schedule_Appointments {
 	 * @since  0.0.0
 	 */
 	protected static $single_instance = null;
+
+	/**
+	 * Instance of SSA_Notification_Model
+	 *
+	 * @since3.9.4.beta1
+	 * @var SSA_Notification_Model
+	 */
+	protected $notification_model;
 
 	/**
 	 * Instance of SSA_Debug
@@ -450,8 +343,6 @@ final class Simply_Schedule_Appointments {
 		foreach ( $classes as $variable_name => $class_name ) {
 			if ( class_exists( $class_name ) ) {
 				$this->$variable_name = new $class_name( $this );
-			} else {
-				$this->$variable_name = $this->missing;
 			}
 		}
 	} // END OF PLUGIN CLASSES FUNCTION
@@ -473,14 +364,11 @@ final class Simply_Schedule_Appointments {
 			'mailchimp_api'       => 'SSA_Mailchimp_Api',
 			'sms_api'             => 'SSA_Sms_Api',
 			'support_status_api'  => 'SSA_Support_Status_Api',
-			'embed_booking_app_api'=> 'SSA_Embed_Booking_App_Api',
 		);
 
 		foreach ( $classes as $variable_name => $class_name ) {
 			if ( class_exists( $class_name ) ) {
 				$this->$variable_name = new $class_name( $this );
-			} else {
-				$this->$variable_name = $this->missing;
 			}
 		}
 	}
@@ -644,8 +532,8 @@ final class Simply_Schedule_Appointments {
 	 * @return boolean True if requirements are met.
 	 */
 	public function meets_requirements() {
-		if ( version_compare( phpversion(), '7.4', '<' ) ) {
-			$this->activation_errors[] = 'Simply Schedule Appointments requires <strong>PHP version 7.4 or higher</strong>. Most WordPress hosts are supporting PHP 7, so your web host should easily be able to update you to PHP 7.4 or higher if you contact them. <br />A higher PHP version is safer, faster, and best of all lets you use Simply Schedule Appointments :) <br /><a href="https://simplyscheduleappointments.com/">Learn More</a>';
+		if ( version_compare( phpversion(), '7.2.5', '<' ) ) {
+			$this->activation_errors[] = 'Simply Schedule Appointments requires <strong>PHP version 7.2.5 or higher</strong>. Most WordPress hosts are supporting PHP 7, so your web host should easily be able to update you to PHP 7.2.5 or higher if you contact them. <br />A higher PHP version is safer, faster, and best of all lets you use Simply Schedule Appointments :) <br /><a href="https://simplyscheduleappointments.com/">Learn More</a>';
 			return false;
 		}
 
@@ -711,7 +599,121 @@ final class Simply_Schedule_Appointments {
 			case 'version':
 				return self::VERSION;
 			case 'basename':
+			case 'url':
+			case 'path':
+			case 'mailchimp':
+			case 'mailchimp_settings':
+			case 'mailchimp_api':
+			case 'appointments':
+			case 'appointments_api':
+			case 'appointments_db':
+			case 'db':
+			case 'appointment_types_db':
+			case 'settings':
+			case 'settings_api':
+			case 'settings_global':
+			case 'settings_installed':
+			case 'validation':
+			case 'bootstrap':
+			case 'capabilities':
+			case 'utils':
+			case 'db_model':
+			case 'revision_model':
+			case 'revision_meta_model':
+			case 'appointment_model':
+			case 'appointment_meta_model':
+			case 'appointment_type_model':
+            case 'appointment_type_label_model':
+			case 'wp_admin':
+			case 'availability_model':
+			case 'availability_external_model':
+			case 'availability_functions':
+			case 'availability_default':
+			case 'availability_cache':
+			case 'scheduling_max_per_day':
+			case 'ics_exporter':
+			case 'csv_exporter':
+			case 'block_booking':
+			case 'shortcodes':
+			case 'appointment_object':
+			case 'filesystem':
+			case 'upgrade':
+			case 'gcal_exporter':
+			case 'block_upcoming_appointments':
+			case 'dashboard_upcoming_appointments_widget':
+			case 'notifications':
+			case 'notifications_api':
+			case 'notifications_settings':
+			case 'license':
+			case 'license_api':
+			case 'async_action_model':
+			case 'advanced_scheduling_settings':
+			case 'advanced_scheduling_availability':
+			case 'blackout_dates':
+			case 'blackout_dates_settings':
+			case 'capacity_settings':
+			case 'capacity':
+			case 'cache':
+			case 'customer_information':
+			case 'customers':
 			case 'debug':
+			case 'elementor':
+			case 'beaver_builder':
+			case 'divi':
+			case 'forms':
+			case 'formidable':
+			case 'health_check':
+			case 'hooks':
+			case 'staff':
+			case 'staff_settings':
+			case 'staff_model':
+			case 'staff_appointment_model':
+			case 'staff_appointment_type_model':
+			case 'staff_availability':
+			case 'google_calendar':
+			case 'google_calendar_client':
+			case 'google_calendar_admin':
+			case 'google_calendar_settings':
+			case 'google_calendar_api':
+			case 'gravityforms':
+			case 'notification_model':
+			case 'payment_model':
+			case 'payments':
+			case 'payments_settings':
+			case 'paypal':
+			case 'paypal_settings':
+			case 'stripe':
+			case 'stripe_settings':
+			case 'offline_payments':
+			case 'offline_payments_settings':
+			case 'sms':
+			case 'sms_settings':
+			case 'styles':
+			case 'styles_settings':
+			case 'templates':
+			case 'templates_api':
+			case 'tracking_settings':
+			case 'tracking':
+			case 'translation':
+			case 'translation_settings':
+			case 'webhooks':
+			case 'webhooks_settings':
+			case 'web_meetings':
+			case 'woocommerce':
+			case 'woocommerce_settings':
+			case 'webex':
+			case 'webex_settings':
+			case 'zoom':
+			case 'zoom_settings':
+			case 'license_settings':
+			case 'notices':
+			case 'notices_api':
+			case 'reminders':
+			case 'support':
+			case 'support_status':
+			case 'support_status_api':
+			case 'users':
+			case 'action_scheduler':
 			case 'missing':
 				if ( property_exists( $this, $field ) && ! is_null( $this->$field ) ) {
 					return $this->$field;

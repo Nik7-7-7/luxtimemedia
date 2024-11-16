@@ -1,0 +1,63 @@
+.button {
+    height: 45px;
+    background-color: "#2985f7";
+    border-color: "#2985f7";
+    color: "white";
+    padding: 13px 18px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 0.3s ease 0s;
+}
+.meet-link-buttons {
+	display: flex;
+	width: 100%;
+    justify-content: space-between;
+}
+.meet-link-buttons .wpcfto-field-aside{
+	width: 48% !important;
+}
+.button.load_button {
+    position: relative;
+    transition: .3s ease;
+}
+
+.button.load_button span {
+    position: relative;
+    transition: .3s ease;
+}
+
+.button.load_button .lnr-sync {
+    position: absolute;
+    left: 50%;
+    top: 14px;
+    font-size: 20px;
+    margin-top: -3px;
+    margin-left: -10px;
+    opacity: 0;
+    animation: spin 2s infinite;
+    transition: .3s ease;
+}
+
+.button.load_button.loading i {
+    display: block;
+}
+
+.button.load_button.loading span {
+    opacity: 0;
+}
+
+.button.load_button.loading .lnr-sync {
+    opacity: 1;
+}
+
+.button i {
+    display: none;
+}
+
+.button:hover, .button:focus, .button:active:focus {
+    background-color: "#4293f8";
+    border-color: "#4293f8";
+}

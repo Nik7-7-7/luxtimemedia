@@ -1,0 +1,9 @@
+// Support for Container Queries
+
+.contain {
+    container-type: inline-size;
+}
+
+.contain > * {
+    container-type: inline-size;
+}

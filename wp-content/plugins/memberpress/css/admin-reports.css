@@ -1,0 +1,245 @@
+/* Reports CSS */
+.icon32 {
+  float: right;
+  display: inline-block;
+  background:url('../images/memberpress-logo.svg') !important;
+  width: 200px !important;
+  height: 32px !important;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .icon32 {
+    background-image: url('../images/memberpress-logo.svg') !important;
+    background-size: 200px 32px !important;
+  }
+}
+
+div.mepr_reports_area {
+  display:none;
+  padding:25px;
+  border:1px solid #CCC;
+  border-top:none;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  background-color: white;
+}
+
+.nav-tab-active {
+  background-color: white;
+  border-bottom-color: white;
+}
+
+div.monthly_graph_area,
+div.yearly_graph_area {
+  display:none;
+  border:1px solid #CCC;
+  border-top:none;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  height: 350px;
+}
+
+div.monthly_graph_area img,
+div.yearly_graph_area img,
+div.pie_chart_area img {
+  padding:25px;
+}
+
+div#mepr-reports-hidden-stuff {
+  display:none;
+}
+
+div.info_blocks_area {
+  float:left;
+  margin-top:25px;
+  /* max-width: 500px; */
+}
+
+div.float_block_separator {
+  height:16px;
+  line-height:0 !important;
+  clear:both;
+}
+
+div.info_block {
+  /*float:left;*/
+  border:1px solid #CCC;
+  min-width: 75px;
+  height: 60px;
+  vertical-align: top;
+  margin-right:10px;
+  margin-bottom:10px;
+  text-align:center;
+  padding:10px 15px 17px 15px;
+  display: inline-block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+span.info_block_title {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 75px;
+  width: 75px;
+  text-align: center;
+}
+
+div.info_block h3 {
+  margin:0;
+  padding:0;
+  margin-top:10px;
+  font-size:18px;
+}
+
+div.pie_chart_area {
+  float:right;
+  height:250px;
+  width:360px;
+  display:inline-block;
+  margin-top: 20px;
+}
+
+#overall_info_blocks {
+  margin-top: 15px;
+}
+
+.info_block.skeleton {
+  background-color: #f0f0f0; /* Set a light background color */
+}
+
+.info_block.skeleton .info_block_title {
+  background-color: #e0e0e0; /* Set a slightly darker background color for the title */
+}
+
+.info_block.skeleton h3 {
+  background-color: #e0e0e0; /* Set a slightly darker background color for the number */
+}
+
+/* Animation for loading effect */
+@keyframes mepr-skeleton-loading {
+  0%, 100% {
+    opacity: 0; /* Fully transparent */
+  }
+  50% {
+    opacity: 1; /* Fully opaque */
+  }
+}
+
+.info_block.skeleton .info_block_title, .info_block.skeleton h3 {
+  animation: mepr-skeleton-loading 1.5s infinite linear; /* Apply the loading animation to both title and number */
+}
+
+.mepr-pie-chart-container {
+  position: relative;
+  width: 185px;
+  height: 185px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.mepr-pie-chart-container .pie-chart-slice {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, 100px, 200px, 0);
+  border-radius: 50%;
+  animation: meprspin 1.5s linear infinite;
+  transform-origin: 50% 50%;
+  background-color: #eee;
+}
+
+@keyframes meprspin {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.mepr-table-loading-row {
+  height: 100px;
+  text-align: center;
+}
+
+.mepr-table-loading-row td {
+  vertical-align: middle;
+}
+
+.mepr-table-loading-row img, .mepr-table-loading-row svg {
+  display: inline-block;
+}
+
+.monthly_graph_area.mepr-loading, .yearly_graph_area.mepr-loading {
+  position: relative;
+}
+
+.monthly_graph_area.mepr-loading img, .yearly_graph_area.mepr-loading img,
+.monthly_graph_area.mepr-loading svg, .yearly_graph_area.mepr-loading svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1620px) {
+  div.pie_chart_area {
+    float:none;
+    display:block;
+  }
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 1023px) {
+  div.info_blocks_area {
+    /* max-width: 330px; */
+  }
+
+  div.info_block {
+    min-width: 75px;
+    height: 60px;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  div.pie_chart_area {
+    float:none;
+    display:block;
+  }
+
+  div.info_blocks_area {
+    float:none;
+    display:block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #overall_info_blocks,
+  div.info_blocks_area {
+    max-width: 450px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #overall_info_blocks,
+  div.info_blocks_area {
+    max-width: 330px;
+  }
+}

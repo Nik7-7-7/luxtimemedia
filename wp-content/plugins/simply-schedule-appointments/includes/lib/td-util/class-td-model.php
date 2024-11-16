@@ -1,6 +1,6 @@
 <?php
 /* don't extend TD_Model
- * instead extend TD_DB_Model
+ * instead extend TD_CPT_Model or TD_DB_Model
  */
 abstract class TD_Model {
 	protected $plugin;

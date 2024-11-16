@@ -1,0 +1,933 @@
+{
+	"$schema": "screen.schema.json",
+	"id": "options",
+	"title": "Options",
+	"type": "screen-container",
+	"iconPaths": ["M7 5.5C4.51562 5.5 2.5 7.51562 2.5 10C2.5 12.4844 4.51562 14.5 7 14.5H13C15.4844 14.5 17.5 12.4844 17.5 10C17.5 7.51562 15.4844 5.5 13 5.5H7ZM1 10C1 6.6875 3.6875 4 7 4H13C16.3125 4 19 6.6875 19 10C19 13.3125 16.3125 16 13 16H7C3.6875 16 1 13.3125 1 10ZM13 7C13.7956 7 14.5587 7.31607 15.1213 7.87868C15.6839 8.44129 16 9.20435 16 10C16 10.7956 15.6839 11.5587 15.1213 12.1213C14.5587 12.6839 13.7956 13 13 13C12.2044 13 11.4413 12.6839 10.8787 12.1213C10.3161 11.5587 10 10.7956 10 10C10 9.20435 10.3161 8.44129 10.8787 7.87868C11.4413 7.31607 12.2044 7 13 7Z"],
+	"content": [
+		{
+			"id": "options-classes",
+			"title": "Utility Classes",
+			"type": "accordion-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "option-classless",
+					"title": "Classless Workflow",
+					"type": "toggle",
+					"default": "off",
+					"tooltip": "Toggle all utility class modules off. You can still enable individual utility modules.",
+					"control": [
+						{
+							"target": "option-accessibility-classes",
+							"value": "off"
+						},
+						{
+							"target": "option-backgrounds",
+							"value": "off"
+						},
+						{
+							"target": "option-margin",
+							"value": "off"
+						},
+						{
+							"target": "option-padding",
+							"value": "off"
+						},
+						{
+							"target": "option-section-padding",
+							"value": "off"
+						},
+						{
+							"target": "option-basic-text-classes",
+							"value": "off"
+						},
+						{
+							"target": "option-text-color",
+							"value": "off"
+						},
+						{
+							"target": "option-link-color",
+							"value": "off"
+						},
+						{
+							"target": "option-line-clamp-classes",
+							"value": "off"
+						},
+						{
+							"target": "option-overlays",
+							"value": "off"
+						},
+						{
+							"target": "option-opacities",
+							"value": "off"
+						},
+						{
+							"target": "option-border-classes",
+							"value": "off"
+						},
+						{
+							"target": "option-box-shadows",
+							"value": "off"
+						},
+						{
+							"target": "option-breakouts",
+							"value": "off"
+						},
+						{
+							"target": "option-position",
+							"value": "off"
+						},
+						{
+							"target": "option-centering",
+							"value": "off"
+						},
+						{
+							"target": "option-flip",
+							"value": "off"
+						},
+						{
+							"target": "option-object-fit",
+							"value": "off"
+						},
+						{
+							"target": "option-height",
+							"value": "off"
+						},
+						{
+							"target": "option-grid",
+							"value": "off"
+						},
+						{
+							"target": "option-auto-grid",
+							"value": "off"
+						},
+						{
+							"target": "option-variable-grid",
+							"value": "off"
+						},
+						{
+							"target": "option-flex-grids",
+							"value": "off"
+						},
+						{
+							"target": "option-gaps",
+							"value": "off"
+						},
+						{
+							"target": "option-flex",
+							"value": "off"
+						},
+						{
+							"target": "option-width",
+							"value": "off"
+						},
+						{
+							"target": "option-rounded",
+							"value": "off"
+						},
+						{
+							"target": "option-aspect-ratios",
+							"value": "off"
+						},
+						{
+							"target": "option-z-index",
+							"value": "off"
+						},
+						{
+							"target": "option-columns",
+							"value": "off"
+						},
+						{
+							"target": "option-marker-colors",
+							"value": "off"
+						},
+						{
+							"target": "option-display",
+							"value": "off"
+						},
+						{
+							"target": "option-visibility",
+							"value": "off"
+						},
+						{
+							"target": "option-corner-ribbons",
+							"value": "off"
+						},
+						{
+							"target": "option-divider-classes",
+							"value": "off"
+						}
+					]
+				},
+				{
+					"id": "option-pro-mode",
+					"title": "Pro Mode",
+					"type": "toggle",
+					"default": "off",
+					"tooltip": "Turn off utility class modules that typically aren't needed with a custom class workflow.",
+					"displayWhen": [
+						"option-classless",
+						"off"
+					],
+					"control": [
+						{
+							"target": "option-margin",
+							"value": "off"
+						},
+						{
+							"target": "option-basic-text-classes",
+							"value": "off"
+						},
+						{
+							"target": "option-padding",
+							"value": "off"
+						},
+						{
+							"target": "option-overlays",
+							"value": "off"
+						},
+						{
+							"target": "option-opacity",
+							"value": "off"
+						},
+						{
+							"target": "option-box-shadows",
+							"value": "off"
+						},
+						{
+							"target": "option-centering",
+							"value": "off"
+						},
+						{
+							"target": "option-object-fit",
+							"value": "off"
+						},
+						{
+							"target": "option-flexbox",
+							"value": "off"
+						},
+						{
+							"target": "option-display",
+							"value": "off"
+						},
+						{
+							"target": "option-corner-ribbons",
+							"value": "off"
+						},
+						{
+							"target": "option-border-classes",
+							"value": "off"
+						},
+						{
+							"target": "option-auto-grid",
+							"value": "off"
+						},
+						{
+							"target": "option-line-clamp-classes",
+							"value": "off"
+						},
+						{
+							"target": "option-opacities",
+							"value": "off"
+						},
+						{
+							"target": "option-breakouts",
+							"value": "off"
+						},
+						{
+							"target": "option-position",
+							"value": "off"
+						},
+						{
+							"target": "option-flip",
+							"value": "off"
+						},
+						{
+							"target": "option-flex-grids",
+							"value": "off"
+						},
+						{
+							"target": "option-flex",
+							"value": "off"
+						},
+						{
+							"target": "option-z-index",
+							"value": "off"
+						},
+						{
+							"target": "option-visibility",
+							"value": "off"
+						},
+						{
+							"target": "option-divider-classes",
+							"value": "off"
+						}
+					]
+				},
+				{
+					"id": "option-accessibility-classes",
+					"title": "Accessibility",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for screen readers and accessibility (e.g. 'clickable parent', 'focus parent', focus classes, etc."
+				},
+				{
+					"id": "option-backgrounds",
+					"title": "Background Color",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for setting background color.",
+					"documentation": "https://automaticcss.com/docs/background-color-classes/"
+				},
+				{
+					"id": "option-margin",
+					"title": "Margin",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for adding margin to elements.",
+					"documentation": "https://automaticcss.com/docs/margin-classes/"
+				},
+				{
+					"id": "option-padding",
+					"title": "Padding",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for adding padding to elements.",
+					"documentation": "https://automaticcss.com/docs/padding-classes/"
+				},
+				{
+					"id": "option-section-padding",
+					"title": "Section Padding",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes to change section block padding.",
+					"documentation": "https://automaticcss.com/docs/section-padding-classes/"
+				},
+				{
+					"id": "option-basic-text-classes",
+					"title": "Basic Text Classes",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes that control text (size, weight, style, etc.)",
+					"documentation": "https://automaticcss.com/docs/text-classes/"
+				},
+				{
+					"id": "option-text-color",
+					"title": "Text Color",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes that change text color.",
+					"documentation": "https://automaticcss.com/docs/text-classes/"
+				},
+				{
+					"id": "option-link-color",
+					"title": "Link Color",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes that change link color.",
+					"documentation": "https://automaticcss.com/docs/link-classes/"
+				},
+				{
+					"id": "option-line-clamp-classes",
+					"title": "Line Clamp",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"validation": {
+						"required": false
+					},
+					"tooltip": "Classes to control the number of visible lines of text.",
+					"documentation": "https://automaticcss.com/docs/line-clamp-utilities/"
+				},
+				{
+					"id": "option-overlays",
+					"title": "Standard Overlays",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes to set background overlays.",
+					"documentation": "https://automaticcss.com/docs/overlay-classes/"
+				},
+				{
+					"id": "option-opacities",
+					"title": "Opacity",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes to change the opacity of an element.",
+					"documentation": "https://automaticcss.com/docs/opacity-classes/"
+				},
+				{
+					"id": "option-border-classes",
+					"title": "Borders",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes that add global border styles to elements.",
+					"documentation": "https://automaticcss.com/docs/global-border-system/"
+				},
+				{
+					"id": "option-box-shadows",
+					"title": "Box Shadow",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes that add box shadow styles to elements.",
+					"documentation": "https://automaticcss.com/docs/box-shadow-classes/"
+				},
+				{
+					"id": "option-breakouts",
+					"title": "Breakout",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes that break an element out of their parent container.",
+					"documentation": "https://automaticcss.com/docs/breakout-classes/"
+				},
+				{
+					"id": "option-position",
+					"title": "Position",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes to set the position of an element (relative, etc.)",
+					"documentation": "https://automaticcss.com/docs/position-classes/"
+				},
+				{
+					"id": "option-centering",
+					"title": "Centering",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Shortcut classes for centering elements in various ways.",
+					"documentation": "https://automaticcss.com/docs/centering-classes/"
+				},
+				{
+					"id": "option-flip",
+					"title": "Flip",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes to flip content across one or more axes.",
+					"documentation": "https://automaticcss.com/docs/flip-classes/"
+				},
+				{
+					"id": "option-object-fit",
+					"title": "Object Fit",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes to set the object-fit of an image.",
+					"documentation": "https://automaticcss.com/docs/object-fit-classes/"
+				},
+				{
+					"id": "option-height",
+					"title": "Height",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes to change the min-height of an element.",
+					"documentation": "https://automaticcss.com/docs/height-classes/"
+				},
+				{
+					"id": "option-grid",
+					"title": "Grid",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes to define a grid layout.",
+					"documentation": "https://automaticcss.com/docs/grid-classes-standard/"
+				},
+				{
+					"id": "option-auto-grid",
+					"title": "Auto Grid",
+					"type": "toggle",
+					"default": "on",
+					"tooltip": "Enable Auto Grid utilities. Controls available in the Layout panel when option is enabled.",
+					"documentation": "https://automaticcss.com/docs/auto-grid/"
+				},
+				{
+					"id": "option-variable-grid",
+					"title": "Variable Grid",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for establishing responsive grids relative to item width.",
+					"documentation": "https://automaticcss.com/docs/variable-grid/"
+				},
+				{
+					"id": "option-flex-grids",
+					"title": "Flex Grid",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for creating grids with centered children in the last row.",
+					"documentation": "https://automaticcss.com/docs/flex-grids-flexbox-grids/"
+				},
+				{
+					"id": "option-gaps",
+					"title": "Gap",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for changing gap size (space between elements).",
+					"documentation": "https://automaticcss.com/docs/gap-utilities/"
+				},
+				{
+					"id": "option-flex",
+					"title": "Flexbox",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for controlling Flexbox layouts.",
+					"documentation": "https://automaticcss.com/docs/flexbox-classes/"
+				},
+				{
+					"id": "option-width",
+					"title": "Width",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes to set max-width on elements.",
+					"documentation": "https://automaticcss.com/docs/width-utilities/"
+				},
+				{
+					"id": "option-rounded",
+					"title": "Radius",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for changing border radius.",
+					"documentation": ""
+				},
+				{
+					"id": "option-aspect-ratios",
+					"title": "Aspect Ratio",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for controlling the aspect ratio of an element.",
+					"documentation": "https://automaticcss.com/docs/aspect-ratio-classes/"
+				},
+				{
+					"id": "option-z-index",
+					"title": "Z-Index",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for setting the z-index of an element (visual layers).",
+					"documentation": "https://automaticcss.com/docs/z-index-classes/"
+				},
+				{
+					"id": "option-columns",
+					"title": "Columns & Masonry",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for creating CSS columns and masonry layouts (separate documentation).",
+					"documentation": "https://automaticcss.com/docs/css-columns/"
+				},
+				{
+					"id": "option-marker-colors",
+					"title": "Marker",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for setting marker (bullet) color of lists.",
+					"documentation": "https://automaticcss.com/docs/marker-classes/"
+				},
+				{
+					"id": "option-display",
+					"title": "Display",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for setting the display of an element (block, none, etc.)",
+					"documentation": "https://automaticcss.com/docs/display-classes/"
+				},
+				{
+					"id": "option-visibility",
+					"title": "Visibility",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for setting the visibility of an element (hidden, visible, etc.)",
+					"documentation": "https://automaticcss.com/docs/visibility-classes/"
+				},
+				{
+					"id": "option-corner-ribbons",
+					"title": "Corner Ribbons",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for creating corner ribbons.",
+					"documentation": "https://automaticcss.com/docs/ribbons/"
+				},
+				{
+					"id": "option-divider-classes",
+					"title": "Divider Classes",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Classes for adding dividers between elements.",
+					"documentation": "https://automaticcss.com/docs/global-divider-system/"
+				}
+			]
+		},
+		{
+			"id": "options-workflow",
+			"title": "Workflow Enhancements",
+			"type": "accordion-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "option-builder-input-validation",
+					"title": "Variable Expansion & Validation",
+					"tooltip": "Auto-expands variables and calc functions while validating and fixing broken values.",
+					"type": "toggle",
+					"default": "on",
+					"style": ""
+				},
+				{
+					"id": "option-contextual-menus-enable",
+					"title": "Contextual Menus",
+					"tooltip": "Adds context menus for inserting classes and variables.",
+					"type": "toggle",
+					"default": "on",
+					"style": ""
+				},
+				{
+					"id": "option-keyboard-nav-hover-preview-enable",
+					"title": "Style Preview & Keyboard Enhancements",
+					"tooltip": "Hit Tab to select and preview a class or hover over a class for live preview. While tabbed, you can start typing to instantly add/remove characters to the selected class name.",
+					"type": "toggle",
+					"default": "on",
+					"style": ""
+				},
+				{
+					"id": "option-hide-deactivated-classes",
+					"title": "Hide Deactivated Classes",
+					"tooltip": "Hides all deactivated classes from the builder dropdowns and auto-suggest.",
+					"type": "toggle",
+					"default": "on",
+					"style": ""
+				},
+				{
+					"id": "option-bem-class-generator-enable",
+					"title": "Auto-BEM",
+					"tooltip": "Allows you to generate BEM classes for a Block automatically in seconds.",
+					"documentation": "https://automaticcss.com/docs/auto-bem/",
+					"type": "toggle",
+					"default": "on",
+					"style": ""
+				},
+				{
+					"id": "option-color-scheme-switcher-enable",
+					"title": "Color Scheme Switcher (Builder)",
+					"tooltip": "Adds a color scheme toggle to the top of the page. Click it to toggle between light and dark mode.",
+					"documentation": "https://automaticcss.com/docs/color-scheme-dark-mode/",
+					"type": "toggle",
+					"default": "on",
+					"style": ""
+				},
+				{
+					"id": "option-auto-object-fit",
+					"title": "Auto Object Fit",
+					"tooltip": "Automatically adds object-fit cover to your images to avoid warping.",
+					"type": "toggle",
+					"default": "off",
+					"style": ""
+				}
+			]
+		},
+		{
+			"id": "options-builder",
+			"title": "Bricks Enhancements",
+			"type": "accordion-container",
+			"default": "on",
+			"environment": {
+				"include": "bricks"
+			},
+			"content": [
+				{
+					"id": "option-bricks-stack-elements",
+					"title": "Stack the 'Add Elements' Panel",
+					"tooltip": "Display elements in a more efficient single-column layout.",
+					"type": "toggle",
+					"default": "off",
+					"style": ""
+				},
+				{
+					"id": "option-bricks-pro-mode",
+					"title": "Pro Mode for 'Add Elements'",
+					"tooltip": "Remove the useless, pre-made, walled-garden beginner elements.",
+					"type": "toggle",
+					"default": "off",
+					"style": ""
+				},
+				{
+					"id": "option-bricks-replace-components-with-frames",
+					"title": "Hide Redundant Bricks Components",
+					"tooltip": "Hide the native components that Frames components replace.",
+					"type": "toggle",
+					"default": "off",
+					"style": ""
+				},
+				{
+					"id": "option-bricks-color-swatches-checkerboard-enable",
+					"title": "Enhance Transparent Color Swatches",
+					"tooltip": "Adds a checkerboard background to the Bricks color swatches to better distinguish transparent colors.",
+					"type": "toggle",
+					"default": "on",
+					"style": ""
+				},
+				{
+					"id": "option-bricks-grid-overlay",
+					"title": "Bricks Grid Visualizer",
+					"tooltip": "Should the Bricks grid visualization overlay be on or off (off is recommended)?",
+					"type": "toggle",
+					"default": "on",
+					"style": ""
+				},
+				{
+					"id": "option-fix-bricks-template-ids-enable",
+					"title": "Import Original Classes for Templates",
+					"tooltip": "When you import a remote template and rename the classes, bricks imports the same template with the renamed classes instead of fresh ones - this feature prevents this and gives you the original classes of the remote templates.",
+					"type": "toggle",
+					"default": "off",
+					"style": ""
+				}
+			]
+		},
+		{
+			"id": "option-gutenberg",
+			"title": "Gutenberg",
+			"type": "accordion-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "option-gutenberg-load-styling-backend",
+					"title": "Load Styles in Block Editor",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Do you want to see ACSS styles in the Block Editor when editing content?",
+					"documentation": "https://automaticcss.com/docs/gutenberg-setup/"
+				},
+				{
+					"id": "option-use-gutenberg-for-page-building",
+					"title": "Use Block Editor for Page Building",
+					"type": "toggle",
+					"default": "off",
+					"style": "",
+					"tooltip": "Do you want to configure Pages for building with the block editor?",
+					"documentation": "https://automaticcss.com/docs/gutenberg-setup/"
+				},
+				{
+					"id": "option-gutenberg-color-palette-generate",
+					"title": "Generate Color Palette",
+					"type": "toggle",
+					"default": "off",
+					"style": "",
+					"tooltip": "Do you want to add ACSS colors options in the Block Editor?",
+					"documentation": "https://automaticcss.com/docs/gutenberg-setup/"
+				},
+				{
+					"id": "option-gutenberg-color-palette-replace",
+					"title": "Replace Color Palette",
+					"type": "toggle",
+					"default": "off",
+					"style": "",
+					"tooltip": "Do you want to replace all default color options with ACSS in the Block Editor?",
+					"documentation": "https://automaticcss.com/docs/gutenberg-setup/"
+				},
+				{
+					"id": "option-move-gutenberg-css-input",
+					"title": "Class-First Workflow",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Move the 'CSS Classes' input to the top of the Block Styles panel in the Block Editor.",
+					"documentation": "https://automaticcss.com/docs/gutenberg-setup/"
+				},
+				{
+					"id": "gutenberg-styling",
+					"title": "Gutenberg Styling",
+					"type": "section-container",
+					"content": [
+						{
+							"id": "wp-page-block-width",
+							"title": "Page Block Width",
+							"type": "text",
+							"default": "100%",
+							"placeholder": "100%",
+							"tooltip": "Default width of all blocks in the Block Editor when editing pages.",
+							"documentation": "https://automaticcss.com/docs/gutenberg-setup/"
+						},
+						{
+							"id": "wp-post-block-width",
+							"title": "Post Block Width",
+							"type": "text",
+							"default": "767px",
+							"placeholder": "767px",
+							"tooltip": "Default width of all blocks in the Block Editor when editing posts & Custom Post Types.",
+							"documentation": "https://automaticcss.com/docs/gutenberg-setup/"
+						},
+						{
+							"id": "wp-post-types-list",
+							"title": "Page-Width Post Types",
+							"type": "textarea",
+							"tooltip": "Which CPTs should we apply page width to (functions.php snippet also required!).",
+							"documentation": "https://automaticcss.com/docs/gutenberg-setup/",
+							"default": "",
+							"placeholder": "\".post-type-services\", \".post-type-portfolio\"",
+							"validation": {
+								"required": false
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "options-accessibility",
+			"title": "Accessibility",
+			"type": "accordion-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "option-reduce-motion",
+					"title": "Reduce Motion",
+					"type": "toggle",
+					"default": "on",
+					"style": "",
+					"tooltip": "Turn off animations and transitions for users who prefer less motion (prefers-reduced-motion)."
+				}
+			]
+		},
+		{
+			"id": "options-other",
+			"title": "Other",
+			"type": "accordion-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "option-smooth-scrolling",
+					"title": "Smooth Scrolling (CSS)",
+					"type": "toggle",
+					"default": "off",
+					"style": "",
+					"tooltip": "Activate CSS-based smooth scrolling to hashlinks (recommended over Javascript-based scrolling)."
+				},
+				{
+					"id": "option-overflow-detection",
+					"title": "Overflow Detection",
+					"type": "toggle",
+					"default": "off",
+					"cssClasses": [
+						"overflow-detection"
+					],
+					"target": [
+						"body"
+					],
+					"tooltip": "Activate outlines to help identify elements that are overflowing and causing horizontal scrolling."
+				}
+			]
+		},
+		{
+			"id": "plugin-settings",
+			"title": "Plugin Settings",
+			"type": "accordion-container",
+			"default": "on",
+			"content": [
+				{
+					"id": "admin-bar-enabled",
+					"title": "Admin Bar Link",
+					"type": "toggle",
+					"default": "on",
+					"skip-css-var": true
+				},
+				{
+					"id": "admin-link-position",
+					"title": "Admin Link Position",
+					"type": "number",
+					"default": 90,
+					"skip-css-var": true,
+					"tooltip": "Show the ACSS admin bar dashboard trigger.",
+					"displayWhen": [
+						"admin-bar-enabled",
+						"on"
+					]
+				},
+				{
+					"id": "option-acss-dashboard-icon-display",
+					"title": "Display Dashboard Icon",
+					"type": "toggle",
+					"tooltip": "Show the floating ACSS dashboard trigger on the frontend.",
+					"default": "on"
+				},
+				{
+					"id": "receive-beta-releases",
+					"title": "Receive Beta Releases",
+					"type": "toggle",
+					"default": "off",
+					"skip-css-var": true
+				},
+				{
+					"id": "debug-enabled",
+					"title": "Enable Debugging",
+					"type": "toggle",
+					"default": "off",
+					"skip-css-var": true
+				},
+				{
+					"id": "delete-on-deactivation",
+					"title": "Delete on Deactivation",
+					"type": "text",
+					"default": "no",
+					"tooltip": "Type 'yes' to delete all settings and data when deactivating the plugin. This is irreversible.",
+					"skip-css-var": true
+				}
+			]
+		},
+		{
+			"id": "experimental-features",
+			"title": "Experimental Features",
+			"type": "accordion-container",
+			"default": "off",
+			"content": [
+				{
+					"id": "option-remove-deactivated-classes-from-globals",
+					"title": "Remove Deactivated Classes",
+					"type": "toggle",
+					"default": "off",
+					"style": "",
+					"environment": {
+						"include": "bricks"
+					},
+					"tooltip": "Remove classes from the Bricks database when they're deactivated in ACSS (Requires plugin reactivation if 'Sync on Save' is not enabled)."
+				},
+				{
+					"id": "option-refresh-globals-on-save",
+					"title": "Sync Class Status on Save",
+					"type": "toggle",
+					"default": "off",
+					"style": "",
+					"environment": {
+						"include": "bricks"
+					},
+					"tooltip": "Keep the Bricks database in sync with the ACSS class status on each save."
+				}
+			]
+		}
+	]
+}

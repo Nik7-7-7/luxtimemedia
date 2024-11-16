@@ -1,0 +1,55 @@
+@import "col-maps";
+
+@if $option-columns == on {
+
+    // Masonry Classes
+    @each $num, $value in $col-count {
+        .masonry--#{$num} {
+            display: block !important;
+            column-count: #{$value};
+            row-gap: var(--row-gap);
+            column-gap: var(--col-gap);
+        }
+    }
+
+    // Masonry Breakpoint Classes
+    @each $breakpoint, $value in $breakpoints {
+        @include breakpoint($breakpoint) {
+        @each $num, $value in $col-count {
+            .masonry--#{$breakpoint}-#{$num} {
+                column-count: #{$value};
+            }
+        }
+        }
+    }
+
+    :where([class*="masonry--"] > *) {
+        break-inside: avoid;
+        width: 100%;
+    }
+
+    @if $option-grid-gap == on {
+        :where([class*="masonry--"]) {
+            --col-gap: var(--grid-gap);
+        }
+        :where([class*="masonry--"] > *) {
+            margin-block-end: var(--grid-gap);
+        }
+    }
+
+    // Make Masonry work with normal gaps and contextual gaps:
+
+    [class*="masonry"]:is(
+        [class*="gap--"],
+        [class*="row-gap--"],
+        [class*="content-gap"],
+        [class*="container-gap"],
+        [class*="grid-gap"],
+        [class*="fr-content-gap"],
+        [class*="fr-container-gap"],
+        [class*="fr-grid-gap"]
+        ) > * {
+        margin-block-end: var(--row-gap);
+    }
+
+}

@@ -1,0 +1,148 @@
+// Accent Options
+$option-accent-clr-alt: off !default;
+
+// Accent Alt Vars
+$accent-alt-hex: #e56c70 !default;
+$accent-r-alt: 229 !default;
+$accent-g-alt: 108 !default;
+$accent-b-alt: 112 !default;
+$accent-h-alt: 358 !default;
+$accent-s-alt: 70% !default;
+$accent-l-alt: 66% !default;
+$accent-hover-h-alt: 358 !default;
+$accent-hover-s-alt: 70% !default;
+$accent-hover-l-alt: 1.15 !default;
+$accent-ultra-light-h-alt: 358 !default;
+$accent-ultra-light-s-alt: 70% !default;
+$accent-ultra-light-l-alt: 95% !default;
+$accent-light-h-alt: 358 !default;
+$accent-light-s-alt: 70% !default;
+$accent-light-l-alt: 85% !default;
+$accent-medium-h-alt: 358 !default;
+$accent-medium-s-alt: 70% !default;
+$accent-medium-l-alt: 50% !default;
+$accent-dark-h-alt: 358 !default;
+$accent-dark-s-alt: 70% !default;
+$accent-dark-l-alt: 25% !default;
+$accent-ultra-dark-h-alt: 358 !default;
+$accent-ultra-dark-s-alt: 70% !default;
+$accent-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$accent-semi-light-h-alt: 358 !default;
+$accent-semi-light-s-alt: 70% !default;
+$accent-semi-light-l-alt: 60% !default;
+$accent-semi-dark-h-alt: 358 !default;
+$accent-semi-dark-s-alt: 70% !default;
+$accent-semi-dark-l-alt: 40% !default;
+
+// Accent Alt Color Map
+$color-accent-alt:(); // Initialize Map
+@if $option-accent-clr-alt == on and $option-accent-clr == on {
+  $color-accent-alt: (
+    "main": (
+      "accent": $accent-alt-hex,
+      "accent-hover": hsl($accent-hover-h-alt, $accent-hover-s-alt, $accent-hover-l-alt),
+      "accent-ultra-light": hsl($accent-ultra-light-h-alt, $accent-ultra-light-s-alt, $accent-ultra-light-l-alt),
+      "accent-light": hsl($accent-light-h-alt, $accent-light-s-alt, $accent-light-l-alt),
+      "accent-semi-light": hsl($accent-semi-light-h-alt, $accent-semi-light-s-alt, $accent-semi-light-l-alt),
+      "accent-semi-dark": hsl($accent-semi-dark-h-alt, $accent-semi-dark-s-alt, $accent-semi-dark-l-alt),
+      "accent-dark": hsl($accent-dark-h-alt, $accent-dark-s-alt, $accent-dark-l-alt),
+      "accent-ultra-dark": hsl($accent-ultra-dark-h-alt, $accent-ultra-dark-s-alt, $accent-ultra-dark-l-alt),
+      "accent-comp": hsl($accent-h-alt + 180, $accent-s-alt, $accent-l-alt),
+    ),
+    "trans": (
+      "accent-trans-10": rgba($accent-alt-hex, .1),
+      "accent-trans-20": rgba($accent-alt-hex, .2),
+      "accent-trans-30": rgba($accent-alt-hex, .3),
+      "accent-trans-40": rgba($accent-alt-hex, .4),
+      "accent-trans-50": rgba($accent-alt-hex, .5),
+      "accent-trans-60": rgba($accent-alt-hex, .6),
+      "accent-trans-70": rgba($accent-alt-hex, .7),
+      "accent-trans-80": rgba($accent-alt-hex, .8),
+      "accent-trans-90": rgba($accent-alt-hex, .9),
+    ),
+    "light-trans": (
+      "accent-light-trans-10": hsl($accent-light-h-alt, $accent-light-s-alt, $accent-light-l-alt, .1),
+      "accent-light-trans-20": hsl($accent-light-h-alt, $accent-light-s-alt, $accent-light-l-alt, .2),
+      "accent-light-trans-30": hsl($accent-light-h-alt, $accent-light-s-alt, $accent-light-l-alt, .3),
+      "accent-light-trans-40": hsl($accent-light-h-alt, $accent-light-s-alt, $accent-light-l-alt, .4),
+      "accent-light-trans-50": hsl($accent-light-h-alt, $accent-light-s-alt, $accent-light-l-alt, .5),
+      "accent-light-trans-60": hsl($accent-light-h-alt, $accent-light-s-alt, $accent-light-l-alt, .6),
+      "accent-light-trans-70": hsl($accent-light-h-alt, $accent-light-s-alt, $accent-light-l-alt, .7),
+      "accent-light-trans-80": hsl($accent-light-h-alt, $accent-light-s-alt, $accent-light-l-alt, .8),
+      "accent-light-trans-90": hsl($accent-light-h-alt, $accent-light-s-alt, $accent-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "accent-dark-trans-10": hsl($accent-dark-h-alt, $accent-dark-s-alt, $accent-dark-l-alt, .1),
+      "accent-dark-trans-20": hsl($accent-dark-h-alt, $accent-dark-s-alt, $accent-dark-l-alt, .2),
+      "accent-dark-trans-30": hsl($accent-dark-h-alt, $accent-dark-s-alt, $accent-dark-l-alt, .3),
+      "accent-dark-trans-40": hsl($accent-dark-h-alt, $accent-dark-s-alt, $accent-dark-l-alt, .4),
+      "accent-dark-trans-50": hsl($accent-dark-h-alt, $accent-dark-s-alt, $accent-dark-l-alt, .5),
+      "accent-dark-trans-60": hsl($accent-dark-h-alt, $accent-dark-s-alt, $accent-dark-l-alt, .6),
+      "accent-dark-trans-70": hsl($accent-dark-h-alt, $accent-dark-s-alt, $accent-dark-l-alt, .7),
+      "accent-dark-trans-80": hsl($accent-dark-h-alt, $accent-dark-s-alt, $accent-dark-l-alt, .8),
+      "accent-dark-trans-90": hsl($accent-dark-h-alt, $accent-dark-s-alt, $accent-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "accent-ultra-dark-trans-10": hsl($accent-ultra-dark-h-alt, $accent-ultra-dark-s-alt, $accent-ultra-dark-l-alt, .1),
+      "accent-ultra-dark-trans-20": hsl($accent-ultra-dark-h-alt, $accent-ultra-dark-s-alt, $accent-ultra-dark-l-alt, .2),
+      "accent-ultra-dark-trans-30": hsl($accent-ultra-dark-h-alt, $accent-ultra-dark-s-alt, $accent-ultra-dark-l-alt, .3),
+      "accent-ultra-dark-trans-40": hsl($accent-ultra-dark-h-alt, $accent-ultra-dark-s-alt, $accent-ultra-dark-l-alt, .4),
+      "accent-ultra-dark-trans-50": hsl($accent-ultra-dark-h-alt, $accent-ultra-dark-s-alt, $accent-ultra-dark-l-alt, .5),
+      "accent-ultra-dark-trans-60": hsl($accent-ultra-dark-h-alt, $accent-ultra-dark-s-alt, $accent-ultra-dark-l-alt, .6),
+      "accent-ultra-dark-trans-70": hsl($accent-ultra-dark-h-alt, $accent-ultra-dark-s-alt, $accent-ultra-dark-l-alt, .7),
+      "accent-ultra-dark-trans-80": hsl($accent-ultra-dark-h-alt, $accent-ultra-dark-s-alt, $accent-ultra-dark-l-alt, .8),
+      "accent-ultra-dark-trans-90": hsl($accent-ultra-dark-h-alt, $accent-ultra-dark-s-alt, $accent-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "accent-hex": $accent-alt-hex,
+        "accent-hsl": $accent-h $accent-s $accent-l-alt,
+        "accent-rgb": $accent-r $accent-g $accent-b-alt,
+        "accent-r": $accent-r-alt,
+        "accent-g": $accent-g-alt,
+        "accent-b": $accent-b-alt,
+        "accent-h": $accent-h-alt,
+        "accent-s": $accent-s-alt,
+        "accent-l": $accent-l-alt,
+        "accent-hover-h": $accent-hover-h-alt,
+        "accent-hover-s": $accent-hover-s-alt,
+        "accent-hover-l": $accent-hover-l-alt,
+        "accent-ultra-light-h": $accent-ultra-light-h-alt,
+        "accent-ultra-light-s": $accent-ultra-light-s-alt,
+        "accent-ultra-light-l": $accent-ultra-light-l-alt,
+        "accent-light-h": $accent-light-h-alt,
+        "accent-light-s": $accent-light-s-alt,
+        "accent-light-l": $accent-light-l-alt,
+        "accent-semi-light-h": $accent-semi-light-h-alt,
+        "accent-semi-light-s": $accent-semi-light-s-alt,
+        "accent-semi-light-l": $accent-semi-light-l-alt,
+        "accent-semi-dark-h": $accent-semi-dark-h-alt,
+        "accent-semi-dark-s": $accent-semi-dark-s-alt,
+        "accent-semi-dark-l": $accent-semi-dark-l-alt,
+        "accent-dark-h": $accent-dark-h-alt,
+        "accent-dark-s": $accent-dark-s-alt,
+        "accent-dark-l": $accent-dark-l-alt,
+        "accent-ultra-dark-h": $accent-ultra-dark-h-alt,
+        "accent-ultra-dark-s": $accent-ultra-dark-s-alt,
+        "accent-ultra-dark-l": $accent-ultra-dark-l-alt,
+        "accent-comp-h": $accent-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-accent-clr-alt == on and $option-accent-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-accent-alt: map-merge($color-accent-alt, (
+      "main": map-merge(map-get($color-accent-alt, "main"), (
+        "accent-medium": hsl($accent-medium-h-alt, $accent-medium-s-alt, $accent-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-accent-alt, "partials"), (
+        "accent-medium-h": $accent-medium-h-alt,
+        "accent-medium-s": $accent-medium-s-alt,
+        "accent-medium-l": $accent-medium-l-alt
+      ))
+    ));
+  }
+}

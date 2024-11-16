@@ -1,0 +1,101 @@
+.jitsi-wrapper {
+  max-width: 100% !important;
+}
+
+.lesson-description .jitsi-wrapper {
+  max-width: 100% !important;
+}
+
+.lesson-description .jitsi-wrapper iframe {
+  max-width: 100% !important;
+}
+
+.jitsi-wrapper-error {
+  min-height: 84px;
+  text-align: center;
+  background-color: #3a3a3a;
+  color: white;
+  line-height: 84px;
+  max-width: 100% !important;
+}
+
+.extra-message {
+  background-color: white;
+  display: block;
+  width: 100%;
+  line-height: 1.35;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 22px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.jitsi-container {
+  width: 100%;
+  float: none;
+}
+
+.jitsi-container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.jitsi-container .jitsi-row {
+  margin: 0 -16px;
+}
+
+.jitsi-container [class*=jitsi-col] {
+  padding: 0 16px;
+  width: 100%;
+  float: left;
+}
+
+.jitsi-container .jitsi-col-1 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-2 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-3 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-4 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-5 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-6 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-7 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-8 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-9 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-10 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-11 {
+  width: calc((100% / 12) * $i);
+}
+
+.jitsi-container .jitsi-col-12 {
+  width: calc((100% / 12) * $i);
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mailster/form",
+  "title": "Mailster Form",
+  "category": "widgets",
+  "keywords": [
+    "form",
+    "newsletter",
+    "mailster",
+    "subscribe",
+    "signup",
+    "optin",
+    "opt-in",
+    "opt in",
+    "email",
+    "mail"
+  ],
+  "icon": "email",
+  "description": "Use a Mailster Block Form on your page",
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": true,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "attributes": {
+    "id": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "submission",
+        "profile",
+        "unsubscribe"
+      ]
+    }
+  },
+  "usesContext": [
+    "mailster-homepage-context/type",
+    "mailster-homepage-context/align",
+    "mailster-homepage-context/submission",
+    "mailster-homepage-context/profile",
+    "mailster-homepage-context/unsubscribe",
+    "mailster-homepage-context/showAll"
+  ],
+  "textdomain": "mailster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

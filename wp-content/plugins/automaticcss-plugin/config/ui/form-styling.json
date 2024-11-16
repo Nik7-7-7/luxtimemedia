@@ -1,0 +1,2589 @@
+{
+	"$schema": "screen.schema.json",
+	"id": "form-styling",
+	"title": "Form",
+	"type": "screen-container",
+	"content": [
+		{
+			"id": "option-forms",
+			"title": "Load Forms",
+			"type": "toggle",
+			"style": "primary",
+			"default": "on"
+		},
+		{
+			"id": "forms-style-tabs",
+			"title": "Forms Tabs",
+			"type": "tabs-container",
+			"style": "full-width",
+			"tooltip": "",
+			"content": [
+				{
+					"id": "form-default-styles",
+					"title": "Default",
+					"icon": "settings",
+					"content": [
+						{
+							"id": "label-styling",
+							"title": "Label",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "form-label-text-styles-section",
+									"title": "Text",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-label-text-size-group",
+											"type": "double-input",
+											"label": {
+												"primary": "Text Size",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "f-label-size-min",
+													"title": "Base Size Mobile",
+													"type": "px",
+													"default": "14",
+													"percentage-convert": true,
+													"unit": "px",
+													"cssVariable": "--f-label-size",
+													"skip-if-empty": true
+												},
+												{
+													"id": "f-label-size-max",
+													"title": "Base Size Desktop",
+													"type": "px",
+													"default": "16",
+													"percentage-convert": true,
+													"unit": "px",
+													"cssVariable": "--f-label-size",
+													"skip-if-empty": true
+												}
+											]
+										},
+										{
+											"id": "f-label-line-height",
+											"title": "Line Height",
+											"type": "number",
+											"default": 1
+										},
+										{
+											"id": "f-label-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"force-preview": true,
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "f-label-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"default": "none",
+											"options": [
+												"uppercase",
+												"lowercase",
+												"capitalize",
+												"none",
+												"inherit"
+											]
+										}
+									]
+								},
+								{
+									"id": "form-label-spacing-section",
+									"title": "Spacing",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-label-margin-bottom",
+											"title": "Bottom Margin",
+											"type": "text",
+											"default": "0.5em"
+										},
+										{
+											"id": "f-label-padding-container",
+											"type": "double-input",
+											"label": {
+												"primary": "Padding",
+												"secondary": "Inline/Block"
+											},
+											"content": [
+												{
+													"id": "f-label-padding-x",
+													"title": "Inline",
+													"type": "text",
+													"default": "0"
+												},
+												{
+													"id": "f-label-padding-y",
+													"title": "Block",
+													"type": "text",
+													"default": "0"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "form-label-inside-section",
+									"title": "Label Inside",
+									"type": "section-container",
+									"environment": {
+										"include": "ws-form"
+									},
+									"content": [
+										{
+											"id": "f-label-inside-position-left",
+											"title": "Left Position (on focus)",
+											"type": "text",
+											"force-preview": true,
+											"default": "1.5em"
+										},
+										{
+											"id": "f-label-inside-position-top",
+											"title": "Top Position (on focus)",
+											"type": "text",
+											"force-preview": true,
+											"default": "0"
+										},
+										{
+											"id": "f-label-inside-scale",
+											"title": "Scale (on focus)",
+											"type": "text",
+											"force-preview": true,
+											"default": "1"
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "legend-styling",
+							"title": "Legend",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-legend-text-size-group",
+									"type": "double-input",
+									"label": {
+										"primary": "Text Size",
+										"secondary": "Mobile/Desktop"
+									},
+									"content": [
+										{
+											"id": "f-legend-size-min",
+											"title": "Base Size Mobile",
+											"type": "px",
+											"default": "14",
+											"percentage-convert": true,
+											"unit": "px",
+											"cssVariable": "--f-legend-size",
+											"skip-if-empty": true
+										},
+										{
+											"id": "f-legend-size-max",
+											"title": "Base Size Desktop",
+											"type": "px",
+											"default": "16",
+											"percentage-convert": true,
+											"unit": "px",
+											"cssVariable": "--f-legend-size",
+											"skip-if-empty": true
+										}
+									]
+								},
+								{
+									"id": "f-legend-line-height",
+									"title": "Line Height",
+									"type": "number",
+									"default": 1.2
+								},
+								{
+									"id": "f-legend-text-weight",
+									"title": "Font Weight",
+									"type": "select",
+									"force-preview": true,
+									"options": [
+										"",
+										"100",
+										"200",
+										"300",
+										"400",
+										"500",
+										"600",
+										"700",
+										"800",
+										"900",
+										"inherit"
+									],
+									"default": "",
+									"validation": {
+										"required": false
+									}
+								},
+								{
+									"id": "f-legend-margin-bottom",
+									"title": "Bottom Margin",
+									"type": "text",
+									"default": "1em"
+								}
+							]
+						},
+						{
+							"id": "help-styling",
+							"title": "Help",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-help-text-size-group",
+									"type": "double-input",
+									"label": {
+										"primary": "Text Size",
+										"secondary": "Mobile/Desktop"
+									},
+									"content": [
+										{
+											"id": "f-help-size-min",
+											"title": "Base Size Mobile",
+											"type": "px",
+											"default": "12",
+											"percentage-convert": true,
+											"unit": "px",
+											"skip-if-empty": true,
+											"cssVariable": "--f-help-size",
+											"target": ".wsf-help",
+											"calc": {
+												"type": "list",
+												"key": "text",
+												"setting": "min"
+											}
+										},
+										{
+											"id": "f-help-size-max",
+											"title": "Base Size Desktop",
+											"type": "px",
+											"default": "14",
+											"percentage-convert": true,
+											"unit": "px",
+											"cssVariable": "--f-help-size",
+											"skip-if-empty": true,
+											"target": ".wsf-help",
+											"calc": {
+												"type": "list",
+												"key": "text",
+												"setting": "max"
+											}
+										}
+									]
+								},
+								{
+									"id": "f-help-line-height",
+									"title": "Line Height",
+									"type": "number",
+									"default": 1.4
+								},
+								{
+									"id": "f-help-text-weight",
+									"title": "Font Weight",
+									"type": "select",
+									"force-preview": true,
+									"options": [
+										"",
+										"100",
+										"200",
+										"300",
+										"400",
+										"500",
+										"600",
+										"700",
+										"800",
+										"900",
+										"inherit"
+									],
+									"default": "",
+									"skip-if-empty": true,
+									"validation": {
+										"required": false
+									}
+								},
+								{
+									"id": "f-help-margin-block",
+									"title": "Margin Block",
+									"type": "text",
+									"default": "0.5em 0",
+									"placeholder": "0.5em 0"
+								}
+							]
+						},
+						{
+							"id": "field-fieldset-styling",
+							"title": "Field & Fieldset",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-fieldset-margin-bottom",
+									"title": "Fieldset Bottom Margin",
+									"type": "text",
+									"default": "1.5em"
+								},
+								{
+									"id": "f-field-margin-bottom",
+									"title": "Field Bottom Margin",
+									"type": "text",
+									"default": "1.5em"
+								},
+								{
+									"id": "f-grid-gutter",
+									"title": "Grid Gutter",
+									"type": "text",
+									"default": "2rem"
+								}
+							]
+						},
+						{
+							"id": "input-styling",
+							"title": "Input",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-input-height",
+									"title": "Height",
+									"type": "px",
+									"default": "50",
+									"cssVariable": "--f-input-height",
+									"unit": "px",
+									"skip-if-empty": true,
+									"percentage-convert": true
+								},
+								{
+									"id": "f-padding-container",
+									"type": "double-input",
+									"label": {
+										"primary": "Input Padding",
+										"secondary": "Inline/Block"
+									},
+									"content": [
+										{
+											"id": "f-input-padding-x",
+											"title": "Inline",
+											"type": "text",
+											"default": "1em"
+										},
+										{
+											"id": "f-input-padding-y",
+											"title": "Block",
+											"type": "text",
+											"default": ".5em"
+										}
+									]
+								},
+								{
+									"id": "form-border-styles-section",
+									"title": "Border",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-input-border-style",
+											"title": "Border Style",
+											"type": "text",
+											"default": "solid"
+										},
+										{
+											"id": "f-input-border-radius",
+											"title": "Border Radius",
+											"type": "text",
+											"default": "var(--btn-radius)"
+										},
+										{
+											"id": "f-border-width-inline-container",
+											"type": "double-input",
+											"label": {
+												"primary": "Border Width",
+												"secondary": "Left/Right"
+											},
+											"content": [
+												{
+													"id": "f-input-border-left-size",
+													"title": "Left",
+													"type": "px",
+													"default": "1",
+													"percentage-convert": true,
+													"unit": "px"
+												},
+												{
+													"id": "f-input-border-right-size",
+													"title": "Right",
+													"type": "px",
+													"default": "1",
+													"percentage-convert": true,
+													"unit": "px"
+												}
+											]
+										},
+										{
+											"id": "f-border-width-block-container",
+											"type": "double-input",
+											"label": {
+												"primary": "Border Width",
+												"secondary": "Top/Bottom"
+											},
+											"content": [
+												{
+													"id": "f-input-border-top-size",
+													"title": "Top",
+													"type": "px",
+													"default": "1",
+													"percentage-convert": true,
+													"unit": "px"
+												},
+												{
+													"id": "f-input-border-bottom-size",
+													"title": "Bottom",
+													"type": "px",
+													"default": "1",
+													"percentage-convert": true,
+													"unit": "px"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "form-text-styles-section",
+									"title": "Text",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-input-text-size-container",
+											"type": "double-input",
+											"label": {
+												"primary": "Base Size",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "f-input-text-size-min",
+													"title": "Base Size Mobile",
+													"type": "px",
+													"cssVariable": "--f-input-size",
+													"default": 14,
+													"percentage-convert": true,
+													"unit": "px"
+												},
+												{
+													"id": "f-input-text-size-max",
+													"title": "Base Size Desktop",
+													"type": "px",
+													"cssVariable": "--f-input-size",
+													"default": 18,
+													"percentage-convert": true,
+													"unit": "px"
+												}
+											]
+										},
+										{
+											"id": "f-input-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"force-preview": true,
+											"options": [
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "f-input-line-height",
+											"title": "Line Height",
+											"type": "number",
+											"default": 1
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "global-submit-styling",
+							"title": "Global & Submit Button",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "option-f-use-global-buttons",
+									"title": "Use Global Button Styles",
+									"type": "toggle",
+									"default": "off",
+									"style": "",
+									"tooltip": "Use global button styles instead of managing form buttons manually."
+								},
+								{
+									"id": "form-btn-spacing-section",
+									"title": "Spacing",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-btn-margin-top",
+											"title": "Block Start Margin",
+											"type": "text",
+											"default": "0"
+										},
+										{
+											"id": "f-btn-padding-container",
+											"type": "double-input",
+											"label": {
+												"primary": "Button Padding",
+												"secondary": "Block/Inline"
+											},
+											"content": [
+												{
+													"id": "f-btn-padding-y",
+													"title": "Block Padding",
+													"type": "text",
+													"default": ".75em"
+												},
+												{
+													"id": "f-btn-padding-x",
+													"title": "Inline Padding",
+													"type": "text",
+													"default": "1.5em"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "form-btn-border-section",
+									"title": "Border",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-btn-border-style",
+											"title": "Border Style",
+											"type": "text",
+											"default": "solid"
+										},
+										{
+											"id": "f-btn-border-radius",
+											"title": "Border Radius",
+											"type": "text",
+											"default": "var(--btn-radius)"
+										},
+										{
+											"id": "f-btn-border-width",
+											"title": "Border Width",
+											"type": "text",
+											"default": "var(--btn-border-width)"
+										}
+									]
+								},
+								{
+									"id": "form-btn-text-section",
+									"title": "Text",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-btn-text-size-container",
+											"type": "double-input",
+											"searchTitle": "Text Size",
+											"label": {
+												"primary": "Text Size",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "f-btn-text-size-min",
+													"title": "Base Size Mobile",
+													"type": "px",
+													"default": 14,
+													"percentage-convert": true,
+													"unit": "px"
+												},
+												{
+													"id": "f-btn-text-size-max",
+													"title": "Base Size Desktop",
+													"type": "px",
+													"default": 18,
+													"percentage-convert": true,
+													"unit": "px"
+												}
+											]
+										},
+										{
+											"id": "f-btn-font-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"skip-if-empty": true,
+											"options": [
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "f-btn-line-height",
+											"title": "Line Height",
+											"type": "number",
+											"default": 1
+										},
+										{
+											"id": "f-btn-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"default": "none",
+											"options": [
+												"uppercase",
+												"lowercase",
+												"capitalize",
+												"none",
+												"inherit"
+											]
+										},
+										{
+											"id": "f-btn-text-decoration",
+											"title": "Text Decoration",
+											"type": "select",
+											"default": "none",
+											"options": [
+												"none",
+												"underline",
+												"line-through",
+												"overline"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "option-input-styling",
+							"title": "Option Input",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-option-label-text-size-group",
+									"type": "double-input",
+									"label": {
+										"primary": "Text Size",
+										"secondary": "Mobile/Desktop"
+									},
+									"content": [
+										{
+											"id": "f-option-label-font-size-min",
+											"title": "Base Size Mobile",
+											"type": "px",
+											"cssVariable": "--f-option-label-size",
+											"default": 14,
+											"percentage-convert": true,
+											"unit": "px"
+										},
+										{
+											"id": "f-option-label-font-size-max",
+											"title": "Base Size Desktop",
+											"type": "px",
+											"cssVariable": "--f-option-label-size",
+											"default": 16,
+											"percentage-convert": true,
+											"unit": "px"
+										}
+									]
+								},
+								{
+									"id": "f-option-label-font-weight",
+									"title": "Font Weight",
+									"type": "select",
+									"force-preview": true,
+									"options": [
+										"100",
+										"200",
+										"300",
+										"400",
+										"500",
+										"600",
+										"700",
+										"800",
+										"900",
+										"inherit"
+									],
+									"default": "",
+									"validation": {
+										"required": false
+									}
+								},
+								{
+									"id": "f-option-label-spacing",
+									"title": "Items spacing",
+									"type": "text",
+									"force-preview": true,
+									"default": "0.5em",
+									"validation": {
+										"required": false
+									}
+								}
+							]
+						},
+						{
+							"id": "progress-bar-styling",
+							"title": "Progress Bar",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-progress-height",
+									"title": "Height",
+									"type": "px",
+									"default": 30,
+									"unit": "px",
+									"percentage-convert": true,
+									"appendunit": "rem"
+								},
+								{
+									"id": "f-progress-bar-radius",
+									"title": "Border Radius",
+									"type": "text",
+									"default": "var(--btn-radius)"
+								}
+							]
+						},
+						{
+							"id": "tab-styling",
+							"title": "Tab",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-tab-spacing-section",
+									"title": "Spacing",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-tab-margin-x",
+											"title": "Inline Margin",
+											"type": "text",
+											"default": "0"
+										},
+										{
+											"id": "f-tab-width",
+											"title": "Tab Width",
+											"type": "text",
+											"default": "auto"
+										},
+										{
+											"id": "f-tab-padding-group",
+											"type": "double-input",
+											"label": {
+												"primary": "Tab Padding",
+												"secondary": "Block/Inline"
+											},
+											"content": [
+												{
+													"id": "f-tab-padding-y",
+													"title": "Block",
+													"type": "text",
+													"default": ".75em"
+												},
+												{
+													"id": "f-tab-padding-x",
+													"title": "Inline",
+													"type": "text",
+													"default": "1.5em"
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "f-tab-borders-section",
+									"title": "Borders",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-tab-border-style",
+											"title": "Border Style",
+											"type": "text",
+											"default": "solid"
+										},
+										{
+											"id": "f-tab-border-radius",
+											"title": "Border Radius",
+											"type": "text",
+											"default": "0"
+										},
+										{
+											"id": "f-tab-border-size",
+											"title": "Border Size",
+											"type": "text",
+											"default": "0"
+										},
+										{
+											"id": "f-tab-active-border-bottom-size",
+											"title": "Active Bottom Border Size",
+											"type": "text",
+											"default": "3px"
+										},
+										{
+											"id": "f-tab-active-border-style",
+											"title": "Active Border Style",
+											"type": "text",
+											"default": "solid"
+										},
+										{
+											"id": "f-tab-active-border-size",
+											"title": "Active Border Size",
+											"type": "text",
+											"default": "0"
+										}
+									]
+								},
+								{
+									"id": "f-tab-text-section",
+									"title": "Text",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-tab-text-size-group",
+											"type": "double-input",
+											"label": {
+												"primary": "Text Size",
+												"secondary": "Mobile/Desktop"
+											},
+											"content": [
+												{
+													"id": "f-tab-text-size-min",
+													"title": "Base Size Mobile",
+													"type": "px",
+													"cssVariable": "--f-tab-text-size",
+													"default": 16,
+													"percentage-convert": true,
+													"unit": "px"
+												},
+												{
+													"id": "f-tab-text-size-max",
+													"title": "Base Size Desktop",
+													"type": "px",
+													"cssVariable": "--f-tab-text-size",
+													"default": 18,
+													"percentage-convert": true,
+													"unit": "px"
+												}
+											]
+										},
+										{
+											"id": "f-tab-text-weight",
+											"title": "Font Weight",
+											"type": "select",
+											"force-preview": true,
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "f-tab-active-text-weight",
+											"title": "Active Font Weight",
+											"type": "select",
+											"force-preview": true,
+											"options": [
+												"",
+												"100",
+												"200",
+												"300",
+												"400",
+												"500",
+												"600",
+												"700",
+												"800",
+												"900",
+												"inherit"
+											],
+											"default": "",
+											"validation": {
+												"required": false
+											}
+										},
+										{
+											"id": "f-tab-text-line-height",
+											"title": "Line Height",
+											"type": "number",
+											"default": 1
+										},
+										{
+											"id": "f-tab-text-align",
+											"title": "Text Align",
+											"type": "select",
+											"default": "center",
+											"options": [
+												"left",
+												"center",
+												"right",
+												"inherit"
+											]
+										},
+										{
+											"id": "f-tab-text-transform",
+											"title": "Text Transform",
+											"type": "select",
+											"default": "none",
+											"options": [
+												"uppercase",
+												"lowercase",
+												"capitalize",
+												"none",
+												"inherit"
+											]
+										},
+										{
+											"id": "f-tab-text-decoration",
+											"title": "Text Decoration",
+											"type": "select",
+											"default": "none",
+											"options": [
+												"underline",
+												"line-through",
+												"overline",
+												"none",
+												"inherit"
+											]
+										}
+									]
+								},
+								{
+									"id": "f-tab-group-section",
+									"title": "Tab Group (Tabs Container)",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-tab-group-padding-container",
+											"type": "double-input",
+											"label": {
+												"primary": "Padding",
+												"secondary": "Inline/Block"
+											},
+											"content": [
+												{
+													"id": "f-tab-group-padding-x",
+													"title": "Inline",
+													"type": "text",
+													"default": "0"
+												},
+												{
+													"id": "f-tab-group-padding-y",
+													"title": "Block",
+													"type": "text",
+													"default": "0"
+												}
+											]
+										},
+										{
+											"id": "f-tab-group-border-bottom-size",
+											"title": "Border Bottom Size",
+											"type": "text",
+											"default": "2px"
+										},
+										{
+											"id": "f-tab-group-border-bottom-style",
+											"title": "Border Bottom Style",
+											"type": "text",
+											"default": "solid"
+										},
+										{
+											"id": "f-tab-group-margin-bottom",
+											"title": "Bottom Margin",
+											"type": "text",
+											"default": "3rem"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "form-light-styles",
+					"title": "Light Styles",
+					"icon": "sun",
+					"content": [
+						{
+							"id": "light-label-styling",
+							"title": "Label",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-label-text-color",
+									"title": "Text Color",
+									"type": "text",
+									"default": "var(--neutral-dark)"
+								},
+								{
+									"id": "f-light-label-background-color",
+									"title": "Background Color",
+									"type": "text",
+									"default": "",
+									"skip-if-empty": true,
+									"validation": {
+										"required": false
+									}
+								},
+								{
+									"id": "f-light-required-color",
+									"title": "Required Asterisk Color",
+									"type": "text",
+									"default": "",
+									"skip-if-empty": true,
+									"validation": {
+										"required": false
+									}
+								},
+								{
+									"id": "form-label-inside-section",
+									"title": "Label Inside",
+									"type": "section-container",
+									"environment": {
+										"include": "ws-form"
+									},
+									"content": [
+										{
+											"id": "f-light-label-inside-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"force-preview": true,
+											"default": "transparent"
+										},
+										{
+											"id": "f-light-label-inside-background-color-focus",
+											"title": "Background Color (on focus)",
+											"type": "text",
+											"force-preview": true,
+											"default": "transparent"
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "light-legend-styling",
+							"title": "Legend",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-legend-text-color",
+									"title": "Text Color",
+									"type": "text",
+									"default": "var(--neutral-dark)"
+								}
+							]
+						},
+						{
+							"id": "light-help-styling",
+							"title": "Help",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-help-text-color",
+									"title": "Text Color",
+									"type": "text",
+									"default": "var(--neutral-semi-dark)"
+								}
+							]
+						},
+						{
+							"id": "light-input-styling",
+							"title": "Input",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-input-bg-section",
+									"title": "Background",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-light-input-background",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--white)"
+										},
+										{
+											"id": "f-light-input-border-color",
+											"title": "Border Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										}
+									]
+								},
+								{
+									"id": "f-light-input-text-section",
+									"title": "Text",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-light-input-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-dark)"
+										},
+										{
+											"id": "f-light-input-placeholder-color",
+											"title": "Placeholder Text Color",
+											"type": "text",
+											"default": "var(--neutral-dark)"
+										},
+										{
+											"id": "f-light-input-placeholder-opacity",
+											"title": "Placeholder Text opacity",
+											"type": "number",
+											"default": 0.5
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "light-global-submit-styling",
+							"title": "Global & Submit Button",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-btn-bg-section",
+									"title": "Background",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-light-btn-background",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--primary)"
+										},
+										{
+											"id": "f-light-btn-background-hover",
+											"title": "Background Hover Color",
+											"type": "text",
+											"default": "var(--primary-hover)"
+										}
+									]
+								},
+								{
+									"id": "f-light-btn-border-section",
+									"title": "Border",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-light-btn-border-color",
+											"title": "Border Color",
+											"type": "text",
+											"default": "var(--primary)"
+										},
+										{
+											"id": "f-light-btn-border-color-hover",
+											"title": "Hover Border Color",
+											"type": "text",
+											"default": "var(--primary-hover)"
+										}
+									]
+								},
+								{
+									"id": "f-light-btn-text-section",
+									"title": "Text",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-light-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--primary-ultra-light)"
+										},
+										{
+											"id": "f-light-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--primary-ultra-light)"
+										}
+									]
+								},
+								{
+									"id": "f-light-submit-button-style",
+									"title": "Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "primary",
+									"default": "primary",
+									"output": "quotes"
+								}
+							]
+						},
+						{
+							"id": "light-secondary-button-styling",
+							"title": "Secondary Buttons",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-secondary-btn-section",
+									"title": "Secondary Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-light-secondary-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-light-secondary-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-light-secondary-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-light-secondary-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-light-secondary-button-style",
+									"title": "Secondary Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "primary.btn--outline",
+									"default": "primary.btn--outline",
+									"output": "quotes"
+								},
+								{
+									"id": "f-light-next-btn-section",
+									"title": "Next Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-light-next-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-light-next-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-light-next-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-light-next-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-light-next-button-style",
+									"title": "Next Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "primary",
+									"default": "primary",
+									"output": "quotes"
+								},
+								{
+									"id": "f-light-previous-btn-section",
+									"title": "Previous Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-light-prev-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-light-prev-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-light-prev-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-light-prev-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-light-previous-button-style",
+									"title": "Previous Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "primary.btn--outline",
+									"default": "primary.btn--outline",
+									"output": "quotes"
+								},
+								{
+									"id": "f-light-save-btn-section",
+									"title": "Save Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-light-save-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-light-save-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-light-save-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-light-save-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-light-save-button-style",
+									"title": "Save Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "success",
+									"default": "success",
+									"output": "quotes"
+								},
+								{
+									"id": "f-light-reset-btn-section",
+									"title": "Reset Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-light-reset-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-light-reset-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-light-reset-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-light-reset-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-light-reset-button-style",
+									"title": "Reset Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "neutral",
+									"default": "neutral",
+									"output": "quotes"
+								},
+								{
+									"id": "f-light-clear-btn-section",
+									"title": "Clear Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-light-clear-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-light-clear-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-light-clear-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-light-clear-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-light-clear-button-style",
+									"title": "Clear Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "neutral.btn--outline",
+									"default": "neutral.btn--outline",
+									"output": "quotes"
+								},
+								{
+									"id": "f-light-upload-btn-section",
+									"title": "Upload Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-light-upload-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-light-upload-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-light-upload-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-light-upload-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-light-upload-button-style",
+									"title": "Upload Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "primary",
+									"default": "primary",
+									"output": "quotes"
+								}
+							]
+						},
+						{
+							"id": "light-option-input-styling",
+							"title": "Option Input",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-option-background-color",
+									"title": "Background Color",
+									"type": "text",
+									"default": "transparent"
+								},
+								{
+									"id": "f-light-option-action-color",
+									"title": "Action Color",
+									"type": "text",
+									"default": "var(--primary)"
+								},
+								{
+									"id": "f-light-option-border-color",
+									"title": "Border Color",
+									"type": "text",
+									"default": "var(--neutral)"
+								},
+								{
+									"id": "f-light-select-arrow-color",
+									"title": "Select Arrow Color",
+									"type": "text",
+									"default": "var(--neutral)"
+								}
+							]
+						},
+						{
+							"id": "light-progress-bar-styling",
+							"title": "Progress Bar",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-progress-background-color",
+									"title": "Background Color",
+									"type": "text",
+									"default": "var(--base-ultra-light)"
+								},
+								{
+									"id": "f-light-progress-bar-fill-color",
+									"title": "Fill Color",
+									"type": "text",
+									"default": "var(--primary)"
+								}
+							]
+						},
+						{
+							"id": "light-tab-styling",
+							"title": "Tab",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-tab-background-section",
+									"title": "Background",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-light-tab-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "transparent"
+										},
+										{
+											"id": "f-light-tab-active-background-color",
+											"title": "Active Background Color",
+											"type": "text",
+											"default": "transparent"
+										}
+									]
+								},
+								{
+									"id": "f-light-tab-borders-section",
+									"title": "Borders",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-light-tab-border-color",
+											"title": "Border Color",
+											"type": "text",
+											"default": "var(--primary)"
+										},
+										{
+											"id": "f-light-tab-active-border-color",
+											"title": "Active Border Color",
+											"type": "text",
+											"default": "var(--primary)"
+										},
+										{
+											"id": "f-light-tab-border-bottom-color",
+											"title": "Border Bottom Color",
+											"type": "text",
+											"default": "var(--primary)"
+										}
+									]
+								},
+								{
+									"id": "f-light-tab-text-section",
+									"title": "Text",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-light-tab-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-dark)"
+										},
+										{
+											"id": "f-light-tab-active-text-color",
+											"title": "Active Text Color",
+											"type": "text",
+											"default": "var(--neutral-dark)"
+										},
+										{
+											"id": "f-light-tab-inactive-text-color",
+											"title": "Inactive Text Color",
+											"type": "text",
+											"default": "var(--neutral-dark-trans-80)"
+										}
+									]
+								},
+								{
+									"id": "f-light-tab-group-section",
+									"title": "Tab Group (Tabs Container)",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-light-tab-group-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "transparent"
+										},
+										{
+											"id": "f-light-tab-group-border-bottom-color",
+											"title": "Border Bottom Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "light-range-styling",
+							"title": "Range Slider",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-range-left-track-color",
+									"title": "Left Track Color",
+									"type": "text",
+									"default": "var(--neutral-ultra-light)"
+								},
+								{
+									"id": "f-light-range-right-track-color",
+									"title": "Right Track Color",
+									"type": "text",
+									"default": "var(--neutral-ultra-light)"
+								},
+								{
+									"id": "f-light-range-thumb-color",
+									"title": "Thumb Color",
+									"type": "text",
+									"default": "var(--primary)"
+								}
+							]
+						},
+						{
+							"id": "light-accessibility-styling",
+							"title": "Accessibility",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-light-focus-color",
+									"title": "Focus Color",
+									"type": "text",
+									"default": "var(--primary)"
+								},
+								{
+									"id": "f-light-focus-color-opacity",
+									"title": "Focus Box-Shadow Opacity",
+									"type": "number",
+									"default": 0.25
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "form-dark-styles",
+					"title": "Dark Styles",
+					"icon": "moon",
+					"content": [
+						{
+							"id": "dark-label-styling",
+							"title": "Label",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-label-text-color",
+									"title": "Text Color",
+									"type": "text",
+									"default": "var(--neutral-ultra-light)"
+								},
+								{
+									"id": "f-dark-label-background-color",
+									"title": "Background Color",
+									"type": "text",
+									"default": "",
+									"skip-if-empty": true,
+									"validation": {
+										"required": false
+									}
+								},
+								{
+									"id": "f-dark-required-color",
+									"title": "Required Asterisk Color",
+									"type": "text",
+									"default": "",
+									"skip-if-empty": true,
+									"validation": {
+										"required": false
+									}
+								},
+								{
+									"id": "form-label-inside-section",
+									"title": "Label Inside",
+									"type": "section-container",
+									"environment": {
+										"include": "ws-form"
+									},
+									"content": [
+										{
+											"id": "f-dark-label-inside-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"force-preview": true,
+											"default": "transparent"
+										},
+										{
+											"id": "f-dark-label-inside-background-color-focus",
+											"title": "Background Color (on focus)",
+											"type": "text",
+											"force-preview": true,
+											"default": "transparent"
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "dark-legend-styling",
+							"title": "Legend",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-legend-text-color",
+									"title": "Text Color",
+									"type": "text",
+									"default": "var(--neutral-ultra-light)"
+								}
+							]
+						},
+						{
+							"id": "dark-help-styling",
+							"title": "Help",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-help-text-color",
+									"title": "Text Color",
+									"type": "text",
+									"default": "var(--neutral-light)"
+								}
+							]
+						},
+						{
+							"id": "dark-input-styling",
+							"title": "Input",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-input-bg-section",
+									"title": "Background",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-dark-input-background",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-dark)"
+										},
+										{
+											"id": "f-dark-input-border-color",
+											"title": "Border Color",
+											"type": "text",
+											"default": "var(--neutral-semi-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-input-text-section",
+									"title": "Text",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-dark-input-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-dark-input-placeholder-color",
+											"title": "Placeholder Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-dark-input-placeholder-opacity",
+											"title": "Placeholder Text opacity",
+											"type": "number",
+											"default": 0.5
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "dark-global-submit-styling",
+							"title": "Global & Submit Button",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-btn-bg-section",
+									"title": "Background",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-dark-btn-background",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--primary)"
+										},
+										{
+											"id": "f-dark-btn-background-hover",
+											"title": "Background Hover Color",
+											"type": "text",
+											"default": "var(--primary-hover)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-btn-border-section",
+									"title": "Border",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-dark-btn-border-color",
+											"title": "Border Color",
+											"type": "text",
+											"default": "var(--primary)"
+										},
+										{
+											"id": "f-dark-btn-border-color-hover",
+											"title": "Hover Border Color",
+											"type": "text",
+											"default": "var(--primary-hover)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-btn-text-section",
+									"title": "Text",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-dark-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--primary-ultra-light)"
+										},
+										{
+											"id": "f-dark-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--primary-ultra-light)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-submit-button-style",
+									"title": "Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "primary",
+									"default": "primary",
+									"output": "quotes"
+								}
+							]
+						},
+						{
+							"id": "dark-secondary-button-styling",
+							"title": "Secondary Button",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-secondary-btn-section",
+									"title": "Secondary Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-dark-secondary-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-dark-secondary-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-dark-secondary-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-dark-secondary-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-secondary-button-style",
+									"title": "Secondary Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "primary.btn--outline",
+									"default": "primary.btn--outline",
+									"output": "quotes"
+								},
+								{
+									"id": "f-dark-next-btn-section",
+									"title": "Next Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-dark-next-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-dark-next-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-dark-next-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-dark-next-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-next-button-style",
+									"title": "Next Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "primary.btn--outline",
+									"default": "primary.btn--outline",
+									"output": "quotes"
+								},
+								{
+									"id": "f-dark-previous-btn-section",
+									"title": "Previous Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-dark-prev-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-dark-prev-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-dark-prev-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-dark-prev-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-previous-button-style",
+									"title": "Previous Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "primary.btn--outline",
+									"default": "primary.btn--outline",
+									"output": "quotes"
+								},
+								{
+									"id": "f-dark-save-btn-section",
+									"title": "Save Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-dark-save-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-dark-save-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-dark-save-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-dark-save-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-save-button-style",
+									"title": "Save Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "success",
+									"default": "success",
+									"output": "quotes"
+								},
+								{
+									"id": "f-dark-reset-btn-section",
+									"title": "Reset Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-dark-reset-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-dark-reset-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-dark-reset-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-dark-reset-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-reset-button-style",
+									"title": "Reset Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "neutral",
+									"default": "neutral",
+									"output": "quotes"
+								},
+								{
+									"id": "f-dark-clear-btn-section",
+									"title": "Clear Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-dark-clear-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-dark-clear-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-dark-clear-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-dark-clear-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-clear-button-style",
+									"title": "Clear Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "neutral.btn--outline",
+									"default": "neutral.btn--outline",
+									"output": "quotes"
+								},
+								{
+									"id": "f-dark-upload-btn-section",
+									"title": "Upload Button",
+									"type": "section-container",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"off"
+									],
+									"content": [
+										{
+											"id": "f-dark-upload-btn-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-dark-upload-btn-background-color-hover",
+											"title": "Hover Background Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										},
+										{
+											"id": "f-dark-upload-btn-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										},
+										{
+											"id": "f-dark-upload-btn-text-color-hover",
+											"title": "Hover Text Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-dark)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-upload-button-style",
+									"title": "Upload Button Style",
+									"type": "text",
+									"displayWhen": [
+										"option-f-use-global-buttons",
+										"on"
+									],
+									"force-preview": true,
+									"placeholder": "primary",
+									"default": "primary",
+									"output": "quotes"
+								}
+							]
+						},
+						{
+							"id": "dark-option-input-styling",
+							"title": "Option Input",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-option-background-color",
+									"title": "Background Color",
+									"type": "text",
+									"default": "transparent"
+								},
+								{
+									"id": "f-dark-option-action-color",
+									"title": "Action Color",
+									"type": "text",
+									"default": "var(--primary)"
+								},
+								{
+									"id": "f-dark-option-border-color",
+									"title": "Border Color",
+									"type": "text",
+									"default": "var(--neutral)"
+								},
+								{
+									"id": "f-dark-select-arrow-color",
+									"title": "Select Arrow Color",
+									"type": "text",
+									"default": "var(--neutral-ultra-light)"
+								}
+							]
+						},
+						{
+							"id": "dark-progress-bar-styling",
+							"title": "Progress Bar",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-progress-background-color",
+									"title": "Background Color",
+									"type": "text",
+									"default": "var(--base-ultra-light)"
+								},
+								{
+									"id": "f-dark-progress-bar-fill-color",
+									"title": "Fill Color",
+									"type": "text",
+									"default": "var(--primary)"
+								}
+							]
+						},
+						{
+							"id": "dark-tab-styling",
+							"title": "Tab",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-tab-background-section",
+									"title": "Background",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-dark-tab-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "transparent"
+										},
+										{
+											"id": "f-dark-tab-active-background-color",
+											"title": "Active Background Color",
+											"type": "text",
+											"default": "transparent"
+										}
+									]
+								},
+								{
+									"id": "f-dark-tab-borders-section",
+									"title": "Borders",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-dark-tab-border-color",
+											"title": "Border Color",
+											"type": "text",
+											"default": "var(--primary)"
+										},
+										{
+											"id": "f-dark-tab-active-border-color",
+											"title": "Active Border Color",
+											"type": "text",
+											"default": "var(--primary)"
+										},
+										{
+											"id": "f-dark-tab-border-bottom-color",
+											"title": "Border Bottom Color",
+											"type": "text",
+											"default": "var(--primary)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-tab-text-section",
+									"title": "Text",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-dark-tab-text-color",
+											"title": "Text Color",
+											"type": "text",
+											"default": "var(--neutral-dark)"
+										},
+										{
+											"id": "f-dark-tab-active-text-color",
+											"title": "Active Text Color",
+											"type": "text",
+											"default": "var(--neutral-light)"
+										},
+										{
+											"id": "f-dark-tab-inactive-text-color",
+											"title": "Inactive Text Color",
+											"type": "text",
+											"default": "var(--neutral-light-trans-80)"
+										}
+									]
+								},
+								{
+									"id": "f-dark-tab-group-section",
+									"title": "Tab Group (Tabs Container)",
+									"type": "section-container",
+									"content": [
+										{
+											"id": "f-dark-tab-group-background-color",
+											"title": "Background Color",
+											"type": "text",
+											"default": "transparent"
+										},
+										{
+											"id": "f-dark-tab-group-border-bottom-color",
+											"title": "Border Bottom Color",
+											"type": "text",
+											"default": "var(--neutral-ultra-light)"
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "dark-range-styling",
+							"title": "Range Slider",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-range-left-track-color",
+									"title": "Left Track Color",
+									"type": "text",
+									"default": "var(--neutral-semi-dark)"
+								},
+								{
+									"id": "f-dark-range-right-track-color",
+									"title": "Right Track Color",
+									"type": "text",
+									"default": "var(--neutral-semi-dark)"
+								},
+								{
+									"id": "f-dark-range-thumb-color",
+									"title": "Thumb Color",
+									"type": "text",
+									"default": "var(--primary)"
+								}
+							]
+						},
+						{
+							"id": "dark-accessibility-styling",
+							"title": "Accessibility",
+							"type": "accordion-container",
+							"content": [
+								{
+									"id": "f-dark-focus-color",
+									"title": "Focus Color",
+									"type": "text",
+									"default": "var(--primary)"
+								},
+								{
+									"id": "f-dark-focus-color-opacity",
+									"title": "Focus Box-Shadow Opacity",
+									"type": "number",
+									"default": 0.25
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

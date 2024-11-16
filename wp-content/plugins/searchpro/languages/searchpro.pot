@@ -1,0 +1,387 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BerqWP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-10 18:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Domain: searchpro"
+
+#: inc/class-berqwp.php:107
+msgid ""
+"<p><b>Localhost Detected:</b> BerqWP doesn't operate in a localhost "
+"environment.</p>"
+msgstr ""
+
+#: inc/class-berqwp.php:169
+#, php-format
+msgid ""
+"<p><strong>BerqWP Conflict Alert:</strong> Please deactivate the %s to "
+"ensure BerqWP functions properly.</p>"
+msgstr ""
+
+#: admin/tabs/activate-license.php:30
+msgid "Activate"
+msgstr ""
+
+#: admin/admin-page.php:271
+msgid "All images have already been optimized for speed."
+msgstr ""
+
+#: admin/admin-page.php:255
+msgid "All WebP images have been deleted."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Automated Core Web Vitals Solution For WordPress. Optimize user experience, "
+"SEO and your growth."
+msgstr ""
+
+#. Author of the plugin
+msgid "Berqier Ltd"
+msgstr ""
+
+#. Name of the plugin
+msgid "BerqWP"
+msgstr ""
+
+#: inc/class-berqcache.php:380
+msgid "BerqWP is starting cache warmup. Please wait."
+msgstr ""
+
+#: admin/tabs/activate-license.php:6
+msgid "BerqWP License"
+msgstr ""
+
+#: admin/tabs/activate-license.php:25
+msgid "BerqWP License Activation"
+msgstr ""
+
+#: admin/tabs/script-manager.php:32
+msgid ""
+"BerqWP offers three JavaScript optimization modes, so every JavaScript-heavy "
+"website can unlock its true potential."
+msgstr ""
+
+#: admin/tabs/image-optimization.php:36
+msgid "Bulk convert to WebP"
+msgstr ""
+
+#: admin/admin-page.php:44 admin/tabs/cache-management.php:14
+msgid "Cache Management"
+msgstr ""
+
+#: inc/class-berqcache.php:370
+msgid ""
+"Cache warmup is in progress... This process could take some time depending "
+"on the number of pages on your website."
+msgstr ""
+
+#: admin/tabs/dashboard.php:57
+msgid "Cached Pages"
+msgstr ""
+
+#: admin/save-settings.php:124
+msgid ""
+"Changes have been saved! Please flush the cache to make changes visible for "
+"the visitors."
+msgstr ""
+
+#: admin/admin-page.php:23
+msgid "Contact support"
+msgstr ""
+
+#: admin/admin-page.php:41
+msgid "Dashboard"
+msgstr ""
+
+#: admin/tabs/activate-license.php:33
+msgid "Deactivate license key"
+msgstr ""
+
+#: admin/tabs/script-manager.php:43
+msgid "Defer JavaScript (Safe)"
+msgstr ""
+
+#: admin/tabs/script-manager.php:35
+msgid "Delay & inline first execution (Recommended)"
+msgstr ""
+
+#: admin/tabs/script-manager.php:39
+msgid "Delay & sequential execution"
+msgstr ""
+
+#: admin/tabs/image-optimization.php:37
+msgid "Delete all WebP images"
+msgstr ""
+
+#: admin/tabs/dashboard.php:17 admin/tabs/dashboard.php:25
+msgid "Device: Mobile"
+msgstr ""
+
+#: admin/tabs/script-manager.php:7
+msgid "Disable emojis"
+msgstr ""
+
+#: admin/tabs/script-manager.php:14
+msgid "Disable WordPress emojis"
+msgstr ""
+
+#: admin/tabs/image-optimization.php:60
+msgid "Enable lazyload for images"
+msgstr ""
+
+#: admin/tabs/script-manager.php:23
+msgid "Enable lazyload for YouTube videos"
+msgstr ""
+
+#: admin/tabs/script-manager.php:54
+msgid "Enable preloading for mostly used font-face"
+msgstr ""
+
+#: admin/tabs/dashboard.php:81
+msgid "Enable sandbox"
+msgstr ""
+
+#: admin/tabs/activate-license.php:29
+msgid "Enter your license key"
+msgstr ""
+
+#: admin/admin-page.php:248
+msgid ""
+"Error: Unable to connect to the server. If the issue persists, please "
+"contact our support team."
+msgstr ""
+
+#: admin/tabs/cache-management.php:18
+msgid "Exclude pages from being cached. Enter page URLs, one URL per line."
+msgstr ""
+
+#: admin/admin-page.php:45
+msgid "Exclude Pages, Ignore URL Parameters"
+msgstr ""
+
+#: admin/tabs/dashboard.php:49 admin/tabs/activate-license.php:49
+msgid "Expiration date:"
+msgstr ""
+
+#: admin/tabs/dashboard.php:68
+msgid "Flush cache"
+msgstr ""
+
+#: admin/admin-page.php:42
+msgid "Flush Cache, Sandbox Mode, Cached Pages"
+msgstr ""
+
+#: admin/tabs/dashboard.php:14
+msgid "Google PageSpeed Score Comparison"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://berqier.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://berqwp.com"
+msgstr ""
+
+#: admin/tabs/script-manager.php:51
+msgid ""
+"If enabled, the most frequently used font-face will be loaded earlier, along "
+"with the critical CSS. Enabling this feature may slightly increase the "
+"Largest Contentful Paint (LCP)."
+msgstr ""
+
+#: admin/tabs/cache-management.php:23
+msgid "Ignore URL parameters"
+msgstr ""
+
+#: admin/admin-page.php:47 admin/tabs/image-optimization.php:6
+msgid "Image Optimization"
+msgstr ""
+
+#: admin/admin-page.php:258
+msgid "Image optimization completed!"
+msgstr ""
+
+#: admin/tabs/image-optimization.php:27
+msgid "Image quality:"
+msgstr ""
+
+#: admin/tabs/image-optimization.php:11
+msgid ""
+"Images will be automatically converted to the WebP format. This helps "
+"improve\n"
+"                    website\n"
+"                    performance by reducing image file sizes without "
+"compromising quality. It does\n"
+"                    not\n"
+"                    modify the original images. <br><br> <a href=\"https:"
+"//berqwp.com/help-center/should-i-bulk-convert-all-images-into-webp/\" "
+"target=\"_blank\">Read why you shouldn't bulk convert to WebP</a>"
+msgstr ""
+
+#: admin/tabs/script-manager.php:30
+msgid "JavaScript execution mode"
+msgstr ""
+
+#: admin/admin-page.php:51
+msgid "JavaScript Modes, Emojis, YouTube, Fonts"
+msgstr ""
+
+#: admin/tabs/image-optimization.php:53
+msgid "LazyLoad images"
+msgstr ""
+
+#: admin/tabs/script-manager.php:19
+msgid "LazyLoad YouTube embeds"
+msgstr ""
+
+#: admin/tabs/dashboard.php:78
+msgid "Learn more"
+msgstr ""
+
+#: admin/admin-page.php:53
+msgid "License"
+msgstr ""
+
+#: admin/tabs/dashboard.php:46 admin/tabs/activate-license.php:46
+msgid "License status:"
+msgstr ""
+
+#: admin/tabs/dashboard.php:43 admin/tabs/activate-license.php:43
+msgid "License:"
+msgstr ""
+
+#: admin/tabs/image-optimization.php:19
+msgid "Max image width:"
+msgstr ""
+
+#: admin/tabs/dashboard.php:41 admin/tabs/activate-license.php:41
+msgid "My Account"
+msgstr ""
+
+#: admin/tabs/image-optimization.php:55
+msgid ""
+"Optimize your web page loading time by loading only the images that are "
+"visible on\n"
+"                the screen. The remaining images will be loaded as soon as "
+"the user scrolls to them."
+msgstr ""
+
+#: admin/tabs/image-optimization.php:46
+msgid "Optimized Images:"
+msgstr ""
+
+#: admin/tabs/cache-management.php:16
+msgid "Page exclusions"
+msgstr ""
+
+#: admin/tabs/dashboard.php:62
+msgid "Page(s) have been cached"
+msgstr ""
+
+#: admin/tabs/script-manager.php:49
+msgid "Preload mostly used font-face"
+msgstr ""
+
+#: admin/tabs/dashboard.php:66
+msgid "Quick Actions"
+msgstr ""
+
+#: admin/tabs/dashboard.php:75
+msgid "Sandbox"
+msgstr ""
+
+#: admin/tabs/dashboard.php:91 admin/tabs/script-manager.php:63
+#: admin/tabs/image-optimization.php:69 admin/tabs/cache-management.php:34
+msgid "Save changes"
+msgstr ""
+
+#: admin/admin-page.php:50 admin/tabs/script-manager.php:5
+msgid "Script Manager"
+msgstr ""
+
+#: inc/class-berqcache.php:389
+msgid ""
+"The cache has been cleared. Our automatic cache warm-up system will generate "
+"the cache. Alternatively, you can\n"
+"                        visit any page to create its cache immediately."
+msgstr ""
+
+#: admin/tabs/dashboard.php:77
+msgid ""
+"The Sandbox feature allows you to test BerqWP's optimizations without "
+"impacting real\n"
+"                visitors."
+msgstr ""
+
+#: admin/tabs/script-manager.php:9
+msgid ""
+"The WordPress emoji script loads on all pages, which can slow down the "
+"loading speed.\n"
+"                If\n"
+"                your website doesn't use emojis, it would be better to "
+"disable them."
+msgstr ""
+
+#: admin/admin-page.php:35 admin/tabs/dashboard.php:10
+msgid "Unlock 90+ Mobile & Desktop Score"
+msgstr ""
+
+#: admin/admin-page.php:54
+msgid "Unlock BerqWP Premium Features"
+msgstr ""
+
+#: admin/tabs/image-optimization.php:47
+msgid "Unoptimized Images:"
+msgstr ""
+
+#: admin/tabs/dashboard.php:69
+msgid "Visit help center"
+msgstr ""
+
+#: admin/tabs/image-optimization.php:10
+msgid "WebP conversion"
+msgstr ""
+
+#: admin/admin-page.php:48
+msgid "WebP Images, Image Resize, LazyLoad"
+msgstr ""
+
+#: admin/tabs/dashboard.php:9
+msgid ""
+"While BerqWP free version offers fantastic features, our premium version "
+"enhances performance even further with <b>JavaScript Optimization</b>. Boost "
+"speed, improve SEO, and deliver a seamless user experience."
+msgstr ""
+
+#: admin/tabs/dashboard.php:36
+msgid "With BerqWP"
+msgstr ""
+
+#: admin/tabs/dashboard.php:21
+msgid "Without BerqWP"
+msgstr ""
+
+#: inc/class-berqwp.php:97
+msgid ""
+"🎉 <b>Loving BerqWP's performance? 🚀</b> Show some love and help us grow 👉 - "
+"<a href=\"https://wordpress.org/support/plugin/searchpro/reviews/#new-post\" "
+"target=\"_blank\">Rate us 5 Stars ⭐️⭐️⭐️⭐️⭐️</a>. Your insights shape our "
+"journey."
+msgstr ""
+
+#: admin/tabs/dashboard.php:8
+msgid "🚀 Unlock Full Potential with BerqWP Premium!"
+msgstr ""

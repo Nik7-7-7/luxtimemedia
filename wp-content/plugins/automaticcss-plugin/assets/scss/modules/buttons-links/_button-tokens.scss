@@ -1,0 +1,41 @@
+:root {
+    --btn-padding-block: #{$btn-padding-block};
+    --btn-padding-inline: #{$btn-padding-inline};
+    --btn-min-width: #{$btn-min-width}rem;
+    --btn-line-height: #{$btn-line-height};
+    --btn-font-weight: #{$btn-font-weight};
+    --btn-font-style: #{$btn-font-style};
+    --btn-text-decoration: #{$btn-text-decoration};
+    --btn-text-decoration-hover: #{$btn-text-decoration-hover};
+    --btn-letter-spacing: #{$btn-letter-spacing};
+    --btn-text-transform: #{$btn-text-transform};
+    --btn-border-width: #{$btn-border-width};
+    --btn-outline-border-width: #{$btn-outline-border-width};
+    --btn-border-style: #{$btn-border-style};
+    --btn-border-radius: #{$btn-border-radius};
+    --btn-justify-content: #{$btn-justify-content};
+    --btn-text-align: #{$btn-text-align};
+    @if $btn-use-global-transition-option == off {
+        --btn-transition: #{$btn-transition};
+    }
+}
+
+@if $option-btn-text-size == on {
+    :root {
+        --btn-font-size: #{$btn-font-size};
+        --btn-text-size: #{$btn-font-size};
+    }
+}
+
+/* Deprecated in ACSS 2.7 */
+
+:root {
+    --btn-border-size: #{$btn-border-width};
+    --btn-radius: #{$btn-border-radius};
+    --outline-btn-border-size: #{$btn-outline-border-width};
+    --btn-pad-x: #{$btn-padding-inline};
+    --btn-pad-y: #{$btn-padding-block};
+    --btn-text-style: #{$btn-font-style};
+    --btn-weight: #{$btn-font-weight};
+    --btn-width: #{$btn-min-width};
+}

@@ -1,0 +1,29 @@
+@if $option-overlays == on {
+
+  [class*="overlay--"] {
+    position: relative;
+    z-index: 0;
+
+    &::before {
+      content: "";
+      background: var(--overlay-background);
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+    }
+  }
+
+  @each $color-name, $color-value in $trans-colors {
+      .overlay--#{$color-name} {
+        --overlay-background: var(--#{$color-name});
+      }
+  }
+}
+
+// Add support for overlays on figure elements
+
+figure[class*="overlay--"] {
+  &::before {
+    z-index: 0;
+  }
+}

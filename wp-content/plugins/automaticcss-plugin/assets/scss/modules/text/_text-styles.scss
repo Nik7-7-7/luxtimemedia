@@ -1,0 +1,7 @@
+@if $option-basic-text-classes == on {
+  @each $style, $value in $textStyles {
+    .text--#{$style} {
+      font-style: $value;
+    }
+  }
+}

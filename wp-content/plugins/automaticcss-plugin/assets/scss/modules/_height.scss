@@ -1,0 +1,64 @@
+// Changes made here must be made to
+// each builder platform as well.
+
+@if $option-height == on {
+  @include if-oxygen-off {
+    // Min Heights
+    @each $height in $heights {
+      @if $height != full {
+        .height--#{$height} {
+          min-block-size: #{$height}vh;
+        }
+      } @else if $height == full {
+        .height--#{$height} {
+          min-block-size: 100vh;
+        }
+      }
+    }
+
+    @each $breakpoint, $value in $breakpoints {
+      @include breakpoint($breakpoint) {
+        @each $height in $heights {
+          @if $height != full {
+            .height--#{$breakpoint}-#{$height} {
+              min-block-size: #{$height}vh;
+            }
+          } @else if $height == full {
+            .height--#{$breakpoint}-#{$height} {
+              min-block-size: 100vh;
+            }
+          }
+        }
+      }
+    }
+
+    // Max Heights
+    @each $height in $heights {
+      @if $height != full {
+        .max-height--#{$height} {
+          max-block-size: #{$height}vh;
+        }
+      } @else if $height == full {
+        .max-height--#{$height} {
+          max-block-size: 100vh;
+        }
+      }
+    }
+
+    @each $breakpoint, $value in $breakpoints {
+      @include breakpoint($breakpoint) {
+        @each $height in $heights {
+          @if $height != full {
+            .max-height--#{$breakpoint}-#{$height} {
+              max-block-size: #{$height}vh;
+            }
+          } @else if $height == full {
+            .max-height--#{$breakpoint}-#{$height} {
+              max-block-size: 100vh;
+            }
+          }
+        }
+      }
+    }
+  }
+}

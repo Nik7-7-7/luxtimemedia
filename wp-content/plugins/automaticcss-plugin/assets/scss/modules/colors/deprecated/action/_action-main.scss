@@ -1,0 +1,177 @@
+// Action Options
+$option-action-clr: on !default;
+$option-action-main-trans: on !default;
+$option-action-light-trans: on !default;
+$option-action-dark-trans: on !default;
+$option-action-ultra-dark-trans: on !default;
+
+// Action Vars
+$action-hex: #e56c70 !default;
+$action-r: 229 !default;
+$action-g: 108 !default;
+$action-b: 112 !default;
+$action-h: 358 !default;
+$action-s: 70% !default;
+$action-l: 66% !default;
+$action-hover-h: 358 !default;
+$action-hover-s: 70% !default;
+$action-hover-l: 80% !default;
+$action-ultra-light-h: 358 !default;
+$action-ultra-light-s: 70% !default;
+$action-ultra-light-l: 95% !default;
+$action-light-h: 358 !default;
+$action-light-s: 70% !default;
+$action-light-l: 85% !default;
+$action-medium-h: 358 !default;
+$action-medium-s: 70% !default;
+$action-medium-l: 50% !default;
+$action-dark-h: 358 !default;
+$action-dark-s: 70% !default;
+$action-dark-l: 25% !default;
+$action-ultra-dark-h: 358 !default;
+$action-ultra-dark-s: 70% !default;
+$action-ultra-dark-l: 10% !default;
+
+// Added in 3.0
+$action-semi-light-h: 358 !default;
+$action-semi-light-s: 70% !default;
+$action-semi-light-l: 60% !default;
+$action-semi-dark-h: 358 !default;
+$action-semi-dark-s: 70% !default;
+$action-semi-dark-l: 40% !default;
+
+// Action Color Map
+$color-action:(); // Initialize Map
+@if $option-action-clr == on {
+  $color-action: (
+    "main": (
+      "action": $action-hex,
+      "action-hover": hsl($action-hover-h, $action-hover-s, $action-hover-l),
+      "action-ultra-light": hsl($action-ultra-light-h, $action-ultra-light-s, $action-ultra-light-l),
+      "action-light": hsl($action-light-h, $action-light-s, $action-light-l),
+      "action-semi-light": hsl($action-semi-light-h, $action-semi-light-s, $action-semi-light-l),
+      "action-semi-dark": hsl($action-semi-dark-h, $action-semi-dark-s, $action-semi-dark-l),
+      "action-dark": hsl($action-dark-h, $action-dark-s, $action-dark-l),
+      "action-ultra-dark": hsl($action-ultra-dark-h, $action-ultra-dark-s, $action-ultra-dark-l),
+    ),
+    "trans": (
+      "action-trans-10": rgba($action-hex, .1),
+      "action-trans-20": rgba($action-hex, .2),
+      "action-trans-30": rgba($action-hex, .3),
+      "action-trans-40": rgba($action-hex, .4),
+      "action-trans-50": rgba($action-hex, .5),
+      "action-trans-60": rgba($action-hex, .6),
+      "action-trans-70": rgba($action-hex, .7),
+      "action-trans-80": rgba($action-hex, .8),
+      "action-trans-90": rgba($action-hex, .9),
+    ),
+    "light-trans": (
+      "action-light-trans-10": hsl($action-light-h, $action-light-s, $action-light-l, .1),
+      "action-light-trans-20": hsl($action-light-h, $action-light-s, $action-light-l, .2),
+      "action-light-trans-30": hsl($action-light-h, $action-light-s, $action-light-l, .3),
+      "action-light-trans-40": hsl($action-light-h, $action-light-s, $action-light-l, .4),
+      "action-light-trans-50": hsl($action-light-h, $action-light-s, $action-light-l, .5),
+      "action-light-trans-60": hsl($action-light-h, $action-light-s, $action-light-l, .6),
+      "action-light-trans-70": hsl($action-light-h, $action-light-s, $action-light-l, .7),
+      "action-light-trans-80": hsl($action-light-h, $action-light-s, $action-light-l, .8),
+      "action-light-trans-90": hsl($action-light-h, $action-light-s, $action-light-l, .9),
+    ),
+    "dark-trans": (
+      "action-dark-trans-10": hsl($action-dark-h, $action-dark-s, $action-dark-l, .1),
+      "action-dark-trans-20": hsl($action-dark-h, $action-dark-s, $action-dark-l, .2),
+      "action-dark-trans-30": hsl($action-dark-h, $action-dark-s, $action-dark-l, .3),
+      "action-dark-trans-40": hsl($action-dark-h, $action-dark-s, $action-dark-l, .4),
+      "action-dark-trans-50": hsl($action-dark-h, $action-dark-s, $action-dark-l, .5),
+      "action-dark-trans-60": hsl($action-dark-h, $action-dark-s, $action-dark-l, .6),
+      "action-dark-trans-70": hsl($action-dark-h, $action-dark-s, $action-dark-l, .7),
+      "action-dark-trans-80": hsl($action-dark-h, $action-dark-s, $action-dark-l, .8),
+      "action-dark-trans-90": hsl($action-dark-h, $action-dark-s, $action-dark-l, .9),
+    ),
+    "ultra-dark-trans": (
+      "action-ultra-dark-trans-10": hsl($action-ultra-dark-h, $action-ultra-dark-s, $action-ultra-dark-l, .1),
+      "action-ultra-dark-trans-20": hsl($action-ultra-dark-h, $action-ultra-dark-s, $action-ultra-dark-l, .2),
+      "action-ultra-dark-trans-30": hsl($action-ultra-dark-h, $action-ultra-dark-s, $action-ultra-dark-l, .3),
+      "action-ultra-dark-trans-40": hsl($action-ultra-dark-h, $action-ultra-dark-s, $action-ultra-dark-l, .4),
+      "action-ultra-dark-trans-50": hsl($action-ultra-dark-h, $action-ultra-dark-s, $action-ultra-dark-l, .5),
+      "action-ultra-dark-trans-60": hsl($action-ultra-dark-h, $action-ultra-dark-s, $action-ultra-dark-l, .6),
+      "action-ultra-dark-trans-70": hsl($action-ultra-dark-h, $action-ultra-dark-s, $action-ultra-dark-l, .7),
+      "action-ultra-dark-trans-80": hsl($action-ultra-dark-h, $action-ultra-dark-s, $action-ultra-dark-l, .8),
+      "action-ultra-dark-trans-90": hsl($action-ultra-dark-h, $action-ultra-dark-s, $action-ultra-dark-l, .9),
+    ),
+    "partials": (
+      "action-hex": $action-hex,
+        "action-hsl": $action-h $action-s $action-l,
+        "action-rgb": $action-r $action-g $action-b,
+        "action-r": $action-r,
+        "action-g": $action-g,
+        "action-b": $action-b,
+        "action-h": $action-h,
+        "action-s": $action-s,
+        "action-l": $action-l,
+        "action-hover-h": $action-hover-h,
+        "action-hover-s": $action-hover-s,
+        "action-hover-l": $action-hover-l,
+        "action-ultra-light-h": $action-ultra-light-h,
+        "action-ultra-light-s": $action-ultra-light-s,
+        "action-ultra-light-l": $action-ultra-light-l,
+        "action-light-h": $action-light-h,
+        "action-light-s": $action-light-s,
+        "action-light-l": $action-light-l,
+        "action-semi-light-h": $action-semi-light-h,
+        "action-semi-light-s": $action-semi-light-s,
+        "action-semi-light-l": $action-semi-light-l,
+        "action-semi-dark-h": $action-semi-dark-h,
+        "action-semi-dark-s": $action-semi-dark-s,
+        "action-semi-dark-l": $action-semi-dark-l,
+        "action-dark-h": $action-dark-h,
+        "action-dark-s": $action-dark-s,
+        "action-dark-l": $action-dark-l,
+        "action-ultra-dark-h": $action-ultra-dark-h,
+        "action-ultra-dark-s": $action-ultra-dark-s,
+        "action-ultra-dark-l": $action-ultra-dark-l,
+    ),
+  );
+
+  // Transparency options
+  @if $option-action-main-trans == off {
+    $color-action: map-remove($color-action, "trans");
+  }
+  @if $option-action-light-trans == off {
+    $color-action: map-remove($color-action, "light-trans");
+  }
+  @if $option-action-dark-trans == off {
+    $color-action: map-remove($color-action, "dark-trans");
+  }
+  @if $option-action-ultra-dark-trans == off {
+    $color-action: map-remove($color-action, "ultra-dark-trans");
+  }
+
+}
+
+// Handle Deprecated Options
+@if $option-action-clr == on {
+  // Add complimentary color back if enabled
+  @if $option-comp-colors == on {
+    $color-action: map-merge($color-action, (
+      "main": map-merge(map-get($color-action, "main"), (
+        "action-comp": hsl($action-h + 180, $action-s, $action-l)
+      )),
+      "partials": map-merge(map-get($color-action, "partials"), (
+        "action-comp-h": $action-h + 180
+      ))
+    ));
+  }
+  // Add medium back if enabled
+  @if $option-medium-shade == on {
+    $color-action: map-merge($color-action, (
+      "main": map-merge(map-get($color-action, "main"), (
+        "action-medium": hsl($action-medium-h, $action-medium-s, $action-medium-l)
+      )),
+      "partials": map-merge(map-get($color-action, "partials"), (
+        "action-medium-h": $action-medium-h,
+        "action-medium-s": $action-medium-s,
+        "action-medium-l": $action-medium-l
+      ))
+    ));
+  }
+}

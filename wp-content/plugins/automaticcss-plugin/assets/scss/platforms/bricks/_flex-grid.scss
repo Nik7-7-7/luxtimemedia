@@ -1,0 +1,66 @@
+@import "../../modules/flex-grid/flex-grids";
+
+@if $option-flex-grids == on {
+    .flex-grid--1:not(.brxe-container),
+    .brxe-container.flex-grid--1 {
+        @include flex-grid--1;
+    }
+    
+    @each $col-count in $flex-grids {
+        $gap-count: $col-count - 1;
+    
+        .flex-grid--#{$col-count}:not(.brxe-container),
+        .brxe-container.flex-grid--#{$col-count} {
+            @include flex-grid;
+
+            @each $extension, $value in $sizeExtensions {
+                &.gap--#{$extension} {
+                    --gap: var(--space-#{$extension});
+                }
+            }
+
+            > * {
+                flex-basis: calc((100% - (var(--gap) * #{$gap-count})) / #{$col-count});
+            }
+        }
+    
+    } // End initial flex grid loop
+
+    @each $breakpoint, $value in $breakpoints {
+        @include breakpoint($breakpoint) {
+
+            .flex-grid--#{$breakpoint}-1:not(.brxe-container),
+            .brxe-container.flex-grid--#{$breakpoint}-1 {
+                --gap: var(--grid-gap);
+                display: flex;
+                flex-direction: column;
+                gap: var(--gap);
+            
+                > * {
+                    width: 100%;
+                    max-width: 100%;
+                    flex-basis: auto;
+                }
+        }
+
+        @each $col-count in $flex-grids {
+            $gap-count: $col-count - 1;
+                .flex-grid--#{$breakpoint}-#{$col-count}:not(.brxe-container),
+                .brxe-container.flex-grid--#{$breakpoint}-#{$col-count} {
+                    @include flex-grid;
+
+                    @each $extension, $value in $sizeExtensions {
+                        &.gap--#{$breakpoint}-#{$extension} {
+                            --gap: var(--space-#{$extension});
+                        }
+                    }
+        
+                    > * {
+                        flex-basis: calc((100% - (var(--gap) * #{$gap-count})) / #{$col-count});
+                    }
+                }
+            }
+        }
+    } // End breakpoint loop
+
+} // End flex grid option logic

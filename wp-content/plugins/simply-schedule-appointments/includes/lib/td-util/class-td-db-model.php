@@ -313,7 +313,7 @@ abstract class TD_DB_Model extends TD_API_Model {
 	public function add_meta ( $foreign_id, $meta_key, $meta_value ){
 		$foreign_key = $this->get_meta_foreign_key();
 		if( is_wp_error( $meta_value ) ){
-			ssa_debug_log("Attempted to insert WP_ERROR meta value: " . $meta_value->get_error_message(), 10 );
+			ssa_debug_log("Attempted to insert WP_ERROR meta value: " . $meta_value->get_error_message() );
 			$meta_value = '';
 		}
 		$meta_record = array(
@@ -781,7 +781,7 @@ abstract class TD_DB_Model extends TD_API_Model {
 
 		if ( false === $wpdb->update( $this->get_table_name(), $data, array( $where => $row_id ), $field_formats ) ) {
 			// this should never happen, we failed to update a row
-			ssa_debug_log( 'Failed to update row in ' . $this->get_table_name() . ' with ID: ' . $row_id ."\n" . ssa_get_stack_trace() . "wpdb last_error: " . $wpdb->last_error, 10);
+			ssa_debug_log( 'Failed to update row in ' . $this->get_table_name() . ' with ID: ' . $row_id ."\n" . ssa_get_stack_trace() . "wpdb last_error: " . $wpdb->last_error);
 			return false;
 		}
 
@@ -1032,7 +1032,8 @@ abstract class TD_DB_Model extends TD_API_Model {
 			} else {
 				$ids = intval( $args['id'] );
 			}
-			$where .= " AND `".$this->primary_key."` IN( $ids ) ";
+
+			$where .= " AND `".$this->primary_key."` IN( {$ids} ) ";
 
 		}
 
@@ -1046,7 +1047,7 @@ abstract class TD_DB_Model extends TD_API_Model {
 					$author_ids = intval( $args['author_id'] );
 				}
 
-				$where .= " AND `author_id` IN( $author_ids ) ";
+				$where .= " AND `author_id` IN( {$author_ids} ) ";
 
 			}
 		}
@@ -1221,7 +1222,7 @@ abstract class TD_DB_Model extends TD_API_Model {
 
 		$where = 'WHERE meta_key="'.$meta_key.'"';
 		if ( !empty( $args['post_type'] ) ) {
-			$where .= $wpdb->prepare( ' AND post_type=%s', esc_attr( $args['post_type'] ) );
+			$where .= ' AND post_type="'.esc_attr( $args['post_type'] ).'"';
 		}
 		$where .= $this->db_where_conditions( $args );
 		$rows = $wpdb->get_results( $wpdb->prepare( "SELECT post_id as ".$this->post_id_field.",meta_value as ".$args['field'].",post_type,post_title,post_name FROM $wpdb->postmeta INNER JOIN $wpdb->posts on $wpdb->posts.ID=$wpdb->postmeta.post_id $where", null ) );

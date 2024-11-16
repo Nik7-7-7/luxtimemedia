@@ -1,0 +1,6 @@
+@if $option-cards == on {
+	.test-card, .test-card-2 {
+		@include card;
+	}
+}
+

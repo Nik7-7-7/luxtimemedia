@@ -1,0 +1,10 @@
+@if $option-padding == on {
+    @each $size, $extension in $sizeExtensions {
+        .padding--#{$extension} {
+            padding: var(--space-#{$extension});
+        }
+    }
+    .padding--none {
+        padding: 0;
+    }
+}

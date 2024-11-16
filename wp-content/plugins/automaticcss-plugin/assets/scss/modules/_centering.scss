@@ -1,0 +1,128 @@
+$centering-extensions: all, y, x, left, right, top, bottom;
+
+@mixin center-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@mixin center-x {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin center-y {
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@mixin center-left {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  text-align: left;
+}
+
+@mixin center-right {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+@mixin center-top {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin center-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@if $option-oxygen == off {
+  @if $option-centering == on {
+    @each $extension in $centering-extensions {
+      .center--#{$extension}.center--#{$extension} {
+        @if $extension == "all" {
+          @include center-all;
+        }
+        @if $extension == "y" {
+          @include center-y;
+        }
+        @if $extension == "x" {
+          @include center-x;
+        }
+        @if $extension == "left" {
+          @include center-left;
+        }
+        @if $extension == "right" {
+          @include center-right;
+        }
+        @if $extension == "top" {
+          @include center-top;
+        }
+        @if $extension == "bottom" {
+          @include center-bottom;
+        }
+      }
+    }
+  }
+
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) {
+      @each $extension in $centering-extensions {
+        .center--#{$extension}-#{$breakpoint}.center--#{$extension}-#{$breakpoint} {
+          @if $extension == "all" {
+            @include center-all;
+          }
+          @if $extension == "y" {
+            @include center-y;
+          }
+          @if $extension == "x" {
+            @include center-x;
+          }
+          @if $extension == "left" {
+            @include center-left;
+          }
+          @if $extension == "right" {
+            @include center-right;
+          }
+          @if $extension == "top" {
+            @include center-top;
+          }
+          @if $extension == "bottom" {
+            @include center-bottom;
+          }
+        }
+      }
+    }
+  }
+} // End Builder Check
+
+@if $option-centering == on {
+  .center--self.center--self {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

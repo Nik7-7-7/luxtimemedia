@@ -122,26 +122,26 @@ class SSA_Revision_Meta_Model extends SSA_Db_Model {
 	);
 
 	public function filter_where_conditions( $where, $args ) {
-		global $wpdb;
+		
 		if ( ! empty( $args['revision_id'] ) ) {
 			if( is_array( $args['revision_id'] ) ) {
 				$revision_ids = implode( ',', array_map('intval', $args['revision_id'] ) );
 			} else {
 				$revision_ids = intval( $args['revision_id'] );
 			}
-			$where .= " AND `revision_id` IN( $revision_ids ) ";
+			$where .= " AND `revision_id` IN( {$revision_ids} ) ";
 		}
 
 		if ( ! empty( $args['meta_key'] ) ) {
-			$where .=  $wpdb->prepare( ' AND meta_key=%s', sanitize_text_field( $args['meta_key'] ) );
+			$where .= ' AND meta_key="' . sanitize_text_field( $args['meta_key'] ) . '"';
 		}
 
 		if ( ! empty( $args['meta_value_before'] ) ) {
-			$where .=  $wpdb->prepare( ' AND meta_value_before=%s', sanitize_text_field( $args['meta_value_before'] ) );
+			$where .= ' AND meta_value_before="' . sanitize_text_field( $args['meta_value_before'] ) . '"';
 		}
 
 		if ( ! empty( $args['meta_value'] ) ) {
-			$where .=  $wpdb->prepare( ' AND meta_value=%s', sanitize_text_field( $args['meta_value'] ) );
+			$where .= ' AND meta_value="' . sanitize_text_field( $args['meta_value'] ) . '"';
 		}
 
 		return $where;

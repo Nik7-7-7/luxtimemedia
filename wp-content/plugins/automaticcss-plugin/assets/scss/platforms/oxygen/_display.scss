@@ -1,0 +1,27 @@
+$display-types: (
+  inline: inline,
+  block: block,
+  contents: contents,
+  inline-block: inline-block,
+  inline-flex: inline-flex,
+  list-item: list-item,
+  none: none,
+);
+
+@each $type, $value in $display-types {
+  .display--#{$type} {
+    display: #{$value};
+  }
+}
+
+@each $breakpoint, $value in $breakpoints {
+  @include breakpoint($breakpoint) {
+    @each $type, $value in $display-types {
+      @if $type == none or $type == flex or $type == block {
+        .display--#{$breakpoint}-#{$type} {
+          display: #{$value};
+        }
+      }
+    }
+  }
+}

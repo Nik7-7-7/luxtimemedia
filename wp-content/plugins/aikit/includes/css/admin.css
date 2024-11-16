@@ -1,0 +1,68 @@
+#aikit-btn {
+    margin-right: 10px;
+    padding:  9px 15px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba(255, 0, 208, 0.73) 0%, #5F98FA 51%, rgba(255, 0, 208, 0.64) 100%);
+}
+
+#aikit-btn:hover {
+    background-position: right center;
+}
+
+.aikit-btn-container {
+    float: right;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+.aikit-notice-txt {
+    float: left;
+}
+
+#aikit-notice {
+    height: 42px;
+}
+
+.aikit-invalid-key {
+    color: red;
+}
+
+.aikit-tab-content {
+    display: block !important;
+}
+
+.aikit-valid-key {
+    color: green;
+}
+
+.aikit-slider {
+    width: 400px
+}
+
+#aikit-settings-tabs {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+li.nav-item {
+    margin-bottom: 0px !important;
+}
+
+.tab-pane {
+    padding: 10px;
+}
+
+.audio-player-preview {
+    margin-top: 10px;
+}

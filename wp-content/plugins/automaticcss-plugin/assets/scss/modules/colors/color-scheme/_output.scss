@@ -1,0 +1,94 @@
+
+@if $option-color-scheme == on {
+
+    .color-scheme--alt {
+        @each $utility, $value in $alt-color-partials {
+            --#{$utility}: #{$value};
+          }
+          @each $utility, $value in $alt-status-color-partials {
+            --#{$utility}: #{$value};
+          }
+          // Generate tokens for main colors and shades
+          @each $utility, $value in $alt-core-colors {
+            --#{$utility}: #{$value};
+          }
+          @each $utility, $value in $alt-core-status-colors {
+            --#{$utility}: #{$value};
+          }
+          // Generate tokens for transparencies
+          @each $utility, $value in $alt-trans-colors {
+            --#{$utility}: #{$value};
+          }
+          @each $utility, $value in $alt-trans-status-colors {
+            --#{$utility}: #{$value};
+          }
+          //// Generate Contextual Background Tokens
+          // These must be generated inside of .color-scheme--main to ensure 
+          // compatibility with color-scheme protection.
+          @each $utility-category, $utility-group in $contextuals {
+            @each $utility-name, $utility-value in $utility-group {
+              @if $utility-category == "background-colors" {
+                  --bg-#{$utility-name}: #{$utility-value};
+              }
+            }
+          }
+          //// Generate Contextual Text Tokens
+          // These must be generated inside of .color-scheme--main to ensure 
+          // compatibility with color-scheme protection.
+          @each $utility-category, $utility-group in $contextuals {
+            @each $utility-name, $utility-value in $utility-group {
+              @if $utility-category == "text-colors" {
+                  --text-#{$utility-name}: #{$utility-value};
+              }
+            }
+          }
+          @if $body-bg-color != null {
+            --body-bg-color: #{$body-bg-color};
+          }
+          @if $body-color != null {
+            --body-color: #{$body-color};
+          }
+          @if $heading-color != null {
+            --heading-color: #{$heading-color};
+          }
+          @if $h1-color != null {
+            --h1-color: #{$h1-color};
+          }
+          @if $h2-color != null {
+            --h2-color: #{$h1-color};
+          }
+          @if $h3-color != null {
+            --h3-color: #{$h1-color};
+          }
+          @if $h4-color != null {
+            --h4-color: #{$h1-color};
+          }
+          @if $h5-color != null {
+            --h5-color: #{$h1-color};
+          }
+          @if $h6-color != null {
+            --h6-color: #{$h1-color};
+          }
+    }
+
+    // Fix for default body background color and default body text color
+    :where(#{$color-scheme-main-selectors}) {
+      background-color: var(--body-bg);
+      color: var(--body-color);
+    }
+    :where(.color-scheme--alt) {
+      background-color: var(--body-bg);
+      color: var(--body-color);
+    }
+
+    // Fix for default heading colors
+    @for $i from 1 through 6 {
+      :where(#{$color-scheme-main-selectors} h#{$i}) {
+          color: var(--h#{$i}-color, var(--heading-color));
+      }
+      :where(.color-scheme--alt h#{$i}) {
+        color: var(--h#{$i}-color, var(--heading-color));
+    }
+    }
+
+}

@@ -1,0 +1,24 @@
+// Global
+$btn-border-width: 0.25rem !default;
+$btn-outline-border-width: 0.25rem !default;
+$btn-border-style: solid !default;
+$btn-border-radius: 0.5em !default;
+$btn-padding-block: 1em !default;
+$btn-padding-inline: 1.5em !default;
+$btn-text-transform: none !default;
+$btn-font-style: normal !default;
+$option-btn-text-size: off !default;
+$btn-text-min: $text-m-min !default;
+$btn-text-max: $text-m-max !default;
+$btn-font-size: fluidClamp($btn-text-min, $btn-text-max);
+$btn-letter-spacing: 0 !default;
+$btn-line-height: 1.2 !default;
+$btn-text-decoration: none !default;
+$btn-text-decoration-hover: none !default;
+$btn-font-weight: 400 !default;
+$btn-min-width: append-rem(20) !default;
+$btn-transition-duration: .3s !default;
+$btn-use-global-transition-option: on !default;
+$btn-transition: var(--transition) !default;
+$btn-justify-content: center !default;
+$btn-text-align: center !default;

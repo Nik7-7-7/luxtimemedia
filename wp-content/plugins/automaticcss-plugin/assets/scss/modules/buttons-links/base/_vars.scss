@@ -1,0 +1,130 @@
+// Base Defaults
+$option-base-btn: on !default;
+$option-base-btn-shades: on !default;
+$option-base-btn-outline: on !default;
+
+///// Main
+$btn-base-bg: var(--base) !default;
+$btn-base-hover: var(--base-hover) !default;
+$btn-base-text: var(--base-ultra-light) !default;
+$btn-base-hover-text: var(--base-ultra-light) !default;
+$btn-base-border-color: var(--base) !default;
+$btn-base-hover-border-color: var(--base-hover) !default;
+$btn-base-focus-color: var(--base-light) !default;
+///// Dark
+$btn-base-dark-bg: var(--base-dark) !default;
+$btn-base-dark-hover: var(--base-ultra-dark) !default;
+$btn-base-dark-text: var(--base-ultra-light) !default;
+$btn-base-dark-hover-text: var(--base-ultra-light) !default;
+$btn-base-dark-border-color: var(--base-dark) !default;
+$btn-base-dark-hover-border-color: var(--base-ultra-dark) !default;
+$btn-base-dark-focus-color: var(--base-semi-dark) !default;
+///// Light
+$btn-base-light-bg: var(--base-ultra-light) !default;
+$btn-base-light-hover: var(--base-light) !default;
+$btn-base-light-text: var(--base) !default;
+$btn-base-light-hover-text: var(--base-ultra-dark) !default;
+$btn-base-light-border-color: var(--base-ultra-light) !default;
+$btn-base-light-hover-border-color: var(--base-light) !default;
+$btn-base-light-focus-color: var(--base-light) !default;
+///// Outline
+$btn-base-outline-background: transparent !default;
+$btn-base-outline-background-hover: var(--base-hover) !default;
+$base-outline-btn-text: var(--base) !default;
+$base-outline-hover-text: var(--base-ultra-light) !default;
+$btn-base-outline-border-color: var(--base) !default;
+$btn-base-outline-border-hover: var(--base-hover) !default;
+$btn-base-outline-focus-color: var(--base-semi-light) !default;
+///// Outline Dark
+$btn-base-outline-dark-background: transparent !default;
+$btn-base-outline-dark-background-hover: var(--base-dark) !default;
+$base-outline-dark-btn-text: var(--base-dark) !default;
+$base-outline-dark-hover-text: var(--base-ultra-light) !default;
+$btn-base-outline-dark-border-color: var(--base-dark) !default;
+$btn-base-outline-dark-border-hover: var(--base-dark) !default;
+$btn-base-outline-dark-focus-color: var(--base-semi-dark) !default;
+///// Outline Light
+$btn-base-outline-light-background: transparent !default;
+$btn-base-outline-light-background-hover: var(--base-ultra-light) !default;
+$base-outline-light-btn-text: var(--base-ultra-light) !default;
+$base-outline-light-hover-text: var(--base-dark) !default;
+$btn-base-outline-light-border-color: var(--base-ultra-light) !default;
+$btn-base-outline-light-border-hover: var(--base-ultra-light) !default;
+$btn-base-outline-light-focus-color: var(--base-light) !default;
+
+$btn-base: (); // Initialize Map
+@if $option-base-btn == on {
+
+    $btn-base: (
+        "base": (
+            btn-background: $btn-base-bg,
+            btn-background-hover: $btn-base-hover,
+            btn-text-color: $btn-base-text,
+            btn-text-color-hover: $btn-base-hover-text,
+            btn-border-color: $btn-base-border-color,
+            btn-border-color-hover: $btn-base-hover-border-color,
+            focus-color: $btn-base-focus-color,
+        ),
+        "base-dark": (
+            btn-background: $btn-base-dark-bg,
+            btn-background-hover: $btn-base-dark-hover,
+            btn-text-color: $btn-base-dark-text,
+            btn-text-color-hover: $btn-base-dark-hover-text,
+            btn-border-color: $btn-base-dark-border-color,
+            btn-border-color-hover: $btn-base-dark-hover-border-color,
+            focus-color: $btn-base-dark-focus-color,
+        ),
+        "base-light": (
+            btn-background: $btn-base-light-bg,
+            btn-background-hover: $btn-base-light-hover,
+            btn-text-color: $btn-base-light-text,
+            btn-text-color-hover: $btn-base-light-hover-text,
+            btn-border-color: $btn-base-light-border-color,
+            btn-border-color-hover: $btn-base-light-hover-border-color,
+            focus-color: $btn-base-light-focus-color,
+        ),
+        "base.btn--outline": (
+            btn-background: $btn-base-outline-background,
+            btn-background-hover: $btn-base-outline-background-hover,
+            btn-text-color: $base-outline-btn-text,
+            btn-text-color-hover: $base-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-base-outline-border-color,
+            btn-border-color-hover: $btn-base-outline-border-hover,
+            focus-color: $btn-base-focus-color,
+        ),
+        "base-dark.btn--outline": (
+            btn-background: $btn-base-outline-dark-background,
+            btn-background-hover: $btn-base-outline-dark-background-hover,
+            btn-text-color: $base-outline-dark-btn-text,
+            btn-text-color-hover: $base-outline-dark-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-base-outline-dark-border-color,
+            btn-border-color-hover: $btn-base-outline-dark-border-hover,
+            focus-color: $btn-base-focus-color,
+        ),
+        "base-light.btn--outline": (
+            btn-background: $btn-base-outline-light-background,
+            btn-background-hover: $btn-base-outline-light-background-hover,
+            btn-text-color: $base-outline-light-btn-text,
+            btn-text-color-hover: $base-outline-light-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-base-outline-light-border-color,
+            btn-border-color-hover: $btn-base-outline-light-border-hover,
+            focus-color: $btn-base-focus-color,
+        ),
+    );
+
+    @if $option-base-btn-outline == off {
+        $btn-base: map-remove($btn-base, "base.btn--outline");
+        $btn-base: map-remove($btn-base, "base-dark.btn--outline");
+        $btn-base: map-remove($btn-base, "base-light.btn--outline");
+    }
+    @if $option-base-btn-shades == off {
+        $btn-base: map-remove($btn-base, "base-dark");
+        $btn-base: map-remove($btn-base, "base-light");
+        $btn-base: map-remove($btn-base, "base-dark.btn--outline");
+        $btn-base: map-remove($btn-base, "base-light.btn--outline-light");
+    }
+
+}

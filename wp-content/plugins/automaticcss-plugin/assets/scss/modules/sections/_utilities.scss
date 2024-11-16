@@ -1,0 +1,38 @@
+@if $option-section-padding == on {
+  @each $size, $extension in $sizeExtensions {
+    .section--#{$extension} {
+      padding-block: var(--section-space-#{$extension});
+      padding-inline: var(--gutter);
+    }
+  }
+
+  .section--none {
+    padding-block: 0;
+    padding-inline: var(--gutter);
+  }
+
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) {
+      @each $size, $extension in $sizeExtensions {
+        .section--#{$breakpoint}-#{$extension} {
+          padding-block: var(--section-space-#{$extension});
+          padding-inline: var(--gutter);
+        }
+      }
+      .section--#{$breakpoint}-none {
+        padding-inline: 0 var(--gutter);
+      }
+    }
+  }
+}
+
+.section__inner,
+.section__container,
+.acss__container {
+  width: 100%;
+  max-inline-size: var(--content-width);
+  margin-inline: auto;
+}
+
+// Support for deprecated section padding classes
+@import "deprecated";

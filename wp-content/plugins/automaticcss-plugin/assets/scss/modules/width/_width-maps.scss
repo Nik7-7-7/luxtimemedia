@@ -1,0 +1,20 @@
+$widths: (
+  xs: .1,
+  s: .2,
+  m: .4,
+  l: .6,
+  xl: .8,
+  xxl: .9,
+  vp-max: 1, // Effectively --content-width * 1
+  content: 1, // Effectively --content-width * 1
+  full: 100%,
+  10: .1,
+  20: .2,
+  30: .3,
+  40: .4,
+  50: .5,
+  60: .6,
+  70: .7,
+  80: .8,
+  90: .9,
+);

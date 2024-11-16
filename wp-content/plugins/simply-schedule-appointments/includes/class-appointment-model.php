@@ -127,7 +127,7 @@ class SSA_Appointment_Model extends SSA_Db_Model {
 		return in_array( $status, self::get_unavailable_statuses() );
 	}
 	public static function is_a_available_status( $status ) {
-		return ! self::is_a_unavailable_status( $status );
+		return ! self::is_a_unavailable_status();
 	}
 
 	/**
@@ -585,24 +585,9 @@ class SSA_Appointment_Model extends SSA_Db_Model {
 
 	public function filter_where_conditions( $where, $args ) {
 		global $wpdb;
-
-		// Check if both customer_id and customer_information are provided
-		if ( ! empty( $args['customer_id'] ) && ! empty( $args['customer_information'] ) ) {
-			$customer_id_condition = $wpdb->prepare( 'customer_id=%d', sanitize_text_field( $args['customer_id'] ) );
-			$email = sanitize_text_field( $args['customer_information'] );
-			$email_condition = $wpdb->prepare( 'customer_information LIKE %s', '%' . $wpdb->esc_like( '"Email":"' . $email . '"' ) . '%' );
-			
-			$where .= ' AND (' . $customer_id_condition . ' OR ' . $email_condition . ')';
-		} else {
-			// Add individual conditions if only one is provided
-			if ( ! empty( $args['customer_id'] ) ) {
-				$where .= $wpdb->prepare( ' AND customer_id=%d', sanitize_text_field( $args['customer_id'] ) );
-			}
-
-			if ( ! empty( $args['customer_information'] ) ) {
-				$email = sanitize_text_field( $args['customer_information'] );
-				$where .= $wpdb->prepare( ' AND customer_information LIKE %s', '%' . $wpdb->esc_like( '"Email":"' . $email . '"' ) . '%' );
-			}
+		
+		if ( ! empty( $args['customer_id'] ) ) {
+			$where .= $wpdb->prepare( ' AND customer_id=%d', sanitize_text_field( $args['customer_id'] ) );
 		}
 
 		if ( ! empty( $args['group_id'] ) ) {
@@ -930,7 +915,7 @@ class SSA_Appointment_Model extends SSA_Db_Model {
 			$response = array(
 				'response_code' => $insert_id['error']['code'],
 				'error'         => $insert_id['error']['message'],
-				'data'          => empty( $insert_id['error']['data'] ) ? [] : $insert_id['error']['data'],
+				'data'          => $insert_id['error']['data'],
 			);
 		} else {
 			$response = array(
@@ -1051,8 +1036,8 @@ class SSA_Appointment_Model extends SSA_Db_Model {
 		// this is not supported behavior so we just prevent it.
 		if ( isset( $params['status'] ) && in_array( $params['status'], ['abandoned', 'pending_form']) && isset( $appointment->data['status'] ) && 'booked' === $appointment->data['status'] ) {
 			// log stack trace
-			ssa_debug_log( "Cannot update status from booked to " . $params['status'], 10 );
-			ssa_debug_log( ssa_get_stack_trace(), 10 );
+			ssa_debug_log( "Cannot update status from booked to " . $params['status'] );
+			ssa_debug_log( ssa_get_stack_trace() );
 			return array(
 				'error' => array(
 					'code'    => 'invalid_status',
@@ -1623,20 +1608,14 @@ class SSA_Appointment_Model extends SSA_Db_Model {
 		$item = parent::prepare_item_for_response( $item, $recursive );
 
 		if ( $recursive >= 0 ) {
-			$item['public_edit_url'] 	  = $this->get_public_edit_url( $item['id'], $item );
-			$item['public_token']    	  = $this->get_id_token( $item['id'] );
-			$item['staff_ids']       	  = $this->get_staff_ids( $item['id'] );
+			$item['public_edit_url'] 	= $this->get_public_edit_url( $item['id'], $item );
+			$item['public_token']    	= $this->get_id_token( $item['id'] );
+			$item['staff_ids']       	= $this->get_staff_ids( $item['id'] );
 			$item['selected_resources'] = $this->get_selected_resources( $item['id'] );
-			$item['label_id']		        = $this->get_label_id( $item['id'] );
-			$item['rescheduling_note']  = $this->get_rescheduling_note( $item['id'] );
+			$item['label_id']		 = $this->get_label_id( $item['id'] );
 		}
 
 		return $item;
-	}
-
-	public function get_rescheduling_note( $id ) {
-		$meta = $this->get_metas( $id, array( 'rescheduling_note' ) );
-		return isset( $meta['rescheduling_note'] ) ? $meta['rescheduling_note'] : "";
 	}
 
 	/**
@@ -1682,15 +1661,9 @@ class SSA_Appointment_Model extends SSA_Db_Model {
 		$params         = $request->get_params();
 		$appointment_id = esc_attr( $params['id'] );
 
-		if(isset($params['meta'])){
-			$metas = $params['meta'];
-		} else {
-			$metas = $params;
-		}
-
 		$meta_keys_and_values = array();
 		$excluded_keys        = array( 'id', 'context' );
-		foreach ( $metas as $key => $value ) {
+		foreach ( $params as $key => $value ) {
 			if ( in_array( $key, $excluded_keys ) ) {
 				continue;
 			}

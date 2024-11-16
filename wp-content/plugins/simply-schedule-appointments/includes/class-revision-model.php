@@ -366,46 +366,40 @@ class SSA_Revision_Model extends SSA_Db_Model {
 
 	// TODO IMPORTANT: if each action only has one foreign id populated, 2 or more of the below where conditions will eliminate every result
 	public function filter_where_conditions( $where, $args ) {
-		global $wpdb;
 		if ( ! empty( $args['appointment_id'] ) ) {
-			if( is_array( $args['appointment_id'] ) ) {
-				$appointment_ids = implode( ',', array_map('intval', $args['appointment_id'] ) );
-			} else {
-				$appointment_ids = intval( $args['appointment_id'] );
-			}
-			$where .= " AND `appointment_id` IN( $appointment_ids ) ";
+			$where .= ' AND appointment_id="' . sanitize_text_field( $args['appointment_id'] ) . '"';
 		}
 
 		if ( ! empty( $args['appointment_type_id'] ) ) {
-			$where .=  $wpdb->prepare( ' AND appointment_type_id=%d', sanitize_text_field( $args['appointment_type_id'] ) );
+			$where .= ' AND appointment_type_id="' . sanitize_text_field( $args['appointment_type_id'] ) . '"';
 		}
 
 		if ( ! empty( $args['user_id'] ) ) {
-			$where .=  $wpdb->prepare( ' AND user_id=%d', sanitize_text_field( $args['user_id'] ) );
+			$where .= ' AND user_id="' . sanitize_text_field( $args['user_id'] ) . '"';
 		}
 
 		if ( ! empty( $args['staff_id'] ) ) {
-			$where .=  $wpdb->prepare( ' AND staff_id=%d', sanitize_text_field( $args['staff_id'] ) );
+			$where .= ' AND staff_id="' . sanitize_text_field( $args['staff_id'] ) . '"';
 		}
 
 		if ( ! empty( $args['async_action_id'] ) ) {
-			$where .=  $wpdb->prepare( ' AND async_action_id=%d', sanitize_text_field( $args['async_action_id'] ) );
+			$where .= ' AND async_action_id="' . sanitize_text_field( $args['async_action_id'] ) . '"';
 		}
 
 		if ( ! empty( $args['date_created'] ) ) {
-			$where .=  $wpdb->prepare( ' AND date_created=%s', sanitize_text_field( $args['date_created'] ) );
+			$where .= ' AND date_created="' . sanitize_text_field( $args['date_created'] ) . '"';
 		}
 
 		if ( ! empty( $args['action'] ) ) {
-			$where .=  $wpdb->prepare( ' AND action=%s', sanitize_text_field( $args['action'] ) );
+			$where .= ' AND action="' . sanitize_text_field( $args['action'] ) . '"';
 		}
 
 		if ( ! empty( $args['context'] ) ) {
-			$where .=  $wpdb->prepare( ' AND context=%s', sanitize_text_field( $args['context'] ) );
+			$where .= ' AND context="' . sanitize_text_field( $args['context'] ) . '"';
 		}
 
 		if ( ! empty( $args['sub_context'] ) ) {
-			$where .=  $wpdb->prepare( ' AND sub_context=%s', sanitize_text_field( $args['sub_context'] ) );
+			$where .= ' AND sub_context="' . sanitize_text_field( $args['sub_context'] ) . '"';
 		}
 
 		// Only query where the action_title is set, this will help querying after the revisions table had been updated
@@ -467,7 +461,7 @@ class SSA_Revision_Model extends SSA_Db_Model {
 			);
 
 		if ( ! empty( $event ) ) {
-			$revision_meta['event'] = (array) $event;
+			$revision_meta['event'] = $event;
 		}
 
 		// below: hints for WP.org to pick up phrases for translation
@@ -753,9 +747,7 @@ class SSA_Revision_Model extends SSA_Db_Model {
 			'staff_capacity_changed' => 'Staff Capacity Changed',
 			'has_max_capacity_changed' => 'Max Capacity Changed',
 			'reminder_sent' => 'Notification Sent',
-			'reminder_not_sent'=>'Notification Not Sent',
-			'max_booking_notice_changed' => 'Max Booking Notice Changed',
-			'shared_calendar_event_changed' => 'Shared Calendar Event Changed',
+			'reminder_not_sent'=>'Notification Not Sent'
 		);
 
 		// Update the array below whenever needed
@@ -908,10 +900,6 @@ class SSA_Revision_Model extends SSA_Db_Model {
 				return '{{ user }} changed the appointment type title from {{ old_field }} to {{ new_field }}';
 			case 'min_booking_notice_changed':
 				return '{{ user }} changed the notice required from {{ old_field }} to {{ new_field }}';
-			case 'max_booking_notice_changed':
-				return '{{ user }} changed how far in advance customers can book an appointment from {{ old_field }} to {{ new_field }}';
-			case 'shared_calendar_event_changed':
-				return '{{ user }} changed the shared event settings for google calendar';
 			case 'buffer_before_changed':
 				return '{{ user }} changed the buffer before from {{ old_field }} to {{ new_field }}';
 			case 'buffer_after_changed':
@@ -955,14 +943,14 @@ class SSA_Revision_Model extends SSA_Db_Model {
 			case 'has_max_capacity_changed':
 				return '{{ user }} switched the maximum capacity option ';
 			case 'reminder_sent':
-				return 'The notification was sent by {{ notification_type }} to remind the {{ recipient_type }} about the appointment';
+				return 'The notification was sent to remind the {{ recipient_type }} about the appointment';
 			case 'reminder_not_sent':
 				return 'The notification by {{ notification_type }} to remind the {{ recipient_type }} about the appointment could not be sent';
 			default:
 				return '{{ user }} changed the appointment status to {{ action }}';
 		}
 	}
-  
+
 	public function parse_stack_trace_before_insert( $string = '' ) {
 		$pattern = '/#(\d+)\s+(.*)/';
 		preg_match_all( $pattern, $string, $matches, PREG_SET_ORDER );
@@ -989,7 +977,7 @@ class SSA_Revision_Model extends SSA_Db_Model {
 	}
 
 	public function insert_revision_on_notification_sent( $appointment_id, $response, $action_noun, $action_verb, $recipient_type,$notification_type,$data_after, $data_before) {
-		if ($response === true || (is_array($response) && !in_array(false, $response))){
+		if ($response === true){
 			$res = 'success';
 			if($action_noun == 'appointment_start'){
 				$action = 'reminder_sent';

@@ -131,6 +131,10 @@ final class EscaperNodeVisitor implements NodeVisitorInterface
 
     private function escapePrintNode(PrintNode $node, Environment $env, string $type): Node
     {
+        if (false === $type) {
+            return $node;
+        }
+
         $expression = $node->getNode('expr');
 
         if ($this->isSafeFor($type, $expression, $env)) {

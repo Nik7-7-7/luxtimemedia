@@ -1,0 +1,126 @@
+// Updates here must be made in _fallback-maps as well
+
+$textExtensions: (
+  xs: xs,
+  s: s,
+  m: m,
+  l: l,
+  xl: xl,
+  xxl: xxl,
+);
+
+$headingExtensions: ("1", "2", "3", "4", "5", "6");
+
+$textSizing: (
+  pure: (
+    text-xs-pure: 1.26rem,
+    text-s-pure: 1.42rem,
+    text-m-pure: 1.8rem,
+    text-l-pure: 2.025rem,
+    text-xl-pure: 2.28rem,
+    text-xxl-pure: 2.565rem,
+  ),
+  calc: (
+    text-xs-calc: fluidCalc($text-xs-min, $text-xs-max),
+    text-s-calc: fluidCalc($text-s-min, $text-s-max),
+    text-m-calc: fluidCalc($text-m-min, $text-m-max),
+    text-l-calc: fluidCalc($text-l-min, $text-l-max),
+    text-xl-calc: fluidCalc($text-xl-min, $text-xl-max),
+    text-xxl-calc: fluidCalc($text-xxl-min, $text-xxl-max),
+  ),
+  clamp: (
+    text-xs-clamp: fluidClamp($text-xs-min, $text-xs-max),
+    text-s-clamp: fluidClamp($text-s-min, $text-s-max),
+    text-m-clamp: fluidClamp($text-m-min, $text-m-max),
+    text-l-clamp: fluidClamp($text-l-min, $text-l-max),
+    text-xl-clamp: fluidClamp($text-xl-min, $text-xl-max),
+    text-xxl-clamp: fluidClamp($text-xxl-min, $text-xxl-max),
+  ),
+);
+
+$textVariables: (
+  text-xs: $text-xs-pure,
+  text-s: $text-s-pure,
+  text-m: $text-m-pure,
+  text-l: $text-l-pure,
+  text-xl: $text-xl-pure,
+  text-xxl: $text-xxl-pure,
+);
+
+$headingSizes: (
+  pure: (
+    h6-pure: 1.26rem,
+    h5-pure: 1.42rem,
+    h4-pure: 1.8rem,
+    h3-pure: 2.025rem,
+    h2-pure: 2.28rem,
+    h1-pure: 2.565rem,
+  ),
+  calc: (
+    h6-calc: fluidCalc($h6-min, $h6-max),
+    h5-calc: fluidCalc($h5-min, $h5-max),
+    h4-calc: fluidCalc($h4-min, $h4-max),
+    h3-calc: fluidCalc($h3-min, $h3-max),
+    h2-calc: fluidCalc($h2-min, $h2-max),
+    h1-calc: fluidCalc($h1-min, $h1-max),
+  ),
+  clamp: (
+    h6-clamp: fluidClamp($h6-min, $h6-max),
+    h5-clamp: fluidClamp($h5-min, $h5-max),
+    h4-clamp: fluidClamp($h4-min, $h4-max),
+    h3-clamp: fluidClamp($h3-min, $h3-max),
+    h2-clamp: fluidClamp($h2-min, $h2-max),
+    h1-clamp: fluidClamp($h1-min, $h1-max),
+  ),
+);
+$headingVariables: (
+  h6: $text-xs-pure,
+  h5: $text-s-pure,
+  h4: $text-m-pure,
+  h3: $text-l-pure,
+  h2: $text-xl-pure,
+  h1: $text-xxl-pure,
+);
+
+$textWeights: (
+  100: 100,
+  200: 200,
+  300: 300,
+  400: 400,
+  500: 500,
+  600: 600,
+  700: 700,
+  800: 800,
+  900: 900,
+  bold: bold,
+);
+
+$textStyles: (
+  italic: italic,
+  oblique: oblique,
+);
+
+$textDecorations: (
+  decoration-none: none,
+  underline: underline,
+  underline-wavy: underline wavy,
+  underline-dotted: underline dotted,
+  underline-double: underline double,
+  underline-dashed: underline dashed,
+  overline: overline,
+  line-through: line-through,
+);
+
+$textTransforms: (
+  transform-none: none,
+  uppercase: uppercase,
+  lowercase: lowercase,
+  capitalize: capitalize,
+);
+
+$textAlignments: (
+  left: left,
+  center: center,
+  right: right,
+  justify: justify,
+);

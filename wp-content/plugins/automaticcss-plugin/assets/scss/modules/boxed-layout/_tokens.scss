@@ -1,0 +1,5 @@
+@if $option-boxed-layout == on {
+    :root {
+        --boxed-width: #{$body-max-width};
+    }
+}

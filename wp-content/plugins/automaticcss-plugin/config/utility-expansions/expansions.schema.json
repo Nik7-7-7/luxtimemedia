@@ -1,0 +1,67 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://automaticcss.com/schemas/1.0.0/expansions.json",
+	"type": "object",
+	"title": "Utility Expansions definition",
+	"description": "Utility Expansions for the Automatic.css framework",
+	"properties": {
+		"label": {
+			"description": "The display name of the expansion set",
+			"type": "string"
+		},
+		"expansions": {
+			"description": "The expansion definitions",
+			"type": "object",
+			"patternProperties": {
+				"^[^\\s@]+$": {
+					"description": "The action taken for the given key",
+					"type": "object",
+					"additionalProperties": false,
+					"properties": {
+						"expandTo": {
+							"description": "If present expand the key to this definition",
+							"type": "string"
+						},
+						"expandFromStylesheet": {
+							"description": "If set to true, try to pull defintion from stylesheet",
+							"type": "boolean"
+						},
+						"wrapIn": {
+							"description": "Wrap the expansion in the found wrapper defined under 'wrappers'",
+							"type": "string"
+						},
+						"description": {
+							"description": "A description of this item, usually used for tooltips",
+							"type": "string"
+						},
+						"documentation": {
+							"description": "A link to the documentation of this item",
+							"type": "string",
+							"format": "uri"
+						}
+					},
+					"oneOf": [
+						{
+							"required": ["expandTo"]
+						},
+						{
+							"required": ["expandFromStylesheet"]
+						}
+					]
+				}
+			}
+		},
+		"wrappers": {
+			"description": "The wrapper definitions",
+			"type": "object",
+			"patternProperties": {
+				"^[^\\s@]+$": {
+					"description": "The wrapper definition",
+					"type": "string",
+					"pattern": "@slot@"
+				}
+			}
+		}
+	},
+	"anyOf": [{ "required": ["expansions"] }, { "required": ["wrappers"] }]
+}

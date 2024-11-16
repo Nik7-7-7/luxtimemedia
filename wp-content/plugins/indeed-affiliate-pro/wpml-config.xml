@@ -1,0 +1,133 @@
+<wpml-config>
+    <admin-texts>
+        <key name="uap_login_succes" />
+        <key name="uap_login_pending" />
+        <key name="uap_login_error" />
+        <key name="uap_reset_msg_pass_err" />
+        <key name="uap_reset_msg_pass_ok" />
+        <key name="uap_login_error_email_pending" />
+        <key name="uap_login_error_on_captcha" />
+        <key name="uap_custom_source_name_woo" />
+        <key name="uap_custom_source_name_ump" />
+        <key name="uap_custom_source_name_ulp" />
+        <key name="uap_custom_source_name_edd" />
+        <key name="uap_custom_source_name_bonus" />
+        <key name="uap_custom_source_name_mlm" />
+        <key name="uap_custom_source_name_landing_commissions" />
+        <key name="uap_custom_source_name_user_signup" />
+        <key name="uap_custom_source_name_ppc" />
+        <key name="uap_custom_source_name_cpm" />
+        <key name="uap_general_update_msg" />
+        <key name="uap_register_terms_c" />
+        <key name="uap_register_username_taken_msg" />
+        <key name="uap_register_error_username_msg" />
+        <key name="uap_register_email_is_taken_msg" />
+        <key name="uap_register_invalid_email_msg" />
+        <key name="uap_register_emails_not_match_msg" />
+        <key name="uap_register_pass_not_match_msg" />
+        <key name="uap_register_pass_letter_digits_msg" />
+        <key name="uap_register_pass_let_dig_up_let_msg" />
+        <key name="uap_register_pass_min_char_msg" />
+        <key name="uap_register_pending_user_msg" />
+        <key name="uap_register_err_req_fields" />
+        <key name="uap_register_err_recaptcha" />
+        <key name="uap_register_err_tos" />
+        <key name="uap_register_success_meg" />
+        <key name="uap_register_update_msg" />
+        <key name="uap_ap_welcome_msg" />
+        <key name="uap_ap_footer_msg" />
+        <key name="uap_tab_overview_title" />
+        <key name="uap_tab_overview_menu_label" />
+        <key name="uap_tab_overview_content" />
+        <key name="uap_tab_edit_account_title" />
+        <key name="uap_tab_edit_account_menu_label" />
+        <key name="uap_tab_edit_account_content" />
+        <key name="uap_tab_change_pass_title" />
+        <key name="uap_tab_change_pass_menu_label" />
+        <key name="uap_tab_change_pass_content" />
+        <key name="uap_tab_logout_menu_label" />
+        <key name="uap_tab_affiliate_link_title" />
+        <key name="uap_tab_affiliate_link_menu_label" />
+        <key name="uap_tab_affiliate_link_content" />
+        <key name="uap_tab_campaigns_title" />
+        <key name="uap_tab_campaigns_menu_label" />
+        <key name="uap_tab_campaigns_content" />
+        <key name="uap_tab_banners_title" />
+        <key name="uap_tab_banners_menu_label" />
+        <key name="uap_tab_banners_content" />
+        <key name="uap_tab_visits_title" />
+        <key name="uap_tab_visits_menu_label" />
+        <key name="uap_tab_visits_content" />
+        <key name="uap_tab_referrals_title" />
+        <key name="uap_tab_referrals_menu_label" />
+        <key name="uap_tab_referrals_content" />
+        <key name="uap_tab_campaign_reports_title" />
+        <key name="uap_tab_campaign_reports_menu_label" />
+        <key name="uap_tab_campaign_reports_content" />
+        <key name="uap_tab_reports_title" />
+        <key name="uap_tab_reports_menu_label" />
+        <key name="uap_tab_reports_content" />
+        <key name="uap_tab_payments_title" />
+        <key name="uap_tab_payments_menu_label" />
+        <key name="uap_tab_payments_content" />
+        <key name="uap_tab_referrals_history_title" />
+        <key name="uap_tab_referrals_history_menu_label" />
+        <key name="uap_tab_referrals_history_content" />
+        <key name="uap_tab_help_title" />
+        <key name="uap_tab_help_menu_label" />
+        <key name="uap_tab_help_content" />
+        <key name="uap_tab_payments_settings_title" />
+        <key name="uap_tab_payments_settings_menu_label" />
+        <key name="uap_tab_payments_settings_content" />
+        <key name="uap_tab_coupons_title" />
+        <key name="uap_tab_coupons_menu_label" />
+        <key name="uap_tab_coupons_content" />
+        <key name="uap_tab_custom_affiliate_slug_title" />
+        <key name="uap_tab_custom_affiliate_slug_menu_label" />
+        <key name="uap_tab_custom_affiliate_slug_content" />
+        <key name="uap_tab_mlm_title" />
+        <key name="uap_tab_mlm_menu_label" />
+        <key name="uap_tab_mlm_content" />
+        <key name="uap_tab_pushover_notifications_title" />
+        <key name="uap_tab_pushover_notifications_menu_label" />
+        <key name="uap_tab_pushover_notifications_content" />
+        <key name="uap_tab_wallet_title" />
+        <key name="uap_tab_wallet_menu_label" />
+        <key name="uap_tab_wallet_content" />
+        <key name="uap_tab_referral_notifications_title" />
+        <key name="uap_tab_referral_notifications_menu_label" />
+        <key name="uap_tab_referral_notifications_content" />
+        <key name="uap_tab_simple_links_title" />
+        <key name="uap_tab_simple_links_menu_label" />
+        <key name="uap_tab_simple_links_content" />
+        <key name="uap_tab_landing_pages_title" />
+        <key name="uap_tab_landing_pages_menu_label" />
+        <key name="uap_tab_landing_pages_content" />
+        <key name="uap_social_share_message" />
+        <key name="uap_checkout_select_referral_label" />
+        <key name="uap_woo_account_page_name" />
+        <key name="uap_woo_account_page_non_affiliate_content" />
+        <key name="uap_bp_account_page_name" />
+        <key name="uap_bp_account_page_non_affiliate_content" />
+        <key name="uap_referral_notification_subject" />
+        <key name="uap_referral_notification_content" />
+        <key name="uap_admin_referral_notification_subject" />
+        <key name="uap_admin_referral_notification_content" />
+        <key name="uap_periodically_reports_subject" />
+        <key name="uap_periodically_reports_content" />
+        <key name="uap_register_fields" >
+            <key name="*" />
+        </key>
+        <key name="uap_info_affiliate_bar_links_label" />
+        <key name="uap_info_affiliate_bar_links_get_label" />
+        <key name="uap_info_affiliate_bar_banner_label" />
+        <key name="uap_info_affiliate_bar_social_label" />
+        <key name="uap_info_affiliate_bar_stats_label" />
+        <key name="uap_info_affiliate_bar_visits_label" />
+        <key name="uap_info_affiliate_bar_referrals_label" />
+        <key name="uap_info_affiliate_bar_insigts_label" />
+        <key name="uap_info_affiliate_bar_menu_label" />
+        <key name="uap_info_affiliate_bar_conversion_rate_label" />
+        <key name="uap_info_affiliate_bar_overall_performance_label" />        
+    </admin-texts>
+</wpml-config>

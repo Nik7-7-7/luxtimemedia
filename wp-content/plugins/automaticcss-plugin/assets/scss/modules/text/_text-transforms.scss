@@ -1,0 +1,7 @@
+@if $option-basic-text-classes == on {
+  @each $transform, $value in $textTransforms {
+    .text--#{$transform} {
+      text-transform: $value;
+    }
+  }
+}

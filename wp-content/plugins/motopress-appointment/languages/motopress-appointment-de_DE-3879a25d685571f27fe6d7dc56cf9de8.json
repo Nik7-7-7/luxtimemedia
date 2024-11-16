@@ -1,0 +1,219 @@
+{
+    "translation-revision-date": "2022-01-10 22:04",
+    "generator": "WP-CLI\/2.10.0",
+    "source": "assets\/js\/elementor-widgets.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "de_DE",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Clients": [
+                "Kunden"
+            ],
+            "Remove": [
+                "Entfernen"
+            ],
+            "Zero price\u0004Free": [
+                "Frei"
+            ],
+            "Bancontact": [
+                "Bankverbindung"
+            ],
+            "iDEAL": [
+                "iDEAL"
+            ],
+            "Giropay": [
+                "Giropay"
+            ],
+            "SEPA Direct Debit": [
+                "SEPA-Lastschrift"
+            ],
+            "SOFORT": [
+                "SOFORT"
+            ],
+            "Making a reservation...": [
+                "Eine Reservierung vornehmen... "
+            ],
+            "Sun": [
+                "Son"
+            ],
+            "Mon": [
+                "Mon"
+            ],
+            "Tue": [
+                "Die"
+            ],
+            "Wed": [
+                "Mit"
+            ],
+            "Thu": [
+                "Don"
+            ],
+            "Fri": [
+                "Fr"
+            ],
+            "Sat": [
+                "Sam"
+            ],
+            "Sunday": [
+                "Sonntag"
+            ],
+            "Monday": [
+                "Montag"
+            ],
+            "Tuesday": [
+                "Dienstag"
+            ],
+            "Wednesday": [
+                "Mittwoch"
+            ],
+            "Thursday": [
+                "Donnerstag"
+            ],
+            "Friday": [
+                "Freitag"
+            ],
+            "Saturday": [
+                "Samstag"
+            ],
+            "Jan": [
+                "Jan"
+            ],
+            "Feb": [
+                "Feb"
+            ],
+            "Mar": [
+                "M\u00e4r"
+            ],
+            "Apr": [
+                "Apr"
+            ],
+            "Month (short)\u0004May": [
+                "Mai"
+            ],
+            "Jun": [
+                "Jun"
+            ],
+            "Jul": [
+                "Jul"
+            ],
+            "Aug": [
+                "Aug"
+            ],
+            "Sep": [
+                "Sep"
+            ],
+            "Oct": [
+                "Okt"
+            ],
+            "Nov": [
+                "Nov"
+            ],
+            "Dec": [
+                "Dez"
+            ],
+            "January": [
+                "Januar"
+            ],
+            "February": [
+                "Februar"
+            ],
+            "March": [
+                "M\u00e4rz"
+            ],
+            "April": [
+                "April"
+            ],
+            "Month\u0004May": [
+                "Mai"
+            ],
+            "June": [
+                "Juni"
+            ],
+            "July": [
+                "Juli"
+            ],
+            "August": [
+                "August"
+            ],
+            "September": [
+                "September"
+            ],
+            "October": [
+                "Oktober"
+            ],
+            "November": [
+                "November"
+            ],
+            "December": [
+                "Dezember"
+            ],
+            "Total": [
+                "Gesamt"
+            ],
+            "Card": [
+                "Karte"
+            ],
+            "Credit or debit card": [
+                "Kredit- oder EC-Karte"
+            ],
+            "Select iDEAL Bank": [
+                "iDEAL Bank aussuchen"
+            ],
+            "IBAN": [
+                "IBAN"
+            ],
+            "You will be redirected to a secure page to complete the payment.": [
+                "Sie werden auf eine sichere Seite weitergeleitet, um Ihre Zahlung abzuschlie\u00dfen."
+            ],
+            "Sorry, there are no services, employees or locations to book.": [
+                "Es tut uns leid, es gibt da keine Dienstleistungen, Mitarbeiter oder Standorte, die gebucht werden k\u00f6nnen."
+            ],
+            "Sorry, but we were unable to allocate time slots for the date you selected.": [
+                "Es tut uns leid, aber wir konnten keine Termine f\u00fcr das ausgew\u00e4hlte Datum reservieren."
+            ],
+            "Left to pay": [
+                ""
+            ],
+            "Phone number is invalid.": [
+                ""
+            ],
+            "Coupon code is empty.": [
+                ""
+            ],
+            "Coupon code applied successfully.": [
+                ""
+            ],
+            "Sorry, your booking is not eligible for this coupon.": [
+                ""
+            ],
+            "By providing your IBAN and confirming this payment, you authorise (A) %s and Stripe, our payment service provider, to send instructions to your bank to debit your account and (B) your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.": [
+                ""
+            ],
+            "or": [
+                ""
+            ],
+            "Subtotal": [
+                ""
+            ],
+            "Coupon: %s": [
+                ""
+            ],
+            "Deposit": [
+                ""
+            ],
+            "Paying now": [
+                ""
+            ],
+            "Payment methods": [
+                ""
+            ],
+            "All day": [
+                ""
+            ]
+        }
+    }
+}

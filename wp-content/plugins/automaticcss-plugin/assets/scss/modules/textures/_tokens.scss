@@ -1,0 +1,25 @@
+@if $option-textures == on {
+    :root {
+        @each $texture, $props in $textures {
+            $name: map-get($props, "name");
+            $asset: map-get($props, "asset");
+            $asset-is-url: map-get($props, "asset-is-url");
+			$animate-texture: map-get($props, "animate-texture");
+			$animate-overlay: map-get($props, "animate-overlay");
+
+            @each $prop, $value in $props {
+				@if $asset-is-url == on and $prop == "asset" {
+					--#{$texture}-#{$prop}: url(#{$value});
+				}
+				@else if $prop == "animation" {
+					@if $animate-texture == on or $animate-overlay == on {
+						--#{$texture}-#{$prop}: #{$value};
+					}
+				}
+				@else if $value != null and $value != "" and $prop != "name" {
+					--#{$texture}-#{$prop}: #{$value};
+				}
+			}
+        }
+    }
+}

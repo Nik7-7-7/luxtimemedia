@@ -1,0 +1,7 @@
+@if $option-basic-text-classes == on {
+  @each $weight, $value in $textWeights {
+    .text--#{$weight} {
+      font-weight: $value;
+    }
+  }
+}

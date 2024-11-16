@@ -1,0 +1,147 @@
+// shade Options
+$option-shade-clr-alt: off !default;
+
+// shade Alt Vars
+$shade-alt-hex: #e56c70 !default;
+$shade-r-alt: 229 !default;
+$shade-g-alt: 108 !default;
+$shade-b-alt: 112 !default;
+$shade-h-alt: 358 !default;
+$shade-s-alt: 70% !default;
+$shade-l-alt: 66% !default;
+$shade-hover-h-alt: 358 !default;
+$shade-hover-s-alt: 70% !default;
+$shade-hover-l-alt: 1.15 !default;
+$shade-ultra-light-h-alt: 358 !default;
+$shade-ultra-light-s-alt: 70% !default;
+$shade-ultra-light-l-alt: 95% !default;
+$shade-light-h-alt: 358 !default;
+$shade-light-s-alt: 70% !default;
+$shade-light-l-alt: 85% !default;
+$shade-medium-h-alt: 358 !default;
+$shade-medium-s-alt: 70% !default;
+$shade-medium-l-alt: 50% !default;
+$shade-dark-h-alt: 358 !default;
+$shade-dark-s-alt: 70% !default;
+$shade-dark-l-alt: 25% !default;
+$shade-ultra-dark-h-alt: 358 !default;
+$shade-ultra-dark-s-alt: 70% !default;
+$shade-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$shade-semi-light-h-alt: 358 !default;
+$shade-semi-light-s-alt: 70% !default;
+$shade-semi-light-l-alt: 60% !default;
+$shade-semi-dark-h-alt: 358 !default;
+$shade-semi-dark-s-alt: 70% !default;
+$shade-semi-dark-l-alt: 40% !default;
+
+// Shade Alt Color Map
+$color-shade-alt:(); // Initialize Map
+@if $option-shade-clr-alt == on and $option-shade-clr == on {
+  $color-shade-alt: (
+    "main": (
+      "shade": $shade-alt-hex,
+      "shade-hover": hsl($shade-hover-h-alt, $shade-hover-s-alt, $shade-hover-l-alt),
+      "shade-ultra-light": hsl($shade-ultra-light-h-alt, $shade-ultra-light-s-alt, $shade-ultra-light-l-alt),
+      "shade-light": hsl($shade-light-h-alt, $shade-light-s-alt, $shade-light-l-alt),
+      "shade-semi-light": hsl($shade-semi-light-h-alt, $shade-semi-light-s-alt, $shade-semi-light-l-alt),
+      "shade-semi-dark": hsl($shade-semi-dark-h-alt, $shade-semi-dark-s-alt, $shade-semi-dark-l-alt),
+      "shade-dark": hsl($shade-dark-h-alt, $shade-dark-s-alt, $shade-dark-l-alt),
+      "shade-ultra-dark": hsl($shade-ultra-dark-h-alt, $shade-ultra-dark-s-alt, $shade-ultra-dark-l-alt),
+      "shade-comp": hsl($shade-h-alt + 180, $shade-s-alt, $shade-l-alt),
+    ),
+    "trans": (
+      "shade-trans-10": rgba($shade-alt-hex, .1),
+      "shade-trans-20": rgba($shade-alt-hex, .2),
+      "shade-trans-30": rgba($shade-alt-hex, .3),
+      "shade-trans-40": rgba($shade-alt-hex, .4),
+      "shade-trans-50": rgba($shade-alt-hex, .5),
+      "shade-trans-60": rgba($shade-alt-hex, .6),
+      "shade-trans-70": rgba($shade-alt-hex, .7),
+      "shade-trans-80": rgba($shade-alt-hex, .8),
+      "shade-trans-90": rgba($shade-alt-hex, .9),
+    ),
+    "light-trans": (
+      "shade-light-trans-10": hsl($shade-light-h-alt, $shade-light-s-alt, $shade-light-l-alt, .1),
+      "shade-light-trans-20": hsl($shade-light-h-alt, $shade-light-s-alt, $shade-light-l-alt, .2),
+      "shade-light-trans-30": hsl($shade-light-h-alt, $shade-light-s-alt, $shade-light-l-alt, .3),
+      "shade-light-trans-40": hsl($shade-light-h-alt, $shade-light-s-alt, $shade-light-l-alt, .4),
+      "shade-light-trans-50": hsl($shade-light-h-alt, $shade-light-s-alt, $shade-light-l-alt, .5),
+      "shade-light-trans-60": hsl($shade-light-h-alt, $shade-light-s-alt, $shade-light-l-alt, .6),
+      "shade-light-trans-70": hsl($shade-light-h-alt, $shade-light-s-alt, $shade-light-l-alt, .7),
+      "shade-light-trans-80": hsl($shade-light-h-alt, $shade-light-s-alt, $shade-light-l-alt, .8),
+      "shade-light-trans-90": hsl($shade-light-h-alt, $shade-light-s-alt, $shade-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "shade-dark-trans-10": hsl($shade-dark-h-alt, $shade-dark-s-alt, $shade-dark-l-alt, .1),
+      "shade-dark-trans-20": hsl($shade-dark-h-alt, $shade-dark-s-alt, $shade-dark-l-alt, .2),
+      "shade-dark-trans-30": hsl($shade-dark-h-alt, $shade-dark-s-alt, $shade-dark-l-alt, .3),
+      "shade-dark-trans-40": hsl($shade-dark-h-alt, $shade-dark-s-alt, $shade-dark-l-alt, .4),
+      "shade-dark-trans-50": hsl($shade-dark-h-alt, $shade-dark-s-alt, $shade-dark-l-alt, .5),
+      "shade-dark-trans-60": hsl($shade-dark-h-alt, $shade-dark-s-alt, $shade-dark-l-alt, .6),
+      "shade-dark-trans-70": hsl($shade-dark-h-alt, $shade-dark-s-alt, $shade-dark-l-alt, .7),
+      "shade-dark-trans-80": hsl($shade-dark-h-alt, $shade-dark-s-alt, $shade-dark-l-alt, .8),
+      "shade-dark-trans-90": hsl($shade-dark-h-alt, $shade-dark-s-alt, $shade-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "shade-ultra-dark-trans-10": hsl($shade-ultra-dark-h-alt, $shade-ultra-dark-s-alt, $shade-ultra-dark-l-alt, .1),
+      "shade-ultra-dark-trans-20": hsl($shade-ultra-dark-h-alt, $shade-ultra-dark-s-alt, $shade-ultra-dark-l-alt, .2),
+      "shade-ultra-dark-trans-30": hsl($shade-ultra-dark-h-alt, $shade-ultra-dark-s-alt, $shade-ultra-dark-l-alt, .3),
+      "shade-ultra-dark-trans-40": hsl($shade-ultra-dark-h-alt, $shade-ultra-dark-s-alt, $shade-ultra-dark-l-alt, .4),
+      "shade-ultra-dark-trans-50": hsl($shade-ultra-dark-h-alt, $shade-ultra-dark-s-alt, $shade-ultra-dark-l-alt, .5),
+      "shade-ultra-dark-trans-60": hsl($shade-ultra-dark-h-alt, $shade-ultra-dark-s-alt, $shade-ultra-dark-l-alt, .6),
+      "shade-ultra-dark-trans-70": hsl($shade-ultra-dark-h-alt, $shade-ultra-dark-s-alt, $shade-ultra-dark-l-alt, .7),
+      "shade-ultra-dark-trans-80": hsl($shade-ultra-dark-h-alt, $shade-ultra-dark-s-alt, $shade-ultra-dark-l-alt, .8),
+      "shade-ultra-dark-trans-90": hsl($shade-ultra-dark-h-alt, $shade-ultra-dark-s-alt, $shade-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "shade-hex": $shade-alt-hex,
+        "shade-hsl": $shade-h $shade-s $shade-l-alt,
+        "shade-rgb": $shade-r $shade-g $shade-b-alt,
+        "shade-r": $shade-r-alt,
+        "shade-g": $shade-g-alt,
+        "shade-b": $shade-b-alt,
+        "shade-h": $shade-h-alt,
+        "shade-s": $shade-s-alt,
+        "shade-l": $shade-l-alt,
+        "shade-hover-h": $shade-hover-h-alt,
+        "shade-hover-s": $shade-hover-s-alt,
+        "shade-hover-l": $shade-hover-l-alt,
+        "shade-ultra-light-h": $shade-ultra-light-h-alt,
+        "shade-ultra-light-s": $shade-ultra-light-s-alt,
+        "shade-ultra-light-l": $shade-ultra-light-l-alt,
+        "shade-light-h": $shade-light-h-alt,
+        "shade-light-s": $shade-light-s-alt,
+        "shade-light-l": $shade-light-l-alt,
+        "shade-semi-light-h": $shade-semi-light-h-alt,
+        "shade-semi-light-s": $shade-semi-light-s-alt,
+        "shade-semi-light-l": $shade-semi-light-l-alt,
+        "shade-semi-dark-h": $shade-semi-dark-h-alt,
+        "shade-semi-dark-s": $shade-semi-dark-s-alt,
+        "shade-semi-dark-l": $shade-semi-dark-l-alt,
+        "shade-dark-h": $shade-dark-h-alt,
+        "shade-dark-s": $shade-dark-s-alt,
+        "shade-dark-l": $shade-dark-l-alt,
+        "shade-ultra-dark-h": $shade-ultra-dark-h-alt,
+        "shade-ultra-dark-s": $shade-ultra-dark-s-alt,
+        "shade-ultra-dark-l": $shade-ultra-dark-l-alt,
+        "shade-comp-h": $shade-h-alt + 180,
+    ),
+  );
+}
+// Handle deprecated color options
+@if $option-shade-clr-alt == on and $option-shade-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-shade-alt: map-merge($color-shade-alt, (
+      "main": map-merge(map-get($color-shade-alt, "main"), (
+        "shade-medium": hsl($shade-medium-h-alt, $shade-medium-s-alt, $shade-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-shade-alt, "partials"), (
+        "shade-medium-h": $shade-medium-h-alt,
+        "shade-medium-s": $shade-medium-s-alt,
+        "shade-medium-l": $shade-medium-l-alt
+      ))
+    ));
+  }
+}

@@ -1,0 +1,41 @@
+@if $option-section-padding == on {
+  @each $size, $extension in $sizeExtensions {
+    .pad-section--#{$extension}:not(.ct-section),
+    .pad-section--#{$extension} .ct-section-inner-wrap {
+      padding-block: var(--section-space-#{$extension});
+      padding-inline: var(--section-padding-x);
+    }
+  }
+  .pad-section--none:not(.ct-section),
+  .pad-section--none .ct-section-inner-wrap {
+    padding: 0 var(--section-padding-x);
+  }
+
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) {
+      @each $size, $extension in $sizeExtensions {
+        .pad-section--#{$breakpoint}-#{$extension}:not(.ct-section),
+        .pad-section--#{$breakpoint}-#{$extension} .ct-section-inner-wrap {
+          padding-block: var(--section-space-#{$extension});
+          padding-inline: var(--section-padding-x);
+        }
+      }
+      .pad-section--#{$breakpoint}-none:not(.ct-section),
+      .pad-section--#{$breakpoint}-none .ct-section-inner-wrap {
+        padding: 0 var(--section-padding-x);
+      }
+      .pad--none--#{$breakpoint}:not(.ct-section),
+      .pad--none--#{$breakpoint} .ct-section-inner-wrap {
+        padding: 0 !important;
+      }
+    }
+  }
+
+  .pad--none .ct-section-inner-wrap {
+    padding: 0 !important;
+  }
+}
+
+section.fr-hero-padding {
+  padding-block: var(--fr-hero-padding);
+}

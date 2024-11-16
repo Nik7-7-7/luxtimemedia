@@ -1,0 +1,31 @@
+@mixin if-frames-on {
+  @if $option-frames == on {
+    @content;
+  }
+}
+
+@mixin framed-card {
+  padding: var(--fr-card-padding);
+  border: var(--fr-card-border-size) var(--fr-card-border-color)
+    var(--fr-card-border-style);
+}
+
+@mixin light-colors {
+  background-color: var(--fr-bg-light);
+}
+
+@mixin dark-colors {
+  background-color: var(--fr-bg-dark);
+  color: var(--fr-text-light);
+}
+
+@mixin card-radius {
+  border-radius: var(--fr-card-radius);
+  overflow: hidden;
+}
+
+@mixin wide-row {
+  display: flex;
+  flex-direction: row !important;
+  gap: var(--fr-card-gap) !important;
+}

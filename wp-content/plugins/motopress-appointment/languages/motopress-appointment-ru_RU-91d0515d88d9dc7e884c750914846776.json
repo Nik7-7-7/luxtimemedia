@@ -1,0 +1,597 @@
+{
+    "translation-revision-date": "2022-01-10 22:04",
+    "generator": "WP-CLI\/2.10.0",
+    "source": "assets\/js\/gutenberg-blocks.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ru_RU",
+                "plural-forms": "nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));"
+            },
+            "Settings": [
+                "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438"
+            ],
+            "Price": [
+                "\u0426\u0435\u043d\u0430"
+            ],
+            "Services": [
+                "\u0423\u0441\u043b\u0443\u0433\u0438"
+            ],
+            "Service": [
+                "\u0423\u0441\u043b\u0443\u0433\u0430"
+            ],
+            "Employees": [
+                ""
+            ],
+            "Employee": [
+                ""
+            ],
+            "Clients": [
+                ""
+            ],
+            "Location": [
+                ""
+            ],
+            "\u2014 Select \u2014": [
+                "\u2014 \u0412\u044b\u0431\u0440\u0430\u0442\u044c \u2014"
+            ],
+            "Appointment Form": [
+                ""
+            ],
+            "\u2014 Unselected \u2014": [
+                ""
+            ],
+            "Form Title": [
+                ""
+            ],
+            "Show Category?": [
+                ""
+            ],
+            "Show the service category field in the form.": [
+                ""
+            ],
+            "Show Location?": [
+                ""
+            ],
+            "Show the location field in the form.": [
+                ""
+            ],
+            "Show Employee?": [
+                ""
+            ],
+            "Show the employee field in the form.": [
+                ""
+            ],
+            "Category Field Label": [
+                ""
+            ],
+            "Service Category": [
+                ""
+            ],
+            "Custom label for the service category field.": [
+                ""
+            ],
+            "Service Field Label": [
+                ""
+            ],
+            "Custom label for the service field.": [
+                ""
+            ],
+            "Location Field Label": [
+                ""
+            ],
+            "Custom label for the location field.": [
+                ""
+            ],
+            "Employee Field Label": [
+                ""
+            ],
+            "Custom label for the employee field.": [
+                ""
+            ],
+            "Unselected Service": [
+                ""
+            ],
+            "Custom label for the unselected service field.": [
+                ""
+            ],
+            "Unselected Option": [
+                ""
+            ],
+            "\u2014 Any \u2014": [
+                "\u2014 \u041b\u044e\u0431\u043e\u0439 \u2014"
+            ],
+            "Comma-separated slugs or IDs of tags that will be shown.": [
+                ""
+            ],
+            "Slug of the selected service category.": [
+                ""
+            ],
+            "ID of the selected service.": [
+                ""
+            ],
+            "ID of the selected location.": [
+                ""
+            ],
+            "ID of the selected employee.": [
+                ""
+            ],
+            "Timepicker Columns Count": [
+                ""
+            ],
+            "Show End Time?": [
+                ""
+            ],
+            "Show the time when the appointment ends.": [
+                ""
+            ],
+            "Employee Additional Information": [
+                ""
+            ],
+            "ID": [
+                "ID"
+            ],
+            "Post ID of an employee to display content from. Note: this parameter automatically uses the current post ID when a shortcode is inside the employee's post and is required otherwise.": [
+                ""
+            ],
+            "Employee Contact Information": [
+                ""
+            ],
+            "Employee Content": [
+                ""
+            ],
+            "Employee Image": [
+                ""
+            ],
+            "Employee Schedule": [
+                ""
+            ],
+            "Employee Services List": [
+                ""
+            ],
+            "Employees List": [
+                ""
+            ],
+            "Show featured image.": [
+                ""
+            ],
+            "Show post title.": [
+                ""
+            ],
+            "Show post excerpt.": [
+                ""
+            ],
+            "Show contact information.": [
+                ""
+            ],
+            "Show social networks.": [
+                ""
+            ],
+            "Show additional information.": [
+                ""
+            ],
+            "Comma-separated slugs or IDs of employees that will be shown.": [
+                ""
+            ],
+            "Locations": [
+                ""
+            ],
+            "Comma-separated slugs or IDs of locations.": [
+                ""
+            ],
+            "Posts Per Page": [
+                ""
+            ],
+            "Columns Count": [
+                "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0441\u0442\u043e\u043b\u0431\u0446\u043e\u0432"
+            ],
+            "The number of columns in the grid.": [
+                ""
+            ],
+            "Order By": [
+                "\u0423\u043f\u043e\u0440\u044f\u0434\u043e\u0447\u0438\u0442\u044c \u043f\u043e"
+            ],
+            "No order": [
+                "\u0411\u0435\u0437 \u0441\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0438"
+            ],
+            "Post ID": [
+                "ID \u0437\u0430\u043f\u0438\u0441\u0438"
+            ],
+            "Post author": [
+                "\u0410\u0432\u0442\u043e\u0440 \u0437\u0430\u043f\u0438\u0441\u0438"
+            ],
+            "Post title": [
+                "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043a\u0430"
+            ],
+            "Post name (post slug)": [
+                "\u0418\u043c\u044f \u0437\u0430\u043f\u0438\u0441\u0438 (\u0441\u043b\u0430\u0433 \u0437\u0430\u043f\u0438\u0441\u0438)"
+            ],
+            "Post date": [
+                "\u0414\u0430\u0442\u0430 \u0437\u0430\u043f\u0438\u0441\u0438"
+            ],
+            "Last modified date": [
+                "\u0414\u0430\u0442\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0433\u043e \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f"
+            ],
+            "Random order": [
+                "\u0421\u043b\u0443\u0447\u0430\u0439\u043d\u044b\u0439 \u043f\u043e\u0440\u044f\u0434\u043e\u043a"
+            ],
+            "Relevance": [
+                "\u0420\u0435\u043b\u0435\u0432\u0430\u043d\u0442\u043d\u043e\u0441\u0442\u044c"
+            ],
+            "Page order": [
+                "\u041f\u043e\u0440\u044f\u0434\u043e\u043a \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b"
+            ],
+            "Page order and post title": [
+                ""
+            ],
+            "Order": [
+                "\u041f\u043e\u0440\u044f\u0434\u043e\u043a"
+            ],
+            "DESC": [
+                ""
+            ],
+            "ASC": [
+                ""
+            ],
+            "Employee Social Networks": [
+                ""
+            ],
+            "Employee Title": [
+                ""
+            ],
+            "Locations List": [
+                ""
+            ],
+            "Categories": [
+                "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438"
+            ],
+            "Comma-separated slugs or IDs of categories that will be shown.": [
+                ""
+            ],
+            "Service Categories": [
+                ""
+            ],
+            "Show Services Count?": [
+                ""
+            ],
+            "Show Description?": [
+                ""
+            ],
+            "Parent": [
+                ""
+            ],
+            "Parent term slug or ID to retrieve direct-child terms from.": [
+                ""
+            ],
+            "Exclude Categories": [
+                ""
+            ],
+            "Comma-separated slugs or IDs of categories that will not be shown.": [
+                ""
+            ],
+            "Hide Empty": [
+                ""
+            ],
+            "Depth": [
+                ""
+            ],
+            "Display depth of child categories.": [
+                ""
+            ],
+            "Number": [
+                ""
+            ],
+            "Maximum number of categories to show.": [
+                ""
+            ],
+            "Term name": [
+                ""
+            ],
+            "Term slug": [
+                ""
+            ],
+            "Term ID": [
+                "ID \u0442\u0435\u0440\u043c\u0438\u043d\u0430"
+            ],
+            "Parent ID": [
+                "\u0420\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 ID"
+            ],
+            "Number of associated objects": [
+                ""
+            ],
+            "Keep the order of \"IDs\" parameter": [
+                ""
+            ],
+            "Term order": [
+                ""
+            ],
+            "Services List": [
+                ""
+            ],
+            "Show service price.": [
+                ""
+            ],
+            "Show service duration.": [
+                ""
+            ],
+            "Show service capacity.": [
+                ""
+            ],
+            "Show service employees.": [
+                ""
+            ],
+            "Comma-separated slugs or IDs of services that will be shown.": [
+                ""
+            ],
+            "Comma-separated slugs or IDs of employees that perform these services.": [
+                ""
+            ],
+            "Tags": [
+                "\u0422\u0435\u0433\u0438"
+            ],
+            "Custom label for the unselected service category, location and employee fields.": [
+                ""
+            ],
+            "Hide terms not assigned to any posts.": [
+                ""
+            ],
+            "Remove": [
+                "\u0423\u0434\u0430\u043b\u0438\u0442\u044c"
+            ],
+            "Zero price\u0004Free": [
+                "\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u043e"
+            ],
+            "Bancontact": [
+                ""
+            ],
+            "iDEAL": [
+                ""
+            ],
+            "Giropay": [
+                ""
+            ],
+            "SEPA Direct Debit": [
+                ""
+            ],
+            "SOFORT": [
+                ""
+            ],
+            "The number of columns in the timepicker.": [
+                ""
+            ],
+            "Making a reservation...": [
+                ""
+            ],
+            "appointment": [
+                ""
+            ],
+            "Sun": [
+                ""
+            ],
+            "Mon": [
+                ""
+            ],
+            "Tue": [
+                ""
+            ],
+            "Wed": [
+                ""
+            ],
+            "Thu": [
+                ""
+            ],
+            "Fri": [
+                ""
+            ],
+            "Sat": [
+                ""
+            ],
+            "Sunday": [
+                "\u0412\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435"
+            ],
+            "Monday": [
+                "\u041f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a"
+            ],
+            "Tuesday": [
+                "\u0412\u0442\u043e\u0440\u043d\u0438\u043a"
+            ],
+            "Wednesday": [
+                "\u0421\u0440\u0435\u0434\u0430"
+            ],
+            "Thursday": [
+                "\u0427\u0435\u0442\u0432\u0435\u0440\u0433"
+            ],
+            "Friday": [
+                "\u041f\u044f\u0442\u043d\u0438\u0446\u0430"
+            ],
+            "Saturday": [
+                "\u0421\u0443\u0431\u0431\u043e\u0442\u0430"
+            ],
+            "Jan": [
+                ""
+            ],
+            "Feb": [
+                ""
+            ],
+            "Mar": [
+                ""
+            ],
+            "Apr": [
+                ""
+            ],
+            "Month (short)\u0004May": [
+                ""
+            ],
+            "Jun": [
+                ""
+            ],
+            "Jul": [
+                ""
+            ],
+            "Aug": [
+                ""
+            ],
+            "Sep": [
+                ""
+            ],
+            "Oct": [
+                ""
+            ],
+            "Nov": [
+                ""
+            ],
+            "Dec": [
+                ""
+            ],
+            "January": [
+                ""
+            ],
+            "February": [
+                ""
+            ],
+            "March": [
+                ""
+            ],
+            "April": [
+                ""
+            ],
+            "Month\u0004May": [
+                ""
+            ],
+            "June": [
+                ""
+            ],
+            "July": [
+                ""
+            ],
+            "August": [
+                ""
+            ],
+            "September": [
+                ""
+            ],
+            "October": [
+                ""
+            ],
+            "November": [
+                ""
+            ],
+            "December": [
+                ""
+            ],
+            "Total": [
+                "\u0412\u0441\u0435\u0433\u043e"
+            ],
+            "Card": [
+                "\u041a\u0430\u0440\u0442\u0430"
+            ],
+            "Credit or debit card": [
+                "\u041a\u0440\u0435\u0434\u0438\u0442\u043d\u0430\u044f \u0438\u043b\u0438 \u0434\u0435\u0431\u0435\u0442\u043e\u0432\u0430\u044f \u043a\u0430\u0440\u0442\u0430"
+            ],
+            "Select iDEAL Bank": [
+                "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 iDEAL Bank"
+            ],
+            "IBAN": [
+                ""
+            ],
+            "You will be redirected to a secure page to complete the payment.": [
+                "\u0412\u0430\u0441 \u0431\u0443\u0434\u0435\u0442 \u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u043d\u0430 \u0437\u0430\u0449\u0438\u0449\u0435\u043d\u043d\u0443\u044e \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 \u0434\u043b\u044f \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u044f \u043f\u043b\u0430\u0442\u0435\u0436\u0430."
+            ],
+            "Sorry, there are no services, employees or locations to book.": [
+                ""
+            ],
+            "Sorry, but we were unable to allocate time slots for the date you selected.": [
+                ""
+            ],
+            "Show Service?": [
+                ""
+            ],
+            "Show the service field in the form.": [
+                ""
+            ],
+            "Left to pay": [
+                ""
+            ],
+            "Phone number is invalid.": [
+                ""
+            ],
+            "Coupon code is empty.": [
+                ""
+            ],
+            "Coupon code applied successfully.": [
+                ""
+            ],
+            "Sorry, your booking is not eligible for this coupon.": [
+                ""
+            ],
+            "By providing your IBAN and confirming this payment, you authorise (A) %s and Stripe, our payment service provider, to send instructions to your bank to debit your account and (B) your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.": [
+                ""
+            ],
+            "or": [
+                ""
+            ],
+            "To enable this option, you need to check the '%s' box.": [
+                ""
+            ],
+            "To enable booking for the specific service only, select the service below first, then uncheck the 'Service' box here.": [
+                ""
+            ],
+            "Subtotal": [
+                ""
+            ],
+            "Coupon: %s": [
+                ""
+            ],
+            "Deposit": [
+                ""
+            ],
+            "Paying now": [
+                ""
+            ],
+            "Form Width": [
+                ""
+            ],
+            "Example: 100%": [
+                ""
+            ],
+            "Primary Text Color": [
+                ""
+            ],
+            "Primary Background Color": [
+                ""
+            ],
+            "Secondary Text Color": [
+                ""
+            ],
+            "Secondary Background Color": [
+                ""
+            ],
+            "Buttons Padding": [
+                ""
+            ],
+            "Example: 5px 10px": [
+                ""
+            ],
+            "Show 'Add to Your Calendar?' section.": [
+                ""
+            ],
+            "Allow customers to add an appointment to their own Google, Apple, Outlook, or Yahoo calendar.": [
+                ""
+            ],
+            "These options only affect what you see on the front end.": [
+                ""
+            ],
+            "Colors": [
+                ""
+            ],
+            "Payment methods": [
+                ""
+            ],
+            "All day": [
+                ""
+            ]
+        }
+    }
+}

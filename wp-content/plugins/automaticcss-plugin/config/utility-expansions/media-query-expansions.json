@@ -1,0 +1,68 @@
+{
+	"$schema": "expansions.schema.json",
+	"label": "Media Queries",
+	"expansions": {
+		"breakpoint-xs": {
+			"expandTo": "",
+			"wrapIn": "media-query-xs"
+		},
+		"breakpoint-s": {
+			"expandTo": "",
+			"wrapIn": "media-query-s"
+		},
+		"breakpoint-m": {
+			"expandTo": "",
+			"wrapIn": "media-query-m"
+		},
+		"breakpoint-l": {
+			"expandTo": "",
+			"wrapIn": "media-query-l"
+		},
+		"breakpoint-xl": {
+			"expandTo": "",
+			"wrapIn": "media-query-xl"
+		},
+		"breakpoint-xxl": {
+			"expandTo": "",
+			"wrapIn": "media-query-xxl"
+		},
+		"breakpoint-up-xs": {
+			"expandTo": "",
+			"wrapIn": "media-query-up-xs"
+		},
+		"breakpoint-up-s": {
+			"expandTo": "",
+			"wrapIn": "media-query-up-s"
+		},
+		"breakpoint-up-m": {
+			"expandTo": "",
+			"wrapIn": "media-query-up-m"
+		},
+		"breakpoint-up-l": {
+			"expandTo": "",
+			"wrapIn": "media-query-up-l"
+		},
+		"breakpoint-up-xl": {
+			"expandTo": "",
+			"wrapIn": "media-query-up-xl"
+		},
+		"breakpoint-up-xxl": {
+			"expandTo": "",
+			"wrapIn": "media-query-up-xxl"
+		}
+	},
+	"wrappers": {
+		"media-query-xs": "@media (max-width: [breakpoint-xs]) { @slot@ }",
+		"media-query-s": "@media (max-width: [breakpoint-s]) { @slot@ }",
+		"media-query-m": "@media (max-width: [breakpoint-m]) { @slot@ }",
+		"media-query-l": "@media (max-width: [breakpoint-l]) { @slot@ }",
+		"media-query-xl": "@media (max-width: [breakpoint-xl]) { @slot@ }",
+		"media-query-xxl": "@media (max-width: [breakpoint-xxl]) { @slot@ }",
+		"media-query-up-xs": "@media (min-width: [breakpoint-xs]) { @slot@ }",
+		"media-query-up-s": "@media (min-width: [breakpoint-s]) { @slot@ }",
+		"media-query-up-m": "@media (min-width: [breakpoint-m]) { @slot@ }",
+		"media-query-up-l": "@media (min-width: [breakpoint-l]) { @slot@ }",
+		"media-query-up-xl": "@media (min-width: [breakpoint-xl]) { @slot@ }",
+		"media-query-up-xxl": "@media (min-width: [breakpoint-xxl]) { @slot@ }"
+	}
+}

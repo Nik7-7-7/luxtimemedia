@@ -1,0 +1,16 @@
+@if $option-margin == on {
+    $marginDirections: (
+      "top": block-start, 
+      "bottom": block-end, 
+      "right": inline-end, 
+      "left": inline-start
+      );
+
+      @each $marginDirection, $marginProperty in $marginDirections {
+        @each $size, $extension in $sizeExtensions {
+          .margin-#{$marginDirection}--#{$extension} {
+            margin-#{$marginProperty}: var(--space-#{$extension});
+          }
+        }
+      }
+}

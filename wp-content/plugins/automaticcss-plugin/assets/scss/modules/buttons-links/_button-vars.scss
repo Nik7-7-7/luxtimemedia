@@ -1,0 +1,17 @@
+@import "global/vars";
+@import "primary/vars";
+@import "secondary/vars";
+@import "tertiary/vars";
+@import "accent/vars";
+@import "base/vars";
+@import "neutral/vars";
+@import "warning/vars";
+@import "info/vars";
+@import "danger/vars";
+@import "success/vars";
+
+// Deprecated in 3.0
+@import "z-deprecated/action/vars";
+@import "z-deprecated/shade/vars";
+@import "z-deprecated/black/vars";
+@import "z-deprecated/white/vars";

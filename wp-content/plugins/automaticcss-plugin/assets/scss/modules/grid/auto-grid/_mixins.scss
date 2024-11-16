@@ -1,0 +1,16 @@
+@mixin auto-grid($column-count: 1, $min: calc((var(--content-width) - ((var(--column-count) - 1) * var(--grid-gap))) / var(--column-count))) {
+    display: grid !important;
+    gap: var(--grid-gap);
+	inline-size: 100%;
+    --min: #{$min} * #{$auto-grid-aggressiveness};
+    --column-count: #{$column-count};
+    --min-formula: min(100%, max(var(--min), (100% - (var(--column-count) - 1) * var(--grid-gap)) / var(--column-count)));
+    --grid-template-columns: repeat(auto-fit, minmax(var(--min-formula), 1fr));
+    grid-template-columns: var(--grid-template-columns);
+
+    > * {
+        min-width: 0;
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+}

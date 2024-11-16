@@ -1,0 +1,8 @@
+@include load-default-body;
+@include load-default-text;
+@include load-default-links;
+
+body:where(.bricks-is-frontend),
+body:where(:not(.bricks-is-frontend)) {
+  color: var(--body-color, $body-color);
+}

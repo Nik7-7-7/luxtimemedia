@@ -1,0 +1,31 @@
+// Generate gap classes
+@if $option-oxygen == off {
+    @include load-gap;      
+}
+  
+  // Contextual Gap Classes
+  
+  .fr-container-gap,
+  .container-gap {
+    --row-gap: var(--container-gap);
+    --col-gap: var(--container-gap);
+    gap: var(--container-gap);
+  }
+  .fr-content-gap,
+  .content-gap {
+    --row-gap: var(--content-gap);
+    --col-gap: var(--content-gap);
+      gap: var(--content-gap);
+  }
+  .fr-grid-gap,
+  .grid-gap {
+    --row-gap: var(--grid-gap);
+    --col-gap: var(--grid-gap);
+      gap: var(--grid-gap);
+  }
+  
+  .gap--none {
+    --row-gap: 0;
+    --col-gap: 0;
+    gap: 0;
+  }

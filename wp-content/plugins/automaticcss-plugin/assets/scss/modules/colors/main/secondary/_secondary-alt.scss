@@ -1,0 +1,148 @@
+// secondary Options
+$option-secondary-clr-alt: off !default;
+
+// secondary Alt Vars
+$secondary-alt-hex: #e56c70 !default;
+$secondary-r-alt: 229 !default;
+$secondary-g-alt: 108 !default;
+$secondary-b-alt: 112 !default;
+$secondary-h-alt: 358 !default;
+$secondary-s-alt: 70% !default;
+$secondary-l-alt: 66% !default;
+$secondary-hover-h-alt: 358 !default;
+$secondary-hover-s-alt: 70% !default;
+$secondary-hover-l-alt: 1.15 !default;
+$secondary-ultra-light-h-alt: 358 !default;
+$secondary-ultra-light-s-alt: 70% !default;
+$secondary-ultra-light-l-alt: 95% !default;
+$secondary-light-h-alt: 358 !default;
+$secondary-light-s-alt: 70% !default;
+$secondary-light-l-alt: 85% !default;
+$secondary-medium-h-alt: 358 !default;
+$secondary-medium-s-alt: 70% !default;
+$secondary-medium-l-alt: 50% !default;
+$secondary-dark-h-alt: 358 !default;
+$secondary-dark-s-alt: 70% !default;
+$secondary-dark-l-alt: 25% !default;
+$secondary-ultra-dark-h-alt: 358 !default;
+$secondary-ultra-dark-s-alt: 70% !default;
+$secondary-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$secondary-semi-light-h-alt: 358 !default;
+$secondary-semi-light-s-alt: 70% !default;
+$secondary-semi-light-l-alt: 60% !default;
+$secondary-semi-dark-h-alt: 358 !default;
+$secondary-semi-dark-s-alt: 70% !default;
+$secondary-semi-dark-l-alt: 40% !default;
+
+// Secondary Alt Color Map
+$color-secondary-alt:(); // Initialize Map
+@if $option-secondary-clr-alt == on and $option-secondary-clr == on {
+  $color-secondary-alt: (
+    "main": (
+      "secondary": $secondary-alt-hex,
+      "secondary-hover": hsl($secondary-hover-h-alt, $secondary-hover-s-alt, $secondary-hover-l-alt),
+      "secondary-ultra-light": hsl($secondary-ultra-light-h-alt, $secondary-ultra-light-s-alt, $secondary-ultra-light-l-alt),
+      "secondary-light": hsl($secondary-light-h-alt, $secondary-light-s-alt, $secondary-light-l-alt),
+      "secondary-semi-light": hsl($secondary-semi-light-h-alt, $secondary-semi-light-s-alt, $secondary-semi-light-l-alt),
+      "secondary-semi-dark": hsl($secondary-semi-dark-h-alt, $secondary-semi-dark-s-alt, $secondary-semi-dark-l-alt),
+      "secondary-dark": hsl($secondary-dark-h-alt, $secondary-dark-s-alt, $secondary-dark-l-alt),
+      "secondary-ultra-dark": hsl($secondary-ultra-dark-h-alt, $secondary-ultra-dark-s-alt, $secondary-ultra-dark-l-alt),
+      "secondary-comp": hsl($secondary-h-alt + 180, $secondary-s-alt, $secondary-l-alt),
+    ),
+    "trans": (
+      "secondary-trans-10": rgba($secondary-alt-hex, .1),
+      "secondary-trans-20": rgba($secondary-alt-hex, .2),
+      "secondary-trans-30": rgba($secondary-alt-hex, .3),
+      "secondary-trans-40": rgba($secondary-alt-hex, .4),
+      "secondary-trans-50": rgba($secondary-alt-hex, .5),
+      "secondary-trans-60": rgba($secondary-alt-hex, .6),
+      "secondary-trans-70": rgba($secondary-alt-hex, .7),
+      "secondary-trans-80": rgba($secondary-alt-hex, .8),
+      "secondary-trans-90": rgba($secondary-alt-hex, .9),
+    ),
+    "light-trans": (
+      "secondary-light-trans-10": hsl($secondary-light-h-alt, $secondary-light-s-alt, $secondary-light-l-alt, .1),
+      "secondary-light-trans-20": hsl($secondary-light-h-alt, $secondary-light-s-alt, $secondary-light-l-alt, .2),
+      "secondary-light-trans-30": hsl($secondary-light-h-alt, $secondary-light-s-alt, $secondary-light-l-alt, .3),
+      "secondary-light-trans-40": hsl($secondary-light-h-alt, $secondary-light-s-alt, $secondary-light-l-alt, .4),
+      "secondary-light-trans-50": hsl($secondary-light-h-alt, $secondary-light-s-alt, $secondary-light-l-alt, .5),
+      "secondary-light-trans-60": hsl($secondary-light-h-alt, $secondary-light-s-alt, $secondary-light-l-alt, .6),
+      "secondary-light-trans-70": hsl($secondary-light-h-alt, $secondary-light-s-alt, $secondary-light-l-alt, .7),
+      "secondary-light-trans-80": hsl($secondary-light-h-alt, $secondary-light-s-alt, $secondary-light-l-alt, .8),
+      "secondary-light-trans-90": hsl($secondary-light-h-alt, $secondary-light-s-alt, $secondary-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "secondary-dark-trans-10": hsl($secondary-dark-h-alt, $secondary-dark-s-alt, $secondary-dark-l-alt, .1),
+      "secondary-dark-trans-20": hsl($secondary-dark-h-alt, $secondary-dark-s-alt, $secondary-dark-l-alt, .2),
+      "secondary-dark-trans-30": hsl($secondary-dark-h-alt, $secondary-dark-s-alt, $secondary-dark-l-alt, .3),
+      "secondary-dark-trans-40": hsl($secondary-dark-h-alt, $secondary-dark-s-alt, $secondary-dark-l-alt, .4),
+      "secondary-dark-trans-50": hsl($secondary-dark-h-alt, $secondary-dark-s-alt, $secondary-dark-l-alt, .5),
+      "secondary-dark-trans-60": hsl($secondary-dark-h-alt, $secondary-dark-s-alt, $secondary-dark-l-alt, .6),
+      "secondary-dark-trans-70": hsl($secondary-dark-h-alt, $secondary-dark-s-alt, $secondary-dark-l-alt, .7),
+      "secondary-dark-trans-80": hsl($secondary-dark-h-alt, $secondary-dark-s-alt, $secondary-dark-l-alt, .8),
+      "secondary-dark-trans-90": hsl($secondary-dark-h-alt, $secondary-dark-s-alt, $secondary-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "secondary-ultra-dark-trans-10": hsl($secondary-ultra-dark-h-alt, $secondary-ultra-dark-s-alt, $secondary-ultra-dark-l-alt, .1),
+      "secondary-ultra-dark-trans-20": hsl($secondary-ultra-dark-h-alt, $secondary-ultra-dark-s-alt, $secondary-ultra-dark-l-alt, .2),
+      "secondary-ultra-dark-trans-30": hsl($secondary-ultra-dark-h-alt, $secondary-ultra-dark-s-alt, $secondary-ultra-dark-l-alt, .3),
+      "secondary-ultra-dark-trans-40": hsl($secondary-ultra-dark-h-alt, $secondary-ultra-dark-s-alt, $secondary-ultra-dark-l-alt, .4),
+      "secondary-ultra-dark-trans-50": hsl($secondary-ultra-dark-h-alt, $secondary-ultra-dark-s-alt, $secondary-ultra-dark-l-alt, .5),
+      "secondary-ultra-dark-trans-60": hsl($secondary-ultra-dark-h-alt, $secondary-ultra-dark-s-alt, $secondary-ultra-dark-l-alt, .6),
+      "secondary-ultra-dark-trans-70": hsl($secondary-ultra-dark-h-alt, $secondary-ultra-dark-s-alt, $secondary-ultra-dark-l-alt, .7),
+      "secondary-ultra-dark-trans-80": hsl($secondary-ultra-dark-h-alt, $secondary-ultra-dark-s-alt, $secondary-ultra-dark-l-alt, .8),
+      "secondary-ultra-dark-trans-90": hsl($secondary-ultra-dark-h-alt, $secondary-ultra-dark-s-alt, $secondary-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "secondary-hex": $secondary-alt-hex,
+        "secondary-hsl": $secondary-h $secondary-s $secondary-l-alt,
+        "secondary-rgb": $secondary-r $secondary-g $secondary-b-alt,
+        "secondary-r": $secondary-r-alt,
+        "secondary-g": $secondary-g-alt,
+        "secondary-b": $secondary-b-alt,
+        "secondary-h": $secondary-h-alt,
+        "secondary-s": $secondary-s-alt,
+        "secondary-l": $secondary-l-alt,
+        "secondary-hover-h": $secondary-hover-h-alt,
+        "secondary-hover-s": $secondary-hover-s-alt,
+        "secondary-hover-l": $secondary-hover-l-alt,
+        "secondary-ultra-light-h": $secondary-ultra-light-h-alt,
+        "secondary-ultra-light-s": $secondary-ultra-light-s-alt,
+        "secondary-ultra-light-l": $secondary-ultra-light-l-alt,
+        "secondary-light-h": $secondary-light-h-alt,
+        "secondary-light-s": $secondary-light-s-alt,
+        "secondary-light-l": $secondary-light-l-alt,
+        "secondary-semi-light-h": $secondary-semi-light-h-alt,
+        "secondary-semi-light-s": $secondary-semi-light-s-alt,
+        "secondary-semi-light-l": $secondary-semi-light-l-alt,
+        "secondary-semi-dark-h": $secondary-semi-dark-h-alt,
+        "secondary-semi-dark-s": $secondary-semi-dark-s-alt,
+        "secondary-semi-dark-l": $secondary-semi-dark-l-alt,
+        "secondary-dark-h": $secondary-dark-h-alt,
+        "secondary-dark-s": $secondary-dark-s-alt,
+        "secondary-dark-l": $secondary-dark-l-alt,
+        "secondary-ultra-dark-h": $secondary-ultra-dark-h-alt,
+        "secondary-ultra-dark-s": $secondary-ultra-dark-s-alt,
+        "secondary-ultra-dark-l": $secondary-ultra-dark-l-alt,
+        "secondary-comp-h": $secondary-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-secondary-clr-alt == on and $option-secondary-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-secondary-alt: map-merge($color-secondary-alt, (
+      "main": map-merge(map-get($color-secondary-alt, "main"), (
+        "secondary-medium": hsl($secondary-medium-h-alt, $secondary-medium-s-alt, $secondary-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-secondary-alt, "partials"), (
+        "secondary-medium-h": $secondary-medium-h-alt,
+        "secondary-medium-s": $secondary-medium-s-alt,
+        "secondary-medium-l": $secondary-medium-l-alt
+      ))
+    ));
+  }
+}

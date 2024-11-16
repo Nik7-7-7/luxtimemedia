@@ -1,0 +1,7 @@
+@if $option-indicate-external-links == on {
+    :root {
+        @each $token, $value in $external-link-indicator-styles {
+            --#{$token}: #{$value};
+        }
+    }
+}

@@ -1,0 +1,202 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://automaticcss.com/schemas/1.0.0/framework.json",
+	"title": "Framework Classes and Variables",
+	"description": "Classes and variables for the Automatic.css framework",
+	"type": "object",
+	"properties": {
+		"categories": {
+			"description": "The categories of classes and variables",
+			"type": "object",
+			"additionalProperties": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"condition": {
+						"$ref": "#/$defs/condition"
+					},
+					"classes": {
+						"$ref": "#/$defs/classes"
+					},
+					"vars": {
+						"$ref": "#/$defs/vars"
+					},
+					"category_groups": {
+						"type": "object",
+						"additionalProperties": {
+							"type": "object",
+							"additionalProperties": false,
+							"properties": {
+								"disable_own_palette_creation": {
+									"description": "Disable creation of color palette. Only has an effect on color categories.",
+									"enum": [true],
+									"type": "boolean"
+								},
+								"condition": {
+									"$ref": "#/$defs/condition"
+								},
+								"classes": {
+									"$ref": "#/$defs/classes"
+								},
+								"vars": {
+									"$ref": "#/$defs/vars"
+								},
+								"description": {
+									"$ref": "#/$defs/description"
+								},
+								"documentation_links": {
+									"$ref": "#/$defs/documentation_links"
+								},
+								"class_groups": {
+									"type": "object",
+									"description": "Classes for this group",
+									"additionalProperties": {
+										"type": "object",
+										"additionalProperties": false,
+										"properties": {
+											"add_to_global_palette": {
+												"description": "Add the color to the global palette. Only has an effect on color classes.",
+												"enum": [true],
+												"type": "boolean"
+											},
+											"condition": {
+												"$ref": "#/$defs/condition"
+											},
+											"classes": {
+												"$ref": "#/$defs/classes"
+											},
+											"vars": {
+												"$ref": "#/$defs/vars"
+											},
+											"description": {
+												"$ref": "#/$defs/description"
+											},
+											"documentation_links": {
+												"$ref": "#/$defs/documentation_links"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"required": ["categories"],
+	"$defs": {
+		"condition": {
+			"description": "Condition to show this category",
+			"type": "object",
+			"properties": {
+				"type": {
+					"description": "The type of condition",
+					"type": "string",
+					"enum": ["=", "!="]
+				},
+				"setting": {
+					"description": "The Automatic.css setting to check",
+					"type": "string"
+				},
+				"value": {
+					"description": "The value the setting must match to show the item",
+					"type": "string"
+				}
+			},
+			"additionalProperties": false
+		},
+		"classes": {
+			"description": "A simple list of classes, where each class has no further variation",
+			"type": "object",
+			"additionalProperties": {
+				"type": "object",
+				"properties": {
+					"condition": {
+						"$ref": "#/$defs/condition"
+					},
+					"label": {
+						"description": "The name / title / label for this item",
+						"type": "string"
+					},
+					"description": {
+						"$ref": "#/$defs/description"
+					},
+					"documentation_links": {
+						"$ref": "#/$defs/documentation_links"
+					},
+					"variants": {
+						"description": "The variants for this class",
+						"type": "object",
+						"additionalProperties": {
+							"type": "object"
+						},
+						"not": {
+							"required": ["condition"]
+						}
+					}
+				},
+				"additionalProperties": false
+			}
+		},
+		"vars": {
+			"description": "A simple list of CSS variables that belong in this category",
+			"type": "object",
+			"additionalProperties": {
+				"type": "object",
+				"properties": {
+					"condition": {
+						"$ref": "#/$defs/condition"
+					},
+					"label": {
+						"description": "The name / title / label for this item",
+						"type": "string"
+					},
+					"description": {
+						"$ref": "#/$defs/description"
+					},
+					"documentation_links": {
+						"$ref": "#/$defs/documentation_links"
+					},
+					"variants": {
+						"description": "The variants for this class",
+						"type": "object",
+						"additionalProperties": {
+							"type": "object"
+						},
+						"not": {
+							"required": ["condition"]
+						}
+					}
+				},
+				"additionalProperties": false
+			}
+		},
+		"description": {
+			"description": "A description of this item, usually used for tooltips",
+			"type": "string"
+		},
+		"documentation_links": {
+			"description": "A link to the documentation of this item",
+			"type": "object",
+			"properties": {
+				"class_documentation": {
+					"description": "A link to the classes documentation of this item. (Cheatsheet)",
+					"type": "string",
+					"format": "uri"
+				},
+				"variable_documentation": {
+					"description": "A link to the variables documentation of this item. (Cheatsheet)",
+					"type": "string",
+					"format": "uri"
+				},
+				"default_documentation": {
+					"description": "The default documentation link of this item. (Used if classes and vars are not set). (Cheatsheet)",
+					"type": "string",
+					"format": "uri"
+				}
+			},
+			"additionalProperties": false
+		}
+	}
+}

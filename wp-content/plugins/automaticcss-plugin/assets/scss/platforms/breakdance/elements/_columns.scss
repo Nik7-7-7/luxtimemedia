@@ -1,0 +1,11 @@
+@if $option-content-gap == on {
+    :where(.bde-column) {
+        row-gap: var(--content-gap);
+    }
+}
+
+@if $option-grid-gap == on {
+    .breakdance :where(.bde-columns) {
+        --bde-column-gap: var(--grid-gap);
+    }
+}

@@ -96,14 +96,6 @@ class SSA_Action_Scheduler {
 		} catch ( Exception $e ) {
 			return;
 		}
-		
-		try {
-			if ( false === as_has_scheduled_action( 'ssa/async/gcal_cleanup' ) ) {
-				as_schedule_recurring_action( strtotime( 'now' ), DAY_IN_SECONDS, 'ssa/async/gcal_cleanup' );
-			}
-		} catch ( Exception $e ) {
-			// Do nothing
-		}
 	}
 
 	/**

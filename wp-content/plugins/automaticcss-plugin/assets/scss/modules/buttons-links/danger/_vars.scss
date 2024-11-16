@@ -1,0 +1,130 @@
+// Danger Defaults
+$option-danger-btn: on !default;
+$option-danger-btn-shades: on !default;
+$option-danger-btn-outline: on !default;
+
+///// Main
+$btn-danger-bg: var(--danger) !default;
+$btn-danger-hover: var(--danger-hover) !default;
+$btn-danger-text: var(--danger-ultra-light) !default;
+$btn-danger-hover-text: var(--danger-ultra-light) !default;
+$btn-danger-border-color: var(--danger) !default;
+$btn-danger-hover-border-color: var(--danger-hover) !default;
+$btn-danger-focus-color: var(--danger-light) !default;
+///// Dark
+$btn-danger-dark-bg: var(--danger-dark) !default;
+$btn-danger-dark-hover: var(--danger-ultra-dark) !default;
+$btn-danger-dark-text: var(--danger-ultra-light) !default;
+$btn-danger-dark-hover-text: var(--danger-ultra-light) !default;
+$btn-danger-dark-border-color: var(--danger-dark) !default;
+$btn-danger-dark-hover-border-color: var(--danger-ultra-dark) !default;
+$btn-danger-dark-focus-color: var(--danger-semi-dark) !default;
+///// Light
+$btn-danger-light-bg: var(--danger-ultra-light) !default;
+$btn-danger-light-hover: var(--danger-light) !default;
+$btn-danger-light-text: var(--danger) !default;
+$btn-danger-light-hover-text: var(--danger-ultra-dark) !default;
+$btn-danger-light-border-color: var(--danger-ultra-light) !default;
+$btn-danger-light-hover-border-color: var(--danger-light) !default;
+$btn-danger-light-focus-color: var(--danger-light) !default;
+///// Outline
+$btn-danger-outline-background: transparent !default;
+$btn-danger-outline-background-hover: var(--danger-hover) !default;
+$danger-outline-btn-text: var(--danger) !default;
+$danger-outline-hover-text: var(--danger-ultra-light) !default;
+$btn-danger-outline-border-color: var(--danger) !default;
+$btn-danger-outline-border-hover: var(--danger-hover) !default;
+$btn-danger-outline-focus-color: var(--danger-semi-light) !default;
+///// Outline Dark
+$btn-danger-outline-dark-background: transparent !default;
+$btn-danger-outline-dark-background-hover: var(--danger-dark) !default;
+$danger-outline-dark-btn-text: var(--danger-dark) !default;
+$danger-outline-dark-hover-text: var(--danger-ultra-light) !default;
+$btn-danger-outline-dark-border-color: var(--danger-dark) !default;
+$btn-danger-outline-dark-border-hover: var(--danger-dark) !default;
+$btn-danger-outline-dark-focus-color: var(--danger-semi-dark) !default;
+///// Outline Light
+$btn-danger-outline-light-background: transparent !default;
+$btn-danger-outline-light-background-hover: var(--danger-ultra-light) !default;
+$danger-outline-light-btn-text: var(--danger-ultra-light) !default;
+$danger-outline-light-hover-text: var(--danger-dark) !default;
+$btn-danger-outline-light-border-color: var(--danger-ultra-light) !default;
+$btn-danger-outline-light-border-hover: var(--danger-ultra-light) !default;
+$btn-danger-outline-light-focus-color: var(--danger-light) !default;
+
+$btn-danger: (); // Initialize Map
+@if $option-danger-btn == on {
+
+    $btn-danger: (
+        "danger": (
+            btn-background: $btn-danger-bg,
+            btn-background-hover: $btn-danger-hover,
+            btn-text-color: $btn-danger-text,
+            btn-text-color-hover: $btn-danger-hover-text,
+            btn-border-color: $btn-danger-border-color,
+            btn-border-color-hover: $btn-danger-hover-border-color,
+            focus-color: $btn-danger-focus-color,
+        ),
+        "danger-dark": (
+            btn-background: $btn-danger-dark-bg,
+            btn-background-hover: $btn-danger-dark-hover,
+            btn-text-color: $btn-danger-dark-text,
+            btn-text-color-hover: $btn-danger-dark-hover-text,
+            btn-border-color: $btn-danger-dark-border-color,
+            btn-border-color-hover: $btn-danger-dark-hover-border-color,
+            focus-color: $btn-danger-dark-focus-color,
+        ),
+        "danger-light": (
+            btn-background: $btn-danger-light-bg,
+            btn-background-hover: $btn-danger-light-hover,
+            btn-text-color: $btn-danger-light-text,
+            btn-text-color-hover: $btn-danger-light-hover-text,
+            btn-border-color: $btn-danger-light-border-color,
+            btn-border-color-hover: $btn-danger-light-hover-border-color,
+            focus-color: $btn-danger-light-focus-color,
+        ),
+        "danger.btn--outline": (
+            btn-background: $btn-danger-outline-background,
+            btn-background-hover: $btn-danger-outline-background-hover,
+            btn-text-color: $danger-outline-btn-text,
+            btn-text-color-hover: $danger-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-danger-outline-border-color,
+            btn-border-color-hover: $btn-danger-outline-border-hover,
+            focus-color: $btn-danger-focus-color,
+        ),
+        "danger-dark.btn--outline": (
+            btn-background: $btn-danger-outline-dark-background,
+            btn-background-hover: $btn-danger-outline-dark-background-hover,
+            btn-text-color: $danger-outline-dark-btn-text,
+            btn-text-color-hover: $danger-outline-dark-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-danger-outline-dark-border-color,
+            btn-border-color-hover: $btn-danger-outline-dark-border-hover,
+            focus-color: $btn-danger-focus-color,
+        ),
+        "danger-light.btn--outline": (
+            btn-background: $btn-danger-outline-light-background,
+            btn-background-hover: $btn-danger-outline-light-background-hover,
+            btn-text-color: $danger-outline-light-btn-text,
+            btn-text-color-hover: $danger-outline-light-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-danger-outline-light-border-color,
+            btn-border-color-hover: $btn-danger-outline-light-border-hover,
+            focus-color: $btn-danger-focus-color,
+        ),
+    );
+
+    @if $option-danger-btn-outline == off {
+        $btn-danger: map-remove($btn-danger, "danger.btn--outline");
+        $btn-danger: map-remove($btn-danger, "danger-dark.btn--outline");
+        $btn-danger: map-remove($btn-danger, "danger-light.btn--outline");
+    }
+    @if $option-danger-btn-shades == off {
+        $btn-danger: map-remove($btn-danger, "danger-dark");
+        $btn-danger: map-remove($btn-danger, "danger-light");
+        $btn-danger: map-remove($btn-danger, "danger-dark.btn--outline");
+        $btn-danger: map-remove($btn-danger, "danger-light.btn--outline-light");
+    }
+
+}

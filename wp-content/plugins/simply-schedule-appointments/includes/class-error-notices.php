@@ -496,11 +496,7 @@ class SSA_Error_Notices {
 		if( ! class_exists( 'SSA_Google_Calendar' ) || ! $this->plugin->settings_installed->is_enabled( 'google_calendar' ) ) {
 			$this->delete_error_notice( $id );
 		}
-		
-		if( $this->plugin->developer_settings->is_in_dev_quick_connect_gcal_mode() || $this->plugin->google_calendar_settings->is_in_quick_connect_gcal_mode() ){
-			return $this->delete_error_notice( $id );
-		}
-		
+
 		$should_reconnect_main_calendar = $this->plugin->google_calendar_settings->is_main_calendar_refresh_token_lost();
 
 		if( empty( $should_reconnect_main_calendar ) ) {
@@ -516,10 +512,6 @@ class SSA_Error_Notices {
 			$this->delete_error_notice( $id );
 		}
 
-		if( $this->plugin->developer_settings->is_in_dev_quick_connect_gcal_mode() || $this->plugin->google_calendar_settings->is_in_quick_connect_gcal_mode() ){
-			return $this->delete_error_notice( $id );
-		}
-		
 		if( ! class_exists( 'SSA_Staff' ) || ! ssa()->settings_installed->is_enabled( 'staff' ) ) {
 			$this->delete_error_notice( $id );
 		}
@@ -535,10 +527,6 @@ class SSA_Error_Notices {
 	public function check_gcal_missing_refresh_token() {
 
 		if( ! class_exists( 'SSA_Google_Calendar' ) || ! $this->plugin->settings_installed->is_enabled( 'google_calendar' ) ) {
-			return;
-		}
-		
-		if( $this->plugin->developer_settings->is_in_dev_quick_connect_gcal_mode() || $this->plugin->google_calendar_settings->is_in_quick_connect_gcal_mode() ){
 			return;
 		}
 

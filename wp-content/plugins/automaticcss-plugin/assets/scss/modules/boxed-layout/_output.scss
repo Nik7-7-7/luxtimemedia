@@ -1,0 +1,29 @@
+// Some boxed layout code is found 
+// in default text styles mixin in the text folder!
+
+body.boxed-layout {
+    inline-size: 100%;
+    max-inline-size: var(--body-max-width, $body-max-width);
+    box-shadow: var(--body-box-shadow, $body-box-shadow);
+    border-color: var(--body-border-color, $body-border-color);
+    border-style: var(--body-border-style, $body-border-style);
+    border-width: var(--body-border-width, $body-border-width);
+    border-radius: var(--body-border-radius, $body-border-radius);
+    margin-block-start: var(--body-margin-top, #{$body-margin-top}) !important;
+    margin-inline: auto !important;
+
+    header.sticky > *, #brx-header.sticky.sticky > * {
+        width: var(--boxed-width);
+        margin-inline: auto;
+    }
+
+}
+
+@if $option-boxed-layout == on {
+    header.sticky > *, // Support generic .sticky class 
+    #brx-header.sticky.sticky > * // Support Bricks header 
+    {
+        width: var(--boxed-width);
+        margin-inline: auto;
+    }
+}

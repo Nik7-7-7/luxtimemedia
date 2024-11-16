@@ -1,0 +1,130 @@
+// Accent Defaults
+$option-accent-btn: on !default;
+$option-accent-btn-shades: on !default;
+$option-accent-btn-outline: on !default;
+
+///// Main
+$btn-accent-bg: var(--accent) !default;
+$btn-accent-hover: var(--accent-hover) !default;
+$btn-accent-text: var(--accent-ultra-light) !default;
+$btn-accent-hover-text: var(--accent-ultra-light) !default;
+$btn-accent-border-color: var(--accent) !default;
+$btn-accent-hover-border-color: var(--accent-hover) !default;
+$btn-accent-focus-color: var(--accent-light) !default;
+///// Dark
+$btn-accent-dark-bg: var(--accent-dark) !default;
+$btn-accent-dark-hover: var(--accent-ultra-dark) !default;
+$btn-accent-dark-text: var(--accent-ultra-light) !default;
+$btn-accent-dark-hover-text: var(--accent-ultra-light) !default;
+$btn-accent-dark-border-color: var(--accent-dark) !default;
+$btn-accent-dark-hover-border-color: var(--accent-ultra-dark) !default;
+$btn-accent-dark-focus-color: var(--accent-semi-dark) !default;
+///// Light
+$btn-accent-light-bg: var(--accent-ultra-light) !default;
+$btn-accent-light-hover: var(--accent-light) !default;
+$btn-accent-light-text: var(--accent) !default;
+$btn-accent-light-hover-text: var(--accent-ultra-dark) !default;
+$btn-accent-light-border-color: var(--accent-ultra-light) !default;
+$btn-accent-light-hover-border-color: var(--accent-light) !default;
+$btn-accent-light-focus-color: var(--accent-light) !default;
+///// Outline
+$btn-accent-outline-background: transparent !default;
+$btn-accent-outline-background-hover: var(--accent-hover) !default;
+$accent-outline-btn-text: var(--accent) !default;
+$accent-outline-hover-text: var(--accent-ultra-light) !default;
+$btn-accent-outline-border-color: var(--accent) !default;
+$btn-accent-outline-border-hover: var(--accent-hover) !default;
+$btn-accent-outline-focus-color: var(--accent-semi-light) !default;
+///// Outline Dark
+$btn-accent-outline-dark-background: transparent !default;
+$btn-accent-outline-dark-background-hover: var(--accent-dark) !default;
+$accent-outline-dark-btn-text: var(--accent-dark) !default;
+$accent-outline-dark-hover-text: var(--accent-ultra-light) !default;
+$btn-accent-outline-dark-border-color: var(--accent-dark) !default;
+$btn-accent-outline-dark-border-hover: var(--accent-dark) !default;
+$btn-accent-outline-dark-focus-color: var(--accent-semi-dark) !default;
+///// Outline Light
+$btn-accent-outline-light-background: transparent !default;
+$btn-accent-outline-light-background-hover: var(--accent-ultra-light) !default;
+$accent-outline-light-btn-text: var(--accent-ultra-light) !default;
+$accent-outline-light-hover-text: var(--accent-dark) !default;
+$btn-accent-outline-light-border-color: var(--accent-ultra-light) !default;
+$btn-accent-outline-light-border-hover: var(--accent-ultra-light) !default;
+$btn-accent-outline-light-focus-color: var(--accent-light) !default;
+
+$btn-accent: (); // Initialize Map
+@if $option-accent-btn == on {
+
+    $btn-accent: (
+        "accent": (
+            btn-background: $btn-accent-bg,
+            btn-background-hover: $btn-accent-hover,
+            btn-text-color: $btn-accent-text,
+            btn-text-color-hover: $btn-accent-hover-text,
+            btn-border-color: $btn-accent-border-color,
+            btn-border-color-hover: $btn-accent-hover-border-color,
+            focus-color: $btn-accent-focus-color,
+        ),
+        "accent-dark": (
+            btn-background: $btn-accent-dark-bg,
+            btn-background-hover: $btn-accent-dark-hover,
+            btn-text-color: $btn-accent-dark-text,
+            btn-text-color-hover: $btn-accent-dark-hover-text,
+            btn-border-color: $btn-accent-dark-border-color,
+            btn-border-color-hover: $btn-accent-dark-hover-border-color,
+            focus-color: $btn-accent-dark-focus-color,
+        ),
+        "accent-light": (
+            btn-background: $btn-accent-light-bg,
+            btn-background-hover: $btn-accent-light-hover,
+            btn-text-color: $btn-accent-light-text,
+            btn-text-color-hover: $btn-accent-light-hover-text,
+            btn-border-color: $btn-accent-light-border-color,
+            btn-border-color-hover: $btn-accent-light-hover-border-color,
+            focus-color: $btn-accent-light-focus-color,
+        ),
+        "accent.btn--outline": (
+            btn-background: $btn-accent-outline-background,
+            btn-background-hover: $btn-accent-outline-background-hover,
+            btn-text-color: $accent-outline-btn-text,
+            btn-text-color-hover: $accent-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-accent-outline-border-color,
+            btn-border-color-hover: $btn-accent-outline-border-hover,
+            focus-color: $btn-accent-focus-color,
+        ),
+        "accent-dark.btn--outline": (
+            btn-background: $btn-accent-outline-dark-background,
+            btn-background-hover: $btn-accent-outline-dark-background-hover,
+            btn-text-color: $accent-outline-dark-btn-text,
+            btn-text-color-hover: $accent-outline-dark-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-accent-outline-dark-border-color,
+            btn-border-color-hover: $btn-accent-outline-dark-border-hover,
+            focus-color: $btn-accent-focus-color,
+        ),
+        "accent-light.btn--outline": (
+            btn-background: $btn-accent-outline-light-background,
+            btn-background-hover: $btn-accent-outline-light-background-hover,
+            btn-text-color: $accent-outline-light-btn-text,
+            btn-text-color-hover: $accent-outline-light-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-accent-outline-light-border-color,
+            btn-border-color-hover: $btn-accent-outline-light-border-hover,
+            focus-color: $btn-accent-focus-color,
+        ),
+    );
+
+    @if $option-accent-btn-outline == off {
+        $btn-accent: map-remove($btn-accent, "accent.btn--outline");
+        $btn-accent: map-remove($btn-accent, "accent-dark.btn--outline");
+        $btn-accent: map-remove($btn-accent, "accent-light.btn--outline");
+    }
+    @if $option-accent-btn-shades == off {
+        $btn-accent: map-remove($btn-accent, "accent-dark");
+        $btn-accent: map-remove($btn-accent, "accent-light");
+        $btn-accent: map-remove($btn-accent, "accent-dark.btn--outline");
+        $btn-accent: map-remove($btn-accent, "accent-light.btn--outline-light");
+    }
+
+}

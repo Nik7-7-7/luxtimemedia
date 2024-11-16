@@ -1,0 +1,26 @@
+<div class="ulp-grid-list-students">
+
+    <div class="student-img">
+    <?php if (!empty($student->feat_image)):?>
+            <img src="<?php echo esc_url($student->feat_image);?>"  />
+    <?php endif;?>
+        <div class="student-name">
+   			 <?php if (!empty($student->full_name)):?>
+           		 <?php echo esc_ulp_content($student->full_name);?>
+    		<?php endif;?>
+            <?php if (!empty($student->points)):?>
+            	<span style= " background-color:#<?php echo esc_attr($shortcode_attributes['color_scheme']);?>;"><?php echo ($student->points != '' ? $student->points: '0'). esc_html__(' Points', 'ulp'); ?></span>
+           <?php endif;?>
+        </div>
+    </div>
+    <?php if (!empty($student->user_email)):?>
+        <div class="student-email">
+            <?php echo esc_ulp_content($student->user_email);?>
+        </div>
+    <?php endif;?>
+    <?php if (!empty($student->user_registered)):?>
+        <div class="student-registered">
+            <?php echo  esc_html__('Since: ', 'ulp') . ulp_print_date_like_wp($student->user_registered);?>
+        </div>
+    <?php endif;?>
+</div>

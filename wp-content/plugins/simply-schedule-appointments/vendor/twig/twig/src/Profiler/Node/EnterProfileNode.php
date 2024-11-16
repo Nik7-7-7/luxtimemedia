@@ -11,7 +11,6 @@
 
 namespace Twig\Profiler\Node;
 
-use Twig\Attribute\YieldReady;
 use Twig\Compiler;
 use Twig\Node\Node;
 
@@ -20,7 +19,6 @@ use Twig\Node\Node;
  *
  * @author Fabien Potencier <fabien@symfony.com>
  */
-#[YieldReady]
 class EnterProfileNode extends Node
 {
     public function __construct(string $extensionName, string $type, string $name, string $varName)
@@ -31,10 +29,10 @@ class EnterProfileNode extends Node
     public function compile(Compiler $compiler): void
     {
         $compiler
-            ->write(\sprintf('$%s = $this->extensions[', $this->getAttribute('var_name')))
+            ->write(sprintf('$%s = $this->extensions[', $this->getAttribute('var_name')))
             ->repr($this->getAttribute('extension_name'))
             ->raw("];\n")
-            ->write(\sprintf('$%s->enter($%s = new \Twig\Profiler\Profile($this->getTemplateName(), ', $this->getAttribute('var_name'), $this->getAttribute('var_name').'_prof'))
+            ->write(sprintf('$%s->enter($%s = new \Twig\Profiler\Profile($this->getTemplateName(), ', $this->getAttribute('var_name'), $this->getAttribute('var_name').'_prof'))
             ->repr($this->getAttribute('type'))
             ->raw(', ')
             ->repr($this->getAttribute('name'))

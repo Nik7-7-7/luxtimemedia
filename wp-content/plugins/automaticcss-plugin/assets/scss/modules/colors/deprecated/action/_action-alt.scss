@@ -1,0 +1,148 @@
+// Action Options
+$option-action-clr-alt: off !default;
+
+// Action Alt Vars
+$action-alt-hex: #e56c70 !default;
+$action-r-alt: 229 !default;
+$action-g-alt: 108 !default;
+$action-b-alt: 112 !default;
+$action-h-alt: 358 !default;
+$action-s-alt: 70% !default;
+$action-l-alt: 66% !default;
+$action-hover-h-alt: 358 !default;
+$action-hover-s-alt: 70% !default;
+$action-hover-l-alt: 1.15 !default;
+$action-ultra-light-h-alt: 358 !default;
+$action-ultra-light-s-alt: 70% !default;
+$action-ultra-light-l-alt: 95% !default;
+$action-light-h-alt: 358 !default;
+$action-light-s-alt: 70% !default;
+$action-light-l-alt: 85% !default;
+$action-medium-h-alt: 358 !default;
+$action-medium-s-alt: 70% !default;
+$action-medium-l-alt: 50% !default;
+$action-dark-h-alt: 358 !default;
+$action-dark-s-alt: 70% !default;
+$action-dark-l-alt: 25% !default;
+$action-ultra-dark-h-alt: 358 !default;
+$action-ultra-dark-s-alt: 70% !default;
+$action-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$action-semi-light-h-alt: 358 !default;
+$action-semi-light-s-alt: 70% !default;
+$action-semi-light-l-alt: 60% !default;
+$action-semi-dark-h-alt: 358 !default;
+$action-semi-dark-s-alt: 70% !default;
+$action-semi-dark-l-alt: 40% !default;
+
+// Action Alt Color Map
+$color-action-alt:(); // Initialize Map
+@if $option-action-clr-alt == on and $option-action-clr == on {
+  $color-action-alt: (
+    "main": (
+      "action": $action-alt-hex,
+      "action-hover": hsl($action-hover-h-alt, $action-hover-s-alt, $action-hover-l-alt),
+      "action-ultra-light": hsl($action-ultra-light-h-alt, $action-ultra-light-s-alt, $action-ultra-light-l-alt),
+      "action-light": hsl($action-light-h-alt, $action-light-s-alt, $action-light-l-alt),
+      "action-semi-light": hsl($action-semi-light-h-alt, $action-semi-light-s-alt, $action-semi-light-l-alt),
+      "action-semi-dark": hsl($action-semi-dark-h-alt, $action-semi-dark-s-alt, $action-semi-dark-l-alt),
+      "action-dark": hsl($action-dark-h-alt, $action-dark-s-alt, $action-dark-l-alt),
+      "action-ultra-dark": hsl($action-ultra-dark-h-alt, $action-ultra-dark-s-alt, $action-ultra-dark-l-alt),
+      "action-comp": hsl($action-h-alt + 180, $action-s-alt, $action-l-alt),
+    ),
+    "trans": (
+      "action-trans-10": rgba($action-alt-hex, .1),
+      "action-trans-20": rgba($action-alt-hex, .2),
+      "action-trans-30": rgba($action-alt-hex, .3),
+      "action-trans-40": rgba($action-alt-hex, .4),
+      "action-trans-50": rgba($action-alt-hex, .5),
+      "action-trans-60": rgba($action-alt-hex, .6),
+      "action-trans-70": rgba($action-alt-hex, .7),
+      "action-trans-80": rgba($action-alt-hex, .8),
+      "action-trans-90": rgba($action-alt-hex, .9),
+    ),
+    "light-trans": (
+      "action-light-trans-10": hsl($action-light-h-alt, $action-light-s-alt, $action-light-l-alt, .1),
+      "action-light-trans-20": hsl($action-light-h-alt, $action-light-s-alt, $action-light-l-alt, .2),
+      "action-light-trans-30": hsl($action-light-h-alt, $action-light-s-alt, $action-light-l-alt, .3),
+      "action-light-trans-40": hsl($action-light-h-alt, $action-light-s-alt, $action-light-l-alt, .4),
+      "action-light-trans-50": hsl($action-light-h-alt, $action-light-s-alt, $action-light-l-alt, .5),
+      "action-light-trans-60": hsl($action-light-h-alt, $action-light-s-alt, $action-light-l-alt, .6),
+      "action-light-trans-70": hsl($action-light-h-alt, $action-light-s-alt, $action-light-l-alt, .7),
+      "action-light-trans-80": hsl($action-light-h-alt, $action-light-s-alt, $action-light-l-alt, .8),
+      "action-light-trans-90": hsl($action-light-h-alt, $action-light-s-alt, $action-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "action-dark-trans-10": hsl($action-dark-h-alt, $action-dark-s-alt, $action-dark-l-alt, .1),
+      "action-dark-trans-20": hsl($action-dark-h-alt, $action-dark-s-alt, $action-dark-l-alt, .2),
+      "action-dark-trans-30": hsl($action-dark-h-alt, $action-dark-s-alt, $action-dark-l-alt, .3),
+      "action-dark-trans-40": hsl($action-dark-h-alt, $action-dark-s-alt, $action-dark-l-alt, .4),
+      "action-dark-trans-50": hsl($action-dark-h-alt, $action-dark-s-alt, $action-dark-l-alt, .5),
+      "action-dark-trans-60": hsl($action-dark-h-alt, $action-dark-s-alt, $action-dark-l-alt, .6),
+      "action-dark-trans-70": hsl($action-dark-h-alt, $action-dark-s-alt, $action-dark-l-alt, .7),
+      "action-dark-trans-80": hsl($action-dark-h-alt, $action-dark-s-alt, $action-dark-l-alt, .8),
+      "action-dark-trans-90": hsl($action-dark-h-alt, $action-dark-s-alt, $action-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "action-ultra-dark-trans-10": hsl($action-ultra-dark-h-alt, $action-ultra-dark-s-alt, $action-ultra-dark-l-alt, .1),
+      "action-ultra-dark-trans-20": hsl($action-ultra-dark-h-alt, $action-ultra-dark-s-alt, $action-ultra-dark-l-alt, .2),
+      "action-ultra-dark-trans-30": hsl($action-ultra-dark-h-alt, $action-ultra-dark-s-alt, $action-ultra-dark-l-alt, .3),
+      "action-ultra-dark-trans-40": hsl($action-ultra-dark-h-alt, $action-ultra-dark-s-alt, $action-ultra-dark-l-alt, .4),
+      "action-ultra-dark-trans-50": hsl($action-ultra-dark-h-alt, $action-ultra-dark-s-alt, $action-ultra-dark-l-alt, .5),
+      "action-ultra-dark-trans-60": hsl($action-ultra-dark-h-alt, $action-ultra-dark-s-alt, $action-ultra-dark-l-alt, .6),
+      "action-ultra-dark-trans-70": hsl($action-ultra-dark-h-alt, $action-ultra-dark-s-alt, $action-ultra-dark-l-alt, .7),
+      "action-ultra-dark-trans-80": hsl($action-ultra-dark-h-alt, $action-ultra-dark-s-alt, $action-ultra-dark-l-alt, .8),
+      "action-ultra-dark-trans-90": hsl($action-ultra-dark-h-alt, $action-ultra-dark-s-alt, $action-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "action-hex": $action-alt-hex,
+        "action-hsl": $action-h $action-s $action-l-alt,
+        "action-rgb": $action-r $action-g $action-b-alt,
+        "action-r": $action-r-alt,
+        "action-g": $action-g-alt,
+        "action-b": $action-b-alt,
+        "action-h": $action-h-alt,
+        "action-s": $action-s-alt,
+        "action-l": $action-l-alt,
+        "action-hover-h": $action-hover-h-alt,
+        "action-hover-s": $action-hover-s-alt,
+        "action-hover-l": $action-hover-l-alt,
+        "action-ultra-light-h": $action-ultra-light-h-alt,
+        "action-ultra-light-s": $action-ultra-light-s-alt,
+        "action-ultra-light-l": $action-ultra-light-l-alt,
+        "action-light-h": $action-light-h-alt,
+        "action-light-s": $action-light-s-alt,
+        "action-light-l": $action-light-l-alt,
+        "action-semi-light-h": $action-semi-light-h-alt,
+        "action-semi-light-s": $action-semi-light-s-alt,
+        "action-semi-light-l": $action-semi-light-l-alt,
+        "action-semi-dark-h": $action-semi-dark-h-alt,
+        "action-semi-dark-s": $action-semi-dark-s-alt,
+        "action-semi-dark-l": $action-semi-dark-l-alt,
+        "action-dark-h": $action-dark-h-alt,
+        "action-dark-s": $action-dark-s-alt,
+        "action-dark-l": $action-dark-l-alt,
+        "action-ultra-dark-h": $action-ultra-dark-h-alt,
+        "action-ultra-dark-s": $action-ultra-dark-s-alt,
+        "action-ultra-dark-l": $action-ultra-dark-l-alt,
+        "action-comp-h": $action-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-action-clr-alt == on and $option-action-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-action-alt: map-merge($color-action-alt, (
+      "main": map-merge(map-get($color-action-alt, "main"), (
+        "action-medium": hsl($action-medium-h-alt, $action-medium-s-alt, $action-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-action-alt, "partials"), (
+        "action-medium-h": $action-medium-h-alt,
+        "action-medium-s": $action-medium-s-alt,
+        "action-medium-l": $action-medium-l-alt
+      ))
+    ));
+  }
+}

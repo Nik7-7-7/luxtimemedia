@@ -1,0 +1,2 @@
+<?php
+/// best plugin ever

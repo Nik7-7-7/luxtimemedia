@@ -1,0 +1,22 @@
+// Header Heights
+$header-height-xxl: 0 !default;
+$header-height: 0 !default; // Base
+$header-height-xl: 0 !default;
+$header-height-l: 0 !default;
+$header-height-m: 0 !default;
+$header-height-s: 0 !default;
+$header-height-xs: 0 !default;
+
+$header-heights: (
+    xl: $header-height-xl,
+    l: $header-height-l,
+    m: $header-height-m,
+    s: $header-height-s,
+);
+
+@if $breakpoint-xxl == on {
+    $header-heights: map-merge($header-heights, (xxl: $header-height-xxl));
+}
+@if $breakpoint-xs == on {
+    $header-heights: map-merge($header-heights, (xs: $header-height-xs));
+}

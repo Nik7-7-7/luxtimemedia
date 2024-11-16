@@ -1,0 +1,59 @@
+// VARS
+$base-space: 3 !default;
+$base-space-min: 2.4 !default;
+$space-scale: 1.5 !default;
+$mob-space-scale: 1.3 !default;
+$space-adjust-section: 4 !default;
+$mob-space-adjust-section: 3 !default;
+$section-padding-x-min: 2.4 !default;
+$section-padding-x-max: 3 !default;
+$section-padding-x-rem: append-rem($section-padding-x-min);
+
+// PURE SPACING (FALLBACKS)
+$section-padding-x-pure: $section-padding-x-min;
+$space-xs-pure: 1.896rem !default;
+$space-s-pure: 2.133rem !default;
+$space-m-pure: 2.4rem !default;
+$space-l-pure: 2.7rem !default;
+$space-xl-pure: 3.038rem !default;
+$space-xxl-pure: 3.42rem !default;
+$section-space-xs-pure: 3.84rem !default;
+$section-space-s-pure: 4.8rem !default;
+$section-space-m-pure: 6rem !default;
+$section-space-l-pure: 7.5rem !default;
+$section-space-xl-pure: 9.375rem !default;
+$section-space-xxl-pure: 11.719rem !default;
+
+// SPACING SCALE MATH
+$space-m-min: $base-space-min;
+$space-m-max: $base-space;
+$space-s-min: $space-m-min / $space-scale;
+$space-s-max: $space-m-max / $space-scale;
+$space-xs-min: $space-s-min / $space-scale;
+$space-xs-max: $space-s-max / $space-scale;
+$space-l-min: $space-m-min * $mob-space-scale;
+$space-l-max: $space-m-max * $space-scale;
+$space-xl-min: $space-l-min * $mob-space-scale;
+$space-xl-max: $space-l-max * $space-scale;
+$space-xxl-min: $space-xl-min * $mob-space-scale;
+$space-xxl-max: $space-xl-max * $space-scale;
+
+// SECTION SPACING MATH
+
+$section-m-min: $space-m-min * $mob-space-adjust-section;
+$section-m-max: $space-m-max * $space-adjust-section;
+
+$section-xs-min: $space-xs-min * $mob-space-adjust-section;
+$section-xs-max: $space-xs-max * $space-adjust-section;
+
+$section-s-min: $space-s-min * $mob-space-adjust-section;
+$section-s-max: $space-s-max * $space-adjust-section;
+
+$section-l-min: $space-l-min * $mob-space-adjust-section;
+$section-l-max: $space-l-max * $space-adjust-section;
+
+$section-xl-min: $space-xl-min * $mob-space-adjust-section;
+$section-xl-max: $space-xl-max * $space-adjust-section;
+
+$section-xxl-min: $space-xxl-min * $mob-space-adjust-section;
+$section-xxl-max: $space-xxl-max * $space-adjust-section;

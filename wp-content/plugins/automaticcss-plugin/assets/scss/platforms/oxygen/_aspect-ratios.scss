@@ -1,0 +1,27 @@
+@if $option-aspect-ratios == on {
+  @each $ratio, $value in $aspect-ratios {
+    .ct-video.aspect--#{$ratio} {
+      > .oxygen-vsb-responsive-video-wrapper > iframe {
+        position: relative;
+      }
+      > .oxygen-vsb-responsive-video-wrapper {
+        padding-block-end: 0 !important;
+      }
+    }
+  }
+
+  @each $extension, $value in $breakpoints {
+    @include breakpoint($extension) {
+      @each $ratio, $value in $aspect-ratios {
+        .aspect--#{$extension}-#{$ratio} {
+          > .oxygen-vsb-responsive-video-wrapper > iframe {
+            position: relative;
+          }
+          > .oxygen-vsb-responsive-video-wrapper {
+            padding-block-end: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}

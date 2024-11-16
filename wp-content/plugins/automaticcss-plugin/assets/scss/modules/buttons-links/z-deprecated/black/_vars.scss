@@ -1,0 +1,51 @@
+// Black Defaults
+$option-black-btn: on !default;
+$option-black-btn-outline: on !default;
+
+///// Main
+$btn-black-bg: var(--black) !default;
+$btn-black-hover: var(--black-hover) !default;
+$btn-black-text: var(--black-ultra-light) !default;
+$btn-black-hover-text: var(--black-ultra-light) !default;
+$btn-black-border-color: var(--black) !default;
+$btn-black-hover-border-color: var(--black-hover) !default;
+$btn-black-focus-color: var(--black-light) !default;
+///// Outline
+$btn-black-outline-background: transparent !default;
+$btn-black-outline-background-hover: var(--black-hover) !default;
+$black-outline-btn-text: var(--black) !default;
+$black-outline-hover-text: var(--black-ultra-light) !default;
+$btn-black-outline-border-color: var(--black) !default;
+$btn-black-outline-border-hover: var(--black-hover) !default;
+$btn-black-outline-focus-color: var(--black-semi-light) !default;
+
+$btn-black: (); // Initialize Map
+@if $option-black-btn == on {
+
+    $btn-black: (
+        "black": (
+            btn-background: $btn-black-bg,
+            btn-background-hover: $btn-black-hover,
+            btn-text-color: $btn-black-text,
+            btn-text-color-hover: $btn-black-hover-text,
+            btn-border-color: $btn-black-border-color,
+            btn-border-color-hover: $btn-black-hover-border-color,
+            focus-color: $btn-black-focus-color,
+        ),
+        "black.btn--outline": (
+            btn-background: $btn-black-outline-background,
+            btn-background-hover: $btn-black-outline-background-hover,
+            btn-text-color: $black-outline-btn-text,
+            btn-text-color-hover: $black-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-black-outline-border-color,
+            btn-border-color-hover: $btn-black-outline-border-hover,
+            focus-color: $btn-black-focus-color,
+        ),
+    );
+
+    @if $option-black-btn-outline == off {
+        $btn-black: map-remove($btn-black, "black.btn--outline");
+    }
+
+}

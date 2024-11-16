@@ -1,0 +1,61 @@
+@import "vars";
+
+@if $option-border-classes == on {
+	.border {
+		border: var(--border);
+		border-radius: var(--radius);
+	}
+	.border-light {
+		border: var(--border-light);
+		border-radius: var(--radius);
+	}
+	.border-dark {
+		border: var(--border-dark);
+		border-radius: var(--radius);
+	}
+	@each $position, $position-value in $border-positions {
+		.border-#{$position} {
+			border-#{$position-value}: var(--border);
+		}
+		@each $color, $value in $border-colors {
+			.border-#{$position}--#{$color} {
+				border-#{$position-value}: var(--border-#{$color});
+			}
+		}
+	}
+}
+
+// Radius Classes
+
+@if $option-rounded == on {
+  .radius {
+      border-radius: var(--radius);
+  }
+  @each $group, $set in $radius {
+    @each $option, $value in $set {
+      @if $group == "other" {
+        .radius--#{$option}.radius--#{$option},
+        .rounded--#{$option}.rounded--#{$option} {
+          border-radius: var(--radius-#{$option});
+        }
+      }
+    }
+  }
+}
+
+@if $option-rounded == on and $option-radius-sizes == on {
+  @each $group, $set in $radius {
+    @each $option, $value in $set {
+      @if $group == "sizes" {
+        .radius--#{$option}.radius--#{$option},
+        .rounded--#{$option}.rounded--#{$option} {
+          border-radius: var(--radius-#{$option});
+        }
+      }
+    }
+  }
+}
+
+
+// Auto Radius
+@import "auto-radius";

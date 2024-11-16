@@ -1,0 +1,50 @@
+{
+	"$schema": "screen.schema.json",
+	"id": "cheat-sheet",
+	"title": "Cheatsheet",
+	"type": "screen-container",
+	"content": [
+		{
+			"id": "cheat-sheet-tabs",
+			"title": "Cheatsheet Tabs",
+			"type": "tabs-container",
+			"style": "inline",
+			"content": [
+				{
+					"id": "classes-cheat-sheet-tab",
+					"title": "Classes",
+
+					"content": [
+						{
+							"id": "cheat-sheet-classes",
+							"title": "Classes",
+							"type": "cheat-sheet-container"
+						}
+					]
+				},
+				{
+					"id": "variables-cheat-sheet-tab",
+					"title": "Variables",
+					"content": [
+						{
+							"id": "cheat-sheet-variables",
+							"title": "Classes",
+							"type": "cheat-sheet-container"
+						}
+					]
+				},
+				{
+					"id": "recipes-cheat-sheet-tab",
+					"title": "Recipes",
+					"content": [
+						{
+							"id": "cheat-sheet-recipes",
+							"title": "Recipes",
+							"type": "cheat-sheet-container"
+						}
+					]
+				}
+			]
+		}
+	]
+}

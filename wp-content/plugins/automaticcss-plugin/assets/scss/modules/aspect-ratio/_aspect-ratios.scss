@@ -1,0 +1,78 @@
+@import "aspect-ratio-mixins";
+
+@if $option-aspect-ratios == on {
+
+  [class*="aspect--"] {
+    aspect-ratio: var(--aspect-ratio);
+  }
+  // Support for images
+  img[class*="aspect--"] {
+    -o-object-fit: var(--object-fit, cover);
+    object-fit: var(--object-fit, cover);
+  }
+  // Support for figures
+  figure[class*="aspect--"] img {
+    inline-size: 100%;
+    block-size: 100%;
+  }
+  // Support for iframe
+  [class*="aspect--"] iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: var(--aspect-ratio);
+  }
+
+
+  @each $ratio, $value in $aspect-ratios {
+    .aspect--#{$ratio} {
+      --aspect-ratio: #{$value};
+    }
+  }
+
+  // Generate Breakpoint Classes
+  // Changes here need to be made for each builder as well
+
+  @each $extension, $value in $breakpoints {
+    @include breakpoint($extension) {
+      @each $ratio, $value in $aspect-ratios {
+        .aspect--#{$extension}-#{$ratio} {
+          --aspect-ratio: #{$value};
+        }
+      }
+    }
+  }
+
+  // Generate Fallback Classes
+
+  @supports not (aspect-ratio: 16 / 9) {
+
+    [class*="aspect--"] {
+      &::before {
+        float: left;
+        padding-top: var(--aspect-fallback-value);
+        content: "";
+      }
+      &::after {
+        display: block;
+        content: "";
+        clear: both;
+      }
+    }
+
+    @each $ratio, $value in $aspect-ratio-fallbacks {
+      .aspect--#{$ratio} {
+        --aspect-fallback-value: #{$value};
+      }
+    }
+    // Generate Fallback Breakpoint Classes
+    @each $extension, $extension-value in $breakpoints {
+      @include breakpoint($extension) {
+        @each $ratio, $value in $aspect-ratio-fallbacks {
+          .aspect--#{$extension}-#{$ratio} {
+            --aspect-fallback-value: #{$value};
+          }
+        }
+      }
+    }
+  }
+}

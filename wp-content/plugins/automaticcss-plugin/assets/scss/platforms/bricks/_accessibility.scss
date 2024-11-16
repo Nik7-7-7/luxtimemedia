@@ -1,0 +1,30 @@
+body.bricks-is-frontend.bricks-is-frontend {
+  @include focus-styles;
+}
+
+// Skip Link
+
+@if $option-accessibility-classes == on {
+  .skip-link,
+  .link--skip {
+    @include skip-link;
+  }
+
+  // Hidden Accessible
+
+  .bricks-area .hidden-accessible {
+    @include hidden-accessible-badge;
+  }
+
+  // Clickable Parent
+
+  @include load-clickable-parent(".bricks-area");
+
+  // Remove thin dotted focus border that bricks adds by default if users have shadow focus style selected.
+  @if $focus-style != outline {
+    body.bricks-is-frontend.bricks-is-frontend :focus {
+      outline: none;
+    }
+  } 
+
+} // End options check

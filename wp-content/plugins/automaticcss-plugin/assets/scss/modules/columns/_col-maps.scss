@@ -1,0 +1,35 @@
+$col-rule: (
+    dotted: dotted,
+    dashed: dashed,
+    solid: solid,
+    double: double,
+    groove: groove,
+    ridge: ridge,
+    inset: inset,
+    outset: outset,
+);
+
+$col-count: (
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+);
+
+$col-width: (
+    s: $col-width-s,
+    m: $col-width-m,
+    l: $col-width-l,
+);
+
+$col-rule-width: (
+    s: $col-rule-width-s,
+    m: $col-rule-width-m,
+    l: $col-rule-width-l,
+);
+
+$col-span: (
+    all: all,
+);
+

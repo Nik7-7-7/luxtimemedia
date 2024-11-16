@@ -1,0 +1,22 @@
+@if ( $option-gutenberg-load-styling-backend == on ) {
+
+	// Use this file to override Gutenberg styles.
+
+	// Main Framework Imports
+	@import "../../automatic-imports";
+
+	// Mixins
+	@import "../../helpers/mixins";
+
+	// Modules
+	@import "vars";
+	@import "tokens";
+	@import "defaults";
+	@import "buttons";
+
+	// Fix the editor width
+	.editor-styles-wrapper {
+			width: 100% !important;
+		}
+
+}

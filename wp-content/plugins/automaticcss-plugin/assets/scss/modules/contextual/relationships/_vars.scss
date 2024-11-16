@@ -1,0 +1,63 @@
+// Text
+$bg-ultra-light-text: var(--neutral-dark) !default;
+$bg-light-text: var(--black) !default;
+$bg-dark-text: var(--neutral-light) !default;
+$bg-ultra-dark-text: var(--white) !default;
+
+// Headings
+$bg-ultra-light-heading: var(--neutral-dark) !default;
+$bg-light-heading: var(--black) !default;
+$bg-dark-heading: var(--neutral-light) !default;
+$bg-ultra-dark-heading: var(--white) !default;
+
+// Links
+$bg-ultra-light-link: null !default;
+$bg-ultra-light-link-hover: null !default;
+$bg-light-link: null !default;
+$bg-light-link-hover: null !default;
+$bg-dark-link: null !default;
+$bg-dark-link-hover: null !default;
+$bg-ultra-dark-link: null !default;
+$bg-ultra-dark-link-hover: null !default;
+
+// Buttons
+// Buttons use the btn() mixin via named styles.
+$bg-ultra-light-button: primary !default;
+$bg-light-button: primary !default;
+$bg-dark-button: primary !default;
+$bg-ultra-dark-button: primary !default;
+
+// Main Relationship Map
+// Extracted Maps Are Below - Each New Key Should be Extracted Separately
+
+$contextual-relationship-styles: (
+	"text": (
+		"ultra-light": $bg-ultra-light-text,
+		"light": $bg-light-text,
+		"dark": $bg-dark-text,
+		"ultra-dark": $bg-ultra-dark-text
+	),
+	"heading": (
+		"ultra-light": $bg-ultra-light-heading,
+		"light": $bg-light-heading,
+		"dark": $bg-dark-heading,
+		"ultra-dark": $bg-ultra-dark-heading
+	),
+	"link": (
+		"ultra-light": ($bg-ultra-light-link, $bg-ultra-light-link-hover),
+		"light": ($bg-light-link, $bg-light-link-hover),
+		"dark": ($bg-dark-link, $bg-dark-link-hover),
+		"ultra-dark": ($bg-ultra-dark-link, $bg-ultra-dark-link-hover)
+	),
+	"button": (
+		"ultra-light": $bg-ultra-light-button,
+		"light": $bg-light-button,
+		"dark": $bg-dark-button,
+		"ultra-dark": $bg-ultra-dark-button
+	)
+);
+
+$contextual-text-relationships: map-get($contextual-relationship-styles, "text");
+$contextual-heading-relationships: map-get($contextual-relationship-styles, "heading");
+$contextual-link-relationships: map-get($contextual-relationship-styles, "link");
+$contextual-button-relationships: map-get($contextual-relationship-styles, "button");

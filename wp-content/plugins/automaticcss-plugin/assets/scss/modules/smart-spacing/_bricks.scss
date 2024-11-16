@@ -1,0 +1,18 @@
+// Bricks Compatibility
+@if $option-bricks == on {
+    @if $option-smart-spacing == on {
+        :where(.woocommerce-checkout) p {
+            margin: 0 0 1.2em;
+        }
+        .brxe-text,
+        .brxe-post-content:where(:not([data-source="bricks"])) {
+            @include smart-spacing;
+        }   
+        body :where(p:last-of-type) + {
+            :is(h1,h2,h3,h4,h5,h6) {
+                margin-top: 0;
+                margin-block-start: 0;
+            }
+        }
+    }
+}

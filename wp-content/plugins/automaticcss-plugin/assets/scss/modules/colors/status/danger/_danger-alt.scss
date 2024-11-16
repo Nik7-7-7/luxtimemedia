@@ -1,0 +1,148 @@
+// danger Options
+$option-danger-clr-alt: off !default;
+
+// danger Alt Vars
+$danger-alt-hex: #e56c70 !default;
+$danger-r-alt: 229 !default;
+$danger-g-alt: 108 !default;
+$danger-b-alt: 112 !default;
+$danger-h-alt: 358 !default;
+$danger-s-alt: 70% !default;
+$danger-l-alt: 66% !default;
+$danger-hover-h-alt: 358 !default;
+$danger-hover-s-alt: 70% !default;
+$danger-hover-l-alt: 1.15 !default;
+$danger-ultra-light-h-alt: 358 !default;
+$danger-ultra-light-s-alt: 70% !default;
+$danger-ultra-light-l-alt: 95% !default;
+$danger-light-h-alt: 358 !default;
+$danger-light-s-alt: 70% !default;
+$danger-light-l-alt: 85% !default;
+$danger-medium-h-alt: 358 !default;
+$danger-medium-s-alt: 70% !default;
+$danger-medium-l-alt: 50% !default;
+$danger-dark-h-alt: 358 !default;
+$danger-dark-s-alt: 70% !default;
+$danger-dark-l-alt: 25% !default;
+$danger-ultra-dark-h-alt: 358 !default;
+$danger-ultra-dark-s-alt: 70% !default;
+$danger-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$danger-semi-light-h-alt: 358 !default;
+$danger-semi-light-s-alt: 70% !default;
+$danger-semi-light-l-alt: 60% !default;
+$danger-semi-dark-h-alt: 358 !default;
+$danger-semi-dark-s-alt: 70% !default;
+$danger-semi-dark-l-alt: 40% !default;
+
+// Danger Alt Color Map
+$color-danger-alt:(); // Initialize Map
+@if $option-danger-clr-alt == on and $option-danger-clr == on {
+  $color-danger-alt: (
+    "main": (
+      "danger": $danger-alt-hex,
+      "danger-hover": hsl($danger-hover-h-alt, $danger-hover-s-alt, $danger-hover-l-alt),
+      "danger-ultra-light": hsl($danger-ultra-light-h-alt, $danger-ultra-light-s-alt, $danger-ultra-light-l-alt),
+      "danger-light": hsl($danger-light-h-alt, $danger-light-s-alt, $danger-light-l-alt),
+      "danger-semi-light": hsl($danger-semi-light-h-alt, $danger-semi-light-s-alt, $danger-semi-light-l-alt),
+      "danger-semi-dark": hsl($danger-semi-dark-h-alt, $danger-semi-dark-s-alt, $danger-semi-dark-l-alt),
+      "danger-dark": hsl($danger-dark-h-alt, $danger-dark-s-alt, $danger-dark-l-alt),
+      "danger-ultra-dark": hsl($danger-ultra-dark-h-alt, $danger-ultra-dark-s-alt, $danger-ultra-dark-l-alt),
+      "danger-comp": hsl($danger-h-alt + 180, $danger-s-alt, $danger-l-alt),
+    ),
+    "trans": (
+      "danger-trans-10": rgba($danger-alt-hex, .1),
+      "danger-trans-20": rgba($danger-alt-hex, .2),
+      "danger-trans-30": rgba($danger-alt-hex, .3),
+      "danger-trans-40": rgba($danger-alt-hex, .4),
+      "danger-trans-50": rgba($danger-alt-hex, .5),
+      "danger-trans-60": rgba($danger-alt-hex, .6),
+      "danger-trans-70": rgba($danger-alt-hex, .7),
+      "danger-trans-80": rgba($danger-alt-hex, .8),
+      "danger-trans-90": rgba($danger-alt-hex, .9),
+    ),
+    "light-trans": (
+      "danger-light-trans-10": hsl($danger-light-h-alt, $danger-light-s-alt, $danger-light-l-alt, .1),
+      "danger-light-trans-20": hsl($danger-light-h-alt, $danger-light-s-alt, $danger-light-l-alt, .2),
+      "danger-light-trans-30": hsl($danger-light-h-alt, $danger-light-s-alt, $danger-light-l-alt, .3),
+      "danger-light-trans-40": hsl($danger-light-h-alt, $danger-light-s-alt, $danger-light-l-alt, .4),
+      "danger-light-trans-50": hsl($danger-light-h-alt, $danger-light-s-alt, $danger-light-l-alt, .5),
+      "danger-light-trans-60": hsl($danger-light-h-alt, $danger-light-s-alt, $danger-light-l-alt, .6),
+      "danger-light-trans-70": hsl($danger-light-h-alt, $danger-light-s-alt, $danger-light-l-alt, .7),
+      "danger-light-trans-80": hsl($danger-light-h-alt, $danger-light-s-alt, $danger-light-l-alt, .8),
+      "danger-light-trans-90": hsl($danger-light-h-alt, $danger-light-s-alt, $danger-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "danger-dark-trans-10": hsl($danger-dark-h-alt, $danger-dark-s-alt, $danger-dark-l-alt, .1),
+      "danger-dark-trans-20": hsl($danger-dark-h-alt, $danger-dark-s-alt, $danger-dark-l-alt, .2),
+      "danger-dark-trans-30": hsl($danger-dark-h-alt, $danger-dark-s-alt, $danger-dark-l-alt, .3),
+      "danger-dark-trans-40": hsl($danger-dark-h-alt, $danger-dark-s-alt, $danger-dark-l-alt, .4),
+      "danger-dark-trans-50": hsl($danger-dark-h-alt, $danger-dark-s-alt, $danger-dark-l-alt, .5),
+      "danger-dark-trans-60": hsl($danger-dark-h-alt, $danger-dark-s-alt, $danger-dark-l-alt, .6),
+      "danger-dark-trans-70": hsl($danger-dark-h-alt, $danger-dark-s-alt, $danger-dark-l-alt, .7),
+      "danger-dark-trans-80": hsl($danger-dark-h-alt, $danger-dark-s-alt, $danger-dark-l-alt, .8),
+      "danger-dark-trans-90": hsl($danger-dark-h-alt, $danger-dark-s-alt, $danger-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "danger-ultra-dark-trans-10": hsl($danger-ultra-dark-h-alt, $danger-ultra-dark-s-alt, $danger-ultra-dark-l-alt, .1),
+      "danger-ultra-dark-trans-20": hsl($danger-ultra-dark-h-alt, $danger-ultra-dark-s-alt, $danger-ultra-dark-l-alt, .2),
+      "danger-ultra-dark-trans-30": hsl($danger-ultra-dark-h-alt, $danger-ultra-dark-s-alt, $danger-ultra-dark-l-alt, .3),
+      "danger-ultra-dark-trans-40": hsl($danger-ultra-dark-h-alt, $danger-ultra-dark-s-alt, $danger-ultra-dark-l-alt, .4),
+      "danger-ultra-dark-trans-50": hsl($danger-ultra-dark-h-alt, $danger-ultra-dark-s-alt, $danger-ultra-dark-l-alt, .5),
+      "danger-ultra-dark-trans-60": hsl($danger-ultra-dark-h-alt, $danger-ultra-dark-s-alt, $danger-ultra-dark-l-alt, .6),
+      "danger-ultra-dark-trans-70": hsl($danger-ultra-dark-h-alt, $danger-ultra-dark-s-alt, $danger-ultra-dark-l-alt, .7),
+      "danger-ultra-dark-trans-80": hsl($danger-ultra-dark-h-alt, $danger-ultra-dark-s-alt, $danger-ultra-dark-l-alt, .8),
+      "danger-ultra-dark-trans-90": hsl($danger-ultra-dark-h-alt, $danger-ultra-dark-s-alt, $danger-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "danger-hex": $danger-alt-hex,
+        "danger-hsl": $danger-h $danger-s $danger-l-alt,
+        "danger-rgb": $danger-r $danger-g $danger-b-alt,
+        "danger-r": $danger-r-alt,
+        "danger-g": $danger-g-alt,
+        "danger-b": $danger-b-alt,
+        "danger-h": $danger-h-alt,
+        "danger-s": $danger-s-alt,
+        "danger-l": $danger-l-alt,
+        "danger-hover-h": $danger-hover-h-alt,
+        "danger-hover-s": $danger-hover-s-alt,
+        "danger-hover-l": $danger-hover-l-alt,
+        "danger-ultra-light-h": $danger-ultra-light-h-alt,
+        "danger-ultra-light-s": $danger-ultra-light-s-alt,
+        "danger-ultra-light-l": $danger-ultra-light-l-alt,
+        "danger-light-h": $danger-light-h-alt,
+        "danger-light-s": $danger-light-s-alt,
+        "danger-light-l": $danger-light-l-alt,
+        "danger-semi-light-h": $danger-semi-light-h-alt,
+        "danger-semi-light-s": $danger-semi-light-s-alt,
+        "danger-semi-light-l": $danger-semi-light-l-alt,
+        "danger-semi-dark-h": $danger-semi-dark-h-alt,
+        "danger-semi-dark-s": $danger-semi-dark-s-alt,
+        "danger-semi-dark-l": $danger-semi-dark-l-alt,
+        "danger-dark-h": $danger-dark-h-alt,
+        "danger-dark-s": $danger-dark-s-alt,
+        "danger-dark-l": $danger-dark-l-alt,
+        "danger-ultra-dark-h": $danger-ultra-dark-h-alt,
+        "danger-ultra-dark-s": $danger-ultra-dark-s-alt,
+        "danger-ultra-dark-l": $danger-ultra-dark-l-alt,
+        "danger-comp-h": $danger-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-danger-clr-alt == on and $option-danger-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-danger-alt: map-merge($color-danger-alt, (
+      "main": map-merge(map-get($color-danger-alt, "main"), (
+        "danger-medium": hsl($danger-medium-h-alt, $danger-medium-s-alt, $danger-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-danger-alt, "partials"), (
+        "danger-medium-h": $danger-medium-h-alt,
+        "danger-medium-s": $danger-medium-s-alt,
+        "danger-medium-l": $danger-medium-l-alt
+      ))
+    ));
+  }
+}

@@ -1,0 +1,581 @@
+@font-face {
+    font-family: dashicons;
+    src: url(/wp-includes/fonts/dashicons.woff),
+    url(/wp-includes/fonts/dashicons.ttf) format("truetype"),
+    url(/wp-includes/fonts/dashicons.svg#dashicons) format("svg"),
+    url(/wp-includes/fonts/dashicons.eot);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+*   Popup General Settings
+*/
+
+#trp_ald_modal_container{
+    background-color: rgba(0,0,0,0.2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2000000000000;
+    pointer-events: none;
+}
+
+#trp_ald_modal_popup{
+    box-shadow: 0 0 10px #6c7781;
+    top: 40px !important;
+    position: relative;
+}
+
+#trp_ald_modal_popup{
+    background-color: #F0F0EE;
+    width: 570px;
+    max-width: 75%;
+    border: 1px solid #4c6066;
+
+    padding: 25px 40px;
+    margin: auto;
+    pointer-events: auto;
+}
+
+/*
+ *  Popup textarea
+ */
+
+#trp_ald_popup_text{
+    text-align: left;
+    font-size: 17px;
+}
+
+/*
+ *  Popup Change Language Button and Select
+ */
+
+.trp_ald_select_and_button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    font-size: 17px;
+}
+
+.trp_ald_button{
+    margin-left: 12px;
+    width: 287px;
+}
+
+#trp_ald_popup_change_language{
+    text-transform: none;
+    width: 100%;
+
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+
+    font-weight: normal;
+    font-size: 17px;
+    height: 50px;
+    min-height: 30px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+#trp_ald_popup_change_language:hover {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+}
+
+/*
+ *  Popup Close Button and Textarea
+ */
+
+#trp_ald_x_button_and_textarea{
+    text-decoration: none;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    cursor: pointer !important;
+    color: #0085ba !important;
+    font-size: 14px;
+    margin-top: 15px;
+    width:50%;
+    height: 100%;
+    pointer-events: visibleFill;
+}
+
+#trp_ald_x_button_textarea{
+    text-decoration: underline;
+    margin-bottom: 3px;
+    height: auto;
+    width:auto;
+    color: #0085ba !important;
+    cursor: pointer !important;
+    text-align: left;
+}
+
+#trp_ald_x_button_textarea:hover{
+    background-color: transparent;
+    pointer-events: auto;
+    cursor: pointer !important;
+    z-index: 20000000000000;
+}
+
+#trp_ald_modal_popup #trp_ald_x_button{
+    display: inline-table;
+    width: 0;
+    background: 0 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    color: transparent;
+    -webkit-backface-visibility: hidden;
+    outline:none;
+    z-index: 1;
+}
+
+#trp_ald_modal_popup #trp_ald_x_button::before {
+    content: "\f153";
+    font: normal 16px/20px dashicons;
+    text-align: center;
+
+    color: #0085ba !important;
+    background: 0 0 !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+#trp_ald_modal_popup #trp_ald_x_button::before:hover{
+    background: 0 0;
+}
+
+    /*
+     *  Popup and Hello Bar Language Switcher Aspect
+     */
+
+.trp_ald_ls_container{
+    height: 50px;
+    width: 100%;
+    color: #4c6066;
+    font-size: 19px;
+}
+
+.trp_ald_ls_container .trp-language-switcher-container{
+    width: 100%;
+    margin: 0;
+    user-select: none;
+}
+
+.trp_ald_ls_container .trp-language-switcher-container > div{
+
+    background-image: linear-gradient(
+            60deg
+            , transparent 50%, #C9C0BB 50%), linear-gradient(
+            120deg
+            , #C9C0BB 50%, transparent 50%);
+
+    background-position: calc(100% - 18px) calc(1em), calc(100% - 12px) calc(1em);
+    background-size: 6px 12px, 6px 12px;
+    background-repeat: no-repeat;
+}
+
+.trp_ald_ls_container .trp-language-switcher-container .trp-ls-shortcode-language.trp-ls-clicked{
+
+    background-image: none;
+}
+
+.trp_ald_ls_container .trp-ls-shortcode-current-language{
+    width: 100%;
+    height: 50px;
+    justify-content: left;
+    padding-bottom: 12px;
+    border: 2px solid #C9C0BB;
+    padding-top: 8px;
+    padding-right: 33px;
+    vertical-align: middle;
+    color: #4c6066;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.trp_ald_ls_container .trp-ls-shortcode-language{
+    width: 100%;
+    height: 50px;
+    justify-content: left;
+    border: 2px solid #C9C0BB;
+
+    z-index: 1000000000000000;
+}
+
+
+.trp_ald_ls_container .trp-ls-shortcode-current-language:hover{
+    cursor: pointer;
+}
+
+.trp_ald_ls_container .trp-ls-shortcode-language > div:hover{
+    cursor: pointer;
+    background: #135e96;
+    color: #ffffff;
+}
+
+.trp_ald_ls_container .trp-ald-popup-select{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 33px;
+    font-size: 18px;
+    margin-right: -15px;
+}
+
+
+.trp_ald_ls_container .trp-ls-shortcode-current-language{
+    padding-bottom: 12px;
+    padding-top: 6px;
+    vertical-align: middle;
+    color: #4c6066;
+    font-size: 18px;
+}
+
+.trp_ald_ls_container .trp-ls-shortcode-language{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    vertical-align: middle;
+    color: #4c6066;
+    font-size: 18px;
+}
+
+
+.trp_ald_ls_container .trp-ls-shortcode-current-language img.trp-flag-image{
+    display: inline-block;
+    padding-top: 9px;
+    margin-left: 8px;
+    margin-right: 8px;
+    pointer-events: none;
+}
+
+.trp_ald_ls_container .trp-ls-shortcode-language img.trp-flag-image{
+
+    display: inline-block;
+    padding-top: 9px;
+    margin-left: 8px;
+    margin-right: 8px;
+    pointer-events: none;
+
+}
+
+.trp_ald_ls_container #trp_ald_popup_current_language{
+    padding-top: 8px;
+    padding-right: 33px;
+    vertical-align: middle;
+    color: #4c6066;
+    font-size: 18px;
+    overflow: hidden;
+
+}
+
+#trp_ald_popup_select_container .trp-ls-shortcode-language{
+    display: none;
+}
+
+/*
+ *  Make Language Switcher Clickable
+ */
+
+.trp_ald_ls_container .trp-language-switcher .trp-ls-shortcode-current-language.trp-ls-clicked{
+    visibility: hidden;
+}
+
+.trp_ald_ls_container .trp-language-switcher:hover div.trp-ls-shortcode-current-language{
+    visibility: visible;
+}
+
+.trp_ald_ls_container .trp-language-switcher:hover div.trp-ls-shortcode-language{
+    visibility: hidden;
+    height: 1px;
+}
+
+.trp_ald_ls_container .trp-language-switcher .trp-ls-shortcode-language.trp-ls-clicked,
+.trp_ald_ls_container .trp-language-switcher:hover .trp-ls-shortcode-language.trp-ls-clicked{
+    visibility:visible;
+    height:auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block !important;
+}
+
+
+/*
+ *  Hello Bar General Settings
+ */
+
+#trp_no_text_popup_wrap{
+    width: 100%;
+    background-color: #F0F0EE;
+    z-index: 999999999999999999999999999999999;
+    box-shadow: 0 0 10px #6c7781;
+}
+
+#trp_no_text_popup{
+    align-items: center;
+    padding: 25px 30px;
+    border: 1px solid grey;
+    justify-content: space-between;
+    display: flex;
+    vertical-align: middle;
+
+}
+
+#trp_ald_not_text_popup_ls_and_button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    vertical-align: middle;
+    align-items: center;
+}
+
+/*
+ *  Hello Bar Textarea
+ */
+#trp_ald_no_text_popup_div {
+    text-align: left;
+    font-size: 17px;
+    margin-right: 10px;
+    max-width: 375px;
+}
+
+
+
+/*
+ *  Hello Bar Change Language Button and Select
+ */
+
+#trp_ald_not_text_popup_buttons_wrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trp_ald_not_text_popup_ls_and_button .trp_ald_ls_container{
+    max-width: 240px;
+    color: #4c6066;
+    font-size: 19px;
+}
+
+#trp_ald_not_text_popup_ls_and_button .trp_ald_ls_container #trp_ald_popup_current_language{
+    padding-top: 8px;
+    padding-right: 33px;
+    vertical-align: middle;
+    color: #4c6066;
+    font-size: 18px;
+    overflow: hidden;
+
+}
+
+#trp_ald_not_text_popup_ls_and_button .trp_ald_ls_container .trp-ls-shortcode-language{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    vertical-align: middle;
+}
+
+/*
+ *  Hello Bar Change Language Button
+ */
+.trp_ald_change_language_div{
+    min-width: 173px;
+    height: auto;
+}
+#trp_ald_no_text_popup_change_language{
+    text-transform: none;
+    padding: 4px 10px;
+    height: 50px;
+
+    text-align: center;
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin-left: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+#trp_ald_no_text_popup_change_language:hover {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+}
+
+/*
+ * Hello Bar Close Button
+ */
+
+#trp_ald_no_text_popup_x{
+    width: 65px;
+    padding-left: 5px;
+}
+
+#trp_no_text_popup #trp_close{
+    width: 0;
+    background: 0 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    color: transparent;
+    -webkit-backface-visibility: hidden;
+    outline:none;
+}
+
+#trp_no_text_popup #trp_close::before {
+    content: "\f153";
+    font: normal 35px/40px dashicons;
+    text-align: center;
+    cursor: pointer;
+
+    color: #0085ba !important;
+    background: 0 0 !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+#trp_ald_no_text_popup_x_button_and_textarea{
+    display:none;
+    cursor: pointer;
+    vertical-align: middle;
+
+}
+
+#trp_ald_no_text_popup_x_button_textarea{
+    text-decoration: underline;
+    margin-bottom: 3px;
+    color: #0085ba;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#trp_ald_no_text_popup_x_button{
+    width: 0;
+    background: 0 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    color: transparent;
+    -webkit-backface-visibility: hidden;
+    outline:none;
+}
+
+#trp_ald_no_text_popup_x_button::before{
+    content: "\f153";
+    font: normal 16px/20px dashicons;
+    text-align: center;
+
+    color: #0085ba !important;
+    background: 0 0 !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/*
+ *  Responsive Popup and Hello Bar
+ */
+@media screen and (max-width: 937px){
+    /*
+    Hello Bar x button overlaps with Change Language Button
+     */
+    #trp_ald_not_text_popup_ls_and_button{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #trp_ald_modal_popup {
+        width: 80%;
+    }
+    .trp_ald_select_and_button{
+        display: block;
+        margin-top: 32px;
+    }
+    .trp_ald_ls_container #trp_ald_popup_current_language{
+        overflow: hidden;
+    }
+
+    .trp_ald_button{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 14px;
+    }
+
+    #trp_ald_x_button_and_textarea{
+        width: 100%;
+    }
+
+    /*
+     *  Hello Bar
+     */
+
+    #trp_no_text_popup{
+        justify-content: center;
+    }
+
+    #trp_ald_not_text_popup_ls_and_button{
+        display: block;
+        max-width: 240px;
+
+    }
+    #trp_ald_no_text_popup_x{
+        display:none;
+    }
+    #trp_ald_no_text_popup_x_button_and_textarea{
+        display: block;
+    }
+    #trp_ald_not_text_popup_ls_and_button .trp_ald_ls_container{
+        max-width: 100%;
+        margin-top: 32px;
+    }
+
+    #trp_ald_no_text_popup_select_container{
+        display: none;
+    }
+
+    .trp_ald_change_language_div{
+        width: 100%;
+        margin-top: 14px;
+        min-width: 30px;
+    }
+
+    #trp_ald_no_text_popup_change_language{
+        margin-left: 0;
+        height: unset;
+        white-space: pre-wrap;
+    }
+
+    #trp_ald_no_text_popup_x_button_and_textarea{
+        margin-top: 15px;
+    }
+
+}

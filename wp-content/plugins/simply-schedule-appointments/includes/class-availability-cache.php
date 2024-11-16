@@ -169,7 +169,6 @@ class SSA_Availability_Cache {
 				return;
 			}
 			unset( $availability_row['id'] );
-			$start_date = $availability_row['start_date'];
 			$availability_row = shortcode_atts( array(
 				'capacity_available' => '',
 				'capacity_reserved' => '',
@@ -181,7 +180,7 @@ class SSA_Availability_Cache {
 				),
 			), $availability_row );
 			$availability_block = SSA_Availability_Block_Factory::create( $availability_row );
-			$availability_blocks[$start_date] = $availability_block;
+			$availability_blocks[] = $availability_block;
 		}
 
 		$schedule = $schedule->set_blocks( $availability_blocks, true ); // added for performance October 19, 2023
@@ -327,9 +326,6 @@ class SSA_Availability_Cache {
 			}
 			// sleep 0, 1 or 2 seconds randomly
 			sleep( rand( 0, 2 ) );
-		}
-		if ( false === $result ) {
-			ssa_debug_log("Deadlock could not be resolved after trying 10 times. Query: " . $sql);
 		}
 
 		return $result;

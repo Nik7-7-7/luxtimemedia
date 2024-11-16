@@ -1,0 +1,113 @@
+#aikit-auto-writer-topic {
+    min-height: 100px;
+}
+.form-check-input:checked {
+    background: none !important;
+}
+
+.wp-core-ui select {
+    max-width: none !important;
+}
+
+form#aikit-auto-writer-form, #aikit-scheduler-generators {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eff4fb;
+    /** drop shadow **/
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+
+#aikit-auto-writer-generate img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: -4px;
+    filter: invert(100%);
+}
+
+label.aikit-auto-writer {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.aikit-dont-close-page {
+    display: none;
+    font-size: 12px;
+}
+
+.aikit-auto-writer-prompt-description {
+    font-size: 12px;
+}
+
+.aikit-auto-writer-placeholder-descriptions{
+    font-size: 13px !important;
+}
+
+.aikit-badge, .aikit-badge-active {
+    background-color: #0d6efdd9;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.aikit-badge-inactive {
+    background-color: #ccc;
+    color: #424242;
+}
+
+#aikit-auto-writer-cancel-schedule {
+    cursor: pointer;
+}
+
+.aikit-scheduler-back {
+    cursor: pointer;
+    font-size: 13px;
+    margin: 5px;
+}
+
+#aikit-scheduler-tabs li {
+    margin-bottom: 0 !important;
+
+}
+
+.aikit-scheduler-generators-pagination a {
+    margin: 5px;
+}
+
+.aikit-scheduler-generators-pagination-current {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 23px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.aikit-top-hidden-note {
+    display: none;
+}
+
+.aikit-top-hidden-toggle {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-weight: bold;
+}

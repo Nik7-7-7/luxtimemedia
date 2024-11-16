@@ -1,0 +1,23 @@
+// $option-color-scheme: off !default;
+$website-color-scheme: light !default;
+
+// Check to see if any alternate colors are on
+// and activate color-scheme conditionally
+
+$option-color-scheme: off;
+
+@if $option-action-clr-alt == on
+    or $option-primary-clr-alt == on
+    or $option-secondary-clr-alt == on
+    or $option-accent-clr-alt == on
+    or $option-base-clr-alt == on
+    or $option-shade-clr-alt == on
+    or $option-neutral-clr-alt == on
+    or $option-success-clr-alt == on
+    or $option-warning-clr-alt == on
+    or $option-info-clr-alt == on
+    or $option-danger-clr-alt == on {
+        $option-color-scheme: on;
+        } @else {
+        $option-color-scheme: off;
+}

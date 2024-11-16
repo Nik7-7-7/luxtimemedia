@@ -1,0 +1,81 @@
+// Feature Switch
+$option-cards: off !default;
+$card-selectors-map:(".test-card");
+$card-selectors-user: null !default;
+$card-selectors: map-append($card-selectors-map, $card-selectors-user);
+$option-auto-card-selector: on !default;
+
+/// Card Framework Variables
+$primary-card-style: light !default;
+// Light Card Colors
+$light-card-background: var(--white) !default;
+$light-card-heading-color: null !default;
+$light-card-text-color: var(--text-dark-muted) !default;
+$light-card-link-color: null !default;
+$light-card-link-hover-color: null !default;
+$light-card-button-style: null !default;
+$light-card-icon-color: null !default;
+// Dark Card Colors
+$dark-card-background: var(--white) !default;
+$dark-card-heading-color: null !default;
+$dark-card-text-color: var(--text-dark-muted) !default;
+$dark-card-link-color: null !default;
+$dark-card-link-hover-color: null !default;
+$dark-card-button-style: null !default;
+$dark-card-icon-color: null !default;
+// Spacing
+$card-padding: var(--space-m) !default;
+$card-gap: calc(var(--content-gap) / 2) !default;
+// Border
+$card-border-width: var(--border-size) !default;
+$card-border-style: var(--border-style) !default;
+$card-border-color: var(--border-color-dark) !default;
+$card-border-radius: 1rem !default;
+// Typography
+$card-heading-size: var(--h3) !default;
+$card-text-size: 1em !default;
+$card-button-font-size: var(--text-s) !default;
+// Icons
+$card-icon-size: 48px !default;
+$card-line-height: 1.4 !default;
+$card-icon-color: var(--primary) !default;
+// Avatars
+$card-avatar-radius: 50vw !default;
+$card-avatar-size: 98px !default;
+$card-avatar-aspect-ratio: 1;
+// Media
+$card-media-radius: var(--radius) !default;
+
+// Card Styles Map
+$card-styles: (
+  'light-card-background': $light-card-background,
+  'light-card-heading-color': $light-card-heading-color,
+  'light-card-text-color': $light-card-text-color,
+  'light-card-link-color': $light-card-link-color,
+  'light-card-link-hover-color': $light-card-link-hover-color,
+  'light-card-button-style': $light-card-button-style,
+	'light-card-icon-color': $light-card-text-color,
+  'dark-card-background': $dark-card-background,
+  'dark-card-heading-color': $dark-card-heading-color,
+  'dark-card-text-color': $dark-card-text-color,
+  'dark-card-link-color': $dark-card-link-color,
+  'dark-card-link-hover-color': $dark-card-link-hover-color,
+  'dark-card-button-style': $dark-card-button-style,
+	'dark-card-icon-color': $dark-card-text-color,
+  'card-padding': $card-padding,
+  'card-gap': $card-gap,
+  'card-border-width': $card-border-width,
+  'card-border-style': $card-border-style,
+  'card-border-color': $card-border-color,
+  'card-border-radius': $card-border-radius,
+  'card-heading-size': $card-heading-size,
+  'card-text-size': $card-text-size,
+  'card-button-font-size': $card-button-font-size,
+  'card-icon-size': $card-icon-size,
+  'card-line-height': $card-line-height,
+  'card-icon-color': $card-icon-color,
+  'card-avatar-radius': $card-avatar-radius,
+  'card-avatar-size': $card-avatar-size,
+  'card-avatar-aspect-ratio': $card-avatar-aspect-ratio,
+  'card-media-radius': $card-media-radius
+);

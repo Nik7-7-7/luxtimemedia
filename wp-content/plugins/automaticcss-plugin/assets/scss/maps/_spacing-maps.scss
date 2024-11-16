@@ -1,0 +1,71 @@
+$spacing: (
+  pure: (
+    space-xs-pure: 1.896rem,
+    space-s-pure: 2.133rem,
+    space-m-pure: 2.4rem,
+    space-l-pure: 2.7rem,
+    space-xl-pure: 3.038rem,
+    space-xxl-pure: 3.42rem,
+  ),
+  calc: (
+    space-xs-calc: fluidCalc($space-xs-min, $space-xs-max),
+    space-s-calc: fluidCalc($space-s-min, $space-s-max),
+    space-m-calc: fluidCalc($space-m-min, $space-m-max),
+    space-l-calc: fluidCalc($space-l-min, $space-l-max),
+    space-xl-calc: fluidCalc($space-xl-min, $space-xl-max),
+    space-xxl-calc: fluidCalc($space-xxl-min, $space-xxl-max),
+  ),
+  clamp: (
+    space-xs-clamp: fluidClamp($space-xs-min, $space-xs-max),
+    space-s-clamp: fluidClamp($space-s-min, $space-s-max),
+    space-m-clamp: fluidClamp($space-m-min, $space-m-max),
+    space-l-clamp: fluidClamp($space-l-min, $space-l-max),
+    space-xl-clamp: fluidClamp($space-xl-min, $space-xl-max),
+    space-xxl-clamp: fluidClamp($space-xxl-min, $space-xxl-max),
+  ),
+);
+
+$sectionSpacing: (
+  pure: (
+    section-space-xs-pure: 1.896rem,
+    section-space-s-pure: 2.133rem,
+    section-space-m-pure: 2.4rem,
+    section-space-l-pure: 2.7rem,
+    section-space-xl-pure: 3.038rem,
+    section-space-xxl-pure: 3.42rem,
+  ),
+  calc: (
+    section-space-xs-calc: fluidCalc($section-xs-min, $section-xs-max),
+    section-space-s-calc: fluidCalc($section-s-min, $section-s-max),
+    section-space-m-calc: fluidCalc($section-m-min, $section-m-max),
+    section-space-l-calc: fluidCalc($section-l-min, $section-l-max),
+    section-space-xl-calc: fluidCalc($section-xl-min, $section-xl-max),
+    section-space-xxl-calc: fluidCalc($section-xxl-min, $section-xxl-max),
+  ),
+  clamp: (
+    section-space-xs-clamp: fluidClamp($section-xs-min, $section-xs-max),
+    section-space-s-clamp: fluidClamp($section-s-min, $section-s-max),
+    section-space-m-clamp: fluidClamp($section-m-min, $section-m-max),
+    section-space-l-clamp: fluidClamp($section-l-min, $section-l-max),
+    section-space-xl-clamp: fluidClamp($section-xl-min, $section-xl-max),
+    section-space-xxl-clamp: fluidClamp($section-xxl-min, $section-xxl-max),
+  ),
+);
+
+$spacingVariables: (
+  space-xs: $space-xs-pure,
+  space-s: $space-s-pure,
+  space-m: $space-m-pure,
+  space-l: $space-l-pure,
+  space-xl: $space-xl-pure,
+  space-xxl: $space-xxl-pure,
+);
+
+$sectionSpacingVariables: (
+  section-space-xs: $section-space-xs-pure,
+  section-space-s: $section-space-s-pure,
+  section-space-m: $section-space-m-pure,
+  section-space-l: $section-space-l-pure,
+  section-space-xl: $section-space-xl-pure,
+  section-space-xxl: $section-space-xxl-pure,
+);

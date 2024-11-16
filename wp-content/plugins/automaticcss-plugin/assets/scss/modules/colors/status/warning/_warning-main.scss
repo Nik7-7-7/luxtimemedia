@@ -1,0 +1,177 @@
+// warning Options
+$option-warning-clr: on !default;
+$option-warning-main-trans: on !default;
+$option-warning-light-trans: on !default;
+$option-warning-dark-trans: on !default;
+$option-warning-ultra-dark-trans: on !default;
+
+// warning Vars
+$warning-hex: #e56c70 !default;
+$warning-r: 229 !default;
+$warning-g: 108 !default;
+$warning-b: 112 !default;
+$warning-h: 358 !default;
+$warning-s: 70% !default;
+$warning-l: 66% !default;
+$warning-hover-h: 358 !default;
+$warning-hover-s: 70% !default;
+$warning-hover-l: 1.15 !default;
+$warning-ultra-light-h: 358 !default;
+$warning-ultra-light-s: 70% !default;
+$warning-ultra-light-l: 95% !default;
+$warning-light-h: 358 !default;
+$warning-light-s: 70% !default;
+$warning-light-l: 85% !default;
+$warning-medium-h: 358 !default;
+$warning-medium-s: 70% !default;
+$warning-medium-l: 50% !default;
+$warning-dark-h: 358 !default;
+$warning-dark-s: 70% !default;
+$warning-dark-l: 25% !default;
+$warning-ultra-dark-h: 358 !default;
+$warning-ultra-dark-s: 70% !default;
+$warning-ultra-dark-l: 10% !default;
+// Added in 3.0
+$warning-semi-light-h: 358 !default;
+$warning-semi-light-s: 70% !default;
+$warning-semi-light-l: 60% !default;
+$warning-semi-dark-h: 358 !default;
+$warning-semi-dark-s: 70% !default;
+$warning-semi-dark-l: 40% !default;
+
+
+// Warning Color Map
+$color-warning:(); // Initialize Map
+@if $option-warning-clr == on {
+  $color-warning: (
+    "main": (
+      "warning": $warning-hex,
+      "warning-hover": hsl($warning-hover-h, $warning-hover-s, $warning-hover-l),
+      "warning-ultra-light": hsl($warning-ultra-light-h, $warning-ultra-light-s, $warning-ultra-light-l),
+      "warning-light": hsl($warning-light-h, $warning-light-s, $warning-light-l),
+      "warning-semi-light": hsl($warning-semi-light-h, $warning-semi-light-s, $warning-semi-light-l),
+      "warning-semi-dark": hsl($warning-semi-dark-h, $warning-semi-dark-s, $warning-semi-dark-l),
+      "warning-dark": hsl($warning-dark-h, $warning-dark-s, $warning-dark-l),
+      "warning-ultra-dark": hsl($warning-ultra-dark-h, $warning-ultra-dark-s, $warning-ultra-dark-l),
+    ),
+    "trans": (
+      "warning-trans-10": rgba($warning-hex, .1),
+      "warning-trans-20": rgba($warning-hex, .2),
+      "warning-trans-30": rgba($warning-hex, .3),
+      "warning-trans-40": rgba($warning-hex, .4),
+      "warning-trans-50": rgba($warning-hex, .5),
+      "warning-trans-60": rgba($warning-hex, .6),
+      "warning-trans-70": rgba($warning-hex, .7),
+      "warning-trans-80": rgba($warning-hex, .8),
+      "warning-trans-90": rgba($warning-hex, .9),
+    ),
+    "light-trans": (
+      "warning-light-trans-10": hsl($warning-light-h, $warning-light-s, $warning-light-l, .1),
+      "warning-light-trans-20": hsl($warning-light-h, $warning-light-s, $warning-light-l, .2),
+      "warning-light-trans-30": hsl($warning-light-h, $warning-light-s, $warning-light-l, .3),
+      "warning-light-trans-40": hsl($warning-light-h, $warning-light-s, $warning-light-l, .4),
+      "warning-light-trans-50": hsl($warning-light-h, $warning-light-s, $warning-light-l, .5),
+      "warning-light-trans-60": hsl($warning-light-h, $warning-light-s, $warning-light-l, .6),
+      "warning-light-trans-70": hsl($warning-light-h, $warning-light-s, $warning-light-l, .7),
+      "warning-light-trans-80": hsl($warning-light-h, $warning-light-s, $warning-light-l, .8),
+      "warning-light-trans-90": hsl($warning-light-h, $warning-light-s, $warning-light-l, .9),
+    ),
+    "dark-trans": (
+      "warning-dark-trans-10": hsl($warning-dark-h, $warning-dark-s, $warning-dark-l, .1),
+      "warning-dark-trans-20": hsl($warning-dark-h, $warning-dark-s, $warning-dark-l, .2),
+      "warning-dark-trans-30": hsl($warning-dark-h, $warning-dark-s, $warning-dark-l, .3),
+      "warning-dark-trans-40": hsl($warning-dark-h, $warning-dark-s, $warning-dark-l, .4),
+      "warning-dark-trans-50": hsl($warning-dark-h, $warning-dark-s, $warning-dark-l, .5),
+      "warning-dark-trans-60": hsl($warning-dark-h, $warning-dark-s, $warning-dark-l, .6),
+      "warning-dark-trans-70": hsl($warning-dark-h, $warning-dark-s, $warning-dark-l, .7),
+      "warning-dark-trans-80": hsl($warning-dark-h, $warning-dark-s, $warning-dark-l, .8),
+      "warning-dark-trans-90": hsl($warning-dark-h, $warning-dark-s, $warning-dark-l, .9),
+    ),
+    "ultra-dark-trans": (
+      "warning-ultra-dark-trans-10": hsl($warning-ultra-dark-h, $warning-ultra-dark-s, $warning-ultra-dark-l, .1),
+      "warning-ultra-dark-trans-20": hsl($warning-ultra-dark-h, $warning-ultra-dark-s, $warning-ultra-dark-l, .2),
+      "warning-ultra-dark-trans-30": hsl($warning-ultra-dark-h, $warning-ultra-dark-s, $warning-ultra-dark-l, .3),
+      "warning-ultra-dark-trans-40": hsl($warning-ultra-dark-h, $warning-ultra-dark-s, $warning-ultra-dark-l, .4),
+      "warning-ultra-dark-trans-50": hsl($warning-ultra-dark-h, $warning-ultra-dark-s, $warning-ultra-dark-l, .5),
+      "warning-ultra-dark-trans-60": hsl($warning-ultra-dark-h, $warning-ultra-dark-s, $warning-ultra-dark-l, .6),
+      "warning-ultra-dark-trans-70": hsl($warning-ultra-dark-h, $warning-ultra-dark-s, $warning-ultra-dark-l, .7),
+      "warning-ultra-dark-trans-80": hsl($warning-ultra-dark-h, $warning-ultra-dark-s, $warning-ultra-dark-l, .8),
+      "warning-ultra-dark-trans-90": hsl($warning-ultra-dark-h, $warning-ultra-dark-s, $warning-ultra-dark-l, .9),
+    ),
+    "partials": (
+      "warning-hex": $warning-hex,
+        "warning-hsl": $warning-h $warning-s $warning-l,
+        "warning-rgb": $warning-r $warning-g $warning-b,
+        "warning-r": $warning-r,
+        "warning-g": $warning-g,
+        "warning-b": $warning-b,
+        "warning-h": $warning-h,
+        "warning-s": $warning-s,
+        "warning-l": $warning-l,
+        "warning-hover-h": $warning-hover-h,
+        "warning-hover-s": $warning-hover-s,
+        "warning-hover-l": $warning-hover-l,
+        "warning-ultra-light-h": $warning-ultra-light-h,
+        "warning-ultra-light-s": $warning-ultra-light-s,
+        "warning-ultra-light-l": $warning-ultra-light-l,
+        "warning-light-h": $warning-light-h,
+        "warning-light-s": $warning-light-s,
+        "warning-light-l": $warning-light-l,
+        "warning-semi-light-h": $warning-semi-light-h,
+        "warning-semi-light-s": $warning-semi-light-s,
+        "warning-semi-light-l": $warning-semi-light-l,
+        "warning-semi-dark-h": $warning-semi-dark-h,
+        "warning-semi-dark-s": $warning-semi-dark-s,
+        "warning-semi-dark-l": $warning-semi-dark-l,
+        "warning-dark-h": $warning-dark-h,
+        "warning-dark-s": $warning-dark-s,
+        "warning-dark-l": $warning-dark-l,
+        "warning-ultra-dark-h": $warning-ultra-dark-h,
+        "warning-ultra-dark-s": $warning-ultra-dark-s,
+        "warning-ultra-dark-l": $warning-ultra-dark-l,
+    ),
+  );
+
+  // Transparency options
+  @if $option-warning-main-trans == off {
+    $color-warning: map-remove($color-warning, "trans");
+  }
+  @if $option-warning-light-trans == off {
+    $color-warning: map-remove($color-warning, "light-trans");
+  }
+  @if $option-warning-dark-trans == off {
+    $color-warning: map-remove($color-warning, "dark-trans");
+  }
+  @if $option-warning-ultra-dark-trans == off {
+    $color-warning: map-remove($color-warning, "ultra-dark-trans");
+  }
+
+}
+
+// Handle Deprecated Options
+@if $option-warning-clr == on {
+  // Add complimentary color back if enabled
+  @if $option-comp-colors == on {
+    $color-warning: map-merge($color-warning, (
+      "main": map-merge(map-get($color-warning, "main"), (
+        "warning-comp": hsl($warning-h + 180, $warning-s, $warning-l)
+      )),
+      "partials": map-merge(map-get($color-warning, "partials"), (
+        "warning-comp-h": $warning-h + 180
+      ))
+    ));
+  }
+  // Add medium back if enabled
+  @if $option-medium-shade == on {
+    $color-warning: map-merge($color-warning, (
+      "main": map-merge(map-get($color-warning, "main"), (
+        "warning-medium": hsl($warning-medium-h, $warning-medium-s, $warning-medium-l)
+      )),
+      "partials": map-merge(map-get($color-warning, "partials"), (
+        "warning-medium-h": $warning-medium-h,
+        "warning-medium-s": $warning-medium-s,
+        "warning-medium-l": $warning-medium-l
+      ))
+    ));
+  }
+}

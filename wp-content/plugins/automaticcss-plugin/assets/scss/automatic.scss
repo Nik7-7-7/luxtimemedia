@@ -1,0 +1,67 @@
+@import "automatic-imports";
+
+// Modules
+@import "modules/overflow-detection/output";
+@import "modules/variables";
+@import "modules/boxed-layout/output";
+@import "modules/scroll-offset/output";
+@import "modules/colors/color-scheme/output";
+@import "modules/reset";
+@import "modules/accessibility/accessibility";
+@import "modules/accessibility/selection-styling";
+@import "modules/offset-content/offset-content";
+@import "modules/sections/defaults";
+@import "modules/smart-spacing/smart-spacing";
+@import "modules/backgrounds/background-colors";
+@import "modules/textures/classes";
+@import "modules/buttons-links/buttons";
+@import "modules/buttons-links/links/external-links/output";
+@import "modules/contextual/contextuals";
+@import "modules/contextual/relationships/output";
+@import "modules/margin";
+@import "modules/padding/utilities";
+@import "modules/sections/utilities";
+@import "modules/cards/output";
+@import "modules/overlays/classes";
+@import "modules/text/text";
+@import "modules/line-clamp/utilities";
+@import "modules/opacities";
+@import "modules/box-shadow/classes";
+@import "modules/breakouts/classes";
+@import "modules/position";
+@import "modules/sticky/sticky";
+@import "modules/centering";
+@import "modules/flip";
+@import "modules/object-fit/object-fit";
+@import "modules/height";
+@import "modules/columns/columns";
+@import "modules/grid/grid";
+@import "modules/grid/auto-grid/classes";
+@import "modules/flex/flex";
+@import "modules/flex-grid/flex-grids";
+@import "modules/width/width";
+@import "modules/aspect-ratio/aspect-ratios";
+@import "modules/z-index/classes";
+@import "modules/lists";
+@import "modules/corner-ribbons";
+@import "modules/visibility";
+@import "modules/display";
+@import "modules/fallbacks";
+@import "modules/contain";
+@import "modules/gap/gaps";
+@import "platforms/frames/automatic-frames.scss";
+@import "platforms/forms/forms";
+@import "modules/loom-fix";
+@import "modules/borders/classes";
+@import "modules/dividers/classes";
+@import "modules/links";
+@import "modules/transition/classes";
+@import "modules/dashboard-icon-display/output";
+// Deprecated
+@import "modules/deprecated/owl";
+@import "modules/deprecated/text-larger";
+
+
+.test {
+	font-size: fluid(16, 24);
+}

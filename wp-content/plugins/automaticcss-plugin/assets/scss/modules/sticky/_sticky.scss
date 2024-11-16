@@ -1,0 +1,17 @@
+@if $option-position == on {
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    @if $option-sticky-offset == on {
+      inset-block-start: var(--sticky-offset, var(--offset, 0));
+    } @else {
+      inset-block-start: 0;
+    }
+  }
+
+  @each $size, $value in $sticky {
+    .sticky-top--#{$size} {
+        inset-block-start: var(--sticky-top-#{$size}, #{$value});
+    }
+  }
+}

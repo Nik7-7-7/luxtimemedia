@@ -225,9 +225,6 @@ class SSA_Block_Upcoming_Appointments {
 	// }
 	public function render( $settings ) {
 		$attrs = array();
-		if ( $settings['no_results_message'] && $settings['no_results_message'] != 'No upcoming appointments' ) {
-			$attrs['no_results_message'] = $settings['no_results_message'];
-		}
 		if ($this->is_resources_initialized) {
 			if ( ! empty( $settings['selectedResourceTypes'] ) ) {
 				$attrs['resourceTypes'] = $settings['selectedResourceTypes'] ;

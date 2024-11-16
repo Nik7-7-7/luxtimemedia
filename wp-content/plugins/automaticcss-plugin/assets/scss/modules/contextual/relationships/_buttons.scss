@@ -1,0 +1,14 @@
+@each $color, $value in $contextual-button-relationships {
+	@if $value != null and $value != '' {
+		$selector_string: '.bg--#{$color}' + get_texture_selectors($color);
+
+		#{$selector_string} {
+		[class*="btn--"] {
+			@include btn($value, no);
+			&.btn--outline {
+			@include btn("#{$value}.btn--outline", no);
+			}
+		}
+		}
+	}
+}

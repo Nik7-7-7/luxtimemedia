@@ -292,50 +292,7 @@ class SSA_Notices_Data {
 
             )
         ),
-        array(
-            'id' => 'promo-booking-flows',
-            'name' => 'promo-booking-flows',
-            'description' => 'Learn about Booking Flows.',
-            'type' => array( 'feature_setup' ),
-            'active' => true,
-            'priority' => '25',
-            'requires' => array(
-                'current_edition_any' =>  array( '3', '4' ),
-                'min_appt_count' => '',
-                'min_activated_days' => '',
-                'activation_date_after' => '',
-                'active_plugin_any' => array(),
-                'installed_feature_any' => array(),
-                'enabled_feature_any' => array(),
-                'activated_feature_any' => array(),
-                'not_installed_feature_any' => array(),
-                'not_enabled_feature_any' => array(),
-                'not_activated_feature_any' => array(),
-                'current_user_can' => array(),
-            )
-        ),
-        array(
-            'id' => 'unlock-booking-flows-promo',
-            'name' => 'unlock-booking-flows-promo',
-            'description' => 'Unlock Booking Flows by upgrading to Pro or Business edition.',
-            'type' => array( 'feature_promo' ),
-            'active' => true,
-            'priority' => '30',
-            'requires' => array(
-                'current_edition_any' =>  array( '1', '2' ),
-                'min_appt_count' => '',
-                'min_activated_days' => '',
-                'activation_date_after' => '',
-                'active_plugin_any' => array(),
-                'installed_feature_any' => array(),
-                'enabled_feature_any' => array(),
-                'activated_feature_any' => array(),
-                'not_installed_feature_any' => array(),
-                'not_enabled_feature_any' => array(),
-                'not_activated_feature_any' => array(),
-                'current_user_can' => array(),
-            )
-        ),   
+        
     );
 
 
@@ -347,6 +304,7 @@ class SSA_Notices_Data {
     public static function get_notices_list() {
         
         $output = apply_filters( 'ssa/notices/all_notices', self::$all_notices );
+
         return $output;
     }
 

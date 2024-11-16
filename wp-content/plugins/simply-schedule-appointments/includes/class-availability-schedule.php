@@ -29,7 +29,6 @@ class SSA_Availability_Schedule implements Countable, Iterator {
 	protected $new_blocks = array();
 	protected $count = 0;
 	protected $position = 0;
-	protected $_queried_appointments = null;
 
 	const MERGE_MODE_MIN = -1;
 	const MERGE_MODE_MAX = 1;
@@ -46,30 +45,8 @@ class SSA_Availability_Schedule implements Countable, Iterator {
 
 	}
 
-	public function get_keyed_blocks_array( $blocks ) {
-		// check if the blocks are already keyed
-		if ( ! empty( $blocks ) ) {
-			$first_block = reset( $blocks );
-			$first_start_date = $first_block->get_period()->getStartDate()->format( 'Y-m-d H:i:s' );
-			if ( ! empty( $blocks[$first_start_date] ) ) {
-				return $blocks;
-			}
-		}
-
-		// build the keyed blocks array
-		$keyed_blocks = array();
-		foreach ($blocks as $block) {
-			$keyed_blocks[$block->get_period()->getStartDate()->format( 'Y-m-d H:i:s' )] = $block;
-		}
-
-		return $keyed_blocks;
-	} 
-
 	public function set_blocks( $blocks, $is_clean = false ) {
 		$clone = $this->get_clone();
-		// get the first block and see if its array key matches that block's period start date
-		$blocks = $this->get_keyed_blocks_array( $blocks );
-
 		$clone->blocks = $blocks;
 		$clone->is_sorted = $is_clean;
 
@@ -121,7 +98,7 @@ class SSA_Availability_Schedule implements Countable, Iterator {
 		}
 
 		$blocks = $overlapping_schedule->get_blocks();
-		while ( ! empty( $blocks ) && reset( $blocks )->get_period()->getStartDate() < $period->getStartDate() ) {
+		while ( ! empty( $blocks ) && $blocks[0]->get_period()->getStartDate() < $period->getStartDate() ) {
 			$block = array_shift( $blocks );
 			if ( $block->get_period()->getEndDate() <= $period->getStartDate() ) {
 				continue; // this block begins and ends before the desired time, so we should just toss it rather than modify it
@@ -134,7 +111,7 @@ class SSA_Availability_Schedule implements Countable, Iterator {
 			array_unshift( $blocks, $block );
 		}
 
-		while ( ! empty( $blocks ) && end( $blocks )->get_period()->getEndDate() > $period->getEndDate() ) {
+		while ( ! empty( $blocks ) && $blocks[count($blocks)-1]->get_period()->getEndDate() > $period->getEndDate() ) {
 			$block = array_pop( $blocks );
 			if ( $block->get_period()->getStartDate() >= $period->getEndDate() ) {
 				continue; // this block begins and ends after the desired time, so we should just toss it rather than modify it
@@ -218,8 +195,20 @@ class SSA_Availability_Schedule implements Countable, Iterator {
 			return $this;
 		}
 
+		if ( null === $compare ) {
+			$compare = array( $this, 'sort_by_start_date' );
+		}
 		$blocks = $this->blocks;
-		ksort( $blocks );
+		$start_dates = array();
+		foreach ( $blocks as $key => $block ) {
+			$start_dates[$key] = $block->get_period()->getStartDate()->format( 'Y-m-d H:i:s' );
+		}
+		asort( $start_dates );
+		$blocks = array();
+		foreach( $start_dates as $key => $value ) {
+			$blocks[] = $this->blocks[$key];
+		}
+
 		$new_instance = $this->set_blocks( $blocks, true );
 		return $new_instance;
 	}
@@ -238,8 +227,7 @@ class SSA_Availability_Schedule implements Countable, Iterator {
 
 		$blocks = $this->get_blocks();
 		if ( 1 === count( $blocks ) ) {
-			$first_block = reset( $blocks );
-			return $first_block->get_period();
+			return $blocks[0]->get_period();
 		}
 
 
@@ -432,7 +420,7 @@ class SSA_Availability_Schedule implements Countable, Iterator {
 		$intersect_block = new SSA_Availability_Block();
 		$intersect_block->period = $intersect_period;
 
-		$intersect_block->capacity_reserved = min(
+		$intersect_block->capacity_reserved = max(
 			$original_block->capacity_reserved,
 			$new_block->capacity_reserved
 		);
@@ -517,13 +505,7 @@ class SSA_Availability_Schedule implements Countable, Iterator {
 		}
 
 		$clone = $this->get_clone();
-		foreach ( $blocks as $block ) {
-			$start_date = $block->get_period()->getStartDate()->format( 'Y-m-d H:i:s' );
-			if ( ! empty( $clone->blocks[$start_date] ) ) {
-				ssa_debug_log( 'DUPLICATE BLOCK! ' . $start_date, 10 );
-			}
-			$clone->blocks[$start_date] = $block;
-		}
+		$clone->blocks = array_merge($clone->blocks, $blocks);
 		$clone->is_sorted = false;
 
 		return $clone;
@@ -577,14 +559,7 @@ class SSA_Availability_Schedule implements Countable, Iterator {
 		}
 
 		$clone = $this->get_clone();
-		foreach ( $blocks as $block ) {
-			$start_date = $block->get_period()->getStartDate()->format( 'Y-m-d H:i:s' );
-			if ( ! empty( $clone->blocks[$start_date] ) ) {
-				ssa_debug_log( 'DUPLICATE BLOCK! ' . $start_date, 10 );
-			}
-			$clone->blocks[$start_date] = $block;
-		}
-
+		$clone->blocks = array_merge( $blocks, $clone->blocks );
 		$clone->is_sorted = false;
 
 		return $clone;
@@ -820,12 +795,10 @@ class SSA_Availability_Schedule implements Countable, Iterator {
 		$this->position = 0;
 	}
 
-	#[\ReturnTypeWillChange]
 	public function current() {
 		return $this->blocks[$this->position];
 	}
 
-	#[\ReturnTypeWillChange]
 	public function key() {
 		return $this->position;
 	}

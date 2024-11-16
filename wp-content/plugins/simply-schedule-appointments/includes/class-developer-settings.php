@@ -55,7 +55,7 @@ class SSA_Developer_Settings extends SSA_Settings_Schema {
 		// Caution: When schema modified, please modify usage in ssa_uninstall function in simply-schedule-appointments.php
 		$this->schema = array(
 			// YYYY-MM-DD
-			'version' => '2024-04-09',
+			'version' => '2023-04-07',
 			'fields' => array(				
 				'enabled' => array(
 					'name' => 'enabled',
@@ -78,9 +78,9 @@ class SSA_Developer_Settings extends SSA_Settings_Schema {
 				),
 				// Beta Features
 
-				// Old Booking App V1
-				'old_booking_app' => array(
-					'name' => 'old_booking_app',
+				// Booking App V2
+				'beta_booking_app' => array(
+					'name' => 'beta_booking_app',
 					'default_value' => false
 				),
 
@@ -139,24 +139,6 @@ class SSA_Developer_Settings extends SSA_Settings_Schema {
 
 		return $this->schema;
 	}
-	
-	public function validate( $new_settings, $old_settings ) {
-		// we validate values against schema first, and return any schema mismatch errors
-		$schema_invalid_fields = parent::validate( $new_settings, $old_settings );
-		if ( is_wp_error( $schema_invalid_fields ) ) {
-			return $schema_invalid_fields;
-		}
-		
-		// if SSA is currently connected to Google Calendar, prevent toggling quick connect gcal mode
-		if ( true == $this->plugin->google_calendar->is_activated() ) {
-			$old_settings_quick_connect_gcal_mode = isset( $old_settings[ 'quick_connect_gcal_mode' ] ) ? $old_settings['quick_connect_gcal_mode'] : false;
-			$new_settings_quick_connect_gcal_mode = isset( $new_settings[ 'quick_connect_gcal_mode' ] ) ? $new_settings['quick_connect_gcal_mode'] : false;
-			if ( ( bool ) $new_settings_quick_connect_gcal_mode !== ( bool ) $old_settings_quick_connect_gcal_mode ) {
-				return new WP_Error( 'quick_connect_gcal_mode', __( 'Cannot toggle Quick Connect Google Calendar Mode while connected to Google Calendar.', 'simply-schedule-appointments' ) );
-			}
-		}
-	}
-
 
 	public function maybe_update_debug_mode( $settings, $old_settings ) {
 		if( ! isset( $settings['debug_mode'] ) ) {
@@ -225,12 +207,4 @@ class SSA_Developer_Settings extends SSA_Settings_Schema {
 		$this->plugin->availability_cache_invalidation->invalidate_everything();
 	}
 
-	public function is_in_dev_quick_connect_gcal_mode(){
-		$settings = $this->get();
-		
-		if( empty($settings['quick_connect_gcal_mode'] ) ) {
-			return false;
-		}
-		return true;
-	}
 }

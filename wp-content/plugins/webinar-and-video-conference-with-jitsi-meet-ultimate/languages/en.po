@@ -1,0 +1,990 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-09-23 17:19+0600\n"
+"PO-Revision-Date: 2021-09-23 17:20+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html_e;esc_html__;esc_attr;"
+"esc_attr_e;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: blocks/dist/blocks.build.js:303
+msgid "Settings"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:306
+msgid "From Post?"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:312 inc/elementor.php:94
+msgid "Select Post"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:324 inc/elementor.php:81
+msgid "Name"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:332 inc/elementor.php:106
+#: inc/jitsi-pro-post.php:216
+msgid "Width"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:343 inc/elementor.php:121
+#: inc/jitsi-pro-post.php:223
+msgid "Height"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:354 inc/admin-settings.php:322
+#: inc/elementor.php:288 inc/jitsi-pro-post.php:230
+msgid "Welcome Page"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:362 inc/jitsi-pro-post.php:237
+msgid "Start Audio Only"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:370
+msgid "Audio Muted After"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:381 inc/jitsi-pro-post.php:251
+msgid "Yourself Muted"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:389 inc/admin-settings.php:370
+#: inc/jitsi-pro-post.php:258
+msgid "Start Silent"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:397 inc/elementor.php:179
+msgid "Resolution"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:400 inc/jitsi-pro-post.php:271
+msgid "480p"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:403 inc/jitsi-pro-post.php:272
+msgid "720p"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:406 inc/jitsi-pro-post.php:273
+msgid "1080p"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:409 inc/jitsi-pro-post.php:274
+msgid "1440p"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:412 inc/jitsi-pro-post.php:275
+msgid "2160p"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:415 inc/jitsi-pro-post.php:276
+msgid "4320p"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:424 inc/admin-settings.php:403
+#: inc/jitsi-pro-post.php:280
+msgid "Max Full Resolution"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:435 inc/admin-settings.php:416
+#: inc/jitsi-pro-post.php:287
+msgid "Start Video Muted"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:443 inc/admin-settings.php:428
+#: inc/jitsi-pro-post.php:294
+msgid "Video Muted After"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:454 inc/admin-settings.php:440
+#: inc/jitsi-pro-post.php:301
+msgid "Start Screen Sharing"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:462 inc/admin-settings.php:464
+#: inc/jitsi-pro-post.php:315
+msgid "Enable Recording"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:470 inc/admin-settings.php:488
+#: inc/jitsi-pro-post.php:322
+msgid "Enable Transcription"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:478 inc/admin-settings.php:452
+#: inc/jitsi-pro-post.php:308
+msgid "Enable Livestream"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:486 inc/admin-settings.php:500
+#: inc/jitsi-pro-post.php:329
+msgid "Simulcast"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:504
+msgid "Jitsi Pro"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:507
+msgid "jitsi"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:507
+msgid "meeting"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:507
+msgid "video"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:507
+msgid "conference"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:507
+msgid "zoom"
+msgstr ""
+
+#: gutenberg-init.php:72 gutenberg-init.php:89 init.php:68 init.php:85
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/admin-settings.php:186
+msgid "APP ID"
+msgstr ""
+
+#: inc/admin-settings.php:187 inc/admin-settings.php:206
+msgid "Get it from "
+msgstr ""
+
+#: inc/admin-settings.php:189 inc/admin-settings.php:208
+msgid "JAAS Admin"
+msgstr ""
+
+#: inc/admin-settings.php:191
+msgid "Copy the APP ID from JaaS admin"
+msgstr ""
+
+#: inc/admin-settings.php:205
+msgid "API Key"
+msgstr ""
+
+#: inc/admin-settings.php:210
+msgid "Copy the API Key from JaaS admin"
+msgstr ""
+
+#: inc/admin-settings.php:224
+msgid "Private Key"
+msgstr ""
+
+#: inc/admin-settings.php:225
+msgid "Paste private key content here "
+msgstr ""
+
+#: inc/admin-settings.php:227
+msgid "Generate private key and download"
+msgstr ""
+
+#: inc/admin-settings.php:239
+msgid "User Email"
+msgstr ""
+
+#: inc/admin-settings.php:239
+msgid "Email address of admin"
+msgstr ""
+
+#: inc/admin-settings.php:250
+msgid "User Username"
+msgstr ""
+
+#: inc/admin-settings.php:250
+msgid "Username of the admin"
+msgstr ""
+
+#: inc/admin-settings.php:261
+msgid "User Avatar"
+msgstr ""
+
+#: inc/admin-settings.php:261
+msgid "The avatar url of the admin user"
+msgstr ""
+
+#: inc/admin-settings.php:268
+msgid "280x70px png, up to 4MB"
+msgstr ""
+
+#: inc/admin-settings.php:274
+msgid "User is Moderator"
+msgstr ""
+
+#: inc/admin-settings.php:274
+msgid "Set default user as moderator"
+msgstr ""
+
+#: inc/admin-settings.php:286
+msgid "Other Admin Config"
+msgstr ""
+
+#: inc/admin-settings.php:286
+msgid "Those are on https://jaas.8x8.vc/#/branding"
+msgstr ""
+
+#: inc/admin-settings.php:298
+msgid "Meeting Width"
+msgstr ""
+
+#: inc/admin-settings.php:298 inc/jitsi-pro-post.php:218
+msgid "Width in pixel when not on fullscreen"
+msgstr ""
+
+#: inc/admin-settings.php:310
+msgid "Meeting Height"
+msgstr ""
+
+#: inc/admin-settings.php:310 inc/jitsi-pro-post.php:225
+msgid "Height in pixel when not on fullscreen"
+msgstr ""
+
+#: inc/admin-settings.php:322 inc/jitsi-pro-post.php:232
+msgid "Enable/Disable welcome page"
+msgstr ""
+
+#: inc/admin-settings.php:334
+msgid "Audio Only"
+msgstr ""
+
+#: inc/admin-settings.php:334 inc/jitsi-pro-post.php:239
+msgid "Start conference on audio only"
+msgstr ""
+
+#: inc/admin-settings.php:346
+msgid "Audio Muted"
+msgstr ""
+
+#: inc/admin-settings.php:346 inc/jitsi-pro-post.php:246
+msgid "Participant after nth will be muted"
+msgstr ""
+
+#: inc/admin-settings.php:358
+msgid "Yourself muted"
+msgstr ""
+
+#: inc/admin-settings.php:358 inc/jitsi-pro-post.php:253
+msgid "Start with yourself muted"
+msgstr ""
+
+#: inc/admin-settings.php:370 inc/jitsi-pro-post.php:260
+msgid "Disable local audio output"
+msgstr ""
+
+#: inc/admin-settings.php:382 inc/jitsi-pro-post.php:265
+msgid "Video Resolution"
+msgstr ""
+
+#: inc/admin-settings.php:382 inc/jitsi-pro-post.php:267
+msgid "Start with preferred resolution"
+msgstr ""
+
+#: inc/admin-settings.php:403 inc/jitsi-pro-post.php:282
+msgid "Number of participant with default resolution"
+msgstr ""
+
+#: inc/admin-settings.php:416 inc/jitsi-pro-post.php:289
+msgid "Start call with video muted"
+msgstr ""
+
+#: inc/admin-settings.php:428 inc/jitsi-pro-post.php:296
+msgid "Every participant after nth will start video muted"
+msgstr ""
+
+#: inc/admin-settings.php:440 inc/jitsi-pro-post.php:303
+msgid "Start call with screen sharing instead of camera video"
+msgstr ""
+
+#: inc/admin-settings.php:452 inc/jitsi-pro-post.php:310
+msgid "Turn on livestreaming"
+msgstr ""
+
+#: inc/admin-settings.php:464 inc/jitsi-pro-post.php:317
+msgid "Turn on to record the meeting"
+msgstr ""
+
+#: inc/admin-settings.php:476
+msgid "Enable Outbound"
+msgstr ""
+
+#: inc/admin-settings.php:476
+msgid "Allow outbound on the meeting"
+msgstr ""
+
+#: inc/admin-settings.php:488 inc/jitsi-pro-post.php:324
+msgid "Transcript the meeting"
+msgstr ""
+
+#: inc/admin-settings.php:500 inc/jitsi-pro-post.php:331
+msgid "Enable/Disable simulcast"
+msgstr ""
+
+#: inc/elementor.php:42
+msgid "Jitsi Meet"
+msgstr ""
+
+#: inc/elementor.php:63
+msgid "Configuration"
+msgstr ""
+
+#: inc/elementor.php:70
+msgid "Form Post?"
+msgstr ""
+
+#: inc/elementor.php:84
+msgid "Meeting name here"
+msgstr ""
+
+#: inc/elementor.php:133
+msgid "Start audio only"
+msgstr ""
+
+#: inc/elementor.php:145
+msgid "Start audio muted"
+msgstr ""
+
+#: inc/elementor.php:155
+msgid "Start with audio muted"
+msgstr ""
+
+#: inc/elementor.php:167
+msgid "Start with silent"
+msgstr ""
+
+#: inc/elementor.php:196
+msgid "Max full resolution"
+msgstr ""
+
+#: inc/elementor.php:206
+msgid "Disable Simulcast"
+msgstr ""
+
+#: inc/elementor.php:218
+msgid "Video Muted"
+msgstr ""
+
+#: inc/elementor.php:228
+msgid "Start with video muted"
+msgstr ""
+
+#: inc/elementor.php:240
+msgid "Start screen sharing"
+msgstr ""
+
+#: inc/elementor.php:252
+msgid "File Recording"
+msgstr ""
+
+#: inc/elementor.php:264
+msgid "Transcribing"
+msgstr ""
+
+#: inc/elementor.php:276
+msgid "Live Streaming"
+msgstr ""
+
+#: inc/elementor.php:339 init.php:327
+msgid "Post id missing on shortcode. Use id attribute."
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:22
+msgid "All Meetings"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:23
+msgid "Meetings"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:30 inc/jitsi-pro-admin.php:31
+msgid "Jitsi Meet Pro"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:41
+msgid "APP Settings"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:42 inc/jitsi-pro-admin.php:97
+msgid "API Settings"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:50 inc/jitsi-pro-admin.php:51
+#: inc/jitsi-pro-admin.php:98
+msgid "Admin Settings"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:59 inc/jitsi-pro-admin.php:60
+#: inc/jitsi-pro-admin.php:99
+msgid "Configurations"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:68 inc/jitsi-pro-admin.php:69
+#: inc/jitsi-pro-admin.php:100
+msgid "Audio Settings"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:77 inc/jitsi-pro-admin.php:78
+#: inc/jitsi-pro-admin.php:101
+msgid "Video Settings"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:86 inc/jitsi-pro-admin.php:87
+msgid "Integrations"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:97
+msgid "Authenticate with JAAS"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:98
+msgid "Username, email, avatar etc."
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:99
+msgid "Width, height, recording etc..."
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:100
+msgid "Initial audio configurations..."
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:101
+msgid "Initial video configurations..."
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:131 inc/jitsi-pro-admin.php:175
+#: inc/jitsi-pro-admin.php:213 inc/jitsi-pro-admin.php:251
+#: inc/jitsi-pro-admin.php:289 inc/jitsi-pro-admin.php:327 jitsi-meet-wp.php:76
+#: jitsi-meet-wp.php:92
+msgid "Webinar and Video Conference with Jitsi Meet Premium"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:361
+msgid "App id missing"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:364
+msgid "Api key is missing"
+msgstr ""
+
+#: inc/jitsi-pro-admin.php:367
+msgid "Private key is missing"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:30
+msgid "Meeting Host *"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:32
+msgid "This is host ID for the meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:37
+msgid "Recurring meeting?"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:39
+msgid "Is this a recurring meeting?"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:44
+msgid "Start Date/Time *"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:46
+msgid "Starting date and time of the meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:57
+msgid "End Date/Time *"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:59
+msgid "Ending date and time of the meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:70
+msgid "Recurrence"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:72
+msgid "How the meeting should repeat"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:76
+msgid "Daily"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:77
+msgid "Weekly"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:78
+msgid "Monthly"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:79
+msgid "Yearly"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:89
+msgid "Recurrence on"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:91
+msgid "Which day on the week?"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:95
+msgid "Monday"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:96
+msgid "Tuesday"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:97
+msgid "Wednesday"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:98
+msgid "Thursday"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:99
+msgid "Friday"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:100
+msgid "Saturday"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:101
+msgid "Sunday"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:115
+msgid "Recurrence month"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:117
+msgid "Which month of the year?"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:121
+msgid "January"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:122
+msgid "February"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:123
+msgid "March"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:124
+msgid "April"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:125
+msgid "May"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:126
+msgid "June"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:127
+msgid "July"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:128
+msgid "August"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:129
+msgid "September"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:130
+msgid "October"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:131
+msgid "November"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:132
+msgid "December"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:146 inc/jitsi-pro-post.php:164
+msgid "Recurrence date"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:148 inc/jitsi-pro-post.php:166
+msgid "Which date of the month?"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:182
+msgid "Recurrence time *"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:184
+msgid "Time when the meeting will start"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:195
+msgid "Duration (hr)"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:197
+msgid "Probable running time of the meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:202 inc/jitsi-pro-post.php:638 init.php:551
+msgid "Password"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:204
+msgid "Password to join the meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:209
+msgid "Should Register"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:211
+msgid "If user should be register to join the meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:244
+msgid "Start Audio Muted"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:342 inc/jitsi-pro-post.php:343
+#: inc/jitsi-pro-post.php:344 inc/jitsi-pro-post.php:345 init.php:198
+#: init.php:444
+msgid "Meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:346
+msgid "Add New"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:347
+msgid "Add New Meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:348
+msgid "New Meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:349
+msgid "Edit Meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:350
+msgid "View Meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:351
+msgid "All Meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:352
+msgid "Search Meeting"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:353
+msgid "Parent Meeting:"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:354
+msgid "No meeting found."
+msgstr ""
+
+#: inc/jitsi-pro-post.php:355
+msgid "No meeting found in Trash."
+msgstr ""
+
+#: inc/jitsi-pro-post.php:360
+msgid "Meeting for jitsi pro"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:382
+msgid ""
+"Shortcode <span class=\"jitsi-shortcode-copied\" id=\"jitsi-shortcode-copied"
+"\">Copied to clipboard</span>"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:383
+msgid "Embed In"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:433
+msgid "Meeting Settings"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:498 inc/jitsi-pro-post.php:501
+#: inc/jitsi-pro-post.php:505
+msgid "Time is on GMT"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:507
+msgid "Meeting not ended yet"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:585
+msgid "This email is already registered"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:611
+msgid "Thank you for your registration"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:630
+msgid "Hi"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:631
+msgid ""
+"Just to let you know — we've received your request and confirm your "
+"registration for"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:632
+msgid "Here below is your login details"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:633 init.php:546
+msgid "Meeting Logins"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:636 init.php:549
+msgid "Meeting Link"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:637 init.php:550
+msgid "Login"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:639 init.php:552
+msgid "Time"
+msgstr ""
+
+#: inc/jitsi-pro-post.php:671
+msgid "Your login detail for "
+msgstr ""
+
+#: inc/jitsi-pro-post.php:673
+msgid "You are registered. Password sent to your email"
+msgstr ""
+
+#: inc/mannage-callback.php:72
+msgid "Preview Image Upload"
+msgstr ""
+
+#: inc/mannage-callback.php:76
+msgid "Upload an image"
+msgstr ""
+
+#: inc/mannage-callback.php:91
+msgid ""
+"Some settings like Comany Logo, Background etc are currently not available "
+"via api. You can set your company logo, background ect from the"
+msgstr ""
+
+#: inc/mannage-callback.php:91
+msgid "jaas console"
+msgstr ""
+
+#: inc/single-meeting.php:212 inc/single-meeting.php:229
+msgid "Signin with registration detail to attend the meeting:"
+msgstr ""
+
+#: inc/single-meeting.php:215 inc/single-meeting.php:234
+msgid "Meeting Email"
+msgstr ""
+
+#: inc/single-meeting.php:216 inc/single-meeting.php:237
+msgid "Meeting Password"
+msgstr ""
+
+#: inc/single-meeting.php:217 inc/single-meeting.php:240
+msgid "Signin to Meeting"
+msgstr ""
+
+#: inc/single-meeting.php:219
+msgid "Or, Buy the ticket for the meeting:"
+msgstr ""
+
+#: inc/single-meeting.php:220
+msgid "Buy Now"
+msgstr ""
+
+#: inc/single-meeting.php:244
+msgid "Or, Register to join the meeting:"
+msgstr ""
+
+#: inc/single-meeting.php:252
+msgid "Your Name"
+msgstr ""
+
+#: inc/single-meeting.php:255
+msgid "Your Email"
+msgstr ""
+
+#: inc/single-meeting.php:258
+msgid "Register to Meeting"
+msgstr ""
+
+#: inc/single-meeting.php:278
+msgid "Next meeting on"
+msgstr ""
+
+#: inc/single-meeting.php:283
+msgid "Meeting is running"
+msgstr ""
+
+#: inc/single-meeting.php:283
+msgid "The meeting is started and running"
+msgstr ""
+
+#: inc/single-meeting.php:289
+msgid "Time to go"
+msgstr ""
+
+#: inc/single-meeting.php:294
+msgid "Meeting is finished"
+msgstr ""
+
+#: inc/single-meeting.php:294
+msgid "You are late for the meeting. The meeting was helded"
+msgstr ""
+
+#: inc/single-meeting.php:311 inc/single-meeting.php:330
+msgid "End Meeting"
+msgstr ""
+
+#: inc/single-meeting.php:313 inc/single-meeting.php:332
+msgid "Start Meeting"
+msgstr ""
+
+#: inc/single-meeting.php:316 inc/single-meeting.php:335
+msgid "You are seeing this because you are the author of this meeting"
+msgstr ""
+
+#: inc/single-meeting.php:345
+msgid "Details"
+msgstr ""
+
+#: inc/single-meeting.php:348
+msgid "Topic:"
+msgstr ""
+
+#: inc/single-meeting.php:350
+msgid "Hosted by:"
+msgstr ""
+
+#: inc/single-meeting.php:358 inc/single-meeting.php:382
+msgid "Host Time:"
+msgstr ""
+
+#: inc/single-meeting.php:369 inc/single-meeting.php:393
+msgid "GMT Time:"
+msgstr ""
+
+#: inc/single-meeting.php:379 inc/single-meeting.php:403
+msgid "Your Time"
+msgstr ""
+
+#: inc/single-meeting.php:412
+msgid "Add to"
+msgstr ""
+
+#: inc/single-meeting.php:414
+msgid "Go to Meeting"
+msgstr ""
+
+#: inc/single-meeting.php:417
+msgid "google calendar"
+msgstr ""
+
+#: init.php:199
+msgid "Add a Jitsi Meeting"
+msgstr ""
+
+#: init.php:343
+msgid "No post found"
+msgstr ""
+
+#: init.php:347
+msgid "Wrong post selected"
+msgstr ""
+
+#: init.php:426
+msgid "Jitsi Meeting"
+msgstr ""
+
+#: init.php:439
+msgid "Meeting product?"
+msgstr ""
+
+#: init.php:474
+msgid "Meeting Registration"
+msgstr ""
+
+#: init.php:478
+msgid "Registrant"
+msgstr ""
+
+#: init.php:482
+msgid "Full Name"
+msgstr ""
+
+#: init.php:483
+msgid "Enter full name"
+msgstr ""
+
+#: init.php:489
+msgid "Email Adress"
+msgstr ""
+
+#: init.php:490
+msgid "Enter your email"
+msgstr ""
+
+#: jitsi-meet-wp.php:75
+#, php-format
+msgid "%1$s requires %2$s to be installed and activated. Please install %3$s"
+msgstr ""
+
+#: jitsi-meet-wp.php:77 jitsi-meet-wp.php:78 jitsi-meet-wp.php:93
+msgid "Webinar and Video Conference with Jitsi Meet"
+msgstr ""
+
+#: jitsi-meet-wp.php:91
+#, php-format
+msgid "%1$s requires %2$s version %3$s or greater. Please update your %2$s"
+msgstr ""

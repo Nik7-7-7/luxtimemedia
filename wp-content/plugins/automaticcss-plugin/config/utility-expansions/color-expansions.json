@@ -1,0 +1,202 @@
+{
+	"$schema": "expansions.schema.json",
+	"label": "Color",
+	"expansions": {
+		"primary-clr": {
+			"expandTo": "var(--primary-h) var(--primary-s) var(--primary-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"primary-ultra-light-clr": {
+			"expandTo": "var(--primary-ultra-light-h) var(--primary-ultra-light-s) var(--primary-ultra-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"primary-light-clr": {
+			"expandTo": "var(--primary-light-h) var(--primary-light-s) var(--primary-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"primary-semi-light-clr": {
+			"expandTo": "var(--primary-semi-light-h) var(--primary-semi-light-s) var(--primary-semi-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"primary-semi-dark-clr": {
+			"expandTo": "var(--primary-semi-dark-h) var(--primary-semi-dark-s) var(--primary-semi-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"primary-dark-clr": {
+			"expandTo": "var(--primary-dark-h) var(--primary-dark-s) var(--primary-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"primary-ultra-dark-clr": {
+			"expandTo": "var(--primary-ultra-dark-h) var(--primary-ultra-dark-s) var(--primary-ultra-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"primary-hover-clr": {
+			"expandTo": "var(--primary-hover-h) var(--primary-hover-s) var(--primary-hover-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"secondary-clr": {
+			"expandTo": "var(--secondary-h) var(--secondary-s) var(--secondary-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"secondary-ultra-light-clr": {
+			"expandTo": "var(--secondary-ultra-light-h) var(--secondary-ultra-light-s) var(--secondary-ultra-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"secondary-light-clr": {
+			"expandTo": "var(--secondary-light-h) var(--secondary-light-s) var(--secondary-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"secondary-semi-light-clr": {
+			"expandTo": "var(--secondary-semi-light-h) var(--secondary-semi-light-s) var(--secondary-semi-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"secondary-semi-dark-clr": {
+			"expandTo": "var(--secondary-semi-dark-h) var(--secondary-semi-dark-s) var(--secondary-semi-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"secondary-dark-clr": {
+			"expandTo": "var(--secondary-dark-h) var(--secondary-dark-s) var(--secondary-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"secondary-ultra-dark-clr": {
+			"expandTo": "var(--secondary-ultra-dark-h) var(--secondary-ultra-dark-s) var(--secondary-ultra-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"secondary-hover-clr": {
+			"expandTo": "var(--secondary-hover-h) var(--secondary-hover-s) var(--secondary-hover-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"tertiary-clr": {
+			"expandTo": "var(--tertiary-h) var(--tertiary-s) var(--tertiary-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"tertiary-ultra-light-clr": {
+			"expandTo": "var(--tertiary-ultra-light-h) var(--tertiary-ultra-light-s) var(--tertiary-ultra-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"tertiary-light-clr": {
+			"expandTo": "var(--tertiary-light-h) var(--tertiary-light-s) var(--tertiary-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"tertiary-semi-light-clr": {
+			"expandTo": "var(--tertiary-semi-light-h) var(--tertiary-semi-light-s) var(--tertiary-semi-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"tertiary-semi-dark-clr": {
+			"expandTo": "var(--tertiary-semi-dark-h) var(--tertiary-semi-dark-s) var(--tertiary-semi-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"tertiary-dark-clr": {
+			"expandTo": "var(--tertiary-dark-h) var(--tertiary-dark-s) var(--tertiary-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"tertiary-ultra-dark-clr": {
+			"expandTo": "var(--tertiary-ultra-dark-h) var(--tertiary-ultra-dark-s) var(--tertiary-ultra-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"tertiary-hover-clr": {
+			"expandTo": "var(--tertiary-hover-h) var(--tertiary-hover-s) var(--tertiary-hover-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"accent-clr": {
+			"expandTo": "var(--accent-h) var(--accent-s) var(--accent-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"accent-ultra-light-clr": {
+			"expandTo": "var(--accent-ultra-light-h) var(--accent-ultra-light-s) var(--accent-ultra-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"accent-light-clr": {
+			"expandTo": "var(--accent-light-h) var(--accent-light-s) var(--accent-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"accent-semi-light-clr": {
+			"expandTo": "var(--accent-semi-light-h) var(--accent-semi-light-s) var(--accent-semi-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"accent-semi-dark-clr": {
+			"expandTo": "var(--accent-semi-dark-h) var(--accent-semi-dark-s) var(--accent-semi-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"accent-dark-clr": {
+			"expandTo": "var(--accent-dark-h) var(--accent-dark-s) var(--accent-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"accent-ultra-dark-clr": {
+			"expandTo": "var(--accent-ultra-dark-h) var(--accent-ultra-dark-s) var(--accent-ultra-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"accent-hover-clr": {
+			"expandTo": "var(--accent-hover-h) var(--accent-hover-s) var(--accent-hover-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"base-clr": {
+			"expandTo": "var(--base-h) var(--base-s) var(--base-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"base-ultra-light-clr": {
+			"expandTo": "var(--base-ultra-light-h) var(--base-ultra-light-s) var(--base-ultra-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"base-light-clr": {
+			"expandTo": "var(--base-light-h) var(--base-light-s) var(--base-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"base-semi-light-clr": {
+			"expandTo": "var(--base-semi-light-h) var(--base-semi-light-s) var(--base-semi-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"base-semi-dark-clr": {
+			"expandTo": "var(--base-semi-dark-h) var(--base-semi-dark-s) var(--base-semi-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"base-dark-clr": {
+			"expandTo": "var(--base-dark-h) var(--base-dark-s) var(--base-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"base-ultra-dark-clr": {
+			"expandTo": "var(--base-ultra-dark-h) var(--base-ultra-dark-s) var(--base-ultra-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"base-hover-clr": {
+			"expandTo": "var(--base-hover-h) var(--base-hover-s) var(--base-hover-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"neutral-clr": {
+			"expandTo": "var(--neutral-h) var(--neutral-s) var(--neutral-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"neutral-ultra-light-clr": {
+			"expandTo": "var(--neutral-ultra-light-h) var(--neutral-ultra-light-s) var(--neutral-ultra-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"neutral-light-clr": {
+			"expandTo": "var(--neutral-light-h) var(--neutral-light-s) var(--neutral-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"neutral-semi-light-clr": {
+			"expandTo": "var(--neutral-semi-light-h) var(--neutral-semi-light-s) var(--neutral-semi-light-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"neutral-semi-dark-clr": {
+			"expandTo": "var(--neutral-semi-dark-h) var(--neutral-semi-dark-s) var(--neutral-semi-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"neutral-dark-clr": {
+			"expandTo": "var(--neutral-dark-h) var(--neutral-dark-s) var(--neutral-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"neutral-ultra-dark-clr": {
+			"expandTo": "var(--neutral-ultra-dark-h) var(--neutral-ultra-dark-s) var(--neutral-ultra-dark-l)",
+			"wrapIn": "hsl-wrapper"
+		},
+		"neutral-hover-clr": {
+			"expandTo": "var(--neutral-hover-h) var(--neutral-hover-s) var(--neutral-hover-l)",
+			"wrapIn": "hsl-wrapper"
+		}
+	},
+	"wrappers": {
+		"hsl-wrapper": "hsl(@slot@ / 1)",
+		"rgb-wrapper": "rgb(@slot@)"
+	}
+}

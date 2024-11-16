@@ -1,0 +1,148 @@
+// info Options
+$option-info-clr-alt: off !default;
+
+// info Alt Vars
+$info-alt-hex: #e56c70 !default;
+$info-r-alt: 229 !default;
+$info-g-alt: 108 !default;
+$info-b-alt: 112 !default;
+$info-h-alt: 358 !default;
+$info-s-alt: 70% !default;
+$info-l-alt: 66% !default;
+$info-hover-h-alt: 358 !default;
+$info-hover-s-alt: 70% !default;
+$info-hover-l-alt: 1.15 !default;
+$info-ultra-light-h-alt: 358 !default;
+$info-ultra-light-s-alt: 70% !default;
+$info-ultra-light-l-alt: 95% !default;
+$info-light-h-alt: 358 !default;
+$info-light-s-alt: 70% !default;
+$info-light-l-alt: 85% !default;
+$info-medium-h-alt: 358 !default;
+$info-medium-s-alt: 70% !default;
+$info-medium-l-alt: 50% !default;
+$info-dark-h-alt: 358 !default;
+$info-dark-s-alt: 70% !default;
+$info-dark-l-alt: 25% !default;
+$info-ultra-dark-h-alt: 358 !default;
+$info-ultra-dark-s-alt: 70% !default;
+$info-ultra-dark-l-alt: 10% !default;
+// Added in 3.0
+$info-semi-light-h-alt: 358 !default;
+$info-semi-light-s-alt: 70% !default;
+$info-semi-light-l-alt: 60% !default;
+$info-semi-dark-h-alt: 358 !default;
+$info-semi-dark-s-alt: 70% !default;
+$info-semi-dark-l-alt: 40% !default;
+
+// Info Alt Color Map
+$color-info-alt:(); // Initialize Map
+@if $option-info-clr-alt == on and $option-info-clr == on {
+  $color-info-alt: (
+    "main": (
+      "info": $info-alt-hex,
+      "info-hover": hsl($info-hover-h-alt, $info-hover-s-alt, $info-hover-l-alt),
+      "info-ultra-light": hsl($info-ultra-light-h-alt, $info-ultra-light-s-alt, $info-ultra-light-l-alt),
+      "info-light": hsl($info-light-h-alt, $info-light-s-alt, $info-light-l-alt),
+      "info-semi-light": hsl($info-semi-light-h-alt, $info-semi-light-s-alt, $info-semi-light-l-alt),
+      "info-semi-dark": hsl($info-semi-dark-h-alt, $info-semi-dark-s-alt, $info-semi-dark-l-alt),
+      "info-dark": hsl($info-dark-h-alt, $info-dark-s-alt, $info-dark-l-alt),
+      "info-ultra-dark": hsl($info-ultra-dark-h-alt, $info-ultra-dark-s-alt, $info-ultra-dark-l-alt),
+      "info-comp": hsl($info-h-alt + 180, $info-s-alt, $info-l-alt),
+    ),
+    "trans": (
+      "info-trans-10": rgba($info-alt-hex, .1),
+      "info-trans-20": rgba($info-alt-hex, .2),
+      "info-trans-30": rgba($info-alt-hex, .3),
+      "info-trans-40": rgba($info-alt-hex, .4),
+      "info-trans-50": rgba($info-alt-hex, .5),
+      "info-trans-60": rgba($info-alt-hex, .6),
+      "info-trans-70": rgba($info-alt-hex, .7),
+      "info-trans-80": rgba($info-alt-hex, .8),
+      "info-trans-90": rgba($info-alt-hex, .9),
+    ),
+    "light-trans": (
+      "info-light-trans-10": hsl($info-light-h-alt, $info-light-s-alt, $info-light-l-alt, .1),
+      "info-light-trans-20": hsl($info-light-h-alt, $info-light-s-alt, $info-light-l-alt, .2),
+      "info-light-trans-30": hsl($info-light-h-alt, $info-light-s-alt, $info-light-l-alt, .3),
+      "info-light-trans-40": hsl($info-light-h-alt, $info-light-s-alt, $info-light-l-alt, .4),
+      "info-light-trans-50": hsl($info-light-h-alt, $info-light-s-alt, $info-light-l-alt, .5),
+      "info-light-trans-60": hsl($info-light-h-alt, $info-light-s-alt, $info-light-l-alt, .6),
+      "info-light-trans-70": hsl($info-light-h-alt, $info-light-s-alt, $info-light-l-alt, .7),
+      "info-light-trans-80": hsl($info-light-h-alt, $info-light-s-alt, $info-light-l-alt, .8),
+      "info-light-trans-90": hsl($info-light-h-alt, $info-light-s-alt, $info-light-l-alt, .9),
+    ),
+    "dark-trans": (
+      "info-dark-trans-10": hsl($info-dark-h-alt, $info-dark-s-alt, $info-dark-l-alt, .1),
+      "info-dark-trans-20": hsl($info-dark-h-alt, $info-dark-s-alt, $info-dark-l-alt, .2),
+      "info-dark-trans-30": hsl($info-dark-h-alt, $info-dark-s-alt, $info-dark-l-alt, .3),
+      "info-dark-trans-40": hsl($info-dark-h-alt, $info-dark-s-alt, $info-dark-l-alt, .4),
+      "info-dark-trans-50": hsl($info-dark-h-alt, $info-dark-s-alt, $info-dark-l-alt, .5),
+      "info-dark-trans-60": hsl($info-dark-h-alt, $info-dark-s-alt, $info-dark-l-alt, .6),
+      "info-dark-trans-70": hsl($info-dark-h-alt, $info-dark-s-alt, $info-dark-l-alt, .7),
+      "info-dark-trans-80": hsl($info-dark-h-alt, $info-dark-s-alt, $info-dark-l-alt, .8),
+      "info-dark-trans-90": hsl($info-dark-h-alt, $info-dark-s-alt, $info-dark-l-alt, .9),
+    ),
+    "ultra-dark-trans": (
+      "info-ultra-dark-trans-10": hsl($info-ultra-dark-h-alt, $info-ultra-dark-s-alt, $info-ultra-dark-l-alt, .1),
+      "info-ultra-dark-trans-20": hsl($info-ultra-dark-h-alt, $info-ultra-dark-s-alt, $info-ultra-dark-l-alt, .2),
+      "info-ultra-dark-trans-30": hsl($info-ultra-dark-h-alt, $info-ultra-dark-s-alt, $info-ultra-dark-l-alt, .3),
+      "info-ultra-dark-trans-40": hsl($info-ultra-dark-h-alt, $info-ultra-dark-s-alt, $info-ultra-dark-l-alt, .4),
+      "info-ultra-dark-trans-50": hsl($info-ultra-dark-h-alt, $info-ultra-dark-s-alt, $info-ultra-dark-l-alt, .5),
+      "info-ultra-dark-trans-60": hsl($info-ultra-dark-h-alt, $info-ultra-dark-s-alt, $info-ultra-dark-l-alt, .6),
+      "info-ultra-dark-trans-70": hsl($info-ultra-dark-h-alt, $info-ultra-dark-s-alt, $info-ultra-dark-l-alt, .7),
+      "info-ultra-dark-trans-80": hsl($info-ultra-dark-h-alt, $info-ultra-dark-s-alt, $info-ultra-dark-l-alt, .8),
+      "info-ultra-dark-trans-90": hsl($info-ultra-dark-h-alt, $info-ultra-dark-s-alt, $info-ultra-dark-l-alt, .9),
+    ),
+    "partials": (
+      "info-hex": $info-alt-hex,
+        "info-hsl": $info-h $info-s $info-l-alt,
+        "info-rgb": $info-r $info-g $info-b-alt,
+        "info-r": $info-r-alt,
+        "info-g": $info-g-alt,
+        "info-b": $info-b-alt,
+        "info-h": $info-h-alt,
+        "info-s": $info-s-alt,
+        "info-l": $info-l-alt,
+        "info-hover-h": $info-hover-h-alt,
+        "info-hover-s": $info-hover-s-alt,
+        "info-hover-l": $info-hover-l-alt,
+        "info-ultra-light-h": $info-ultra-light-h-alt,
+        "info-ultra-light-s": $info-ultra-light-s-alt,
+        "info-ultra-light-l": $info-ultra-light-l-alt,
+        "info-light-h": $info-light-h-alt,
+        "info-light-s": $info-light-s-alt,
+        "info-light-l": $info-light-l-alt,
+        "info-semi-light-h": $info-semi-light-h-alt,
+        "info-semi-light-s": $info-semi-light-s-alt,
+        "info-semi-light-l": $info-semi-light-l-alt,
+        "info-semi-dark-h": $info-semi-dark-h-alt,
+        "info-semi-dark-s": $info-semi-dark-s-alt,
+        "info-semi-dark-l": $info-semi-dark-l-alt,
+        "info-dark-h": $info-dark-h-alt,
+        "info-dark-s": $info-dark-s-alt,
+        "info-dark-l": $info-dark-l-alt,
+        "info-ultra-dark-h": $info-ultra-dark-h-alt,
+        "info-ultra-dark-s": $info-ultra-dark-s-alt,
+        "info-ultra-dark-l": $info-ultra-dark-l-alt,
+        "info-comp-h": $info-h-alt + 180,
+    ),
+  );
+}
+
+// Handle deprecated color options
+@if $option-info-clr-alt == on and $option-info-clr == on {
+  // Add medium back
+  @if $option-medium-shade == on {
+    $color-info-alt: map-merge($color-info-alt, (
+      "main": map-merge(map-get($color-info-alt, "main"), (
+        "info-medium": hsl($info-medium-h-alt, $info-medium-s-alt, $info-medium-l-alt)
+      )),
+      "partials": map-merge(map-get($color-info-alt, "partials"), (
+        "info-medium-h": $info-medium-h-alt,
+        "info-medium-s": $info-medium-s-alt,
+        "info-medium-l": $info-medium-l-alt
+      ))
+    ));
+  }
+}

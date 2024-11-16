@@ -228,13 +228,6 @@ class SSA_Templates {
 		$vars['customer_email'] = isset ( $vars['Appointment']['customer_information']['Email'] ) ? $vars['Appointment']['customer_information']['Email'] : '';
 		$vars['customer_name'] = isset ( $vars['Appointment']['customer_information']['Name'] ) ? $vars['Appointment']['customer_information']['Name'] : '';
 
-		
-		// =================================================================================================
-		// important: get meta data early on
-		// =================================================================================================
-		$meta = $this->plugin->appointment_model->get_metas( (int)$vars['appointment_id'], array( 'booking_url', 'booking_post_id', 'booking_title', 'cancelation_note', 'canceled_by_user_id', 'rescheduling_note', 'rescheduled_by_user_id', 'rescheduled_from_start_dates' ) );
-
-		
 		/* BEGIN customer_start_date */
 		if ( ! empty( $vars['Appointment']['customer_locale'] ) ) {
 			$this->plugin->translation->set_programmatic_locale( esc_attr( $vars['Appointment']['customer_locale'] ) );
@@ -253,29 +246,9 @@ class SSA_Templates {
 
 		$vars['Appointment']['customer_start_date'] = ssa_datetime( $vars['Appointment']['start_date'] )->setTimezone( $customer_timezone )->format( $format );
 		$vars['Appointment']['customer_start_date'] = SSA_Utils::translate_formatted_date( $vars['Appointment']['customer_start_date'] );
-		/* END customer_start_date */
-		
-		/* Start customer_prev_start_dates - rescheduling history */
-		if( ! empty( $meta['rescheduled_from_start_dates'] ) ) {
-			$customer_prev_start_dates = array_map( function( $date ) use ( $format, $vars, $customer_timezone ) {
-				$value = ssa_datetime( $date )->setTimezone( $customer_timezone )->format( $format );
-				$value = SSA_Utils::translate_formatted_date( $value );
-				return $value;
-			}, array_reverse( $meta['rescheduled_from_start_dates'] ) );
-			// in business timezone
-			$vars['Appointment']['customer_prev_start_dates'] = implode(",\n", $customer_prev_start_dates );
-			$vars['Appointment']['customer_prev_start_date'] = array_shift( $customer_prev_start_dates );
-		} else {
-			$vars['Appointment']['customer_prev_start_dates'] = null;
-			$vars['Appointment']['customer_prev_start_date'] = null;
-		}
-		/* End customer_prev_start_dates - rescheduling history */
-
-		// =================================================================================================
-		// important: reset the locale to the default locale before proceeding to the business timezone
-		// =================================================================================================
 		$this->plugin->translation->set_programmatic_locale( null );
-		
+		/* END customer_start_date */
+
 		/* BEGIN business_start_date */
 		$format = SSA_Utils::localize_default_date_strings( 'F j, Y g:i a' ) . ' (T)';
 		$vars['Appointment']['business_start_date'] = ssa_datetime( $vars['Appointment']['start_date'] );
@@ -283,23 +256,6 @@ class SSA_Templates {
 		$vars['Appointment']['business_start_date'] = $this->plugin->utils->get_datetime_as_local_datetime( $vars['Appointment']['business_start_date'], $vars['Appointment']['appointment_type_id'] )->format( $format );
 		$vars['Appointment']['business_start_date'] = SSA_Utils::translate_formatted_date( $vars['Appointment']['business_start_date'] );
 		/* END business_start_date */
-		
-		/* Start business_prev_start_dates - rescheduling history */
-		if( ! empty( $meta['rescheduled_from_start_dates'] ) ) {
-			$business_prev_start_dates = array_map( function( $date ) use ( $format, $vars ) {
-				$value = ssa_datetime( $date );
-				$value = $this->plugin->utils->get_datetime_as_local_datetime( $value, $vars['Appointment']['appointment_type_id'] )->format( $format );
-				$value = SSA_Utils::translate_formatted_date( $value );
-				return $value;
-			}, array_reverse( $meta['rescheduled_from_start_dates'] ) );
-			// in business timezone
-			$vars['Appointment']['business_prev_start_dates'] = implode(",\n", $business_prev_start_dates );
-			$vars['Appointment']['business_prev_start_date'] = array_shift( $business_prev_start_dates );
-		} else {
-			$vars['Appointment']['business_prev_start_dates'] = null;
-			$vars['Appointment']['business_prev_start_date'] = null;
-		}
-		/* End business_prev_start_dates - rescheduling history */
 
 		if ( empty( $vars['Appointment']['customer_timezone'] ) || false !== strpos( $vars['Appointment']['customer_timezone'], 'Etc/' ) ) {
 			$vars['Appointment']['customer_timezone'] = $vars['Appointment']['date_timezone'];
@@ -309,7 +265,10 @@ class SSA_Templates {
 		if ( is_object( $vars['Appointment']['date_timezone'] ) ) {
 			$vars['Appointment']['date_timezone'] = $vars['Appointment']['date_timezone']->getName();
 		}
-		
+
+		// Include booking page variables
+		$meta = $this->plugin->appointment_model->get_metas( (int)$vars['appointment_id'], array( 'booking_url', 'booking_post_id', 'booking_title', 'cancelation_note', 'canceled_by_user_id', 'rescheduling_note', 'rescheduled_by_user_id' ) );
+
 		$vars['booking_url'] = isset( $meta['booking_url'] ) ? $meta['booking_url'] : null;
 		$vars['booking_post_id'] = isset( $meta['booking_post_id'] ) ? $meta['booking_post_id'] : null;
 		$vars['booking_title'] = isset( $meta['booking_title'] ) ? $meta['booking_title'] : null;
@@ -350,10 +309,10 @@ class SSA_Templates {
 
 		return $vars;
 	}
-	
-	
+
 	public function render_template_string( $template_string, $vars ) {
-		
+		$context = array();
+
 		$loader = new Twig\Loader\ArrayLoader(
 			array(
 				'template'   => $template_string,
@@ -362,10 +321,6 @@ class SSA_Templates {
 		);
 
 		$twig = new Twig\Environment( $loader );
-		
-		// enable sandbox mode
-		$twig->addExtension( $this->getCustomTwigSandboxExtension() );
-		
 		$twig->addExtension( new SSA_Twig_Extension() );
 		$twig->getExtension( \Twig\Extension\CoreExtension::class )->setTimezone( 'UTC' );
 		try {
@@ -373,30 +328,8 @@ class SSA_Templates {
 		} catch ( Exception $e ) {
 			return $e;
 		}
-		
-		// need to unescape the html so PHP can process it in wp_kses_post
-		// was escaped in the frontend
-		$rendered_template = html_entity_decode($rendered_template);
-		
-		return wp_kses_post($rendered_template);
-	}
-	
-	
-	/**
-	 * Initialize sandbox extension with custom policy to prevent template-injections
-	 *
-	 * @return \Twig\Extension\SandboxExtension
-	 */
-	public function getCustomTwigSandboxExtension()
-	{
-		$tags = array('if', 'else', 'elseif', 'endif', 'include', 'import', 'block', 'set', 'for');
-		$filters = array( 'internationalize', 'trim', 'join', 'number_format', 'date', 'escape', 'trans', 'split', 'length', 'slice', 'lower', 'raw', 'filter', 'date', 'upper', 'link', 'nl2br', 'replace');
-		$methods = array();
-		$properties = array();
-		$functions = array('include', 'path', 'absolute_url', 'asset', 'is_granted', 'attribute');
 
-		$policy = new \Twig\Sandbox\SecurityPolicy($tags, $filters, $methods, $properties, $functions);
-		return new \Twig\Extension\SandboxExtension( $policy, true );
+		return $rendered_template;
 	}
 
 
@@ -595,41 +528,13 @@ class SSA_Templates {
 
 
 	public function cleanup_variables_in_string( $string ) {
-		$string =  $this->strip_mustache_content($string);		
-
 		$string = str_replace(
 			array( '{{', '{{  ', '}}', '  }}', '{%', '{%  ', '%}', '  %}', "\n }}", "\n}}" ),
 			array( '{{ ', '{{ ', ' }}', ' }}', '{% ', '{% ', ' %}', ' %}', ' }}', '}}' ),
 			$string
-		);	
+		);
 
 		return $string;
-	}
-
-	/**
-	 * Cleans HTML tags within mustache and template tags in the provided text.
-	 * 
-	 * This function processes the input text to remove any HTML entities or elements
-	 * inside mustache tags ({{ }}) and template tags ({% %}). It ensures that the content
-	 * within these tags is stripped of any HTML, leaving only the plain text or function calls.
-	 *
-	 * @param string $text The input text containing mustache and template tags.
-	 * @return string The cleaned text with HTML tags removed from mustache and template tags.
-	 */
-	public function strip_mustache_content($text) {
-		$mustachePattern = '/{{\s*([^}]+)\s*}}/';
-				$mustacheCallback = function ($matches) {
-				return '{{' . strip_tags(trim($matches[1])) . '}}';
-		};
-		$text = preg_replace_callback($mustachePattern, $mustacheCallback, $text);
-		
-		$templatePattern = '/{%\s*([^}]+)\s*%}/';
-		$templateCallback = function ($matches) {
-				return '{%' . strip_tags(trim($matches[1])) . '%}';
-		};
-		$text = preg_replace_callback($templatePattern, $templateCallback, $text);
-		
-		return $text;
 	}
 
 	/**

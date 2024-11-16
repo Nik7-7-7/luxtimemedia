@@ -26,7 +26,6 @@ class SSA_Locale {
 	public $google_code = null;
 	public $preferred_sans_serif_font_family = null;
 	public $facebook_locale = null;
-	public $variant;
 	// TODO: days, months, decimals, quotes
 
 	private $_index_for_number;

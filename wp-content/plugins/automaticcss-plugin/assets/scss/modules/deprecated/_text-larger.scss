@@ -1,0 +1,203 @@
+// Larger
+@if $option-text-larger == on {
+    @each $size, $extension in $textExtensions {
+      .text--#{$extension}.text--larger {
+        @if $size == xs {
+          font-size: $text-xs-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $text-xs-min * $text-multiplier-min,
+            $text-xs-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $text-xs-min * $text-multiplier-min,
+            $text-xs-max * $text-multiplier
+          );
+        } @else if $size == s {
+          font-size: $text-s-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $text-s-min * $text-multiplier-min,
+            $text-s-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $text-s-min * $text-multiplier-min,
+            $text-s-max * $text-multiplier
+          );
+        } @else if $size == m {
+          font-size: $text-m-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $text-m-min * $text-multiplier-min,
+            $text-m-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $text-m-min * $text-multiplier-min,
+            $text-m-max * $text-multiplier
+          );
+        } @else if $size == l {
+          font-size: $text-l-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $text-l-min * $text-multiplier-min,
+            $text-l-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $text-l-min * $text-multiplier-min,
+            $text-l-max * $text-multiplier
+          );
+        } @else if $size == xl {
+          font-size: $text-xl-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $text-xl-min * $text-multiplier-min,
+            $text-xl-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $text-xl-min * $text-multiplier-min,
+            $text-xl-max * $text-multiplier
+          );
+        } @else if $size == xxl {
+          font-size: $text-xxl-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $text-xxl-min * $text-multiplier-min,
+            $text-xxl-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $text-xxl-min * $text-multiplier-min,
+            $text-xxl-max * $text-multiplier
+          );
+        }
+      }
+    }
+  
+    @each $size in $headingExtensions {
+      .h--#{$size}.text--larger {
+        @if $size == h6 {
+          font-size: $text-xs-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $h6-min * $text-multiplier-min,
+            $h6-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $h6-min * $text-multiplier-min,
+            $h6-max * $text-multiplier
+          );
+        } @else if $size == h5 {
+          font-size: $text-s-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $h5-min * $text-multiplier-min,
+            $h5-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $h5-min * $text-multiplier-min,
+            $h5-max * $text-multiplier
+          );
+        } @else if $size == h4 {
+          font-size: $text-m-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $h4-min * $text-multiplier-min,
+            $h4-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $h4-min * $text-multiplier-min,
+            $h4-max * $text-multiplier
+          );
+        } @else if $size == h3 {
+          font-size: $text-l-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $h3-min * $text-multiplier-min,
+            $h3-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $h3-min * $text-multiplier-min,
+            $h3-max * $text-multiplier
+          );
+        } @else if $size == h2 {
+          font-size: $text-xl-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $h2-min * $text-multiplier-min,
+            $h2-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $h2-min * $text-multiplier-min,
+            $h2-max * $text-multiplier
+          );
+        } @else if $size == h1 {
+          font-size: $text-xxl-pure * $text-multiplier-min;
+          font-size: fluidCalc(
+            $h1-min * $text-multiplier-min,
+            $h1-max * $text-multiplier
+          );
+          font-size: fluidClamp(
+            $h1-min * $text-multiplier-min,
+            $h1-max * $text-multiplier
+          );
+        }
+      }
+    }
+  
+    // Headings Larger
+  
+    h1.text--larger {
+      font-size: $text-xxl-pure * $text-multiplier-min;
+      font-size: fluidCalc(
+        $h1-min * $text-multiplier-min,
+        $h1-max * $text-multiplier
+      );
+      font-size: fluidClamp(
+        $h1-min * $text-multiplier-min,
+        $h1-max * $text-multiplier
+      );
+    }
+    h2.text--larger {
+      font-size: $text-xl-pure * $text-multiplier-min;
+      font-size: fluidCalc(
+        $h2-min * $text-multiplier-min,
+        $h2-max * $text-multiplier
+      );
+      font-size: fluidClamp(
+        $h2-min * $text-multiplier-min,
+        $h2-max * $text-multiplier
+      );
+    }
+    h3.text--larger {
+      font-size: $text-l-pure * $text-multiplier-min;
+      font-size: fluidCalc(
+        $h3-min * $text-multiplier-min,
+        $h3-max * $text-multiplier
+      );
+      font-size: fluidClamp(
+        $h3-min * $text-multiplier-min,
+        $h3-max * $text-multiplier
+      );
+    }
+    h4.text--larger {
+      font-size: $text-m-pure * $text-multiplier-min;
+      font-size: fluidCalc(
+        $h4-min * $text-multiplier-min,
+        $h4-max * $text-multiplier
+      );
+      font-size: fluidClamp(
+        $h4-min * $text-multiplier-min,
+        $h4-max * $text-multiplier
+      );
+    }
+    h5.text--larger {
+      font-size: $text-s-pure * $text-multiplier-min;
+      font-size: fluidCalc(
+        $h5-min * $text-multiplier-min,
+        $h5-max * $text-multiplier
+      );
+      font-size: fluidClamp(
+        $h5-min * $text-multiplier-min,
+        $h5-max * $text-multiplier
+      );
+    }
+    h6.text--larger {
+      font-size: $text-xs-pure * $text-multiplier-min;
+      font-size: fluidCalc(
+        $h6-min * $text-multiplier-min,
+        $h6-max * $text-multiplier
+      );
+      font-size: fluidClamp(
+        $h6-min * $text-multiplier-min,
+        $h6-max * $text-multiplier
+      );
+    }
+  }

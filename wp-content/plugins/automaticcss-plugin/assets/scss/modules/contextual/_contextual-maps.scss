@@ -1,0 +1,24 @@
+$contextuals: (
+    "spacing": (
+        "content-gap": $contextual-content-gap,
+        "fr-content-gap": $contextual-content-gap,
+        "container-gap": $contextual-container-gap,
+        "fr-container-gap": $contextual-container-gap,
+        "grid-gap": $contextual-grid-gap,
+        "fr-grid-gap": $contextual-grid-gap,
+    ),
+    "background-colors": (
+        "ultra-light": $bg-ultra-light,
+        "light": $bg-light,
+        "dark": $bg-dark,
+        "ultra-dark": $bg-ultra-dark,
+    ),
+    "text-colors": (
+        "light": $text-light,
+        "light-muted": $text-light-muted,
+        "dark": $text-dark,
+        "dark-muted": $text-dark-muted,
+    ),
+);
+
+$contextual-background-colors: map-get($contextuals, "background-colors");

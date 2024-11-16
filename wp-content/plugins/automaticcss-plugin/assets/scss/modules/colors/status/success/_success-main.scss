@@ -1,0 +1,177 @@
+// success Options
+$option-success-clr: on !default;
+$option-success-main-trans: on !default;
+$option-success-light-trans: on !default;
+$option-success-dark-trans: on !default;
+$option-success-ultra-dark-trans: on !default;
+
+// success Vars
+$success-hex: #e56c70 !default;
+$success-r: 229 !default;
+$success-g: 108 !default;
+$success-b: 112 !default;
+$success-h: 358 !default;
+$success-s: 70% !default;
+$success-l: 66% !default;
+$success-hover-h: 358 !default;
+$success-hover-s: 70% !default;
+$success-hover-l: 1.15 !default;
+$success-ultra-light-h: 358 !default;
+$success-ultra-light-s: 70% !default;
+$success-ultra-light-l: 95% !default;
+$success-light-h: 358 !default;
+$success-light-s: 70% !default;
+$success-light-l: 85% !default;
+$success-medium-h: 358 !default;
+$success-medium-s: 70% !default;
+$success-medium-l: 50% !default;
+$success-dark-h: 358 !default;
+$success-dark-s: 70% !default;
+$success-dark-l: 25% !default;
+$success-ultra-dark-h: 358 !default;
+$success-ultra-dark-s: 70% !default;
+$success-ultra-dark-l: 10% !default;
+// Added in 3.0
+$success-semi-light-h: 358 !default;
+$success-semi-light-s: 70% !default;
+$success-semi-light-l: 60% !default;
+$success-semi-dark-h: 358 !default;
+$success-semi-dark-s: 70% !default;
+$success-semi-dark-l: 40% !default;
+
+
+// Success Color Map
+$color-success:(); // Initialize Map
+@if $option-success-clr == on {
+  $color-success: (
+    "main": (
+      "success": $success-hex,
+      "success-hover": hsl($success-hover-h, $success-hover-s, $success-hover-l),
+      "success-ultra-light": hsl($success-ultra-light-h, $success-ultra-light-s, $success-ultra-light-l),
+      "success-light": hsl($success-light-h, $success-light-s, $success-light-l),
+      "success-semi-light": hsl($success-semi-light-h, $success-semi-light-s, $success-semi-light-l),
+      "success-semi-dark": hsl($success-semi-dark-h, $success-semi-dark-s, $success-semi-dark-l),
+      "success-dark": hsl($success-dark-h, $success-dark-s, $success-dark-l),
+      "success-ultra-dark": hsl($success-ultra-dark-h, $success-ultra-dark-s, $success-ultra-dark-l),
+    ),
+    "trans": (
+      "success-trans-10": rgba($success-hex, .1),
+      "success-trans-20": rgba($success-hex, .2),
+      "success-trans-30": rgba($success-hex, .3),
+      "success-trans-40": rgba($success-hex, .4),
+      "success-trans-50": rgba($success-hex, .5),
+      "success-trans-60": rgba($success-hex, .6),
+      "success-trans-70": rgba($success-hex, .7),
+      "success-trans-80": rgba($success-hex, .8),
+      "success-trans-90": rgba($success-hex, .9),
+    ),
+    "light-trans": (
+      "success-light-trans-10": hsl($success-light-h, $success-light-s, $success-light-l, .1),
+      "success-light-trans-20": hsl($success-light-h, $success-light-s, $success-light-l, .2),
+      "success-light-trans-30": hsl($success-light-h, $success-light-s, $success-light-l, .3),
+      "success-light-trans-40": hsl($success-light-h, $success-light-s, $success-light-l, .4),
+      "success-light-trans-50": hsl($success-light-h, $success-light-s, $success-light-l, .5),
+      "success-light-trans-60": hsl($success-light-h, $success-light-s, $success-light-l, .6),
+      "success-light-trans-70": hsl($success-light-h, $success-light-s, $success-light-l, .7),
+      "success-light-trans-80": hsl($success-light-h, $success-light-s, $success-light-l, .8),
+      "success-light-trans-90": hsl($success-light-h, $success-light-s, $success-light-l, .9),
+    ),
+    "dark-trans": (
+      "success-dark-trans-10": hsl($success-dark-h, $success-dark-s, $success-dark-l, .1),
+      "success-dark-trans-20": hsl($success-dark-h, $success-dark-s, $success-dark-l, .2),
+      "success-dark-trans-30": hsl($success-dark-h, $success-dark-s, $success-dark-l, .3),
+      "success-dark-trans-40": hsl($success-dark-h, $success-dark-s, $success-dark-l, .4),
+      "success-dark-trans-50": hsl($success-dark-h, $success-dark-s, $success-dark-l, .5),
+      "success-dark-trans-60": hsl($success-dark-h, $success-dark-s, $success-dark-l, .6),
+      "success-dark-trans-70": hsl($success-dark-h, $success-dark-s, $success-dark-l, .7),
+      "success-dark-trans-80": hsl($success-dark-h, $success-dark-s, $success-dark-l, .8),
+      "success-dark-trans-90": hsl($success-dark-h, $success-dark-s, $success-dark-l, .9),
+    ),
+    "ultra-dark-trans": (
+      "success-ultra-dark-trans-10": hsl($success-ultra-dark-h, $success-ultra-dark-s, $success-ultra-dark-l, .1),
+      "success-ultra-dark-trans-20": hsl($success-ultra-dark-h, $success-ultra-dark-s, $success-ultra-dark-l, .2),
+      "success-ultra-dark-trans-30": hsl($success-ultra-dark-h, $success-ultra-dark-s, $success-ultra-dark-l, .3),
+      "success-ultra-dark-trans-40": hsl($success-ultra-dark-h, $success-ultra-dark-s, $success-ultra-dark-l, .4),
+      "success-ultra-dark-trans-50": hsl($success-ultra-dark-h, $success-ultra-dark-s, $success-ultra-dark-l, .5),
+      "success-ultra-dark-trans-60": hsl($success-ultra-dark-h, $success-ultra-dark-s, $success-ultra-dark-l, .6),
+      "success-ultra-dark-trans-70": hsl($success-ultra-dark-h, $success-ultra-dark-s, $success-ultra-dark-l, .7),
+      "success-ultra-dark-trans-80": hsl($success-ultra-dark-h, $success-ultra-dark-s, $success-ultra-dark-l, .8),
+      "success-ultra-dark-trans-90": hsl($success-ultra-dark-h, $success-ultra-dark-s, $success-ultra-dark-l, .9),
+    ),
+    "partials": (
+      "success-hex": $success-hex,
+        "success-hsl": $success-h $success-s $success-l,
+        "success-rgb": $success-r $success-g $success-b,
+        "success-r": $success-r,
+        "success-g": $success-g,
+        "success-b": $success-b,
+        "success-h": $success-h,
+        "success-s": $success-s,
+        "success-l": $success-l,
+        "success-hover-h": $success-hover-h,
+        "success-hover-s": $success-hover-s,
+        "success-hover-l": $success-hover-l,
+        "success-ultra-light-h": $success-ultra-light-h,
+        "success-ultra-light-s": $success-ultra-light-s,
+        "success-ultra-light-l": $success-ultra-light-l,
+        "success-light-h": $success-light-h,
+        "success-light-s": $success-light-s,
+        "success-light-l": $success-light-l,
+        "success-semi-light-h": $success-semi-light-h,
+        "success-semi-light-s": $success-semi-light-s,
+        "success-semi-light-l": $success-semi-light-l,
+        "success-semi-dark-h": $success-semi-dark-h,
+        "success-semi-dark-s": $success-semi-dark-s,
+        "success-semi-dark-l": $success-semi-dark-l,
+        "success-dark-h": $success-dark-h,
+        "success-dark-s": $success-dark-s,
+        "success-dark-l": $success-dark-l,
+        "success-ultra-dark-h": $success-ultra-dark-h,
+        "success-ultra-dark-s": $success-ultra-dark-s,
+        "success-ultra-dark-l": $success-ultra-dark-l,
+    ),
+  );
+
+  // Transparency options
+  @if $option-success-main-trans == off {
+    $color-success: map-remove($color-success, "trans");
+  }
+  @if $option-success-light-trans == off {
+    $color-success: map-remove($color-success, "light-trans");
+  }
+  @if $option-success-dark-trans == off {
+    $color-success: map-remove($color-success, "dark-trans");
+  }
+  @if $option-success-ultra-dark-trans == off {
+    $color-success: map-remove($color-success, "ultra-dark-trans");
+  }
+
+}
+
+// Handle Deprecated Options
+@if $option-success-clr == on {
+  // Add complimentary color back if enabled
+  @if $option-comp-colors == on {
+    $color-success: map-merge($color-success, (
+      "main": map-merge(map-get($color-success, "main"), (
+        "success-comp": hsl($success-h + 180, $success-s, $success-l)
+      )),
+      "partials": map-merge(map-get($color-success, "partials"), (
+        "success-comp-h": $success-h + 180
+      ))
+    ));
+  }
+  // Add medium back if enabled
+  @if $option-medium-shade == on {
+    $color-success: map-merge($color-success, (
+      "main": map-merge(map-get($color-success, "main"), (
+        "success-medium": hsl($success-medium-h, $success-medium-s, $success-medium-l)
+      )),
+      "partials": map-merge(map-get($color-success, "partials"), (
+        "success-medium-h": $success-medium-h,
+        "success-medium-s": $success-medium-s,
+        "success-medium-l": $success-medium-l
+      ))
+    ));
+  }
+}

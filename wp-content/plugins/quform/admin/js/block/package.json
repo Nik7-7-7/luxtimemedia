@@ -1,0 +1,17 @@
+{
+  "name": "quform-wordpress-block",
+  "version": "2.0.0",
+  "description": "Editor block for Quform WordPress.",
+  "private": true,
+  "main": "build/index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ThemeCatcher <info@themecatcher.net>",
+  "license": "CodeCanyon Standard License (Split License)",
+  "devDependencies": {
+    "@wordpress/scripts": "7.1.2"
+  }
+}

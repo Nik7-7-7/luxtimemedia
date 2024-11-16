@@ -1,0 +1,29 @@
+// Black and White Alt Map
+$color-bw-alt:(
+  "main": (
+    "white": #000,
+    "black": #fff,
+  ),
+  "dark-trans": (
+    "black-trans-10": rgb(255, 255, 255, 0.1),
+    "black-trans-20": rgb(255, 255, 255, 0.2),
+    "black-trans-30": rgb(255, 255, 255, 0.3),
+    "black-trans-40": rgb(255, 255, 255, 0.4),
+    "black-trans-50": rgb(255, 255, 255, 0.5),
+    "black-trans-60": rgb(255, 255, 255, 0.6),
+    "black-trans-70": rgb(255, 255, 255, 0.7),
+    "black-trans-80": rgb(255, 255, 255, 0.8),
+    "black-trans-90": rgb(255, 255, 255, 0.9),
+  ),
+  "light-trans": (
+    "white-trans-10": hsl(0, 0%, 0%, 0.1),
+    "white-trans-20": hsl(0, 0%, 0%, 0.2),
+    "white-trans-30": hsl(0, 0%, 0%, 0.3),
+    "white-trans-40": hsl(0, 0%, 0%, 0.4),
+    "white-trans-50": hsl(0, 0%, 0%, 0.5),
+    "white-trans-60": hsl(0, 0%, 0%, 0.6),
+    "white-trans-70": hsl(0, 0%, 0%, 0.7),
+    "white-trans-80": hsl(0, 0%, 0%, 0.8),
+    "white-trans-90": hsl(0, 0%, 0%, 0.9),
+  ),
+);

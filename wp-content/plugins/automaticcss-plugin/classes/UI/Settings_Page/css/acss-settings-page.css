@@ -1,0 +1,116 @@
+/* Fonts */
+@font-face {
+	font-family: "Outfit-ACSS";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../../../../assets/fonts/Outfit-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Outfit-ACSS";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../../../../assets/fonts/Outfit-Bold.woff") format("woff");
+}
+
+/* Root variables */
+:root {
+	--acss-settings-black: #000;
+	--acss-settings-white: #fff;
+	--acss-settings-base: #0e1011;
+	/* Input Fields Nav Wrapper */
+	--acss-settings-base-100: #eef0f1;
+	/* Panel */
+	--acss-settings-base-200: #e6e9ea;
+	/* Group / Single VAR */
+	--acss-settings-base-300: #dee2e4;
+	/* Accordions */
+	--acss-settings-base-400: #d0d5d8;
+	--acss-settings-base-500: #b4bdc1;
+	/* Unit Fields */
+	--acss-settings-base-600: #485257;
+	--acss-settings-base-700: #31373b;
+	--acss-settings-base-800: #252a2d;
+	--acss-settings-base-900: #1a1d1f;
+	--acss-settings-border-color: rgba(14, 16, 17, 0.08);
+	--acss-settings-border-bottom: none;
+	--acss-settings-nav-divider: #333333;
+	--acss-settings-action: #32a2c1;
+	--acss-settings-action-ultra-dark: #331339;
+	--acss-border-radius: 0.25em;
+	--acss-page-margin: 2rem;
+	--acss-tab-margin: 3.5rem;
+	--acss-space: 0.5rem;
+	--acss-shadow: 2px 2px 20px rgba(0, 0, 0, 0.12);
+	--acss-page-height: calc(100vh - calc(2 * var(--acss-page-margin)) - var(--wp-admin--admin-bar--height, 0));
+	--acss-success-color: #9fc97f;
+	--acss-success-text-color: #475939;
+	--acss-error-color: #be7e7e;
+	--acss-error-text-color: #2f1818;
+	--acss-warning-color: #f7c46c;
+	--acss-warning-text-color: #5a4a2f;
+	--acss-input-bg: #0e1011;
+	--acss-input-unit-bg: #31373b;
+}
+
+/* WP default page stuff */
+.toplevel_page_automatic-css #wpcontent {
+	padding-left: 0;
+}
+
+.toplevel_page_automatic-css #wpbody-content {
+	padding-bottom: 0;
+	background-color: var(--acss-settings-base-200);
+}
+
+.acss-wrapper {
+	min-height: var(--acss-page-height);
+	margin: 2rem;
+	font-family: "Outfit-ACSS";
+	color: var(--acss-settings-base);
+}
+
+/* License page stuff */
+.acss-license__field-group {
+	margin-top: 15px;
+}
+
+.acss-license__field-group input[type=submit] {
+	margin-right: 5px;
+}
+
+/* Import Export page stuff */
+.acss-settings__message-container {
+	max-width: max-content;
+}
+
+.acss-settings__message-container p {
+	font-size: 1rem;
+	max-width: 100ch;
+	padding: 1em 2em;
+	border-radius: var(--acss-border-radius);
+	margin-right: 2rem;
+	margin-bottom: 2rem;
+	z-index: 99999;
+}
+
+.acss-settings__message-container p.success {
+	background-color: var(--acss-success-color);
+	color: var(--acss-success-text-color);
+}
+
+.acss-settings__message-container p.error {
+	background-color: var(--acss-error-color);
+	color: var(--acss-error-text-color);
+}
+
+.acss-settings__message-container p.warning {
+	background-color: var(--acss-warning-color);
+	color: var(--acss-warning-text-color);
+}
+
+#automatic-css-import-export-settings {
+	width: 100%;
+	/* max-width: 700px; */
+	height: 450px;
+}

@@ -1,0 +1,22 @@
+{
+	"name": "aikit",
+	"version": "1.0.0",
+	"description": "Gutenberg functionalities for AIKit plugin.",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^24.0.0"
+	},
+	"dependencies": {
+		"@wordpress/icons": "^9.7.0",
+		"@wordpress/i18n": "^4.9.0"
+	}
+}

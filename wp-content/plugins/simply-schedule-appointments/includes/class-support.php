@@ -20,148 +20,7 @@ class SSA_Support {
 	 * @var   Simply_Schedule_Appointments
 	 */
 	protected $plugin = null;
-	protected $secret_urls = array(
-		array(
-			'callback' => 'fix_appointment_durations',
-			'title' => 'Fix appointment durations',
-			'details' => 'Pass 1 as a parameter to update the end date of all appointments to match the duration of the appointment type.',
-			'param' => 'ssa-fix-appointment-durations',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'fix_appointment_group_ids',
-			'title' => 'Fix appointment group ids',
-			'details' => 'Pass 1 as a parameter to update the group id of all appointments to match the group id of the first appointment in the group.',
-			'param' => 'ssa-fix-appointment-group-ids',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'fix_db_datetime_schema',
-			'title' => 'Fix database datetime schema',
-			'details' => 'Pass 1 as a parameter to update the datetime schema of all appointments and appointment types.',
-			'param' => 'ssa-fix-db-datetime-schema',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'fix_db_availability_schema',
-			'title' => 'Fix database availability schema',
-			'details' => 'Pass 1 as a parameter to drop and recreate the availability table.',
-			'param' => 'ssa-fix-db-availability-schema',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'fix_appointment_types',
-			'title' => 'Fix appointment types',
-			'details' => 'Pass 1 as a parameter to update the custom customer information and customer information fields of all appointment types',
-			'param' => 'ssa-fix-appointment-types',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'fix_missing_appointment_types',
-			'title' => 'Fix missing appointment types',
-			'details' => 'Pass 1 as a parameter to update appointments with appointment types replacing the deleted ones.',
-			'param' => 'ssa-fix-missing-appointment-types',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'purge_abandoned_appointments',
-			'title' => 'Purge abandoned appointments',
-			'details' => 'Pass 1 as a parameter to delete all appointments with a status of "abandoned" from the database.',
-			'param' => 'ssa-purge-abandoned-appointments',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'ssa_factory_reset',
-			'title' => 'Factory reset SSA',
-			'details' => 'Pass 1 as a parameter to delete all SSA settings from the database and truncate all SSA database tables.',
-			'param' => 'ssa-factory-reset',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'rebuild_db',
-			'title' => 'Rebuild SSA database',
-			'details' => 'Pass 1 as a parameter to recreate all SSA database tables.',
-			'param' => 'ssa-rebuild-db',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'clear_google_cache',
-			'title' => 'Clear Google cache',
-			'details' => 'Pass 1 as a parameter to clear the Google Calendar cache.',
-			'param' => 'ssa-clear-google-cache',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'set_google_query_limit',
-			'title' => 'Set Google Calendar query limit',
-			'details' => 'Pass a new limit to use for Google Calendar events. SSA defaults to 500.',
-			'param' => 'ssa-set-google-query-limit',
-			'param_default_value' => '500'
-		),
-		array(
-			'callback' => 'clear_all_cache',
-			'title' => 'Clear all cache',
-			'details' => 'Pass 1 as a parameter to clear all cache.',
-			'param' => 'ssa-clear-all-cache',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'populate_cache',
-			'title' => 'Populate cache',
-			'details' => 'Pass 1 as a parameter to populate the cache.',
-			'param' => 'ssa-populate-cache',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'restore_plugin_backup',
-			'title' => 'Restore plugin backup',
-			'details' => 'Pass 1 as a parameter to restore the last backup of the plugin settings.',
-			'param' => 'ssa-restore-backup',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'bulk_send_notifications',
-			'title' => 'Bulk send notifications',
-			'details' => 'Pass 1 as a parameter to send notifications for all future booked appointments.',
-			'param' => 'ssa-resend-booked-notifications',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'set_display_capacity_available',
-			'title' => 'Set display capacity available',
-			'details' => 'Pass 1 as a parameter to set the display capacity available setting to true. Pass 0 as a parameter to set the display capacity available setting to false.',
-			'param' => 'ssa-set-display-capacity-available',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'ssa_set_license',
-			'title' => 'Set license',
-			'details' => 'Pass the license key as a parameter to activate it.',
-			'param' => 'ssa-set-license',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'ssa_set_debug_level',
-			'title' => 'Set debug level',
-			'details' => 'Pass the debug level as a parameter to set the ssa_debug_level option.',
-			'param' => 'ssa-set-debug-level',
-			'param_default_value' => '10'
-		),
-		array(
-			'callback' => 'ssa_cleanup_excluded_calendars',
-			'title' => 'Clean up excluded calendars for main calendar and staff profiles',
-			'details' => 'Will remove any excluded calendars that are not accessible by SSA. Both from the main calendar and staff profiles.',
-			'param' => 'ssa-cleanup-excluded-calendars',
-			'param_default_value' => '1'
-		),
-		array(
-			'callback' => 'ssa_remove_all_appointments',
-			'title' => 'Removes all appointments and their associated data',
-			'details' => 'Will totally remove all appointments and their associated data from the database. This cannot be undone!',
-			'param' => 'ssa-remove-all-appointments',
-			'param_default_value' => '1'
-		),
-	);
+
 	/**
 	 * Constructor.
 	 *
@@ -180,234 +39,51 @@ class SSA_Support {
 	 * @since  2.1.6
 	 */
 	public function hooks() {
-		foreach( $this->secret_urls as $secret_url ) {
-			if ( ! method_exists( $this, $secret_url['callback'] ) ) {
-				// if method does not exist on this class
-				// throw an exception here to catch the problems in the CI/CD pipeline
-				throw new Exception( 'Method does not exist on this class: ' . $secret_url['callback'] );
-			}
-			add_action( 'admin_init', array( $this, $secret_url['callback'] ) );
-		}
-		// maybe render support page
-		add_action( 'admin_init', array( $this, 'render_secret_support_page' ), 0 );
-	}
-	
-	/**
-	 * Render support page.
-	 * Called from wp-admin/admin.php
-	 */
-	public function render_secret_support_page() {
-		
-		if ( empty( $_GET['ssa-support-admin'] ) || $_GET['ssa-support-admin'] !== '1') {
-			return;
-		}
-		
-		if( !current_user_can( 'ssa_manage_site_settings' ) ) {
-			return;
-		}
-		
-		header( 'Content-Type: text/html' );
-		?>
-		<main>
-			<style>
-				* {
-					font-family: Arial, sans-serif;
-					margin: 0;
-					padding: 0;
-				}
-				main {
-					padding: 40px;
-				}
-				main > div > * {
-					margin-bottom: 20px;
-				}
-				h1 {
-					font-size: 2em;
-				}
-				h2 {
-					font-size: 1.5em;
-				}
-				p {
-					font-size: 1em;
-				}
-				.danger {
-					color: red;
-				}
-				.actions-container {
-					display: flex;
-					flex-direction: column;
-					gap: 50px;
-				}
-				.actions-container section {
-					border-top: 1px solid #ccc;
-					padding-top: 20px;
-					display: flex;
-					flex-direction: column;
-					gap: 20px;
-				}
-				
-				section span {
-					display: flex;
-					gap: 80px;
-				}
-				.link {
-					color: blue;
-					margin-right: auto;
-				}
-				input {
-					height: 30px;
-					padding: 10px;
-				}
-			</style>
-			<div>
-				<h1 class="danger"><?php echo home_url()?></h1>
-				<h2>You are on the SSA secret support page</h2>
-				<p>This is available to site administrators only, and should only be used for debugging and support purposes.</p>
-			</div>
-			<br>
-			<h2>Actions</h2>
-			<div class="actions-container">
-				<?php
-					foreach( $this->secret_urls as $secret_url ) {
-						$nonce = wp_create_nonce( $secret_url['param'] );
-						$link = admin_url() . '?ssa_nonce=' . $nonce . '&' . $secret_url['param'] . '=' . $secret_url['param_default_value'];
-						echo $this->generateSupportUrl($secret_url, $link);
-					}
-				?>
-			</div>
-		</main>
-		<?php
-		// exit to avoid rendering any other content
-		exit;
-	}
-	
-	
-	/**
-	 * Generate a support url
-	 */
-	public function generateSupportUrl( $secret_url, $link ) {
-		return '
-		<section>
-			<h3>' . $secret_url['title'] . '</h3>' . 
-			( empty($secret_url['details']) ? '' : '<p>' . $secret_url['details'] .'</p>' ) . 
-			'<a class="link" href="' . $link . '" id="' . $secret_url['param'] . '-link">' . $link . '</a>
-		</section>
-		';
-	}
-	
-	/**
-	 * Remove all appointments and their associated data. Keeping SSA settings and appointment types intact.
-	 * 
-	 * @return void
-	 */
-	public function ssa_remove_all_appointments () {
-		if ( empty( $_GET['ssa-remove-all-appointments'] ) ) {
-			return;
-		}
-		
-		if (!current_user_can('ssa_manage_site_settings')) {
-			return;
-		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-remove-all-appointments' ) === false ) {
-			return;
-		}
-		
-		$appointments_to_delete = $this->plugin->appointment_model->query( array(
-			'number' => -1,
-		) );
-		
-		$appointments_to_delete_ids = wp_list_pluck( $appointments_to_delete, 'id' );
-		
-		$revisions_to_delete = $this->plugin->revision_model->query( array(
-			'number' => -1,
-			'appointment_id' => $appointments_to_delete_ids,
-		) );
-		
-		$revisions_to_delete_ids = wp_list_pluck( $revisions_to_delete, 'id' );
-		
-		$revision_meta_to_delete = $this->plugin->revision_meta_model->query( array(
-			'number' => -1,
-			'revision_id' => $revisions_to_delete_ids,
-		) );
-		
-		// remove all appointment async actions
-		$this->plugin->async_action_model->bulk_delete( array(
-			'number' => -1,
-			'object_type' => 'appointment',
-		) );
-		
-		$this->plugin->revision_meta_model->bulk_delete( wp_list_pluck( $revision_meta_to_delete, 'id' ) );
-		$this->plugin->revision_model->bulk_delete( wp_list_pluck( $revisions_to_delete, 'id' ) );
-		$this->plugin->resource_appointment_model->truncate();
-		$this->plugin->payment_model->truncate();
-		$this->plugin->appointment_meta_model->truncate();
-		$this->plugin->appointment_model->truncate();
-	}
-	
-	/**
-	 * Removes GCAL excluded calendars that the user removed their subscription to. Both from the main calendar and staff profiles.
-	 * 
-	 */
-	public function ssa_cleanup_excluded_calendars () {
-		if ( empty( $_GET['ssa-cleanup-excluded-calendars'] ) ) {
-			return;
-		}
-		
-		if (!current_user_can('ssa_manage_site_settings')) {
-			return;
-		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-cleanup-excluded-calendars' ) === false ) {
-			return;
-		}
-		
-		// cleanup main excluded calendars
-		$this->plugin->appointment_type_model->cleanup_main_excluded_calendars();
+		// add_action( 'admin_init', array( $this, 'fix_appointment_durations' ) );
+		// add_action( 'admin_init', array( $this, 'fix_appointment_group_ids' ) );
+		// add_action( 'admin_init', array( $this, 'fix_db_datetime_schema' ) );
+		// add_action( 'admin_init', array( $this, 'fix_db_availability_schema' ) );
+		// add_action( 'admin_init', array( $this, 'fix_appointment_types' ) );
+		// add_action( 'admin_init', array( $this, 'fix_missing_appointment_types' ) );
+		// add_action( 'admin_init', array( $this, 'purge_abandoned_appointments' ) );
+		// add_action( 'admin_init', array( $this, 'reset_settings' ) );
+		// add_action( 'admin_init', array( $this, 'ssa_factory_reset' ) );
+		// add_action( 'admin_init', array( $this, 'rebuild_db' ) );
+		// add_action( 'admin_init', array( $this, 'clear_google_cache' ) );
+		// add_action( 'admin_init', array( $this, 'set_google_query_limit' ) );
+		// add_action( 'admin_init', array( $this, 'clear_all_cache' ) );
+		// add_action( 'admin_init', array( $this, 'populate_cache' ) );
+		// add_action( 'admin_init', array( $this, 'restore_plugin_backup' ) );
+		// add_action( 'admin_init', array( $this, 'bulk_send_notifications' ) );
 
-		$this->plugin->staff_model->cleanup_staff_excluded_calendars();
-
+		// add_action( 'admin_init', array( $this, 'set_display_capacity_available' ) );
+		// add_action( 'admin_init', array( $this, 'ssa_set_license' ) );
+		// add_action( 'admin_init', 	  array( $this, 'set_beta_booking_app_setting' ) );
 		
-		wp_redirect( remove_query_arg( 'ssa-cleanup-excluded-calendars' ) );
-		exit;
+		// Temporary handlers to enable/disable GCAL quick connect feature
+		add_action( 'admin_init', array( $this, 'toggle_quick_connect' ) );
 	}
-	 
-	/**
-	 * Set the debug level.
-	 * Used to write logs of levels lower than 10.
-	 * 
-	 */
-	public function ssa_set_debug_level() {
-		if ( empty( $_GET['ssa-set-debug-level'] ) ) {
+	
+	public function toggle_quick_connect() {
+		if ( ! isset ( $_GET['ssa-gcal-quick-connect'] )) {
 			return;
 		}
 		
-		if (!current_user_can('ssa_manage_site_settings')) {
-			return;
-		}
+		$new_value = (bool) $_GET['ssa-gcal-quick-connect'];
 		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-set-debug-level' ) === false ) {
-			return;
-		}
+		$this->plugin->developer_settings->update(
+			array(
+				'quick_connect_gcal_mode' => $new_value
+			)
+		);
 		
-		$debug_level = (int) sanitize_text_field( $_GET['ssa-set-debug-level'] );
+		wp_redirect( $this->plugin->wp_admin->url('/ssa/settings/google-calendar') );
 		
-		update_option( 'ssa_debug_level', $debug_level );
-		
-		wp_redirect( remove_query_arg( 'ssa-set-debug-level' ) );
-		exit;
+		exit;		
 	}
 	
 	public function ssa_set_license() {
 		if ( empty( $_GET['ssa-set-license'] )) {
-			return;
-		}
-		
-		if (!current_user_can('ssa_manage_site_settings')) {
-			return;
-		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-set-license' ) === false ) {
 			return;
 		}
 
@@ -426,10 +102,6 @@ class SSA_Support {
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
 			return;
 		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-populate-cache' ) === false ) {
-			return;
-		}
 
 		$this->plugin->availability_cache->populate_cache();
 
@@ -445,12 +117,9 @@ class SSA_Support {
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
 			return;
 		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-clear-google-cache' ) === false ) {
-			return;
-		}
 
 		$this->plugin->availability_external_model->bulk_delete( array(
+			'type' => 'appointment_type',
 			'service' => 'google',
 		) );
 		$this->plugin->google_calendar->increment_google_cache_version();
@@ -465,10 +134,6 @@ class SSA_Support {
 		}
 
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
-			return;
-		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-set-google-query-limit' ) === false ) {
 			return;
 		}
 
@@ -491,14 +156,7 @@ class SSA_Support {
 		if ( ! isset ( $_GET['ssa-set-display-capacity-available'] ) ) {
 			return;
 		}
-		
-		if (!current_user_can('ssa_manage_site_settings')) {
-			return;
-		}
 
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-set-display-capacity-available' ) === false ) {
-			return;
-		}
 		// if ( ! is_user_logged_in() ) {
 		// 	return;
 		// }
@@ -520,12 +178,9 @@ class SSA_Support {
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
 			return;
 		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-clear-all-cache' ) === false ) {
-			return;
-		}
 
 		$this->plugin->availability_external_model->bulk_delete( array(
+			'type' => 'appointment_type',
 			'service' => 'google',
 		) );
 		$this->plugin->google_calendar->increment_google_cache_version();
@@ -541,10 +196,6 @@ class SSA_Support {
 		}
 
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
-			return;
-		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-fix-appointment-durations' ) === false ) {
 			return;
 		}
 
@@ -583,10 +234,6 @@ class SSA_Support {
 			return;
 		}
 
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-purge-abandoned-appointments' ) === false ) {
-			return;
-		}
-		
 		$this->plugin->appointment_model->delete_abandoned();
 
 		wp_redirect( $this->plugin->wp_admin->url(), $status = 302);
@@ -602,9 +249,6 @@ class SSA_Support {
 			return;
 		}
 
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-fix-db-availability-schema' ) === false ) {
-			return;
-		}
 
 		$this->plugin->availability_model->drop();
 		$this->plugin->availability_model->create_table();
@@ -622,10 +266,6 @@ class SSA_Support {
 			return;
 		}
 
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-fix-appointment-types' ) === false ) {
-			return;
-		}
-		
 		$appointment_types = $this->plugin->appointment_type_model->query( array(
 			'number' => -1,
 		) );
@@ -652,7 +292,7 @@ class SSA_Support {
 			}
 
 			if ( empty( $appointment_type['customer_information'] ) ) {
-				$appointment_type['customer_information'] = array(
+				$appointment_type['custom_customer_information'] = array(
 					array(
 						'field' => 'Name',
 						'display' => true,
@@ -672,8 +312,8 @@ class SSA_Support {
 				);
 			}
 
-			$appointment_type['custom_customer_information'] = array_values( (array) $appointment_type['custom_customer_information'] );
-			$appointment_type['customer_information'] = array_values( (array) $appointment_type['customer_information'] );
+			$appointment_type['custom_customer_information'] = array_values( $appointment_type['custom_customer_information'] );
+			$appointment_type['customer_information'] = array_values( $appointment_type['customer_information'] );
 
 			$appointment_types = $this->plugin->appointment_type_model->update(
 				$appointment_type['id'],
@@ -693,10 +333,6 @@ class SSA_Support {
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
 			return;
 		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-fix-missing-appointment-types' ) === false ) {
-			return;
-		}
 
 		$this->plugin->upgrade->maybe_fix_deleted_appointment_types();
 
@@ -709,10 +345,6 @@ class SSA_Support {
 		}
 
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
-			return;
-		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-fix-db-datetime-schema' ) === false ) {
 			return;
 		}
 
@@ -788,10 +420,6 @@ class SSA_Support {
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
 			return;
 		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-fix-appointment-group-ids' ) === false ) {
-			return;
-		}
 
 		$appointments = $this->plugin->appointment_model->query( array(
 			'number' => -1,
@@ -849,6 +477,50 @@ class SSA_Support {
 		exit;
 	}
 
+	public function reset_settings() {
+		if ( empty( $_GET['ssa-reset-settings'] ) ) {
+			return;
+		}
+
+		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
+			return;
+		}
+		
+		global $wpdb;
+		$table_prefix = $wpdb->prefix;
+
+		$options_to_delete = array(
+			"{$table_prefix}ssa_appointments_db_version",
+			"{$table_prefix}ssa_appointment_meta_db_version",
+			"{$table_prefix}ssa_appointment_types_db_version",
+			"{$table_prefix}ssa_availability_db_version",
+			"{$table_prefix}ssa_async_actions_db_version",
+			"{$table_prefix}ssa_payments_db_version",
+			"ssa_settings_json",
+			"ssa_versions",
+			"{$table_prefix}ssa_resource_appointments_db_version",
+			"{$table_prefix}ssa_resource_group_appointment_types_db_version",
+			"{$table_prefix}ssa_resources_db_version",
+			"{$table_prefix}ssa_resource_groups_db_version",
+			"{$table_prefix}ssa_resource_group_resources_db_version",
+			"{$table_prefix}ssa_appointment_type_labels_db_version",
+			"{$table_prefix}ssa_revisions_db_version",
+			"{$table_prefix}ssa_revision_meta_db_version",
+			"{$table_prefix}ssa_availability_external_db_version",
+			"{$table_prefix}ssa_staff_db_version",
+			"{$table_prefix}ssa_staff_appointments_db_version",
+			"{$table_prefix}ssa_staff_appointment_types_db_version",
+		);
+
+		foreach ($options_to_delete as $option_name) {
+			delete_option( $option_name );
+		}
+
+		wp_redirect( $this->plugin->wp_admin->url(), $status = 302);
+		exit;
+	}
+
+
 	/**
 	 * Deletes all ssa related options from wp_options table and truncate all ssa database tables.
 	 *
@@ -862,10 +534,6 @@ class SSA_Support {
 		}
 
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
-			return;
-		}
-
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-factory-reset' ) === false ) {
 			return;
 		}
 
@@ -905,10 +573,6 @@ class SSA_Support {
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
 			return;
 		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-rebuild-db' ) === false ) {
-			return;
-		}
 
 		$this->plugin->appointment_model->create_table();
 		$this->plugin->appointment_meta_model->create_table();
@@ -942,10 +606,6 @@ class SSA_Support {
 			return;
 		}
 
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-restore-backup' ) === false ) {
-			return;
-		}
-		
 		// restore previous backup file
 		$restore = $this->plugin->support_status->restore_settings_backup();
 
@@ -974,10 +634,6 @@ class SSA_Support {
 		if ( ! current_user_can( 'ssa_manage_site_settings' ) ) {
 			return;
 		}
-		
-		if ( wp_verify_nonce( $_GET['ssa_nonce'], 'ssa-resend-booked-notifications' ) === false ) {
-			return;
-		}
 
 		// Get list of booked appointments.
 		$appointments = $this->plugin->appointment_model->query(
@@ -1001,7 +657,7 @@ class SSA_Support {
 				$notifications,
 				function( $notification ) {
 					return (
-						( !isset( $notification['active'] ) || true == $notification['active'] ) &&
+						! empty( $notification['active'] ) &&
 						'appointment_booked' === $notification['trigger'] &&
 						strpos( implode( ';', $notification['sent_to'] ), 'customer_email' ) !== false
 					);
@@ -1020,11 +676,32 @@ class SSA_Support {
 		exit();
 	}
 
-	public static function should_display_support_tab() {
-		// hide support tab via wp-config
-		if( defined( 'SSA_DISPLAY_SUPPORT_TAB' ) && false === SSA_DISPLAY_SUPPORT_TAB ) {
-				return false;
+
+
+	/**
+	 * Defines the SSA_DEBUG_LOG constant to identify if we need to log information specific to the plugin on the
+	 * ssa_debug.log file.
+	 *
+	 * @return void
+	 */
+	public function set_beta_booking_app_setting() {
+		if (!isset($_GET['ssa-beta-booking-app'])) {
+			return;
 		}
+
+		if (!current_user_can('ssa_manage_site_settings')) {
+			return;
+		}
+
+		$developer_settings = $this->plugin->developer_settings->get();
+		$developer_settings['beta_booking_app'] = (int)$_GET['ssa-beta-booking-app'];
+		$this->plugin->developer_settings->update( $developer_settings );
+		
+		wp_safe_redirect($this->plugin->wp_admin->url(), $status = 302);
+		exit();
+	}
+
+	public static function should_display_support_tab() {
 		if( is_multisite() && ! current_user_can('manage_network') ) {
 			return false;
 		}

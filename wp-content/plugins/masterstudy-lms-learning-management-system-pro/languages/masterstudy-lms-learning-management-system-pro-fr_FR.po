@@ -1,0 +1,4638 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MasterStudy LMS Learning Management System PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-08 08:57+0000\n"
+"PO-Revision-Date: 2024-08-27 11:17+0000\n"
+"Language-Team: French (France)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Last-Translator: Stylemix Themes <timur@stylemix.net>\n"
+"Language: fr_FR\n"
+"X-Loco-Version: 2.3.1; wp-5.4.1"
+
+#: addons/enterprise_courses/main.php:1076
+msgid " course.</p>"
+msgstr " cours.</p>"
+
+#: stm-lms-templates/components/modals/group-courses.php:77
+#: stm-lms-templates/components/modals/group-courses.php:132
+msgid " member"
+msgstr " membre"
+
+#: stm-lms-templates/components/modals/group-courses.php:77
+#: stm-lms-templates/components/modals/group-courses.php:132
+msgid " members"
+msgstr " membres"
+
+#: addons/assignments/main.php:704
+msgid "# of try"
+msgstr "# d'essai"
+
+#. %s: number
+#: stm-lms-templates/course-player/assignments/current.php:72
+#, php-format
+msgid "%1$s from %2$s attempts left."
+msgstr "%1$s sur %2$s tentatives restantes."
+
+#. %s: number
+#: addons/certificate_builder/CertificateFieldsDataResolver.php:163
+#: addons/certificate_builder/main.php:460
+#, php-format
+msgid "%1$s Lessons, %2$s Quizzes"
+msgstr "%1$s Leçons, %2$s Quiz"
+
+#. %s: number
+#: stm-lms-templates/course/parts/student_assignments/unpassed.php:72
+#, php-format
+msgid "%1$s/%2$s attempts."
+msgstr "%1$s/%2$s tentatives."
+
+#. %s Title
+#: addons/enterprise_courses/main.php:687
+#, fuzzy, php-format
+#| msgid "%sEnterprise%s for group %s"
+msgid "%1$sEnterprise%2$s for group %3$s"
+msgstr "%1$sEntreprise%2$s pour le groupe %3$s"
+
+#. %s Bundle price
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:17
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#. %s Courses Count
+#: stm-lms-templates/bundles/card/php/top.php:15
+#, php-format
+msgid "%s Courses"
+msgstr "%s Cours"
+
+#. %s Ratings Count
+#: stm-lms-templates/bundle/parts/panel_info/rate.php:27
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s avis"
+msgstr[1] "%s avis"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:16
+msgid "+ Add course"
+msgstr "+ Ajouter un cours"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:18
+msgid "- Choose Course for Announcement -"
+msgstr "- Choisir un cours pour l'annonce -"
+
+#: addons/certificate_builder/main.php:165
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:78
+msgid "-Certificate code-"
+msgstr "-Code du certificat-"
+
+#: addons/certificate_builder/main.php:150
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:140
+msgid "-Co Instructor-"
+msgstr "-Co-Instructeur-"
+
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:109
+msgid "-Course Duration-"
+msgstr "-Durée du cours-"
+
+#: addons/certificate_builder/main.php:115
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:94
+msgid "-Course name-"
+msgstr "-Nom du cours-"
+
+#: addons/certificate_builder/main.php:145
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:89
+msgid "-Current Date-"
+msgstr "-Date actuelle-"
+
+#: addons/certificate_builder/main.php:160
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:99
+msgid "-Details-"
+msgstr "-Détails-"
+
+#: addons/certificate_builder/main.php:140
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:120
+msgid "-End Date-"
+msgstr "-Date de fin-"
+
+#: addons/certificate_builder/main.php:130
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:135
+msgid "-Instructor-"
+msgstr "-Instructeur-"
+
+#: addons/certificate_builder/main.php:155
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:104
+msgid "-Progress-"
+msgstr "-Progrès-"
+
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:83
+msgid "-QR code-"
+msgstr "-Code QR-"
+
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:72
+msgid "-Shape-"
+msgstr "-Forme-"
+
+#: addons/certificate_builder/main.php:135
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:115
+msgid "-Start Date-"
+msgstr "-Date de début-"
+
+#: addons/certificate_builder/main.php:170
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:130
+msgid "-Student code-"
+msgstr "-Code étudiant-"
+
+#: addons/certificate_builder/main.php:120
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:125
+msgid "-Student name-"
+msgstr "-Nom de l'étudiant-"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:197
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:183
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:185
+msgid "10 per page"
+msgstr "10 par page"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:204
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:190
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:192
+msgid "100 per page"
+msgstr "100 par page"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:201
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:187
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:189
+msgid "25 per page"
+msgstr "25 par page"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:202
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:188
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:190
+msgid "50 per page"
+msgstr "50 par page"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:203
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:189
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:191
+msgid "75 per page"
+msgstr "75 par page"
+
+#: addons/email_manager/emails.php:461
+msgid ""
+"<p>{{admin_login}} invited you to the group {{group_name}} on {{blog_name}}. "
+"You were added to the {{course_title}} course.</p>"
+msgstr ""
+"<p>{{admin_login}} vous a invité à rejoindre le groupe {{group_name}} sur "
+"{{blog_name}}. Vous avez été ajouté au cours {{course_title}}.</p>"
+
+#: stm-lms-templates/modals/prerequisite.php:7
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-button.php:90
+msgid ""
+"A prerequisite is a specific course  that you must complete before you can "
+"take another course at the next grade level."
+msgstr ""
+"Une condition préalable est un cours spécifique que vous devez suivre avant "
+"de pouvoir suivre un autre cours au niveau supérieur."
+
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-info.php:18
+msgid ""
+"A prerequisite is a specific course that you must complete before you can "
+"take another course at the next grade level."
+msgstr ""
+"Une condition préalable est un cours spécifique que vous devez suivre avant "
+"de pouvoir suivre un autre cours au niveau supérieur."
+
+#: stm-lms-templates/stm-lms-google-meets.php:82
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:25
+msgid ""
+"Access the Google Developer Console to create and configure your project for "
+"the Google Meet addon following Documentation."
+msgstr ""
+"Accédez à la Google Developer Console pour créer et configurer votre projet "
+"pour le module complémentaire Google Meet en suivant la documentation."
+
+#: addons-plus/GoogleMeet/ajax-actions.php:104
+msgid "Access Token and JSON Config revoked"
+msgstr "Jeton d'accès et configuration JSON révoqués"
+
+#: addons/email_manager/EmailManagerSettingsPage.php:33
+#: addons/email_manager/main.php:74
+msgid "Account"
+msgstr "Compte"
+
+#: addons/email_manager/emails.php:128
+msgid "Account Premoderation"
+msgstr "Premodération du compte"
+
+#: stm-lms-templates/stm-lms-google-meets.php:192
+#: addons-plus/GoogleMeet/filters.php:112
+#: stm-lms-templates/points/admin/actions.php:12
+#: addons/udemy/udemy_importer/components/udemy.php:11
+msgid "Actions"
+msgstr "Actions"
+
+#: addons/google_classrooms/main.php:319
+msgid "Activate this setting to display a popup for Google Classroom"
+msgstr ""
+
+#: addons/email_manager/emails.php:132
+msgid "Activate your account"
+msgstr "Activez votre compte"
+
+#: stm-lms-templates/certificate-builder/controls.php:51
+#: stm-lms-templates/components/modals/group-courses.php:130
+msgid "Add"
+msgstr "Ajouter"
+
+#: stm-lms-templates/google-meet/meeting-form.php:12
+#: addons-plus/GoogleMeet/Settings/components/meet-intro-links/fields/meet-intro-links.php:17
+msgid "Add a new meeting"
+msgstr "Ajouter une nouvelle réunion"
+
+#: addons/form_builder/templates/main.php:154
+msgid ""
+"Add a text to an input field telling users what they should enter in this "
+"field"
+msgstr ""
+"Ajoutez un texte à un champ de saisie indiquant aux utilisateurs ce qu'ils "
+"doivent entrer dans ce champ"
+
+#: addons/google_classrooms/main.php:342
+msgid "Add an image to the popup"
+msgstr ""
+
+#: addons/form_builder/templates/main.php:202
+msgid "Add answer options for the dropdown field or radio button"
+msgstr ""
+"Ajoutez des options de réponse pour le champ déroulant ou le bouton radio"
+
+#: stm-lms-templates/enterprise_groups/user_courses.php:16
+msgid "Add Course"
+msgstr "Ajouter un cours"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:9
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:85
+msgid "Add Group"
+msgstr "Ajouter un groupe"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:49
+msgid "Add group"
+msgstr "Ajouter un groupe"
+
+#: addons/certificate_builder/hooks.php:14
+#: addons/certificate_builder/hooks.php:15
+msgid "Add New"
+msgstr "Ajouter nouveau"
+
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:83
+msgid "Add new"
+msgstr "Ajouter nouveau"
+
+#: stm-lms-templates/bundles/my_bundles.php:26
+msgid "Add new Bundle"
+msgstr "Ajouter un nouveau paquet"
+
+#: stm-lms-templates/bundles/my-bundle.php:70
+msgid "Add new bundle"
+msgstr "Ajouter un nouveau paquet"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:5
+#: stm-lms-templates/components/modals/group-courses.php:63
+msgid "Add new group"
+msgstr "Ajouter un nouveau groupe"
+
+#: addons/assignments/actions.php:204
+msgid "Add review"
+msgstr "Ajouter un avis"
+
+#. %s Group Limit
+#: stm-lms-templates/components/modals/group-courses.php:124
+#, php-format
+msgid "Add student emails (Max : %s)"
+msgstr "Ajouter des emails d'étudiants (Max : %s)"
+
+#. %s Price
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:79
+#: stm-lms-templates/components/modals/group-courses.php:107
+#, php-format
+msgid "Add to cart %s"
+msgstr "Ajouter au panier %s"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:20
+msgid "Add users"
+msgstr "Ajouter des utilisateurs"
+
+#. %s Group Limit
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:108
+#, php-format
+msgid "Add users: <span>(Max : %s)</span>"
+msgstr "Ajouter des utilisateurs : <span>(Max : %s)</span>"
+
+#: addons/email_manager/emails.php:10
+msgid "Added or updated action made by instructor"
+msgstr "Action ajoutée ou mise à jour par l'instructeur"
+
+#: stm-lms-templates/account/public/additional_information.php:29
+msgid "Additional information"
+msgstr "Informations supplémentaires"
+
+#: addons-plus/email_branding/main.php:139
+msgid "Additional Textbox with Icon"
+msgstr "Champ de texte supplémentaire avec icône"
+
+#: addons/form_builder/templates/admin_profile_fields.php:8
+msgid "Additional user information"
+msgstr "Informations utilisateur supplémentaires"
+
+#: stm-lms-templates/analytics/revenue.php:103
+msgid "Admin commission"
+msgstr ""
+
+#: addons/email_manager/emails.php:467
+msgid "Admin login"
+msgstr "Connexion admin"
+
+#: addons/point_system/settings.php:77
+msgid "Affiliate Points percent (%)"
+msgstr "Pourcentage de points d'affiliation (%)"
+
+#: stm-lms-templates/account/private/parts/points/affiliate_link.php:20
+msgid "Affiliate Program"
+msgstr "Programme d'affiliation"
+
+#: stm-lms-templates/certificate-builder/delete-popup.php:22
+msgid ""
+"After deleting it, students will not get any certificate for courses and "
+"categories where the default certificate is assigned."
+msgstr ""
+"Après sa suppression, les étudiants ne recevront plus de certificat pour les "
+"cours et les catégories où le certificat par défaut est attribué."
+
+#: stm-lms-templates/certificate-builder/delete-popup.php:25
+msgid ""
+"After deleting, all courses and categories with this certificate will not "
+"have a certificate."
+msgstr ""
+"Après suppression, tous les cours et catégories avec ce certificat n'auront "
+"plus de certificat."
+
+#: stm-lms-templates/certificate-builder/image-popup.php:16
+msgid ""
+"After deleting, this certificate will not have a background and you can add "
+"another one."
+msgstr ""
+"Après suppression, ce certificat n'aura plus de fond et vous pourrez en "
+"ajouter un autre."
+
+#: stm-lms-templates/certificate-builder/delete-popup.php:19
+msgid ""
+"After unlinking this certificate, the course/category will not have a "
+"certificate and students will get the default certificate."
+msgstr ""
+"Après avoir dissocié ce certificat, le cours/la catégorie n'aura plus de "
+"certificat et les étudiants recevront le certificat par défaut."
+
+#: stm-lms-templates/stm-lms-google-meets.php:305
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:20
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:89
+msgid "All"
+msgstr "Tout"
+
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:59
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:125
+msgid "All categories"
+msgstr "Toutes les catégories"
+
+#: addons/assignments/actions.php:477
+msgid "All courses"
+msgstr "Tous les cours"
+
+#: addons/certificate_builder/hooks.php:218
+msgid "All Instructors"
+msgstr "Tous les instructeurs"
+
+#: stm-lms-templates/analytics/users.php:101
+#: stm-lms-templates/analytics/users.php:244
+#: stm-lms-templates/certificate-builder/certificates.php:38
+#: stm-lms-templates/certificate-builder/certificates.php:46
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:69
+msgid "All instructors"
+msgstr "Tous les instructeurs"
+
+#: stm-lms-templates/course/parts/assignment_parts/task.php:18
+msgid "All Requirements"
+msgstr "Toutes les exigences"
+
+#: addons/assignments/actions.php:439 stm-lms-templates/analytics/users.php:105
+#: stm-lms-templates/analytics/users.php:279
+msgid "All students"
+msgstr "Tous les étudiants"
+
+#: stm-lms-templates/gradebook/course-details.php:4
+msgid "All time course students"
+msgstr "Étudiants de tous les temps du cours"
+
+#: stm-lms-templates/analytics/users.php:90
+#: stm-lms-templates/analytics/users.php:171
+msgid "All users"
+msgstr ""
+
+#: addons/shareware/main.php:45
+msgid "Allow access to trial courses without login"
+msgstr "Permettre l'accès aux cours d'essai sans connexion"
+
+#: addons-plus/ComingSoon/filters.php:14
+msgid "Allow instructors to enable Upcoming course status"
+msgstr "Permettre aux instructeurs d'activer le statut de cours à venir"
+
+#: addons-plus/ComingSoon/filters.php:24
+msgid "Allow upcoming courses to be added to the Course bundles"
+msgstr "Permettre l'ajout de cours à venir aux lots de cours"
+
+#: addons/scorm/main.php:405
+msgid "Allowed extensions inside SCORM zip"
+msgstr "Extensions autorisées dans le zip SCORM"
+
+#: addons/media_library/main.php:305
+msgid "Allowed file extensions"
+msgstr "Extensions de fichiers autorisées"
+
+#: addons/form_builder/templates/main.php:187
+msgid "Allowed file extensions separated by commas"
+msgstr "Extensions de fichiers autorisées séparées par des virgules"
+
+#: includes/classes/class-announcements.php:18
+msgid "Announcement"
+msgstr "Annonce"
+
+#: addons/email_manager/emails.php:348 addons/email_manager/emails.php:352
+#: includes/classes/class-announcements.php:62
+#, fuzzy
+#| msgid "Announcement from Instructor"
+msgid "Announcement from the Instructor"
+msgstr "Annonce de l'instructeur"
+
+#: includes/classes/class-announcements.php:36
+msgid "Announcement has been sent to course students."
+msgstr "L'annonce a été envoyée aux étudiants du cours."
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/main.php:52
+msgid "Answered by student"
+msgstr "Répondu par l'étudiant"
+
+#: addons/certificate_builder/main.php:110
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:62
+msgid "Any text"
+msgstr "Tout texte"
+
+#: stm-lms-templates/stm-lms-enrolled-assignments.php:31
+#: addons/assignments/user_assignment.class.php:217
+msgid "Approved"
+msgstr "Approuvé"
+
+#: stm-lms-templates/certificate-builder/image-popup.php:10
+msgid "Are you sure you want to delete a background?"
+msgstr "Êtes-vous sûr de vouloir supprimer un fond ?"
+
+#: stm-lms-templates/certificate-builder/delete-popup.php:13
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:205
+msgid "Are you sure you want to delete this certificate?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce certificat ?"
+
+#: addons/assignments/actions.php:325
+msgid "Are you sure you want to delete this file?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce fichier ?"
+
+#: stm-lms-templates/certificate-builder/delete-popup.php:10
+msgid "Are you sure you want to unlink this certificate?"
+msgstr "Êtes-vous sûr de vouloir dissocier ce certificat ?"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:109
+msgid "Assigment"
+msgstr "Devoir"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:107
+msgid "Assigments"
+msgstr "Devoirs"
+
+#: addons/assignments/filters.php:18 addons/assignments/filters.php:39
+#: addons/assignments/main.php:657
+#: addons/email_manager/EmailManagerSettingsPage.php:37
+#: addons/email_manager/main.php:78
+#: stm-lms-templates/course-player/assignments/current.php:116
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:12
+msgid "Assignment"
+msgstr "Devoir"
+
+#: addons/assignments/main.php:700
+msgid "Assignment Data"
+msgstr "Données du devoir"
+
+#: stm-lms-templates/analytics/course.php:88
+#: stm-lms-templates/analytics/engagement.php:159
+msgid "Assignment engagement"
+msgstr ""
+
+#: addons/assignments/main.php:716
+msgid "Assignment ID (dont change)"
+msgstr "Identifiant du devoir (ne pas changer)"
+
+#: addons/assignments/main.php:666 addons/assignments/main.php:678
+msgid "Assignment Review"
+msgstr "Revue du devoir"
+
+#: addons/email_manager/emails.php:366
+msgid "Assignment status change (for student)"
+msgstr "Changement de statut du devoir (pour l'étudiant)"
+
+#: addons/assignments/actions.php:547 addons/assignments/ajax-action.php:234
+#: addons/email_manager/emails.php:370
+msgid "Assignment status change."
+msgstr "Changement de statut du devoir."
+
+#: addons/email_manager/emails.php:397
+msgid "Assignment title"
+msgstr "Titre du devoir"
+
+#: addons/assignments/filters.php:19 addons/assignments/main.php:67
+#: stm-lms-templates/analytics/student.php:234
+#: stm-lms-templates/analytics/student.php:239
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:53
+msgid "Assignments"
+msgstr "Devoirs"
+
+#: stm-lms-templates/gradebook/students-details.php:72
+msgid "Assignments Passed"
+msgstr "Devoirs réussis"
+
+#: addons/assignments/actions.php:263
+msgid "Attach file"
+msgstr "Joindre un fichier"
+
+#: stm-lms-templates/course/parts/assignment_parts/file_loader.php:14
+msgid "Attach files"
+msgstr "Joindre des fichiers"
+
+#: addons/assignments/main.php:652
+msgid "Attached Files"
+msgstr "Fichiers joints"
+
+#: addons/assignments/filters.php:88
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/main.php:42
+#, fuzzy
+#| msgid "Attempts"
+msgid "Attempt"
+msgstr "Tentative"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:28
+msgid "Attempt number"
+msgstr "Numéro de tentative"
+
+#: addons-plus/AudioLesson/filters.php:7
+msgid "Audio FIle (mp3,ogg,wav)"
+msgstr "Fichier audio (mp3,ogg,wav)"
+
+#: addons/assignments/actions.php:118
+msgid "Audio file is too big."
+msgstr "Le fichier audio est trop gros."
+
+#: addons/assignments/main.php:593
+#, fuzzy
+#| msgid "Audio recording max size in mb"
+msgid "Audio recording max size in MB"
+msgstr "Taille maximale de l'enregistrement audio en Mo"
+
+#: addons/google_classrooms/admin_view/courses.php:25
+msgid "Auditory"
+msgstr "Auditoire"
+
+#: addons/google_classrooms/auditory.php:28
+msgid "Auditory list"
+msgstr "Liste auditive"
+
+#: addons/certificate_builder/main.php:38
+#: addons/certificate_builder/Http/Controllers/AdminPageController.php:14
+msgid "Author"
+msgstr "Auteur"
+
+#: addons/enterprise_courses/main.php:657
+msgid "Author ID"
+msgstr "ID de l'auteur"
+
+#: stm-lms-templates/course/parts/student_assignments/progress.php:76
+msgid "Autosaving"
+msgstr "Sauvegarde automatique"
+
+#: stm-lms-templates/stm-lms-google-meets.php:152
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:98
+msgid "Back"
+msgstr "Retour"
+
+#: stm-lms-templates/stm-lms-user-points-distribution.php:24
+msgid "Back to Account"
+msgstr "Retour au compte"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:47
+msgid "Back to groups"
+msgstr "Retour aux groupes"
+
+#: stm-lms-templates/certificate-builder/controls.php:61
+msgid "Background Image"
+msgstr "Image de fond"
+
+#: stm-lms-templates/certificate-builder/controls.php:24
+msgid "Backgrounds"
+msgstr "Arrière-plans"
+
+#: addons/email_manager/emails.php:38
+msgid "Become an instructor"
+msgstr "Devenir un instructeur"
+
+#: addons/form_builder/main.php:76
+msgid "Become Instructor Form"
+msgstr "Formulaire pour devenir instructeur"
+
+#: addons/form_builder/main.php:412
+msgid "Bio"
+msgstr "Biographie"
+
+#: addons/email_manager/emails.php:156 addons/email_manager/emails.php:475
+#: addons/form_builder/main.php:356
+msgid "Blog name"
+msgstr "Nom du blog"
+
+#. %s Date
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:45
+#, php-format
+msgid "Bought at %s"
+msgstr "Acheté à %s"
+
+#: addons/CourseBundle/filters.php:93
+msgid "Bundle"
+msgstr "Paquet"
+
+#: stm-lms-templates/bundles/my-bundle/description.php:12
+msgid "Bundle description"
+msgstr "Description du paquet"
+
+#: stm-lms-templates/bundles/my-bundle/image.php:4
+msgid "Bundle image"
+msgstr "Image du paquet"
+
+#: stm-lms-templates/analytics/revenue.php:180
+#: stm-lms-templates/bundles/my-bundle/title.php:4
+msgid "Bundle name"
+msgstr "Nom du paquet"
+
+#. %s Bundle price
+#: stm-lms-templates/bundles/my-bundle/price.php:7
+#, php-format
+msgid "Bundle price (%s)"
+msgstr "Prix du paquet (%s)"
+
+#: addons/CourseBundle/Repository/CourseBundleRepository.php:294
+msgid "Bundle saved. Redirecting..."
+msgstr "Paquet sauvegardé. Redirection..."
+
+#: addons/CourseBundle/actions.php:85 addons/CourseBundle/filters.php:37
+#: stm-lms-templates/analytics/revenue.php:95
+#: stm-lms-templates/analytics/revenue.php:216
+#: stm-lms-templates/bundles/my_bundles.php:22
+#: stm-lms-templates/components/analytics/stats-block.php:13
+msgid "Bundles"
+msgstr "Paquets"
+
+#: addons/CourseBundle/filters.php:64
+msgid "Bundles quantity limit"
+msgstr "Limite de quantité des paquets"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:12
+#: stm-lms-templates/components/modals/group-courses.php:24
+#: stm-lms-templates/components/modals/group-courses.php:26
+#: stm-lms-templates/components/buy-button/paid-courses/group-courses.php:19
+msgid "Buy for group"
+msgstr "Acheter pour le groupe"
+
+#: addons-plus/email_branding/main.php:17
+msgid ""
+"By default, emails will be sent as displayed in Preview. Uploading a custom "
+"logo, and background images for the header & footer will cover the default "
+"template."
+msgstr ""
+"Par défaut, les e-mails seront envoyés tels qu'affichés dans l'aperçu. "
+"Télécharger un logo personnalisé et des images d'arrière-plan pour l'en-tête "
+"et le pied de page couvrira le modèle par défaut."
+
+#: addons/CourseBundle/filters.php:73
+msgid "By default, the limit is 5 courses per bundle"
+msgstr ""
+
+#: stm-lms-templates/analytics/revenue.php:110
+msgid "By new vs existing students"
+msgstr ""
+
+#: stm-lms-templates/analytics/revenue.php:203
+msgid "By product"
+msgstr ""
+
+#: addons/assignments/actions.php:327
+#: stm-lms-templates/certificate-builder/delete-popup.php:34
+#: stm-lms-templates/certificate-builder/image-popup.php:25
+#: stm-lms-templates/certificate-builder/select-popup.php:79
+#: stm-lms-templates/google-meet/meeting-form.php:64
+#: stm-lms-templates/google-meet/meeting-form.php:98
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:207
+msgid "Cancel"
+msgstr "Annuler"
+
+#: addons/form_builder/templates/main.php:16
+msgid "Cancel Changes"
+msgstr "Annuler les modifications"
+
+#: stm-lms-templates/certificate-builder/destination-header.php:24
+msgid "Categories"
+msgstr "Catégories"
+
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:98
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:122
+msgid "Category"
+msgstr "Catégorie"
+
+#: stm-lms-templates/bundle/parts/panel_info/categories.php:13
+msgid "Category:"
+msgstr "Catégorie :"
+
+#: addons/certificate_builder/hooks.php:13
+#: addons/certificate_builder/main.php:90
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:94
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:113
+msgid "Certificate"
+msgstr "Certificat"
+
+#: addons/certificate_builder/hooks.php:73
+#: addons/certificate_builder/main.php:9
+#: stm-lms-templates/certificate-builder/header.php:14
+msgid "Certificate Builder"
+msgstr "Constructeur de certificats"
+
+#: addons/certificate_builder/main.php:164
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:77
+msgid "Certificate code"
+msgstr "Code du certificat"
+
+#: stm-lms-templates/certificate-builder/categories.php:70
+#: stm-lms-templates/certificate-builder/destination-content.php:22
+msgid "Certificate ID:"
+msgstr "ID du certificat :"
+
+#. %1$s: Course ID, %2$s: User Login
+#: includes/classes/class-certificates.php:130
+#, fuzzy, php-format
+#| msgid "Certificate is valid. Course \"%s\" finished by %s"
+msgid "Certificate is valid. Course \"%1$s\" finished by %2$s"
+msgstr "Le certificat est valide. Le cours \"%1$s\" est terminé par %2$s"
+
+#: stm-lms-templates/certificate-builder/categories.php:80
+msgid "Certificate not assigned"
+msgstr "Certificat non attribué"
+
+#: addons/certificate_builder/hooks.php:12
+#: addons/certificate_builder/hooks.php:136
+#: addons/certificate_builder/main.php:13
+#: addons/certificate_builder/main.php:89
+#: stm-lms-templates/analytics/engagement.php:109
+#: stm-lms-templates/certificate-builder/certificates.php:4
+#: stm-lms-templates/certificate-builder/header.php:23
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:40
+msgid "Certificates"
+msgstr "Certificats"
+
+#: stm-lms-templates/certificate-builder/categories.php:4
+msgid "Certificates for categories"
+msgstr "Certificats pour les catégories"
+
+#: stm-lms-templates/components/analytics/stats-block.php:27
+msgid "Certificates given"
+msgstr ""
+
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:159
+msgid "Certificates not found"
+msgstr "Certificats non trouvés"
+
+#: stm-lms-templates/certificate-builder/categories.php:99
+#: stm-lms-templates/certificate-builder/destination-content.php:38
+msgid "Change"
+msgstr "Changer"
+
+#: addons-plus/GoogleMeet/Settings/components/credentials-status/fields/credentials.php:37
+msgid "Change Account"
+msgstr "Changer de compte"
+
+#: stm-lms-templates/stm-lms-google-meets.php:248
+msgid "Change account"
+msgstr "Changer de compte"
+
+#: addons-plus/GoogleMeet/ajax-actions.php:73
+msgid "Change Account Url"
+msgstr "Changer l'URL du compte"
+
+#: stm-lms-templates/shortcodes/checker.php:26
+msgid "Check Code"
+msgstr "Vérifier le code"
+
+#: stm-lms-templates/admin/notices/compatibility.php:17
+msgid "Check Compatibility:"
+msgstr "Vérifier la compatibilité :"
+
+#: addons/email_manager/emails.php:390
+msgid ""
+"Check the new assignment that was submitted by the student. Assignment on "
+"\"{{assignment_title}}\" sent by {{user_login}} in the course "
+"\"{{course_title}}\""
+msgstr ""
+"Vérifiez le nouveau devoir soumis par l'étudiant. Devoir sur "
+"\"{{assignment_title}}\" envoyé par {{user_login}} dans le cours "
+"\"{{course_title}}\""
+
+#: addons/form_builder/main.php:143
+msgid "Checkboxes"
+msgstr "Cases à cocher"
+
+#: addons/form_builder/templates/main.php:199
+msgid "Choices"
+msgstr "Choix"
+
+#: stm-lms-templates/certificate-builder/select-popup.php:11
+msgid "Choose a template"
+msgstr "Choisir un modèle"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:16
+msgid "Choose Course"
+msgstr "Choisir un cours"
+
+#: stm-lms-templates/components/modals/group-courses.php:58
+msgid "Choose group"
+msgstr "Choisir un groupe"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:25
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:57
+msgid "Choose Group:"
+msgstr "Choisissez le groupe :"
+
+#: addons/scorm/main.php:140
+msgid "Choose SCORM package (.zip)"
+msgstr "Choisir un paquet SCORM (.zip)"
+
+#: stm-lms-templates/account/private/parts/assignments/main.php:16
+#: stm-lms-templates/account/private/parts/assignments/main.php:22
+msgid "Choose status"
+msgstr "Choisir le statut"
+
+#: stm-lms-templates/certificate-builder/destination-content.php:67
+msgid "Choose the default certificate with the link below"
+msgstr "Choisissez le certificat par défaut avec le lien ci-dessous"
+
+#: stm-lms-templates/certificate-builder/create-popup.php:17
+msgid "Choose the layout for the certificate"
+msgstr "Choisissez la disposition pour le certificat"
+
+#: addons-plus/AudioLesson/filters.php:56
+msgid "Choose the main type/types of audio sources to use"
+msgstr ""
+
+#: addons/assignments/main.php:547
+msgid ""
+"Choose the maximum number of times a student can attempt to pass an "
+"assignment or leave it empty for unlimited attempts"
+msgstr ""
+
+#: stm-lms-templates/analytics/users.php:141
+msgid "Choose the specific info you want to see in users' stats."
+msgstr ""
+
+#: addons/google_classrooms/auditory.php:72
+#: addons/google_classrooms/auditory.php:73
+msgid "Classroom Auditory"
+msgstr "Auditoire de classe"
+
+#: addons/google_classrooms/auditory.php:58
+#: addons/google_classrooms/auditory.php:59
+#: stm-lms-templates/shortcodes/google_classroom.php:6
+msgid "Classrooms"
+msgstr "Salles de classe"
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:201
+msgid "Clear Filter"
+msgstr "Effacer le filtre"
+
+#: stm-lms-templates/stm-lms-google-meets.php:138
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:84
+msgid ""
+"Click Grant Permissions to give access to your Google account. Please allow "
+"all required permissions so that this app works correctly."
+msgstr ""
+"Cliquez sur Accorder les autorisations pour donner accès à votre compte "
+"Google. Veuillez autoriser toutes les autorisations requises afin que cette "
+"application fonctionne correctement."
+
+#: addons/udemy/main.php:48
+msgid "Client ID"
+msgstr "ID client"
+
+#: addons/udemy/main.php:53
+msgid "Client Secret"
+msgstr "Secret client"
+
+#: addons/online_testing/main.php:60
+#: stm-lms-templates/components/analytics/datepicker-modal.php:31
+msgid "Close"
+msgstr "Fermer"
+
+#: addons/certificate_builder/main.php:149
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:139
+msgid "Co Instructor name"
+msgstr "Nom du co-instructeur"
+
+#: stm-lms-templates/multi_instructor/co_courses/grid.php:20
+#: stm-lms-templates/multi_instructor/co_courses/main.php:27
+msgid "Co-courses"
+msgstr "Co-cours"
+
+#: stm-lms-templates/multi_instructor/front/main.php:18
+msgid "Co-instructor"
+msgstr "Co-instructeur"
+
+#: addons/email_manager/emails.php:82 addons/email_manager/emails.php:112
+msgid "Comment content"
+msgstr "Contenu du commentaire"
+
+#: addons-plus/GoogleMeet/Http/Controllers/CreateController.php:13
+#: addons-plus/GoogleMeet/Http/Controllers/UpdateController.php:13
+msgid "Complete the Google Meet configuration before creating the lesson"
+msgstr "Terminez la configuration de Google Meet avant de créer la leçon"
+
+#: stm-lms-templates/analytics/course.php:18
+#: stm-lms-templates/analytics/course.php:55
+#: stm-lms-templates/analytics/engagement.php:24
+#: stm-lms-templates/analytics/engagement.php:67
+#: stm-lms-templates/analytics/engagement.php:138
+#: stm-lms-templates/analytics/student.php:74
+#: stm-lms-templates/components/analytics/stats-block.php:19
+msgid "Completed"
+msgstr ""
+
+#: stm-lms-templates/google-meet/meeting-form.php:75
+msgid "Confirm delete"
+msgstr "Confirmer la suppression"
+
+#: stm-lms-templates/shortcodes/google_classroom.php:69
+msgid "Copied"
+msgstr "Copié"
+
+#: stm-lms-templates/stm-lms-google-meets.php:104
+#: stm-lms-templates/shortcodes/google_classroom.php:65
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:47
+msgid "Copy"
+msgstr "Copie"
+
+#: stm-lms-templates/account/private/parts/points/affiliate_link.php:26
+#, fuzzy
+#| msgid "Copy Affiliate link"
+msgid "Copy Affiliate Link"
+msgstr "Copier le lien d'affiliation"
+
+#: addons-plus/email_branding/main.php:130
+#: addons-plus/email_branding/main.php:172
+msgid "Copyrights"
+msgstr "Droits d'auteur"
+
+#: addons/scorm/main.php:291
+msgid "Could not extract zip contents. Try another SCORM package"
+msgstr "Impossible d'extraire le contenu du zip. Essayez un autre paquet SCORM"
+
+#: addons/assignments/filters.php:40 addons/assignments/filters.php:86
+#: addons/email_manager/EmailManagerSettingsPage.php:36
+#: addons/email_manager/main.php:77 stm-lms-templates/analytics/course.php:130
+#: stm-lms-templates/analytics/reviews.php:46
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:31
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:170
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:17
+msgid "Course"
+msgstr "Cours"
+
+#: addons/email_manager/emails.php:7
+msgid "Course added"
+msgstr "Cours ajouté"
+
+#: addons/email_manager/emails.php:258 addons/email_manager/emails.php:339
+msgid "Course added to User"
+msgstr "Cours ajouté à l'utilisateur"
+
+#: addons/email_manager/emails.php:254
+msgid "Course added to User (for admin)"
+msgstr "Cours ajouté à l'utilisateur (pour l'administrateur)"
+
+#: addons/email_manager/emails.php:276
+msgid "Course added to User (for user)"
+msgstr "Cours ajouté à l'utilisateur (pour l'utilisateur)"
+
+#: addons/email_manager/emails.php:328
+msgid "Course added with Membership Plan to User (for admin)"
+msgstr ""
+"Cours ajouté avec un plan d'abonnement à l'utilisateur (pour "
+"l'administrateur)"
+
+#: addons/email_manager/emails.php:338
+msgid "Course added with Membership Plan to User (for user)"
+msgstr ""
+"Cours ajouté avec un plan d'abonnement à l'utilisateur (pour l'utilisateur)"
+
+#: addons/email_manager/emails.php:329
+msgid "Course added with Membership Plan."
+msgstr "Cours ajouté avec un plan d'abonnement."
+
+#: addons/email_manager/emails.php:280
+msgid "Course added."
+msgstr "Cours ajouté."
+
+#: stm-lms-templates/gradebook/course-details.php:8
+msgid "Course average progress"
+msgstr "Progression moyenne du cours"
+
+#: addons/point_system/points.php:60
+msgid "Course Bought"
+msgstr "Cours achetés"
+
+#: addons/CourseBundle/filters.php:15 addons/CourseBundle/filters.php:16
+msgid "Course Bundles"
+msgstr "Paquets de cours"
+
+#: stm-lms-templates/shortcodes/google_classroom.php:62
+msgid "Course code"
+msgstr "Code du cours"
+
+#: addons/point_system/points.php:24
+msgid "Course completion"
+msgstr "Achèvement du cours"
+
+#: stm-lms-templates/analytics/course.php:38
+#: stm-lms-templates/analytics/engagement.php:36
+#: stm-lms-templates/analytics/instructor.php:28
+#: stm-lms-templates/analytics/revenue.php:35
+msgid "Course creation date"
+msgstr ""
+
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:108
+msgid "Course Duration"
+msgstr "Durée du cours"
+
+#: stm-lms-templates/analytics/engagement.php:205
+msgid "Course engagement reports page"
+msgstr ""
+
+#: stm-lms-templates/gradebook/course-details.php:20
+msgid "Course enrolled by subscription"
+msgstr "Cours inscrit par abonnement"
+
+#: addons/udemy/udemy_importer/components/udemy.php:9
+msgid "Course ID"
+msgstr "ID du cours"
+
+#: addons/assignments/main.php:724
+msgid "Course ID (dont change)"
+msgstr "ID du cours (ne pas changer)"
+
+#: addons/gradebook/Gradebook.php:45 addons/gradebook/Gradebook.php:119
+msgid "Course ID is required"
+msgstr "L'ID du cours est requis"
+
+#: addons/certificate_builder/main.php:35
+#: addons/certificate_builder/main.php:114 addons/email_manager/emails.php:12
+#: stm-lms-templates/analytics/engagement.php:12
+#: stm-lms-templates/analytics/instructor.php:12
+#: stm-lms-templates/analytics/revenue.php:19
+#: stm-lms-templates/analytics/reviews.php:12
+#: stm-lms-templates/analytics/student.php:49
+#: addons/certificate_builder/Http/Controllers/AdminPageController.php:11
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:93
+msgid "Course name"
+msgstr "Nom du cours"
+
+#: stm-lms-templates/gradebook/course-details.php:27
+msgid "Course passed assignments"
+msgstr "Devoirs de cours réussis"
+
+#: stm-lms-templates/gradebook/course-details.php:16
+msgid "Course passed lessons"
+msgstr "Leçons de cours réussies"
+
+#: stm-lms-templates/gradebook/course-details.php:12
+msgid "Course passed quizzes"
+msgstr "Quiz de cours réussis"
+
+#: addons-plus/ComingSoon/filters.php:19
+msgid "Course preordering"
+msgstr ""
+
+#: includes/enqueue.php:135
+msgid "Course progress"
+msgstr ""
+
+#: addons/email_manager/emails.php:21
+msgid "Course published"
+msgstr "Cours publié"
+
+#: addons/point_system/points.php:12
+#, fuzzy
+#| msgid "Course purchased"
+msgid "Course purchase"
+msgstr "Achat de cours"
+
+#: addons/point_system/points.php:87
+msgid "Course purchased (Affiliate)"
+msgstr "Cours acheté (Affilié)"
+
+#: addons-plus/ComingSoon/filters.php:118
+msgid "Course start date has been changed"
+msgstr "La date de début du cours a été modifiée"
+
+#: addons-plus/ComingSoon/filters.php:112
+msgid "Course start date has been changed (to subscribers)"
+msgstr "La date de début du cours a été modifiée (pour les abonnés)"
+
+#: addons/google_classrooms/auditory.php:41
+msgid "Course students"
+msgstr "Étudiants du cours"
+
+#: addons/email_manager/emails.php:30
+msgid "Course Title"
+msgstr "Titre du cours"
+
+#: addons/email_manager/emails.php:90 addons/email_manager/emails.php:120
+#: addons/email_manager/emails.php:264 addons/email_manager/emails.php:286
+#: addons/email_manager/emails.php:308 addons/email_manager/emails.php:332
+#: addons/email_manager/emails.php:342 addons/email_manager/emails.php:396
+#: addons/email_manager/emails.php:479 addons-plus/ComingSoon/filters.php:75
+#: addons-plus/ComingSoon/filters.php:100
+#: addons-plus/ComingSoon/filters.php:125
+msgid "Course title"
+msgstr "Titre du cours"
+
+#: addons/scorm/main.php:138
+msgid "Course will have one lesson with SCORM package content."
+msgstr "Le cours aura une leçon avec le contenu du paquet SCORM."
+
+#: addons/email_manager/emails.php:8
+msgid ""
+"Course {{course_title}} {{action}} by instructor, your ({{user_login}}). "
+"Please review this information from the admin Dashboard"
+msgstr ""
+"Le cours {{course_title}} {{action}} par l'instructeur, votre ({{user_login}}"
+"). Veuillez revoir ces informations depuis le tableau de bord administrateur"
+
+#: stm-lms-templates/account/private/parts/assignments/main.php:47
+#, fuzzy
+#| msgid "Courses"
+msgid "Course:"
+msgstr "Cours :"
+
+#: stm-lms-templates/analytics/engagement.php:348
+#: stm-lms-templates/analytics/instructor.php:65
+#: stm-lms-templates/analytics/instructor.php:181
+#: stm-lms-templates/analytics/revenue.php:74
+#: stm-lms-templates/analytics/revenue.php:94
+#: stm-lms-templates/analytics/revenue.php:135
+#: stm-lms-templates/analytics/student.php:82
+#: stm-lms-templates/analytics/student.php:89
+#: stm-lms-templates/analytics/student.php:163
+#: stm-lms-templates/certificate-builder/destination-header.php:28
+#: stm-lms-templates/components/analytics/stats-block.php:12
+msgid "Courses"
+msgstr "Cours"
+
+#: addons/CourseBundle/filters.php:69
+msgid "Courses in bundle quantity limit"
+msgstr "Limite de quantité des cours dans le paquet"
+
+#: stm-lms-templates/bundle/parts/courses.php:14
+msgid "Courses in this bundle:"
+msgstr "Cours dans ce paquet :"
+
+#: stm-lms-templates/analytics/revenue.php:188
+msgid "Courses inside"
+msgstr ""
+
+#: stm-lms-templates/stm-lms-google-meets.php:227
+msgid "Create"
+msgstr "Créer"
+
+#: stm-lms-templates/certificate-builder/select-popup.php:55
+msgid "Create a certificate or transfer from another category"
+msgstr "Créer un certificat ou transférer depuis une autre catégorie"
+
+#: stm-lms-templates/certificate-builder/create-popup.php:11
+msgid "Create a new certificate"
+msgstr "Créer un nouveau certificat"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:44
+msgid "Create Announcement"
+msgstr "Créer une annonce"
+
+#. Description of the plugin
+msgid ""
+"Create brilliant lessons with videos, graphs, images, slides and any other "
+"attachments thanks to flexible and user-friendly lesson management tool "
+"powered by WYSIWYG editor."
+msgstr ""
+"Créez des leçons brillantes avec des vidéos, des graphiques, des images, des "
+"diapositives et toute autre pièce jointe grâce à l'outil de gestion de leçon "
+"flexible et convivial alimenté par l'éditeur WYSIWYG."
+
+#: stm-lms-templates/certificate-builder/select-popup.php:63
+msgid "Create Certificate"
+msgstr "Créer un certificat"
+
+#: stm-lms-templates/certificate-builder/categories.php:135
+#: stm-lms-templates/certificate-builder/destination-content.php:84
+#: stm-lms-templates/account/private/instructor_parts/certificates/no-certificates.php:17
+msgid "Create certificate"
+msgstr "Créer un certificat"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:122
+#: stm-lms-templates/components/modals/group-courses.php:47
+#: stm-lms-templates/components/modals/group-courses.php:137
+msgid "Create group"
+msgstr "Créer un groupe"
+
+#: stm-lms-templates/components/modals/group-courses.php:41
+msgid "Create group and add group members"
+msgstr "Créer un groupe et ajouter des membres au groupe"
+
+#: stm-lms-templates/enterprise_groups/groups.php:30
+msgid "Create Groups"
+msgstr "Créer des groupes"
+
+#: stm-lms-templates/stm-lms-google-meets.php:168
+msgid "Create Meeting"
+msgstr "Créer une réunion"
+
+#. %s Title
+#: addons/google_classrooms/admin_view/token.php:12
+#, php-format
+msgid ""
+"Create OAuth access data and upload Credentials JSON from <a href=\"https:"
+"//console.developers.google.com/apis/credentials\" target=\"_blank\">Google "
+"Console</a>. As a redirect URI set <strong>%s</strong>"
+msgstr ""
+"Créez des données d'accès OAuth et téléchargez le JSON des informations "
+"d'identification depuis <a href=\"https://console.developers.google."
+"com/apis/credentials\" target=\"_blank\">Google Console</a>. Définissez "
+"comme URI de redirection <strong>%s</strong>"
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:176
+#, fuzzy
+#| msgid "Create"
+msgid "Created"
+msgstr "Créé"
+
+#: addons/CourseBundle/filters.php:60 addons/enterprise_courses/main.php:134
+#: addons/google_classrooms/main.php:308 addons/media_library/main.php:295
+#: addons/scorm/main.php:401 addons/sequential_drip_content/main.php:38
+#: addons/shareware/main.php:35 addons/udemy/main.php:44
+#: addons-plus/GoogleMeet/Settings/main.php:6
+msgid "Credentials"
+msgstr "Références"
+
+#: addons/certificate_builder/main.php:144
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:88
+msgid "Current Date"
+msgstr "Date actuelle"
+
+#: addons/enterprise_courses/main.php:653
+msgid "Curriculum"
+msgstr "Programme"
+
+#: addons/assignments/filters.php:87 addons-plus/GoogleMeet/filters.php:109
+#: stm-lms-templates/points/history.php:55
+#: stm-lms-templates/points/admin/actions.php:10
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:22
+msgid "Date"
+msgstr "Date"
+
+#: stm-lms-templates/stm-lms-google-meets.php:190
+msgid "Date & Time"
+msgstr "Date et heure"
+
+#: includes/enqueue.php:139
+msgid "Date range"
+msgstr ""
+
+#: stm-lms-templates/stm-lms-enrolled-assignments.php:27
+#: addons/assignments/user_assignment.class.php:224
+msgid "Declined"
+msgstr "Refusé"
+
+#: addons-plus/GoogleMeet/helpers.php:99
+msgid "Default"
+msgstr "Par défaut"
+
+#: stm-lms-templates/certificate-builder/categories.php:64
+#: stm-lms-templates/certificate-builder/destination-content.php:9
+#: stm-lms-templates/certificate-builder/destination-header.php:17
+msgid "Default certificate"
+msgstr "Certificat par défaut"
+
+#: addons-plus/email_branding/main.php:16
+msgid "Default Email Template"
+msgstr "Modèle d'email par défaut"
+
+#: addons/form_builder/templates/main.php:31
+msgid "Default field"
+msgstr "Champ par défaut"
+
+#: stm-lms-templates/stm-lms-google-meets.php:285
+#: addons-plus/GoogleMeet/Settings/main.php:27
+msgid "Default reminder time (minutes)"
+msgstr "Temps de rappel par défaut (minutes)"
+
+#: stm-lms-templates/stm-lms-google-meets.php:255
+#: addons-plus/GoogleMeet/Settings/main.php:20
+msgid "Default timezone"
+msgstr "Fuseau horaire par défaut"
+
+#: addons/form_builder/templates/main.php:190
+msgid "Default: .png,.jpg,.jpeg,.mp4,.pdf"
+msgstr "Par défaut : .png,.jpg,.jpeg,.mp4,.pdf"
+
+#: addons/email_manager/emails.php:56
+msgid "Degree"
+msgstr "Diplôme"
+
+#: addons/assignments/actions.php:326
+#: stm-lms-templates/google-meet/meeting-form.php:97
+#: stm-lms-templates/bundles/card/vue/top.php:31
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:206
+msgid "Delete"
+msgstr "Supprimer"
+
+#: stm-lms-templates/certificate-builder/delete-popup.php:46
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:204
+msgid "Delete certificate"
+msgstr "Supprimer le certificat"
+
+#: addons/google_classrooms/admin_view/token.php:47
+msgid "Delete Credentials"
+msgstr "Supprimer les informations d'identification"
+
+#: stm-lms-templates/certificate-builder/canvas.php:70
+#: stm-lms-templates/certificate-builder/canvas.php:164
+msgid "Delete field"
+msgstr "Supprimer le champ"
+
+#: addons/assignments/actions.php:324
+msgid "Delete file"
+msgstr "Supprimer le fichier"
+
+#: stm-lms-templates/course/parts/student_assignments/on_review.php:32
+#: stm-lms-templates/course/parts/student_assignments/passed.php:34
+#: stm-lms-templates/course/parts/student_assignments/progress.php:33
+#: stm-lms-templates/course/parts/student_assignments/unpassed.php:39
+msgid "Delete File?"
+msgstr "Supprimer le fichier ?"
+
+#: stm-lms-templates/certificate-builder/image-popup.php:34
+msgid "Delete image"
+msgstr "Supprimer l'image"
+
+#: addons/scorm/main.php:143
+msgid "Delete package"
+msgstr "Supprimer le paquet"
+
+#: stm-lms-templates/points/distribution.php:16
+msgid "Description"
+msgstr "Description"
+
+#: includes/enqueue.php:133
+msgid "Detailed report"
+msgstr ""
+
+#: includes/enqueue.php:134 addons/certificate_builder/main.php:159
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:98
+msgid "Details"
+msgstr "Détails"
+
+#: addons-plus/email_branding/main.php:189
+msgid ""
+"Disable if you want to use a custom HTML template with your own Header & "
+"Footer."
+msgstr ""
+"Désactivez si vous souhaitez utiliser un modèle HTML personnalisé avec votre "
+"propre en-tête et pied de page."
+
+#. %1$s Course ID %2$s Course Price
+#: stm-lms-templates/points/buy.php:20
+#: stm-lms-templates/components/buy-button/paid-courses/points.php:25
+#, fuzzy, php-format
+#| msgid "Do you really want to buy %s for %s?"
+msgid "Do you really want to buy %1$s for %2$s?"
+msgstr "Voulez-vous vraiment acheter %1$s pour %2$s ?"
+
+#: stm-lms-templates/google-meet/meeting-form.php:84
+msgid ""
+"Do you really want to delete this Google Meet ? This process cannot be "
+"undone."
+msgstr ""
+"Voulez-vous vraiment supprimer ce Google Meet ? Ce processus ne peut pas "
+"être annulé."
+
+#: stm-lms-templates/points/admin/stats.php:10
+msgid "Do you really want to delete this record?"
+msgstr "Voulez-vous vraiment supprimer cet enregistrement ?"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:20
+msgid "Do you really want to delete this user from group?"
+msgstr "Voulez-vous vraiment supprimer cet utilisateur du groupe ?"
+
+#: stm-lms-templates/stm-lms-google-meets.php:89
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:31
+#: addons-plus/GoogleMeet/Settings/components/meet-intro-links/fields/meet-intro-links.php:23
+msgid "Documentation"
+msgstr "Documentation"
+
+#: stm-lms-templates/components/form-builder-fields/file.php:45
+msgid "Download"
+msgstr "Télécharger"
+
+#: addons/assignments/actions.php:119
+msgid "Download audio file."
+msgstr "Télécharger le fichier audio."
+
+#: addons/assignments/actions.php:124
+msgid "Download video file."
+msgstr "Télécharger le fichier vidéo."
+
+#: addons/assignments/user_assignment.class.php:210
+#: addons/multi_instructors/main.php:82
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:22
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:65
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:91
+#: stm-lms-templates/bundles/card/vue/top.php:10
+msgid "Draft"
+msgstr "Brouillon"
+
+#. %s string
+#: stm-lms-templates/components/form-builder-fields/file.php:73
+#, php-format
+msgid "Drag %s here or click the button."
+msgstr "Faites glisser %s ici ou cliquez sur le bouton."
+
+#: addons/form_builder/templates/main.php:40
+msgid "Drag Elements Here"
+msgstr "Faites glisser les éléments ici"
+
+#: addons/form_builder/main.php:135
+msgid "Drop Down"
+msgstr "Liste déroulante"
+
+#: stm-lms-templates/analytics/course.php:22
+msgid "Dropped"
+msgstr ""
+
+#: stm-lms-templates/analytics/student.php:53
+msgid "Duration"
+msgstr ""
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:84
+msgid "Earnings"
+msgstr "Revenus"
+
+#: stm-lms-templates/account/private/parts/points/my-points.php:31
+msgid "Earnings History"
+msgstr "Historique des revenus"
+
+#: addons/certificate_builder/hooks.php:275
+#: addons/certificate_builder/hooks.php:299
+#: addons/google_classrooms/admin_view/courses.php:64
+#: stm-lms-templates/multi_instructor/co_courses/main.php:39
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:54
+#: addons/udemy/udemy_importer/components/udemy.php:41
+#: stm-lms-templates/bundles/card/vue/top.php:24
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:147
+msgid "Edit"
+msgstr "Modifier"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:50
+msgid "Edit group"
+msgstr "Modifier le groupe"
+
+#: stm-lms-templates/certificate-builder/destination-content.php:30
+msgid "Edit in the builder"
+msgstr "Modifier dans le créateur"
+
+#: addons/assignments/main.php:691
+msgid "Editor Comment"
+msgstr "Commentaire de l'éditeur"
+
+#: stm-lms-templates/certificate-builder/controls.php:18
+#: addons/form_builder/templates/main.php:225
+msgid "Elements"
+msgstr "Éléments"
+
+#: stm-lms-templates/certificate-builder/controls.php:9
+msgid "Elements & Backgrounds"
+msgstr "Éléments et arrière-plans"
+
+#: addons/email_manager/emails.php:214 addons/form_builder/main.php:131
+msgid "Email"
+msgstr "Email"
+
+#: addons-plus/email_branding/main.php:188
+msgid "Email Branding"
+msgstr "Branding d'email"
+
+#: addons/enterprise_courses/main.php:661
+msgid "Emails"
+msgstr "Courriels"
+
+#: addons-plus/AudioLesson/filters.php:75
+msgid "Embed"
+msgstr "Intégrer"
+
+#: addons-plus/AudioLesson/filters.php:15
+msgid "Embed (Apple Podcasts, Soundcloud, Deezer, Spotify)"
+msgstr "Intégrer (Apple Podcasts, Soundcloud, Deezer, Spotify)"
+
+#: addons/point_system/settings.php:72
+msgid "Enable Affiliate Points"
+msgstr "Activer les points d'affiliation"
+
+#: addons/shareware/main.php:44
+msgid "Enable Guest access to trial courses"
+msgstr "Activer l'accès invité aux cours d'essai"
+
+#: addons/google_classrooms/main.php:318
+msgid "Enable popup"
+msgstr "Activer le popup"
+
+#: addons/google_classrooms/main.php:313
+msgid ""
+"Enable this option so that only students who are signed in will see the "
+"Google Classroom code"
+msgstr ""
+
+#: addons-plus/ComingSoon/filters.php:25
+msgid ""
+"Enable this option to allow upcoming courses to be included in course bundles"
+msgstr ""
+
+#: addons/sequential_drip_content/main.php:43
+msgid ""
+"Enable this to lock lessons in a course so that students can only access "
+"them sequentially, one after another"
+msgstr ""
+
+#: addons/assignments/main.php:712 addons/certificate_builder/main.php:139
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:119
+msgid "End Date"
+msgstr "Date de fin"
+
+#: stm-lms-templates/google-meet/meeting-form.php:37
+msgid "End date"
+msgstr "Date de fin"
+
+#: stm-lms-templates/course-player/google-meet.php:39
+#: stm-lms-templates/course-player/stream.php:38
+msgid "Ends:"
+msgstr "Se termine :"
+
+#: includes/plus/helpers.php:33 includes/plus/helpers.php:34
+#: stm-lms-templates/analytics/engagement.php:179
+#: stm-lms-templates/analytics/engagement.php:338
+msgid "Engagement"
+msgstr ""
+
+#: stm-lms-templates/analytics/engagement.php:170
+msgid "Engagement table"
+msgstr ""
+
+#: stm-lms-templates/analytics/student.php:73
+#: stm-lms-templates/components/analytics/stats-block.php:18
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-button.php:80
+msgid "Enrolled"
+msgstr "Inscrit"
+
+#: stm-lms-templates/analytics/course.php:103
+#: stm-lms-templates/analytics/course.php:194
+#: stm-lms-templates/analytics/engagement.php:236
+#: stm-lms-templates/analytics/instructor.php:16
+#: stm-lms-templates/analytics/revenue.php:23
+#: stm-lms-templates/analytics/users.php:16
+#: stm-lms-templates/analytics/users.php:47
+#: stm-lms-templates/components/analytics/stats-block.php:26
+msgid "Enrollments"
+msgstr ""
+
+#: stm-lms-templates/analytics/course.php:81
+#: stm-lms-templates/analytics/engagement.php:152
+msgid "Enrollments by status"
+msgstr ""
+
+#: stm-lms-templates/analytics/engagement.php:166
+msgid "Enrollments chart"
+msgstr ""
+
+#: addons/form_builder/templates/main.php:118
+msgid "Ensure each form field has a unique ID to prevent bugs"
+msgstr ""
+"Assurez-vous que chaque champ de formulaire a un ID unique pour éviter les "
+"bugs"
+
+#: stm-lms-templates/bundles/my-bundle/title.php:7
+msgid "Enter bundle name"
+msgstr "Entrez le nom du paquet"
+
+#: stm-lms-templates/bundles/my-bundle/price.php:17
+msgid "Enter bundle price"
+msgstr "Entrez le prix du paquet"
+
+#: stm-lms-templates/shortcodes/checker.php:21
+msgid "Enter certificate code"
+msgstr "Entrez le code du certificat"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:13
+#: stm-lms-templates/components/modals/group-courses.php:117
+msgid "Enter group name"
+msgstr "Entrez le nom du groupe"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:98
+msgid "Enter group name..."
+msgstr "Entrez le nom du groupe..."
+
+#: stm-lms-templates/stm-lms-gradebook.php:33
+msgid "Enter keyword here"
+msgstr "Entrez le mot-clé ici"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:113
+msgid "Enter member E-mail..."
+msgstr "Entrez l'email du membre..."
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:32
+msgid "Enter message for students"
+msgstr "Entrez un message pour les étudiants"
+
+#: stm-lms-templates/enterprise_groups/edit_group.php:33
+msgid "Enter new user e-mail"
+msgstr "Entrez le nouvel email de l'utilisateur"
+
+#: stm-lms-templates/components/modals/group-courses.php:129
+msgid "Enter student email here"
+msgstr "Entrez l'email de l'étudiant ici"
+
+#: addons/form_builder/templates/main.php:130
+msgid "Enter the field slug which will be displayed in the user interface"
+msgstr "Entrez le slug du champ qui sera affiché dans l'interface utilisateur"
+
+#: addons/scorm/main.php:407
+msgid ""
+"Enter the file extensions separating with commas without spaces. For example:"
+" psd,txt. Some common extensions are already added, including css, js, woff, "
+"ttf, otf, jpg, jpeg, png, gif, html, json, xml, pdf, mp3, mp4, xsd, dtd, ico,"
+" and swf"
+msgstr ""
+
+#: includes/classes/class-certificates.php:82
+msgid "Enter valid code"
+msgstr "Entrez un code valide"
+
+#: addons/form_builder/main.php:413
+msgid "Enter your BIO"
+msgstr "Entrez votre BIO"
+
+#: addons/form_builder/main.php:405
+msgid "Enter your last name"
+msgstr "Entrez votre nom de famille"
+
+#: addons/form_builder/main.php:401
+msgid "Enter your name"
+msgstr "Entrez votre nom"
+
+#: addons/form_builder/main.php:409
+msgid "Enter your position"
+msgstr "Entrez votre position"
+
+#: addons/email_manager/EmailManagerSettingsPage.php:34
+#: addons/email_manager/main.php:75
+msgid "Enterprise"
+msgstr "Entreprise"
+
+#. %s Title
+#: addons/enterprise_courses/main.php:815
+#: addons/enterprise_courses/main.php:1151
+#, php-format
+msgid "Enterprise for %s"
+msgstr "Entreprise pour %s"
+
+#: addons/form_builder/main.php:81
+msgid "Enterprise Form"
+msgstr "Formulaire Entreprise"
+
+#: addons/enterprise_courses/main.php:627
+msgid "Enterprise Group"
+msgstr "Groupe d'entreprise"
+
+#: addons/enterprise_courses/main.php:628
+msgid "Enterprise Groups"
+msgstr "Groupes d'entreprise"
+
+#: addons/enterprise_courses/main.php:6
+msgid "Enterprise LMS Products"
+msgstr "Produits LMS d'entreprise"
+
+#. %s Currency
+#: addons/enterprise_courses/main.php:671
+#, fuzzy, php-format
+#| msgid "Enterprise price"
+msgid "Enterprise Price (%s)"
+msgstr "Prix d'entreprise (%s)"
+
+#: addons/email_manager/emails.php:203 addons/email_manager/emails.php:207
+msgid "Enterprise Request"
+msgstr "Demande d'entreprise"
+
+#: addons-plus/email_branding/main.php:113
+msgid "Entire Background Color"
+msgstr "Couleur de l'arrière-plan entier"
+
+#: addons/assignments/actions.php:113
+msgid "Error"
+msgstr "Erreur"
+
+#: addons/enterprise_courses/main.php:245
+msgid "Error. Try again"
+msgstr "Erreur. Essayez à nouveau"
+
+#: stm-lms-templates/points/history.php:53
+#: stm-lms-templates/points/admin/actions.php:8
+msgid "Event"
+msgstr "Événement"
+
+#: stm-lms-templates/analytics/revenue.php:98
+msgid "Existing students"
+msgstr ""
+
+#: addons/email_manager/emails.php:60
+msgid "Expertize"
+msgstr "Expertise"
+
+#: stm-lms-templates/analytics/engagement.php:28
+#: stm-lms-templates/analytics/engagement.php:71
+msgid "Expired"
+msgstr ""
+
+#: addons-plus/AudioLesson/filters.php:11
+msgid "External Link"
+msgstr "Lien externe"
+
+#: addons-plus/AudioLesson/filters.php:68
+msgid "External link"
+msgstr "Lien externe"
+
+#: stm-lms-templates/stm-lms-google-meets.php:309
+msgid "External Only"
+msgstr "Externe uniquement"
+
+#: addons/assignments/actions.php:219 stm-lms-templates/analytics/course.php:61
+#: stm-lms-templates/analytics/engagement.php:144
+#: stm-lms-templates/components/analytics/stats-block.php:21
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/review.php:28
+msgid "Failed"
+msgstr "Échoué"
+
+#. %s string
+#: addons/form_builder/main.php:238
+#, php-format
+msgid "Field can only have one of the following extensions: %s"
+msgstr "Le champ ne peut avoir que l'une des extensions suivantes : %s"
+
+#: addons/form_builder/templates/main.php:139
+msgid "Field description"
+msgstr "Description du champ"
+
+#: addons/form_builder/templates/main.php:115
+msgid "Field ID"
+msgstr "ID du champ"
+
+#: addons/form_builder/templates/main.php:127
+msgid "Field Label"
+msgstr "Étiquette du champ"
+
+#: addons-plus/AudioLesson/filters.php:61
+msgid "File"
+msgstr "Fichier"
+
+#: stm-lms-templates/components/form-builder-fields/file.php:69
+msgid "file"
+msgstr "fichier"
+
+#: addons/form_builder/main.php:151
+msgid "File Attachment"
+msgstr "Pièce jointe"
+
+#: addons/assignments/main.php:577
+msgid "File extensions allowed to upload"
+msgstr ""
+
+#: addons/assignments/main.php:899 addons/media_library/main.php:157
+#: addons/media_library/Http/Controllers/UploadController.php:38
+msgid "File is too large."
+msgstr "Le fichier est trop grand."
+
+#: stm-lms-templates/components/form-builder-fields/file.php:69
+msgid "files"
+msgstr "fichiers"
+
+#: addons/form_builder/main.php:400
+msgid "First Name"
+msgstr "Prénom"
+
+#: addons-plus/email_branding/main.php:98
+msgid "Footer Background"
+msgstr "Arrière-plan du pied de page"
+
+#: stm-lms-templates/components/buy-button/paid-courses/group-courses.php:16
+msgid "For Business"
+msgstr "Pour les affaires"
+
+#: addons-plus/GoogleMeet/ajax-actions.php:64
+#: addons-plus/GoogleMeet/ajax-actions.php:87
+#: addons-plus/GoogleMeet/ajax-actions.php:243
+msgid "Forbidden"
+msgstr "Interdit"
+
+#: addons/form_builder/main.php:27 addons/form_builder/main.php:28
+msgid "Forms Editor"
+msgstr "Éditeur de formulaires"
+
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-button.php:64
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-info.php:86
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-info.php:89
+msgid "Free"
+msgstr "Gratuit"
+
+#: stm-lms-templates/certificate-builder/categories.php:8
+msgid "from"
+msgstr "de"
+
+#: stm-lms-templates/stm-lms-google-meets.php:148
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:94
+msgid "from 4"
+msgstr "de 4"
+
+#: addons/google_classrooms/admin_view/token.php:51
+msgid "Get Access Token"
+msgstr "Obtenir un jeton d'accès"
+
+#: stm-lms-templates/components/bundle-button.php:34
+msgid "Get now"
+msgstr "Obtenir maintenant"
+
+#: addons/udemy/import.php:157
+msgid "Get on Udemy"
+msgstr "Aller sur Udemy"
+
+#: addons/enterprise_courses/main.php:368
+#: addons/enterprise_courses/main.php:383
+#: addons/CourseBundle/Utility/CourseBundleCheckout.php:26
+msgid "Go to Cart"
+msgstr "Aller au panier"
+
+#: addons/google_classrooms/main.php:455
+msgid "Google Classroom view"
+msgstr "Vue de la salle de classe Google"
+
+#: addons/google_classrooms/admin_view/google_api_classroom.php:15
+msgid "Google Classrooms archive page"
+msgstr "Page d'archive des salles de classe Google"
+
+#: addons/google_classrooms/main.php:350
+msgid "Google Classrooms page"
+msgstr ""
+
+#: addons/google_classrooms/admin_view/google_api_classroom.php:50
+msgid "Google Classrooms Settings"
+msgstr "Paramètres des salles de classe Google"
+
+#: addons-plus/GoogleMeet/filters.php:39
+#: addons-plus/GoogleMeet/Settings/main.php:50
+#: addons-plus/GoogleMeet/Settings/main.php:51
+msgid "Google Meet"
+msgstr "Google Meet"
+
+#: stm-lms-templates/stm-lms-google-meets.php:165
+msgid "Google Meet Integration"
+msgstr "Intégration Google Meet"
+
+#: stm-lms-templates/stm-lms-google-meets.php:73
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:18
+msgid ""
+"Google Meet integration enables seamless video conferencing will enhance "
+"collaboration and communication between users. Follow the steps below to get "
+"started."
+msgstr ""
+"L'intégration de Google Meet permet des vidéoconférences transparentes qui "
+"amélioreront la collaboration et la communication entre les utilisateurs. "
+"Suivez les étapes ci-dessous pour commencer."
+
+#: addons-plus/GoogleMeet/ajax-actions.php:146
+msgid "Google Meet settings saved"
+msgstr "Paramètres Google Meet enregistrés"
+
+#: addons/gradebook/Gradebook.php:28
+msgid "Gradebook"
+msgstr "Carnet de notes"
+
+#: stm-lms-templates/stm-lms-google-meets.php:134
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:80
+msgid "Grant App Permissions"
+msgstr "Accorder les permissions de l'application"
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:50
+#, php-format
+msgid "Group \"%s\""
+msgstr "Groupe \"%s\""
+
+#: stm-lms-templates/analytics/revenue.php:165
+msgid "Group courses purchased"
+msgstr ""
+
+#: stm-lms-templates/stm-lms-assignment.php:25
+#: stm-lms-templates/stm-lms-enterprise-groups.php:14
+msgid "Group Limit:"
+msgstr "Limite de groupe :"
+
+#: addons/email_manager/emails.php:471
+#: stm-lms-templates/analytics/revenue.php:127
+#: stm-lms-templates/components/modals/group-courses.php:116
+msgid "Group name"
+msgstr "Nom du groupe"
+
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:97
+msgid "Group name:"
+msgstr "Nom du groupe :"
+
+#: addons/enterprise_courses/main.php:644
+msgid "Group Settings"
+msgstr "Paramètres du groupe"
+
+#: addons/enterprise_courses/main.php:27
+#: stm-lms-templates/analytics/revenue.php:155
+#: stm-lms-templates/components/analytics/stats-block.php:15
+msgid "Groups"
+msgstr "Groupes"
+
+#: addons-plus/email_branding/main.php:54
+msgid "Header & Footer"
+msgstr "En-tête et pied de page"
+
+#: addons-plus/email_branding/main.php:81
+msgid "Header Background"
+msgstr "Arrière-plan de l'en-tête"
+
+#. %s Login
+#: addons/enterprise_courses/main.php:1101
+#: addons/enterprise_courses/main.php:1130
+#, php-format
+msgid "Hello %s"
+msgstr "Bonjour %s"
+
+#: stm-lms-templates/certificate-builder/destination-header.php:8
+msgid "Here you can assign your certificates to certain categories and courses"
+msgstr ""
+"Ici, vous pouvez attribuer vos certificats à certaines catégories et cours"
+
+#: addons/email_manager/EmailManagerSettingsPage.php:86
+#: addons/email_manager/main.php:129 addons-plus/ComingSoon/filters.php:81
+#: addons-plus/ComingSoon/filters.php:106
+#: addons-plus/ComingSoon/filters.php:131
+msgid "Hidden"
+msgstr "Caché"
+
+#: stm-lms-templates/analytics/engagement.php:260
+#: stm-lms-templates/analytics/engagement.php:297
+#: stm-lms-templates/analytics/engagement.php:371
+#: stm-lms-templates/analytics/revenue.php:329
+#: stm-lms-templates/analytics/revenue.php:366
+#: stm-lms-templates/analytics/revenue.php:431
+#: stm-lms-templates/analytics/reviews.php:174
+#: stm-lms-templates/analytics/reviews.php:210
+#: stm-lms-templates/analytics/reviews.php:259
+#: stm-lms-templates/analytics/reviews.php:292
+#: stm-lms-templates/analytics/reviews.php:350
+#: stm-lms-templates/analytics/users.php:182
+#: stm-lms-templates/analytics/users.php:219
+#: stm-lms-templates/analytics/users.php:256
+#: stm-lms-templates/analytics/users.php:291
+msgid "Hide report"
+msgstr ""
+
+#: stm-lms-templates/points/admin/stats.php:34
+msgid "History"
+msgstr "Historique"
+
+#: stm-lms-templates/certificate-builder/create-popup.php:29
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: stm-lms-templates/course-player/google-meet.php:43
+msgid "Host e-mail:"
+msgstr "Email de l'hôte :"
+
+#: stm-lms-templates/points/history.php:31
+msgid "How to get more?"
+msgstr "Comment en obtenir plus ?"
+
+#: addons/online_testing/main.php:40
+msgid "How to use"
+msgstr "Comment utiliser"
+
+#. URI of the plugin
+msgid "http://masterstudy.stylemixthemes.com/lms-plugin/"
+msgstr "http://masterstudy.stylemixthemes.com/lms-plugin/"
+
+#. Author URI of the plugin
+msgid "https://stylemixthemes.com/"
+msgstr "https://stylemixthemes.com/"
+
+#: addons/certificate_builder/hooks.php:188
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:105
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:137
+msgid "ID"
+msgstr "ID"
+
+#: addons/sequential_drip_content/main.php:49
+msgid ""
+"If enabled, lessons will remain locked until their designated start time, so "
+"that students can not access them before then"
+msgstr ""
+
+#: addons/form_builder/templates/main.php:75
+#: addons/form_builder/templates/main.php:107
+msgid ""
+"If you check this option, this field will be added to the registration form "
+"as well"
+msgstr ""
+"Si vous cochez cette option, ce champ sera également ajouté au formulaire "
+"d'inscription"
+
+#: addons/form_builder/templates/main.php:178
+msgid ""
+"If you check this option, this information will be displayed in instructor "
+"public profile"
+msgstr ""
+"Si vous cochez cette option, ces informations seront affichées dans le "
+"profil public de l'instructeur"
+
+#: addons/certificate_builder/main.php:37
+#: addons/certificate_builder/main.php:124
+#: addons/certificate_builder/Http/Controllers/AdminPageController.php:13
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:66
+msgid "Image"
+msgstr "Image"
+
+#: addons/google_classrooms/admin_view/courses.php:27
+msgid "Import"
+msgstr "Importer"
+
+#: addons/google_classrooms/admin_view/courses.php:11
+msgid "Import all"
+msgstr "Tout importer"
+
+#: addons/google_classrooms/admin_view/courses.php:48
+#: addons/udemy/udemy_importer/components/udemy.php:32
+msgid "Import Course"
+msgstr "Importer un cours"
+
+#: stm-lms-templates/enterprise_groups/groups.php:36
+msgid "Import Groups (csv)"
+msgstr "Importer des groupes (csv)"
+
+#: stm-lms-templates/admin/notices/compatibility.php:10
+msgid "Important!"
+msgstr "Important !"
+
+#: addons/udemy/main.php:74
+msgid "Imported Courses"
+msgstr "Cours importés"
+
+#: addons/udemy/udemy_importer/components_js/udemy.php:47
+msgid "Importing Course"
+msgstr "Importation de cours"
+
+#: addons/udemy/import.php:70
+msgid "Importing Curriculum"
+msgstr "Importation de programme"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:18
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:112
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:110
+msgid "In course"
+msgstr "Dans le cours"
+
+#: addons/assignments/Assignments.php:41
+msgid "In process"
+msgstr "En cours"
+
+#: stm-lms-templates/analytics/course.php:54
+#: stm-lms-templates/analytics/course.php:58
+#: stm-lms-templates/analytics/engagement.php:20
+#: stm-lms-templates/analytics/engagement.php:63
+#: stm-lms-templates/analytics/engagement.php:137
+#: stm-lms-templates/analytics/engagement.php:141
+#: stm-lms-templates/components/analytics/stats-block.php:23
+msgid "In progress"
+msgstr ""
+
+#: stm-lms-templates/stm-lms-google-meets.php:118
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:61
+msgid ""
+"In this step, you need to upload the credentials .JSON file. The credentials "
+".JSON file contains the necessary authentication information that allows "
+"securely interacting with the Google Meet API."
+msgstr ""
+"À cette étape, vous devez télécharger le fichier .JSON des informations "
+"d'identification. Le fichier .JSON des informations d'identification "
+"contient les informations d'authentification nécessaires permettant une "
+"interaction sécurisée avec l'API Google Meet."
+
+#: includes/libraries/compatibility/main.php:16
+#: includes/wizard/templates/main.php:13
+msgid "Install"
+msgstr "Installer"
+
+#: addons/zoom_conference/admin_views/install_zoom_plugin.php:4
+msgid "Install plugin"
+msgstr "Installer le plugin"
+
+#: addons/zoom_conference/admin_views/install_zoom_plugin.php:5
+msgid "Installing..."
+msgstr "Installation en cours..."
+
+#: addons/certificate_builder/hooks.php:187
+#: stm-lms-templates/analytics/instructor.php:84
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:101
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:130
+msgid "Instructor"
+msgstr "Instructeur"
+
+#: stm-lms-templates/course-player/assignments/instructor-comment.php:15
+msgid "Instructor comment:"
+msgstr "Commentaire de l'instructeur :"
+
+#: addons/email_manager/emails.php:11
+msgid "Instructor login"
+msgstr "Connexion de l'instructeur"
+
+#: addons/email_manager/emails.php:358
+msgid "Instructor message"
+msgstr "Message de l'instructeur"
+
+#: addons/certificate_builder/main.php:129
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:134
+msgid "Instructor name"
+msgstr "Nom de l'instructeur"
+
+#: stm-lms-templates/analytics/revenue.php:102
+msgid "Instructor revenue"
+msgstr ""
+
+#: addons/assignments/actions.php:147
+msgid "Instructor Review"
+msgstr "Revue de l'instructeur"
+
+#: addons/email_manager/EmailManagerSettingsPage.php:28
+#: addons/email_manager/main.php:69 stm-lms-templates/analytics/users.php:94
+#: stm-lms-templates/analytics/users.php:208
+msgid "Instructors"
+msgstr "Instructeurs"
+
+#: addons-plus/ComingSoon/filters.php:15
+msgid "Instructors can create a course that it will be available in the future"
+msgstr ""
+
+#: addons/multi_instructors/settings.php:33 addons/point_system/settings.php:54
+msgid "Interface"
+msgstr "Interface"
+
+#: addons/enterprise_courses/main.php:553
+msgid "Invalid CSV File"
+msgstr "Fichier CSV invalide"
+
+#: addons/assignments/main.php:873
+msgid "Invalid File"
+msgstr "Fichier invalide"
+
+#: addons/assignments/main.php:912 addons/media_library/main.php:148
+msgid "Invalid file extension"
+msgstr "Extension de fichier non valide"
+
+#: stm-lms-templates/course-player/google-meet.php:48
+msgid "Join meeting"
+msgstr "Rejoindre la réunion"
+
+#: stm-lms-templates/analytics/engagement.php:79
+#: stm-lms-templates/analytics/users.php:28
+#: stm-lms-templates/analytics/users.php:55
+msgid "Joined on"
+msgstr ""
+
+#: addons/point_system/points.php:48
+msgid "Joining group"
+msgstr "Rejoindre le groupe"
+
+#: addons-plus/GoogleMeet/ajax-actions.php:50
+msgid "JSON file uploaded, reloading..."
+msgstr "Fichier JSON téléchargé, rechargement..."
+
+#: addons/google_classrooms/main.php:161
+msgid "JSON Loaded, reloading..."
+msgstr "JSON chargé, rechargement..."
+
+#: stm-lms-templates/components/analytics/datepicker-modal.php:12
+msgid "Last month"
+msgstr ""
+
+#: addons/form_builder/main.php:404
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: stm-lms-templates/account/private/parts/assignments/main.php:68
+msgid "Last update:"
+msgstr "Dernière mise à jour :"
+
+#: stm-lms-templates/components/analytics/datepicker-modal.php:10
+msgid "Last week"
+msgstr ""
+
+#: stm-lms-templates/components/analytics/datepicker-modal.php:14
+msgid "Last year"
+msgstr ""
+
+#: includes/libraries/compatibility/main.php:15
+msgid ""
+"Learning Management System, eLearning, Online Courses from WordPress.org"
+msgstr ""
+"Système de gestion de l'apprentissage, eLearning, cours en ligne de "
+"WordPress.org"
+
+#: addons/form_builder/templates/main.php:193
+msgid "Leave empty to use default values (.png,.jpg,.jpeg,.mp4,.pdf)"
+msgstr ""
+"Laissez vide pour utiliser les valeurs par défaut (.png,.jpg,.jpeg,.mp4,.pdf)"
+
+#: addons/point_system/points.php:42
+msgid "Lesson completion"
+msgstr "Achèvement de la leçon"
+
+#: stm-lms-templates/analytics/course.php:14
+msgid "Lesson name"
+msgstr ""
+
+#: stm-lms-templates/course-player/drip-content.php:19
+msgid "Lesson starts in:"
+msgstr "La leçon commence dans :"
+
+#: addons/email_manager/emails.php:86 addons/email_manager/emails.php:116
+msgid "Lesson title"
+msgstr "Titre de la leçon"
+
+#: stm-lms-templates/analytics/course.php:34
+msgid "Lesson type"
+msgstr ""
+
+#: addons/email_manager/EmailManagerSettingsPage.php:32
+#: addons/email_manager/main.php:73
+#: stm-lms-templates/components/analytics/stats-block.php:17
+msgid "Lessons"
+msgstr "Leçons"
+
+#: stm-lms-templates/analytics/course.php:95
+#: stm-lms-templates/analytics/course.php:281
+msgid "Lessons engagement"
+msgstr ""
+
+#: stm-lms-templates/gradebook/students-details.php:38
+msgid "Lessons Passed"
+msgstr "Leçons réussies"
+
+#: stm-lms-templates/certificate-builder/destination-header.php:5
+#: stm-lms-templates/certificate-builder/header.php:30
+msgid "Link Certificates"
+msgstr "Lier les certificats"
+
+#: addons/CourseBundle/woocommerce.php:8
+msgid "LMS Bundles"
+msgstr "Paquets LMS"
+
+#: includes/classes/class-woocommerce.php:55
+msgid "LMS Products"
+msgstr "Produits LMS"
+
+#: addons/google_classrooms/admin_view/token.php:31
+msgid "Load Credentials"
+msgstr "Charger les informations d'identification"
+
+#: stm-lms-templates/stm-lms-google-meets.php:215
+msgid "Load More"
+msgstr "Charger plus"
+
+#: stm-lms-templates/stm-lms-gradebook.php:76
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:198
+msgid "Load more"
+msgstr "Charger plus"
+
+#: stm-lms-templates/gradebook/students-details.php:8
+msgid "Load Students Statistics"
+msgstr "Charger les statistiques des étudiants"
+
+#: addons/google_classrooms/admin_view/courses.php:4
+msgid "Loading Courses..."
+msgstr "Chargement des cours..."
+
+#: addons-plus/GoogleMeet/ajax-actions.php:164
+msgid "Loading Google Consent Screen... "
+msgstr "Chargement de l'écran de consentement Google..."
+
+#: addons-plus/GoogleMeet/ajax-actions.php:123
+msgid "Loading Google Meet Lesson..."
+msgstr "Chargement de la leçon Google Meet..."
+
+#: stm-lms-templates/points/admin/actions.php:1
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: addons/sequential_drip_content/main.php:48
+msgid "Lock lesson till its start time"
+msgstr "Verrouiller la leçon jusqu'à son heure de début"
+
+#: addons/sequential_drip_content/main.php:42
+msgid "Lock lessons in order"
+msgstr "Verrouiller les leçons dans l'ordre"
+
+#: addons/enterprise_courses/main.php:221
+#: addons/enterprise_courses/main.php:566
+msgid "Log in"
+msgstr "Se connecter"
+
+#: addons/email_manager/emails.php:268
+msgid "Login"
+msgstr "Connexion"
+
+#. %1$s Username, %2$s Password, %3$s Site URL
+#: addons/enterprise_courses/main.php:421
+#, fuzzy, php-format
+#| msgid "Login: %s; Password: %s; Site URL: %s"
+msgid "Login: %1$s Password: %2$s Site URL: %3$s"
+msgstr "Connexion : %1$s Mot de passe : %2$s URL du site : %3$s"
+
+#: addons/email_manager/emails.php:432
+msgid "Login: {{username}} Password: {{password}} Site URL: {{site_url}}"
+msgstr ""
+"Connexion : {{username}} Mot de passe : {{password}} URL du site : "
+"{{site_url}}"
+
+#: addons-plus/email_branding/main.php:64
+msgid "Logo"
+msgstr "Logo"
+
+#: addons/point_system/points.php:54
+msgid "Making friends"
+msgstr "Se faire des amis"
+
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:32
+msgid "Manage actions"
+msgstr "Gérer les actions"
+
+#: addons/form_builder/templates/main.php:86
+#: addons/form_builder/templates/main.php:166
+msgid "Mark the field as required"
+msgstr "Marquer le champ comme obligatoire"
+
+#: addons-plus/email_branding/main.php:29
+msgid "Masterstudy"
+msgstr "Masterstudy"
+
+#: includes/wizard/templates/main.php:5
+msgid "Masterstudy LMS Pro Addon requires MasterStudy LMS"
+msgstr "L'addon Masterstudy LMS Pro nécessite MasterStudy LMS"
+
+#: includes/classes/class-woocommerce.php:150
+msgid "MasterStudy LMS product"
+msgstr "Produit MasterStudy LMS"
+
+#. Name of the plugin
+msgid "MasterStudy LMS – Online Courses, eLearning PRO"
+msgstr "MasterStudy LMS – Cours en ligne, eLearning PRO"
+
+#: addons-plus/email_branding/main.php:173
+msgid "Masterstudy © 2023 All Rights Reserved."
+msgstr "Masterstudy © 2023 Tous droits réservés."
+
+#: addons/assignments/main.php:567
+msgid "Max file size (MB)"
+msgstr ""
+
+#: addons/media_library/main.php:299
+msgid "Max file size (Mb)"
+msgstr "Taille maximale du fichier (Mo)"
+
+#: stm-lms-templates/components/form-builder-fields/file.php:102
+msgid "Max file size: "
+msgstr "Taille maximale du fichier : "
+
+#: stm-lms-templates/components/form-builder-fields/file.php:111
+msgid "Max files limit: "
+msgstr "Limite maximale de fichiers : "
+
+#. %s Bundle Limit
+#: stm-lms-templates/bundles/my-bundle/select-course.php:58
+#, php-format
+msgid "Maximum courses in bundle : %s"
+msgstr "Nombre maximum de cours dans le paquet : %s"
+
+#: addons/media_library/main.php:279 addons/media_library/main.php:280
+msgid "Media File Manager"
+msgstr "Gestionnaire de fichiers multimédias"
+
+#: stm-lms-templates/stm-lms-google-meets.php:235
+#: addons-plus/GoogleMeet/Settings/components/credentials-status/fields/credentials.php:25
+msgid "Meet account status"
+msgstr "Statut du compte Meet"
+
+#: addons-plus/GoogleMeet/filters.php:74
+msgid "Meeting"
+msgstr "Réunion"
+
+#: stm-lms-templates/google-meet/meeting-form.php:87
+msgid "Meeting Details:"
+msgstr "Détails de la réunion :"
+
+#: addons-plus/GoogleMeet/filters.php:111
+msgid "Meeting Host"
+msgstr "Hôte de la réunion"
+
+#: stm-lms-templates/google-meet/meeting-form.php:21
+msgid "Meeting name"
+msgstr "Nom de la réunion"
+
+#: addons-plus/GoogleMeet/ajax-actions.php:227
+msgid "Meeting Saved"
+msgstr "Réunion enregistrée"
+
+#: stm-lms-templates/google-meet/meeting-form.php:26
+msgid "Meeting Summary"
+msgstr "Résumé de la réunion"
+
+#: addons-plus/GoogleMeet/ajax-actions.php:296
+msgid "Meeting Synchronized"
+msgstr "Réunion synchronisée"
+
+#: stm-lms-templates/stm-lms-google-meets.php:191
+#: addons-plus/GoogleMeet/filters.php:110
+msgid "Meeting URL"
+msgstr "URL de la réunion"
+
+#: stm-lms-templates/stm-lms-google-meets.php:175
+#: addons-plus/GoogleMeet/filters.php:75
+msgid "Meetings"
+msgstr "Réunions"
+
+#: addons-plus/GoogleMeet/Settings/components/meet-intro-links/fields/meet-intro-links.php:20
+msgid "Meetings List"
+msgstr "Liste des réunions"
+
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-info.php:91
+msgid "Members Only"
+msgstr "Réservé aux membres"
+
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-button.php:47
+msgid "Members only"
+msgstr "Réservé aux membres"
+
+#: stm-lms-templates/components/analytics/stats-block.php:24
+msgid "Memberships"
+msgstr ""
+
+#: addons/email_manager/EmailManagerSettingsPage.php:74
+#: addons/email_manager/main.php:117 addons-plus/ComingSoon/filters.php:72
+#: addons-plus/ComingSoon/filters.php:97 addons-plus/ComingSoon/filters.php:122
+msgid "Message"
+msgstr "Message"
+
+#: stm-lms-templates/account/private/instructor_parts/create_announcement.php:29
+msgid "Message for Course Students"
+msgstr "Message pour les étudiants du cours"
+
+#: addons/assignments/actions.php:70
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:150
+msgid "More"
+msgstr "Plus"
+
+#: stm-lms-templates/stm-lms-gradebook.php:57
+msgid "More info"
+msgstr "Plus d'infos"
+
+#: addons/assignments/user_assignment.class.php:19
+#: stm-lms-templates/account/private/parts/assignments/main.php:4
+msgid "My Assignments"
+msgstr "Mes devoirs"
+
+#: addons/certificate_builder/hooks.php:124
+msgid "My Certificates"
+msgstr "Mes certificats"
+
+#: stm-lms-templates/enterprise_groups/groups.php:3
+msgid "My Groups"
+msgstr "Mes groupes"
+
+#: addons/point_system/interface.php:25
+msgid "My Points"
+msgstr "Mes points"
+
+#: addons/email_manager/emails.php:213
+#: stm-lms-templates/analytics/revenue.php:50
+#: stm-lms-templates/analytics/users.php:12
+#: stm-lms-templates/analytics/users.php:43
+#: stm-lms-templates/points/distribution.php:15
+#: addons/google_classrooms/admin_view/courses.php:24
+msgid "Name"
+msgstr "Nom"
+
+#: addons/assignments/main.php:1158 addons/email_manager/emails.php:386
+msgid "New assignment"
+msgstr "Nouveau devoir"
+
+#: addons/email_manager/emails.php:382
+msgid "New assignment (for instructor)"
+msgstr "Nouveau devoir (pour l'instructeur)"
+
+#. %s Login
+#: addons/email_manager/emails.php:453 addons/email_manager/emails.php:457
+#: addons/enterprise_courses/main.php:1074
+msgid "New course available for enterprise group"
+msgstr "Nouveau cours disponible pour le groupe d'entreprise"
+
+#: stm-lms-templates/components/analytics/stats-block.php:25
+msgid "New courses"
+msgstr ""
+
+#: stm-lms-templates/components/modals/group-courses.php:25
+msgid "New group"
+msgstr "Nouveau groupe"
+
+#: stm-lms-templates/components/analytics/stats-block.php:31
+msgid "New group courses"
+msgstr ""
+
+#: addons/email_manager/emails.php:403 addons/email_manager/emails.php:407
+#: addons/enterprise_courses/main.php:402
+msgid "New group invite"
+msgstr "Nouvelle invitation de groupe"
+
+#: addons/email_manager/emails.php:42
+msgid "New Instructor Application"
+msgstr "Nouvelle candidature d'instructeur"
+
+#: addons/email_manager/emails.php:72
+msgid "New lesson comment"
+msgstr "Nouveau commentaire de leçon"
+
+#: stm-lms-templates/components/analytics/stats-block.php:29
+msgid "New lessons"
+msgstr ""
+
+#: addons/email_manager/emails.php:245
+msgid "New Order"
+msgstr "Nouvelle commande"
+
+#: addons/email_manager/emails.php:227
+msgid "New order"
+msgstr "Nouvelle commande"
+
+#: addons/email_manager/emails.php:223
+msgid "New order (for admin)"
+msgstr "Nouvelle commande (pour l'admin)"
+
+#: addons/email_manager/emails.php:241
+msgid "New Order (for user)"
+msgstr "Nouvelle commande (pour l'utilisateur)"
+
+#: stm-lms-templates/components/analytics/stats-block.php:30
+msgid "New quizzes"
+msgstr ""
+
+#: stm-lms-templates/analytics/revenue.php:99
+#: stm-lms-templates/components/analytics/stats-block.php:28
+msgid "New students"
+msgstr ""
+
+#: addons/certificate_builder/main.php:184
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:165
+msgid "New template"
+msgstr "Nouveau modèle"
+
+#: stm-lms-templates/components/analytics/stats-block.php:32
+msgid "New trial courses"
+msgstr ""
+
+#: addons/email_manager/emails.php:424 addons/email_manager/emails.php:428
+#: addons/enterprise_courses/main.php:417
+msgid "New user credentials for enterprise group"
+msgstr ""
+"Nouvelles informations d'identification utilisateur pour le groupe "
+"d'entreprise"
+
+#: stm-lms-templates/stm-lms-google-meets.php:153
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:99
+msgid "Next"
+msgstr "Suivant"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:165
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:153
+msgid "No Assignments found."
+msgstr "Aucun devoir trouvé."
+
+#: addons/assignments/templates/files.php:47
+msgid "No attached files"
+msgstr "Aucun fichier joint"
+
+#: addons/assignments/actions.php:179
+msgid "No attachements yet"
+msgstr "Pas encore de pièces jointes"
+
+#: stm-lms-templates/enterprise_groups/groups.php:20
+msgid "No groups found."
+msgstr "Aucun groupe trouvé."
+
+#: addons/assignments/actions.php:396
+msgid "No linked course"
+msgstr "Aucun cours lié"
+
+#: addons/assignments/actions.php:48
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:115
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:115
+msgid "No linked courses"
+msgstr "Aucun cours lié"
+
+#: stm-lms-templates/stm-lms-google-meets.php:225
+msgid "No Meetings Yet"
+msgstr "Pas encore de réunions"
+
+#: stm-lms-templates/certificate-builder/certificates.php:84
+msgid "No results for this criteria"
+msgstr "Aucun résultat pour ce critère"
+
+#: stm-lms-templates/certificate-builder/categories.php:111
+msgid "No search results"
+msgstr "Aucun résultat de recherche"
+
+#: addons/assignments/Assignments.php:37 addons/assignments/filters.php:43
+msgid "Non Passed"
+msgstr "Non passé"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:36
+msgid "Non passed"
+msgstr "Non passé"
+
+#. %s Assignments Count
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:37
+#, php-format
+msgid "Non passed: %s"
+msgstr "Non passé : %s"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:77
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:77
+msgid "Non-passed"
+msgstr "Non passé"
+
+#: stm-lms-templates/stm-lms-google-meets.php:313
+msgid "None"
+msgstr "Aucun"
+
+#: addons/google_classrooms/main.php:138
+msgid "Not a JSON file"
+msgstr "Pas un fichier JSON"
+
+#: addons/gradebook/Gradebook.php:53 addons/gradebook/Gradebook.php:63
+#: addons/gradebook/Gradebook.php:127 addons/gradebook/Gradebook.php:137
+msgid "Not authorized"
+msgstr "Non autorisé"
+
+#: addons/assignments/main.php:684
+msgid "Not checked"
+msgstr "Non vérifié"
+
+#: stm-lms-templates/analytics/course.php:26
+msgid "Not completed"
+msgstr ""
+
+#: addons/google_classrooms/admin_view/courses.php:36
+msgid "Not Imported Yet"
+msgstr "Pas encore importé"
+
+#: addons/assignments/main.php:686
+msgid "Not passed"
+msgstr "Non passé"
+
+#: stm-lms-templates/analytics/course.php:53
+#: stm-lms-templates/analytics/engagement.php:16
+#: stm-lms-templates/analytics/engagement.php:59
+#: stm-lms-templates/analytics/engagement.php:136
+#: stm-lms-templates/components/analytics/stats-block.php:20
+msgid "Not started"
+msgstr ""
+
+#: addons/udemy/main.php:136 stm-lms-templates/gradebook/course-details.php:62
+msgid "Nothing Found"
+msgstr "Rien trouvé"
+
+#: addons-plus/ComingSoon/ComingSoon.php:61
+msgid "Notification is added"
+msgstr "Notification ajoutée"
+
+#: addons-plus/ComingSoon/ComingSoon.php:73
+msgid "Notification is disabled"
+msgstr "Notification désactivée"
+
+#: addons-plus/ComingSoon/ComingSoon.php:72
+msgid "Notification is removed"
+msgstr "Notification supprimée"
+
+#: addons/assignments/main.php:557
+msgid "Number of allowed attachments"
+msgstr "Nombre de pièces jointes autorisées"
+
+#: addons/assignments/main.php:545
+msgid "Number of allowed attempts to pass assignment"
+msgstr "Nombre de tentatives autorisées pour réussir le devoir"
+
+#: addons/enterprise_courses/main.php:138
+#, fuzzy
+#| msgid "Number of allowed members in group"
+msgid "Number of allowed members in a group"
+msgstr "Nombre de membres autorisés dans le groupe"
+
+#: addons/shareware/main.php:39
+msgid "Number of free lessons"
+msgstr "Nombre de leçons gratuites"
+
+#: addons/point_system/points.php:8 addons/point_system/points.php:82
+msgid "Once only"
+msgstr "Une seule fois"
+
+#: stm-lms-templates/stm-lms-google-meets.php:226
+msgid "Once you create Meetings, they will appear here:"
+msgstr "Une fois que vous aurez créé des réunions, elles apparaîtront ici :"
+
+#: addons/online_testing/main.php:17
+msgid "Online Testing"
+msgstr "Tests en ligne"
+
+#: addons-plus/GoogleMeet/ajax-actions.php:20
+msgid "Only a JSON file allowed"
+msgstr "Seul un fichier JSON est autorisé"
+
+#: stm-lms-templates/certificate-builder/canvas.php:68
+#: stm-lms-templates/certificate-builder/controls.php:90
+msgid "Only images allowed"
+msgstr "Seules les images sont autorisées"
+
+#: stm-lms-templates/shortcodes/google_classroom.php:77
+msgid "Only logged in students in a specific classroom can see the code "
+msgstr ""
+"Seuls les élèves connectés dans une classe spécifique peuvent voir le code"
+
+#: addons/google_classrooms/main.php:312
+msgid "Only signed-in students will see the code"
+msgstr "Seuls les élèves connectés verront le code"
+
+#: addons/assignments/actions.php:114
+msgid "Oops, something went wrong. Please try again later."
+msgstr "Oups, quelque chose a mal tourné. Veuillez réessayer plus tard."
+
+#: stm-lms-templates/stm-lms-google-meets.php:86
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:28
+msgid "Open Dev Console"
+msgstr "Ouvrir la console Dev"
+
+#: stm-lms-templates/stm-lms-google-meets.php:79
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:23
+msgid "Open Google Developer Console"
+msgstr "Ouvrir la console Google Developer"
+
+#: addons/email_manager/EmailManagerSettingsPage.php:35
+#: addons/email_manager/main.php:76 stm-lms-templates/analytics/revenue.php:131
+#: stm-lms-templates/analytics/revenue.php:184
+#: stm-lms-templates/components/analytics/stats-block.php:14
+msgid "Orders"
+msgstr "Commandes"
+
+#: stm-lms-templates/points/history.php:54
+#: stm-lms-templates/points/admin/actions.php:9
+msgid "Origin"
+msgstr "Origine"
+
+#: stm-lms-templates/bundle/parts/panel_info/rate.php:16
+msgid "out of 5"
+msgstr "sur 5"
+
+#: stm-lms-templates/analytics/users.php:20
+msgid "Own courses"
+msgstr ""
+
+#: addons/assignments/actions.php:213 addons/assignments/Assignments.php:33
+#: addons/assignments/filters.php:42 addons/assignments/main.php:685
+#: stm-lms-templates/analytics/course.php:60
+#: stm-lms-templates/analytics/engagement.php:143
+#: stm-lms-templates/components/analytics/stats-block.php:22
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:30
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:76
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/review.php:22
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:76
+msgid "Passed"
+msgstr "Réussi"
+
+#. %s Assignments Count
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:50
+#, php-format
+msgid "Passed: %s"
+msgstr "Réussi : %s"
+
+#: addons/point_system/points.php:18
+msgid "Passing assignment"
+msgstr "Devoir réussi"
+
+#: addons/email_manager/emails.php:316
+msgid "Passing grade"
+msgstr "Note de passage"
+
+#: addons/point_system/points.php:30
+msgid "Passing quiz"
+msgstr "Quiz réussi"
+
+#: addons/point_system/points.php:36
+msgid "Passing quiz with 100%"
+msgstr "Réussir le quiz avec 100%"
+
+#: addons/email_manager/emails.php:178 addons/email_manager/emails.php:441
+msgid "Password"
+msgstr "Mot de passe"
+
+#: addons/email_manager/emails.php:194
+msgid "Password change"
+msgstr "Changement de mot de passe"
+
+#: addons/email_manager/emails.php:190
+msgid "Password changed"
+msgstr "Mot de passe modifié"
+
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:15
+msgid "Pause update"
+msgstr "Pause mise à jour"
+
+#: addons/statistics/main.php:23
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:175
+msgid "Payout"
+msgstr "Paiement"
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:109
+msgid "Paypal Email"
+msgstr "Email Paypal"
+
+#: stm-lms-templates/stm-lms-enrolled-assignments.php:23
+#: addons/assignments/Assignments.php:29 addons/assignments/filters.php:44
+#: addons/multi_instructors/main.php:79
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:42
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:75
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:75
+msgid "Pending"
+msgstr "En attente"
+
+#: stm-lms-templates/analytics/course.php:59
+#: stm-lms-templates/analytics/engagement.php:142
+#: stm-lms-templates/analytics/reviews.php:331
+msgid "Pending review"
+msgstr ""
+
+#: addons/assignments/user_assignment.class.php:203
+msgid "Pending..."
+msgstr "En attente..."
+
+#. %s Assignments Count
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:63
+#, php-format
+msgid "Pending: %s"
+msgstr "En attente : %s"
+
+#: includes/enqueue.php:136
+msgid "per page"
+msgstr ""
+
+#: addons/point_system/settings.php:78
+msgid "Percentage users will get for affiliates"
+msgstr "Pourcentage que les utilisateurs recevront pour les affiliés"
+
+#: addons/form_builder/main.php:147
+#, fuzzy
+#| msgid "Done"
+msgid "Phone"
+msgstr "Téléphone"
+
+#: addons/form_builder/templates/main.php:151
+msgid "Placeholder"
+msgstr "Texte de remplacement"
+
+#: addons/email_manager/emails.php:333 addons/email_manager/emails.php:343
+msgid "Plan name"
+msgstr "Nom du plan"
+
+#: addons/assignments/actions.php:122
+msgid "Please allow browser camera & microphone access."
+msgstr "Veuillez autoriser l'accès à la caméra et au microphone du navigateur."
+
+#: addons/assignments/actions.php:117
+msgid "Please allow browser microphone access."
+msgstr "Veuillez autoriser l'accès au microphone du navigateur."
+
+#: addons-plus/ComingSoon/ComingSoon.php:37
+msgid "Please enter the correct email"
+msgstr "Veuillez entrer l'email correct"
+
+#: includes/classes/class-announcements.php:41
+msgid "Please fill all fields"
+msgstr "Veuillez remplir tous les champs"
+
+#: includes/libraries/compatibility/main.php:14
+msgid "Please install MasterStudy LMS WordPress Plugin!"
+msgstr "Veuillez installer le plugin WordPress MasterStudy LMS !"
+
+#: includes/libraries/compatibility/main.php:31
+msgid "Please update MasterStudy LMS!"
+msgstr "Veuillez mettre à jour MasterStudy LMS !"
+
+#: addons/udemy/main.php:102
+msgid "Please, enter Udemy API Credentials"
+msgstr "Veuillez entrer les informations d'identification de l'API Udemy"
+
+#: addons/CourseBundle/Repository/CourseBundleRepository.php:231
+msgid "Please, upload bundle image"
+msgstr "Veuillez télécharger l'image du paquet"
+
+#: addons/point_system/settings.php:58
+msgid "Point Image"
+msgstr "Image de point"
+
+#: addons/multi_instructors/settings.php:37 addons/point_system/settings.php:62
+msgid "Point Label"
+msgstr "Étiquette de point"
+
+#: addons/point_system/settings.php:66
+msgid "Point Rate"
+msgstr "Taux de point"
+
+#: addons/point_system/settings.php:67
+msgid "Point rate relative to price (Ex.: 100 - means 100 points equal 1$)"
+msgstr ""
+"Taux de point par rapport au prix (Ex. : 100 - signifie que 100 points égale "
+"1$)"
+
+#: stm-lms-templates/points/distribution.php:17
+#: stm-lms-templates/components/analytics/stats-block.php:16
+#: stm-lms-templates/points/admin/stats.php:33
+msgid "Points"
+msgstr "Points"
+
+#: addons/point_system/settings.php:84
+#: stm-lms-templates/points/distribution.php:9
+msgid "Points Distribution"
+msgstr "Distribution des points"
+
+#: addons/google_classrooms/main.php:332
+msgid "Popup Editor"
+msgstr "Éditeur popup"
+
+#: addons/google_classrooms/main.php:341
+msgid "Popup Image"
+msgstr "Image popup"
+
+#: addons/google_classrooms/main.php:323
+msgid "Popup Title"
+msgstr "Titre popup"
+
+#: addons/form_builder/main.php:408
+msgid "Position"
+msgstr "Position"
+
+#: stm-lms-templates/analytics/reviews.php:327
+msgid "Posted"
+msgstr ""
+
+#: addons-plus/AudioLesson/filters.php:55
+msgid "Preferred Audio Source"
+msgstr "Source audio préférée"
+
+#: stm-lms-templates/analytics/course.php:51
+#: stm-lms-templates/analytics/course.php:112
+#: stm-lms-templates/analytics/course.php:218
+msgid "Preorders"
+msgstr ""
+
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-info.php:15
+msgid "Prerequisite course"
+msgstr "Cours préalable"
+
+#: stm-lms-templates/modals/prerequisite.php:6
+msgid "Prerequisite courses"
+msgstr "Cours préalables"
+
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-button.php:16
+msgid "Prerequisites"
+msgstr "Prérequis"
+
+#: addons/certificate_builder/hooks.php:186 addons/udemy/import.php:311
+#: stm-lms-templates/certificate-builder/canvas.php:197
+#: addons/google_classrooms/admin_view/courses.php:57
+msgid "Preview"
+msgstr "Aperçu"
+
+#: stm-lms-templates/courses/udemy/parts/course_info.php:124
+msgid "Preview this course"
+msgstr "Aperçu de ce cours"
+
+#: addons-plus/GoogleMeet/helpers.php:101
+msgid "Private"
+msgstr "Privé"
+
+#: stm-lms-templates/analytics/revenue.php:241
+msgid "Processed payouts"
+msgstr ""
+
+#: addons/assignments/actions.php:315
+msgid "Processing"
+msgstr "Traitement"
+
+#: addons/form_builder/main.php:86
+msgid "Profile Form"
+msgstr "Formulaire de profil"
+
+#: addons/certificate_builder/main.php:154 addons/email_manager/emails.php:320
+#: stm-lms-templates/analytics/student.php:61
+#: stm-lms-templates/gradebook/students-details.php:83
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:103
+msgid "Progress"
+msgstr "Progrès"
+
+#: addons/form_builder/templates/main.php:142
+msgid "Provide a short description of the field"
+msgstr "Fournissez une brève description du champ"
+
+#: addons/google_classrooms/main.php:333
+msgid "Provide content for the popup using the popup editor"
+msgstr ""
+
+#: addons-plus/GoogleMeet/helpers.php:100
+msgid "Public"
+msgstr "Public"
+
+#: addons/google_classrooms/admin_view/courses.php:73
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:60
+#: addons/udemy/udemy_importer/components/udemy.php:44
+#: stm-lms-templates/bundles/card/vue/top.php:17
+msgid "Publish"
+msgstr "Publier"
+
+#: addons/google_classrooms/admin_view/courses.php:15
+msgid "Publish all imported"
+msgstr "Publier tout importé"
+
+#: addons/multi_instructors/main.php:76 addons/udemy/main.php:175
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:21
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:90
+msgid "Published"
+msgstr "Publié"
+
+#: stm-lms-templates/analytics/revenue.php:226
+msgid "Purchased bundles"
+msgstr ""
+
+#: stm-lms-templates/analytics/revenue.php:58
+msgid "Purchased courses"
+msgstr ""
+
+#: addons/google_classrooms/main.php:351
+msgid "Put the page URL with Google classrooms"
+msgstr ""
+
+#: addons/email_manager/emails.php:68
+msgid "Q&A Message (email to instructors)"
+msgstr "Message Q&R (email aux instructeurs)"
+
+#: addons/email_manager/emails.php:98
+msgid "Q&A Message Answered (email to students)"
+msgstr "Message Q&R répondu (email aux étudiants)"
+
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:82
+msgid "QR code"
+msgstr "QR code"
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:171
+msgid "Qty"
+msgstr "Quantité"
+
+#: addons/email_manager/emails.php:294 addons/email_manager/emails.php:298
+msgid "Quiz Completed"
+msgstr "Quiz terminé"
+
+#: addons/email_manager/emails.php:312
+msgid "Quiz name"
+msgstr "Nom du quiz"
+
+#: stm-lms-templates/analytics/student.php:210
+msgid "Quizzes"
+msgstr ""
+
+#: stm-lms-templates/gradebook/students-details.php:60
+msgid "Quizzes Failed"
+msgstr "Échecs aux quiz"
+
+#: stm-lms-templates/gradebook/students-details.php:49
+msgid "Quizzes Passed"
+msgstr "Quiz réussis"
+
+#: addons/CourseBundle/ajax-actions.php:46
+msgid "Quota exceeded"
+msgstr "Quota dépassé"
+
+#: addons/form_builder/main.php:139
+msgid "Radio Buttons"
+msgstr "Boutons radio"
+
+#. %s Average Rate
+#: stm-lms-templates/bundle/parts/panel_info/rate.php:13
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Noté %s sur 5"
+
+#: stm-lms-templates/analytics/reviews.php:54
+msgid "Rating"
+msgstr ""
+
+#: stm-lms-templates/shortcodes/google_classroom.php:83
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: addons-plus/email_branding/main.php:155
+msgid ""
+"Recommended size: 18x7 pixels, Max height: 8px; File Support: jpg, .jpeg or ."
+"png."
+msgstr ""
+"Taille recommandée : 18x7 pixels, hauteur max : 8px ; Support de fichier : "
+"jpg, .jpeg ou .png."
+
+#: addons-plus/email_branding/main.php:63
+msgid ""
+"Recommended size: 200x35 pixels, Max height: 40px; File Support: jpg, .jpeg "
+"or .png."
+msgstr ""
+"Taille recommandée : 200x35 pixels, hauteur max : 40px ; Support de fichier :"
+" jpg, .jpeg ou .png."
+
+#: addons-plus/email_branding/main.php:97
+msgid ""
+"Recommended size: 700x155 pixels, Max height: 160px; File Support: jpg, ."
+"jpeg or .png."
+msgstr ""
+"Taille recommandée : 700x155 pixels, hauteur max : 160px ; Support de "
+"fichier : jpg, .jpeg ou .png."
+
+#: addons-plus/email_branding/main.php:80
+msgid ""
+"Recommended size: 700x95 pixels, Max height: 100px; File Support: jpg, .jpeg "
+"or .png."
+msgstr ""
+"Taille recommandée : 700x95 pixels, hauteur max : 100px ; Support de fichier "
+": jpg, .jpeg ou .png."
+
+#: addons/assignments/actions.php:275
+msgid "Record audio"
+msgstr "Enregistrer l'audio"
+
+#: addons/assignments/actions.php:287
+msgid "Record video"
+msgstr "Enregistrer la vidéo"
+
+#: addons/email_manager/emails.php:146
+msgid "Register on the website"
+msgstr "Inscrivez-vous sur le site"
+
+#: stm-lms-templates/components/analytics/stats-block.php:37
+msgid "Registered instructors"
+msgstr ""
+
+#: stm-lms-templates/components/analytics/stats-block.php:35
+msgid "Registered students"
+msgstr ""
+
+#: addons/point_system/points.php:6
+msgid "Registration"
+msgstr "Inscription"
+
+#: stm-lms-templates/enterprise_groups/user_courses.php:19
+msgid "Remove Course"
+msgstr "Supprimer le cours"
+
+#: stm-lms-templates/enterprise_groups/group.php:18
+msgid "Remove from group"
+msgstr "Retirer du groupe"
+
+#: addons/point_system/points.php:14 addons/point_system/points.php:20
+#: addons/point_system/points.php:26 addons/point_system/points.php:32
+#: addons/point_system/points.php:38 addons/point_system/points.php:44
+#: addons/point_system/points.php:50 addons/point_system/points.php:56
+#: addons/point_system/points.php:89
+msgid "Repeated"
+msgstr "Répété"
+
+#: addons-plus/email_branding/main.php:156
+msgid "Reply Text Icon"
+msgstr "Icône de texte de réponse"
+
+#: addons-plus/email_branding/main.php:140
+msgid "Reply to this email to communicate with the instructor."
+msgstr "Répondez à cet email pour communiquer avec l'instructeur."
+
+#: addons/form_builder/templates/main.php:83
+#: addons/form_builder/templates/main.php:163
+msgid "Required field"
+msgstr "Champ requis"
+
+#: stm-lms-templates/course-player/assignments/current.php:107
+msgid "Requirements"
+msgstr "Exigences"
+
+#: stm-lms-templates/components/analytics/datepicker-modal.php:28
+msgid "Reset"
+msgstr ""
+
+#: stm-lms-templates/stm-lms-google-meets.php:244
+msgid "Reset Credential"
+msgstr "Réinitialiser les informations d'identification"
+
+#: addons-plus/GoogleMeet/Settings/components/credentials-status/fields/credentials.php:34
+msgid "Reset Credentials"
+msgstr "Réinitialiser les informations d'identification"
+
+#: addons-plus/GoogleMeet/ajax-actions.php:176
+msgid "Reset credentials in progress"
+msgstr "Réinitialisation des informations d'identification en cours"
+
+#: addons/email_manager/emails.php:138
+msgid "Reset URL"
+msgstr "Réinitialiser l'URL"
+
+#: stm-lms-templates/course-player/assignments/current.php:93
+#: stm-lms-templates/course/parts/student_assignments/unpassed.php:88
+msgid "Retake"
+msgstr "Reprendre"
+
+#: includes/plus/helpers.php:59 stm-lms-templates/analytics/course.php:49
+#: stm-lms-templates/analytics/course.php:99
+#: stm-lms-templates/analytics/course.php:169
+#: stm-lms-templates/analytics/instructor.php:20
+#: stm-lms-templates/analytics/instructor.php:43
+#: stm-lms-templates/analytics/revenue.php:27
+#: stm-lms-templates/analytics/revenue.php:62
+#: stm-lms-templates/analytics/revenue.php:92
+#: stm-lms-templates/analytics/revenue.php:143
+#: stm-lms-templates/analytics/revenue.php:192
+#: stm-lms-templates/analytics/revenue.php:261
+#: stm-lms-templates/analytics/revenue.php:318
+#: stm-lms-templates/analytics/revenue.php:407
+#: stm-lms-templates/components/analytics/stats-block.php:11
+msgid "Revenue"
+msgstr ""
+
+#: stm-lms-templates/analytics/revenue.php:248
+msgid "Revenue chart"
+msgstr ""
+
+#: stm-lms-templates/analytics/revenue.php:287
+msgid "Revenue reports page"
+msgstr ""
+
+#: stm-lms-templates/analytics/revenue.php:252
+msgid "Revenue table"
+msgstr ""
+
+#: addons/assignments/actions.php:426
+#: stm-lms-templates/analytics/reviews.php:50
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:138
+msgid "Review"
+msgstr "Revoir"
+
+#: stm-lms-templates/analytics/reviews.php:86
+msgid "Review chart"
+msgstr ""
+
+#: stm-lms-templates/analytics/reviews.php:58
+msgid "Review creation date"
+msgstr ""
+
+#: stm-lms-templates/analytics/reviews.php:148
+msgid "Review reports page"
+msgstr ""
+
+#: stm-lms-templates/analytics/reviews.php:105
+msgid "Review table"
+msgstr ""
+
+#: stm-lms-templates/analytics/reviews.php:90
+#: stm-lms-templates/analytics/reviews.php:200
+msgid "Review types"
+msgstr ""
+
+#: includes/plus/helpers.php:49 includes/plus/helpers.php:50
+#: stm-lms-templates/analytics/engagement.php:32
+#: stm-lms-templates/analytics/engagement.php:75
+#: stm-lms-templates/analytics/reviews.php:16
+#: stm-lms-templates/analytics/reviews.php:31
+#: stm-lms-templates/analytics/reviews.php:163
+#: stm-lms-templates/analytics/reviews.php:316
+#: stm-lms-templates/analytics/users.php:24
+#: stm-lms-templates/analytics/users.php:51
+#: stm-lms-templates/components/analytics/stats-block.php:36
+msgid "Reviews"
+msgstr ""
+
+#: stm-lms-templates/analytics/reviews.php:122
+msgid "Reviews Report"
+msgstr ""
+
+#: addons/google_classrooms/admin_view/token.php:60
+msgid "Revoke Access Token"
+msgstr "Révoquer le jeton d'accès"
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:83
+msgid "Sales"
+msgstr "Ventes"
+
+#: stm-lms-templates/stm-lms-google-meets.php:321
+#: stm-lms-templates/analytics/engagement.php:208
+#: stm-lms-templates/analytics/revenue.php:290
+#: stm-lms-templates/analytics/reviews.php:151
+#: stm-lms-templates/analytics/users.php:143
+#: stm-lms-templates/certificate-builder/select-popup.php:94
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:113
+msgid "Save"
+msgstr "Enregistrer"
+
+#: stm-lms-templates/bundles/my-bundle.php:83
+msgid "Save Bundle"
+msgstr "Enregistrer le paquet"
+
+#: stm-lms-templates/certificate-builder/canvas.php:210
+msgid "Save Certificate"
+msgstr "Enregistrer le certificat"
+
+#: stm-lms-templates/google-meet/meeting-form.php:63
+#: addons/form_builder/templates/main.php:19
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: stm-lms-templates/certificate-builder/canvas.php:207
+msgid "Saved!"
+msgstr "Enregistré !"
+
+#: addons/scorm/main.php:272
+msgid "SCORM Package should contain file imsmanifest.xml"
+msgstr "Le paquet SCORM doit contenir le fichier imsmanifest.xml"
+
+#: addons/udemy/main.php:65 stm-lms-templates/analytics/course.php:283
+#: stm-lms-templates/analytics/engagement.php:362
+#: stm-lms-templates/analytics/instructor.php:183
+#: stm-lms-templates/analytics/revenue.php:422
+#: stm-lms-templates/analytics/reviews.php:341
+#: stm-lms-templates/analytics/users.php:247
+#: stm-lms-templates/analytics/users.php:282
+msgid "Search"
+msgstr "Recherche"
+
+#: stm-lms-templates/account/private/parts/assignments/main.php:8
+msgid "Search assignment"
+msgstr "Rechercher le devoir"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:64
+msgid "Search by assignment"
+msgstr "Rechercher par devoir"
+
+#: stm-lms-templates/account/private/instructor_parts/certificates/grid.php:48
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:64
+msgid "Search by name"
+msgstr "Rechercher par nom"
+
+#: stm-lms-templates/points/admin/stats.php:23
+msgid "Search by user"
+msgstr "Rechercher par utilisateur"
+
+#: stm-lms-templates/certificate-builder/certificates.php:16
+msgid "Search certificates"
+msgstr "Rechercher des certificats"
+
+#: stm-lms-templates/stm-lms-gradebook.php:29 addons/udemy/main.php:69
+msgid "Search Courses"
+msgstr "Rechercher des cours"
+
+#: stm-lms-templates/certificate-builder/categories.php:15
+msgid "Search for categories"
+msgstr "Rechercher des catégories"
+
+#: stm-lms-templates/shortcodes/google_classroom.php:37
+#: stm-lms-templates/account/public/select_google_classroom_auditory.php:13
+msgid "Select auditory"
+msgstr "Sélectionner l'auditoire"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:6
+msgid "Select Course"
+msgstr "Sélectionner un cours"
+
+#: stm-lms-templates/bundles/my-bundle/select-course.php:12
+msgid "Select course"
+msgstr "Sélectionner un cours"
+
+#: stm-lms-templates/stm-lms-google-meets.php:122
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:66
+msgid "Select File"
+msgstr "Sélectionner un fichier"
+
+#: stm-lms-templates/stm-lms-google-meets.php:298
+#: addons-plus/GoogleMeet/Settings/main.php:40
+msgid ""
+"Select how to send notifications about the creation of the new event. Note "
+"that some emails might still be sent."
+msgstr ""
+"Sélectionnez comment envoyer des notifications concernant la création du "
+"nouvel événement. Notez que certains emails peuvent encore être envoyés."
+
+#: stm-lms-templates/certificate-builder/canvas.php:58
+#: stm-lms-templates/certificate-builder/canvas.php:63
+#: stm-lms-templates/certificate-builder/controls.php:77
+#: stm-lms-templates/certificate-builder/controls.php:80
+msgid "Select Image"
+msgstr "Sélectionner une image"
+
+#: stm-lms-templates/certificate-builder/select-popup.php:17
+msgid "Select one of the options to continue"
+msgstr "Sélectionnez une des options pour continuer"
+
+#: stm-lms-templates/analytics/reviews.php:149
+msgid "Select the sections you want to see in your review reports."
+msgstr ""
+
+#: stm-lms-templates/analytics/engagement.php:206
+msgid "Select which information to show in your enrollment reports."
+msgstr ""
+
+#: stm-lms-templates/account/public/select_google_classroom_auditory.php:11
+msgid "Select your auditory"
+msgstr "Sélectionnez votre auditoire"
+
+#: stm-lms-templates/stm-lms-google-meets.php:272
+#: stm-lms-templates/google-meet/meeting-form.php:51
+msgid "selected"
+msgstr "sélectionné"
+
+#: addons/email_manager/emails.php:6
+msgid "Send an email to the admin when the instructor has added their course"
+msgstr ""
+"Envoyer un email à l'administrateur lorsque l'instructeur a ajouté son cours"
+
+#: addons/email_manager/emails.php:17
+msgid "Send an email to the instructor when the course is published"
+msgstr "Envoyer un email à l'instructeur lorsque le cours est publié"
+
+#: stm-lms-templates/course/parts/student_assignments/progress.php:85
+msgid "Send Assignment"
+msgstr "Envoyer le devoir"
+
+#: stm-lms-templates/stm-lms-google-meets.php:297
+#: addons-plus/GoogleMeet/Settings/main.php:33
+msgid "Send updates"
+msgstr "Envoyer les mises à jour"
+
+#: addons-plus/email_branding/main.php:40
+msgid "Sender Email Address"
+msgstr "Adresse email de l'expéditeur"
+
+#: addons-plus/email_branding/main.php:27
+msgid "Sender Name"
+msgstr "Nom de l'expéditeur"
+
+#: stm-lms-templates/stm-lms-google-meets.php:287
+#: addons-plus/GoogleMeet/Settings/main.php:28
+msgid "Set a default reminder time to get an email notification"
+msgstr ""
+"Définir une heure de rappel par défaut pour recevoir une notification par "
+"email"
+
+#: stm-lms-templates/enterprise_groups/group.php:14
+msgid "Set as admin"
+msgstr "Définir comme administrateur"
+
+#: stm-lms-templates/certificate-builder/categories.php:102
+msgid "Set certificate"
+msgstr "Définir le certificat"
+
+#: stm-lms-templates/stm-lms-google-meets.php:258
+#: addons-plus/GoogleMeet/Settings/main.php:21
+msgid "Set the default timezone for Google Meet"
+msgstr "Définir le fuseau horaire par défaut pour Google Meet"
+
+#: addons/assignments/main.php:568
+msgid "Set the maximum file size allowed for each attachment in MB"
+msgstr ""
+
+#: addons/CourseBundle/filters.php:65
+msgid "Set the maximum number of bundles that can be created"
+msgstr ""
+
+#: addons/enterprise_courses/main.php:139
+msgid "Set the maximum number of members allowed to join a group"
+msgstr ""
+
+#: addons/assignments/main.php:594
+msgid "Set the maximum size allowed for audio recordings in MB"
+msgstr ""
+
+#: addons/media_library/main.php:300
+msgid ""
+"Set the maximum size allowed for files uploaded in the media file manager in "
+"MB"
+msgstr ""
+
+#: addons/assignments/main.php:610
+msgid "Set the maximum size allowed for video recordings in MB"
+msgstr ""
+
+#: addons/google_classrooms/main.php:324
+msgid "Set the title of the popup"
+msgstr ""
+
+#: stm-lms-templates/stm-lms-google-meets.php:98
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:40
+msgid "Set Web Application URL in Google Developer Console"
+msgstr ""
+"Définir l'URL de l'application web dans la console de développement Google"
+
+#: stm-lms-templates/stm-lms-google-meets.php:180
+#: addons/assignments/main.php:541 addons/google_classrooms/auditory.php:37
+#: addons-plus/ComingSoon/filters.php:9 addons-plus/ComingSoon/filters.php:10
+#: addons-plus/GoogleMeet/Settings/main.php:7
+msgid "Settings"
+msgstr "Paramètres"
+
+#: stm-lms-templates/stm-lms-google-meets.php:72
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:17
+msgid "Setup your Google Meet Integration"
+msgstr "Configurer votre intégration Google Meet"
+
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:71
+msgid "Shape"
+msgstr "Forme"
+
+#: stm-lms-templates/account/private/parts/points/affiliate_link.php:22
+msgid ""
+"Share the link to earn coins. You will get extra coins from specific actions "
+"of users, who applied this link. "
+msgstr ""
+"Partagez le lien pour gagner des pièces. Vous obtiendrez des pièces "
+"supplémentaires des actions spécifiques des utilisateurs, qui ont appliqué "
+"ce lien."
+
+#: addons/point_system/points.php:81 addons/point_system/points.php:88
+msgid "Share your affiliate link and get points for users, using your link."
+msgstr ""
+"Partagez votre lien d'affiliation et obtenez des points pour les "
+"utilisateurs utilisant votre lien."
+
+#: addons-plus/AudioLesson/filters.php:19
+#: addons-plus/AudioLesson/filters.php:82
+msgid "Shortcode"
+msgstr "Code court"
+
+#: addons/form_builder/templates/main.php:175
+msgid "Show in public profile"
+msgstr "Afficher dans le profil public"
+
+#: stm-lms-templates/stm-lms-gradebook.php:58
+msgid "Show less"
+msgstr "Afficher moins"
+
+#: addons/form_builder/templates/main.php:72
+#: addons/form_builder/templates/main.php:104
+msgid "Show on Registration form"
+msgstr "Afficher sur le formulaire d'inscription"
+
+#: addons/form_builder/main.php:127
+msgid "Single Line Text"
+msgstr "Texte d'une ligne"
+
+#: addons/email_manager/emails.php:416
+msgid "Site name"
+msgstr "Nom du site"
+
+#: addons/email_manager/emails.php:182 addons/email_manager/emails.php:445
+msgid "Site URL"
+msgstr "URL du site"
+
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:74
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:85
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:111
+msgid "Soon"
+msgstr "Bientôt"
+
+#: stm-lms-templates/bundles/card/vue/main.php:34
+msgid "Sorry, Bundles not found"
+msgstr "Désolé, paquets non trouvés"
+
+#: stm-lms-templates/global/out_of_stock.php:11
+msgid "Sorry, but course is out of stock for the moment"
+msgstr "Désolé, mais le cours est en rupture de stock pour le moment"
+
+#: includes/classes/class-certificates.php:117
+#: includes/classes/class-certificates.php:124
+msgid "Sorry, Certificate not found"
+msgstr "Désolé, le certificat n'a pas été trouvé"
+
+#. %s: string
+#: includes/helpers.php:247
+#, php-format
+msgid ""
+"Sorry, this lesson is currently locked. You need to complete \"%s\" before "
+"accessing it."
+msgstr ""
+"Désolé, cette leçon est actuellement verrouillée. Vous devez compléter "
+"\"%s\" avant d'y accéder."
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/sort.php:2
+msgid "Sort by"
+msgstr "Trier par"
+
+#: addons/enterprise_courses/main.php:237
+#: stm-lms-templates/components/modals/group-courses.php:145
+msgid "Specify group name"
+msgstr "Précisez le nom du groupe"
+
+#: stm-lms-templates/components/modals/group-courses.php:146
+msgid "Specify student email"
+msgstr "Précisez l'email de l'étudiant"
+
+#: addons/assignments/main.php:578
+msgid ""
+"Specify the file extensions allowed for attachments, separated by commas "
+"without spaces"
+msgstr ""
+
+#: addons/media_library/main.php:307
+msgid ""
+"Specify the file extensions allowed for uploads in the media file manager. "
+"Separate extensions with commas, without spaces"
+msgstr ""
+
+#: addons/assignments/main.php:558
+msgid "Specify the maximum number of attachments allowed per assignment"
+msgstr ""
+
+#: addons/shareware/main.php:40
+msgid ""
+"Specify the number of lessons that are available for free in trial courses"
+msgstr ""
+
+#: stm-lms-templates/analytics/reviews.php:233
+msgid "star"
+msgstr ""
+
+#: stm-lms-templates/analytics/reviews.php:233
+msgid "stars"
+msgstr ""
+
+#: stm-lms-templates/course-player/assignments/new.php:25
+msgid "Start Assignment"
+msgstr "Commencer le devoir"
+
+#: addons/assignments/main.php:708 addons/certificate_builder/main.php:134
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:114
+msgid "Start Date"
+msgstr "Date de début"
+
+#: stm-lms-templates/google-meet/meeting-form.php:32
+msgid "Start date"
+msgstr "Date de début"
+
+#: stm-lms-templates/course/parts/student_assignments/new.php:35
+msgid "Start now"
+msgstr "Commencer maintenant"
+
+#: stm-lms-templates/analytics/student.php:57
+msgid "Started"
+msgstr ""
+
+#: stm-lms-templates/gradebook/students-details.php:30
+msgid "Started: "
+msgstr "Commencé : "
+
+#: stm-lms-templates/course-player/google-meet.php:35
+#: stm-lms-templates/course-player/stream.php:34
+msgid "Starts:"
+msgstr "Commence :"
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:103
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:204
+msgid "Statistics have not yet appeared."
+msgstr "Les statistiques ne sont pas encore apparues."
+
+#: addons/assignments/filters.php:89 addons/assignments/main.php:682
+#: addons/google_classrooms/admin_view/courses.php:26
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:34
+msgid "Status"
+msgstr "Statut"
+
+#: stm-lms-templates/account/private/parts/assignments/main.php:62
+msgid "Status:"
+msgstr "Statut :"
+
+#: stm-lms-templates/stm-lms-assignment.php:22
+#, fuzzy, php-format
+#| msgid "Status: %sNon passed%s"
+msgid "Status: %1$sNon passed%2$s"
+msgstr "Statut : %1$sNon approuvé%2$s"
+
+#: stm-lms-templates/stm-lms-assignment.php:21
+#, fuzzy, php-format
+#| msgid "Status: %sPassed%s"
+msgid "Status: %1$sPassed%2$s"
+msgstr "Statut : %1$sApprouvé%2$s"
+
+#: stm-lms-templates/stm-lms-assignment.php:20
+#, fuzzy, php-format
+#| msgid "Status: %sPending%s"
+msgid "Status: %1$sPending%2$s"
+msgstr "Statut : %1$sEn attente%2$s"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:71
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:71
+msgid "Status: all"
+msgstr "Statut : tous"
+
+#: stm-lms-templates/stm-lms-google-meets.php:143
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:89
+msgid "Step:"
+msgstr "Étape :"
+
+#: stm-lms-templates/analytics/student.php:108
+msgid "Student"
+msgstr ""
+
+#: addons/assignments/filters.php:63
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/main.php:36
+msgid "Student Assignment"
+msgstr "Devoir de l'étudiant"
+
+#: addons/assignments/filters.php:64
+msgid "Student Assignments"
+msgstr "Devoirs de l'étudiant"
+
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:54
+msgid "Student assignments"
+msgstr "Devoirs de l'étudiant"
+
+#: addons/assignments/actions.php:165
+msgid "Student attachments"
+msgstr "Pièces jointes de l'étudiant"
+
+#: addons/certificate_builder/main.php:169
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:129
+msgid "Student code"
+msgstr "Code étudiant"
+
+#: addons/google_classrooms/auditory.php:45
+msgid "Student e-mail"
+msgstr "Email de l'étudiant"
+
+#: addons/assignments/main.php:720
+msgid "Student ID (dont change)"
+msgstr "ID étudiant (ne pas changer)"
+
+#: addons/assignments/filters.php:85 addons/certificate_builder/main.php:36
+#: addons/certificate_builder/main.php:119
+#: stm-lms-templates/analytics/engagement.php:51
+#: stm-lms-templates/analytics/reviews.php:27
+#: addons/certificate_builder/Http/Controllers/AdminPageController.php:12
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:124
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/main.php:11
+msgid "Student name"
+msgstr "Nom de l'étudiant"
+
+#: stm-lms-templates/points/admin/stats.php:27
+msgid "Student Points"
+msgstr "Points étudiants"
+
+#: addons/assignments/main.php:670
+msgid "Student uploaded files"
+msgstr "Fichiers téléchargés par l'étudiant"
+
+#: stm-lms-templates/analytics/engagement.php:352
+#: stm-lms-templates/analytics/revenue.php:78
+#: stm-lms-templates/analytics/revenue.php:139
+msgid "Students"
+msgstr ""
+
+#: addons/assignments/actions.php:140
+msgid "Students attachments"
+msgstr "Pièces jointes des étudiants"
+
+#: stm-lms-templates/gradebook/students-details.php:13
+msgid "Students Statistics"
+msgstr "Statistiques des étudiants"
+
+#. Author of the plugin
+msgid "StylemixThemes"
+msgstr "StylemixThemes"
+
+#: addons/email_manager/EmailManagerSettingsPage.php:60
+#: addons/email_manager/main.php:103 addons-plus/ComingSoon/filters.php:67
+#: addons-plus/ComingSoon/filters.php:92 addons-plus/ComingSoon/filters.php:117
+msgid "Subject"
+msgstr "Sujet"
+
+#: stm-lms-templates/account/private/instructor_parts/user_assignments/review.php:64
+msgid "Submit review"
+msgstr "Soumettre la révision"
+
+#: stm-lms-templates/components/form-builder-fields/file.php:93
+msgid "Supported file formats"
+msgstr "Formats de fichiers pris en charge"
+
+#: addons-plus/GoogleMeet/Settings/components/sync-meetings/fields/sync-meetings.php:25
+msgid "Sync Meet Attendees"
+msgstr "Synchroniser les participants à la réunion"
+
+#: addons-plus/GoogleMeet/Settings/components/sync-meetings/fields/sync-meetings.php:27
+msgid ""
+"Synchronize calendar attendees with students enrolled in all courses that "
+"have meetings."
+msgstr ""
+"Synchroniser les participants du calendrier avec les étudiants inscrits à "
+"tous les cours qui ont des réunions."
+
+#: stm-lms-templates/bundle/parts/panel_info/teacher.php:14
+#: stm-lms-templates/course/parts/assignment_parts/comment.php:19
+msgid "Teacher"
+msgstr "Formateur"
+
+#: stm-lms-templates/account/private/parts/assignments/main.php:56
+msgid "Teacher:"
+msgstr "Formateur :"
+
+#: addons/certificate_builder/main.php:34
+#: addons/certificate_builder/main.php:109 addons/email_manager/emails.php:218
+#: addons/certificate_builder/Http/Controllers/AdminPageController.php:10
+#: addons/certificate_builder/Http/Controllers/AjaxController.php:61
+msgid "Text"
+msgstr "Texte"
+
+#: addons/form_builder/main.php:155
+msgid "Text Area"
+msgstr "Zone de texte"
+
+#: addons-plus/ComingSoon/filters.php:62
+msgid "The course has become available for completion (to subscribers)"
+msgstr "Le cours est devenu disponible pour achèvement (aux abonnés)"
+
+#: addons-plus/ComingSoon/filters.php:93
+msgid "The course is now available for pre-sale"
+msgstr "Le cours est maintenant disponible en prévente"
+
+#: addons-plus/ComingSoon/filters.php:87
+msgid "The course is now available for pre-sale (to subscribers)"
+msgstr "Le cours est maintenant disponible en prévente (aux abonnés)"
+
+#: addons-plus/ComingSoon/filters.php:68
+msgid "The course is now available for you to take "
+msgstr "Le cours est maintenant disponible pour vous"
+
+#: includes/libraries/compatibility/main.php:32
+msgid ""
+"The current version of MasterStudy LMS Pro is not compatible with old "
+"versions of the MasterStudy LMS plugin, some functionality may not work "
+"correctly or may stop working completely."
+msgstr ""
+"La version actuelle de MasterStudy LMS Pro n'est pas compatible avec les "
+"anciennes versions du plugin MasterStudy LMS, certaines fonctionnalités "
+"peuvent ne pas fonctionner correctement ou peuvent cesser de fonctionner "
+"complètement."
+
+#: stm-lms-templates/certificate-builder/destination-content.php:61
+msgid "The default certificate is not set"
+msgstr "Le certificat par défaut n'est pas défini"
+
+#: addons-plus/email_branding/main.php:41
+msgid "The email address that emails are sent from"
+msgstr "L'adresse email à partir de laquelle les emails sont envoyés"
+
+#: stm-lms-templates/stm-lms-gradebook.php:24
+msgid "The Gradebook"
+msgstr "Le carnet de notes"
+
+#: stm-lms-templates/admin/notices/compatibility.php:13
+msgid ""
+"The latest update covers some important changes across the different areas "
+"of the plugin."
+msgstr ""
+"La dernière mise à jour couvre des changements importants dans différents "
+"domaines du plugin."
+
+#: addons-plus/email_branding/main.php:28
+msgid "The name that emails are sent from"
+msgstr "Le nom à partir duquel les emails sont envoyés"
+
+#: addons/point_system/points.php:13
+msgid "The points users will get for buying a course"
+msgstr "Les points que les utilisateurs obtiendront pour l'achat d'un cours"
+
+#: addons/point_system/points.php:7
+#, fuzzy
+#| msgid "The points users will get for registration."
+msgid "The points users will get for registration"
+msgstr "Les points que les utilisateurs obtiendront pour l'inscription."
+
+#: addons/point_system/points.php:19
+msgid "The points users will get when an instructor approves the assignment"
+msgstr ""
+"Les points que les utilisateurs obtiendront lorsqu'un instructeur approuvera "
+"le devoir"
+
+#: addons/point_system/points.php:55
+#, fuzzy
+#| msgid ""
+#| "The points users will get when they accept friendship from other students."
+msgid ""
+"The points users will get when they accept friendship from other students"
+msgstr ""
+"Les points que les utilisateurs obtiendront lorsqu'ils accepteront l'amitié "
+"d'autres étudiants."
+
+#: addons/point_system/points.php:43
+#, fuzzy
+#| msgid "The points users will get when they complete each lesson."
+msgid "The points users will get when they complete each lesson"
+msgstr ""
+"Les points que les utilisateurs obtiendront lorsqu'ils compléteront chaque "
+"leçon."
+
+#: addons/point_system/points.php:25
+msgid ""
+"The points users will get when they complete the course and get a certificate"
+msgstr ""
+"Les points que les utilisateurs obtiendront lorsqu'ils termineront le cours "
+"et obtiendront un certificat"
+
+#: addons/point_system/points.php:49
+#, fuzzy
+#| msgid "The points users will get when they join a group."
+msgid "The points users will get when they join a group"
+msgstr ""
+"Les points que les utilisateurs obtiendront lorsqu'ils rejoindront un groupe."
+
+#: addons/point_system/points.php:31
+msgid "The points users will get when they pass the quiz"
+msgstr ""
+"Les points que les utilisateurs obtiendront lorsqu'ils réussiront le quiz"
+
+#: addons/point_system/points.php:37
+#, fuzzy
+#| msgid "The points users will get when they pass the quiz with a 100% grade."
+msgid "The points users will get when they pass the quiz with a 100% grade"
+msgstr ""
+"Les points que les utilisateurs obtiendront lorsqu'ils réussiront le quiz "
+"avec une note de 100 %."
+
+#. %s: new plugin version
+#: stm-lms-templates/admin/notices/compatibility.php:21
+#, php-format
+msgid ""
+"The version of the free plugin you're using has not been tested with the "
+"latest update of MasterStudy LMS Pro %s."
+msgstr ""
+"La version du plugin gratuit que vous utilisez n'a pas été testée avec la "
+"dernière mise à jour de MasterStudy LMS Pro %s."
+
+#: stm-lms-templates/stm-lms-google-meets.php:100
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:42
+msgid ""
+"The Web Application URL is an essential configuration that establishes the "
+"connection between the add-on and the Google Meet integration. By using the "
+"URL below, you enable seamless integration and allow your users to access "
+"Google Meet features directly from your site."
+msgstr ""
+"L'URL de l'application web est une configuration essentielle qui établit la "
+"connexion entre le module complémentaire et l'intégration Google Meet. En "
+"utilisant l'URL ci-dessous, vous permettez une intégration transparente et "
+"permettez à vos utilisateurs d'accéder aux fonctionnalités de Google Meet "
+"directement depuis votre site."
+
+#. %%1$s Course Link, %2$s Course Title
+#: includes/classes/class-woocommerce.php:226
+#, php-format
+msgid ""
+"This is LMS Product for MasterStudy LMS Course. <span>Do NOT change</span> "
+"Title, Price, Sale price and Sale price dates. If you need to change these "
+"data, please edit the related course - <a href=\"%1$s\" target=\"_blank\">"
+"%2$s </a>"
+msgstr ""
+"Ceci est un produit LMS pour le cours MasterStudy LMS. <span>Ne changez "
+"PAS</span> le titre, le prix, le prix de vente et les dates de prix de vente."
+" Si vous devez modifier ces données, veuillez éditer le cours associé - <a "
+"href=\"%1$s\" target=\"_blank\">%2$s </a>"
+
+#: stm-lms-templates/google-meet/meeting-form.php:23
+#: stm-lms-templates/google-meet/meeting-form.php:28
+#: stm-lms-templates/google-meet/meeting-form.php:34
+#: stm-lms-templates/google-meet/meeting-form.php:39
+msgid "This is required field"
+msgstr "Ceci est un champ obligatoire"
+
+#: includes/helpers.php:249
+msgid ""
+"This lesson is locked because you haven't completed the previous one yet. "
+"Finish the previous lesson to unlock this one."
+msgstr ""
+"Cette leçon est verrouillée car vous n'avez pas encore terminé la précédente."
+" Terminez la leçon précédente pour déverrouiller celle-ci."
+
+#. %s: string
+#: includes/helpers.php:221
+#, php-format
+msgid ""
+"This lesson is part of a scheduled release. It will become available at: %s"
+msgstr ""
+"Cette leçon fait partie d'une diffusion programmée. Elle sera disponible à : "
+"%s"
+
+#: stm-lms-templates/components/analytics/datepicker-modal.php:11
+msgid "This month"
+msgstr ""
+
+#: stm-lms-templates/components/analytics/datepicker-modal.php:9
+msgid "This week"
+msgstr ""
+
+#: stm-lms-templates/components/analytics/datepicker-modal.php:13
+msgid "This year"
+msgstr ""
+
+#: stm-lms-templates/google-meet/meeting-form.php:44
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#: stm-lms-templates/stm-lms-google-meets.php:189
+#: addons/udemy/udemy_importer/components/udemy.php:10
+msgid "Title"
+msgstr "Titre"
+
+#: stm-lms-templates/admin/notices/compatibility.php:22
+msgid ""
+"To avoid issues, please update the free plugin before updating the "
+"MasterStudy LMS Pro plugin."
+msgstr ""
+"Pour éviter les problèmes, veuillez mettre à jour le plugin gratuit avant de "
+"mettre à jour le plugin MasterStudy LMS Pro."
+
+#: stm-lms-templates/course-player/assignments/new.php:16
+msgid ""
+"To begin an assignment, you need to register or log in with an existing "
+"account"
+msgstr ""
+"Pour commencer un devoir, vous devez vous inscrire ou vous connecter avec un "
+"compte existant"
+
+#: stm-lms-templates/components/analytics/datepicker-modal.php:7
+msgid "Today"
+msgstr ""
+
+#: stm-lms-templates/analytics/reviews.php:97
+#: stm-lms-templates/analytics/reviews.php:249
+msgid "Top reviewed courses"
+msgstr ""
+
+#: stm-lms-templates/analytics/reviews.php:101
+#: stm-lms-templates/analytics/reviews.php:282
+msgid "Top reviewers"
+msgstr ""
+
+#: addons/assignments/actions.php:53 addons/assignments/filters.php:41
+#: stm-lms-templates/analytics/course.php:30
+#: stm-lms-templates/analytics/course.php:50
+#: stm-lms-templates/analytics/engagement.php:55
+#: stm-lms-templates/analytics/engagement.php:132
+#: stm-lms-templates/analytics/engagement.php:241
+#: stm-lms-templates/analytics/instructor.php:45
+#: stm-lms-templates/analytics/instructor.php:151
+#: stm-lms-templates/analytics/users.php:76
+#: stm-lms-templates/analytics/users.php:77
+#: stm-lms-templates/bundles/my-bundle/select-course.php:78
+#: stm-lms-templates/components/analytics/chart-total.php:10
+#: stm-lms-templates/components/analytics/stats-block.php:33
+#: stm-lms-templates/account/private/instructor_parts/assignments/grid.php:24
+msgid "Total"
+msgstr "Total"
+
+#. %s Points Label
+#: stm-lms-templates/points/history.php:75
+#: stm-lms-templates/points/admin/actions.php:45
+#, php-format
+msgid "Total %s "
+msgstr "Total %s "
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:159
+msgid "Total count"
+msgstr "Nombre total"
+
+#: stm-lms-templates/analytics/instructor.php:58
+#: stm-lms-templates/analytics/instructor.php:146
+msgid "Total Enrollments"
+msgstr ""
+
+#: stm-lms-templates/analytics/revenue.php:54
+msgid "Total orders"
+msgstr ""
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:172
+msgid "Total Price"
+msgstr "Prix total"
+
+#: stm-lms-templates/account/private/instructor_parts/statistic/main.php:154
+msgid "Total price"
+msgstr "Prix total"
+
+#: stm-lms-templates/analytics/instructor.php:54
+#: stm-lms-templates/analytics/instructor.php:123
+msgid "Total Revenue"
+msgstr ""
+
+#. %s Assignments Count
+#: stm-lms-templates/account/private/instructor_parts/assignments/single/info.php:24
+#, php-format
+msgid "Total: %s"
+msgstr "Total : %s"
+
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:23
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:68
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:92
+msgid "Trash"
+msgstr "Corbeille"
+
+#: stm-lms-templates/certificate-builder/categories.php:114
+msgid "Try changing your search parameters"
+msgstr "Essayez de changer vos paramètres de recherche"
+
+#: addons/google_classrooms/frontend_view/popup.php:65
+msgid "Type your classname"
+msgstr "Tapez le nom de votre classe"
+
+#: addons/udemy/main.php:58
+msgid "Udemy Rakuten Affiliate script"
+msgstr "Script d'affiliation Udemy Rakuten"
+
+#. %s Files
+#: addons/scorm/main.php:263
+#, php-format
+msgid "Unacceptable files in package: %s"
+msgstr "Fichiers inacceptables dans le package : %s"
+
+#: stm-lms-templates/analytics/engagement.php:133
+#: stm-lms-templates/analytics/engagement.php:247
+#: stm-lms-templates/analytics/instructor.php:46
+#: stm-lms-templates/analytics/instructor.php:157
+msgid "Unique"
+msgstr ""
+
+#: stm-lms-templates/certificate-builder/categories.php:90
+msgid "Unlink"
+msgstr "Dissocier"
+
+#: stm-lms-templates/certificate-builder/delete-popup.php:43
+msgid "Unlink certificate"
+msgstr "Dissocier le certificat"
+
+#: stm-lms-templates/components/analytics/stats-block.php:34
+msgid "Unregistred"
+msgstr ""
+
+#: addons-plus/ComingSoon/filters.php:34 addons-plus/ComingSoon/filters.php:35
+msgid "Upcoming Course Status"
+msgstr "Statut du cours à venir"
+
+#: includes/libraries/compatibility/main.php:33
+msgid "Update"
+msgstr "Mise à jour"
+
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:14
+msgid "Update All"
+msgstr "Tout mettre à jour"
+
+#: addons-plus/GoogleMeet/Settings/components/sync-meetings/fields/sync-meetings.php:35
+msgid "Update Calendar"
+msgstr "Mettre à jour le calendrier"
+
+#: addons/udemy/udemy_importer/components/manage_udemy_posts.php:49
+msgid "Update Course"
+msgstr "Mettre à jour le cours"
+
+#: stm-lms-templates/stm-lms-google-meets.php:114
+#: addons-plus/GoogleMeet/Settings/components/config-form.php:57
+msgid "Upload Credentials .JSON File"
+msgstr "Télécharger le fichier d'identifiants .JSON"
+
+#: stm-lms-templates/components/form-builder-fields/file.php:64
+msgid "Upload file"
+msgstr "Télécharger le fichier"
+
+#: stm-lms-templates/bundles/my-bundle/image.php:18
+msgid "Upload image"
+msgstr "Télécharger l'image"
+
+#: addons/scorm/main.php:136
+msgid "Upload SCORM Package"
+msgstr "Télécharger le package SCORM"
+
+#: addons/scorm/main.php:141
+msgid "Uploading SCORM package"
+msgstr "Téléchargement du package SCORM"
+
+#: stm-lms-templates/components/form-builder-fields/file.php:125
+msgid "Uploading..."
+msgstr "Téléchargement en cours..."
+
+#: stm-lms-templates/analytics/reviews.php:42
+#: stm-lms-templates/points/admin/stats.php:32
+msgid "User"
+msgstr "Utilisateur"
+
+#: addons/email_manager/emails.php:52 addons/form_builder/main.php:390
+msgid "User ID"
+msgstr "ID utilisateur"
+
+#: addons/email_manager/emails.php:395
+msgid "User Login"
+msgstr "Connexion utilisateur"
+
+#: addons/email_manager/emails.php:48 addons/email_manager/emails.php:78
+#: addons/email_manager/emails.php:108 addons/email_manager/emails.php:233
+#: addons/email_manager/emails.php:304 addons/form_builder/main.php:389
+msgid "User login"
+msgstr "Connexion utilisateur"
+
+#: addons/point_system/points.php:80
+msgid "User registered (Affiliate)"
+msgstr "Utilisateur enregistré (Affilié)"
+
+#: stm-lms-templates/analytics/users.php:140
+msgid "User reports page"
+msgstr ""
+
+#: addons/email_manager/emails.php:483
+msgid "User url"
+msgstr "URL utilisateur"
+
+#: addons/email_manager/emails.php:174 addons/email_manager/emails.php:437
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: includes/plus/helpers.php:41 includes/plus/helpers.php:42
+msgid "Users"
+msgstr ""
+
+#: addons/email_manager/emails.php:164
+msgid "Users added via Manage Students"
+msgstr "Utilisateurs ajoutés via Gérer les étudiants"
+
+#: stm-lms-templates/analytics/users.php:114
+msgid "Users statistics"
+msgstr ""
+
+#: stm-lms-templates/certificate-builder/create-popup.php:23
+msgid "Vertical"
+msgstr "Vertical"
+
+#: addons/assignments/actions.php:123
+msgid "Video file is too big."
+msgstr "Le fichier vidéo est trop volumineux."
+
+#: addons/assignments/main.php:609
+#, fuzzy
+#| msgid "Video recording max size in mb"
+msgid "Video recording max size in MB"
+msgstr "Taille maximale d'enregistrement vidéo en Mo"
+
+#: addons/certificate_builder/hooks.php:302
+#: stm-lms-templates/multi_instructor/co_courses/main.php:40
+msgid "View"
+msgstr "Voir"
+
+#: addons/google_classrooms/admin_view/google_api_classroom.php:25
+msgid "View Page"
+msgstr "Voir la page"
+
+#: addons/scorm/main.php:142
+msgid "View SCORM package"
+msgstr "Voir le package SCORM"
+
+#: stm-lms-templates/analytics/instructor.php:24
+#: stm-lms-templates/analytics/revenue.php:31
+msgid "Views"
+msgstr ""
+
+#: addons-plus/ComingSoon/ComingSoon.php:62
+msgid "Watch your inbox"
+msgstr "Surveillez votre boîte de réception"
+
+#: stm-lms-templates/admin/notices/compatibility.php:13
+msgid ""
+"We highly recommend you <a href=\"https://docs.stylemixthemes."
+"com/masterstudy-lms/troubleshooting/update-issues\"> back up your site and "
+"test the update on a staging site</a> before any updates."
+msgstr ""
+"Nous vous recommandons vivement de <a href=\"https://docs.stylemixthemes."
+"com/masterstudy-lms/troubleshooting/update-issues\">sauvegarder votre site "
+"et tester la mise à jour sur un site de test</a> avant toute mise à jour."
+
+#: stm-lms-templates/certificate-builder/controls.php:84
+msgid "We recommend use images with 1050 x 1600 px size or higher"
+msgstr ""
+"Nous recommandons d'utiliser des images de taille 1050 x 1600 px ou plus"
+
+#: stm-lms-templates/certificate-builder/controls.php:87
+msgid "We recommend use images with 1600 x 1050 px size or higher"
+msgstr ""
+"Nous recommandons d'utiliser des images de taille 1600 x 1050 px ou plus"
+
+#: addons-plus/ComingSoon/ComingSoon.php:74
+msgid "We will not notify you when the course becomes available."
+msgstr "Nous ne vous informerons pas lorsque le cours sera disponible."
+
+#: addons-plus/ComingSoon/ComingSoon.php:63
+msgid "We will notify you as soon as the course becomes available"
+msgstr "Nous vous informerons dès que le cours sera disponible"
+
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-button.php:87
+msgid "What is Prerequisite courses"
+msgstr "Qu'est-ce que les cours préalables ?"
+
+#: addons/enterprise_courses/main.php:576
+msgid "Wrong CSV Format"
+msgstr "Format CSV incorrect"
+
+#: addons/google_classrooms/main.php:146 addons/google_classrooms/main.php:155
+#: addons-plus/GoogleMeet/ajax-actions.php:37
+msgid "Wrong JSON file"
+msgstr "Fichier JSON incorrect"
+
+#: stm-lms-templates/components/analytics/datepicker-modal.php:8
+msgid "Yesterday"
+msgstr ""
+
+#: stm-lms-templates/stm-lms-google-meets.php:238
+#: addons-plus/GoogleMeet/Settings/components/credentials-status/fields/credentials.php:27
+msgid "You are currently connected to Meet Reset Credential"
+msgstr "Vous êtes actuellement connecté à Meet Reset Credential"
+
+#: addons/assignments/main.php:928
+msgid "You are out of file limit."
+msgstr "Vous avez dépassé la limite de fichiers."
+
+#: stm-lms-templates/analytics/revenue.php:288
+msgid "You can choose the information you want to see in your revenue reports."
+msgstr ""
+
+#: stm-lms-templates/certificate-builder/destination-header.php:31
+msgid ""
+"You can link certificates to courses within the Course Builder. The course "
+"catalog will open in a new tab."
+msgstr ""
+"Vous pouvez lier des certificats à des cours dans le constructeur de cours. "
+"Le catalogue de cours s'ouvrira dans un nouvel onglet."
+
+#: stm-lms-templates/certificate-builder/select-popup.php:52
+msgid "You do not have any available certificates"
+msgstr "Vous n'avez pas de certificats disponibles"
+
+#. %s Link
+#: stm-lms-templates/enterprise_groups/enterprise-buy-modal.php:62
+#, fuzzy, php-format
+#| msgid ""
+#| "You do not have any groups yet. %sCreate a group%s and add group members."
+msgid ""
+"You do not have any groups yet. %1$sCreate a group%2$s and add group members."
+msgstr ""
+"Vous n'avez pas encore de groupes. %1$sCréer un groupe%2$s et ajouter des "
+"membres."
+
+#: stm-lms-templates/components/modals/group-courses.php:39
+msgid "You don't have groups yet"
+msgstr "Vous n'avez pas encore de groupes"
+
+#: stm-lms-templates/account/private/parts/assignments/main.php:96
+#, fuzzy
+#| msgid "You don't have any assignments yet"
+msgid "You dont have any assignments yet"
+msgstr "Vous n'avez pas encore de devoirs"
+
+#: includes/hooks/course-player.php:61
+#: stm-lms-templates/course/parts/student_assignments/unpassed.php:64
+msgid "You failed assignment."
+msgstr "Vous avez échoué au devoir."
+
+#: stm-lms-templates/points/history.php:39
+msgid "You have"
+msgstr "Vous avez"
+
+#. %1$s Points %2$s Distribution
+#: stm-lms-templates/points/buy.php:66
+#: stm-lms-templates/components/buy-button/paid-courses/points.php:64
+#, fuzzy, php-format
+#| msgid "You have %s. %s"
+msgid "You have %1$s. %2$s"
+msgstr "Vous avez %1$s. %2$s"
+
+#: addons/email_manager/emails.php:168
+msgid "You have been registered on the website."
+msgstr "Vous avez été inscrit sur le site."
+
+#: stm-lms-templates/certificate-builder/destination-content.php:64
+#: stm-lms-templates/account/private/instructor_parts/certificates/no-certificates.php:10
+msgid "You have no certificates yet"
+msgstr "Vous n'avez pas encore de certificats"
+
+#. %s Bundle price
+#: stm-lms-templates/bundles/my-bundle/select-course.php:44
+#, php-format
+msgid "You have no courses yet. Please %1$s add some courses %2$s"
+msgstr "Vous n'avez pas encore de cours. Veuillez %1$s ajouter des cours %2$s"
+
+#: stm-lms-templates/certificate-builder/categories.php:127
+msgid "You have not linked any certificates"
+msgstr "Vous n'avez lié aucun certificat"
+
+#: stm-lms-templates/components/modals/group-courses.php:147
+msgid "You have reached the maximum limit"
+msgstr "Vous avez atteint la limite maximale"
+
+#: addons/email_manager/emails.php:102
+msgid "You have received a reply to your question."
+msgstr "Vous avez reçu une réponse à votre question."
+
+#: addons/email_manager/emails.php:150
+msgid "You have successfully registered on the website."
+msgstr "Vous vous êtes inscrit avec succès sur le site."
+
+#: stm-lms-templates/components/buy-button/paid-courses/prerequisite/prerequisite-info.php:17
+msgid "You must complete this courses before continuing"
+msgstr "Vous devez terminer ces cours avant de continuer"
+
+#. %1$s Points %2$s Distribution
+#: stm-lms-templates/points/buy.php:59
+#: stm-lms-templates/components/buy-button/paid-courses/points.php:57
+#, fuzzy, php-format
+#| msgid "You need %s. %s"
+msgid "You need %1$s. %2$s"
+msgstr "Vous avez besoin de %1$s. %2$s"
+
+#: addons/zoom_conference/admin_views/install_zoom_plugin.php:3
+msgid "You need to install eRoom - Zoom Meetings & Webinar"
+msgstr "Vous devez installer eRoom - Réunions Zoom & Webinar"
+
+#: includes/hooks/course-player.php:59
+#: stm-lms-templates/course/parts/student_assignments/passed.php:58
+msgid "You passed assignment."
+msgstr "Vous avez réussi le devoir."
+
+#. %s Site Name
+#: addons/enterprise_courses/main.php:404
+#, php-format
+msgid ""
+"You were added to the group: \"%s\". Now you can check their new courses."
+msgstr ""
+"Vous avez été ajouté au groupe : \"%s\". Vous pouvez maintenant consulter "
+"leurs nouveaux cours."
+
+#: addons/email_manager/emails.php:411
+msgid ""
+"You were added to the group: {{site_name}}. Now you can check their new "
+"courses."
+msgstr ""
+"Vous avez été ajouté au groupe : {{site_name}}. Vous pouvez maintenant "
+"consulter leurs nouveaux cours."
+
+#: stm-lms-templates/stm-lms-enterprise-group.php:19
+msgid "You wont be able to manage group anymore. Proceed with caution!"
+msgstr "Vous ne pourrez plus gérer le groupe. Procédez avec prudence !"
+
+#. %s Points Label
+#: stm-lms-templates/points/history.php:25
+#, php-format
+msgid "Your %s"
+msgstr "Votre %s"
+
+#: stm-lms-templates/course-player/assignments/current.php:148
+msgid "Your answer:"
+msgstr "Votre réponse :"
+
+#: addons/assignments/actions.php:543 addons/assignments/ajax-action.php:231
+#: addons/email_manager/emails.php:374
+#, fuzzy
+#| msgid "Your assignment was checked"
+msgid "Your assignment has been checked"
+msgstr "Votre devoir a été vérifié"
+
+#: includes/hooks/course-player.php:60
+#: stm-lms-templates/course/parts/student_assignments/on_review.php:55
+msgid "Your assignment pending review"
+msgstr "Votre devoir en attente de révision"
+
+#: addons/email_manager/emails.php:25
+msgid ""
+"Your course - {{course_title}} was approved, and is now live on the website"
+msgstr ""
+"Votre cours - {{course_title}} a été approuvé et est maintenant en ligne sur "
+"le site"
+
+#: addons-plus/ComingSoon/filters.php:20
+#, fuzzy
+#| msgid ""
+#| "Your students can buy the course but can’t start until the specified "
+#| "course launch date."
+msgid ""
+"Your students can buy the course but can’t start until the specified course "
+"launch date"
+msgstr ""
+"Vos étudiants peuvent acheter le cours mais ne peuvent pas commencer avant "
+"la date de lancement spécifiée."
+
+#: stm-lms-templates/certificate-builder/destination-content.php:12
+msgid ""
+"Your students will get this default certificate in all courses where you did "
+"not assign the specific certificate"
+msgstr ""
+"Vos étudiants recevront ce certificat par défaut dans tous les cours où vous "
+"n'avez pas attribué de certificat spécifique."
+
+#: addons/point_system/settings.php:73
+#, fuzzy
+#| msgid ""
+#| "Your users can share their affiliate link and get points for the activity "
+#| "of users they invited."
+msgid ""
+"Your users can share their affiliate link and get points for the activity of "
+"users they invited"
+msgstr ""
+"Vos utilisateurs peuvent partager leur lien d'affiliation et obtenir des "
+"points pour l'activité des utilisateurs qu'ils ont invités."
+
+#: stm-lms-templates/certificate-builder/destination-content.php:75
+msgid "Сhoose certificate"
+msgstr "Choisissez le certificat"
+
+#: stm-lms-templates/analytics/course.php:10
+#: stm-lms-templates/analytics/engagement.php:8
+#: stm-lms-templates/analytics/engagement.php:47
+#: stm-lms-templates/analytics/instructor.php:8
+#: stm-lms-templates/analytics/revenue.php:15
+#: stm-lms-templates/analytics/revenue.php:46
+#: stm-lms-templates/analytics/revenue.php:123
+#: stm-lms-templates/analytics/revenue.php:176
+#: stm-lms-templates/analytics/reviews.php:8
+#: stm-lms-templates/analytics/reviews.php:23
+#: stm-lms-templates/analytics/reviews.php:38
+#: stm-lms-templates/analytics/student.php:45
+#: stm-lms-templates/analytics/users.php:8
+#: stm-lms-templates/analytics/users.php:39
+msgid "№"
+msgstr ""

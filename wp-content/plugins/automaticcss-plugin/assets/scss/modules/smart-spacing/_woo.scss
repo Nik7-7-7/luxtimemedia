@@ -1,0 +1,4 @@
+// Woo
+:not(.woocommerce-checkout) [class*="woocommerce"] * + p {
+    @include smart-spacing;
+}

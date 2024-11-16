@@ -1,0 +1,7 @@
+// Header Padding
+
+@each $size, $extension in $sizeExtensions {
+  .pad-header--#{$extension} {
+    padding: var(--space-#{$extension}) 0;
+  }
+}

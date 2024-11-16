@@ -1,0 +1,189 @@
+@import "functions";
+
+$option-textures: on !default;
+
+// Texture 1
+$texture-1-name: "1" !default;
+$texture-1-bg-color: var(--body-bg-color, var(--white)) !default;
+$texture-1-asset: null !default;
+$texture-1-asset-is-url: on !default;
+$texture-1-overlay: null !default;
+$texture-1-size: 200px !default;
+$texture-1-position: 200px !default;
+$texture-1-attachment: static !default;
+$texture-1-repeat: repeat !default;
+$texture-1-color-relationship: "none" !default;
+$texture-1-overlay-option: "on" !default;
+$texture-1-overlay-opacity: ".8" !default;
+$texture-1-overlay-overlay: null !default;
+$texture-1-blend-mode: normal !default;
+$texture-1-animate-texture: off !default;
+$texture-1-animate-overlay: off !default;
+$texture-1-animation: off !default;
+
+// Texture 2
+$texture-2-name: "2" !default;
+$texture-2-bg-color: var(--body-bg-color, var(--white)) !default;
+$texture-2-asset: null !default;
+$texture-2-asset-is-url: on !default;
+$texture-2-overlay: null !default;
+$texture-2-size: 200px !default;
+$texture-2-attachment: static !default;
+$texture-2-repeat: repeat !default;
+$texture-2-color-relationship: "none" !default;
+$texture-2-overlay-option: "off" !default;
+$texture-2-overlay-opacity: ".8" !default;
+$texture-2-overlay-overlay: null !default;
+$texture-2-blend-mode: normal !default;
+$texture-2-animate-texture: off !default;
+$texture-2-animate-overlay: off !default;
+$texture-2-animation: off !default;
+
+// Texture 3
+$texture-3-name: "3" !default;
+$texture-3-bg-color: var(--body-bg-color, var(--white)) !default;
+$texture-3-asset: null !default;
+$texture-3-asset-is-url: on !default;
+$texture-3-overlay: null !default;
+$texture-3-size: 200px !default;
+$texture-3-attachment: static !default;
+$texture-3-repeat: repeat !default;
+$texture-3-color-relationship: "none" !default;
+$texture-3-overlay-option: "off" !default;
+$texture-3-overlay-opacity: ".8" !default;
+$texture-3-overlay-overlay: null !default;
+$texture-3-blend-mode: normal !default;
+$texture-3-animate-texture: off !default;
+$texture-3-animate-overlay: off !default;
+$texture-3-animation: off !default;
+
+// Texture 4
+$texture-4-name: "4" !default;
+$texture-4-bg-color: var(--body-bg-color, var(--white)) !default;
+$texture-4-asset: null !default;
+$texture-4-asset-is-url: on !default;
+$texture-4-overlay: null !default;
+$texture-4-size: 200px !default;
+$texture-4-attachment: static !default;
+$texture-4-repeat: repeat !default;
+$texture-4-color-relationship: "none" !default;
+$texture-4-overlay-option: "off" !default;
+$texture-4-overlay-opacity: ".8" !default;
+$texture-4-overlay-overlay: null !default;
+$texture-4-blend-mode: normal !default;
+$texture-4-animate-texture: off !default;
+$texture-4-animate-overlay: off !default;
+$texture-4-animation: off !default;
+
+// Texture 5
+$texture-5-name: "5" !default;
+$texture-5-bg-color: var(--body-bg-color, var(--white)) !default;
+$texture-5-asset: null !default;
+$texture-5-asset-is-url: on !default;
+$texture-5-overlay: null !default;
+$texture-5-size: 200px !default;
+$texture-5-attachment: static !default;
+$texture-5-repeat: repeat !default;
+$texture-5-color-relationship: "none" !default;
+$texture-5-overlay-option: "off" !default;
+$texture-5-overlay-opacity: ".8" !default;
+$texture-5-overlay-overlay: null !default;
+$texture-5-blend-mode: normal !default;
+$texture-5-animate-texture: off !default;
+$texture-5-animate-overlay: off !default;
+$texture-5-animation: off !default;
+
+
+$textures: (
+	"texture-1": (
+		"name": $texture-1-name,
+		"background-color": $texture-1-bg-color,
+		"asset": $texture-1-asset,
+		"asset-is-url": $texture-1-asset-is-url,
+		"overlay": $texture-1-overlay,
+		"size": $texture-1-size,
+		"position": $texture-1-position,
+		"attachment": $texture-1-attachment,
+		"repeat": $texture-1-repeat,
+		"relationship": $texture-1-color-relationship,
+		"overlay-option": $texture-1-overlay-option,
+		"overlay-opacity": $texture-1-overlay-opacity,
+		"overlay-overlay": $texture-1-overlay-overlay,
+		"blend-mode": $texture-1-blend-mode,
+		"animate-texture": $texture-1-animate-texture,
+		"animate-overlay": $texture-1-animate-overlay,
+		"animation": $texture-1-animation,
+	),
+	"texture-2": (
+		"name": $texture-2-name,
+		"background-color": $texture-2-bg-color,
+		"asset": $texture-2-asset,
+		"asset-is-url": $texture-2-asset-is-url,
+		"overlay": $texture-2-overlay,
+		"size": $texture-2-size,
+		"attachment": $texture-2-attachment,
+		"repeat": $texture-2-repeat,
+		"relationship": $texture-2-color-relationship,
+		"overlay-option": $texture-2-overlay-option,
+		"overlay-opacity": $texture-2-overlay-opacity,
+		"overlay-overlay": $texture-2-overlay-overlay,
+		"blend-mode": $texture-2-blend-mode,
+		"animate-texture": $texture-2-animate-texture,
+		"animate-overlay": $texture-2-animate-overlay,
+		"animation": $texture-2-animation,
+	),
+	"texture-3": (
+		"name": $texture-3-name,
+		"background-color": $texture-3-bg-color,
+		"asset": $texture-3-asset,
+		"asset-is-url": $texture-3-asset-is-url,
+		"overlay": $texture-3-overlay,
+		"size": $texture-3-size,
+		"attachment": $texture-3-attachment,
+		"repeat": $texture-3-repeat,
+		"relationship": $texture-3-color-relationship,
+		"overlay-option": $texture-3-overlay-option,
+		"overlay-opacity": $texture-3-overlay-opacity,
+		"overlay-overlay": $texture-3-overlay-overlay,
+		"blend-mode": $texture-3-blend-mode,
+		"animate-texture": $texture-3-animate-texture,
+		"animate-overlay": $texture-3-animate-overlay,
+		"animation": $texture-3-animation,
+	),
+	"texture-4": (
+		"name": $texture-4-name,
+		"background-color": $texture-4-bg-color,
+		"asset": $texture-4-asset,
+		"asset-is-url": $texture-4-asset-is-url,
+		"overlay": $texture-4-overlay,
+		"size": $texture-4-size,
+		"attachment": $texture-4-attachment,
+		"repeat": $texture-4-repeat,
+		"relationship": $texture-4-color-relationship,
+		"overlay-option": $texture-4-overlay-option,
+		"overlay-opacity": $texture-4-overlay-opacity,
+		"overlay-overlay": $texture-4-overlay-overlay,
+		"blend-mode": $texture-4-blend-mode,
+		"animate-texture": $texture-4-animate-texture,
+		"animate-overlay": $texture-4-animate-overlay,
+		"animation": $texture-4-animation,
+	),
+	"texture-5": (
+		"name": $texture-5-name,
+		"background-color": $texture-5-bg-color,
+		"asset": $texture-5-asset,
+		"asset-is-url": $texture-5-asset-is-url,
+		"overlay": $texture-5-overlay,
+		"size": $texture-5-size,
+		"attachment": $texture-5-attachment,
+		"repeat": $texture-5-repeat,
+		"relationship": $texture-5-color-relationship,
+		"overlay-option": $texture-5-overlay-option,
+		"overlay-opacity": $texture-5-overlay-opacity,
+		"overlay-overlay": $texture-5-overlay-overlay,
+		"blend-mode": $texture-5-blend-mode,
+		"animate-texture": $texture-5-animate-texture,
+		"animate-overlay": $texture-5-animate-overlay,
+		"animation": $texture-5-animation,
+	),
+);

@@ -1,0 +1,25 @@
+@if $option-frames == on {
+  .fr-lede,
+  p.fr-lede {
+    max-width: $fr-lede-width;
+  }
+
+  .fr-hero-padding {
+    padding-block: var(--fr-hero-padding);
+  }
+
+  .fr-text--light {
+    color: var(--text-light);
+  }
+  .fr-text--dark {
+    color: var(--text-dark);
+  }
+  .fr-bg--light {
+    background-color: var(--bg-light);
+  }
+  .fr-bg--dark {
+    background-color: var(--bg-dark);
+  }
+
+
+}

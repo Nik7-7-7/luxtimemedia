@@ -1,0 +1,137 @@
+// The basic automatic.css stylesheet won't load correctly in the block editor when enqueued with add_editor_style(),
+// because the contents of html and body styles are mushed together in the .editor-styles-wrapper div, and that messes up the root font size.
+// This file mimics the contents of automatic.css in a way it can be safely enqueued with add_editor_style() in PHP.
+// It skips the root font size, which the block editor would mess up, and is fixed via JS.
+$output-root-font-size: false;
+
+// Main Framework Imports
+@import "../../automatic-imports";
+
+// Mixins
+@import "../../helpers/mixins";
+
+// Modules
+@import "accessibility";
+@import "../../modules/buttons-links/buttons";
+@import "tokens";
+
+// Framework
+
+@import "../../automatic.scss";
+
+// Builders
+
+@import "../generate/generate-editor";
+body {
+  font-size: 18px;
+  // Set the gutenberg default font because when we add custom style in gutenberg (add_editor_style) it applies an reset that makes serif as default
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+body p {
+  // This overrides the block editor's p, .wp-die { font-size: 13px; }
+  font-size: var(--text-m);
+  line-height: var(--text-m-lh, $base-text-lh);
+  // max-inline-size: var(--text-m-length, var(--text-line-length, var(--wp-post-block-width)));
+  width: 100%;
+}
+
+ul, ol {
+  list-style: revert;
+  padding-left: 2em;
+}
+
+li {
+  margin: 0;
+  line-height: 1.4em;
+}
+
+@if $option-use-gutenberg-for-page-building == on {
+  @include load-default-body();
+  @include load-default-text();
+  @include load-default-links();
+}
+
+// Fix the editor width
+@if $option-use-gutenberg-for-page-building == on {
+  .editor-styles-wrapper {
+    width: 100%;
+    min-block-size: 0;
+  }
+}
+@if $option-use-gutenberg-for-page-building == off {
+  .editor-styles-wrapper {
+    background-color: #ffffff;
+  }
+}
+
+// Controls for whether or not the block editor
+// is a narrow column or full-width. User specifies
+// by adding page classes in the ACSS dashboard. These
+// get output in $wp-post-types-list and used below.
+
+// Set the max-width of the block editor for posts
+.wp-block:is(.post-type-post .wp-block) {
+  max-width: var(--wp-post-block-width);
+}
+
+// Set the max-width of the block editor for pages
+@if $option-use-gutenberg-for-page-building == on {
+  .wp-block:is(body.post-type-page .wp-block) {
+    max-width: var(--wp-page-block-width);
+  }
+}
+
+// Set the max-width of the block editor for specific custom post types
+// Loop required to avoid Gutenberg injecting/prepending the post type class
+// :is() check required because of Gutenberg's prepending of all classes
+@if $wp-post-types-list != null {
+  @each $wp-post-type in $wp-post-types-list {
+    .wp-block:is(body#{$wp-post-type} .wp-block) {
+      max-width: var(--wp-page-block-width);
+    }
+  }
+}
+
+// Fix Title Wrapper Spacing
+@if $option-use-gutenberg-for-page-building == on {
+  .edit-post-visual-editor__post-title-wrapper {
+    margin-bottom: var(--container-gap) !important;
+  }
+}
+.edit-post-visual-editor__post-title-wrapper h1 {
+  line-height: 1.2;
+}
+
+// Turn off focus styling in editor
+
+*:focus,
+  button:focus {
+    outline: none;
+  }
+
+// Button Styling in Editor
+
+@if $option-buttons == on and $option-gutenberg-enable == off {
+  @include load-buttons;
+}
+
+// Smart spacing in editor
+
+@if $option-smart-spacing == on {
+  body :where(.wp-block-post-content),
+  .smart-spacing.smart-spacing {
+    @include smart-spacing;
+  }
+}
+
+.editor-visual-editor__post-title-wrapper h1 {
+  margin-block: var(--section-space-xs);
+}
+
+// Delete in 3.0.18 if no issues arise
+// @if $option-smart-spacing == on and $option-use-gutenberg-for-page-building == on {
+//     body :where(.wp-block-post-content:not(:is(.post-type-page .wp-block-post-content))),
+//     .smart-spacing.smart-spacing {
+//       @include smart-spacing;
+//     }
+// }

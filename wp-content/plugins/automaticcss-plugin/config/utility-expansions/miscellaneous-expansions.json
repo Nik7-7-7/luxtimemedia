@@ -1,0 +1,48 @@
+{
+	"$schema": "expansions.schema.json",
+	"label": "Miscellaneous",
+	"expansions": {
+		"clickable-parent": {
+			"expandTo": "/* Begin Clickable Parent\nEnsure this is placed on the clickable parent element. */\n%root%:has(a) {\n\tposition: relative;\n}\n/* Configure your selector if you have more than one link */\n%root% a::after {\n\tcontent: \"\";\n\tposition: absolute;\n\tinset: 0;\n\tz-index: 10;\n}\n/* Remove effect in builder.\nSet target.\nBricks = .bricks-area */\n.target %root% a::after {\n\tcontent: \"\";\n\tposition: relative;\n}\n/* End Clickable Parent */"
+		},
+		"focus-parent": {
+			"expandTo": "/* Begin Focus Parent */\n%root%:focus-within {\n\toutline: var(--focus-width) solid var(--focus-color);\n\toutline-offset: var(--focus-offset);\n}\n%root% :focus {\n\toutline: none !important;\n\tbox-shadow: none !important;\n}\n/* End Focus Parent */"
+		},
+		"columns": {
+			"expandTo": "/* Auto-responsive columns */\n%root% {\n\t--col-count: auto;\n\t--col-min-width: 250px;\n\t--col-rule-style: solid;\n\t--col-rule-width: 1px;\n\t--col-rule-color: var(--black);\n\t--col-gap: var(--grid-gap);\n\t--row-gap: var(--grid-gap);\n}\n\n%root% {\ndisplay: block !important;\n\tcolumns: var(--col-count) var(--col-min-width);\n\tcolumn-rule-style: var(--col-rule-style);\n\tcolumn-rule-width: var(--col-rule-width);\n\tcolumn-rule-color: var(--col-rule-color);\n\tgap: var(--col-gap);\n}\n\n%root% > * {\n\tbreak-inside: avoid;\n\tmargin-block-end: var(--row-gap);\n}"
+		},
+		"divider-all": {
+			"expandTo": "/* ACSS Programmatic Dividers */\n/* Available Override Tokens\n--divider-size\n--divider-inline-size\n--divider-style\n--divider-color\n--divider-gap\n*/\n\n/* Remove gap from parent */\n%root% {\n\trow-gap: 0 !important;\n}\n\n/* Children are required to be relative and show overflow. They also need bottom margin to act as a gap. */\n%root% > *:not(:last-child) {\n\tposition: relative;\n  overflow: visible;\n  margin-block-end: calc(var(--divider-gap) * 2);\n}\n\n/* Divider */\n%root% > *:not(:last-child)::after {\n\tcontent: '';\n  display: block;\n  position: absolute;\n  inset-inline-start: 0;\n  inset-block-end: calc(var(--divider-gap) * -1 - var(--divider-size));\n  inline-size: var(--divider-inline-size);\n  border-block-end: var(--divider);\n}"
+		},
+		"divider-bottom": {
+			"expandTo": "/* \nACSS Bottom Divider \n*/\n\n/* Remove gap from parent */\n:has(> %root%) {\n\tgap: 0 !important;\n}\n\n/* Make sure element has visible overflow and is position relative */\n%root% {\n\tposition: relative;\n  overflow: visible;\n  margin-block-end: calc(var(--divider-gap) * 2);\n}\n/* Divider */\n%root%:not(:last-child)::before {\n  content: '';\n  display: block;\n  position: absolute;\n  inset-inline-start: 0;\n  inline-size: var(--divider-inline-size);\n  border-block-end: var(--divider);\n\tinset-block-end: calc(var(--divider-gap) * -1 - var(--divider-size));\n}"
+		},
+		"divider-top": {
+			"expandTo": "/* \nACSS Top Divider \n*/\n\n/* Remove gap from parent */\n:has(> %root%) {\n\tgap: 0 !important;\n}\n\n/* Make sure element has visible overflow and is position relative */\n%root% {\n\tposition: relative;\n  overflow: visible;\n  margin-block-start: calc(var(--divider-gap) * 2);\n}\n/* Divider */\n%root%:not(:first-child)::before {\n  content: '';\n  display: block;\n  position: absolute;\n  inset-inline-start: 0;\n  inline-size: var(--divider-inline-size);\n  border-block-end: var(--divider);\n\tinset-block-start: calc(var(--divider-gap) * -1 - var(--divider-size));\n}"
+		},
+		"line-clamp": {
+			"expandTo": "/* Line Clamp */\n%root% {\n\t--line-count: 3; /* Set line count */\n\tdisplay: -webkit-box;\n\t-webkit-line-clamp: var(--line-count);\n\t-webkit-box-orient: vertical;\n\toverflow: hidden;\n}\n/* End Line Clamp */"
+		},
+		"btn": {
+			"expandTo": "/* Custom Button Styles\nUse in conjunction with custom .btn-- class\nCustomize the values below to your liking */\n%root% {\n--btn-background: var(--primary);\n\t--btn-background-hover: var(--primary-hover);\n\t--btn-text-color: var(--primary-ultra-light);\n\t--btn-text-color-hover: var(--primary-ultra-light);\n\t--btn-border-color: var(--primary);\n\t--btn-border-color-hover: var(--primary-hover);\n\t--focus-color: var(--primary-light);\n\t--btn-border-width: var(--btn-outline-border-width);\n}\n/* End Custom Button Styles */"
+		},
+		"concentric-radius": {
+			"expandTo": "/* Concentric Radius */\n/*\nParent element radius..\nRead documentation if you're unsure how this all works.\n*/\n%root% {\n  --padding: var(--space-m);\n\tpadding: var(--padding);\n  border-radius: calc(var(--radius) + var(--padding) / 2);\n}\n/* \nChange selector below based on which child\nneeds the inner radius.\n*/\n%root% > * {\n\tborder-radius: var(--radius);\n  overflow: hidden;\n}\n/* End Concentric Radius */"
+		},
+		"query-children": {
+			"expandTo": "return [\n  'post_type' => 'post_type_key',\n  'posts_per_page' => -1,\n  'post_parent__not_in' => array( 0 ),\n  'post_status'    => 'publish',\n];"
+		},
+		"property": {
+			"expandTo": "@property --name {\n\tsyntax: \"<>\";\n\tinherits: false;\n\tinitial-value: #value; \n}"
+		},
+		"overlap": {
+			"expandTo": "/* Create Overlap */\n:where(%root%) {\n\t/* Set background color of next area & overlap color */\n  --background: var(--bg-ultra-light);\n\t/* Set foreground color of next area */\n  --foreground: inherit;\n\t/* Set height/amout of overlap */\n  --overlap-amount: 8vmin;\n\t/* Set overlay if using background image or similar.\n     Must use linear-gradient syntax for overlay.*/\n  --overlay: linear-gradient(transparent, transparent);\n}\n/* Shouldn't need to edit below this line */\n:where(%root%) {\n  position: relative;\n  isolation: isolate;\n\t/* Foreground Targets */\n  :is(h1,h2,h3,h4,h5,h6,p) {\n\t\tcolor: var(--foreground);\n}\n}\n%root%::before {\n\tcontent: '';\n\twidth: 100%;\n\tbackground: var(--background);\n\theight: calc(100% - var(--overlap-amount));\n\tposition: absolute;\n\tinset-block-start: 0;\n\tborder-image: fill 1 var(--overlay);\n\tz-index: -1;\n}\n/* End Overlap */"
+		},
+		"overlap-alt": {
+			"expandTo": "/* Create Overlap */\n:where(%root% + *) {\n\t  /* Set background color of next area & overlap color */\n  --background: var(--bg-ultra-light);\n  /* Set foreground color of next area */\n  --foreground: inherit;\n\t/* Set height/amout of overlap */\n  --overlap-amount: 100px;\n  /* Set overlay if using background image or similar.\n     Must use linear-gradient syntax for overlay.*/\n  --overlay: linear-gradient(transparent, transparent);\n}\n/* Shouldn't need to edit below this line */\n:where(%root% + *) {\n  position: relative;\n  /* Foreground Targets */\n  :is(h1,h2,h3,h4,h5,h6,p) {\n    color: var(--foreground);\n  }\n}\n%root% + *::before {\n  content: '';\n\twidth: 100%;\n\tbackground: var(--background);\n\theight: calc(100% + var(--overlap-amount));\n\tposition: absolute;\n\tinset-block-end: 0;\n  border-image: fill 1 var(--overlay);\n\tz-index: -1;\n}\n/* End Overlap */"
+		},
+		"list-none": {
+			"expandTo": "/* \nBegin List None\nChange selector to %root% > ul\" if\nusing on a parent container or rich text element.\n*/\n%root% {\n\tlist-style: none;\n\tpadding-inline-start: 0;\n\tmargin-block: 0;\n}\n/* End List None */"
+		}
+	}
+}

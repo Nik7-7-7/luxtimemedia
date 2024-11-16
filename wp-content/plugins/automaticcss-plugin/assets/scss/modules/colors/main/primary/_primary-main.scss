@@ -1,0 +1,176 @@
+// primary Options
+$option-primary-clr: on !default;
+$option-primary-main-trans: on !default;
+$option-primary-light-trans: on !default;
+$option-primary-dark-trans: on !default;
+$option-primary-ultra-dark-trans: on !default;
+
+// primary Vars
+$primary-hex: #e56c70 !default;
+$primary-r: 229 !default;
+$primary-g: 108 !default;
+$primary-b: 112 !default;
+$primary-h: 358 !default;
+$primary-s: 70% !default;
+$primary-l: 66% !default;
+$primary-hover-h: 358 !default;
+$primary-hover-s: 70% !default;
+$primary-hover-l: 1.15 !default;
+$primary-ultra-light-h: 358 !default;
+$primary-ultra-light-s: 70% !default;
+$primary-ultra-light-l: 95% !default;
+$primary-light-h: 358 !default;
+$primary-light-s: 70% !default;
+$primary-light-l: 85% !default;
+$primary-medium-h: 358 !default;
+$primary-medium-s: 70% !default;
+$primary-medium-l: 50% !default;
+$primary-dark-h: 358 !default;
+$primary-dark-s: 70% !default;
+$primary-dark-l: 25% !default;
+$primary-ultra-dark-h: 358 !default;
+$primary-ultra-dark-s: 70% !default;
+$primary-ultra-dark-l: 10% !default;
+// Added in 3.0
+$primary-semi-light-h: 358 !default;
+$primary-semi-light-s: 70% !default;
+$primary-semi-light-l: 60% !default;
+$primary-semi-dark-h: 358 !default;
+$primary-semi-dark-s: 70% !default;
+$primary-semi-dark-l: 40% !default;
+
+// Primary Color Map
+$color-primary:(); // Initialize Map
+@if $option-primary-clr == on {
+  $color-primary: (
+    "main": (
+      "primary": $primary-hex,
+      "primary-hover": hsl($primary-hover-h, $primary-hover-s, $primary-hover-l),
+      "primary-ultra-light": hsl($primary-ultra-light-h, $primary-ultra-light-s, $primary-ultra-light-l),
+      "primary-light": hsl($primary-light-h, $primary-light-s, $primary-light-l),
+      "primary-semi-light": hsl($primary-semi-light-h, $primary-semi-light-s, $primary-semi-light-l),
+      "primary-semi-dark": hsl($primary-semi-dark-h, $primary-semi-dark-s, $primary-semi-dark-l),
+      "primary-dark": hsl($primary-dark-h, $primary-dark-s, $primary-dark-l),
+      "primary-ultra-dark": hsl($primary-ultra-dark-h, $primary-ultra-dark-s, $primary-ultra-dark-l),
+    ),
+    "trans": (
+      "primary-trans-10": rgba($primary-hex, .1),
+      "primary-trans-20": rgba($primary-hex, .2),
+      "primary-trans-30": rgba($primary-hex, .3),
+      "primary-trans-40": rgba($primary-hex, .4),
+      "primary-trans-50": rgba($primary-hex, .5),
+      "primary-trans-60": rgba($primary-hex, .6),
+      "primary-trans-70": rgba($primary-hex, .7),
+      "primary-trans-80": rgba($primary-hex, .8),
+      "primary-trans-90": rgba($primary-hex, .9),
+    ),
+    "light-trans": (
+      "primary-light-trans-10": hsl($primary-light-h, $primary-light-s, $primary-light-l, .1),
+      "primary-light-trans-20": hsl($primary-light-h, $primary-light-s, $primary-light-l, .2),
+      "primary-light-trans-30": hsl($primary-light-h, $primary-light-s, $primary-light-l, .3),
+      "primary-light-trans-40": hsl($primary-light-h, $primary-light-s, $primary-light-l, .4),
+      "primary-light-trans-50": hsl($primary-light-h, $primary-light-s, $primary-light-l, .5),
+      "primary-light-trans-60": hsl($primary-light-h, $primary-light-s, $primary-light-l, .6),
+      "primary-light-trans-70": hsl($primary-light-h, $primary-light-s, $primary-light-l, .7),
+      "primary-light-trans-80": hsl($primary-light-h, $primary-light-s, $primary-light-l, .8),
+      "primary-light-trans-90": hsl($primary-light-h, $primary-light-s, $primary-light-l, .9),
+    ),
+    "dark-trans": (
+      "primary-dark-trans-10": hsl($primary-dark-h, $primary-dark-s, $primary-dark-l, .1),
+      "primary-dark-trans-20": hsl($primary-dark-h, $primary-dark-s, $primary-dark-l, .2),
+      "primary-dark-trans-30": hsl($primary-dark-h, $primary-dark-s, $primary-dark-l, .3),
+      "primary-dark-trans-40": hsl($primary-dark-h, $primary-dark-s, $primary-dark-l, .4),
+      "primary-dark-trans-50": hsl($primary-dark-h, $primary-dark-s, $primary-dark-l, .5),
+      "primary-dark-trans-60": hsl($primary-dark-h, $primary-dark-s, $primary-dark-l, .6),
+      "primary-dark-trans-70": hsl($primary-dark-h, $primary-dark-s, $primary-dark-l, .7),
+      "primary-dark-trans-80": hsl($primary-dark-h, $primary-dark-s, $primary-dark-l, .8),
+      "primary-dark-trans-90": hsl($primary-dark-h, $primary-dark-s, $primary-dark-l, .9),
+    ),
+    "ultra-dark-trans": (
+      "primary-ultra-dark-trans-10": hsl($primary-ultra-dark-h, $primary-ultra-dark-s, $primary-ultra-dark-l, .1),
+      "primary-ultra-dark-trans-20": hsl($primary-ultra-dark-h, $primary-ultra-dark-s, $primary-ultra-dark-l, .2),
+      "primary-ultra-dark-trans-30": hsl($primary-ultra-dark-h, $primary-ultra-dark-s, $primary-ultra-dark-l, .3),
+      "primary-ultra-dark-trans-40": hsl($primary-ultra-dark-h, $primary-ultra-dark-s, $primary-ultra-dark-l, .4),
+      "primary-ultra-dark-trans-50": hsl($primary-ultra-dark-h, $primary-ultra-dark-s, $primary-ultra-dark-l, .5),
+      "primary-ultra-dark-trans-60": hsl($primary-ultra-dark-h, $primary-ultra-dark-s, $primary-ultra-dark-l, .6),
+      "primary-ultra-dark-trans-70": hsl($primary-ultra-dark-h, $primary-ultra-dark-s, $primary-ultra-dark-l, .7),
+      "primary-ultra-dark-trans-80": hsl($primary-ultra-dark-h, $primary-ultra-dark-s, $primary-ultra-dark-l, .8),
+      "primary-ultra-dark-trans-90": hsl($primary-ultra-dark-h, $primary-ultra-dark-s, $primary-ultra-dark-l, .9),
+    ),
+    "partials": (
+      "primary-hex": $primary-hex,
+        "primary-hsl": $primary-h $primary-s $primary-l,
+        "primary-rgb": $primary-r $primary-g $primary-b,
+        "primary-r": $primary-r,
+        "primary-g": $primary-g,
+        "primary-b": $primary-b,
+        "primary-h": $primary-h,
+        "primary-s": $primary-s,
+        "primary-l": $primary-l,
+        "primary-hover-h": $primary-hover-h,
+        "primary-hover-s": $primary-hover-s,
+        "primary-hover-l": $primary-hover-l,
+        "primary-ultra-light-h": $primary-ultra-light-h,
+        "primary-ultra-light-s": $primary-ultra-light-s,
+        "primary-ultra-light-l": $primary-ultra-light-l,
+        "primary-light-h": $primary-light-h,
+        "primary-light-s": $primary-light-s,
+        "primary-light-l": $primary-light-l,
+        "primary-semi-light-h": $primary-semi-light-h,
+        "primary-semi-light-s": $primary-semi-light-s,
+        "primary-semi-light-l": $primary-semi-light-l,
+        "primary-semi-dark-h": $primary-semi-dark-h,
+        "primary-semi-dark-s": $primary-semi-dark-s,
+        "primary-semi-dark-l": $primary-semi-dark-l,
+        "primary-dark-h": $primary-dark-h,
+        "primary-dark-s": $primary-dark-s,
+        "primary-dark-l": $primary-dark-l,
+        "primary-ultra-dark-h": $primary-ultra-dark-h,
+        "primary-ultra-dark-s": $primary-ultra-dark-s,
+        "primary-ultra-dark-l": $primary-ultra-dark-l,
+    ),
+  );
+
+  // Transparency options
+  @if $option-primary-main-trans == off {
+    $color-primary: map-remove($color-primary, "trans");
+  }
+  @if $option-primary-light-trans == off {
+    $color-primary: map-remove($color-primary, "light-trans");
+  }
+  @if $option-primary-dark-trans == off {
+    $color-primary: map-remove($color-primary, "dark-trans");
+  }
+  @if $option-primary-ultra-dark-trans == off {
+    $color-primary: map-remove($color-primary, "ultra-dark-trans");
+  }
+
+}
+
+// Handle Deprecated Options
+@if $option-primary-clr == on {
+  // Add complimentary color back if enabled
+  @if $option-comp-colors == on {
+    $color-primary: map-merge($color-primary, (
+      "main": map-merge(map-get($color-primary, "main"), (
+        "primary-comp": hsl($primary-h + 180, $primary-s, $primary-l)
+      )),
+      "partials": map-merge(map-get($color-primary, "partials"), (
+        "primary-comp-h": $primary-h + 180
+      ))
+    ));
+  }
+  // Add medium back if enabled
+  @if $option-medium-shade == on {
+    $color-primary: map-merge($color-primary, (
+      "main": map-merge(map-get($color-primary, "main"), (
+        "primary-medium": hsl($primary-medium-h, $primary-medium-s, $primary-medium-l)
+      )),
+      "partials": map-merge(map-get($color-primary, "partials"), (
+        "primary-medium-h": $primary-medium-h,
+        "primary-medium-s": $primary-medium-s,
+        "primary-medium-l": $primary-medium-l
+      ))
+    ));
+  }
+}

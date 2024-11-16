@@ -1,0 +1,10 @@
+.mce-aikit-classic-main-button i {
+    background-size: 17px;
+    background-repeat: no-repeat;
+}
+
+.mce-aikit-classic-button .mce-ico {
+    display: inline-flex !important;
+    background-size: 17px;
+    background-repeat: no-repeat;
+}

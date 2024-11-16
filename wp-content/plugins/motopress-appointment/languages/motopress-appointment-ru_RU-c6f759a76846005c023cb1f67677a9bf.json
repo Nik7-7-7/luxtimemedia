@@ -1,0 +1,219 @@
+{
+    "translation-revision-date": "2022-01-10 22:04",
+    "generator": "WP-CLI\/2.10.0",
+    "source": "assets\/js\/divi-modules.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ru_RU",
+                "plural-forms": "nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));"
+            },
+            "Clients": [
+                ""
+            ],
+            "Remove": [
+                "\u0423\u0434\u0430\u043b\u0438\u0442\u044c"
+            ],
+            "Zero price\u0004Free": [
+                "\u0421\u0432\u043e\u0431\u043e\u0434\u043d\u043e"
+            ],
+            "Bancontact": [
+                ""
+            ],
+            "iDEAL": [
+                ""
+            ],
+            "Giropay": [
+                ""
+            ],
+            "SEPA Direct Debit": [
+                ""
+            ],
+            "SOFORT": [
+                ""
+            ],
+            "Making a reservation...": [
+                ""
+            ],
+            "Sun": [
+                ""
+            ],
+            "Mon": [
+                ""
+            ],
+            "Tue": [
+                ""
+            ],
+            "Wed": [
+                ""
+            ],
+            "Thu": [
+                ""
+            ],
+            "Fri": [
+                ""
+            ],
+            "Sat": [
+                ""
+            ],
+            "Sunday": [
+                "\u0412\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435"
+            ],
+            "Monday": [
+                "\u041f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a"
+            ],
+            "Tuesday": [
+                "\u0412\u0442\u043e\u0440\u043d\u0438\u043a"
+            ],
+            "Wednesday": [
+                "\u0421\u0440\u0435\u0434\u0430"
+            ],
+            "Thursday": [
+                "\u0427\u0435\u0442\u0432\u0435\u0440\u0433"
+            ],
+            "Friday": [
+                "\u041f\u044f\u0442\u043d\u0438\u0446\u0430"
+            ],
+            "Saturday": [
+                "\u0421\u0443\u0431\u0431\u043e\u0442\u0430"
+            ],
+            "Jan": [
+                ""
+            ],
+            "Feb": [
+                ""
+            ],
+            "Mar": [
+                ""
+            ],
+            "Apr": [
+                ""
+            ],
+            "Month (short)\u0004May": [
+                ""
+            ],
+            "Jun": [
+                ""
+            ],
+            "Jul": [
+                ""
+            ],
+            "Aug": [
+                ""
+            ],
+            "Sep": [
+                ""
+            ],
+            "Oct": [
+                ""
+            ],
+            "Nov": [
+                ""
+            ],
+            "Dec": [
+                ""
+            ],
+            "January": [
+                ""
+            ],
+            "February": [
+                ""
+            ],
+            "March": [
+                ""
+            ],
+            "April": [
+                ""
+            ],
+            "Month\u0004May": [
+                ""
+            ],
+            "June": [
+                ""
+            ],
+            "July": [
+                ""
+            ],
+            "August": [
+                ""
+            ],
+            "September": [
+                ""
+            ],
+            "October": [
+                ""
+            ],
+            "November": [
+                ""
+            ],
+            "December": [
+                ""
+            ],
+            "Total": [
+                "\u0412\u0441\u0435\u0433\u043e"
+            ],
+            "Card": [
+                "\u041a\u0430\u0440\u0442\u0430"
+            ],
+            "Credit or debit card": [
+                "\u041a\u0440\u0435\u0434\u0438\u0442\u043d\u0430\u044f \u0438\u043b\u0438 \u0434\u0435\u0431\u0435\u0442\u043e\u0432\u0430\u044f \u043a\u0430\u0440\u0442\u0430"
+            ],
+            "Select iDEAL Bank": [
+                "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 iDEAL Bank"
+            ],
+            "IBAN": [
+                ""
+            ],
+            "You will be redirected to a secure page to complete the payment.": [
+                "\u0412\u0430\u0441 \u0431\u0443\u0434\u0435\u0442 \u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u043d\u0430 \u0437\u0430\u0449\u0438\u0449\u0435\u043d\u043d\u0443\u044e \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 \u0434\u043b\u044f \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u044f \u043f\u043b\u0430\u0442\u0435\u0436\u0430."
+            ],
+            "Sorry, there are no services, employees or locations to book.": [
+                ""
+            ],
+            "Sorry, but we were unable to allocate time slots for the date you selected.": [
+                ""
+            ],
+            "Left to pay": [
+                ""
+            ],
+            "Phone number is invalid.": [
+                ""
+            ],
+            "Coupon code is empty.": [
+                ""
+            ],
+            "Coupon code applied successfully.": [
+                ""
+            ],
+            "Sorry, your booking is not eligible for this coupon.": [
+                ""
+            ],
+            "By providing your IBAN and confirming this payment, you authorise (A) %s and Stripe, our payment service provider, to send instructions to your bank to debit your account and (B) your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.": [
+                ""
+            ],
+            "or": [
+                ""
+            ],
+            "Subtotal": [
+                ""
+            ],
+            "Coupon: %s": [
+                ""
+            ],
+            "Deposit": [
+                ""
+            ],
+            "Paying now": [
+                ""
+            ],
+            "Payment methods": [
+                ""
+            ],
+            "All day": [
+                ""
+            ]
+        }
+    }
+}

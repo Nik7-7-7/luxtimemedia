@@ -1,0 +1,130 @@
+// Warning Defaults
+$option-warning-btn: on !default;
+$option-warning-btn-shades: on !default;
+$option-warning-btn-outline: on !default;
+
+///// Main
+$btn-warning-bg: var(--warning) !default;
+$btn-warning-hover: var(--warning-hover) !default;
+$btn-warning-text: var(--warning-ultra-light) !default;
+$btn-warning-hover-text: var(--warning-ultra-light) !default;
+$btn-warning-border-color: var(--warning) !default;
+$btn-warning-hover-border-color: var(--warning-hover) !default;
+$btn-warning-focus-color: var(--warning-light) !default;
+///// Dark
+$btn-warning-dark-bg: var(--warning-dark) !default;
+$btn-warning-dark-hover: var(--warning-ultra-dark) !default;
+$btn-warning-dark-text: var(--warning-ultra-light) !default;
+$btn-warning-dark-hover-text: var(--warning-ultra-light) !default;
+$btn-warning-dark-border-color: var(--warning-dark) !default;
+$btn-warning-dark-hover-border-color: var(--warning-ultra-dark) !default;
+$btn-warning-dark-focus-color: var(--warning-semi-dark) !default;
+///// Light
+$btn-warning-light-bg: var(--warning-ultra-light) !default;
+$btn-warning-light-hover: var(--warning-light) !default;
+$btn-warning-light-text: var(--warning) !default;
+$btn-warning-light-hover-text: var(--warning-ultra-dark) !default;
+$btn-warning-light-border-color: var(--warning-ultra-light) !default;
+$btn-warning-light-hover-border-color: var(--warning-light) !default;
+$btn-warning-light-focus-color: var(--warning-light) !default;
+///// Outline
+$btn-warning-outline-background: transparent !default;
+$btn-warning-outline-background-hover: var(--warning-hover) !default;
+$warning-outline-btn-text: var(--warning) !default;
+$warning-outline-hover-text: var(--warning-ultra-light) !default;
+$btn-warning-outline-border-color: var(--warning) !default;
+$btn-warning-outline-border-hover: var(--warning-hover) !default;
+$btn-warning-outline-focus-color: var(--warning-semi-light) !default;
+///// Outline Dark
+$btn-warning-outline-dark-background: transparent !default;
+$btn-warning-outline-dark-background-hover: var(--warning-dark) !default;
+$warning-outline-dark-btn-text: var(--warning-dark) !default;
+$warning-outline-dark-hover-text: var(--warning-ultra-light) !default;
+$btn-warning-outline-dark-border-color: var(--warning-dark) !default;
+$btn-warning-outline-dark-border-hover: var(--warning-dark) !default;
+$btn-warning-outline-dark-focus-color: var(--warning-semi-dark) !default;
+///// Outline Light
+$btn-warning-outline-light-background: transparent !default;
+$btn-warning-outline-light-background-hover: var(--warning-ultra-light) !default;
+$warning-outline-light-btn-text: var(--warning-ultra-light) !default;
+$warning-outline-light-hover-text: var(--warning-dark) !default;
+$btn-warning-outline-light-border-color: var(--warning-ultra-light) !default;
+$btn-warning-outline-light-border-hover: var(--warning-ultra-light) !default;
+$btn-warning-outline-light-focus-color: var(--warning-light) !default;
+
+$btn-warning: (); // Initialize Map
+@if $option-warning-btn == on {
+
+    $btn-warning: (
+        "warning": (
+            btn-background: $btn-warning-bg,
+            btn-background-hover: $btn-warning-hover,
+            btn-text-color: $btn-warning-text,
+            btn-text-color-hover: $btn-warning-hover-text,
+            btn-border-color: $btn-warning-border-color,
+            btn-border-color-hover: $btn-warning-hover-border-color,
+            focus-color: $btn-warning-focus-color,
+        ),
+        "warning-dark": (
+            btn-background: $btn-warning-dark-bg,
+            btn-background-hover: $btn-warning-dark-hover,
+            btn-text-color: $btn-warning-dark-text,
+            btn-text-color-hover: $btn-warning-dark-hover-text,
+            btn-border-color: $btn-warning-dark-border-color,
+            btn-border-color-hover: $btn-warning-dark-hover-border-color,
+            focus-color: $btn-warning-dark-focus-color,
+        ),
+        "warning-light": (
+            btn-background: $btn-warning-light-bg,
+            btn-background-hover: $btn-warning-light-hover,
+            btn-text-color: $btn-warning-light-text,
+            btn-text-color-hover: $btn-warning-light-hover-text,
+            btn-border-color: $btn-warning-light-border-color,
+            btn-border-color-hover: $btn-warning-light-hover-border-color,
+            focus-color: $btn-warning-light-focus-color,
+        ),
+        "warning.btn--outline": (
+            btn-background: $btn-warning-outline-background,
+            btn-background-hover: $btn-warning-outline-background-hover,
+            btn-text-color: $warning-outline-btn-text,
+            btn-text-color-hover: $warning-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-warning-outline-border-color,
+            btn-border-color-hover: $btn-warning-outline-border-hover,
+            focus-color: $btn-warning-focus-color,
+        ),
+        "warning-dark.btn--outline": (
+            btn-background: $btn-warning-outline-dark-background,
+            btn-background-hover: $btn-warning-outline-dark-background-hover,
+            btn-text-color: $warning-outline-dark-btn-text,
+            btn-text-color-hover: $warning-outline-dark-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-warning-outline-dark-border-color,
+            btn-border-color-hover: $btn-warning-outline-dark-border-hover,
+            focus-color: $btn-warning-focus-color,
+        ),
+        "warning-light.btn--outline": (
+            btn-background: $btn-warning-outline-light-background,
+            btn-background-hover: $btn-warning-outline-light-background-hover,
+            btn-text-color: $warning-outline-light-btn-text,
+            btn-text-color-hover: $warning-outline-light-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-warning-outline-light-border-color,
+            btn-border-color-hover: $btn-warning-outline-light-border-hover,
+            focus-color: $btn-warning-focus-color,
+        ),
+    );
+
+    @if $option-warning-btn-outline == off {
+        $btn-warning: map-remove($btn-warning, "warning.btn--outline");
+        $btn-warning: map-remove($btn-warning, "warning-dark.btn--outline");
+        $btn-warning: map-remove($btn-warning, "warning-light.btn--outline");
+    }
+    @if $option-warning-btn-shades == off {
+        $btn-warning: map-remove($btn-warning, "warning-dark");
+        $btn-warning: map-remove($btn-warning, "warning-light");
+        $btn-warning: map-remove($btn-warning, "warning-dark.btn--outline");
+        $btn-warning: map-remove($btn-warning, "warning-light.btn--outline-light");
+    }
+
+}

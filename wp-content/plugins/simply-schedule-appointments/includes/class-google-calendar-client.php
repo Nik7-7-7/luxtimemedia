@@ -64,8 +64,8 @@
 			$this->client_secret = $this->plugin->google_calendar->get_client_secret();
 		} else {
 			// if ssa_quick_connect enabled get our own client_id
-			if( !defined( 'SSA_QUICK_CONNECT_GCAL_CLIENT_ID' ) ){
-				ssa_debug_log( 'SSA_QUICK_CONNECT_GCAL_CLIENT_ID not defined!', 10 );
+			if(!defined('SSA_QUICK_CONNECT_GCAL_CLIENT_ID')){
+				ssa_debug_log('SSA_QUICK_CONNECT_GCAL_CLIENT_ID not defined!');
 				return false;
 			}
 			$this->client_id = SSA_QUICK_CONNECT_GCAL_CLIENT_ID;
@@ -75,10 +75,9 @@
 	}
 
 	public function service_init( $staff_id = 0 ) {
-		$client = (new self( $this->plugin ))->client_init();
-		$client->staff_id = $staff_id;
-		$client->authorize();
-		return $client;
+		$this->staff_id = $staff_id;
+		$this->authorize();
+		return $this;
 	}
 	
 	/**
@@ -90,12 +89,6 @@
 	 * @return void
 	 */
 	private function authorize() {
-		$staff_access_token = $this->get_access_token_for_staff_id();
-		if( $staff_access_token != $this->access_token ) {
-			$this->access_token = $staff_access_token;
-		}
-		
-		// check also if the access token is the correct one
 		if( !$this->is_access_token_expired( $this->access_token ) ) {
 			// no need to refresh access token
 			return;
@@ -116,15 +109,14 @@
 		}
 
 		if ( empty( $this->access_token ) ) {
-			ssa_debug_log( 'missing_access_token for staff id '.$this->staff_id, 10 );
+			ssa_debug_log('missing_access_token for staff id '.$this->staff_id);
 			return;
 		}
 		
 		// if still expired
 		if( $this->is_access_token_expired( $this->access_token ) ) {
-			ssa_debug_log( 'expired_access_token for staff id '.$this->staff_id, 10 );
-			ssa_debug_log( ssa_get_stack_trace(), 10 );
-			throw new Exception( 'Failed to authorize with Google Calendar' );
+			ssa_debug_log('expired_access_token for staff id '.$this->staff_id);
+			return;
 		}
 	}
 	
@@ -172,34 +164,6 @@
 	}
 	
 	/**
-	 * Test and confirm that the access token
-	 * Makes an API call and confirms that the access token is valid
-	 *
-	 * @param array $options
-	 * @return void
-	 */
-	public function validate_access_token( array $access_token ) {
-		$gcal_api_endpoint = 'https://www.googleapis.com/calendar/v3/users/me/calendarList';
-		
-		$response = wp_remote_get(
-			$gcal_api_endpoint,
-			array(
-				'headers' => array(
-					'Content-Type' => 'application/json',
-					'Authorization' => 'Bearer ' . $access_token['access_token'],
-				),
-				'timeout' => 60
-			)
-		);
-		
-		if ( is_wp_error( $response ) || wp_remote_retrieve_response_code( $response ) > 299 ) {
-			ssa_debug_log( print_r( $response, true ), 10); // phpcs:ignore
-			throw new Exception( 'Failed to validate Google Calendar access token' );
-		}
-		
-		return true;
-	}
-	/**
 	 * use in place of ->calendarList->listCalendarList( $options = array() ) {}
 	 * this method will return all calendars, not just the first page
 	 * 
@@ -214,38 +178,28 @@
 		
 		// get all pages of calendar list
 		while(true){
-			try {
-				$response = wp_remote_get(
-					$current_endpoint,
-					array(
-						'headers' => $this->get_request_headers(),
-						'timeout' => 60
-					)
-				);
-				
-				if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
-					ssa_debug_log( print_r( $response, true ), 10); // phpcs:ignore
-					return false;
-				}
-				
-				$data = json_decode( wp_remote_retrieve_body( $response ) );
-				
-				// add calendar list to array
-				$calendar_list = array_merge( $calendar_list, $data->items );
-				
-				if(empty($data->items)){
-					ssa_debug_log( 'No calendars found in calendar list', 10 );
-					ssa_debug_log( print_r( $response, true ), 10); // phpcs:ignore
-				}
-				
-				if ( empty( $data->nextPageToken ) ) {
-					break;
-				} else {
-					$current_endpoint = $gcal_api_endpoint . '&pageToken=' . $data->nextPageToken;
-				}
-			} catch ( \Throwable $th ) {
-				ssa_debug_log( print_r( $th, true ), 10 ); // phpcs:ignore
+			$response = wp_remote_get(
+				$current_endpoint,
+				array(
+					'headers' => $this->get_request_headers(),
+					'timeout' => 60
+				)
+			);
+			
+			if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
+				ssa_debug_log( print_r( $response, true ) ); // phpcs:ignore
+				return false;
+			}
+			
+			$data = json_decode( wp_remote_retrieve_body( $response ) );
+			
+			// add calendar list to array
+			$calendar_list = array_merge( $calendar_list, $data->items );
+			
+			if ( empty( $data->nextPageToken ) ) {
 				break;
+			} else {
+				$current_endpoint = $gcal_api_endpoint . '&pageToken=' . $data->nextPageToken;
 			}
 		}
 		
@@ -259,29 +213,25 @@
 	 * use in place of ->calendarList->get( $calendar_id, $options = array() ) {}
 	 */
 	public function get_calendar_from_calendar_list ( $calendar_id, $options = array() ) {
-		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/users/me/calendarList/" . urlencode( $calendar_id ) . "?" . $this->get_params_from_options( $options );
-		try {
-			$response = wp_remote_get(
-				$gcal_api_endpoint,
-				array(
-					'headers' => $this->get_request_headers(),
-					'timeout' => 60
-				)
-			);
-			
-			// we don't want to log 404 errors, because we expect them if the calendar is not found
-			if ( is_wp_error( $response ) || ( wp_remote_retrieve_response_code( $response ) > 299 && wp_remote_retrieve_response_code( $response ) != 404 ) ) {
-				ssa_debug_log( print_r( $response, true ), 10 ); // phpcs:ignore
-				return false;
-			}
-			
-			$data = json_decode( wp_remote_retrieve_body( $response ) );
-			// Success
-			return $data;
-		} catch ( \Throwable $th ) {
-			ssa_debug_log( print_r( $th, true ), 10 ); // phpcs:ignore
+		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/users/me/calendarList/" . $calendar_id . "?" . $this->get_params_from_options( $options );
+		$response = wp_remote_get(
+			$gcal_api_endpoint,
+			array(
+				'headers' => $this->get_request_headers(),
+				'timeout' => 60
+			)
+		);
+		
+		// we don't want to log 404 errors, because we expect them if the calendar is not found
+		if ( is_wp_error( $response ) || ( wp_remote_retrieve_response_code( $response ) > 299 && wp_remote_retrieve_response_code( $response ) != 404 ) ) {
+			ssa_debug_log( print_r( $response, true ) ); // phpcs:ignore
 			return false;
 		}
+		
+		$data = json_decode( wp_remote_retrieve_body( $response ) );
+		
+		// Success
+		return $data;
 	}
 	
 	/**
@@ -289,45 +239,25 @@
 	 
 	 */
 	public function get_events_from_calendar( $calendar_id, $options = array() ) {
-		// if is a holiday caledar, pull events in english locale so that we have a way to identiy public holidays
-		if( false !== strpos( $calendar_id, 'holiday' ) ){
-			$calendar_id_parts = explode( '.', $calendar_id );
-			array_shift( $calendar_id_parts );
-			$calendar_id = 'en.' . implode( '.', $calendar_id_parts );
+		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/calendars/" . $calendar_id . "/events?" . $this->get_params_from_options( $options );
+
+		$response = wp_remote_get(
+			$gcal_api_endpoint,
+			array(
+				'headers' => $this->get_request_headers(),
+				'timeout' => 60
+			)
+		);
+
+		if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
+			ssa_debug_log( print_r( $response, true ) ); // phpcs:ignore
+			return false;
 		}
 		
-		// exclude workingLocation events - these are not useful for availability
-		$event_types_query = 'eventTypes=default&eventTypes=outOfOffice&eventTypes=focusTime&eventTypes=fromGmail';
+		$data = json_decode( wp_remote_retrieve_body( $response ) );
 		
-		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/calendars/" . urlencode( $calendar_id ) . "/events?" . $event_types_query . '&' . $this->get_params_from_options( $options );
-
-		try {
-			$response = wp_remote_get(
-				$gcal_api_endpoint,
-				array(
-					'headers' => $this->get_request_headers(),
-					'timeout' => 60
-				)
-			);
-
-			if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
-				if( wp_remote_retrieve_response_code($response) == 404 ){
-					ssa_debug_log( 'Received 404, getting events for ' . $calendar_id . " from " . $gcal_api_endpoint . " working with staff id " . $this->staff_id ); // phpcs:ignore
-					ssa_debug_log( ssa_get_stack_trace(), 10 );
-				} else {
-					ssa_debug_log( print_r( $response, true ), 10 ); // phpcs:ignore
-				}
-				return [];
-			}
-			
-			$data = json_decode( wp_remote_retrieve_body( $response ) );
-			
-			// Success
-			return $data->items;
-		} catch ( \Throwable $th ) {
-			ssa_debug_log( print_r( $th, true ), 10 ); // phpcs:ignore
-			return [];
-		}
+		// Success
+		return $data->items;
 	}
 	
 	/**
@@ -336,32 +266,27 @@
 	 * 
 	 */
 	public function insert_event_into_calendar( $calendar_id, $event, $options = array() ) {
-		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/calendars/" . urlencode( $calendar_id ) . "/events?" . $this->get_params_from_options( $options );
+		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/calendars/" . $calendar_id . "/events?" . $this->get_params_from_options( $options );
 		
-		try {
-			$response = wp_remote_post(
-				$gcal_api_endpoint,
-				array(
-					'headers' => $this->get_request_headers(),
-					'timeout' => 60,
-					'body' => json_encode($event),
-				)
-			);
-			
-			if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
-				ssa_debug_log( print_r( $response, true ), 10 ); // phpcs:ignore
-				return false;
-			}
-			
-			$event = json_decode(wp_remote_retrieve_body($response) );
-			
-			// Success
-			// return event ID
-			return $event;
-		} catch ( \Throwable $th ) {
-			ssa_debug_log( print_r( $th, true ), 10 ); // phpcs:ignore
+		$response = wp_remote_post(
+			$gcal_api_endpoint,
+			array(
+				'headers' => $this->get_request_headers(),
+				'timeout' => 60,
+				'body' => json_encode($event),
+			)
+		);
+		
+		if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
+			ssa_debug_log( print_r( $response, true ) ); // phpcs:ignore
 			return false;
 		}
+		
+		$event = json_decode(wp_remote_retrieve_body($response) );
+		
+		// Success
+		// return event ID
+		return $event;
 	}
 	
 	
@@ -371,34 +296,25 @@
 	 * 
 	 */
 	public function get_event_from_calendar( $calendar_id, $event_id, $options = array() ) {
-		if(empty($calendar_id) || empty($event_id)){
-			ssa_debug_log( 'Warning: called get_event_from_calendar with calendar_id:' . $calendar_id . ' & event_id:' . $event_id , 10 );
-			return false;
-		}
-		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/calendars/" . urlencode( $calendar_id ) . "/events/" . $event_id . "?" . $this->get_params_from_options( $options );
+		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/calendars/" . $calendar_id . "/events/" . $event_id . "?" . $this->get_params_from_options( $options );
 		
-		try {
-			$response = wp_remote_get(
-				$gcal_api_endpoint,
-				array(
-					'headers' => $this->get_request_headers(),
-					'timeout' => 60
-				)
-			);
-			
-			if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
-				ssa_debug_log( print_r( $response, true ), 10 ); // phpcs:ignore
-				return false;
-			}
-			
-			$data = json_decode(wp_remote_retrieve_body($response) );
-			
-			// Success
-			return $data;
-		} catch ( \Throwable $th ) {
-			ssa_debug_log( print_r( $th, true ), 10 ); // phpcs:ignore
+		$response = wp_remote_get(
+			$gcal_api_endpoint,
+			array(
+				'headers' => $this->get_request_headers(),
+				'timeout' => 60
+			)
+		);
+		
+		if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
+			ssa_debug_log( print_r( $response, true ) ); // phpcs:ignore
 			return false;
 		}
+		
+		$data = json_decode(wp_remote_retrieve_body($response) );
+		
+		// Success
+		return $data;
 	}
 	
 	
@@ -407,32 +323,27 @@
 	 * use in place of ->events->update( $calendar_id, $event_id, $event_updated, $options = array() ) { }
 	 */
 	public function update_event_in_calendar( $calendar_id, $event_id, $event_updated, $options = array() ) {
-		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/calendars/" . urlencode( $calendar_id ) . "/events/" . $event_id . "?" . $this->get_params_from_options( $options );
+		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/calendars/" . $calendar_id . "/events/" . $event_id . "?" . $this->get_params_from_options( $options );
 		
-		try {
-			$response = wp_remote_request(
-				$gcal_api_endpoint,
-				array(
-					'headers' => $this->get_request_headers(),
-					'timeout' => 60,
-					'body' => json_encode( $event_updated ),
-					'method'    => 'PUT'
-				)
-			);
-			
-			if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
-				ssa_debug_log( print_r( $response, true ), 10 ); // phpcs:ignore
-				return false;
-			}
-			
-			$data = json_decode(wp_remote_retrieve_body($response) );
+		$response = wp_remote_request(
+			$gcal_api_endpoint,
+			array(
+				'headers' => $this->get_request_headers(),
+				'timeout' => 60,
+				'body' => json_encode( $event_updated ),
+				'method'    => 'PUT'
+			)
+		);
 		
-			// Success
-			return $data;
-		} catch ( \Throwable $th ) {
-			ssa_debug_log( print_r( $th, true ), 10 ); // phpcs:ignore
+		if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
+			ssa_debug_log( print_r( $response, true ) ); // phpcs:ignore
 			return false;
 		}
+		
+		$data = json_decode(wp_remote_retrieve_body($response) );
+		
+		// Success
+		return $data;
 	}
 	
 	
@@ -440,30 +351,25 @@
 	 * use in place of ->events->delete( $calendar_id, $event_id, $options = array() ) {}
 	 */
 	public function delete_event_from_calendar( $calendar_id, $event_id, $options = array() ) {
-		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/calendars/" . urlencode( $calendar_id ) . "/events/" . $event_id . "?" . $this->get_params_from_options( $options );
+		$gcal_api_endpoint = "https://www.googleapis.com/calendar/v3/calendars/" . $calendar_id . "/events/" . $event_id . "?" . $this->get_params_from_options( $options );
 		
-		try {
-			$response = wp_remote_request(
-				$gcal_api_endpoint,
-				array(
-					'headers' => $this->get_request_headers(),
-					'timeout' => 60,
-					'method'    => 'DELETE'
-				)
-			);
-			
-			if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
-				ssa_debug_log( print_r( $response, true ), 10 ); // phpcs:ignore
-				return false;
-			}
-			
-			// Success
-			// the delete method returns an empty body
-			return true;
-		} catch ( \Throwable $th ) {
-			ssa_debug_log( print_r( $th, true ), 10 ); // phpcs:ignore
+		$response = wp_remote_request(
+			$gcal_api_endpoint,
+			array(
+				'headers' => $this->get_request_headers(),
+				'timeout' => 60,
+				'method'    => 'DELETE'
+			)
+		);
+		
+		if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
+			ssa_debug_log( print_r( $response, true ) ); // phpcs:ignore
 			return false;
 		}
+		
+		// Success
+		// the delete method returns an empty body
+		return true;
 	}
 	
 	/**
@@ -498,18 +404,6 @@
 					$created = $payload['iat'];
 				}
 			}
-		} else {
-			// id_token is not available, so we can't check the "iat"
-			// check using api response
-			try {
-				$valid = $this->validate_access_token( $token );
-				if( $valid ){
-					return false;
-				}
-			} catch (\Throwable $th) {
-				// we're inside of a method that only checks if the token is expired
-				return true;
-			}
 		}
 
 		// If the token is set to expire in the next 30 seconds.
@@ -527,39 +421,34 @@
 	private function exchange_refresh_token( $client_id, $client_secret, $refresh_token ){
 		$gcal_api_endpoint = 'https://www.googleapis.com/oauth2/v4/token';
 		
-		try {
-			$response = wp_remote_post(
-				$gcal_api_endpoint,
-				array(
-					'body' => array(
-						'refresh_token' => $refresh_token,
-						'client_id' => $client_id,
-						'client_secret' => $client_secret,
-						'grant_type' => 'refresh_token',
-						// return also the refresh token
-						'access_type' => 'offline',
-					),
-				)
-			);
+		$response = wp_remote_post(
+			$gcal_api_endpoint,
+			array(
+				'body' => array(
+					'refresh_token' => $refresh_token,
+					'client_id' => $client_id,
+					'client_secret' => $client_secret,
+					'grant_type' => 'refresh_token',
+					// return also the refresh token
+					'access_type' => 'offline',
+				),
+			)
+		);
 
-			if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
-				ssa_debug_log( print_r( $response, true ), 10 ); // phpcs:ignore
-				return false;
-			}
-			
-			$data = json_decode(wp_remote_retrieve_body($response), true);
-			
-			if( empty( $data['refresh_token'] ) ) {
-				// attach the refresh token to the access token
-				$data['refresh_token'] = $refresh_token;
-			}
-			
-			// Success
-			return $data;
-		} catch ( \Throwable $th ) {
-			ssa_debug_log( print_r( $th, true ), 10 ); // phpcs:ignore
+		if ( is_wp_error($response) || wp_remote_retrieve_response_code($response) > 299 ) {
+			ssa_debug_log( print_r( $response, true ), 10 ); // phpcs:ignore
 			return false;
 		}
+		
+		$data = json_decode(wp_remote_retrieve_body($response), true);
+		
+		if( empty( $data['refresh_token'] ) ) {
+			// attach the refresh token to the access token
+			$data['refresh_token'] = $refresh_token;
+		}
+		
+		// Success
+		return $data;
 	}
 	
 	/**
@@ -573,7 +462,6 @@
 		$refresh_token = $access_token['refresh_token'];
 		$response = $this->exchange_refresh_token( $client_id, $client_secret, $refresh_token );
 		if( empty( $response ) || ! is_array( $response ) || empty( $response['access_token'] ) ) {
-			ssa_debug_log( 'Failed to refresh access token for staff id ' . (string) $this->staff_id . print_r($response, true), 10); // phpcs:ignore
 			throw new Exception( 'Failed to refresh access token' );
 		}
 		return $response;
@@ -604,7 +492,6 @@
 	}
 	
 	public function get_auth_url( $staff_id, $wp_next_ssa_uri = null, $wp_next_base_uri = null ) {
-		$this->client_init();
 		$gcal_api_endpoint = 'https://accounts.google.com/o/oauth2/auth?';
 		// need to store the exact home url returned at this point
 		// because some plugins can affect the home url, causing the quick-connect domain to be invalid
@@ -644,7 +531,7 @@
 			'wp_next_base_uri' => $wp_next_base_uri, // grab from the parent page (example: /my-account/), like we do for booking_url in booking-app
 			// used for ssa_quick_connect - staff_id as well
 			'domain' => $site_home_url,
-			'license_key'=> $license_settings['license_filtered'],
+			'license_key'=> $license_settings['license'],
 		) ) ), '+/=', '-_,' );
 		
 		return $gcal_api_endpoint . $this->get_params_from_options( $params );
@@ -682,7 +569,7 @@
 
 			return true;
 		} catch ( \Throwable $th ) {
-			ssa_debug_log( print_r( $th, true ), 10 ); // phpcs:ignore
+			ssa_debug_log( print_r( $th, true ) ); // phpcs:ignore
 			return false;
 		}
 

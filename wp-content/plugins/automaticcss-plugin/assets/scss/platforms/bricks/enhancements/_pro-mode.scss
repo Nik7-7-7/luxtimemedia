@@ -1,0 +1,30 @@
+$option-bricks-pro-mode: off !default;
+
+@if $option-bricks-pro-mode == on {
+    #bricks-panel-elements .bricks-add-element.bricks-add-element.bricks-add-element {
+        &[data-element-name="divider" i],
+        &[data-element-name="icon-box" i],
+        &[data-element-name="social-icons" i],
+        &[data-element-name="list" i],
+        &[data-element-name="alert" i],
+        &[data-element-name="animated-typing" i],
+        &[data-element-name="countdown" i],
+        &[data-element-name="counter" i],
+        &[data-element-name="pricing-tables" i],
+        &[data-element-name="progress-bar" i],
+        &[data-element-name="pie-chart" i],
+        &[data-element-name="testimonials" i],
+        &[data-element-name="team-members" i],
+        &[data-element-name="logo" i],
+        &[data-element-name="facebook-page" i],
+        &[data-element-name="audio" i],
+        &[data-element-name="carousel" i],
+        &[data-element-name="slider" i],
+        &[data-element-name="accordion" i],
+        &[data-element-name="tabs" i]
+            {
+                display: none !important;
+            }
+        
+    }
+}

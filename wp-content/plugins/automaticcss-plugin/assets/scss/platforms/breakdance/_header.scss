@@ -1,0 +1,10 @@
+.bde-header-builder {
+    --bde-section-vertical-padding: 0;
+    --bde-section-horizontal-padding: 0;
+}
+
+@if $option-offset-page-content == on {
+    body section:first-of-type > .section-container {
+        margin-block-start: var(--header-height) !important;
+    }
+}

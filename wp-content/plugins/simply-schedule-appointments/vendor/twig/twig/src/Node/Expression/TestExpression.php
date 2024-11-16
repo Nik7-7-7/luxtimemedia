@@ -23,13 +23,16 @@ class TestExpression extends CallExpression
             $nodes['arguments'] = $arguments;
         }
 
-        parent::__construct($nodes, ['name' => $name, 'type' => 'test'], $lineno);
+        parent::__construct($nodes, ['name' => $name], $lineno);
     }
 
     public function compile(Compiler $compiler): void
     {
-        $test = $compiler->getEnvironment()->getTest($this->getAttribute('name'));
+        $name = $this->getAttribute('name');
+        $test = $compiler->getEnvironment()->getTest($name);
 
+        $this->setAttribute('name', $name);
+        $this->setAttribute('type', 'test');
         $this->setAttribute('arguments', $test->getArguments());
         $this->setAttribute('callable', $test->getCallable());
         $this->setAttribute('is_variadic', $test->isVariadic());

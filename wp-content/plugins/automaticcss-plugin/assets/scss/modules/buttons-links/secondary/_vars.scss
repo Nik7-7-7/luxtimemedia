@@ -1,0 +1,130 @@
+// Secondary Defaults
+$option-secondary-btn: on !default;
+$option-secondary-btn-shades: on !default;
+$option-secondary-btn-outline: on !default;
+
+///// Main
+$btn-secondary-bg: var(--secondary) !default;
+$btn-secondary-hover: var(--secondary-hover) !default;
+$btn-secondary-text: var(--secondary-ultra-light) !default;
+$btn-secondary-hover-text: var(--secondary-ultra-light) !default;
+$btn-secondary-border-color: var(--secondary) !default;
+$btn-secondary-hover-border-color: var(--secondary-hover) !default;
+$btn-secondary-focus-color: var(--secondary-light) !default;
+///// Dark
+$btn-secondary-dark-bg: var(--secondary-dark) !default;
+$btn-secondary-dark-hover: var(--secondary-ultra-dark) !default;
+$btn-secondary-dark-text: var(--secondary-ultra-light) !default;
+$btn-secondary-dark-hover-text: var(--secondary-ultra-light) !default;
+$btn-secondary-dark-border-color: var(--secondary-dark) !default;
+$btn-secondary-dark-hover-border-color: var(--secondary-ultra-dark) !default;
+$btn-secondary-dark-focus-color: var(--secondary-semi-dark) !default;
+///// Light
+$btn-secondary-light-bg: var(--secondary-ultra-light) !default;
+$btn-secondary-light-hover: var(--secondary-light) !default;
+$btn-secondary-light-text: var(--secondary) !default;
+$btn-secondary-light-hover-text: var(--secondary-ultra-dark) !default;
+$btn-secondary-light-border-color: var(--secondary-ultra-light) !default;
+$btn-secondary-light-hover-border-color: var(--secondary-light) !default;
+$btn-secondary-light-focus-color: var(--secondary-light) !default;
+///// Outline
+$btn-secondary-outline-background: transparent !default;
+$btn-secondary-outline-background-hover: var(--secondary-hover) !default;
+$secondary-outline-btn-text: var(--secondary) !default;
+$secondary-outline-hover-text: var(--secondary-ultra-light) !default;
+$btn-secondary-outline-border-color: var(--secondary) !default;
+$btn-secondary-outline-border-hover: var(--secondary-hover) !default;
+$btn-secondary-outline-focus-color: var(--secondary-semi-light) !default;
+///// Outline Dark
+$btn-secondary-outline-dark-background: transparent !default;
+$btn-secondary-outline-dark-background-hover: var(--secondary-dark) !default;
+$secondary-outline-dark-btn-text: var(--secondary-dark) !default;
+$secondary-outline-dark-hover-text: var(--secondary-ultra-light) !default;
+$btn-secondary-outline-dark-border-color: var(--secondary-dark) !default;
+$btn-secondary-outline-dark-border-hover: var(--secondary-dark) !default;
+$btn-secondary-outline-dark-focus-color: var(--secondary-semi-dark) !default;
+///// Outline Light
+$btn-secondary-outline-light-background: transparent !default;
+$btn-secondary-outline-light-background-hover: var(--secondary-ultra-light) !default;
+$secondary-outline-light-btn-text: var(--secondary-ultra-light) !default;
+$secondary-outline-light-hover-text: var(--secondary-dark) !default;
+$btn-secondary-outline-light-border-color: var(--secondary-ultra-light) !default;
+$btn-secondary-outline-light-border-hover: var(--secondary-ultra-light) !default;
+$btn-secondary-outline-light-focus-color: var(--secondary-light) !default;
+
+$btn-secondary: (); // Initialize Map
+@if $option-secondary-btn == on {
+
+    $btn-secondary: (
+        "secondary": (
+            btn-background: $btn-secondary-bg,
+            btn-background-hover: $btn-secondary-hover,
+            btn-text-color: $btn-secondary-text,
+            btn-text-color-hover: $btn-secondary-hover-text,
+            btn-border-color: $btn-secondary-border-color,
+            btn-border-color-hover: $btn-secondary-hover-border-color,
+            focus-color: $btn-secondary-focus-color,
+        ),
+        "secondary-dark": (
+            btn-background: $btn-secondary-dark-bg,
+            btn-background-hover: $btn-secondary-dark-hover,
+            btn-text-color: $btn-secondary-dark-text,
+            btn-text-color-hover: $btn-secondary-dark-hover-text,
+            btn-border-color: $btn-secondary-dark-border-color,
+            btn-border-color-hover: $btn-secondary-dark-hover-border-color,
+            focus-color: $btn-secondary-dark-focus-color,
+        ),
+        "secondary-light": (
+            btn-background: $btn-secondary-light-bg,
+            btn-background-hover: $btn-secondary-light-hover,
+            btn-text-color: $btn-secondary-light-text,
+            btn-text-color-hover: $btn-secondary-light-hover-text,
+            btn-border-color: $btn-secondary-light-border-color,
+            btn-border-color-hover: $btn-secondary-light-hover-border-color,
+            focus-color: $btn-secondary-light-focus-color,
+        ),
+        "secondary.btn--outline": (
+            btn-background: $btn-secondary-outline-background,
+            btn-background-hover: $btn-secondary-outline-background-hover,
+            btn-text-color: $secondary-outline-btn-text,
+            btn-text-color-hover: $secondary-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-secondary-outline-border-color,
+            btn-border-color-hover: $btn-secondary-outline-border-hover,
+            focus-color: $btn-secondary-focus-color,
+        ),
+        "secondary-dark.btn--outline": (
+            btn-background: $btn-secondary-outline-dark-background,
+            btn-background-hover: $btn-secondary-outline-dark-background-hover,
+            btn-text-color: $secondary-outline-dark-btn-text,
+            btn-text-color-hover: $secondary-outline-dark-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-secondary-outline-dark-border-color,
+            btn-border-color-hover: $btn-secondary-outline-dark-border-hover,
+            focus-color: $btn-secondary-focus-color,
+        ),
+        "secondary-light.btn--outline": (
+            btn-background: $btn-secondary-outline-light-background,
+            btn-background-hover: $btn-secondary-outline-light-background-hover,
+            btn-text-color: $secondary-outline-light-btn-text,
+            btn-text-color-hover: $secondary-outline-light-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-secondary-outline-light-border-color,
+            btn-border-color-hover: $btn-secondary-outline-light-border-hover,
+            focus-color: $btn-secondary-focus-color,
+        ),
+    );
+
+    @if $option-secondary-btn-outline == off {
+        $btn-secondary: map-remove($btn-secondary, "secondary.btn--outline");
+        $btn-secondary: map-remove($btn-secondary, "secondary-dark.btn--outline");
+        $btn-secondary: map-remove($btn-secondary, "secondary-light.btn--outline");
+    }
+    @if $option-secondary-btn-shades == off {
+        $btn-secondary: map-remove($btn-secondary, "secondary-dark");
+        $btn-secondary: map-remove($btn-secondary, "secondary-light");
+        $btn-secondary: map-remove($btn-secondary, "secondary-dark.btn--outline");
+        $btn-secondary: map-remove($btn-secondary, "secondary-light.btn--outline-light");
+    }
+
+}

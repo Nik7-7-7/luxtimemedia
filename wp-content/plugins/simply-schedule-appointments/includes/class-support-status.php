@@ -153,15 +153,16 @@ class SSA_Support_Status {
 			// staff.
 			$delete = $this->plugin->staff_model->truncate();
 			$this->plugin->staff_model->create_table();
-			if( !empty( $decoded['staff'] ) && is_array( $decoded['staff'] ) ){
-				foreach ( $decoded['staff'] as $staff ) {
-					// Remove user IDs from export code since it sometimes assign staff members to the wrong WP users.
-					$staff['user_id'] = 0;
-					$include = $this->plugin->staff_model->raw_insert( $staff );
-					// if any error happens while trying to staff data, return.
-					if ( is_wp_error( $include ) ) {
-						return $include;
-					}
+			foreach ( $decoded['staff'] as $staff ) {
+
+				// Remove user IDs from export code since it sometimes assign staff members to the wrong WP users.
+				$staff['user_id'] = 0;
+
+				$include = $this->plugin->staff_model->raw_insert( $staff );
+
+				// if any error happens while trying to staff data, return.
+				if ( is_wp_error( $include ) ) {
+					return $include;
 				}
 			}
 
@@ -224,14 +225,12 @@ class SSA_Support_Status {
 
 			$delete = $this->plugin->staff_appointment_type_model->truncate();
 			$this->plugin->staff_appointment_type_model->create_table();
-			if( !empty( $decoded['staff_appointment_types'] ) && is_array( $decoded['staff_appointment_types'] ) ) {
-				foreach ( $decoded['staff_appointment_types'] as $staff_appointment_type ) {
-					$include = $this->plugin->staff_appointment_type_model->raw_insert( $staff_appointment_type );
-	
-					// If any error happens while trying to import staff appointment type data, return.
-					if ( is_wp_error( $include ) ) {
-						return $include;
-					}
+			foreach ( $decoded['staff_appointment_types'] as $staff_appointment_type ) {
+				$include = $this->plugin->staff_appointment_type_model->raw_insert( $staff_appointment_type );
+
+				// If any error happens while trying to import staff appointment type data, return.
+				if ( is_wp_error( $include ) ) {
+					return $include;
 				}
 			}
 

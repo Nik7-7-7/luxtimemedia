@@ -133,11 +133,6 @@ class SSA_Wp_Admin {
 			wp_redirect( $this->url( '/ssa/settings/staff/all' ) );
 			exit;
 		}
-
-		if ( !empty( $_GET['page'] ) && $_GET['page'] === 'simply-schedule-appointments-ssa-support-admin' ) {
-			wp_redirect( admin_url( 'admin.php?page=simply-schedule-appointments&ssa-support-admin=1' ) );
-			exit;
-		}
 	}
 
 	public function url( $path='' ) {
@@ -332,7 +327,7 @@ class SSA_Wp_Admin {
 
 		return false;
 	}
-	
+
 	public function render_admin_page() {
 		if ( $this->should_restrict_access_to_admin_page() ) {
 			wp_die( __( 'Please ask your administrator to link your account to an active team member.', 'simply-schedule-appointments' ), __( 'Permission Denied', 'simply-schedule-appointments' ) );
@@ -340,7 +335,7 @@ class SSA_Wp_Admin {
 		
 		remove_filter( 'script_loader_tag', 'mesmerize_defer_js_scripts', 11 ); // remove bug with 3rd party "Mesmerize" theme
 		remove_filter( 'style_loader_tag', 'mesmerize_defer_css_scripts', 11 ); // remove bug with 3rd party "Mesmerize" theme
-		//
+
 		wp_enqueue_style( 'ssa-admin-material-icons', $this->plugin->url('assets/css/material-icons.css'), array(), Simply_Schedule_Appointments::VERSION );
 		wp_enqueue_style( 'ssa-admin-vendor', $this->plugin->url('admin-app/dist/static/css/chunk-vendors.css'), array(), Simply_Schedule_Appointments::VERSION );
 		wp_enqueue_style( 'ssa-admin-style', $this->plugin->url('admin-app/dist/static/css/app.css'), array('ssa-admin-vendor'), Simply_Schedule_Appointments::VERSION );
@@ -372,6 +367,7 @@ class SSA_Wp_Admin {
 		wp_localize_script( 'ssa-admin-app', 'ssa_appointment_type_labels', $appointment_type_labels );
 		wp_localize_script( 'ssa-admin-app', 'ssa_translations', $this->get_translations() );
 		wp_enqueue_script( 'ssa-admin-app' );
+
 		echo '
 		<style>
 			body.wp-admin.admin-bar.ssa-admin-app #wpadminbar,

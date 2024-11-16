@@ -1,0 +1,44 @@
+@import "vars";
+@import "options";
+
+@if $option-smart-spacing == on {
+    :root {
+        // Text
+        --paragraph-spacing: #{$paragraph-spacing};
+        --heading-spacing: #{$heading-spacing};
+        @if $h2-spacing != null {
+            --h2-spacing: #{$h2-spacing};
+        }
+        @if $h3-spacing != null {
+            --h3-spacing: #{$h3-spacing};
+        }
+        @if $h4-spacing != null {
+            --h4-spacing: #{$h4-spacing};
+        }
+        @if $h5-spacing != null {
+            --h5-spacing: #{$h5-spacing};
+        }
+        @if $h6-spacing != null {
+            --h6-spacing: #{$h6-spacing};
+        }
+        // Lists
+        --list-spacing: #{$list-spacing};
+        --list-indent-spacing: #{$list-indent-spacing};
+        --list-item-spacing: #{$list-item-spacing};
+        // Nested Lists
+        @if $nested-list-spacing != null {
+            --nested-list-spacing: #{$nested-list-spacing};
+        }
+        @if $nested-list-indent-spacing != null {
+            --nested-list-indent-spacing: #{$nested-list-indent-spacing};
+        }
+        @if $nested-list-item-spacing != null {
+            --nested-list-item-spacing: #{$nested-list-spacing};
+        }
+        // Other
+        --flow-spacing: #{$flow-spacing};
+        --figure-spacing: #{$figure-spacing};
+        --figcaption-spacing: #{$figcaption-spacing};
+        --blockquote-spacing: #{$blockquote-spacing};
+    }
+}

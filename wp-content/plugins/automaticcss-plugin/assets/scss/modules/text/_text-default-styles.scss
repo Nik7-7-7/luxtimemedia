@@ -1,0 +1,123 @@
+$text-font-family: null !default;
+$accent-font-family: null !default;
+$body-color: var(--black) !default;
+$text-wrap: pretty !default;
+
+// Default Line Height
+$base-text-lh: 1.5 !default; // User configurable
+$text-xxl-line-height: null !default;
+$text-xl-line-height: null !default;
+$text-l-line-height: null !default;
+$text-m-line-height: $base-text-lh; // Not user configurable
+$text-s-line-height: null !default;
+$text-xs-line-height: null !default;
+
+// Default Line Max-width
+$text-max-width: null !default;
+$text-xxl-max-width: null !default;
+$text-xl-max-width: null !default;
+$text-l-max-width: null !default;
+$text-m-max-width: null !default;
+$text-s-max-width: null !default;
+$text-xs-max-width: null !default;
+
+// Default Font-weight
+$text-font-weight: null !default;
+$text-xs-font-weight: null !default;
+$text-s-font-weight: null !default;
+$text-m-font-weight: null !default;
+$text-l-font-weight: null !default;
+$text-xl-font-weight: null !default;
+$text-xxl-font-weight: null !default;
+
+// Default Letter Spacing
+$text-letter-spacing: null !default;
+$text-xs-letter-spacing: null !default;
+$text-s-letter-spacing: null !default;
+$text-m-letter-spacing: null !default;
+$text-l-letter-spacing: null !default;
+$text-xl-letter-spacing: null !default;
+$text-xxl-letter-spacing: null !default;
+
+// Default Font Style
+$text-font-style: null !default;
+$text-xs-font-style: null !default;
+$text-s-font-style: null !default;
+$text-m-font-style: null !default;
+$text-l-font-style: null !default;
+$text-xl-font-style: null !default;
+$text-xxl-font-style: null !default;
+
+// Default Text-transform
+$text-transform: null !default;
+$text-xxl-text-transform: null !default;
+$text-xl-text-transform: null !default;
+$text-l-text-transform: null !default;
+$text-m-text-transform: null !default;
+$text-s-text-transform: null !default;
+$text-xs-text-transform: null !default;
+
+// Default Global Text Styles (All Headings)
+$textDefaultStyles: (
+    font-family: $text-font-family,
+    color: $body-color,
+    line-height: $base-text-lh,
+    font-weight: $text-font-weight, 
+    letter-spacing: $text-letter-spacing,
+    max-width: $text-max-width,
+    font-style: $text-font-style,
+    text-transform: $text-transform,
+    text-wrap: $text-wrap,
+);
+
+// Individual Global Text Styles
+$textGlobalStyles: (
+    xxl: (
+        font-weight: $text-xxl-font-weight, 
+        letter-spacing: $text-xxl-letter-spacing,
+        line-height: $text-xxl-line-height,
+        max-width: $text-xxl-max-width,
+        font-style: $text-xxl-font-style,
+        text-transform: $text-xxl-text-transform,
+    ),
+    xl: (
+        font-weight: $text-xl-font-weight, 
+        letter-spacing: $text-xl-letter-spacing,
+        line-height: $text-xl-line-height,
+        max-width: $text-xl-max-width,
+        font-style: $text-xl-font-style,
+        text-transform: $text-xl-text-transform,
+    ),
+    l: (
+        font-weight: $text-l-font-weight, 
+        letter-spacing: $text-l-letter-spacing,
+        line-height: $text-l-line-height,
+        max-width: $text-l-max-width,
+        font-style: $text-l-font-style,
+        text-transform: $text-l-text-transform,
+    ),
+    m: (
+        font-weight: $text-m-font-weight, 
+        letter-spacing: $text-m-letter-spacing,
+        line-height: $text-m-line-height,
+        max-width: $text-m-max-width,
+        font-style: $text-m-font-style,
+        text-transform: $text-m-text-transform,
+    ),
+    s: (
+        font-weight: $text-s-font-weight, 
+        letter-spacing: $text-s-letter-spacing,
+        line-height: $text-s-line-height,
+        max-width: $text-s-max-width,
+        font-style: $text-s-font-style,
+        text-transform: $text-s-text-transform,
+    ),
+    xs: (
+        font-weight: $text-xs-font-weight, 
+        letter-spacing: $text-xs-letter-spacing,
+        line-height: $text-xs-line-height,
+        max-width: $text-xs-max-width,
+        font-style: $text-xs-font-style,
+        text-transform: $text-xs-text-transform,
+    ),
+);

@@ -1,0 +1,20 @@
+:root {
+    // Generate offset variable if offset isn't 0.
+    @if $offset != 0 and $offset != "0rem" {
+        --offset: #{$offset};
+    }
+    // Generate offset variables if offset isn't 0.
+    @each $offset, $amount in $offsets {
+        @if $amount != 0 and $amount != "0rem" {
+            --offset-#{$offset}: #{$amount};
+        }
+    }
+    // Generate media queries to change header height at breakpoints.
+    @each $breakpoint, $value in $breakpoints {
+        @include breakpoint($breakpoint) {
+            @if map-has-key($offsets, $breakpoint) and (map-get($offsets, $breakpoint) != 0 and map-get($offsets, $breakpoint) != "0rem") {
+                --offset: var(--offset-#{$breakpoint});
+            } 
+        }
+    }
+}

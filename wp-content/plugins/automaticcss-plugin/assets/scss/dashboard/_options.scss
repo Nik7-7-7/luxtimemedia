@@ -1,0 +1,78 @@
+// Accessibility
+
+$option-reduce-motion: on !default;
+$option-accessibility-classes: on !default;
+
+// Breakpoints
+
+$option-breakpoint-xxl: off !default;
+$option-breakpoint-xs: off !default;
+
+// Color Scheme
+$option-prefers-color-scheme: on !default;
+
+// Smooth Scrolling
+$option-smooth-scrolling: on !default;
+
+// Contextual Options
+// Located in Contextuals
+
+$option-relate-bg-text: on !default;
+
+// Text options
+$option-balance-text: off !default;
+$option-balance-headings: off !default;
+
+// Frames
+$option-frames: on !default;
+
+// Framework Options
+$option-backgrounds: on !default; // 576 Lines
+$option-margin: on !default; // 192 Lines
+$option-buttons: on !default; // 363 Lines
+$option-owl: on !default; // 48 Lines
+$option-padding: on !default; // 100 Lines
+$option-section-padding: on !default; // 356 Lines
+$option-overlays: on !default; // 1530 Lines
+$option-text-color: on !default; // 168 Lines
+$option-basic-text-classes: on !default;
+$option-text-larger: on !default; // 132 Lines
+$option-link-color: on !default; // 334 Lines
+$option-opacities: on !default; // 44 Lines
+$option-box-shadows: on !default; // 12 Lines
+$option-breakouts: on !default; // 36 Lines
+$option-position: on !default; // 22 Lines
+$option-centering: on !default; // 310 Lines
+$option-flip: on !default; // 20 Lines
+$option-height: on !default; // 336 Lines
+$option-grid: on !default; // 793 Lines
+$option-variable-grid: on !default;
+$option-flex-grids: on !default; // 793 Lines
+$option-gaps: on !default; // 224 Lines
+$option-flex: on !default; // 224 Lines
+$option-width: on !default; // 52 Lines
+$option-aspect-ratios: on !default; // 1035 Lines
+$option-z-index: on !default; // 200 Lines
+$option-columns: on !default; // 479 Lines
+$option-marker-colors: on !default; // 168 Lines
+$option-display: on !default; // 60 Lines
+$option-visibility: on !default; // 40 Lines
+$option-corner-ribbons: on !default;
+$option-status-color-classes: on !default;
+$option-deprecated: on !default;
+
+// Platform Support
+$option-woocommerce: off !default;
+$option-oxygen: off !default;
+$option-bricks: off !default;
+$option-cwicly: off !default;
+$option-gutenberg-load-styling-backend: off !default;
+$option-gutenberg-enable: $option-gutenberg-load-styling-backend; // Deprecated
+$option-generate-press: off !default;
+$option-generate-blocks: off !default;
+$option-breakdance: off !default;
+
+// Forms Support
+$option-forms: off !default;
+$option-ws-form: off !default;
+$option-fluent-form: off !default;

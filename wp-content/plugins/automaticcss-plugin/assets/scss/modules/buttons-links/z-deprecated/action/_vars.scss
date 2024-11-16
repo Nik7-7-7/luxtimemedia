@@ -1,0 +1,51 @@
+// Action Defaults
+$option-action-btn: on !default;
+$option-action-btn-outline: on !default;
+
+///// Main
+$btn-action-bg: var(--action) !default;
+$btn-action-hover: var(--action-hover) !default;
+$btn-action-text: var(--action-ultra-light) !default;
+$btn-action-hover-text: var(--action-ultra-light) !default;
+$btn-action-border-color: var(--action) !default;
+$btn-action-hover-border-color: var(--action-hover) !default;
+$btn-action-focus-color: var(--action-light) !default;
+///// Outline
+$btn-action-outline-background: transparent !default;
+$btn-action-outline-background-hover: var(--action-hover) !default;
+$action-outline-btn-text: var(--action) !default;
+$action-outline-hover-text: var(--action-ultra-light) !default;
+$btn-action-outline-border-color: var(--action) !default;
+$btn-action-outline-border-hover: var(--action-hover) !default;
+$btn-action-outline-focus-color: var(--action-semi-light) !default;
+
+$btn-action: (); // Initialize Map
+@if $option-action-btn == on {
+
+    $btn-action: (
+        "action": (
+            btn-background: $btn-action-bg,
+            btn-background-hover: $btn-action-hover,
+            btn-text-color: $btn-action-text,
+            btn-text-color-hover: $btn-action-hover-text,
+            btn-border-color: $btn-action-border-color,
+            btn-border-color-hover: $btn-action-hover-border-color,
+            focus-color: $btn-action-focus-color,
+        ),
+        "action.btn--outline": (
+            btn-background: $btn-action-outline-background,
+            btn-background-hover: $btn-action-outline-background-hover,
+            btn-text-color: $action-outline-btn-text,
+            btn-text-color-hover: $action-outline-hover-text,
+            btn-border-width: $btn-outline-border-width,
+            btn-border-color: $btn-action-outline-border-color,
+            btn-border-color-hover: $btn-action-outline-border-hover,
+            focus-color: $btn-action-focus-color,
+        ),
+    );
+
+    @if $option-action-btn-outline == off {
+        $btn-action: map-remove($btn-action, "action.btn--outline");
+    }
+
+}

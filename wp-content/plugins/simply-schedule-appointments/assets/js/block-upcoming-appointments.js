@@ -14,7 +14,6 @@ registerBlockType("ssa/upcoming-appointments", {
 		__('Displays Upcoming Appointments. You can select what to show in the appointment card.', 'simply-schedule-appointments'),
 	icon: "calendar-alt",
 	category: "widgets",
-	example: {},
 
 	edit: function (props) {
 		var options = [
@@ -233,20 +232,6 @@ registerBlockType("ssa/upcoming-appointments", {
 			el(
 				InspectorControls,
 				{},
-				el(TextControl, {
-					label:
-						__('Message to display if customer has no upcoming appointments', 'simply-schedule-appointments'),
-					value: props.attributes.no_results_message,
-					onChange: (value) => {
-						props.setAttributes({ no_results_message: value });
-					},
-					onBlur: () => {
-						if (!props.attributes.no_results_message) {
-							props.setAttributes({ no_results_message: 'No upcoming appointments' });
-						}
-					},
-					className: "message-box" 
-				}),
 				el(
                     PanelBody,
                     { title: __('Display Information', 'simply-schedule-appointments'), initialOpen: false },

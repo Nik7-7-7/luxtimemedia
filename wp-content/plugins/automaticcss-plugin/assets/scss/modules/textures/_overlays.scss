@@ -1,0 +1,32 @@
+@if $option-textures == on {
+	$index: 1;
+	@each $texture, $props in $textures {
+		$name: map-get($props, "name");
+		$overlay-option: map-get($props, "overlay-option");
+		$animate-overlay: map-get($props, "animate-overlay");
+		$asset-is-url: map-get($props, "asset-is-url");
+		@if $overlay-option == on {
+			.overlay-#{$name},  .overlay-#{$index} {
+				--overlay-background: var(--texture-#{$index}-asset);
+				@include texture-overlay($index);
+				@if $animate-overlay == on {
+					&::before {
+						animation: var(--texture-animation, var(--texture-#{$index}-animation, none));
+					}
+				}
+			}
+			:where(figure, picture):is(.overlay-#{$name},  .overlay-#{$index}) {
+				--overlay-z-index: 1;
+				overflow: hidden;
+
+				@if $option-auto-radius == on {
+					border-radius: var(--radius);
+					img {
+						border-radius: 0;
+					}
+				}
+			}
+		}
+		$index: $index + 1;
+	}
+}

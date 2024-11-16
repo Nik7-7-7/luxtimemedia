@@ -1,0 +1,80 @@
+@if $option-columns == on {
+
+  :is([class*="col-count--"], [class*="col-width--"]) {
+    display: block !important;
+  }
+
+  // Columns
+  @each $num, $value in $col-count {
+    .col-count--#{$num} {
+      -moz-column-count: #{$value};
+      column-count: #{$value};
+    }
+  }
+
+  // Columns at Breakpoints
+
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) {
+      @each $num, $value in $col-count {
+        .col-count--#{$breakpoint}-#{$num} {
+          -moz-column-count: #{$value};
+          column-count: #{$value};
+        }
+      }
+    }
+  }
+
+  // Column Width
+  @each $width, $value in $col-width {
+    .col-width--#{$width} {
+      width: 100%;
+      -moz-column-width: var(--col-width-#{$width}, #{$value});
+      column-width: var(--col-width-#{$width}, #{$value});
+    }
+  }
+
+  // Column Rule
+  @each $type, $value in $col-rule {
+    .col-rule--#{$type} {
+      -moz-column-rule: #{$value};
+      column-rule: #{$value};
+      -moz-column-rule-width: var(--col-rule-width, var(--col-rule-width-m));
+      column-rule-width: var(--col-rule-width, var(--col-rule-width-m));
+    }
+  }
+
+  // Column Rule Color
+  @each $color-name, $color-value in $core-colors {
+      .col-rule--#{$color-name} {
+        -moz-column-rule-color: var(--#{$color-name});
+        column-rule-color: var(--#{$color-name});
+      }
+    }
+
+  // Column Rule Size
+  @each $width, $value in $col-rule-width {
+    .col-rule--#{$width} {
+      -moz-column-rule-width: var(--col-rule-width-#{$width}, #{$value});
+      column-rule-width: var(--col-rule-width-#{$width}, #{$value});
+    }
+  }
+
+  // Column Span
+  @each $span, $value in $col-span {
+    .col-span--#{$span} {
+      -moz-column-span: #{$value};
+      column-span: #{$value};
+    }
+  }
+
+  // Break Inside Avoid
+
+  [class*="col-"] > * {
+    break-inside: avoid;
+  }
+
+} // End options check
+
+// Support for Masonry
+@import "masonry";

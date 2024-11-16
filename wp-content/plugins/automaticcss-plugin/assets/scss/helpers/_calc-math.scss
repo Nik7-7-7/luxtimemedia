@@ -1,0 +1,4 @@
+$clamp-math: calc(1vw - #{$vp-min} / 100 * 1rem);
+$vp-delta: calc(#{$vp-max} - #{$vp-min});
+$calc-math: calc(100vw - (#{$vp-min} * 1rem) / (#{$vp-max} - #{$vp-min}));
+//$auto-grid-math: calc(100vw - (#{$base-space} * 3) * 1rem);

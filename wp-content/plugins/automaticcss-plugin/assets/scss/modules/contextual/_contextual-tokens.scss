@@ -1,0 +1,27 @@
+:root {
+    //Generate Contextual Spacing Tokens
+    @each $utility-category, $utility-group in $contextuals {
+        @each $utility-name, $utility-value in $utility-group {
+            @if $utility-category == "spacing" {
+                --#{$utility-name}: #{$utility-value};
+            }
+        }
+    }
+	// Generate relationship tokens
+	@each $key, $set in $contextual-relationship-styles {
+		@each $token, $value in $set {
+			@if $key == "link" {
+				@if nth($value, 1) != null {
+					--bg-#{$token}-#{$key}: #{nth($value, 1)};
+					@if nth($value, 2) != null {
+						--bg-#{$token}-#{$key}-hover: #{nth($value, 2)};
+					}
+				}
+			} @else {
+				@if $value != null {
+					--bg-#{$token}-#{$key}: #{$value};
+				}
+			}
+		}
+	}
+}

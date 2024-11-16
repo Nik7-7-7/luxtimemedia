@@ -26,7 +26,7 @@ define( 'TD_HEALTH_CHECK_PHP_MIN_VERSION', '5.6' );
 define( 'TD_HEALTH_CHECK_PHP_SUPPORTED_VERSION', '5.6' );
 
 // Set the PHP version WordPress recommends.
-define( 'TD_HEALTH_CHECK_PHP_REC_VERSION', '8.0' );
+define( 'TD_HEALTH_CHECK_PHP_REC_VERSION', '7.2' );
 
 // Set the minimum MySQL version WordPress supports.
 define( 'TD_HEALTH_CHECK_MYSQL_MIN_VERSION', '5.0' );

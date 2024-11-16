@@ -1,0 +1,13 @@
+@if $option-box-shadows == on {
+    .box-shadow--#{$box-shadow-1-name} {
+        box-shadow: var(--box-shadow-1);
+    }
+
+    .box-shadow--#{$box-shadow-2-name} {
+        box-shadow: var(--box-shadow-2);
+    }
+
+    .box-shadow--#{$box-shadow-3-name} {
+        box-shadow: var(--box-shadow-3);
+    }
+}

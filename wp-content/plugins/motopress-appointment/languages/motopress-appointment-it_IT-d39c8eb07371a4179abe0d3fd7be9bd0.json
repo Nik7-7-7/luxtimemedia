@@ -1,0 +1,165 @@
+{
+    "translation-revision-date": "2022-07-07 14:03",
+    "generator": "WP-CLI\/2.10.0",
+    "source": "assets\/js\/edit-post.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "it_IT",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Service": [
+                "Servizio"
+            ],
+            "Clients": [
+                "Clienti"
+            ],
+            "\u2014 Select \u2014": [
+                "\u2014 Selezionare \u2014"
+            ],
+            "\u2014 Any \u2014": [
+                "\u2014 Qualsiasi \u2014"
+            ],
+            "Remove": [
+                "Rimuovere"
+            ],
+            "Working at %s\u0004at %s": [
+                "alle %s"
+            ],
+            "Zero price\u0004Free": [
+                "Liberamente"
+            ],
+            "Sun": [
+                "Dom"
+            ],
+            "Mon": [
+                "Lun"
+            ],
+            "Tue": [
+                "Mar"
+            ],
+            "Wed": [
+                "Mer"
+            ],
+            "Thu": [
+                "Gio"
+            ],
+            "Fri": [
+                "Ven"
+            ],
+            "Sat": [
+                "Sab"
+            ],
+            "Sunday": [
+                "Domenica"
+            ],
+            "Monday": [
+                "Luned\u00ec"
+            ],
+            "Tuesday": [
+                "Marted\u00ec"
+            ],
+            "Wednesday": [
+                "Mercoled\u00ec"
+            ],
+            "Thursday": [
+                "Gioved\u00ec"
+            ],
+            "Friday": [
+                "Venerd\u00ec"
+            ],
+            "Saturday": [
+                "Sabato"
+            ],
+            "Jan": [
+                "Gen"
+            ],
+            "Feb": [
+                "Feb"
+            ],
+            "Mar": [
+                "Mar"
+            ],
+            "Apr": [
+                "Apr"
+            ],
+            "Month (short)\u0004May": [
+                "Mag"
+            ],
+            "Jun": [
+                "Giu"
+            ],
+            "Jul": [
+                "Lug"
+            ],
+            "Aug": [
+                "Ago"
+            ],
+            "Sep": [
+                "Sett"
+            ],
+            "Oct": [
+                "Ott"
+            ],
+            "Nov": [
+                "Nov"
+            ],
+            "Dec": [
+                "Dic"
+            ],
+            "January": [
+                "Gennaio"
+            ],
+            "February": [
+                "Febbraio"
+            ],
+            "March": [
+                "Marzo"
+            ],
+            "April": [
+                "Aprile"
+            ],
+            "Month\u0004May": [
+                "Maggio"
+            ],
+            "June": [
+                "Giugno"
+            ],
+            "July": [
+                "Luglio"
+            ],
+            "August": [
+                "Agosto"
+            ],
+            "September": [
+                "Settembre"
+            ],
+            "October": [
+                "Ottobre"
+            ],
+            "November": [
+                "Novembre"
+            ],
+            "December": [
+                "Dicembre"
+            ],
+            "Sorry, but we were unable to allocate time slots for the date you selected.": [
+                "Siamo spiacenti, ma non siamo stati in grado di assegnare le fasce orarie per la data selezionata."
+            ],
+            "Phone number is invalid.": [
+                ""
+            ],
+            "To enable this option, you need to check the '%s' box.": [
+                ""
+            ],
+            "To enable booking for the specific service only, select the service below first, then uncheck the 'Service' box here.": [
+                ""
+            ],
+            "All day": [
+                ""
+            ]
+        }
+    }
+}

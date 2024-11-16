@@ -91,7 +91,7 @@ class SSA_Web_Meetings {
 		// If staff feature is set and Appointment type have the provider set to 'staff', use the staff web meeting url if set.
 		if (
 			'staff' === $appointment_type['web_meetings']['provider'] && // if staff is the provider.
-			in_array( $appointment_type['staff']['required'], array( 'any', 'all', 'user_preference' ), true ) && // if any or all staff members are required.
+			in_array( $appointment_type['staff']['required'], array( 'any', 'all' ), true ) && // if any or all staff members are required.
 			! empty( $data['staff_ids'] ) // if the appointment has staff members assigned.
 		) {
 			// use the first web meetings url found on the list of staff members.
@@ -117,7 +117,7 @@ class SSA_Web_Meetings {
 
 		} elseif (
 			'staff' === $appointment_type['web_meetings']['provider'] && // if staff is the provider.
-			in_array( $appointment_type['staff']['required'], array( 'any', 'all', 'user_preference' ), true ) && // if any or all staff members are required.
+			in_array( $appointment_type['staff']['required'], array( 'any', 'all' ), true ) && // if any or all staff members are required.
 			empty( $data['staff_ids'] ) // if the appointment has NO staff members assigned.
 		) {
 			if ( ! empty( $appointment_type['web_meetings']['url'] ) ) {

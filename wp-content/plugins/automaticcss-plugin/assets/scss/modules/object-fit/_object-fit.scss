@@ -1,0 +1,27 @@
+@import "maps";
+
+@if $option-object-fit == on {
+
+  img.object-fit--cover,
+  .object-fit--cover img {
+    --object-fit: cover;
+    object-fit: cover;
+  }
+  img.object-fit--contain,
+  .object-fit--contain img {
+    --object-fit: contain;
+    object-fit: contain;
+  }
+
+  [class*="object-fit--"],
+  [class*="object-fit--"] img {
+    -o-object-position: var(--object-position, 50% 50%);
+    object-position: var(--object-position, 50% 50%);
+  }
+
+  @each $position, $value in $object-positions {
+    .object-fit--#{$position} {
+      --object-position: #{nth($value, 1)} #{nth($value, 2)};
+    }
+  }
+}

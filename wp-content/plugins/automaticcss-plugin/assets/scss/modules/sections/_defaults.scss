@@ -1,0 +1,27 @@
+:where(section:not(section section)) {
+    padding-block: var(--section-padding-block);
+
+    // Add inline padding for standard sections (non-content-grid)
+    @if $option-content-grid == off or $option-content-grid-sections == off {
+        padding-inline: var(--gutter);
+    }
+
+    // Make content grid the default structure for sections
+    @if $option-content-grid == on and $option-content-grid-sections == on {
+        @if $content-grid-exclusions == null {
+            &:not(.content-grid--off) {
+                @include content-grid;
+            }
+            &:where(.content-grid--off) {
+                padding-inline: var(--gutter);
+            }
+        } @else {
+            &:not(#{$content-grid-exclusions}) {
+                @include content-grid;
+            }
+            &:where(#{$content-grid-exclusions}) {
+                padding-inline: var(--gutter);
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@each $color, $value in $contextual-text-relationships {
+	@if $value != null and $value != '' {
+		$selector_string: '.bg--#{$color}' + get_texture_selectors($color);
+
+		:where(#{$selector_string}),
+		:where(#{$selector_string}) :is(h1,h2,h3,h4,h5,h6) {
+			color: var(--bg-#{$color}-text);
+		}
+	}
+}

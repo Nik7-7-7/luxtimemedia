@@ -1,0 +1,122 @@
+/*===DEPRECATED starting with v.2.4=========*/
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+  font-family: 'FontAwesome-ulp';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+.fa-ulp {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome-ulp;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+.fa-ulp-menu {font-size: 30px;display: block;margin-bottom: 5px;}
+.fa-settings-ulp:before{content: "\f013";}
+.fa-notifications-ulp:before{content: "\f0f3";}
+.fa-ulp_order-ulp:before{content: "\f0d6";}
+.fa-magic_feat-ulp:before{content: "\f0d0";}
+.fa-showcases-ulp:before{content: "\f109";}
+.fa-students-ulp:before{content: "\f19d";}
+.fa-ulp_question-ulp:before{content: "\f128";}
+.fa-ulp_course-ulp:before{content: "\f02d";}
+.fa-ulp_lesson-ulp:before{content: "\f0f6";}
+.fa-ulp_quiz-ulp:before{content: "\f059";}
+.fa-ulp_certificate-ulp:before{content: "\f0a3";}
+.fa-add-ulp:before {content: "\f067";}
+.fa-shortcodes-ulp:before{content: "\f121";}
+.fa-instructors-ulp:before{content: "\f007";}
+.fa-import_export-ulp:before { content: "\f0ec";}
+.fa-help-ulp:before { content: "\f059";}
+.fa-star-o-ulp:before { content: "\f006";}
+.fa-star-ulp:before { content: "\f005";}
+.fa-star-half-ulp:before { content: "\f089";}
+.fa-woocommerce_payment-ulp:before{ content: "\f19a";}
+.fa-ump_payment-ulp:before{ content: '\f155';}
+.fa-multiple_instructors-ulp:before{ content: "\f0c0";}
+.fa-ulp_course_review-ulp:before{content: "\f086";}
+.fa-lesson_drip_content-ulp:before{content: "\f272";}
+.fa-notes-ulp:before{content: "\f24a";}
+.fa-note-trigger-ulp:before{ content: "\f24a";}
+.fa-ulp_student_badges-ulp::before{ content: "\f2bc";}
+.fa-ulp_certificates_magic_feat-ulp:before{ content: "\f0a3";}
+.fa-grade_book-ulp:before{ content: "\f02d";}
+.fa-dashboard-students-ulp:before { content: "\f19d"; margin-right: 0px; width: 66px; height: 66px; text-align: center; color: #ffffff; padding: 20px; border-radius: 50%; font-size: 28px; float: left!important; box-sizing: border-box; background-color: #4cc0c1 !important;}
+.fa-dashboard-instructors-ulp:before { content: "\f0c0"; margin-right: 0px; width: 66px; height: 66px; text-align: center; color: #ffffff; padding: 20px; border-radius: 50%; font-size: 28px; float: left!important; box-sizing: border-box; background-color: rgba(240, 80, 80, 1.0) !important;}
+.fa-dashboard-earnings-ulp:before { content: "\f155"; margin-right: 0px; width: 66px; height: 66px; text-align: center; color: #ffffff; padding: 20px; border-radius: 50%; font-size: 28px; float: left!important; box-sizing: border-box; background-color: #fa8564 !important;}
+.fa-dashboard-top-course-ulp:before { content: "\f005"; margin-right: 0px; width: 66px; height: 66px; text-align: center; color: #ffffff; padding: 20px; border-radius: 50%; font-size: 28px; float: left!important; box-sizing: border-box; background-color: rgb(66, 66, 66) !important;}
+.fa-watch_list-ulp:before{ content: "\f004";}
+.fa-watch_list_not_assign-ulp:before{ content: "\f08a";}
+.fa-mycred-ulp:before { content: "\f005";}
+.fa-ulp_check-ulp:before{ content: "\f00c";}
+.fa-edd_payment-ulp:before { content: "\f01a";}
+.fa-invoice-preview-ulp:before { content: "\f15c"; color: #5a6f7d; font-size: 14px; padding-left: 4px; cursor: pointer;}
+.fa-invoices-ulp:before { content: "\f15c";}
+.fa-buddypress-ulp:before { content: "\f29a";}
+.fa-bbpress-ulp:before{ content: "\f19a";}
+.fa-remove-ulp:before{ content: "\f1f8";}
+.fa-edit-ulp:before{ content: "\f044";}
+.fa-user-ulp:before{ content: "\f007";}
+.fa-paypal_magic_feat-ulp:before{ content: "\f1ed"}
+.fa-payment_services-ulp:before{ content: "\f155"}
+.fa-search-ulp:before { content: "\f002";}
+.fa-custom_currencies-ulp:before{ content: "\f155";}
+.fa-pushover-ulp:before{ content: "\f10b";}
+.fa-pushover-on-ulp:before{ color: #66cbff !important; font-size: 26px; content: "\f0f3";}
+.fa-add_module-ulp:before{content: "\f0fe";}
+.fa-add_new-ulp:before{content: "\f0fe";}
+.fa-reorder-ulp:before{content: "\f0c9";}
+.fa-toggle_down-ulp:before{ content: "\f0d7";}
+.fa-toggle_up-ulp:before{ content: "\f0d8";}
+.fa-sort-ulp:before{content: "\f0dc";}
+.fa-moduleicon_ulp_lesson-ulp:before{content: "\f02d";}
+.fa-moduleicon_ulp_quiz-ulp:before{content: "\f017";}
+.fa-moduleicon_ulp_question-ulp:before{content: "\f059";}
+.fa-stripe_magic_feat-ulp:before{content: "\f1f5";}
+.fa-course_difficulty-ulp:before { content: "\f012";}
+.fa-course_time_period-ulp:before{ content: "\f017";}
+.fa-courses_grid-ulp:before{ content: "\f00a";}
+.fa-student_leaderboard-ulp:before{ content: "\f024";}
+.fa-quiz_time:before{content: "\f017";}
+.fa-quiz_questions:before{content: "\f046";}
+.fa-quiz_retake:before{content: "\f021";}
+.fa-curr_lesson:before{content: "\f0f6";}
+.fa-curr_lesson_completed:before{content: "\f00c";}
+.fa-curr_quiz:before{content: "\f017";}
+.fa-student_account_custom_tabs-ulp:before{ content: "\f0c9";}
+.fa-orders_custom_icon-ulp:before{content: '\f0d6';}
+.fa-my_courses_custom_icon-ulp:before{content: "\f19d";}
+.fa-list_certificates_custom_icon-ulp:before{content: "\f0a3";}
+.fa-reward_points_custom_icon-ulp:before { content: "\f005";}
+.fa-profile_custom_icon-ulp:before { content: "\f2be";}
+.fa-overview_custom_icon-ulp:before { content: '\f015';}
+.fa-arrow-ulp:before { content: "\f0d7";}
+.fa-certificate_grade-ulp:before{content: "\f19d";}
+.fa-about_the_instructor-ulp:before{content: '\f2bb';}
+.fa-full-star-ulp:before {content: "\f005";}
+.fa-comments-ulp:before {content: "\f086";}
+.fa-users-ulp:before {content: "\f0c0";}
+.fa-book-ulp:before {content: "\f02d";}
+.fa-students_also_bought-ulp:before{content: "\f009";}
+.fa-courses_tags-ulp:before{content: "\f02c";}
+.fa-more_courses_by-ulp:before{content: "\f24d";}
+.fa-twocheckout_magic_feat-ulp:before{content: "\f0d6";}
+.fa-announcements-ulp:before {content: "\f0a1";}
+.fa-coming_soon-ulp:before {content: "\f017";}
+.fa-no-comments-ulp:before {content: "\f0e6";}
+.fa-qanda-ulp:before{content: "\f059";}
+.fa-frontendcourse-ulp:before{content: "\f108";}
+.fa-instructordashboard-newcourse-ulp:before{content: "\f19d";}
+.fa-intructor-dashbboard-list-ulp_qanda-ulp:before{content: "\f059";}
+.fa-intructor-dashbboard-list-comment-ulp:before{content: "\f086";}
+.fa-curriculum_slider-ulp:before{content: "\f0c9";}
+.fa-video-ulp:before{content: "\f144";}
+.fa-moduleicon_ulp_lesson_video-ulp:before{content: "\f144";}
+.fa-new-extension-ulp:before {content: "\f067";}

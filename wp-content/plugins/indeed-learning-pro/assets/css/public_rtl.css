@@ -1,0 +1,113 @@
+/*!
+ *  Ultimate Learning Pro Main Frotend Style RTL setup
+ */
+.ulp-course-enrolled .ulp-short-description {
+	text-align:right;
+}
+.ulp-public-the-modules-wrapper .ulp-module-details {
+	left:13px;
+     right: auto;
+}
+.ulp-list-checkout thead th, .ulp-list-checkout tbody td{
+	
+}
+.ulp-about-the-instructor-left .ulp-instructor-avatar{
+	right:0;
+	left:auto;
+}
+.ulp-images-multiple-choice-wrapp .ulp-images-multiple-choice-one-item input[type="checkbox"]:checked:before {
+	right:5px;
+	left:auto;
+}	
+.ulp-q-answer-radio input[type="radio"]:checked:before, .ulp-q-answer-checkbox input[type="checkbox"]:checked:before{
+	right:5px;
+	left:auto;
+}
+.ulp-course-wrapp .ulp-top-section .ulp-sale .ulp-text-sale, .ulp-list-courses-wrapp .ulp-list-courses-item-wrapp .ulp-feat-img-wrapp .ulp-sale .ulp-text-sale{
+	right:10px;
+	left:auto;
+}	
+.ulp-list-courses-wrapp .ulp-list-courses-item-wrapp .ulp-feat-img-wrapp .ulp-course-price, .ulp-about-the-instructor-left .ulp-instructor-avatar{
+	right:0px;
+	left:auto;
+}
+.ulp-user-page-top-wrapper .ulp-right-side{
+	right:-15px;
+	left:auto;
+    margin-right: 0;
+    margin-left: -30px;
+}	
+.ulp-list-courses-wrapp .ulp-list-courses-item-wrapp .ulp-list-courses-item-wrapp-third-content li:first-child{
+   margin-left: 5px;
+    padding-left: 8px;
+	    border-left: 1px solid #e7e7e7;
+}
+.ulp-list-courses-wrapp .ulp-list-courses-item-wrapp .ulp-list-courses-item-wrapp-third-content li:last-child{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.ulp-float-left{
+	float:right;
+}
+.ulp-float-right{
+	float:left;
+}
+.ulp-take-a-note-wrapp .ulp-take-a-note span{
+	margin-right:8px;
+	margin-left:0;
+}
+.ulp-additional-message{
+    border-left: none;
+	border-right: 5px solid #18c1f0;
+}
+.ulp-public-the-module-content-element .fa-curr_lesson, .ulp-public-the-module-content-element .fa-curr_quiz {
+    margin-left: 20px;
+	margin-right:0px;
+}
+.ulp-public-the-module-content-element-rightside{
+	float:left;
+}
+.ulp-module-content-points {
+}
+.ulp-module-content-time{
+	float:right;
+}
+.ulp-quiz-status-failed{
+	display:inline-block;
+     direction: initial;
+}
+.ulp-quiz-status-passed{
+	display:inline-block;
+     direction: initial;
+}
+.ul-quiz-main-details .ulp-quiz-counts{
+     direction: ltr;
+    display: inline-block;
+}
+.ulp-ap-menu .ulp-ap-menu-item{
+	float:right;
+}
+.fa-ulp-public-menu-item{
+	padding-right:0px;
+	padding-left:8px;
+}
+.ulp-list-courses-wrapp .ulp-list-courses-item-wrapp .ulp-list-courses-item-wrapp-third-content .ulp-avatar{
+	float:right;
+	margin-left:4px;
+	margin-right:0px;
+}
+.ulp-file-upload-button {
+    text-align: right;
+}
+.ulp-watch-list-wrapp-button .ulp-watch-list-button span {
+    margin-left: 0px;
+	margin-right:8px;
+}
+.ulp-list-checkout thead th, .ulp-list-checkout tbody td {
+    text-align: right;
+    padding-right: 15px;
+}
+.ulp-checkout-main-title{
+	    padding: 3px 0px 3px 150px;
+}

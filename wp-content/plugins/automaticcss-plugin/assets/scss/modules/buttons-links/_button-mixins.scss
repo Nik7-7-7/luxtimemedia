@@ -1,0 +1,106 @@
+@import "button-vars";
+@import "button-properties";
+@import "button-maps";
+
+// Master Button
+@mixin btn-props() {
+  // Main Properties
+  @each $prop, $value in $btn-props--main {
+    #{$prop}: #{$value};
+  }
+  // Hover Properties
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      @each $prop, $value in $btn-props--hover {
+        #{$prop}: #{$value};
+      }
+    }
+  }
+  // Global Focus Style
+  &:focus {
+    @include default-focus-style(#{$focus-style});
+  }
+}
+
+// Load Buttons (Internal)
+@mixin load-buttons() {
+  // Assign button values to tokens
+  @each $btnName, $key in $buttons {
+    .btn--#{$btnName} {
+      @each $prop, $value in $key {
+        --#{$prop}: #{$value};
+      }
+    }
+  }
+
+  // Generate properties with global tokens.
+  // Automatically assign to all classes with "btn--" prefix.
+  [class*="btn--"]:where(:not(.btn--none)) {
+    @include btn-props();
+  }
+
+  // Generage Button Size Utilities
+  @each $size, $extension in $sizeExtensions {
+    .btn--#{$extension} {
+      font-size: var(--text-#{$extension});
+    }
+  }
+
+  .btn--clear.btn--clear,
+  .btn--none.btn--none {
+    background: none;
+    border: none;
+  }
+}
+
+// Load Buttons (Internal - Support for Nested Buttons)
+// $not is the excluded wrapper element
+// $target is the element within the wrapper that should get the styles
+@mixin load-buttons-nested($not, $target) {
+  // Apply global button styles to all button classes
+  @each $btnColor, $btnProps in $buttons {
+    .btn--#{$btnColor}:not(.#{$not}),
+    .btn--#{$btnColor}.#{$not} > .#{$target} {
+      @include btn-props();
+    }
+  }
+
+  // Generate Button Properties & Styles
+  @each $btnColor, $btnProps in $buttons {
+    .btn--#{$btnColor} {
+      @each $prop, $value in $btnProps {
+        --#{$prop}: #{$value};
+      }
+    }
+  }
+
+  // Generage Button Size Utilities
+  @each $size, $extension in $sizeExtensions {
+    .btn--#{$extension}:not(.#{$not}),
+    .btn--#{$extension}.#{$not} > .#{$target} {
+      font-size: var(--text-#{$extension});
+    }
+  }
+}
+
+// FOR USERS
+
+// This mixin adds all styles for any button in the system
+// $style = button style name with support for ".btn--outline" attached to the name
+// Must use quotes when passing the .btn--outline versions.
+@mixin btn($style: primary, $props: yes) {
+	@if $props != "no" {
+  	@include btn-props();
+	}
+  @each $btnName, $key in $buttons {
+    @if $btnName == #{$style} {
+      @each $prop, $value in $key {
+        --#{$prop}: #{$value};
+      }
+    }
+  }
+}
+// For backward compatibility
+@mixin btn-default() {
+  @include btn-props();
+}

@@ -1,0 +1,39 @@
+// Automatic balancing
+
+@if $text-wrap != null {
+  blockquote {
+    text-wrap: #{$text-wrap};
+  }
+}
+
+// Manual balancing
+
+@if $option-basic-text-classes == on {
+
+  .balance, .text--balance {
+    text-wrap: balance;
+  
+    p, li, blockquote, h1, h2, h3, h4, h5, h6 {
+      text-wrap: balance;
+    }
+
+  }
+
+  .text--pretty {
+    text-wrap: pretty;
+  
+    p, li, blockquote, h1, h2, h3, h4, h5, h6 {
+      text-wrap: pretty;
+    }
+
+  }
+  
+  .unbalance {
+    text-wrap: wrap;
+  
+    p, li, blockquote, h1, h2, h3, h4, h5, h6 {
+      text-wrap: wrap;
+    }
+  }
+
+}

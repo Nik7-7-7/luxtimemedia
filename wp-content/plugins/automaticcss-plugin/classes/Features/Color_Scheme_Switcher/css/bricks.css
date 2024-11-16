@@ -1,0 +1,4 @@
+.frames-builder-color-mode-alt-active {
+	color: var(--builder-color-accent);
+	opacity: 1 !important;
+}

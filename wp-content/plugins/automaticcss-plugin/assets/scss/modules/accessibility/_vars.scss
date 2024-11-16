@@ -1,0 +1,11 @@
+// Focus Styles
+$focus-style: outline !default;
+$focus-color: var(--action) !default;
+$focus-offset: 0.25em !default;
+$focus-width: .2rem !default;
+
+// Selection Styles
+$selection-bg: null !default;
+$selection-text: null !default;
+$selection-bg-alt: null !default;
+$selection-text-alt: null !default;

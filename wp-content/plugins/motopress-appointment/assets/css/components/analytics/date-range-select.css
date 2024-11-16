@@ -1,0 +1,19 @@
+.mpa-select-date-range-popover .components-popover__content {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  box-sizing: content-box;
+  outline: none;
+  width: auto;
+  margin: 5px 0;
+}
+.mpa-select-date-range-popover .components-popover__content > div:first-child, .mpa-select-date-range-popover .components-popover__content .react-datepicker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .mpa-select-date-range-popover .components-popover__content > div:first-child, .mpa-select-date-range-popover .components-popover__content .react-datepicker {
+    width: min-content;
+  }
+}

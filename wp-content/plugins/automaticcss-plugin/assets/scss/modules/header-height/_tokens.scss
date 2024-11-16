@@ -1,0 +1,15 @@
+:root {
+    --header-height: #{$header-height};
+    // Generate breakpoint header height variables if height isn't 0.
+    @each $header-height, $height in $header-heights {
+        --header-height-#{$header-height}: #{$height};
+    }
+    // Generate media queries to change header height at breakpoints.
+    @each $breakpoint, $value in $breakpoints {
+        @include breakpoint($breakpoint) {
+            @if map-has-key($header-heights, $breakpoint) {
+                --header-height: var(--header-height-#{$breakpoint});
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@import "../helpers/mixins";
+
+$output-root-font-size: true !default; // Needed for Gutenberg's in-editor styling.
+
+// ROOT SIZE
+html {
+  @if $output-root-font-size != false {
+    font-size: var(--root-font-size) !important;
+  }
+
+  @if $option-smooth-scrolling == on {
+    scroll-behavior: smooth;
+  }
+}
+
+// Make keyword properties like auto available for animation.
+:root {
+	interpolate-size: allow-keywords;
+}
+
+// BOX SIZING
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// BODY
+body {
+  min-block-size: 100vh;
+}
+
+//INHERIT FONTS FOR INPUTS AND BUTTONS
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+:where(dd) {
+  margin-inline-start: 0;
+}
+
+// Add auto object fit to images
+@import "object-fit/auto-object-fit";

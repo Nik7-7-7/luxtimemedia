@@ -1,0 +1,72 @@
+@if $option-width == on {
+
+  @each $widthName, $widthValue in $widths {
+
+    @if $widthName != "full" {
+
+      .width--#{$widthName} {
+
+        // If breakouts are off, use double selectors for specificity
+        @if $option-breakouts == off {
+          &.width--#{$widthName} {
+            inline-size: calc(var(--content-width) * #{$widthValue});
+            max-inline-size: 100%;
+          }
+        }
+        
+        // If breakouts are on, exclude breakout elements (also increases specificity)
+        @if $option-breakouts == on {
+          &:not([class*="breakout--"]) {
+            inline-size: calc(var(--content-width) * #{$widthValue});
+            max-inline-size: 100%;
+          }
+        }
+
+      }
+    }
+  }
+
+  // Full width needs to be handled separately
+
+  .width--full {
+
+    // If breakouts are off, use double selectors for specificity
+    @if $option-breakouts == off {
+      &.width--full {
+        inline-size: 100%;
+        max-inline-size: 100%;
+      }
+    }
+    
+    // If breakouts are on, exclude breakout elements (also increases specificity)
+    @if $option-breakouts == on {
+      &:not([class*="breakout--"]) {
+        inline-size: 100%;
+        max-inline-size: 100%;
+      }
+    }
+
+  }
+
+  // When we change the width of a figure element, we want to make sure
+  // the image inside the figure grows with the figure.
+  figure[class*="width--"] img {
+    inline-size: 100%;
+  }
+
+  .width--auto.width--auto {
+    inline-size: auto !important;
+    max-inline-size: 100%;
+  }
+  .content-width.content-width {
+    inline-size: 100%;
+    max-inline-size: var(--content-width);
+    margin-inline: auto;
+  }
+  .content-width--safe.content-width--safe {
+    inline-size: 100%;
+    max-inline-size: var(--content-width-safe);
+    margin-inline: auto;
+  }
+
+} // End option check

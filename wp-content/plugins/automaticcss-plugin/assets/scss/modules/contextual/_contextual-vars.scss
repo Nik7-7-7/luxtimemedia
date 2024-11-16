@@ -1,0 +1,19 @@
+// Spacing
+$contextual-content-gap: var(--space-m) !default;
+$contextual-container-gap: var(--space-xl) !default;
+$contextual-grid-gap: var(--space-m) !default;
+
+// Text Colors
+$text-light: var(--white) !default;
+$text-light-muted: var(--neutral-light) !default;
+$text-dark: var(--black) !default;
+$text-dark-muted: var(--neutral-dark) !default;
+
+// Background Colors
+$bg-ultra-light: var(--white) !default;
+$bg-light: var(--neutral-light) !default;
+$bg-dark: var(--neutral-dark) !default;
+$bg-ultra-dark: var(--black) !default;
+
+// Import Relationships
+@import "relationships/vars";

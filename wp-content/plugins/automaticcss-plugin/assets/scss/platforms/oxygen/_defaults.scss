@@ -1,0 +1,28 @@
+// Default Text
+body, body.acss-boxed-layout {
+  font-size: var(--text-m);
+  line-height: var(--text-m-lh);
+  color: var(--body-color, $body-color);
+
+  @if $option-boxed-layout == on {
+    margin-inline: auto;
+  }
+
+}
+
+// Default Section Padding
+.ct-section-inner-wrap {
+  padding-block: var(--section-space-m);
+  padding-inline: var(--section-padding-x);
+}
+
+// Default Header Padding
+.oxy-header-container {
+  padding-inline: var(--section-padding-x);
+}
+
+
+// Remove normal section padding because Oxygen is dumb
+:where(section:not(section section)) {
+  padding: 0 !important;
+}

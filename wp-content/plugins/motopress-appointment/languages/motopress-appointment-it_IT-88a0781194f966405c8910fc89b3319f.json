@@ -1,0 +1,219 @@
+{
+    "translation-revision-date": "2022-07-07 14:03",
+    "generator": "WP-CLI\/2.10.0",
+    "source": "assets\/js\/public.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "it_IT",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Clients": [
+                "Clienti"
+            ],
+            "Remove": [
+                "Rimuovere"
+            ],
+            "Zero price\u0004Free": [
+                "Liberamente"
+            ],
+            "Bancontact": [
+                "Bancontact"
+            ],
+            "iDEAL": [
+                "iDEAL"
+            ],
+            "Giropay": [
+                "Giropay"
+            ],
+            "SEPA Direct Debit": [
+                "Addebito diretto SEPA"
+            ],
+            "SOFORT": [
+                "SOFORT"
+            ],
+            "Making a reservation...": [
+                "Prenotazione in corso..."
+            ],
+            "Sun": [
+                "Dom"
+            ],
+            "Mon": [
+                "Lun"
+            ],
+            "Tue": [
+                "Mar"
+            ],
+            "Wed": [
+                "Mer"
+            ],
+            "Thu": [
+                "Gio"
+            ],
+            "Fri": [
+                "Ven"
+            ],
+            "Sat": [
+                "Sab"
+            ],
+            "Sunday": [
+                "Domenica"
+            ],
+            "Monday": [
+                "Luned\u00ec"
+            ],
+            "Tuesday": [
+                "Marted\u00ec"
+            ],
+            "Wednesday": [
+                "Mercoled\u00ec"
+            ],
+            "Thursday": [
+                "Gioved\u00ec"
+            ],
+            "Friday": [
+                "Venerd\u00ec"
+            ],
+            "Saturday": [
+                "Sabato"
+            ],
+            "Jan": [
+                "Gen"
+            ],
+            "Feb": [
+                "Feb"
+            ],
+            "Mar": [
+                "Mar"
+            ],
+            "Apr": [
+                "Apr"
+            ],
+            "Month (short)\u0004May": [
+                "Mag"
+            ],
+            "Jun": [
+                "Giu"
+            ],
+            "Jul": [
+                "Lug"
+            ],
+            "Aug": [
+                "Ago"
+            ],
+            "Sep": [
+                "Sett"
+            ],
+            "Oct": [
+                "Ott"
+            ],
+            "Nov": [
+                "Nov"
+            ],
+            "Dec": [
+                "Dic"
+            ],
+            "January": [
+                "Gennaio"
+            ],
+            "February": [
+                "Febbraio"
+            ],
+            "March": [
+                "Marzo"
+            ],
+            "April": [
+                "Aprile"
+            ],
+            "Month\u0004May": [
+                "Maggio"
+            ],
+            "June": [
+                "Giugno"
+            ],
+            "July": [
+                "Luglio"
+            ],
+            "August": [
+                "Agosto"
+            ],
+            "September": [
+                "Settembre"
+            ],
+            "October": [
+                "Ottobre"
+            ],
+            "November": [
+                "Novembre"
+            ],
+            "December": [
+                "Dicembre"
+            ],
+            "Total": [
+                "Totale"
+            ],
+            "Card": [
+                "Carta"
+            ],
+            "By providing your IBAN and confirming this payment, you authorise (A) %s and Stripe, our payment service provider, to send instructions to your bank to debit your account and (B) your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.": [
+                ""
+            ],
+            "Credit or debit card": [
+                "Carta di credito o di debito"
+            ],
+            "Select iDEAL Bank": [
+                "Seleziona iDEAL Bank"
+            ],
+            "IBAN": [
+                "IBAN"
+            ],
+            "You will be redirected to a secure page to complete the payment.": [
+                "Sarai reindirizzato ad una pagina sicura per completare il pagamento."
+            ],
+            "Sorry, there are no services, employees or locations to book.": [
+                "Siamo spiacenti, non ci sono servizi, dipendenti o luoghi da prenotare."
+            ],
+            "Sorry, but we were unable to allocate time slots for the date you selected.": [
+                "Siamo spiacenti, ma non siamo stati in grado di assegnare le fasce orarie per la data selezionata."
+            ],
+            "Coupon code is empty.": [
+                ""
+            ],
+            "Coupon code applied successfully.": [
+                ""
+            ],
+            "Sorry, your booking is not eligible for this coupon.": [
+                ""
+            ],
+            "Left to pay": [
+                ""
+            ],
+            "Phone number is invalid.": [
+                ""
+            ],
+            "or": [
+                ""
+            ],
+            "Subtotal": [
+                ""
+            ],
+            "Coupon: %s": [
+                ""
+            ],
+            "Deposit": [
+                ""
+            ],
+            "Paying now": [
+                ""
+            ],
+            "Payment methods": [
+                ""
+            ],
+            "All day": [
+                ""
+            ]
+        }
+    }
+}

@@ -590,9 +590,6 @@
           resetIFrame(messageData)
           break
 
-		case 'stripeModalOpened':
-			ssaDebouncedScroll(messageData)
-
         case 'init':
           resizeIFrame()
           on('onInit', messageData.iframe)
@@ -1547,15 +1544,6 @@ function debounce(func, wait, immediate) {
 };
 
 function ssaHandleScroll(e) {
-	if (e.type === 'stripeModalOpened') {
-		e.iframe.scrollIntoView({
-		behavior: 'smooth',
-		block: 'end'
-		});
-		return;
-	}
-
-	// This is needed for a bug on mobile devices where events are constantly emitted from the iframe and not all of them are mutationObserver
 	if (e.type !== 'mutationObserver' ) { // Only scroll if iframe DOM has mutated
 		return;
 	}
