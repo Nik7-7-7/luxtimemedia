@@ -1,0 +1,330 @@
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:15:36] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:15:36] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:20:59] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:20:59] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:31:34] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:31:34] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:33:11] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:33:11] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:33:13] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:33:13] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:33:19] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:33:19] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:15] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:15] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:16] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:16] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:18] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:18] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:30] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:30] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:32] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:32] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:35] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:34:35] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:35:04] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:35:04] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:35:05] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:35:05] Action `shared_calendar_event_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:35:07] Action `max_booking_notice_changed` does not exist in get_action_title
+
+
+The following is logged from get_action_title()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 763:
+
+... insert_revision_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1050:
+
+...... insert_revision_updated_appointment_type()
+in C:\xampp\htdocs\luxtimemedia\wp-content\plugins\simply-schedule-appointments\includes\class-revision-model.php line 1142:
+[2024-11-17 20:35:07] Action `shared_calendar_event_changed` does not exist in get_action_title
+
