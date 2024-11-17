@@ -1,43 +1,23 @@
-[2024-11-17 21:42:57] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-11-17 21:42:57] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
-[2024-11-17 21:42:57] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-11-17 21:43:00] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-11-17 21:43:00] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-11-17 21:43:00] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-11-17 21:43:00] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1731879777\
-[2024-11-17 21:43:00] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/luxtimemedia/
-[2024-11-17 21:43:01] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-11-17 21:43:01] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-17 21:43:01] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-17 21:43:01] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
-[2024-11-17 21:43:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/
-[2024-11-17 21:43:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
-[2024-11-17 21:43:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-17 21:43:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/673a636507268-V2YfVq.tmp
-[2024-11-17 21:43:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/?simply_static_page=8247
-[2024-11-17 21:43:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/?simply_static_page=8247
-[2024-11-17 21:43:31] [class-ss-url-fetcher.php:103] Filesize: 129810 bytes
-[2024-11-17 21:43:31] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30059 milliseconds with 129810 bytes received
-[2024-11-17 21:43:31] [class-ss-url-fetcher.php:107] object(WP_Error)#2148 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(86) "cURL error 28: Operation timed out after 30059 milliseconds with 129810 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
-[2024-11-17 21:43:31] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
-[2024-11-17 21:43:31] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-11-17 21:43:41] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-17 21:43:41] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-17 21:43:41] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 0
-[2024-11-17 21:43:41] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 1 pages/files
-[2024-11-17 21:43:41] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
-[2024-11-17 21:43:41] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
-[2024-11-17 21:43:41] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
-[2024-11-17 21:43:42] [class-ss-transfer-files-locally-task.php:93] [Transfer] Total Pages:0. Processed Pages: 0
-[2024-11-17 21:43:42] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 0 of 0 files
-[2024-11-17 21:43:42] [class-ss-transfer-files-locally-task.php:262] Transferring 404 Page
-[2024-11-17 21:43:42] [class-ss-transfer-files-locally-task.php:265] No 404 Page found at C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1731879777\404\index.html
-[2024-11-17 21:43:42] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://luxtimemedia.com/" target="_blank">https://luxtimemedia.com/</a>
-[2024-11-17 21:43:42] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-11-17 21:43:42] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-11-17 21:43:42] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-11-17 21:43:42] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-11-17 21:43:42] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-11-17 21:43:42] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-11-17 21:43:42] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-11-17 21:43:42] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:45
+[2024-11-17 21:52:33] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-11-17 21:52:33] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2024-11-17 21:52:33] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-11-17 21:52:36] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-11-17 21:52:36] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-11-17 21:52:36] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-11-17 21:52:36] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1731880353\
+[2024-11-17 21:52:36] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/luxtimemedia/
+[2024-11-17 21:52:36] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-11-17 21:52:36] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-17 21:52:36] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-17 21:52:36] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-11-17 21:52:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/
+[2024-11-17 21:52:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-11-17 21:52:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-17 21:52:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/673a65a4edff7-1eeY9F.tmp
+[2024-11-17 21:52:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/?simply_static_page=8248
+[2024-11-17 21:52:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/?simply_static_page=8248
+[2024-11-17 21:53:07] [class-ss-url-fetcher.php:103] Filesize: 129810 bytes
+[2024-11-17 21:53:07] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30030 milliseconds with 129810 bytes received
+[2024-11-17 21:53:07] [class-ss-url-fetcher.php:107] object(WP_Error)#2150 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(86) "cURL error 28: Operation timed out after 30030 milliseconds with 129810 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-17 21:53:07] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-11-17 21:53:07] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
