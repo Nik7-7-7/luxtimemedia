@@ -1,0 +1,1714 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+$darkBlack: rgb(28, 32, 37);
+
+
+//start Header top licence-activation-area
+
+.jitsi-meet-licence-activation-area {
+  background: #df2a4a;
+  padding: 7px;
+  text-align: center;
+  margin-left: -19.7px;
+
+  h3 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0;
+
+    a {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      margin-left: 5px;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.jitsi-wrapper {
+  text-align: center;
+  background-color: #3a3a3a;
+  color: white;
+  line-height: 30px;
+  padding: 15px;
+}
+
+.jitsi-admin-wrap {
+  font-family: 'Nunito', sans-serif;
+  padding-right: 20px;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .option-form-field-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+.jitsi-setting-tab-links {
+  font-size: 0;
+  background-color: $darkBlack;
+  line-height: 20px;
+  overflow: hidden;
+  flex-grow: 0;
+  width: 224px;
+
+  a {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: transparent;
+    line-height: inherit;
+    color: white;
+    padding: 16px;
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: none;
+    border: 0px solid #1c2025;
+
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+      width: 24px;
+      height: 24px;
+      margin-right: 12px;
+      fill: #d1dbe8;
+      transition: all 0.3s ease;
+    }
+
+    label {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: calc(100% - 36px);
+    }
+
+    .jitsi-tab-title {
+      font-weight: 600;
+      display: block;
+      line-height: 1;
+      font-size: 14px;
+    }
+
+    .jitsi-tab-desc {
+      display: block;
+      font-size: 11px;
+      color: #9b9b9b;
+      line-height: 1;
+      margin-top: 6px;
+    }
+
+    &:focus {
+      outline: none;
+      border: none;
+      box-shadow: none;
+    }
+
+    &:hover {
+      background-color: rgba(white, 0.2);
+    }
+
+    &.active {
+      background-color: white;
+      color: $darkBlack;
+      border-width: 0 0 0 3px;
+
+      svg {
+        fill: #1c2025;
+      }
+
+      .jitsi-tab-desc {
+        color: #7e7e7e;
+      }
+    }
+  }
+}
+
+.jitsi-setting-tabs {
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+  padding: 35px;
+  flex-grow: 1;
+  max-width: calc(100% - 224px);
+}
+
+.jitsi-setting-tab {
+  position: relative;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+#jitsi_pro__meeting_settings .inside,
+.jitsi-pro-option-form {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  min-height: 500px;
+
+  td {
+    padding: 15px 10px;
+  }
+
+  th {
+    min-width: 200px;
+    text-align: left;
+
+    label {
+      font-size: 16px;
+      font-weight: 600;
+      font-family: 'Nunito', sans-serif;
+      color: $darkBlack;
+
+      svg {
+        width: 14px;
+        height: 14px;
+        line-height: inherit;
+        display: inline-block;
+        vertical-align: middle;
+        fill: #1c2025;
+        margin-left: 3px;
+      }
+
+      .description {
+        font-size: 13px;
+        font-weight: 400;
+        display: block;
+        color: #888888;
+
+        a {
+          color: inherit;
+          text-decoration: underline;
+        }
+      }
+
+      .jitsi-admin-tooltip {
+        position: absolute;
+        background-color: #1c2025;
+        box-sizing: border-box;
+        top: 0;
+        left: 100%;
+        padding: 16px;
+        z-index: 1;
+        width: 532px;
+        box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+
+        .tooltip-arrow {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          left: -8px;
+          top: 10px;
+          border-right: 8px solid #1c2025;
+          border-top: 8px solid transparent;
+          border-bottom: 8px solid transparent;
+        }
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+
+        strong {
+          color: white;
+          font-size: 12px;
+          margin-top: 8px;
+          display: block;
+          text-align: center;
+        }
+      }
+
+      &:hover {
+        .jitsi-admin-tooltip {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
+
+  [type='text'],
+  [type='number'] {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    border: 1px solid rgb(209, 219, 232);
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 24px;
+    outline: none;
+    padding: 8px;
+    margin: 0;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: #2271b1;
+    }
+  }
+
+  textarea {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    border: 1px solid rgb(209, 219, 232);
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 24px;
+    outline: none;
+    padding: 8px;
+    margin: 0;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: #2271b1;
+    }
+  }
+
+  [type='button'] {
+    transition: all 0.3s ease;
+    border: 1px solid rgb(209, 219, 232);
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 20px;
+    outline: none;
+    padding: 8px;
+    color: rgb(28, 32, 37);
+
+    &.jitsi-uploader-button {
+      text-align: center;
+      line-height: 24px;
+      min-width: 42px;
+      position: relative;
+      cursor: pointer;
+
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+      }
+
+      * {
+        pointer-events: none;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+        fill: rgb(94, 109, 122);
+        vertical-align: middle;
+      }
+    }
+
+    &.jitsi-uploader-reset {
+      text-align: center;
+      line-height: 24px;
+      min-width: 42px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+        fill: rgb(94, 109, 122);
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .jitsi-admin-field-multiswitch {
+    display: flex;
+    justify-content: center;
+    margin: 0 -15px;
+
+    >label {
+      position: relative;
+      margin: 0 15px;
+      flex: 33.333333%;
+
+      >span {
+        display: block;
+        background-color: #cccccc;
+        color: #1c2025;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: center;
+        padding: 14px 17px;
+        border-radius: 8px;
+        overflow: hidden;
+        font-size: 0;
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+
+        >svg {
+          fill: #4083ff;
+          vertical-align: middle;
+          margin: 0 auto 8px;
+          display: block;
+        }
+
+        >span {
+          vertical-align: middle;
+          display: inline-block;
+          font-size: 16px;
+          font-weight: 400;
+
+          +svg {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            opacity: 0;
+            margin: 0;
+          }
+
+          &.desc {
+            display: none;
+          }
+        }
+      }
+
+      &:hover {
+        input {
+
+          &[value='free'],
+          &[value='disable-jaas'],
+          &[value='disable-self'] {
+            +span {
+              background-color: white;
+              box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+            }
+          }
+        }
+      }
+
+      input {
+        position: absolute;
+        opacity: 0;
+
+        &[value='free'] {
+          +span {
+            background-color: #e6eeff;
+          }
+        }
+
+        &[value='jaas'] {
+          +span {
+            background-color: #fce8ea;
+          }
+        }
+
+        &[value='self'] {
+          +span {
+            background-color: #d5f6f0;
+          }
+        }
+
+        &:checked {
+          +span {
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+
+            span+svg {
+              opacity: 1;
+            }
+          }
+
+          &[value='free'] {
+            +span {
+              border-color: #4083ff;
+            }
+          }
+
+          &[value='jaas'] {
+            +span {
+              border-color: #f45162;
+            }
+          }
+
+          &[value='self'] {
+            +span {
+              border-color: #10d7b0;
+            }
+          }
+        }
+      }
+
+      &.disabled {
+        >span {
+          &:after {
+            content: 'Premium';
+            display: block;
+            position: absolute;
+            background-color: #e64e08;
+            color: white;
+            width: max-content;
+            line-height: 1;
+            padding: 3px 8px;
+            font-size: 12px;
+            margin-top: 0;
+            top: 5px;
+            right: 5px;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+  }
+
+  .jitsi-meet-welcome & {
+    .jitsi-admin-field-multiswitch {
+      display: flex;
+      justify-content: center;
+      margin: 0 -15px;
+
+      >label {
+        position: relative;
+        margin: 0 15px;
+        flex: 33.333333%;
+
+        >span {
+          display: block;
+          background-color: #cccccc;
+          color: #1c2025;
+          line-height: 26px;
+          font-weight: 400;
+          text-align: left;
+          border-radius: 8px;
+          overflow: hidden;
+          font-size: 0;
+
+          >svg {
+            display: inline-block;
+            margin: 0 10px 0 0;
+            fill: #4083ff;
+            vertical-align: middle;
+          }
+
+          >span {
+            vertical-align: middle;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 700;
+
+            +svg {
+              position: absolute;
+              top: 5px;
+              right: 5px;
+              opacity: 0;
+              margin: 0;
+            }
+
+            &.desc {
+              font-size: 14px;
+              font-weight: 400;
+              display: block;
+              width: 100%;
+              line-height: 20px;
+              margin-top: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.jisti-uploader-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  left: -4px;
+  right: -4px;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+
+  [type='text'] {
+    flex-grow: 1;
+    width: auto;
+    margin: 0 4px !important;
+    opacity: 0;
+  }
+
+  button {
+    flex-grow: 0;
+    margin: 0 4px !important;
+  }
+}
+
+.jitsi-uploader-preview {
+  max-width: 360px;
+  width: 100%;
+  position: relative;
+
+  .jitsi-uploader-preview-img {
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    border: 1px solid rgb(164, 184, 209);
+    background-size: cover;
+    background-color: #1c2025;
+    text-align: center;
+    overflow: hidden;
+
+    >img {
+      height: auto;
+      max-width: 100%;
+      vertical-align: middle;
+    }
+
+    +.jitsi-uploader-preview-placehold {
+      display: none;
+
+      +.jisti-uploader-btn-group {
+        opacity: 1;
+        visibility: visible;
+        position: static;
+        margin-left: -4px;
+        margin-right: -4px;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  .jitsi-uploader-preview-placehold {
+    align-items: center;
+    background: rgb(240, 243, 247);
+    border: 1px dashed rgb(164, 184, 209);
+    border-radius: 3px;
+    display: flex;
+    height: 118px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+
+    * {
+      pointer-events: none;
+    }
+
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+
+    h5 {
+      color: rgb(3, 118, 218);
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 24px;
+      margin: 8px 0px 2px;
+    }
+
+    p {
+      color: rgb(94, 109, 122);
+      font-size: 13px;
+      line-height: 20px;
+      margin: 0;
+    }
+  }
+}
+
+#jitsi_pro__meeting_settings .inside {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.jitsi-field-single-image {
+  position: relative;
+
+  [type='text'] {
+    width: calc(100% - 130px);
+  }
+}
+
+.jitsi-field-switch {
+  display: inline-block;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  transition: background-color 150ms ease-in-out 0s;
+  border-radius: 15px;
+  height: 30px;
+  width: 60px;
+  padding: 2px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(94, 109, 122);
+  box-shadow: none;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  position: relative;
+  box-sizing: border-box;
+
+  input {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+
+  span {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    background-color: white;
+    width: 26px;
+    height: 26px;
+    border-radius: 15px;
+  }
+
+  &.active {
+    background-color: rgb(3, 118, 218);
+
+    span {
+      left: auto;
+      right: 2px;
+    }
+  }
+}
+
+.jitsi-setting-tabs-wrapper {
+  display: none;
+  width: 100%;
+  font-size: 0;
+  min-height: 560px;
+
+  &.active {
+    display: block;
+  }
+
+  .disabled {
+    cursor: pointer;
+    opacity: 0.7;
+
+    * {
+      pointer-events: none;
+    }
+  }
+
+  .new {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .form-table {
+    max-width: 100%;
+    margin: 0;
+
+    label {
+      display: block;
+    }
+
+    .description {
+      &.desc-pro {
+        &:after {
+          content: 'Premium';
+          display: block;
+          background-color: #e64e08;
+          color: white;
+          width: max-content;
+          line-height: 1;
+          padding: 3px 8px;
+          font-size: 12px;
+          margin-top: 3px;
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+}
+
+.jitsi-new {
+  background-color: #188038;
+  color: #fff;
+  width: max-content;
+  line-height: 1;
+  padding: 6px 10px;
+  font-weight: 800;
+  font-size: 12px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+
+.jitsi-preview-loader {
+  text-align: center;
+}
+
+.jitsi-preview-loading {
+  animation: 900ms linear 0s infinite normal none running spin;
+  vertical-align: middle;
+}
+
+.other-admin-setting {
+  background: rgb(240, 243, 247);
+  border: 1px dashed rgb(164, 184, 209);
+  border-radius: 3px;
+  padding: 15px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.jitsi-preview-people-mock {
+  font-size: 0;
+  margin: -3px;
+  text-align: center;
+  display: none;
+
+  >div {
+    margin: 3px;
+    width: calc(33.333333% - 6px);
+    display: inline-block;
+    vertical-align: middle;
+
+    >div {
+      height: 0;
+      padding-top: 56.5%;
+      background-size: cover;
+    }
+  }
+}
+
+.jitsi-preview-message {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+}
+
+#meeting-ui-preview {
+  width: 580px;
+  max-width: calc(50% - 30px);
+  margin-left: 30px;
+  background-color: #1c2025;
+  padding: 64px;
+  display: inline-block;
+  vertical-align: top;
+
+  &.preview-success {
+    .jitsi-preview-people-mock {
+      display: block;
+    }
+
+    .jitsi-preview-loader {
+      display: none;
+    }
+  }
+
+  &.preview-error {
+    .jitsi-preview-loader {
+      display: none;
+    }
+
+    .jitsi-preview-message {
+      display: block;
+    }
+  }
+
+  &.preview-block {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.mce-toolbar .mce-i-dashicons {
+  font-family: dashicons !important;
+  font-size: 24px !important;
+  width: auto !important;
+  line-height: 20px !important;
+}
+
+.jitsi-pro-admin-avatar {
+  position: relative;
+
+  .jitsi-icon {
+    position: absolute;
+    text-align: center;
+
+    svg {
+      vertical-align: middle;
+      margin: 0;
+    }
+
+    &.icon-gsm-bars {
+      background-color: #f1ad33;
+      display: inline-block;
+      line-height: 12px;
+      min-width: 12px;
+      border-radius: 12px;
+      top: 2px;
+      left: 2px;
+    }
+  }
+}
+
+.jitsi-pro-admin-avatar-thumb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.jisti-admin-tab-links {
+  font-size: 0;
+  display: block;
+  border-bottom: 1px solid #dddddd;
+
+  a {
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #999999;
+    background-color: #f1f1f1;
+    border: 1px solid #dddddd;
+    margin: 0 -1px -1px 0;
+    min-width: 150px;
+
+    svg {
+      fill: #999999;
+      width: 48px;
+      height: 48px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &.active-jitsi-tab-link {
+      color: #3a3a3a;
+      background-color: white;
+      border-bottom-color: white;
+
+      svg {
+        fill: #3a3a3a;
+      }
+    }
+  }
+}
+
+.jisti-admin-box {
+  background-color: white;
+  padding: 35px 0 0;
+  border-radius: 2px;
+  overflow: hidden;
+
+  .jitsi-tab {
+    display: none;
+
+    &.active-jitsi-tab {
+      display: block;
+    }
+  }
+}
+
+.toplevel_page_jitsi-meet,
+.jitsi-meet_page_jitsi-pro-settings {
+  div.updated {
+    margin: 20px 20px 20px 0;
+  }
+
+  .jitsi-video {
+    margin-bottom: 50px;
+    position: relative;
+    max-width: 700px;
+    height: 0;
+    padding-top: 394px;
+
+    iframe {
+      max-width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .jitsi-wrap {
+    .title {
+      font-size: 35px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      line-height: 50px;
+
+      span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      svg {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+    h4 {
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+    .text-docs {
+      font-size: 16px;
+
+      h4 {
+        margin: 0;
+      }
+
+      p {
+        margin-bottom: 35px;
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      ul {
+        list-style: initial;
+        padding-left: 18px;
+
+        ul {
+          margin-top: 25px;
+
+          li {
+            +li {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+
+      li {
+        +li {
+          margin-top: 35px;
+        }
+
+        span {
+          display: block;
+          font-weight: 500;
+          font-size: 18px;
+        }
+      }
+
+      img {
+        margin-top: 15px;
+        display: block;
+        max-width: 700px;
+      }
+    }
+
+    #setup-jitsi-shortcode {
+      .text-docs {
+        ul {
+          li {
+            +li {
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.jitsi-promo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  left: 0;
+  backdrop-filter: blur(1px);
+  z-index: 100000;
+
+  &.hidden {
+    display: none;
+  }
+
+  &-inner {
+    background: #000;
+    position: relative;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 130px;
+    width: 400px;
+    opacity: 0.9;
+
+    .close-promo {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 10px 12px;
+      font-size: 30px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      border-radius: 50%;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    h3 {
+      color: #fff;
+    }
+
+    .promo-img {
+      width: 250px;
+      position: absolute;
+      top: -115px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px;
+      border-radius: 50%;
+    }
+
+    .limited-title {
+      font-size: 24px;
+    }
+
+    img.discount {
+      width: 100%;
+      margin: 0 0 10px;
+    }
+
+    .discount {
+      position: relative;
+      margin: 35px 0;
+
+      .discount-special {
+        color: #ff631a;
+        position: absolute;
+        font-size: 32px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -24px;
+        background: #000;
+        z-index: 12;
+        padding: 5px;
+      }
+
+      .discount-text {
+        border: 2px solid #ff631a;
+        display: inline-block;
+        font-size: 48px;
+        padding: 24px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #fff;
+      }
+    }
+
+    a {
+      display: block;
+      max-width: 180px;
+      margin: 0 auto;
+
+      background: #ff631a;
+      color: #fff;
+      padding: 20px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 17px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .black-friday-wrap {
+      h3 {
+        color: #ff631a;
+        font-size: 25px;
+        margin: 30px;
+      }
+    }
+
+    .promo-title {
+      margin-top: 40px;
+    }
+
+    &.black-friday {
+      .promo-title {
+        margin-top: 120px;
+      }
+    }
+  }
+
+  .ribbon {
+    margin-left: -50px;
+    width: 527px;
+    position: absolute;
+    text-align: center;
+    font-size: 23px !important;
+    background: #ddd;
+    box-shadow: rgba(000, 000, 000, 0.3) 0 1px 1px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  .ribbon h1 {
+    font-size: 38px !important;
+    font-weight: bold;
+    color: #000;
+    text-shadow: #240c0c 0 1px 0;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .ribbon:before,
+  .ribbon:after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: -1em;
+    border: 1.5em solid #ddd;
+    z-index: -1;
+  }
+
+  .ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+    box-shadow: rgba(000, 000, 000, 0.4) 1px 1px 1px;
+  }
+
+  .ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+    box-shadow: rgba(000, 000, 000, 0.4) -1px 1px 1px;
+  }
+
+  .ribbon .ribbon-content:before,
+  .ribbon .ribbon-content:after {
+    border-color: #7d7d7d transparent transparent transparent;
+    position: absolute;
+    display: block;
+    border-style: solid;
+    bottom: -1em;
+    content: '';
+  }
+
+  .ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+  }
+
+  .ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+  }
+
+  .ribbon-stitches-top {
+    margin-top: 2px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  }
+
+  .ribbon-stitches-bottom {
+    margin-bottom: 2px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+  }
+
+  &.jitsi-promo-fullpage {
+    position: fixed;
+  }
+}
+
+.special-action-link {
+  color: #ff631a;
+  font-weight: bold;
+}
+
+.jitsi-pre {
+  position: relative;
+  padding-bottom: 16px;
+
+  code {
+    padding: 15px;
+  }
+
+  .inline-copy-message {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 13px;
+    color: #888888;
+  }
+}
+
+.floating-snackbar {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  background-color: #1c2025;
+  color: white;
+  line-height: 1;
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-50%);
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+#adminmenu .wp-submenu a {
+  &[href^="https://go.wppool"] {
+    color: #ff631a;
+    font-weight: bold;
+  }
+}
+
+.HW_badge_cont {
+  display: inline-block !important;
+  vertical-align: top;
+  height: 19px !important;
+
+  .HW_badge {
+    top: 2px;
+    transform: translateY(-50%) scale(0);
+  }
+}
+
+/*------------ review notice--------------*/
+.jitsi-meet-wp-review-notice,
+.jitsi-meet-wp-affiliate-notice {
+  margin: 5px 15px 2px 0;
+
+  p {
+    font-size: 1rem;
+  }
+
+  .notice-actions {
+    display: flex;
+    flex-flow: column;
+    line-height: 1.8;
+  }
+
+  .notice-overlay-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 9999;
+
+    .notice-overlay {
+      background: #fff;
+      width: max-content;
+      padding: 10px 30px;
+      border-radius: 10px;
+      position: relative;
+
+      &-actions {
+        display: flex;
+        flex-flow: column;
+        line-height: 1.8;
+
+        a {
+          text-decoration: none;
+
+          &:nth-child(2) {
+            color: #000;
+          }
+
+          &:nth-child(3) {
+            color: #777;
+          }
+        }
+      }
+
+      .close-notice {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        border-radius: 30px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.jitsi-meet-wp-affiliate-notice {
+  .dashicons-dismiss {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: indianred;
+    cursor: pointer;
+  }
+
+  .notice-dismiss {
+    display: none;
+  }
+
+  .notice-actions {
+    a {
+      width: 115px;
+      display: inline-flex;
+      align-items: center;
+
+      i {
+        margin-left: 3px;
+        margin-top: 2px;
+      }
+    }
+  }
+}
+
+.affiliate-notice-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.jitsi-meet-welcome {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  min-height: 100vh;
+  background-color: #f0f0f1;
+  z-index: 10000;
+
+  .jitsi-meet-welcome-content {
+    position: relative;
+    padding: 100px 0;
+    width: 928px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .jitsi-welcome-option-form {
+    display: block;
+    background-color: #f5f8ff;
+    width: 100%;
+    margin-top: 25px;
+    padding: 45px 75px 120px;
+    box-sizing: border-box;
+
+    .wc-title {
+      margin: 0 0 10px;
+      font-size: 36px;
+      font-weight: 800;
+    }
+
+    .wc-text {
+      margin: 0 auto 32px;
+      max-width: 370px;
+    }
+
+    p.submit {
+      text-align: right;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    tr {
+
+      td,
+      th {
+        display: block !important;
+        padding: 0 !important;
+      }
+
+      &:first-child {
+        th {
+          display: none !important;
+        }
+
+        td {
+          display: block !important;
+          padding: 0 !important;
+          margin-bottom: 25px;
+        }
+      }
+
+      +tr {
+        th {
+          margin-top: 20px;
+          float: left;
+        }
+
+        td {
+          margin-top: 15px;
+          float: left;
+          width: calc(100% - 200px);
+        }
+
+        &:after {
+          content: '';
+          display: table;
+          clear: both;
+        }
+
+        +tr {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  .jitsi-welcome-video {
+    margin-top: 60px;
+
+    .jitsi-welcome-video-title {
+      font-size: 30px;
+      font-weight: 800;
+      text-align: left;
+      margin: 0 0 20px;
+    }
+  }
+
+  .wp-core-ui & {
+    .button-primary {
+      background: #2271b1;
+      border-radius: 4px;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+      line-height: 48px;
+      padding: 0 48px;
+    }
+
+    .button-secondary {
+      border-radius: 4px;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+      line-height: 48px;
+      padding: 0 48px;
+      margin-right: 20px;
+    }
+  }
+}
+
+// Addon scss
+.jitsi-wrap-add-ons {
+  margin-left: 20px;
+  margin-top: 20px;
+
+  .jitsi-add-ons-wrapper {
+    max-width: 36.333333%;
+
+    .top {
+      h3 {
+        font-weight: 600;
+        font-size: 30px;
+      }
+
+      p {
+        line-height: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #645f5fdd;
+
+      }
+    }
+
+    .bottom {
+      margin-top: 40px;
+      padding: 20px 25px;
+      background: #ffff;
+      border-radius: 5px;
+
+      .bottom-top {
+        display: flex;
+        justify-content: space-between;
+
+        .icon {
+          img {
+            width: 100px;
+            height: 60px;
+          }
+        }
+
+        a {
+          display: contents;
+          text-decoration: none;
+          font-weight: 600;
+          color: #696363ab;
+
+          &:focus {
+            box-shadow: none;
+            outline: none;
+          }
+        }
+      }
+
+      .bottom-footer {
+        margin-top: 30px;
+
+        h3 {
+          font-size: 20px;
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+
+        p {
+          color: #747474;
+          font-weight: 600;
+          font-size: 13px;
+        }
+      }
+    }
+
+    .switcher-card {
+      padding: 10px 20px;
+      background: #ffff;
+      margin-top: 3px;
+      border-radius: 5px;
+      cursor: pointer;
+      min-height: 40px;
+
+      // &.opacity {
+      //   opacity: 0.6;
+      // }
+
+      .switcher-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3px;
+
+        .status {
+          padding: 5px 0px;
+          font-weight: 700;
+          color: rgb(116 116 116 / 64%);
+          font-size: 16px;
+          // opacity: 0.7;
+        }
+
+        .btn-wrapper {
+          button {
+            font-size: 16px;
+            border-radius: 30px;
+            cursor: pointer;
+            line-height: 0;
+            //transition: 0.3ms;
+
+            &:focus {
+              outline: 0;
+            }
+
+            &.install {
+              padding: 13px 15px 14px 15px;
+              background: #fff;
+              color: #0376da;
+              border: 2px solid #0376da90;
+              font-weight: 700;
+            }
+
+            &.upgrade {
+              padding: 3px 10px 4px 10px;
+              background: #0376da;
+              border: 2px solid #0376da;
+              color: #ffff;
+              margin-left: 5px;
+              display: flex;
+              align-items: center;
+              font-weight: 600;
+
+
+
+              .dashicons {
+                font-size: 16px;
+                margin-top: 5px;
+              }
+            }
+          }
+
+
+        }
+
+      }
+    }
+
+  }
+}
+
+.jitsi-meet-add-ons-admin-menu {
+  display: flex;
+  align-items: justify-between;
+  gap: 5px;
+}
+
+.jitsi-meet-add-ons-new-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 1.6px 6px;
+  border-radius: 50px;
+  /* background: #f5621d; */
+  color: white;
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 600;
+  background: linear-gradient(180deg, #EE5913 0%, #FF6F2C 100%);
+
+  svg {
+    width: 11px;
+    height: 11px;
+    fill: currentColor;
+    display: ta;
+  }
+}

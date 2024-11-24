@@ -1,0 +1,1079 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+.jitsi-wrapper {
+  text-align: center;
+  background-color: #3a3a3a;
+  color: white;
+  line-height: 30px;
+  padding: 15px;
+}
+
+.jitsi-admin-wrap {
+  font-family: 'Nunito', sans-serif;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.jitsi-admin-wrap * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.jitsi-admin-wrap .title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.jitsi-admin-wrap .option-form-field-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.jitsi-setting-tab-links {
+  font-size: 0;
+  background-color: #1c2025;
+  line-height: 20px;
+  overflow: hidden;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 224px;
+}
+
+.jitsi-setting-tab-links a {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: transparent;
+  line-height: inherit;
+  color: white;
+  padding: 16px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.jitsi-setting-tab-links a svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  fill: #d1dbe8;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.jitsi-setting-tab-links a label {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: calc(100% - 36px);
+}
+
+.jitsi-setting-tab-links a .jitsi-tab-title {
+  font-weight: 600;
+  display: block;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.jitsi-setting-tab-links a .jitsi-tab-desc {
+  display: block;
+  font-size: 11px;
+  color: #9b9b9b;
+  line-height: 1;
+  margin-top: 6px;
+}
+
+.jitsi-setting-tab-links a:focus {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.jitsi-setting-tab-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.jitsi-setting-tab-links a.active {
+  background-color: white;
+  color: #1c2025;
+}
+
+.jitsi-setting-tab-links a.active svg {
+  fill: #1c2025;
+}
+
+.jitsi-setting-tab-links a.active .jitsi-tab-desc {
+  color: #7e7e7e;
+}
+
+.jitsi-setting-tabs {
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+  padding: 35px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: calc(100% - 224px);
+}
+
+.jitsi-setting-tab {
+  position: relative;
+  display: none;
+}
+
+.jitsi-setting-tab.active {
+  display: block;
+}
+
+#jitsi_pro__meeting_settings .inside,
+.jitsi-pro-option-form {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#jitsi_pro__meeting_settings .inside td,
+.jitsi-pro-option-form td {
+  padding: 15px 10px;
+}
+
+#jitsi_pro__meeting_settings .inside th,
+.jitsi-pro-option-form th {
+  min-width: 200px;
+  text-align: left;
+}
+
+#jitsi_pro__meeting_settings .inside th label,
+.jitsi-pro-option-form th label {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  color: #1c2025;
+}
+
+#jitsi_pro__meeting_settings .inside th label svg,
+.jitsi-pro-option-form th label svg {
+  width: 14px;
+  height: 14px;
+  line-height: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  fill: #1c2025;
+  margin-left: 3px;
+}
+
+#jitsi_pro__meeting_settings .inside th label .description,
+.jitsi-pro-option-form th label .description {
+  font-size: 13px;
+  font-weight: 400;
+  display: block;
+  color: #888888;
+}
+
+#jitsi_pro__meeting_settings .inside th label .description a,
+.jitsi-pro-option-form th label .description a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+#jitsi_pro__meeting_settings .inside th label .jitsi-admin-tooltip,
+.jitsi-pro-option-form th label .jitsi-admin-tooltip {
+  position: absolute;
+  background-color: #1c2025;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: 0;
+  left: 100%;
+  padding: 16px;
+  z-index: 1;
+  width: 532px;
+  -webkit-box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+          box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#jitsi_pro__meeting_settings .inside th label .jitsi-admin-tooltip .tooltip-arrow,
+.jitsi-pro-option-form th label .jitsi-admin-tooltip .tooltip-arrow {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -8px;
+  top: 10px;
+  border-right: 8px solid #1c2025;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+
+#jitsi_pro__meeting_settings .inside th label .jitsi-admin-tooltip img,
+.jitsi-pro-option-form th label .jitsi-admin-tooltip img {
+  max-width: 100%;
+  height: auto;
+}
+
+#jitsi_pro__meeting_settings .inside th label .jitsi-admin-tooltip strong,
+.jitsi-pro-option-form th label .jitsi-admin-tooltip strong {
+  color: white;
+  font-size: 12px;
+  margin-top: 8px;
+  display: block;
+  text-align: center;
+}
+
+#jitsi_pro__meeting_settings .inside th label:hover .jitsi-admin-tooltip,
+.jitsi-pro-option-form th label:hover .jitsi-admin-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+#jitsi_pro__meeting_settings .inside [type=text],
+#jitsi_pro__meeting_settings .inside [type=number],
+.jitsi-pro-option-form [type=text],
+.jitsi-pro-option-form [type=number] {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid #d1dbe8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  line-height: 24px;
+  outline: none;
+  padding: 8px;
+  margin: 0;
+}
+
+#jitsi_pro__meeting_settings .inside [type=text]:focus,
+#jitsi_pro__meeting_settings .inside [type=number]:focus,
+.jitsi-pro-option-form [type=text]:focus,
+.jitsi-pro-option-form [type=number]:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #2271b1;
+}
+
+#jitsi_pro__meeting_settings .inside textarea,
+.jitsi-pro-option-form textarea {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid #d1dbe8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  line-height: 24px;
+  outline: none;
+  padding: 8px;
+  margin: 0;
+}
+
+#jitsi_pro__meeting_settings .inside textarea:focus,
+.jitsi-pro-option-form textarea:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #2271b1;
+}
+
+#jitsi_pro__meeting_settings .inside [type=button],
+.jitsi-pro-option-form [type=button] {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid #d1dbe8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  line-height: 20px;
+  outline: none;
+  padding: 8px;
+  color: #1c2025;
+}
+
+#jitsi_pro__meeting_settings .inside [type=button].jitsi-uploader-button,
+.jitsi-pro-option-form [type=button].jitsi-uploader-button {
+  text-align: center;
+  line-height: 24px;
+  min-width: 42px;
+  position: relative;
+  cursor: pointer;
+}
+
+#jitsi_pro__meeting_settings .inside [type=button].jitsi-uploader-button:before,
+.jitsi-pro-option-form [type=button].jitsi-uploader-button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#jitsi_pro__meeting_settings .inside [type=button].jitsi-uploader-button *,
+.jitsi-pro-option-form [type=button].jitsi-uploader-button * {
+  pointer-events: none;
+}
+
+#jitsi_pro__meeting_settings .inside [type=button].jitsi-uploader-button svg,
+.jitsi-pro-option-form [type=button].jitsi-uploader-button svg {
+  width: 20px;
+  height: 20px;
+  fill: #5e6d7a;
+  vertical-align: middle;
+}
+
+#jitsi_pro__meeting_settings .inside [type=button].jitsi-uploader-reset,
+.jitsi-pro-option-form [type=button].jitsi-uploader-reset {
+  text-align: center;
+  line-height: 24px;
+  min-width: 42px;
+}
+
+#jitsi_pro__meeting_settings .inside [type=button].jitsi-uploader-reset svg,
+.jitsi-pro-option-form [type=button].jitsi-uploader-reset svg {
+  width: 20px;
+  height: 20px;
+  fill: #5e6d7a;
+  vertical-align: middle;
+}
+
+.jisti-uploader-btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  left: -4px;
+  right: -4px;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.jisti-uploader-btn-group [type=text] {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: auto;
+  margin: 0 4px !important;
+  opacity: 0;
+}
+
+.jisti-uploader-btn-group button {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  margin: 0 4px !important;
+}
+
+.jitsi-uploader-preview {
+  max-width: 360px;
+  width: 100%;
+  position: relative;
+}
+
+.jitsi-uploader-preview .jitsi-uploader-preview-img {
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  border: 1px solid #a4b8d1;
+  background-size: cover;
+  background-color: #1c2025;
+  text-align: center;
+  overflow: hidden;
+}
+
+.jitsi-uploader-preview .jitsi-uploader-preview-img > img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.jitsi-uploader-preview .jitsi-uploader-preview-img + .jitsi-uploader-preview-placehold {
+  display: none;
+}
+
+.jitsi-uploader-preview .jitsi-uploader-preview-img + .jitsi-uploader-preview-placehold + .jisti-uploader-btn-group {
+  opacity: 1;
+  visibility: visible;
+  position: static;
+  margin-left: -4px;
+  margin-right: -4px;
+  margin-top: 8px;
+}
+
+.jitsi-uploader-preview .jitsi-uploader-preview-placehold {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f0f3f7;
+  border: 1px dashed #a4b8d1;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 118px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.jitsi-uploader-preview .jitsi-uploader-preview-placehold * {
+  pointer-events: none;
+}
+
+.jitsi-uploader-preview .jitsi-uploader-preview-placehold:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.jitsi-uploader-preview .jitsi-uploader-preview-placehold h5 {
+  color: #0376da;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 8px 0px 2px;
+}
+
+.jitsi-uploader-preview .jitsi-uploader-preview-placehold p {
+  color: #5e6d7a;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0;
+}
+
+#jitsi_pro__meeting_settings .inside {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.jitsi-field-single-image {
+  position: relative;
+}
+
+.jitsi-field-single-image [type=text] {
+  width: calc(100% - 130px);
+}
+
+.jitsi-field-switch {
+  display: inline-block;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-transition: background-color 150ms ease-in-out 0s;
+  transition: background-color 150ms ease-in-out 0s;
+  border-radius: 15px;
+  height: 30px;
+  width: 60px;
+  padding: 2px;
+  color: white;
+  background-color: #5e6d7a;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.jitsi-field-switch input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.jitsi-field-switch span {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  background-color: white;
+  width: 26px;
+  height: 26px;
+  border-radius: 15px;
+}
+
+.jitsi-field-switch.active {
+  background-color: #0376da;
+}
+
+.jitsi-field-switch.active span {
+  left: auto;
+  right: 2px;
+}
+
+.jitsi-setting-tabs-wrapper {
+  display: none;
+  width: 100%;
+  font-size: 0;
+}
+
+.jitsi-setting-tabs-wrapper.active {
+  display: block;
+}
+
+.jitsi-setting-tabs-wrapper .disabled {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.jitsi-setting-tabs-wrapper .disabled * {
+  pointer-events: none;
+}
+
+.jitsi-setting-tabs-wrapper .form-table {
+  max-width: 100%;
+  margin: 0;
+}
+
+.jitsi-setting-tabs-wrapper .form-table label {
+  display: block;
+}
+
+.jitsi-setting-tabs-wrapper .form-table .description.desc-pro:after {
+  content: 'Premium';
+  display: block;
+  background-color: #e64e08;
+  color: white;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  line-height: 1;
+  padding: 3px 8px;
+  font-size: 12px;
+  margin-top: 3px;
+  border-radius: 3px;
+}
+
+.jitsi-preview-loader {
+  text-align: center;
+}
+
+.jitsi-preview-loading {
+  -webkit-animation: 900ms linear 0s infinite normal none running spin;
+          animation: 900ms linear 0s infinite normal none running spin;
+  vertical-align: middle;
+}
+
+.other-admin-setting {
+  background: #f0f3f7;
+  border: 1px dashed #a4b8d1;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+.jitsi-preview-people-mock {
+  font-size: 0;
+  margin: -3px;
+  text-align: center;
+  display: none;
+}
+
+.jitsi-preview-people-mock > div {
+  margin: 3px;
+  width: calc(33.333333% - 6px);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.jitsi-preview-people-mock > div > div {
+  height: 0;
+  padding-top: 56.5%;
+  background-size: cover;
+}
+
+.jitsi-preview-message {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+}
+
+#meeting-ui-preview {
+  width: 580px;
+  max-width: calc(50% - 30px);
+  margin-left: 30px;
+  background-color: #1c2025;
+  padding: 64px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#meeting-ui-preview.preview-success .jitsi-preview-people-mock {
+  display: block;
+}
+
+#meeting-ui-preview.preview-success .jitsi-preview-loader {
+  display: none;
+}
+
+#meeting-ui-preview.preview-error .jitsi-preview-loader {
+  display: none;
+}
+
+#meeting-ui-preview.preview-error .jitsi-preview-message {
+  display: block;
+}
+
+#meeting-ui-preview.preview-block {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.mce-toolbar .mce-i-dashicons {
+  font-family: dashicons !important;
+  font-size: 24px !important;
+  width: auto !important;
+  line-height: 20px !important;
+}
+
+.jitsi-pro-admin-avatar {
+  position: relative;
+}
+
+.jitsi-pro-admin-avatar .jitsi-icon {
+  position: absolute;
+  text-align: center;
+}
+
+.jitsi-pro-admin-avatar .jitsi-icon svg {
+  vertical-align: middle;
+  margin: 0;
+}
+
+.jitsi-pro-admin-avatar .jitsi-icon.icon-gsm-bars {
+  background-color: #f1ad33;
+  display: inline-block;
+  line-height: 12px;
+  min-width: 12px;
+  border-radius: 12px;
+  top: 2px;
+  left: 2px;
+}
+
+.jitsi-pro-admin-avatar-thumb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.jisti-admin-tab-links {
+  font-size: 0;
+  display: inline-block;
+  background-color: #1c2025;
+  padding: 5px;
+}
+
+.jisti-admin-tab-links a {
+  display: inline-block;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.jisti-admin-tab-links a:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.jisti-admin-tab-links a.active-jitsi-tab-link {
+  color: #3a3a3a;
+  background-color: white;
+}
+
+.jisti-admin-box {
+  background-color: white;
+  padding: 35px 0 0;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.jisti-admin-box .jitsi-tab {
+  display: none;
+}
+
+.jisti-admin-box .jitsi-tab.active-jitsi-tab {
+  display: block;
+}
+
+.toplevel_page_jitsi-meet div.updated,
+.jitsi-meet_page_jitsi-pro-settings div.updated {
+  margin: 20px 20px 20px 0;
+}
+
+.toplevel_page_jitsi-meet .jitsi-video,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-video {
+  margin-bottom: 50px;
+  position: relative;
+  max-width: 700px;
+  height: 0;
+  padding-top: 394px;
+}
+
+.toplevel_page_jitsi-meet .jitsi-video iframe,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-video iframe {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .title,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .title {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  line-height: 50px;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .title span,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .title span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .title svg,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .title svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap h4,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap h4 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .text-docs,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .text-docs {
+  font-size: 16px;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .text-docs h4,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .text-docs h4 {
+  margin: 0;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .text-docs p,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .text-docs p {
+  margin-bottom: 35px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .text-docs ul,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .text-docs ul {
+  list-style: initial;
+  padding-left: 18px;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .text-docs ul ul,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .text-docs ul ul {
+  margin-top: 25px;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .text-docs ul ul li + li,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .text-docs ul ul li + li {
+  margin-top: 10px;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .text-docs li + li,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .text-docs li + li {
+  margin-top: 35px;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .text-docs li span,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .text-docs li span {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap .text-docs img,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap .text-docs img {
+  margin-top: 15px;
+  display: block;
+  max-width: 700px;
+}
+
+.toplevel_page_jitsi-meet .jitsi-wrap #setup-jitsi-shortcode .text-docs ul li + li,
+.jitsi-meet_page_jitsi-pro-settings .jitsi-wrap #setup-jitsi-shortcode .text-docs ul li + li {
+  margin-top: 10px;
+}
+
+.jitsi-promo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  left: 0;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  z-index: 9;
+}
+
+.jitsi-promo.hidden {
+  display: none;
+}
+
+.jitsi-promo-inner {
+  background: #000;
+  position: relative;
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid;
+  margin-top: 130px;
+  width: 400px;
+}
+
+.jitsi-promo-inner .close-promo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 12px;
+  font-size: 30px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.jitsi-promo-inner h3 {
+  color: #fff;
+}
+
+.jitsi-promo-inner .promo-img {
+  width: 250px;
+  position: absolute;
+  top: -115px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.jitsi-promo-inner .limited-title {
+  font-size: 24px;
+}
+
+.jitsi-promo-inner .discount {
+  position: relative;
+  margin: 35px 0 10px;
+}
+
+.jitsi-promo-inner .discount .discount-special {
+  color: #FF631A;
+  position: absolute;
+  font-size: 32px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -24px;
+  background: #000;
+  z-index: 12;
+  padding: 5px;
+}
+
+.jitsi-promo-inner .discount .discount-text {
+  border: 2px solid #FF631A;
+  display: inline-block;
+  font-size: 48px;
+  padding: 20px 20px 28px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.jitsi-promo-inner a {
+  display: block;
+  max-width: 180px;
+  margin: 0 auto;
+  background: #FF631A;
+  color: #fff;
+  padding: 20px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.jitsi-promo-inner .black-friday-wrap h3 {
+  color: #FF631A;
+  font-size: 25px;
+  margin: 30px;
+}
+
+.jitsi-promo-inner .promo-title {
+  margin-top: 40px;
+}
+
+.jitsi-promo-inner.black-friday .promo-title {
+  margin-top: 120px;
+}
+
+.jitsi-promo .ribbon {
+  margin-left: -50px;
+  width: 527px;
+  position: absolute;
+  text-align: center;
+  font-size: 23px !important;
+  background: #ddd;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.jitsi-promo .ribbon h1 {
+  font-size: 38px !important;
+  font-weight: bold;
+  color: #000;
+  text-shadow: #240c0c 0 1px 0;
+  margin: 0;
+  padding: 10px;
+}
+
+.jitsi-promo .ribbon:before, .jitsi-promo .ribbon:after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #ddd;
+  z-index: -1;
+}
+
+.jitsi-promo .ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+          box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+
+.jitsi-promo .ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 1px;
+          box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 1px;
+}
+
+.jitsi-promo .ribbon .ribbon-content:before, .jitsi-promo .ribbon .ribbon-content:after {
+  border-color: #7D7D7D transparent transparent transparent;
+  position: absolute;
+  display: block;
+  border-style: solid;
+  bottom: -1em;
+  content: '';
+}
+
+.jitsi-promo .ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+
+.jitsi-promo .ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
+
+.jitsi-promo .ribbon-stitches-top {
+  margin-top: 2px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.jitsi-promo .ribbon-stitches-bottom {
+  margin-bottom: 2px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+          box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+.special-action-link {
+  color: #FF631A;
+  font-weight: bold;
+}
