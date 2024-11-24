@@ -14,9 +14,3 @@ RewriteRule . /luxtimemedia/index.php [L]
 </IfModule>
 
 # END WordPress
-# BEGIN seraphinite-accelerator
-# The directives (lines) between "BEGIN seraphinite-accelerator" and "END seraphinite-accelerator" are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
-
-# END seraphinite-accelerator

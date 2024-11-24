@@ -1,4 +1,7 @@
 <?php
+// Enable or disable BerqWP object cache
+define('WP_CACHE', false ); // Added by AirLift
+
 /**
  * The base configuration for WordPress
  *
