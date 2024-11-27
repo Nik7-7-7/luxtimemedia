@@ -1,43 +1,605 @@
-[2024-11-27 19:43:09] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-11-27 19:43:09] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
-[2024-11-27 19:43:09] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-11-27 19:43:12] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-11-27 19:43:12] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-11-27 19:43:12] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-11-27 19:43:14] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732736589\
-[2024-11-27 19:43:14] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/luxtimemedia/
-[2024-11-27 19:43:14] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-11-27 19:43:14] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-27 19:43:14] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-27 19:43:14] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
-[2024-11-27 19:43:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/
-[2024-11-27 19:43:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
-[2024-11-27 19:43:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-27 19:43:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/67477652e5334-cG1yrM.tmp
-[2024-11-27 19:43:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/?simply_static_page=8815
-[2024-11-27 19:43:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/?simply_static_page=8815
-[2024-11-27 19:43:45] [class-ss-url-fetcher.php:103] Filesize: 129291 bytes
-[2024-11-27 19:43:45] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30048 milliseconds with 129291 bytes received
-[2024-11-27 19:43:45] [class-ss-url-fetcher.php:107] object(WP_Error)#1431 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(86) "cURL error 28: Operation timed out after 30048 milliseconds with 129291 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
-[2024-11-27 19:43:45] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
-[2024-11-27 19:43:45] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-27 19:43:51] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 0
-[2024-11-27 19:43:51] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 1 pages/files
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
-[2024-11-27 19:43:51] [class-ss-transfer-files-locally-task.php:93] [Transfer] Total Pages:0. Processed Pages: 0
-[2024-11-27 19:43:51] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 0 of 0 files
-[2024-11-27 19:43:51] [class-ss-transfer-files-locally-task.php:262] Transferring 404 Page
-[2024-11-27 19:43:51] [class-ss-transfer-files-locally-task.php:265] No 404 Page found at C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732736589\404\index.html
-[2024-11-27 19:43:51] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://luxtimemedia.com/" target="_blank">https://luxtimemedia.com/</a>
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-11-27 19:43:51] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-11-27 19:43:51] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-11-27 19:43:51] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:42
+[2024-11-27 21:34:55] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-11-27 21:34:55] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2024-11-27 21:34:55] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-11-27 21:34:56] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-11-27 21:34:56] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-11-27 21:34:56] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-11-27 21:34:56] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295\
+[2024-11-27 21:34:56] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/luxtimemedia/
+[2024-11-27 21:34:56] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-11-27 21:34:56] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-27 21:34:56] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-27 21:34:56] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-11-27 21:34:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/
+[2024-11-27 21:34:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-11-27 21:34:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:34:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/67479080761d4-emvxSA.tmp
+[2024-11-27 21:34:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/?simply_static_page=8816
+[2024-11-27 21:34:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/?simply_static_page=8816
+[2024-11-27 21:35:07] [class-ss-url-fetcher.php:103] Filesize: 176594 bytes
+[2024-11-27 21:35:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-27 21:35:07] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-11-27 21:35:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/67479080761d4-emvxSA.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/index.html
+[2024-11-27 21:35:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:08] [class-ss-fetch-urls-task.php:159] Adding 36 URLs to the queue
+[2024-11-27 21:35:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:09] [class-ss-page.php:119] Checking Content Identical:2e3fa2b540b183490f8add6a328a63ee7e31903a===. Value: FALSE
+[2024-11-27 21:35:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-11-27 21:35:10] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-27 21:35:10] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-27 21:35:10] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:69] Total pages: 36; Pages remaining: 35
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/feed/
+[2024-11-27 21:35:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 36
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908e0356a-zShDjb.tmp
+[2024-11-27 21:35:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/feed/?simply_static_page=8817
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/feed/?simply_static_page=8817
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908e0356a-zShDjb.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/feed/index.html
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:10] [class-ss-page.php:119] Checking Content Identical:5a9d34b1322e029d67173487e6e45af2414fa7d9===. Value: FALSE
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/LTM-Agency-6-BIG-Black-Black-Transparent.png
+[2024-11-27 21:35:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 36
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908e88a23-QmXdjO.tmp
+[2024-11-27 21:35:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/LTM-Agency-6-BIG-Black-Black-Transparent.png?simply_static_page=8818
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/LTM-Agency-6-BIG-Black-Black-Transparent.png?simply_static_page=8818
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:103] Filesize: 1022893 bytes
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/LTM-Agency-6-BIG-Black-Black-Transparent.png
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908e88a23-QmXdjO.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/LTM-Agency-6-BIG-Black-Black-Transparent.png
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:10] [class-ss-page.php:119] Checking Content Identical:86c807ca2591911b6b10b401cfbe2bf10a7b797f===. Value: FALSE
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/icon-service-1.png
+[2024-11-27 21:35:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 36
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908eb016e-c8uAkn.tmp
+[2024-11-27 21:35:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/icon-service-1.png?simply_static_page=8819
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/icon-service-1.png?simply_static_page=8819
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:103] Filesize: 987 bytes
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/icon-service-1.png
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908eb016e-c8uAkn.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/icon-service-1.png
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:10] [class-ss-page.php:119] Checking Content Identical:0802fcba603531ce4a1ee277c391c3cb73376904===. Value: FALSE
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/icon-service-2.png
+[2024-11-27 21:35:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 36
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908ec4edd-pap2ta.tmp
+[2024-11-27 21:35:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/icon-service-2.png?simply_static_page=8820
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/icon-service-2.png?simply_static_page=8820
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:103] Filesize: 1087 bytes
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/icon-service-2.png
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908ec4edd-pap2ta.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/icon-service-2.png
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:10] [class-ss-page.php:119] Checking Content Identical:9f310fc0db2b347ce7d85a26b472bf864d8957ca===. Value: FALSE
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/icon-service-3.png
+[2024-11-27 21:35:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 36
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908ecc2f7-m5fbbS.tmp
+[2024-11-27 21:35:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/icon-service-3.png?simply_static_page=8821
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/icon-service-3.png?simply_static_page=8821
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:103] Filesize: 844 bytes
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/icon-service-3.png
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908ecc2f7-m5fbbS.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/icon-service-3.png
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:10] [class-ss-page.php:119] Checking Content Identical:69347996cea325dc58920b3cf1dbc0c9e509815e===. Value: FALSE
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/Web-Agency_Landing6-Steps-1.png
+[2024-11-27 21:35:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 36
+[2024-11-27 21:35:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908ee0986-uFs0hL.tmp
+[2024-11-27 21:35:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/Web-Agency_Landing6-Steps-1.png?simply_static_page=8822
+[2024-11-27 21:35:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/Web-Agency_Landing6-Steps-1.png?simply_static_page=8822
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:103] Filesize: 7612182 bytes
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/Web-Agency_Landing6-Steps-1.png
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908ee0986-uFs0hL.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/Web-Agency_Landing6-Steps-1.png
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:11] [class-ss-page.php:119] Checking Content Identical:a0e5ebb12d5fe30e272feedfa352dd335a080957===. Value: FALSE
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-2.png
+[2024-11-27 21:35:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 36
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908f97a62-l47HtD.tmp
+[2024-11-27 21:35:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-2.png?simply_static_page=8823
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-2.png?simply_static_page=8823
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:103] Filesize: 16339 bytes
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/process-icon-2.png
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908f97a62-l47HtD.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/process-icon-2.png
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:11] [class-ss-page.php:119] Checking Content Identical:537daebef4bbaec54698ece5ea19ef4c4813bb8a===. Value: FALSE
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-1.png
+[2024-11-27 21:35:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 36
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908fa8eea-YHyKyI.tmp
+[2024-11-27 21:35:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-1.png?simply_static_page=8824
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-1.png?simply_static_page=8824
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:103] Filesize: 15589 bytes
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/process-icon-1.png
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908fa8eea-YHyKyI.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/process-icon-1.png
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:11] [class-ss-page.php:119] Checking Content Identical:992d3a8a614c5028dfabc7fb185a3cb00cdeeb26===. Value: FALSE
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-3.png
+[2024-11-27 21:35:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 36
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908fb6e09-6GtjNC.tmp
+[2024-11-27 21:35:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-3.png?simply_static_page=8825
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-3.png?simply_static_page=8825
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:103] Filesize: 15395 bytes
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/process-icon-3.png
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908fb6e09-6GtjNC.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/process-icon-3.png
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:11] [class-ss-page.php:119] Checking Content Identical:ab17ccf931387f4f2859fc76ebc7067a816cf509===. Value: FALSE
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-4.png
+[2024-11-27 21:35:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 36
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908fbe4ec-RQmGbn.tmp
+[2024-11-27 21:35:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-4.png?simply_static_page=8826
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/process-icon-4.png?simply_static_page=8826
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:103] Filesize: 15162 bytes
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/process-icon-4.png
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908fbe4ec-RQmGbn.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/process-icon-4.png
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:11] [class-ss-page.php:119] Checking Content Identical:b7b746514ea0467720d7c9b9a23f160ca730816a===. Value: FALSE
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/plugins/flying-pages/flying-pages.min.js
+[2024-11-27 21:35:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 36
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908fc934a-F3UFMp.tmp
+[2024-11-27 21:35:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/plugins/flying-pages/flying-pages.min.js?simply_static_page=8827
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/plugins/flying-pages/flying-pages.min.js?simply_static_page=8827
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:103] Filesize: 2477 bytes
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/flying-pages/flying-pages.min.js
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908fc934a-F3UFMp.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/plugins/flying-pages/flying-pages.min.js
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:11] [class-ss-page.php:119] Checking Content Identical:146f19bd77c273cabb10ac8b1769dc52a9d1333e===. Value: FALSE
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-includes/js/jquery/jquery.min.js
+[2024-11-27 21:35:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 36
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908fd9d08-vaI8nH.tmp
+[2024-11-27 21:35:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-includes/js/jquery/jquery.min.js?simply_static_page=8828
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-includes/js/jquery/jquery.min.js?simply_static_page=8828
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908fd9d08-vaI8nH.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-includes/js/jquery/jquery.min.js
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:11] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-27 21:35:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 36
+[2024-11-27 21:35:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747908ff1e8b-5iGSDC.tmp
+[2024-11-27 21:35:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=8829
+[2024-11-27 21:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=8829
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747908ff1e8b-5iGSDC.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/plugins/monarch/js/idle-timer.min.js
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/67479090219d6-UHmlvg.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/plugins/monarch/js/idle-timer.min.js?simply_static_page=8830
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/plugins/monarch/js/idle-timer.min.js?simply_static_page=8830
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 2635 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/monarch/js/idle-timer.min.js
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/67479090219d6-UHmlvg.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/plugins/monarch/js/idle-timer.min.js
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:0841cdbc84da7396bb1c817a697dd524bfb32a19===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/plugins/monarch/js/custom.js
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/674790903ac89-EgvBFj.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/plugins/monarch/js/custom.js?simply_static_page=8831
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/plugins/monarch/js/custom.js?simply_static_page=8831
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 26709 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/monarch/js/custom.js
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/674790903ac89-EgvBFj.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/plugins/monarch/js/custom.js
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:086db688c9c66f930e166e59c4d6ec3eee90449f===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/themes/Divi/js/scripts.min.js
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747909042ce5-s55w1M.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=8832
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=8832
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 274335 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/js/scripts.min.js
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747909042ce5-s55w1M.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/themes/Divi/js/scripts.min.js
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:cb2199a64629ba9f207d1764603b5bd81b71e3cb===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/674790904eb52-vRnlEI.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=8833
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=8833
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 3349 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/674790904eb52-vRnlEI.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:9c1dc49e9747758e033c0e9a7d016401bd78602c===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/js/common.js
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/674790906676f-xs31Vi.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=8834
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=8834
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 1343 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/js/common.js
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/674790906676f-xs31Vi.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/themes/Divi/core/admin/js/common.js
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:b7820e4ffb6becc133c48f66d9f683545530b959===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/plugins/flying-analytics/js/minimal-analytics.js
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/674790906ff63-5c1Qdf.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/plugins/flying-analytics/js/minimal-analytics.js?simply_static_page=8835
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/plugins/flying-analytics/js/minimal-analytics.js?simply_static_page=8835
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 3009 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/flying-analytics/js/minimal-analytics.js
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/674790906ff63-5c1Qdf.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/plugins/flying-analytics/js/minimal-analytics.js
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:9522e2e5d883c66885132ac521a83f13226a2e6c===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/video-overlay.jpg
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/674790907cb7b-4VJihF.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/video-overlay.jpg?simply_static_page=8836
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/video-overlay.jpg?simply_static_page=8836
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 14841 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/video-overlay.jpg
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/674790907cb7b-4VJihF.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/video-overlay.jpg
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:99ae29a8f267b8909afdc426dc16b5c5f9b86754===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/LTM-Agency-6-Black.png
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/674790908b155-YwfATx.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/LTM-Agency-6-Black.png?simply_static_page=8837
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/LTM-Agency-6-Black.png?simply_static_page=8837
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 1022664 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/LTM-Agency-6-Black.png
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/674790908b155-YwfATx.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/LTM-Agency-6-Black.png
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:5cd49423fff170de050af13b639f762694810988===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/xmlrpc.php
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/luxtimemedia/xmlrpc.php
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/comments/feed/
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/67479090adc53-3EHDm0.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/comments/feed/?simply_static_page=8839
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/comments/feed/?simply_static_page=8839
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 1334 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/67479090adc53-3EHDm0.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/comments/feed/index.html
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:d04c206c1c7227c1c2cec4636b8073101298a8d2===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/plugins/monarch/css/style.css
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/67479090bda51-dwT0z0.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/plugins/monarch/css/style.css?simply_static_page=8840
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/plugins/monarch/css/style.css?simply_static_page=8840
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 116356 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/monarch/css/style.css
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/67479090bda51-dwT0z0.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/plugins/monarch/css/style.css
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:ab497b3e02e8b6497316d978403b855234ec78da===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/et-cache/11/et-divi-dynamic-11.css
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/67479090d198c-HBDDyZ.tmp
+[2024-11-27 21:35:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/et-cache/11/et-divi-dynamic-11.css?simply_static_page=8841
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/et-cache/11/et-divi-dynamic-11.css?simply_static_page=8841
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:103] Filesize: 9947 bytes
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/11/et-divi-dynamic-11.css
+[2024-11-27 21:35:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/67479090d198c-HBDDyZ.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/et-cache/11/et-divi-dynamic-11.css
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:12] [class-ss-page.php:119] Checking Content Identical:ce6d0401376203e037bbc3d5ca110c5ed876a3f5===. Value: FALSE
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-json/
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/luxtimemedia/wp-json/
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-json/wp/v2/pages/11
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/luxtimemedia/wp-json/wp/v2/pages/11
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-json/oembed/1.0/embed
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/luxtimemedia/wp-json/oembed/1.0/embed
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/et-cache/11/et-core-unified-deferred-11.min.css
+[2024-11-27 21:35:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 36
+[2024-11-27 21:35:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/67479090f3f1f-6ZtYE8.tmp
+[2024-11-27 21:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/et-cache/11/et-core-unified-deferred-11.min.css?simply_static_page=8845
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/et-cache/11/et-core-unified-deferred-11.min.css?simply_static_page=8845
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:103] Filesize: 9679 bytes
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/11/et-core-unified-deferred-11.min.css
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/67479090f3f1f-6ZtYE8.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/et-cache/11/et-core-unified-deferred-11.min.css
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:13] [class-ss-page.php:119] Checking Content Identical:f83d18f992b6eeed1748ebb74561da47a8d41270===. Value: FALSE
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-includes/css/dist/block-library/style.min.css
+[2024-11-27 21:35:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 36
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747909111ed6-D7r0Wh.tmp
+[2024-11-27 21:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-includes/css/dist/block-library/style.min.css?simply_static_page=8846
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-includes/css/dist/block-library/style.min.css?simply_static_page=8846
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747909111ed6-D7r0Wh.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-includes/css/dist/block-library/style.min.css
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:13] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-11-27 21:35:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 36
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/674790912e2b4-lN6ZLX.tmp
+[2024-11-27 21:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=8847
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=8847
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:103] Filesize: 9427 bytes
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/674790912e2b4-lN6ZLX.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:13] [class-ss-page.php:119] Checking Content Identical:350a7c0f6b64e19c61b183afef7ffaca57befa30===. Value: FALSE
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot
+[2024-11-27 21:35:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 36
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/67479091452ec-64xqYl.tmp
+[2024-11-27 21:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot?simply_static_page=8848
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot?simply_static_page=8848
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:103] Filesize: 6248 bytes
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/67479091452ec-64xqYl.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.eot
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:13] [class-ss-page.php:119] Checking Content Identical:cdb2a40a71fa9c5bae58ee8615a1bc4e5968d46e===. Value: FALSE
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff
+[2024-11-27 21:35:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 36
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747909150e58-3pTBMY.tmp
+[2024-11-27 21:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff?simply_static_page=8849
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff?simply_static_page=8849
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:103] Filesize: 6152 bytes
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747909150e58-3pTBMY.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.woff
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:13] [class-ss-page.php:119] Checking Content Identical:195bf95f0bfb83e9abd26fa84b2d04e26fcce59b===. Value: FALSE
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf
+[2024-11-27 21:35:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 36
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747909157484-hAw1Uy.tmp
+[2024-11-27 21:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf?simply_static_page=8850
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf?simply_static_page=8850
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:103] Filesize: 6076 bytes
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747909157484-hAw1Uy.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.ttf
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:13] [class-ss-page.php:119] Checking Content Identical:10d5e0c054f1ca43e6a21ad736007129b50421e1===. Value: FALSE
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg
+[2024-11-27 21:35:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 36
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/67479091696c9-JdNWG9.tmp
+[2024-11-27 21:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg?simply_static_page=8851
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg?simply_static_page=8851
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:103] Filesize: 16842 bytes
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/67479091696c9-JdNWG9.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/themes/Divi/core/admin/fonts/modules/base/modules.svg
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:13] [class-ss-page.php:119] Checking Content Identical:f76df332a5604dfe596bcade179d40907843a6d0===. Value: FALSE
+[2024-11-27 21:35:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 36 pages/files
+[2024-11-27 21:35:13] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-27 21:35:13] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-27 21:35:13] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:69] Total pages: 38; Pages remaining: 2
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/feed/index.xml
+[2024-11-27 21:35:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 38
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/674790917ca3f-YvjHIH.tmp
+[2024-11-27 21:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/feed/index.xml?simply_static_page=8852
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/feed/index.xml?simply_static_page=8852
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:103] Filesize: 1669 bytes
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/674790917ca3f-YvjHIH.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/feed/index.xml
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:13] [class-ss-page.php:119] Checking Content Identical:7848b3e092db8b6cc46009672aacf89887fc8ce9===. Value: FALSE
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/web-design-background-01.jpg
+[2024-11-27 21:35:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 38
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\nicob\AppData\Local\Temp/6747909193af5-qLKL6s.tmp
+[2024-11-27 21:35:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/luxtimemedia/wp-content/uploads/2024/11/web-design-background-01.jpg?simply_static_page=8853
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/luxtimemedia/wp-content/uploads/2024/11/web-design-background-01.jpg?simply_static_page=8853
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:103] Filesize: 146441 bytes
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/web-design-background-01.jpg
+[2024-11-27 21:35:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\nicob\AppData\Local\Temp/6747909193af5-qLKL6s.tmp to C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295/wp-content/uploads/2024/11/web-design-background-01.jpg
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-27 21:35:13] [class-ss-page.php:119] Checking Content Identical:699918b1350b4871b44c0cce320492f879c2bc22===. Value: FALSE
+[2024-11-27 21:35:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 36 of 38 pages/files
+[2024-11-27 21:35:13] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-27 21:35:13] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-27 21:35:13] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-27 21:35:13] [class-ss-fetch-urls-task.php:69] Total pages: 38; Pages remaining: 0
+[2024-11-27 21:35:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 38 of 38 pages/files
+[2024-11-27 21:35:13] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-11-27 21:35:13] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-11-27 21:35:13] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/feed
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/feed
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/plugins/flying-pages
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/plugins/flying-pages
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-includes/js/jquery
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-includes/js/jquery
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-includes/js/jquery
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-includes/js/jquery
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/plugins/monarch/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/plugins/monarch/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/plugins/monarch/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/plugins/monarch/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/core/admin/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/core/admin/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/plugins/flying-analytics/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/plugins/flying-analytics/js
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/comments/feed
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/comments/feed
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/plugins/monarch/css
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/plugins/monarch/css
+[2024-11-27 21:35:13] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/et-cache/11
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/et-cache/11
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/et-cache/11
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/et-cache/11
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-includes/css/dist/block-library
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-includes/css/dist/block-library
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/includes/builder/styles/images
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/includes/builder/styles/images
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/themes/Divi/core/admin/fonts/modules/base
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/feed
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/feed
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:110] Trying to transfer: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:132] Successfully transferred: C:/xampp/htdocs/luxtimemedia/wp-content/uploads/2024/11
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:93] [Transfer] Total Pages:34. Processed Pages: 34
+[2024-11-27 21:35:14] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 34 of 34 files
+[2024-11-27 21:35:14] [trait-can-process-pages.php:107] Total pages: 34; Pages remaining: 0
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:262] Transferring 404 Page
+[2024-11-27 21:35:14] [class-ss-transfer-files-locally-task.php:265] No 404 Page found at C:\xampp\htdocs\luxtimemedia/wp-content/uploads\simply-static\temp-files/simply-static-1-1732743295\404\index.html
+[2024-11-27 21:35:14] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://luxtimemedia.com/" target="_blank">https://luxtimemedia.com/</a>
+[2024-11-27 21:35:14] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-11-27 21:35:14] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-11-27 21:35:14] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-11-27 21:35:14] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-11-27 21:35:14] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-11-27 21:35:14] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-11-27 21:35:14] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-11-27 21:35:14] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:19
